@@ -13,7 +13,7 @@ A major expansion mod for DeCiv Redux.
 
 - Several new beliefs for more diverse religion customization along with buffs for a few of the weaker beliefs. However, several of the more powerful beliefs in base DeCiv Redux have been nerfed.
 
-- A new tile improvement, the Artificial Atoll, unlocked at Ocean Remediation.
+- A new tile improvement, the Artificial Atoll, unlocked at Ocean Remediation and built exclusively by the Seastead Vessel.
 
 TODO:
 
@@ -22,6 +22,8 @@ TODO:
 - Revise the policy tree to make policies beyond the starting three + Rationalism actually worth taking.
 
 - Add new factions and city-states.
+
+- Add more new unique units and buildings for the existing factions.
 
 - Consider expanding the "hero unit" concept past the Hero of the Wastes found at random in survivor camps/barbarian outposts.
 
