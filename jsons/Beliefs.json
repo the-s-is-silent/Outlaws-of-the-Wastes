@@ -30,7 +30,7 @@
 		"type": "Pantheon",
 		"uniques": ["[+1 Faith] from every [Tundra] <within [2] tiles of a [City center]>",
 			"[+1 Faith] from every [Permafrost] <within [2] tiles of a [City center]>",
-			"[+1 Happiness] from every [Artificial glacier]>"]
+			"[+1 Happiness] from every [Artificial glacier] <within [2] tiles of a [City center]>"]
 	},
 	{
 		"name": "Home and Hearth",
