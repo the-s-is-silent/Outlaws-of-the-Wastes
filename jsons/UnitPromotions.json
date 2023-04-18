@@ -12,10 +12,10 @@
 	},
 	{
 		"name": "Mormon Exodus",
-		"uniques": ["[+1] Movement]"
+		"uniques": ["[+1] Movement"]
 	},
 	{
 		"name": "Oath of Vengeance",
 		"uniques": ["[+50]% Strength <when fighting units from a Civilization with more cities than you>"]
-	},
+	}
 ]
