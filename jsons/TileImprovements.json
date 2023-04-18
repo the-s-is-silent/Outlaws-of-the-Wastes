@@ -18,24 +18,6 @@
 		"shortcutKey": "A"
 	},
 
-	//Great Improvements
-	{
-		"name": "Endowment House",
-		"gold": 1,
-		"culture": 1,
-		"faith": 4,
-		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": [
-			"Great Improvement",
-			"Gives a defensive bonus of [10]%",
-			"[+1 Food] for each adjacent [Food source]",
-			"[+1 Gold] <after discovering [Currency]>",
-			"[+1 Culture, +1 Faith] <after discovering [Education]>",
-			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+20 Gold]"
-		]
-	},
-
 	//Unbuildable improvements
 	{
 		"name": "Barbarian encampment",
