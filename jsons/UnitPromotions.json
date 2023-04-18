@@ -11,11 +11,7 @@
 			"[+5] HP when healing", "[+1] Sight"]
 	},
 	{
-		"name": "Mormon Exodus",
-		"uniques": ["[+1] Movement"]
-	},
-	{
 		"name": "Oath of Vengeance",
-		"uniques": ["[+50]% Strength <when fighting units from a Civilization with more cities than you>"]
+		"uniques": ["[+30]% Strength <when fighting units from a Civilization with more cities than you>"]
 	}
 ]
