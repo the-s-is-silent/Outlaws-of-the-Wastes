@@ -23,19 +23,15 @@
 		"cost": 50,
 		"isNationalWonder": true,
 		"uniques": ["Can only be built [in capital]", "[+10]% Strength for [Military] units <when fighting in [Friendly Land] tiles>",
-			"[+10]% City Strength from defensive buildings",
-			"[+10]% Production when constructing [City Defense] buildings [in all cities]",
-			"Only available <after adopting [Adaptation]>"],
+			"[+10]% City Strength from defensive buildings", "Only available <after adopting [Adaptation]>"],
 		"requiredTech": "Construction"
 	},
 	{
 		"name": "Wasteland Surveillance Initiative",
 		"cost": 50,
 		"isNationalWonder": true,
-		"uniques": ["Can only be built [in capital]", "[+1] Sight <for [{Military} {Land}] units>",
-			"[Scout] units gain the [Survivalism] promotion",
-			"Free [Wasteland Patrol] appears",
-			"Only available <after adopting [Expansionism]>"],
+		"uniques": ["Can only be built [in capital]", "[+1] Sight <for [{Military} {Land}] units>", "[Scout] units gain the [Survivalism] promotion",
+			"Free [Wasteland Patrol] appears", "Only available <after adopting [Expansionism]>"],
 		"requiredTech": "Construction"
 	},
 	{
@@ -43,8 +39,7 @@
 		"cost": 50,
 		"isNationalWonder": true,
 		"uniques": ["Can only be built [in capital]", "Earn [100]% of killed [Barbarian] unit's [Strength] as [Gold]",
-			"[+10]% Production when constructing [{Military} {Land}] units [in all cities]",
-			"Provides [2] [Weapons]",
+			"[+10]% Production when constructing [{Military} {Land}] units [in all cities]", "Provides [2] [Weapons]",
 			"Only available <after adopting [Sovereignty]>"],
 		"requiredTech": "Iron Working"
 	},
