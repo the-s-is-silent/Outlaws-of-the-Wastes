@@ -17,7 +17,7 @@
 		"hateHello": "If you harm any of my people, I will find you. Make no mistake.",
 		"tradeRequest": "We are happy to share with you any supplies you might need.",
 
-		"outerColor": [0, 0, 0],
+		"outerColor": [74, 113, 68],
 		"innerColor": [151, 125, 0],
 		"style": "Corporate",
 		"uniqueName": "Blood of the Prophets",
@@ -44,7 +44,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "A wrong calculation, on my part.",
 		"outerColor": [0, 0, 0],
-		"innerColor": [224, 224, 224],
+		"innerColor": [153, 204, 255],
 		"cities": ["Venice Beach"]
 	},
 	{
@@ -54,10 +54,10 @@
 		"startBias": ["Coast"],
 		"style": "Tribal",
 		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "The spirts will fight at our side.",
+		"attacked": "The spirits will fight at our side.",
 		"defeated": "We go to join the ancestors.",
 		"outerColor": [0, 0, 0],
-		"innerColor": [224, 224, 224],
+		"innerColor": [26, 47, 26],
 		"cities": ["Issaquah"]
 	},
 	{
@@ -65,6 +65,7 @@
 		"adjective": ["Carbon"],
 		"cityStateType": "Farming",
 		"style": "",
+		"uniques": ["Starts with [Redomestication]", "Starts with [Botany]"],
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "We never fully trusted you from the start.",
