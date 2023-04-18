@@ -98,13 +98,12 @@
 		"replaces": "Machete",
 		"uniqueTo": "Deseret Nation",
 		"movement": 2,
-		"strength": 24,
+		"strength": 26,
 		"cost": 50,
 		"requiredTech": "Steel",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Militia",
-		"promotions": ["Oath of Vengeance"],
-		"uniques": ["Low Tech", "[+50]% Strength <vs [Low Tech] units>"],
+		"uniques": ["Low Tech", "[+50]% Strength <vs [Low Tech] units>", "Earn [10]% of killed [Military] unit's [Cost] as [Faith]"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -123,7 +122,7 @@
 		"hurryCostModifier": 20,
 		"requiredResource": "Weapons",
 		"uniques": ["Personnel"],
-		"promotions": ["Oath of Vengeance", "Reconnaissance I"],
+		"promotions": ["Reconnaissance I"],
 		"attackSound": "shot"
 	},
 	{
@@ -131,7 +130,7 @@
 		"uniqueTo": "Deseret Nation",
 		"replaces": "Great Sage",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [Endowment House] improvement <once> <if it hasn't used other actions yet>",
+		"uniques": ["Can instantly construct a [Endowment House] improvement <by consuming this unit> <if it hasn't used other actions yet>",
 			"Can [Spread Religion] [4] times",
 			"Removes other religions when spreading religion",
 			"May found a religion",
@@ -220,8 +219,8 @@
 	{
 		"name": "Hero of the Wastes",
 		"unitType": "Scrapper",
-		"movement": 3,
-		"strength": 40,
+		"movement": 2,
+		"strength": 35,
 		"interceptRange": 3,
 		"cost": 4000,
 		"promotions": ["Rejuvenation"],
