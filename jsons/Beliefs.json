@@ -20,6 +20,12 @@
 			"[+1 Food, +1 Faith] from every [Food Store]"]
 	},
 	{
+		"name": "God of the Sea",
+		"type": "Pantheon",
+		"uniques": ["[+1 Production, +1 Faith] from every [Water resource]",
+			"[+1 Happiness] from every [Artificial atoll]"]
+	},
+	{
 		"name": "God of Winter",
 		"type": "Pantheon",
 		"uniques": ["[+1 Faith] from every [Tundra] <within [2] tiles of a [City center]>",
