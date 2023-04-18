@@ -2,7 +2,7 @@
 	//District projects
 	{
 		"name": "Vertical Farm Project",
-		"cost": 50,
+		"cost": 150,
 		"maintenance": 0,
 		"uniques": ["Creates a [Factory farm] improvement on a specific tile", "Cannot be purchased", "Unsellable",
 			"Never destroyed when the city is captured", "Cost increases by [30] per owned city"],
@@ -60,60 +60,7 @@
 		"uniques": ["New [Military] units begin with [15] Experience [in this city]"]
 	},
 	{
-		"name": "Restored Temple of Zion",
-		"isWonder": true,
-		"uniqueTo": "Deseret Nation",
-		"cost": 1,
-		"faith": 5,
-		"culture": 1,
-		"happiness": 1,
-		"uniques": ["Provides [2] [Weapons]", "Free [Living Prophet] appears", "[+25]% Natural religion spread [in all cities]",
-			"Can only be built [in capital]", "Gain a free [Bishop's Storehouse] [in this city]"]
-	},
-	{
-		"name": "Convert Survivors",
-		"replaces": "Search for Survivors",
-		"uniqueTo": "Deseret Nation",
-		"cost": 20,
-		"isNationalWonder": true,
-		"uniques": ["[2] free [Battleaxe of the Lord] units appear", "Free [Civilian Convoy] appears"]
-	},
-	{
-		"name": "Bishop's Storehouse",
-		"replaces": "Food Store",
-		"uniqueTo": "Deseret Nation",
-		"cost": 10,
-		"hurryCostModifier": -25,
-		"uniques": ["[20]% Food is carried over after population increases [in this city]",
-			"[+1 Food] [in this city] <with [Salt]>",
-			"[+1 Culture, +1 Faith] [in this city] <with [Books]>",
-			"[+1 Culture, +1 Faith] [in this city] <with [Scripture]>"]
-	},
-	{
-		"name": "Printing Press",
-		"replaces": "Distillery",
-		"uniqueTo": "Deseret Nation",
-		"faith": 2,
-		"happiness": 2,
-		"maintenance": 2,
-		"uniques": ["Provides [1] [Scripture]"],
-		"hurryCostModifier": 25,
-		"requiredTech": "Education"
-	},
-	{
-		"name": "Tabernacle",
-		"replaces": "Monastery",
-		"uniqueTo": "Deseret Nation",
-		"culture": 2,
-		"faith": 2,
-		"maintenance": 1,
-		"hurryCostModifier": 25,
-		"requiredBuilding": "Shrine",
-		"requiredTech": "Education",
-		"uniques": ["Hidden when religion is disabled"]
-	},
-	{
-		"name": "Restored Mosque of Gao",
+		"name": "Great Mosque",
 		"isWonder": true,
 		"uniqueTo": "New Afrika",
 		"cost": 1,
@@ -125,7 +72,7 @@
 			"Can only be built [in capital]",
 			"Provides [2] [Weapons]",
 			"Free [Panther] appears",
-			"Gain a free [Musalla] [in this city]",
+			"Gain a free [Mosque] [in this city]",
 			"May choose [1] additional belief(s) of any type when [enhancing] a religion"
 		],
 		"quote": "We declare our right on this earth to be a human being, to be respected as a human being, to be given the rights of a human being in this society, on this earth, in this day, which we intend to bring into existence by any means necessary.",
@@ -134,15 +81,6 @@
 				"text": "We declare our right on this earth to be a human being, to be respected as a human being, to be given the rights of a human being in this society, on this earth, in this day, which we intend to bring into existence by any means necessary."
 			}
 		]
-	},
-	{
-		"name": "Musalla",
-		"uniqueTo": "New Afrika",
-		"replaces": "Monument",
-		"culture": 2,
-		"faith": 2,
-		"cost": 40,
-		"hurryCostModifier": 40
 	},
 	{
 		"name": "Mobile Encampment",
@@ -158,17 +96,6 @@
 		"specialistSlots": {"Administrator": 1},
 		"cost": 1,
 		"uniques": ["Indicates the capital city", "Provides [1] [Weapons]", "Limited to [2] per Civilization"]
-	},
-
-	//City-State buildings
-	{
-		"name": "Totem Pole",
-		"uniqueTo": "Issaquah Nation",
-		"replaces": "Monument",
-		"culture": 2,
-		"cost": 40,
-		"hurryCostModifier": 40,
-		"uniques": ["New [Military] units begin with [30] Experience [in this city]"]
 	},
 
 	//Religion buildings
