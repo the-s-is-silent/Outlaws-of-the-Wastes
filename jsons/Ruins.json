@@ -1,0 +1,80 @@
+[
+	// Culture
+	{
+		"name": "recovered old world policy",
+		"notification": "We have recovered some old world documents and gained insight into lost policies!",
+		"uniques": ["Free Social Policy", "Only available <after [75] turns>"]
+	},
+
+	// Water
+	{
+		"name": "a stash of water",
+		"notification": "We have found a stash of [goldAmount] water in the camp!",
+		"uniques": ["Gain [150]-[250] [Gold]"]
+	},
+	{
+		"name": "stockpiled water",
+		"notification": "We have recovered a stockpile of [goldAmount] water from the camp!",
+		"uniques": ["Gain [450]-[750] [Gold]", "Only available <after [75] turns>"]
+	},
+
+	// Faith
+	{
+		"name": "gaze into the void",
+		"notification": "As we gaze into the void, our terror reawakens faith in the old gods!",
+		"uniques": ["Hidden when religion is disabled", "Gain a free [Pantheon] belief", "Only available <after founding a Pantheon>",
+			"Only available <after [75] turns>"]
+	},
+
+	// Population
+	{
+		"name": "found survivors (adds 1 population to all cities)",
+		"notification": "Many survivors were saved in the camp and resettled in your cities!",
+		"uniques": ["[+1] population [in all cities]", "Only available <after [40] turns>"]
+	},
+
+	// Native
+	{
+		"name": "squatters willing to embark on trade missions for you", 
+		"notification": "A [Caravan] has joined us!",
+		"uniques": ["Free [Caravan] found in the ruins"]
+	},
+	{
+		"name": "squatters willing to provide medical services for you",
+		"notification": "A [Wandering Doctor] has joined us!",
+		"uniques": ["Free [Wandering Doctor] found in the ruins"]
+	},
+	{
+        "name": "rescue a farmer",
+        "notification": "We have successfully rescued a [Great Farmer]!",
+        "uniques": ["Free [Great Farmer] found in the ruins"],
+		"excludedDifficulties": ["Immortal", "Deity"]
+    },
+
+	// Military
+	{
+		"name": "infernal training",
+		"notification": "Our unit experiences infernal training!",
+		"uniques": ["This Unit gains [30] XP"]
+	},
+	{
+		"name": "prospector equipment",
+		"notification": "Our unit finds prospecting tools in the camp!",
+		"uniques": ["This Unit gains the [Prospector] promotion"]
+	},
+	{
+		"name": "levied militia",
+		"notification": "A [Militia] has joined us!",
+		"uniques": ["Free [Militia] appears"]
+	},
+	{
+		"name": "levied patrols",
+		"notification": "A [Wasteland Patrol] has joined us!",
+		"uniques": ["Free [Wasteland Patrol] appears"]
+	},
+	{
+		"name": "held out for a hero",
+		"notification": "A [Hero of the Wastes] has joined us!",
+		"uniques": ["Free [Hero of the Wastes] appears"]
+	}
+]

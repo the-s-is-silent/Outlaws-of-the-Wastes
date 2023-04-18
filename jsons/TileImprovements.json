@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Artificial atoll",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"food": 1,
+		"production": 2,
+		"culture": 1,
+		"happiness": 1,
+		"requiredTech": "Ocean Remediation",
+		"uniques": [
+			"Food source",
+			"Natural tile",
+			"Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "A"
+	},
+
+	//Great Improvements
+	{
+		"name": "Endowment House",
+		"gold": 1,
+		"culture": 1,
+		"faith": 4,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"[+1 Food] for each adjacent [Food source]",
+			"[+1 Gold] <after discovering [Currency]>",
+			"[+1 Culture, +1 Faith] <after discovering [Education]>",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+
+	//Unbuildable improvements
+	{
+		"name": "Barbarian encampment",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Gives a defensive bonus of [25]%",
+			"Provides a random bonus when entered",
+			"Unpillagable",
+			"Unbuildable"
+		]
+	}
+]

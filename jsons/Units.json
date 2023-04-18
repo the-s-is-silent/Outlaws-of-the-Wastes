@@ -1,0 +1,227 @@
+[
+	//Civilian units
+	{
+		"name": "Caravan",
+		"unitType": "Civilian",
+		"movement": 1,
+		"cost": 150,
+		"requiredTech": "Redomestication",
+		"uniques": ["Mounted", "Can undertake a trade-mission with City-State, giving a large sum of gold and [5] Influence",
+			"Only available <in cities with a [Stable]>", "Requires at least [5] population", "Cannot be purchased"]
+	},
+	{
+		"name": "Wandering Doctor",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 100,
+		"hurryCostModifier": 20,
+		"requiredTech": "Biology",
+		"uniques": ["All adjacent units heal [+10] HP when healing", "Only available <in cities with a [Hospital]>"]
+	},
+	{
+		"name": "Seastead Vessel",
+		"unitType": "Civilian Water",
+		"movement": 4,
+		"cost": 200,
+		"hurryCostModifier": 20,
+		"requiredTech": "Ocean Remediation",
+		"uniques": ["Can instantly create a [Artificial atoll] improvement <by consuming this unit>"]
+	},
+
+	//Spaceship parts (reimplementing the traditional Science Victory): TBD
+
+	//Scout units
+	{
+		"name": "Wasteland Patrol",
+		"unitType": "Scout",
+		"movement": 4,
+		"strength": 12,
+		"rangedStrength": 20,
+		"range": 1,
+		"cost": 30,
+		"requiredTech": "Redomestication",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Border Patrol",
+		"promotions": ["Skirmish", "Reconnaissance I"],
+		"uniques": ["Low Tech", "Mounted", "Can move after attacking", "Never appears as a Barbarian unit",
+			"[+50]% Strength <vs [Barbarian] units>",
+			"[+33]% Strength <vs [Low Tech] units>",
+			"[-33]% Strength <vs cities>",
+			"Only available <in cities with a Stable>"]
+		"attackSound": "shot"
+	},
+	{
+		"name": "Border Patrol",
+		"unitType": "Shooter",
+		"movement": 4,
+		"strength": 32,
+		"rangedStrength": 40,
+		"range": 1,
+		"interceptRange": 3,
+		"cost": 30,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Gyroscopes",
+		"upgradesTo": "Helicopter",
+		"requiredResource": "Weapons",
+		"promotions": ["Skirmish", "Reconnaissance I"],
+		"uniques": ["Personnel", "Mounted", "Can move after attacking", "Never appears as a Barbarian unit",
+			"Double movement in [Friendly Land]",
+			"[+25]% Strength <when fighting in [Friendly Land] tiles>",
+			"[-25]% Strength <when fighting in [Foreign Land] tiles>",
+			"[-33]% Strength <vs cities>",
+			"Only available <in cities with a [Stable]>"]
+		"attackSound": "shot"
+	},
+	{
+		"name": "Expeditionary Force",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 36,
+		"rangedStrength": 45,
+		"range": 2,
+		"interceptRange": 3,
+		"cost": 30,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Energy Weapons",
+		"upgradesTo": "Black Ops",
+		"requiredResource": "Weapons",
+		"promotions": ["Gas Mask", "Skirmish", "Reconnaissance I", "Amphibious"],
+		"uniques": ["Personnel", "Never appears as a Barbarian unit", "Can move after attacking",
+			"May paradrop up to [10] tiles from inside friendly territory"]
+		"attackSound": "shot"
+	},
+
+	//Deseret Nation unique units
+	{
+		"name": "Battleaxe of the Lord",
+		"unitType": "Scrapper",
+		"replaces": "Machete",
+		"uniqueTo": "Deseret Nation",
+		"movement": 2,
+		"strength": 24,
+		"cost": 50,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Militia",
+		"promotions": ["Oath of Vengeance"],
+		"uniques": ["Low Tech", "[+50]% Strength <vs [Low Tech] units>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Destroying Angel",
+		"unitType": "Shooter",
+		"uniqueTo": "Deseret Nation",
+		"replaces": "Marksman",
+		"range": 2,
+		"movement": 2,
+		"strength": 40,
+		"rangedStrength": 35,
+		"interceptRange": 1,
+		"cost": 125,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "NBC Marksman",
+		"hurryCostModifier": 20,
+		"requiredResource": "Weapons",
+		"uniques": ["Personnel"],
+		"promotions": ["Oath of Vengeance", "Reconnaissance I"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Living Prophet",
+		"uniqueTo": "Deseret Nation",
+		"replaces": "Great Sage",
+		"unitType": "Civilian",
+		"uniques": ["Can instantly construct a [Endowment House] improvement <once> <if it hasn't used other actions yet>",
+			"Can [Spread Religion] [4] times",
+			"Removes other religions when spreading religion",
+			"May found a religion",
+			"May enhance a religion",
+			"May enter foreign tiles without open borders",
+			"[-1] Sight",
+			"Great Person - [Faith]",
+			"Unbuildable",
+			"Uncapturable",
+			"Religious Unit",
+			"Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city"],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+
+	//Missile units
+	{
+		"name": "The Last Minute",
+		"unitType": "Missile",
+		"replaces": "Nuclear Missile",
+		"uniqueTo": "The Patriots",
+		"movement": 1,
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 18,
+		"cost": 850,
+		"requiredTech": "Rocketry",
+		"uniques": ["Nuclear weapon of Strength [2]", "Blast radius [2]", "Only available <if [Manhattan Project] is constructed>",
+			"Consumes [2] [Uranium]"],
+		"hurryCostModifier": 20,
+		"attackSound": "nuke"
+	},
+
+	//Barbarian units
+	{
+		"name": "Suicider",
+		"uniqueTo": "Barbarians",
+		"replaces": "Forward Observer",
+		"unitType": "Scrapper",
+		"range": 1,
+		"movement": 4,
+		"strength": 20,
+		"cost": 55,
+		"requiredTech": "Rifling",
+		"uniques": ["Self-destructs when attacking",
+			"[+100]% Strength <vs [Military] units> <when attacking>",
+			"[+200]% Strength <vs cities> <when attacking>"],
+		"promotions": ["Raider", "Napalm"],
+		"hurryCostModifier": 20,
+		"attackSound": "nuke"
+	},
+	{
+		"name": "Killdozer",
+		"uniqueTo": "Barbarians",
+		"replaces": "Tank",
+		"unitType": "Armor",
+		"movement": 4,
+		"strength": 60,
+		"cost": 150,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Modern Armor",
+		"uniques": ["[-25]% Strength <vs cities> <when attacking>", "Can move after attacking", "No defensive terrain bonus"],
+		"promotions": ["Raider", "Shock", "Awe"],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+
+	//Hero units
+	{
+		"name": "Hero of the Wastes",
+		"unitType": "Scrapper",
+		"movement": 3,
+		"strength": 40,
+		"interceptRange": 3,
+		"cost": 4000,
+		"promotions": ["Rejuvenation", "Leadership"],
+		"uniques": ["Personnel", "Limited to [1] per Civilization", "Unbuildable", "Cannot be purchased",
+			"Can only attack [Military] units",
+			"[+20]% Strength <vs [Barbarian] units>",
+			"[+100]% Strength <vs [Purge Robot] units>",
+			"[+50]% Strength <when defending>",
+			"[+25]% Strength <starting from the [Rediscovering era]>",
+			"[+25]% Strength <starting from the [Rebuilding era]>",
+			"[+25]% Strength <starting from the [Postmodern era]>",
+			"[+25]% Strength <starting from the [New Future era]>",
+			"[+1] Movement <starting from the [New Future] era]>",
+			"[1] extra interceptions may be made per turn",
+			"Negates the combat bonus effect of Enemy Promotions",
+			"Never appears as a Barbarian unit"]
+		"attackSound": "shot"
+	}
+]

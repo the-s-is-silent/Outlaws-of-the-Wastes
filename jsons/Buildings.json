@@ -1,0 +1,177 @@
+[
+	//District projects
+	{
+		"name": "Resettlement Project",
+		"cost": 50,
+		"maintenance": 0,
+		"uniques": ["Creates a [Settlement] improvement on a specific tile", "Cannot be purchased", "Unsellable",
+			"Never destroyed when the city is captured", "Cost increases by [30] per owned city"],
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Vertical Farm Project",
+		"cost": 50,
+		"maintenance": 0,
+		"uniques": ["Creates a [Factory farm] improvement on a specific tile", "Cannot be purchased", "Unsellable",
+			"Never destroyed when the city is captured", "Cost increases by [30] per owned city"],
+		"requiredTech": "Land Remediation"
+	},
+
+	//Policy specific projects
+	{
+		"name": "Homeland Defense Initiative",
+		"cost": 50,
+		"isNationalWonder": true,
+		"uniques": ["Can only be built [in capital]", "[+10]% Strength for [Military] units <when fighting in [Friendly Land] tiles>",
+			"[+10]% City Strength from defensive buildings",
+			"[+10]% Production when constructing [City Defense] buildings [in all cities]",
+			"Only available <after adopting [Adaptation]>"],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Wasteland Surveillance Initiative",
+		"cost": 50,
+		"isNationalWonder": true,
+		"uniques": ["Can only be built [in capital]", "[+1] Sight <for [{Military} {Land}] units>",
+			"[Scout] units gain the [Survivalism] promotion",
+			"Free [Wasteland Patrol] appears",
+			"Only available <after adopting [Expansionism]>"],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Tribal Suppression Initiative",
+		"cost": 50,
+		"isNationalWonder": true,
+		"uniques": ["Can only be built [in capital]", "Earn [100]% of killed [Barbarian] unit's [Strength] as [Gold]",
+			"[+10]% Production when constructing [{Military} {Land}] units [in all cities]",
+			"Provides [2] [Weapons]",
+			"Only available <after adopting [Sovereignty]>"],
+		"requiredTech": "Iron Working"
+	},
+
+	//Civ unique buildings
+	{
+		"name": "Remedial School",
+		"replaces": "Work Camp",
+		"uniqueTo": "Atlas",
+		"percentStatBonus": {"science": 25},
+		"science": 2,
+		"specialistSlots": {"Scientist": 1},
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["[+2 Science] [in this city] <with [Power]>", "[+1 Happiness] [in this city] <after adopting [Technocracy]>",
+			"Consumes [1] [Slaves]", "Only available <with [Slaves]>"]
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Restored Temple of Zion",
+		"isWonder": true,
+		"uniqueTo": "Deseret Nation",
+		"cost": 1,
+		"faith": 5,
+		"culture": 1,
+		"happiness": 1,
+		"uniques": ["Provides [2] [Weapons]", "Free [Living Prophet] appears", "[+25]% Natural religion spread [in all cities]",
+			"Can only be built [in capital]", "Gain a free [Bishop's Storehouse] [in this city]"]
+	},
+	{
+		"name": "Recruit Survivors",
+		"replaces": "Search for Survivors",
+		"uniqueTo": "Deseret Nation",
+		"cost": 20,
+		"isNationalWonder": true,
+		"uniques": ["[2] free [Battleaxe of the Lord] units appear", "Free [Civilian Convoy] appears"]
+	},
+	{
+		"name": "Bishop's Storehouse",
+		"replaces": "Food Store",
+		"uniqueTo": "Deseret Nation",
+		"cost": 10,
+		"hurryCostModifier": -25,
+		"uniques": ["[20]% Food is carried over after population increases [in this city]",
+			"[+1 Food] [in this city] <with [Salt]>",
+			"[+1 Culture, +1 Faith] [in this city] <with [Books]>",
+			"[+1 Culture, +1 Faith] [in this city] <with [Scriptures]>"]
+	},
+	{
+		"name": "Printing Press",
+		"replaces": "Distillery",
+		"uniqueTo": "Deseret Nation",
+		"faith": 2,
+		"happiness": 2,
+		"maintenance": 2,
+		"uniques": ["Provides [1] [Scriptures]"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Tabernacle",
+		"replaces": "Monastery",
+		"uniqueTo": "Deseret Nation",
+		"culture": 2,
+		"faith": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Shrine",
+		"requiredTech": "Education",
+		"uniques": ["Hidden when religion is disabled"]
+	},
+	{
+		"name": "Restored Mosque of Gao",
+		"isWonder": true,
+		"uniqueTo": "New Afrika",
+		"cost": 1,
+		"culture": 1,
+		"food": 2,
+		"cityStrength": 1,
+		"cityHealth": 10,
+		"uniques": [
+			"Can only be built [in capital]",
+			"Provides [1] [Weapons]",
+			"Free [Panther] appears",
+			"Gain a free [Musalla] [in this city]",
+			"May choose [1] additional belief(s) of any type when [enhancing] a religion"
+		],
+		"quote": "We declare our right on this earth to be a human being, to be respected as a human being, to be given the rights of a human being in this society, on this earth, in this day, which we intend to bring into existence by any means necessary.",
+		"civilopediaText": [
+			{
+				"text": "We declare our right on this earth to be a human being, to be respected as a human being, to be given the rights of a human being in this society, on this earth, in this day, which we intend to bring into existence by any means necessary."
+			}
+		]
+	},
+	{
+		"name": "Musalla",
+		"uniqueTo": "New Afrika",
+		"replaces": "Monument",
+		"culture": 2,
+		"faith": 2,
+		"cost": 40,
+		"hurryCostModifier": 40
+	},
+	{
+		"name": "Mobile Encampment",
+		"uniqueTo": "New Star",
+		"replaces": "Bomb Shelter",
+		"food": 2,
+		"production": 4,
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"science": 3,
+		"gold": 1,
+		"culture": 1,
+		"specialistSlots": {"Administrator": 1},
+		"cost": 1,
+		"uniques": ["Indicates the capital city", "Provides [1] [Weapons]", "Limited to [2] per Civilization"]
+	},
+
+	//Religion buildings
+	{
+		"name": "Cathedral",
+		"cost": 0,
+		"culture": 3,
+		"faith": 1,
+		"happiness": 1,
+		"specialistSlots": {"Administrator": 1},
+		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+	},
+]

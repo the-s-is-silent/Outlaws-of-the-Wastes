@@ -1,0 +1,46 @@
+[
+	{
+		"name": "Deseret Nation",
+		"leaderName": "Keith Graham",
+		"adjective": ["Mormon"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Mormonism",
+
+		// "startIntroPart1": "",
+		// "startIntroPart2": "",
+		"declaringWar": "I don't enjoy killing, but when done righteously, it's just a chore like any other.",
+		"attacked": "God willing, you will not leave this valley.",
+		"defeated": "Yea, we wept when we remembered Zion. But your time will come.",
+		"introduction": "It's good to meet you. Welcome to Deseret. If you shall be a good neighbor and treat us with brotherly respect, we shall do so in turn.",
+		"neutralHello": "Peace be with you.",
+		"hateHello": "If you harm any of my people, I will find you. Make no mistake.",
+		"tradeRequest": "We are happy to share with you any supplies you might need.",
+
+		"outerColor": [0, 0, 0],
+		"innerColor": [151, 125, 0],
+		"style": "Corporate",
+		"uniqueName": "Blood of the Prophets",
+		"uniques": ["[-25]% Faith cost of generating Great Prophet equivalents",
+			"[Land] units gain the [Mormon Exodus] promotion",
+			"Starts with [Secrets of the Past]",
+			"Starts with [Steel]",
+			"May choose 1 additional belief(s) of any type when founding a religion",
+			"Empire enters golden age <upon gaining a [Living Prophet] unit>",
+			"Cannot build [Enslaved] units"]
+		"cities": ["Zion Valley", "New Canaan", "Jericho", "Moroni", "Grand Staircase", "Cueva Guarache", "Ulim and Thummim", "Patriarch's Court", 
+			"The Res", "The Aerie", "Old Rockville", "Van Buren", "Mesa Verde"]
+	},
+
+	//Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+		"innerColor": [185,12,12],
+		"uniques": ["[-33]% Strength <vs cities> <before discovering [Steam Power]>",
+			"[+1] Sight <for [Scout] units>",
+			"[+1] Movement <for [Scout] units>",
+			"[+33]% Strength <vs [Military] units> <when attacking>",
+			"[+33]% Strength <within [2] tiles of a [Barbarian encampment]>"]
+	}
+]
