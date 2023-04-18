@@ -166,6 +166,22 @@
 		"attackSound": "nuke"
 	},
 
+	//City-State units
+	{
+		"name": "Hawkman Brave",
+		"unitType": "Scrapper",
+		"replaces": "Machete",
+		"uniqueTo": "Issaquah Nation",
+		"movement": 2,
+		"strength": 24,
+		"cost": 50,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Militia",
+		"uniques": ["Low Tech", "[+50]% Strength <vs [Low Tech] units>", "Earn [100]% of killed [Military] unit's [Strength] as [Faith]"],
+		"attackSound": "metalhit"
+	},
+
 	//Barbarian units
 	{
 		"name": "Suicider",
@@ -213,12 +229,11 @@
 			"Can only attack [Military] units", "Can only attack [Civilian] units",
 			"[+20]% Strength <vs [Barbarian] units>",
 			"[+100]% Strength <vs [Purge Robot] units>",
-			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"[+25]% Strength <starting from the [Rediscovering era]>",
 			"[+25]% Strength <starting from the [Rebuilding era]>",
 			"[+25]% Strength <starting from the [Postmodern era]>",
 			"[+25]% Strength <starting from the [New Future era]>",
-			"[+1] Movement <starting from the [New Future] era]>",
+			"[+1] Movement <starting from the [New Future era]>",
 			"[1] extra interceptions may be made per turn",
 			"Negates the combat bonus effect of Enemy Promotions",
 			"Never appears as a Barbarian unit"]
