@@ -47,7 +47,7 @@
 			"[+50]% Strength <vs [Barbarian] units>",
 			"[+33]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs cities>",
-			"Only available <in cities with a Stable>"]
+			"Only available <in cities with a [Stable]>"]
 		"attackSound": "shot"
 	},
 	{
