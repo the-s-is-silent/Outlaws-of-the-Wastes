@@ -15,7 +15,7 @@
 	{
 		"name": "Fertility Rites",
 		"type": "Pantheon",
-		"uniques": ["[+25]% Production when constructing [Civilian] units [in this city]",
+		"uniques": ["[+20]% Production when constructing [Civilian] units [in this city]",
 			"[+10]% growth [in this city]",
 			"[+1 Food, +1 Faith] from every [Food Store]"]
 	},
@@ -30,7 +30,7 @@
 		"type": "Pantheon",
 		"uniques": ["[+1 Faith] from every [Tundra] <within [2] tiles of a [City center]>",
 			"[+1 Faith] from every [Permafrost] <within [2] tiles of a [City center]>",
-			"[+1 Happiness] from every [Artificial glacier]>"]
+			"[+1 Happiness] from every [Artificial glacier]"]
 	},
 	{
 		"name": "Home and Hearth",
@@ -136,7 +136,7 @@
 	{
 		"name": "Power of Light",
 		"type": "Enhancer",
-		"uniques": ["[+1] Sight <for [All] units>", "Earn [33]% of the damage done to [Military] units as [Faith]"]
+		"uniques": ["[+1] Sight <for [All] units>", "Earn [25]% of the damage done to [Military] units as [Faith]"]
 	},
 	{
 		"name": "Religious Texts",
