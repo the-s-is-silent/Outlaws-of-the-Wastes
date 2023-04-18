@@ -1,14 +1,6 @@
 [
 	//District projects
 	{
-		"name": "Resettlement Project",
-		"cost": 50,
-		"maintenance": 0,
-		"uniques": ["Creates a [Settlement] improvement on a specific tile", "Cannot be purchased", "Unsellable",
-			"Never destroyed when the city is captured", "Cost increases by [30] per owned city"],
-		"requiredTech": "Currency"
-	},
-	{
 		"name": "Vertical Farm Project",
 		"cost": 50,
 		"maintenance": 0,
@@ -57,6 +49,15 @@
 		"uniques": ["[+2 Science] [in this city] <with [Power]>", "[+1 Happiness] [in this city] <after adopting [Technocracy]>",
 			"Consumes [1] [Slaves]", "Only available <with [Slaves]>"]
 		"requiredTech": "Construction"
+	},
+	{
+		"name": "Victory Column",
+		"uniqueTo": "Crimson Legion",
+		"replaces": "Monument",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"uniques": ["New [Military] units begin with [15] Experience [in this city]"]
 	},
 	{
 		"name": "Restored Temple of Zion",
@@ -157,6 +158,17 @@
 		"specialistSlots": {"Administrator": 1},
 		"cost": 1,
 		"uniques": ["Indicates the capital city", "Provides [1] [Weapons]", "Limited to [2] per Civilization"]
+	},
+
+	//City-State buildings
+	{
+		"name": "Totem Pole",
+		"uniqueTo": "Issaquah Nation",
+		"replaces": "Monument",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"uniques": ["New [Military] units begin with [30] Experience [in this city]"]
 	},
 
 	//Religion buildings
