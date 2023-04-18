@@ -17,8 +17,8 @@
 		"hateHello": "If you harm any of my people, I will find you. Make no mistake.",
 		"tradeRequest": "We are happy to share with you any supplies you might need.",
 
-		"outerColor": [74, 113, 68],
-		"innerColor": [151, 125, 0],
+		"outerColor": [55, 84, 51],
+		"innerColor": [177, 157, 63],
 		"style": "Corporate",
 		"uniqueName": "Blood of the Prophets",
 		"uniques": ["[-25]% Faith cost of generating Great Prophet equivalents",
@@ -57,7 +57,7 @@
 		"attacked": "The spirits will fight at our side.",
 		"defeated": "We go to join the ancestors.",
 		"outerColor": [0, 0, 0],
-		"innerColor": [26, 47, 26],
+		"innerColor": [83, 99, 83],
 		"cities": ["Issaquah"]
 	},
 	{
