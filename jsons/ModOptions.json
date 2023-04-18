@@ -1,6 +1,4 @@
 {
-	"buildingsToRemove": ["Great Mosque", "Mosque", "Grand Temple", "Mormon Monument"],
-	"nationsToRemove": ["Jericho"],
 	"uniques": [
 		"Rebel units may spawn <upon declaring war with a major Civilization> <when below [0] Happiness>",
 		"Rebel units may spawn <when at war> <when below [0] Happiness>",
