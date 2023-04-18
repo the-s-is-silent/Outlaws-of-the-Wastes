@@ -13,7 +13,7 @@
 		"attacked": "God willing, you will not leave this valley.",
 		"defeated": "Yea, we wept when we remembered Zion. But your time will come.",
 		"introduction": "It's good to meet you. Welcome to Deseret. If you shall be a good neighbor and treat us with brotherly respect, we shall do so in turn.",
-		"neutralHello": "Peace be with you.",
+		"neutralHello": "May God be with you.",
 		"hateHello": "If you harm any of my people, I will find you. Make no mistake.",
 		"tradeRequest": "We are happy to share with you any supplies you might need.",
 
@@ -32,9 +32,51 @@
 			"The Res", "The Aerie", "Old Rockville", "Van Buren", "Mesa Verde"]
 	},
 
+	//City-States
+
+	{
+		"name": "Venice Beach",
+		"adjective": ["Venetian"],
+		"cityStateType": "Trading",
+		"startBias": ["Coast"],
+		"style": "",
+		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "A wrong calculation, on my part.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [224, 224, 224],
+		"cities": ["Venice Beach"]
+	},
+	{
+		"name": "Issaquah Nation",
+		"adjective": ["Issaquah"],
+		"cityStateType": "Prayer",
+		"startBias": ["Coast"],
+		"style": "Tribal",
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "The spirts will fight at our side.",
+		"defeated": "We go to join the ancestors.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [224, 224, 224],
+		"cities": ["Issaquah"]
+	},
+	{
+		"name": "Carbon",
+		"adjective": ["Carbon"],
+		"cityStateType": "Farming",
+		"style": "",
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [224, 224, 224],
+		"cities": ["Carbon"]
+	},
+
 	//Barbarian
 	{
 		"name": "Barbarians",
+		"style": "Barbarians",
 		"outerColor": [0,0,0],
 		"innerColor": [185,12,12],
 		"uniques": ["[-33]% Strength <vs cities> <before discovering [Steam Power]>",
