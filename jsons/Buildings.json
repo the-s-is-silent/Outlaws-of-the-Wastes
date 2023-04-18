@@ -75,7 +75,7 @@
 			"Can only be built [in capital]", "Gain a free [Bishop's Storehouse] [in this city]"]
 	},
 	{
-		"name": "Recruit Survivors",
+		"name": "Convert Survivors",
 		"replaces": "Search for Survivors",
 		"uniqueTo": "Deseret Nation",
 		"cost": 20,
@@ -91,7 +91,7 @@
 		"uniques": ["[20]% Food is carried over after population increases [in this city]",
 			"[+1 Food] [in this city] <with [Salt]>",
 			"[+1 Culture, +1 Faith] [in this city] <with [Books]>",
-			"[+1 Culture, +1 Faith] [in this city] <with [Scriptures]>"]
+			"[+1 Culture, +1 Faith] [in this city] <with [Scripture]>"]
 	},
 	{
 		"name": "Printing Press",
@@ -100,7 +100,7 @@
 		"faith": 2,
 		"happiness": 2,
 		"maintenance": 2,
-		"uniques": ["Provides [1] [Scriptures]"],
+		"uniques": ["Provides [1] [Scripture]"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Education"
 	},
@@ -127,7 +127,7 @@
 		"cityHealth": 10,
 		"uniques": [
 			"Can only be built [in capital]",
-			"Provides [1] [Weapons]",
+			"Provides [2] [Weapons]",
 			"Free [Panther] appears",
 			"Gain a free [Musalla] [in this city]",
 			"May choose [1] additional belief(s) of any type when [enhancing] a religion"
