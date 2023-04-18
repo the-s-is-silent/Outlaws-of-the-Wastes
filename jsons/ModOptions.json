@@ -1,11 +1,6 @@
 {
-	"isBaseRuleset": false,
-	"nationsToRemove": ["Jericho"],
 	"buildingsToRemove": ["Great Mosque", "Mosque", "Grand Temple", "Mormon Monument"],
-	"constants": {
-		"maxXPfromBarbarians": 1200,
-		"ancientRuinCountMultiplier": 1.5
-	},
+	"nationsToRemove": ["Jericho"],
 	"uniques": [
 		"Rebel units may spawn <upon declaring war with a major Civilization> <when below [0] Happiness>",
 		"Rebel units may spawn <when at war> <when below [0] Happiness>",
@@ -13,5 +8,9 @@
 		"Rebel units may spawn <upon founding a city> <when below [0] Happiness>",
 		"Rebel units may spawn <upon gaining a [Military] unit> <when below [-10] Happiness>",
 		"Rebel units may spawn <upon defeating a [Barbarian] unit> <when below [-10] Happiness>"
-	]
+	],
+	"constants": {
+		"maxXPfromBarbarians": 1200,
+		"ancientRuinCountMultiplier": 1.5
+	}
 }
