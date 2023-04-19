@@ -87,7 +87,7 @@
 		"requiredResource": "Weapons",
 		"promotions": ["Gas Mask", "Skirmish", "Reconnaissance I", "Amphibious"],
 		"uniques": ["Personnel", "Never appears as a Barbarian unit", "Can move after attacking",
-			"May paradrop up to [10] tiles from inside friendly territory"]
+			"May Paradrop up to [10] tiles from inside friendly territory"]
 		"attackSound": "shot"
 	},
 
