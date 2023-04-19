@@ -6,7 +6,7 @@
 		"movement": 1,
 		"cost": 150,
 		"requiredTech": "Redomestication",
-		"uniques": ["Mounted", "Can undertake a trade-mission with City-State, giving a large sum of gold and [5] Influence",
+		"uniques": ["Mounted", "Gain [50]-[150] [Gold] <by consuming this unit>",
 			"Only available <in cities with a [Stable]>", "Requires at least [5] population", "Cannot be purchased"]
 	},
 	{
