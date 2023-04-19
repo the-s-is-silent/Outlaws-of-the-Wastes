@@ -6,8 +6,8 @@
 		"movement": 1,
 		"cost": 150,
 		"requiredTech": "Redomestication",
-		"uniques": ["Mounted", "Gain [50]-[150] [Gold] <by consuming this unit>",
-			"Only available <in cities with a [Stable]>", "Requires at least [5] population", "Cannot be purchased"]
+		"uniques": ["Mounted", "Gain [50]-[100] [Gold] <by consuming this unit>",
+			"Only available <in cities with a [Stable]>", "Requires at least [5] population"]
 	},
 	{
 		"name": "Wandering Doctor",
@@ -80,7 +80,7 @@
 		"rangedStrength": 45,
 		"range": 2,
 		"interceptRange": 3,
-		"cost": 30,
+		"cost": 150,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Energy Weapons",
 		"upgradesTo": "Black Ops",
@@ -197,6 +197,7 @@
 			"[+25]% Strength <starting from the [New Future era]>",
 			"[+1] Movement <starting from the [New Future era]>",
 			"[1] extra interceptions may be made per turn",
+			"[-100]% maintenance costs",
 			"Negates the combat bonus effect of Enemy Promotions",
 			"Never appears as a Barbarian unit"]
 		"attackSound": "shot"
