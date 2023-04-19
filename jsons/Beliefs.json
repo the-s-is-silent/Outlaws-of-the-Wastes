@@ -131,7 +131,7 @@
 		"name": "New Zion",
 		"type": "Enhancer",
 		"uniques": ["[+1 Production, +1 Food, +1 Gold, +1 Science, +1 Culture, +1 Faith, +1 Happiness] from every [Great Improvement]",
-			"May buy [Great Person] units for [1000] Faith at an increasing cost [500] <starting from the [Industrial era]>"]
+			"May buy [Great Person] units for [1000] Faith [in cities following this religion] at an increasing price [500] <starting from the [Industrial era]>"]
 	},
 	{
 		"name": "Power of Light",
@@ -151,7 +151,7 @@
 	{
 		"name": "Religious Unity",
 		"type": "Enhancer",
-		"uniques": ["[+67]% Natural religion spread [in City-State cities]"]
+		"uniques": ["[+75]% Natural religion spread [in City-State cities]"]
 	},
 	{
 		"name": "Sacred Sites",
