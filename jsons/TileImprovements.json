@@ -1,21 +1,21 @@
 [
+	//Great Improvements
 	{
-		"name": "Artificial atoll",
-		"terrainsCanBeBuiltOn": ["Coast"],
-		"food": 1,
-		"production": 2,
+		"name": "Settlement",
+		"gold": 1,
 		"culture": 1,
-		"happiness": 1,
-		"requiredTech": "Ocean Remediation",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"Food source",
-			"Natural tile",
-			"Cannot be built on [Bonus resource] tiles",
-			"Cannot be built on [Strategic resource] tiles",
-			"Cannot be built on [Luxury resource] tiles",
-			"Pillaging this improvement yields approximately [+10 Gold]"
-		],
-		"shortcutKey": "A"
+			"Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"[+1 Science] for each adjacent [Forest]",
+			"[+1 Science] for each adjacent [Jungle]",
+			"[+1 Food] for each adjacent [Food source]",
+			"[+1 Gold] <after discovering [Currency]>",
+			"[+1 Culture] <after discovering [Civil Service]>",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
 	},
 
 	//Unbuildable improvements
