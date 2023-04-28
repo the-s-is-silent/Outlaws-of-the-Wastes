@@ -3,7 +3,7 @@
 	{
 		"name": "recovered old world policy",
 		"notification": "We have recovered some old world documents and gained insight into lost policies!",
-		"uniques": ["Free Social Policy", "Only available <after [75] turns>"]
+		"uniques": ["Free Social Policy", "Only available <before [75] turns>"]
 	},
 
 	// Water
@@ -34,22 +34,18 @@
 	},
 
 	// Native
-	{
-		"name": "squatters willing to embark on trade missions for you", 
-		"notification": "A [Caravan] has joined us!",
-		"uniques": ["Free [Caravan] found in the ruins"]
-	},
+
 	{
 		"name": "squatters willing to provide medical services for you",
 		"notification": "A [Wandering Doctor] has joined us!",
 		"uniques": ["Free [Wandering Doctor] found in the ruins"]
 	},
 	{
-        "name": "rescue a farmer",
-        "notification": "We have successfully rescued a [Great Farmer]!",
-        "uniques": ["Free [Great Farmer] found in the ruins"],
+		"name": "rescue a farmer",
+		"notification": "We have successfully rescued a [Great Farmer]!",
+		"uniques": ["Free [Great Farmer] found in the ruins"],
 		"excludedDifficulties": ["Immortal", "Deity"]
-    },
+	},
 
 	// Military
 	{
