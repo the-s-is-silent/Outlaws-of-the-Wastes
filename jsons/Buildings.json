@@ -1,14 +1,4 @@
 [
-	//District projects
-	{
-		"name": "Vertical Farm Project",
-		"cost": 150,
-		"maintenance": 0,
-		"uniques": ["Creates a [Factory farm] improvement on a specific tile", "Cannot be purchased", "Unsellable",
-			"Never destroyed when the city is captured", "Cost increases by [30] per owned city"],
-		"requiredTech": "Land Remediation"
-	},
-
 	//Policy specific projects
 	{
 		"name": "Homeland Defense Initiative",
@@ -95,7 +85,7 @@
 		"culture": 1,
 		"specialistSlots": {"Administrator": 1},
 		"cost": 1,
-		"uniques": ["Indicates the capital city", "Provides [1] [Weapons]", "Limited to [2] per Civilization"]
+		"uniques": ["Indicates the capital city", "Provides [2] [Weapons]"]
 	},
 
 	//Religion buildings
