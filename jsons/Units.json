@@ -1,31 +1,14 @@
 [
 	//Civilian units
 	{
-		"name": "Caravan",
-		"unitType": "Civilian",
-		"movement": 1,
-		"cost": 150,
-		"requiredTech": "Redomestication",
-		"uniques": ["Mounted", "Gain [50]-[100] [Gold] <by consuming this unit>",
-			"Only available <in cities with a [Stable]>", "Requires at least [5] population"]
-	},
-	{
 		"name": "Wandering Doctor",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 100,
 		"hurryCostModifier": 20,
 		"requiredTech": "Biology",
-		"uniques": ["All adjacent units heal [+10] HP when healing", "Only available <in cities with a [Hospital]>"]
-	},
-	{
-		"name": "Seastead Vessel",
-		"unitType": "Civilian Water",
-		"movement": 4,
-		"cost": 200,
-		"hurryCostModifier": 20,
-		"requiredTech": "Ocean Remediation",
-		"uniques": ["Can instantly create a [Artificial atoll] improvement <by consuming this unit>"]
+		"promotions": ["Medic I", "Medic II"],
+		"uniques": ["Only available <in cities with a [Hospital]>"]
 	},
 
 	//Spaceship parts (reimplementing the traditional Science Victory): TBD
@@ -55,10 +38,10 @@
 		"unitType": "Shooter",
 		"movement": 4,
 		"strength": 32,
-		"rangedStrength": 40,
+		"rangedStrength": 35,
 		"range": 1,
 		"interceptRange": 3,
-		"cost": 30,
+		"cost": 150,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Gyroscopes",
 		"upgradesTo": "Helicopter",
@@ -68,7 +51,7 @@
 			"Double movement in [Friendly Land]",
 			"[+25]% Strength <when fighting in [Friendly Land] tiles>",
 			"[-25]% Strength <when fighting in [Foreign Land] tiles>",
-			"[-33]% Strength <vs cities>",
+			"[-33]% Strength <vs cities> <when attacking>",
 			"Only available <in cities with a [Stable]>"]
 		"attackSound": "shot"
 	},
@@ -77,11 +60,11 @@
 		"unitType": "Scout",
 		"movement": 2,
 		"strength": 36,
-		"rangedStrength": 45,
+		"rangedStrength": 40,
 		"range": 2,
 		"interceptRange": 3,
-		"cost": 150,
-		"requiredTech": "Rifling",
+		"cost": 225,
+		"requiredTech": "Replaceable Parts",
 		"obsoleteTech": "Energy Weapons",
 		"upgradesTo": "Black Ops",
 		"requiredResource": "Weapons",
@@ -118,10 +101,10 @@
 		"interceptRange": 1,
 		"cost": 125,
 		"requiredTech": "Replaceable Parts",
-		"upgradesTo": "NBC Marksman",
+		"upgradesTo": "Black Ops",
 		"hurryCostModifier": 20,
 		"requiredResource": "Weapons",
-		"uniques": ["Personnel"],
+		"uniques": ["Personnel", "Earn [25]% of the damage done to [Military] units as [Faith]"],
 		"promotions": ["Reconnaissance I"],
 		"attackSound": "shot"
 	},
@@ -154,10 +137,10 @@
 		"movement": 4,
 		"strength": 20,
 		"cost": 55,
-		"requiredTech": "Rifling",
+		"requiredTech": "Machinery",
 		"uniques": ["Self-destructs when attacking",
-			"[+100]% Strength <vs [Military] units> <when attacking>",
-			"[+200]% Strength <vs cities> <when attacking>"],
+			"[+200]% Strength <vs [Military] units> <when attacking>",
+			"[+300]% Strength <vs cities> <when attacking>"],
 		"promotions": ["Raider", "Napalm"],
 		"hurryCostModifier": 20,
 		"attackSound": "nuke"
