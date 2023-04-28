@@ -3,7 +3,8 @@
 	{
 		"name": "Atomic Children",
 		"type": "Pantheon",
-		"uniques": ["[+2 Culture, +3 Faith] from every [Fallout]", "[+2 Culture, +3 Faith] from every [Toxic Waste]"]
+		"uniques": ["[+2 Culture, +3 Faith] from every [Fallout]", "[+2 Culture, +3 Faith] from every [Toxic Waste]",
+			"[+2 Culture, +2 Faith] from every [Uranium]"]
 	},
 	{
 		"name": "Domain of the Old Gods",
@@ -15,15 +16,9 @@
 	{
 		"name": "Fertility Rites",
 		"type": "Pantheon",
-		"uniques": ["[+20]% Production when constructing [Civilian] units [in this city]",
+		"uniques": ["[+25]% Production when constructing [Civilian] units [in this city]",
 			"[+10]% growth [in this city]",
 			"[+1 Food, +1 Faith] from every [Food Store]"]
-	},
-	{
-		"name": "God of the Sea",
-		"type": "Pantheon",
-		"uniques": ["[+1 Production, +1 Faith] from every [Water resource]",
-			"[+1 Happiness] from every [Artificial atoll]"]
 	},
 	{
 		"name": "God of Winter",
@@ -83,13 +78,6 @@
 			"[-25]% [Culture] [in all cities]"]
 	},
 	{
-		"name": "Public Prayer",
-		"type": "Follower",
-		"uniques": ["[+1 Culture, +1 Faith] from every [Town Hall] <in cities with at least [3] [Followers of this Religion]>",
-			"[+1 Culture, +1 Faith] from every [Broadcast Tower] <in cities with at least [3] [Followers of this Religion]>",
-			"[+2 Culture, +2 Faith] from every [Settlement]"]
-	},
-	{
 		"name": "Trust the Science",
 		"type": "Follower",
 		"uniques": ["[+1 Science, +1 Faith] from every [University] <in cities with at least [5] [Followers of this Religion]>",
@@ -130,8 +118,7 @@
 	{
 		"name": "New Zion",
 		"type": "Enhancer",
-		"uniques": ["[+1 Production, +1 Food, +1 Gold, +1 Science, +1 Culture, +1 Faith, +1 Happiness] from every [Great Improvement]",
-			"May buy [Great Person] units for [1000] Faith [in cities following this religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
+		"uniques": ["[+1 Production, +1 Food, +1 Gold, +1 Science, +1 Culture, +1 Faith, +1 Happiness] from every [Great Improvement]"]
 	},
 	{
 		"name": "Power of Light",
@@ -148,19 +135,4 @@
 		"type": "Enhancer",
 		"uniques": ["[+2 Faith] from each Trade Route", "[+50]% Natural religion spread [in all cities connected to capital]"]
 	},
-	{
-		"name": "Religious Unity",
-		"type": "Enhancer",
-		"uniques": ["[+75]% Natural religion spread [in City-State cities]"]
-	},
-	{
-		"name": "Sacred Sites",
-		"type": "Enhancer",
-		"uniques": ["[+2 Gold, +2 Culture] from every [Cathedral]",
-			"[+2 Gold, +2 Culture] from every [Divinity School]",
-			"[+2 Gold, +2 Culture] from every [Dojo]",
-			"[+2 Gold, +2 Culture] from every [Garden]",
-			"[+2 Gold, +2 Culture] from every [Holy Fortress]",
-			"[+2 Gold, +2 Culture] from every [Pyramid]"]
-	}
 ]
