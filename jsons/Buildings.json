@@ -76,6 +76,7 @@
 		"name": "Mobile Encampment",
 		"uniqueTo": "New Star",
 		"replaces": "Bomb Shelter",
+		"isNationalwonder": true,
 		"food": 2,
 		"production": 4,
 		"cityStrength": 5,
