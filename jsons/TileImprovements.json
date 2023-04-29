@@ -1,4 +1,27 @@
 [
+	{
+		"name": "Tree plantation",
+		"terrainsCanBeBuiltOn": ["Wasteland", "Tundra", "Badlands", "Hill", "Swamp"],
+		"production": 1,
+		"turnsToBuild": 8,
+		"techRequired": "Ecology",
+		"uniques": [
+			"Food source",
+			"Natural tile",
+			"Gives a defensive bonus of [10]%",
+			"Cannot be built on [Desert] tiles",
+			"Cannot be built on [Permafrost] tiles",
+			"Cannot be built on [Badlands] tiles <before discovering [Hydroponics]>",
+			"Cannot be built on [Hill] tiles <before discovering [Land Remediation]>",
+			"Cannot be built on [Swamp] tiles <before discovering [Land Remediation]>",
+			"[+1 Food, -1 Gold] from [Fresh water] tiles",
+			"[+1 Food, +1 Production <after discovering [Land Remediation]>",
+			"[+1 Food, +1 Production <after discovering [Geo Engineering]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "T"
+	},
+
 	//Great Improvements
 	{
 		"name": "Settlement",
