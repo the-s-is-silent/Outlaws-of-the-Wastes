@@ -1,4 +1,98 @@
 [
+	//New factions
+	{
+		"name": "Deseret2",
+		"leaderName": "Keith Graham",
+		"adjective": ["Mormon"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Mormonism",
+
+		// "startIntroPart1": "TBA",
+		// "startIntroPart2": "TBA",
+		"declaringWar": "I don't enjoy killing, but when done righteously, it's just a chore like any other.",
+		"attacked": "God willing, you will not leave this valley.",
+		"defeated": "Yea, we wept when we remembered Zion. But your time will come.",
+		"introduction": "It's good to meet you. Welcome to Deseret. If you shall be a good neighbor and treat us with brotherly respect, we shall do so in turn.",
+		"neutralHello": "May God be with you.",
+		"hateHello": "If you harm any of my people, I will find you. Make no mistake.",
+		"tradeRequest": "We are happy to share with you any supplies you might need.",
+
+		"outerColor": [55, 84, 51],
+		"innerColor": [177, 157, 63],
+		"style": "Corporate",
+		"uniqueName": "Blood of the Prophets",
+		"uniques": ["[-25]% Faith cost of generating Great Prophet equivalents",
+			"[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+			"Starts with [Secrets of the Past]",
+			"Starts with [Steel]",
+			"Gain a free [Enhancer] belief <upon discovering [Education]>",
+			"[-1 Science] [in all cities] <before discovering [Education]>",
+			"Cannot build [Enslaved] units"],
+		"cities": ["Zion Valley", "New Canaan", "Moroni", "Grand Staircase", "Cueva Guarache", "Deseret City", "Ulim and Thummim", "Patriarch's Court",
+			"The Res", "The Aerie", "Old Rockville", "Van Buren", "Mesa Verde"]
+	},
+
+	//New CS
+	{
+		"name": "Venice Beach",
+		"adjective": ["Venetian"],
+		"cityStateType": "Trading",
+		"startBias": ["Coast"],
+		"style": "Corporate",
+		"uniques": ["Starts with [Sailing]", "Starts with [Navigation]", "Starts with [Trade]"],
+		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "A wrong calculation, on my part.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [153, 204, 255],
+		"cities": ["Venice Beach"]
+	},
+	{
+		"name": "Issaquah Nation",
+		"adjective": ["Issaquah"],
+		"cityStateType": "Prayer",
+		"startBias": ["Coast"],
+		"style": "Tribal",
+		"uniques": ["Starts with [Sailing]", "Starts with [Steel]",
+			"[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+			"[-25]% Culture cost of natural border growth [in all cities]"],
+		"declaringWar": "Kill! Kill! Kill!",
+		"attacked": "We must make the wastelanders go away!",
+		"defeated": "This is not the end of our people.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [83, 99, 83],
+		"cities": ["Issaquah"]
+	},
+	{
+		"name": "Carbon",
+		"adjective": ["Carbonite"],
+		"cityStateType": "Farming",
+		"style": "Corporate",
+		"uniques": ["Starts with [Redomestication]", "Starts with [Botany]", "Starts with [Trade]"],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [224, 224, 224],
+		"cities": ["Carbon"]
+	},
+	{
+		"name": "Camelot Foundation",
+		"adjective": ["Camelot"],
+		"cityStateType": "Culture",
+		"style": "Corporate",
+		"uniques": ["Starts with [Secrets of the Past]", "Starts with [Redomestication]", "Starts with [Steel]", "Starts with [Rifling]",
+			"Gain a free [Stable] [in capital]"],
+		"declaringWar": "By the grace of God, your days are numbered.",
+		"attacked": "We shall never surrender!",
+		"defeated": "You may have bested me this day, but mark my words: I shall return with all my knights, on the day that my people call for aid!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [149, 63, 63],
+		"cities": ["Avalon"]
+		//Camelot Foundation is meant to be playable in the future, but is left as a CS for now
+	},
+
 	//Barbarian
 	{
 		"name": "Barbarians",
