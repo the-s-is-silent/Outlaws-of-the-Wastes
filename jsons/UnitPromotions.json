@@ -1,17 +1,18 @@
 [
 	{
 		"name": "Zeal",
-		"uniques": ["[+25]% Spread Religion Strength", "[+2] Movement", "Ignores terrain cost"]
+		"uniques": ["[+25]% Spread Religion Strength", "Ignores terrain cost"]
 	},
 	{
 		"name": "Prospector",
 		"uniques": ["[+10]% Strength when stacked with [Civilian]", "[+10]% Strength <when defending>",
+			"May create [Land] improvements on tiles",
 			"Gain [1]-[5] [Gold] <upon ending a turn in a [Forest] tile>",
 			"Gain [1]-[5] [Gold] <upon ending a turn in a [Jungle] tile>",
 			"[+5] HP when healing", "[+1] Sight"]
 	},
 	{
 		"name": "Oath of Vengeance",
-		"uniques": ["[+30]% Strength <when fighting units from a Civilization with more cities than you>"]
+		"uniques": ["[+25]% Strength <when fighting units from a Civilization with more cities than you>"]
 	}
 ]
