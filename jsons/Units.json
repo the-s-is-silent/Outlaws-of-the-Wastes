@@ -111,7 +111,7 @@
 	{
 		"name": "Deseret Missionary",
 		"replaces": "Philosopher",
-		"uniqueTo": "Deseret Nation",
+		"uniqueTo": "Deseret2",
 		"unitType": "Civilian",
 		"uniques": ["Founds a new city <by consuming this unit>", "Can [Spread Religion] [2] times",
 			"May enter foreign tiles without open borders, but loses [100] religious strength each turn it ends there",
@@ -122,7 +122,7 @@
 	},
 	{
 		"name": "Living Prophet",
-		"uniqueTo": "Deseret Nation",
+		"uniqueTo": "Deseret2",
 		"replaces": "Great Sage",
 		"unitType": "Civilian",
 		"uniques": ["Can instantly construct a [Endowment House] improvement <by consuming this unit> <if it hasn't used other actions yet>",
