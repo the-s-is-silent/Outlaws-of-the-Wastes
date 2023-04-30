@@ -7,8 +7,7 @@
 		"cost": 100,
 		"hurryCostModifier": 20,
 		"requiredTech": "Biology",
-		"promotions": ["Medic I", "Medic II"],
-		"uniques": ["Only available <in cities with a [Hospital]>"]
+		"uniques": ["All adjacent units heal [10] HP when healing", "Only available <in cities with a [Hospital]>"]
 	},
 
 	//Spaceship parts (reimplementing the traditional Science Victory): TBD
@@ -79,9 +78,9 @@
 		"name": "Battleaxe of the Lord",
 		"unitType": "Scrapper",
 		"replaces": "Machete",
-		"uniqueTo": "Deseret Nation",
+		"uniqueTo": "Deseret2",
 		"movement": 2,
-		"strength": 26,
+		"strength": 27,
 		"cost": 50,
 		"requiredTech": "Steel",
 		"obsoleteTech": "Rifling",
@@ -92,7 +91,7 @@
 	{
 		"name": "Destroying Angel",
 		"unitType": "Shooter",
-		"uniqueTo": "Deseret Nation",
+		"uniqueTo": "Deseret2",
 		"replaces": "Marksman",
 		"range": 2,
 		"movement": 2,
@@ -101,11 +100,12 @@
 		"interceptRange": 1,
 		"cost": 125,
 		"requiredTech": "Replaceable Parts",
+		"obsoleteTech": "Energy Weapons",
 		"upgradesTo": "Black Ops",
 		"hurryCostModifier": 20,
 		"requiredResource": "Weapons",
 		"uniques": ["Personnel", "Earn [25]% of the damage done to [Military] units as [Faith]"],
-		"promotions": ["Reconnaissance I"],
+		"promotions": ["Skirmish", "Reconnaissance I", "Oath of Vengeance", "Gas Mask"],
 		"attackSound": "shot"
 	},
 
