@@ -26,7 +26,116 @@
 		"requiredTech": "Iron Working"
 	},
 
-	//Civ unique buildings
+	//Deseret Nation buildings
+	{
+		"name": "Restored Temple of Zion",
+		"isWonder": true,
+		"uniqueTo": "Deseret2",
+		"cost": 1,
+		"faith": 2,
+		"culture": 1,
+		"happiness": 1,
+		"uniques": ["Provides [2] [Weapons]", "Free [Living Prophet] appears", "[+15]% Natural religion spread [in all cities]",
+			"Can only be built [in capital]", "Gain a free [Bishop's Storehouse] [in this city]"]
+	},
+	{
+		"name": "Convert Survivors",
+		"replaces": "Search for Survivors",
+		"uniqueTo": "Deseret2",
+		"cost": 20,
+		"isNationalWonder": true,
+		"uniques": ["[2] free [Battleaxe of the Lord] units appear", "Free [Civilian Convoy] appears"]
+	},
+	{
+		"name": "Bishop's Storehouse",
+		"replaces": "Food Store",
+		"uniqueTo": "Deseret2",
+		"cost": 10,
+		"hurryCostModifier": -25,
+		"uniques": ["[20]% Food is carried over after population increases [in this city]",
+			"[+1 Food] [in this city] <with [Salt]>",
+			"[+1 Culture, +1 Faith] [in this city] <with [Books]>",
+			"[+1 Culture, +1 Faith] [in this city] <with [Scripture]>"]
+	},
+	{
+		"name": "Disciplinary Council",
+		"replaces": "Prison Camp",
+		"uniqueTo": "Deseret2",
+		"maintenance": 3,
+		"cost": 50,
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			"Can only be built [in annexed cities]",
+			"Only available <in cities without a [Listening Post]>",
+			"Destroyed when the city is captured"],
+		"requiredTech": "Construction",
+		"hurryCostModifier": -50
+	},
+	{
+		"name": "Parish School", //I really don't like this one and want to replace it, but can't figure out what to replace it with
+		"replaces": "Work Camp",
+		"uniqueTo": "Deseret2",
+		"percentStatBonus": {"faith": 25},
+		"science": 1,
+		"faith": 1,
+		"happiness": 1,
+		"specialistSlots": {"Administrator": 1},
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Science, +1 Faith] [in this city] <with [Power]>",
+			"[+1 Happiness] [in this city] <after adopting [Theocracy Complete]>",
+			"Consumes [1] [Slaves]", "Only available <with [Slaves]>"]
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Printing Press",
+		"replaces": "Distillery",
+		"uniqueTo": "Deseret2",
+		"happiness": 2,
+		"maintenance": 1,
+		"uniques": ["Provides [1] [Scripture]"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Tabernacle",
+		"replaces": "Monastery",
+		"uniqueTo": "Deseret2",
+		"culture": 2,
+		"faith": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Shrine",
+		"requiredTech": "Education",
+		"uniques": ["Hidden when religion is disabled"]
+	},
+	{
+		"name": "Communion",
+		"replaces": "Congress",
+		"uniqueTo": "Deseret2",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+1 Culture, +1 Faith] per [4] population [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Council]>",
+			"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Quorum of the Twelve",
+		"replaces": "Council",
+		"uniqueTo": "Deseret2",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": ["Enables conversion of city production to [Faith]",
+			"[+5]% Production when constructing [All] buildings [in all cities connected to capital]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Congress]>",
+			"Destroyed when the city is captured"]
+	},
+
+	//Other new Civ unique buildings
 	{
 		"name": "Remedial School",
 		"replaces": "Work Camp",
@@ -49,6 +158,8 @@
 		"hurryCostModifier": 40,
 		"uniques": ["New [Military] units begin with [15] Experience [in this city]"]
 	},
+
+	//Adjusted Civ unique buildings
 	{
 		"name": "Great Mosque",
 		"isWonder": true,
