@@ -11,7 +11,9 @@ A major expansion mod for DeCiv Redux.
 
 - Three new national projects tied to the starting three policy trees to aid all of the factions as they try to survive in the early-game.
 
-- New units: Wandering Doctor, Wasteland Patrol, Border Patrol, and Expeditionary Force. Additionally, some of the factions have gained a new UU or UB, or had one of their UBs adjusted.
+- New units: Wandering Doctor, Wasteland Patrol, Border Patrol, and Expeditionary Force.
+
+- Some of the factions have gained a new UU or UB, or had one of their UBs adjusted.
 
 - Several new beliefs for more diverse religion customization along with buffs for a few of the weaker beliefs. However, several of the more powerful beliefs in base DeCiv Redux have been nerfed.
 
@@ -19,7 +21,7 @@ A major expansion mod for DeCiv Redux.
 
 - Restore the traditional Science Victory.
 
-- Revise the policy tree to make policies beyond the starting three + Rationalism actually worth taking.
+- Revise the policy tree to make policies beyond the starting three + Constitution and Rationalism actually worth taking.
 
 - Add more new factions and City-States, along with more new unique units and buildings for the existing factions.
 
