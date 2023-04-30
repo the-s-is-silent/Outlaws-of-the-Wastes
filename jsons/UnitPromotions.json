@@ -6,7 +6,7 @@
 	{
 		"name": "Prospector",
 		"uniques": ["[+10]% Strength when stacked with [Civilian]", "[+10]% Strength <when defending>",
-			"May create [Land] improvements on tiles",
+			"Can build [Land] improvements on tiles",
 			"Gain [1]-[5] [Gold] <upon ending a turn in a [Forest] tile>",
 			"Gain [1]-[5] [Gold] <upon ending a turn in a [Jungle] tile>",
 			"[+5] HP when healing", "[+1] Sight"]
@@ -14,5 +14,9 @@
 	{
 		"name": "Oath of Vengeance",
 		"uniques": ["[+25]% Strength <when fighting units from a Civilization with more cities than you>"]
-	}
+	},
+	{
+		"name": "Combat Armor",
+		"uniques": ["[+20]% Strength <when defending>"]
+	},
 ]
