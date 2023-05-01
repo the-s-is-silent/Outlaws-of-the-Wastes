@@ -15,8 +15,8 @@
 			"Cannot be built on [Hill] tiles <before discovering [Land Remediation]>",
 			"Cannot be built on [Swamp] tiles <before discovering [Land Remediation]>",
 			"[+1 Food, -1 Gold] from [Fresh water] tiles",
-			"[+1 Food, +1 Production <after discovering [Land Remediation]>",
-			"[+1 Food, +1 Production <after discovering [Geo Engineering]>",
+			"[+1 Food, +1 Production] <after discovering [Land Remediation]>",
+			"[+1 Food, +1 Production] <after discovering [Geo Engineering]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "T"
