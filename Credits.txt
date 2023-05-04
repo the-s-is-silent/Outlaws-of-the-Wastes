@@ -3,12 +3,14 @@
 Building Icons
 - Atomic Diner: atom by ProSymbols
 - Bishop's Storehouse: Storage Garage by STBS
+- Coastal Defenses: seawall by Luis Prado
 - Contraband Disposal Site: prohibited by Andrea Mazzini
 - Disciplinary Council: court by Eko Purnomo
 - Homeland Defense Initiative: national defense by Yusuf Solihudin
 - Jeweler: jeweler by Hans Paul Mösl Junior
 - Parish School: School by iconcheese
 - Printing Press by Mike Wirth (same icon used for Printing Press tech in base Unciv)
+- Processing Center: Food Processing Plant by ProSymbols
 - Quorum of the Twelve: city Council by Thomas Deckert
 - Remedial School: educational school building by Vectors Point
 - Restored Temple of Zion: Salt Lake Temple by George Patterson (thenounproject.com/georgeroll)
