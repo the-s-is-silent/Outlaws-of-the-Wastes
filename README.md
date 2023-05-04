@@ -7,15 +7,19 @@ A major expansion mod for DeCiv Redux.
 
 - Deseret Nation is now a playable faction. Four new City-States have been added, one of which is a preview for a planned new faction.
 
-- The overpowered Settlement GI has been toned down somewhat: it no longer triggers a Culture Bomb. Also, Tree Plantations can now be built on Hills and Swamps after discovering the appropriate tech, provided they're not on Desert or Permafrost.
-
 - Three new national projects tied to the starting three policy trees to aid all of the factions as they try to survive in the early-game.
 
-- New units: Wandering Doctor, Wasteland Patrol, Border Patrol, and Expeditionary Force.
+- New units: Wandering Doctor, Wasteland Patrol, Border Patrol, Expeditionary Force, and Hero of the Wastes, the last one only available as a random camp reward.
+
+- New buildings: Jeweler and Contraband Disposal Site.
+
+- New world wonder: Statue of Remembrance.
 
 - Some of the factions have gained a new UU or UB, or had one of their UBs adjusted.
 
 - Several new beliefs for more diverse religion customization along with buffs for a few of the weaker beliefs. However, several of the more powerful beliefs in base DeCiv Redux have been nerfed.
+
+- Tile improvement adjustments: The overpowered Settlement GI has been toned down somewhat - it no longer triggers a Culture Bomb. Also, Tree Plantations can now be built on Hills and Swamps after discovering the appropriate tech, provided they're not on Desert or Permafrost.
 
 # TODO:
 
@@ -23,8 +27,8 @@ A major expansion mod for DeCiv Redux.
 
 - Revise the policy tree to make policies beyond the starting three + Constitution and Rationalism actually worth taking.
 
-- Add more new factions and City-States, along with more new unique units and buildings for the existing factions.
+- Add more units, buildings and wonders.
 
-- Consider expanding the "hero unit" concept past the Hero of the Wastes found at random in survivor camps/barbarian outposts.
+- Add more new factions and City-States, along with more new unique units and buildings for the existing factions.
 
 - And, of course, the bane of all ambitious modders who have no artistic talent: adding sprites for everything.
