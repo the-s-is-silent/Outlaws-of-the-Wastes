@@ -50,6 +50,27 @@
 		"requiredTech": "Machinery"
 	},
 	{
+		"name": "Coastal Defenses",
+		"cityStrength": 2,
+		"cityHealth": 80,
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"uniques": ["Must be next to [Coast]", "Destroyed when the city is captured"],
+		"requiredTech": "Navigation"
+	},
+	{
+		"name": "Processing Center",
+		"food": 2,
+		"percentStatBonus": {"production": 5},
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["All newly-trained [Personnel] units [in this city] receive the [Resupply] promotion",
+			"[+1 Food, +1 Production] from [Salt] tiles [in this city]",
+			"Consumes [1] [Salt]", "Consumes [1] [Power]"],
+		"requiredTech": "Refrigeration"
+	},
+	{
 		"name": "Contraband Disposal Site",
 		"maintenance": 1,
 		"hurryCostModifier": 15,
