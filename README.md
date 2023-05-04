@@ -11,7 +11,7 @@ A major expansion mod for DeCiv Redux.
 
 - New units: Wandering Doctor, Wasteland Patrol, Border Patrol, Expeditionary Force, and Hero of the Wastes, the last one only available as a random camp reward.
 
-- New buildings: Jeweler and Contraband Disposal Site.
+- New buildings: Coastal Defenses, Contraband Disposal Site, Jeweler, and Processing Center.
 
 - New world wonder: Statue of Remembrance.
 
