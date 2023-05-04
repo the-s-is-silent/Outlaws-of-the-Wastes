@@ -48,6 +48,13 @@
 			"[+1 Culture, +1 Faith] from every [National Wonder]"]
 	},
 	{
+		"name": "Respect the Wind",
+		"type": "Pantheon",
+		"uniques": ["[+1 Faith] from [Hill] tiles without [Forest] [in this city] <within [2] tiles of a [City center]>",
+			"[+1 Faith] from [Hill] tiles without [Jungle] [in this city] <within [2] tiles of a [City center]>",
+			"[+2 Production, +1 Faith] from every [Wind farm]"]
+	},
+	{
 		"name": "Sacred Ruins",
 		"type": "Pantheon",
 		"uniques": ["[+1 Culture] from every [Forest] <within [2] tiles of a [City center]>",
