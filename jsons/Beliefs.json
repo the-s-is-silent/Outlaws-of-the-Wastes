@@ -50,8 +50,7 @@
 	{
 		"name": "Respect the Wind",
 		"type": "Pantheon",
-		"uniques": ["[+1 Faith] from [Hill] tiles without [Forest] [in this city] <within [2] tiles of a [City center]>",
-			"[+1 Faith] from [Hill] tiles without [Jungle] [in this city] <within [2] tiles of a [City center]>",
+		"uniques": ["[+1 Faith] from every [Hill] <in tiles without [Forest]> <in tiles without [Jungle]> <within [2] tiles of a [City center]>",
 			"[+2 Production, +1 Faith] from every [Wind farm]"]
 	},
 	{
