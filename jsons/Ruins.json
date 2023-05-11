@@ -48,13 +48,13 @@
 	},
 	{
 		"name": "prospector equipment",
-		"notification": "Our unit finds prospecting tools in the camp!",
+		"notification": "Our unit finds prospecting tools hidden in the camp!",
 		"uniques": ["This Unit gains the [Prospector] promotion"]
 	},
 	{
 		"name": "combat armor",
-		"notification": "Our equipment finds advanced armor in the camp!",
-		"uniques": ["This Unit gains the [Combat Armor] promotion", "This unit gains [10] XP"]
+		"notification": "Our unit finds advanced armor hidden in the camp!",
+		"uniques": ["This Unit gains the [Combat Armor] promotion"]
 	},
 	{
 		"name": "levied militia",
