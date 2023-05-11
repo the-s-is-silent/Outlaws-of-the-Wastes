@@ -232,7 +232,7 @@
 	{
 		"name": "Von Bach Industries",
 		"uniqueTo": "Defiance",
-		"replaces": "Armament Production Line",
+		"replaces": "Armaments Production Line",
 		"cityStrength": 5,
 		"cost": 10,
 		"uniques": ["Provides [1] [Oil]", "Provides [4] [Weapons]", "[4] units cost no maintenance", "[+4] Unit Supply",
