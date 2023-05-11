@@ -19,4 +19,16 @@
 		"name": "Combat Armor",
 		"uniques": ["[+20]% Strength <when defending>"]
 	},
+	{
+		"name": "[Lawbringer] ability",
+		"uniques": ["Great General",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"[+50]% XP gained from combat",
+			"Heals [25] damage if it kills a unit",
+			"Can build [All Road] improvements on tiles",
+			"Can build [Fort] improvements on tiles",
+			"Can build [Trench] improvements on tiles",
+			"Uncapturable"]
+	},
 ]
