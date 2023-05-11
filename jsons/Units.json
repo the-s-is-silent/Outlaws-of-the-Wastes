@@ -47,7 +47,6 @@
 		"requiredResource": "Weapons",
 		"promotions": ["Skirmish", "Reconnaissance I"],
 		"uniques": ["Personnel", "Mounted", "Can move after attacking", "Never appears as a Barbarian unit",
-			"Double movement in [Friendly Land]",
 			"[+25]% Strength <when fighting in [Friendly Land] tiles>",
 			"[-25]% Strength <when fighting in [Foreign Land] tiles>",
 			"[-33]% Strength <vs cities> <when attacking>",
@@ -98,7 +97,7 @@
 		"strength": 40,
 		"rangedStrength": 35,
 		"interceptRange": 1,
-		"cost": 125,
+		"cost": 175,
 		"requiredTech": "Replaceable Parts",
 		"obsoleteTech": "Energy Weapons",
 		"upgradesTo": "Black Ops",
@@ -154,6 +153,125 @@
 		"attackSound": "nuke"
 	},
 
+	//City-State units
+	{
+		"name": "Hawkman Brave",
+		"unitType": "Scrapper",
+		"replaces": "Machete",
+		"uniqueTo": "Issaquah Nation",
+		"movement": 2,
+		"strength": 24,
+		"cost": 50,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Militia",
+		"uniques": ["Low Tech", "[+50]% Strength <vs [Low Tech] units>", "Earn [100]% of killed [Military] unit's [Strength] as [Faith]",
+ 			"Free [Hawkman Brave] appears <upon being defeated> <with [33]% chance>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Ark Hunter",
+		"unitType": "Scrapper",
+		"uniqueTo": "Defiance",
+		"replaces": "Infantry",
+		"movement": 2,
+		"strength": 45,
+		"interceptRange": 1,
+		"cost": 100,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Exo-Trooper",
+		"hurryCostModifier": 20,
+		"promotions": ["Gas Mask", "Forage", "Prospector", "Drone Recon"],
+		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Mounted Railgun",
+		"unitType": "Armor",
+		"uniqueTo": "Defiance",
+		"replaces": "Armored Car"
+		"movement": 4,
+		"strength": 45,
+		"cost": 100,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Tank",
+		"obsoleteTech": "Combined Arms",
+		"uniques": ["[+33]% Strength <vs [Low Tech] units> <when attacking>",
+			"[+33]% Strength <vs [Personnel] units> <when attacking>",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Can move after attacking",
+			"No defensive terrain bonus"],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Lawbringer",
+		"unitType": "Scrapper",
+		"replaces": "Great General",
+		"uniqueTo": "Defiance",
+		"movement": 2,
+		"strength": 45,
+		"cost": 150,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Exo-Trooper",
+		"uniques": ["Personnel", "Consumes [1] [Weapons]", "Great Person - [War]", "Limited to [1] per Civilization"],
+		"promotions": ["Reconnaissance I", "Gas Mask", "[Lawbringer] ability"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Wayfarer",
+		"unitType": "Scout",
+		"replaces": "Scout",
+		"uniqueTo": "Camelot Foundation",
+		"movement": 2,
+		"strength": 12,
+		"rangedStrength": 20,
+		"range": 1,
+		"cost": 30,
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Gunman",
+		"promotions": ["Skirmish", "Reconnaissance I"],
+		"uniques": ["Low Tech", "Can move after attacking", "[-33]% Strength <vs cities>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Caliburn Knight",
+		"unitType": "Scrapper",
+		"replaces": "Cavalry",
+		"uniqueTo": "Camelot Foundation",
+		"movement": 4,
+		"strength": 40,
+		"interceptRange": 1,
+		"cost": 120,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Tank",
+		"uniques": ["Personnel", "Mounted", "No defensive terrain penalty", "Can move after attacking", "[-33]% Strength <vs cities> <when attacking>",
+			"[+25]% Strength <when defending>", "Only available <in cities with a [Stable]>"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+
+	//Adjusted base units
+	{
+		"name": "Tank",
+		"unitType": "Armor",
+		"movement": 4,
+		"strength": 60,
+		"cost": 225,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Modern Armor",
+		"obsoleteTech": "Advanced Materials",
+		"uniques": [
+			"Can move after attacking",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Oil]"
+		], //removed exclusion from Barbarian unit list
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+
 	//Barbarian units
 	{
 		"name": "Suicider",
@@ -206,9 +324,9 @@
 			"[+25]% Strength <starting from the [Postmodern era]>",
 			"[+25]% Strength <starting from the [New Future era]>",
 			"[+1] Movement <starting from the [New Future era]>",
+			"[+100]% chance to intercept air attacks",
 			"[1] extra interceptions may be made per turn",
 			"[-100]% maintenance costs",
-			"Negates the combat bonus effect of Enemy Promotions",
 			"Never appears as a Barbarian unit"]
 		"attackSound": "shot"
 	}
