@@ -3,7 +3,7 @@
 	{
 		"name": "Deseret2",
 		"leaderName": "Keith Graham",
-		"adjective": ["Mormon"],
+		"adjective": ["Deseretian"],
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Cultural",
 		"favoredReligion": "Mormonism",
@@ -29,8 +29,8 @@
 			"Gain a free [Enhancer] belief <upon discovering [Education]>",
 			"[-1 Science] [in all cities] <before discovering [Education]>",
 			"Cannot build [Enslaved] units"],
-		"cities": ["Zion Valley", "New Canaan", "Moroni", "Grand Staircase", "Cueva Guarache", "Deseret City", "Ulim and Thummim", "Patriarch's Court",
-			"The Res", "The Aerie", "Old Rockville", "Van Buren", "Mesa Verde"]
+		"cities": ["Zion Valley", "New Canaan", "Provorem", "Grand Staircase", "Cueva Guarache", "Fort Walker", "Angel's Landing", "Ulim and Thummim", "Patriarch's Court",
+			"Malki Tzedek", "Maeserville", "Rainbow Bridge", "Kolob", "Van Buren", "Mesa Verde", "Nuevo Vicios"]
 	},
 
 	//New CS
@@ -65,6 +65,20 @@
 		"cities": ["Issaquah"]
 	},
 	{
+		"name": "Defiance",
+		"adjective": ["Defiant"],
+		"cityStateType": "Weapons",
+		"style": "Corporate",
+		"uniques": ["Starts with [Rifling]", "Starts with [Replaceable Parts]",
+			"[+100]% Production when constructing [Military] units [in all cities]"],
+		"declaringWar": "Down in the ground where the dead men go. That's where you'll be soon.",
+		"attacked": "We're thoroughly unimpressed.",
+		"defeated": "It is what it is... We'll be off to better lands now.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0, 94, 171],
+		"cities": ["Defiance"]
+	},
+	{
 		"name": "Carbon",
 		"adjective": ["Carbonite"],
 		"cityStateType": "Farming",
@@ -82,8 +96,7 @@
 		"adjective": ["Camelot"],
 		"cityStateType": "Culture",
 		"style": "Corporate",
-		"uniques": ["Starts with [Secrets of the Past]", "Starts with [Redomestication]", "Starts with [Steel]", "Starts with [Rifling]",
-			"Gain a free [Stable] [in capital]"],
+		"uniques": ["Starts with [Secrets of the Past]", "Starts with [Redomestication]", "Starts with [Steel]", "Starts with [Rifling]"],
 		"declaringWar": "By the grace of God, your days are numbered.",
 		"attacked": "We shall never surrender!",
 		"defeated": "You may have bested me this day, but mark my words: I shall return with all my knights, on the day that my people call for aid!",
