@@ -210,47 +210,6 @@
 		"uniques": ["New [Military] units begin with [15] Experience [in this city]"]
 	},
 
-	//Adjusted Civ unique buildings
-	{
-		"name": "Great Mosque",
-		"isWonder": true,
-		"uniqueTo": "New Afrika",
-		"cost": 1,
-		"culture": 1,
-		"food": 2,
-		"cityStrength": 1,
-		"cityHealth": 10,
-		"uniques": [
-			"Can only be built [in capital]",
-			"Provides [2] [Weapons]",
-			"Free [Panther] appears",
-			"Gain a free [Mosque] [in this city]",
-			"May choose [1] additional belief(s) of any type when [enhancing] a religion"
-		],
-		"quote": "We declare our right on this earth to be a human being, to be respected as a human being, to be given the rights of a human being in this society, on this earth, in this day, which we intend to bring into existence by any means necessary.",
-		"civilopediaText": [
-			{
-				"text": "We declare our right on this earth to be a human being, to be respected as a human being, to be given the rights of a human being in this society, on this earth, in this day, which we intend to bring into existence by any means necessary."
-			}
-		]
-	},
-	{
-		"name": "Mobile Encampment",
-		"uniqueTo": "New Star",
-		"replaces": "Bomb Shelter",
-		"isNationalwonder": true,
-		"food": 2,
-		"production": 4,
-		"cityStrength": 5,
-		"cityHealth": 50,
-		"science": 3,
-		"gold": 1,
-		"culture": 1,
-		"specialistSlots": {"Administrator": 1},
-		"cost": 1,
-		"uniques": ["Indicates the capital city", "Provides [2] [Weapons]"]
-	},
-
 	//City-State buildings
 	{
 		"name": "Totem Pole",
@@ -260,6 +219,28 @@
 		"cost": 10,
 		"hurryCostModifier": 40,
 		"uniques": ["New [Military] units begin with [30] Experience [in this city]"]
+	},
+	{
+		"name": "Terra-Spire",
+		"uniqueTo": "Defiance",
+		"replaces": "Monument",
+		"culture": 2,
+		"cost": 10,
+		"hurryCostModifier": 40,
+		"uniques": ["Reveals the entire map"]
+	},
+	{
+		"name": "Von Bach Industries",
+		"uniqueTo": "Defiance",
+		"replaces": "Armament Production Line",
+		"cityStrength": 5,
+		"cost": 10,
+		"uniques": ["Provides [1] [Oil]", "Provides [4] [Weapons]", "[4] units cost no maintenance", "[+4] Unit Supply",
+			"[Personnel] units gain the [Infantry Weapons] promotion",
+			"[2] free [Ark Hunter] units appear",
+			"Free [Mechanized Worker] appears",
+			"Gain a free [Armory] [in this city]"],
+		"requiredTech": "Replaceable Parts"
 	},
 	{
 		"name": "Atomic Diner",
@@ -281,6 +262,7 @@
 		"percentStatBonus": {"science": 25, "culture": 25},
 		"cost": 10,
 		"hurryCostModifier": 0,
+		"uniques": ["Gain a free [Stable] [in this city]"],
 		"requiredTech": "Secrets of the Past"
 	},
 
