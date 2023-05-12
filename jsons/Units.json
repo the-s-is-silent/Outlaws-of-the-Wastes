@@ -1,13 +1,16 @@
 [
-	//Civilian units
+	//Support units
 	{
 		"name": "Wandering Doctor",
-		"unitType": "Civilian",
+		"unitType": "Scrapper", //is supposed to be Civilian, but it does not function correctly as non-military
 		"movement": 2,
+		"strength": 20,
 		"cost": 100,
 		"hurryCostModifier": 20,
 		"requiredTech": "Biology",
-		"uniques": ["All adjacent units heal [10] HP when healing", "Only available <in cities with a [Hospital]>"]
+		"promotions": ["Medic II"],
+		"uniques": ["Personnel", "All adjacent units heal [10] HP when healing", "[-1] Sight",
+			"Only available <in cities with a [Hospital]>"]
 	},
 
 	//Spaceship parts (reimplementing the traditional Science Victory): TBD
