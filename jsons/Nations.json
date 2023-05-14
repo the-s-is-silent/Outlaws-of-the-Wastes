@@ -29,8 +29,8 @@
 			"Gain a free [Enhancer] belief <upon discovering [Education]>",
 			"[-1 Science] [in all cities] <before discovering [Education]>",
 			"Cannot build [Enslaved] units"],
-		"cities": ["Zion Valley", "New Canaan", "Provorem", "Grand Staircase", "Cueva Guarache", "Fort Walker", "Angel's Landing", "Ulim and Thummim", "Patriarch's Court",
-			"Malki Tzedek", "Maeserville", "Rainbow Bridge", "Kolob", "Van Buren", "Mesa Verde", "Nuevo Vicios"]
+		"cities": ["Zion Valley", "New Canaan", "Provorem", "Grand Staircase", "Cueva Guarache", "Fort Walker", "Angel's Landing", "Urim and Thummim", "Patriarch's Court",
+			"Malki Tzedek", "Maeserville", "Kolob", "Rainbow Bridge", "Hovenweep", "Van Buren", "Mesa Verde", "Nuevo Vicios"]
 	},
 
 	//New CS
@@ -69,8 +69,10 @@
 		"adjective": ["Defiant"],
 		"cityStateType": "Weapons",
 		"style": "Corporate",
-		"uniques": ["Starts with [Rifling]", "Starts with [Replaceable Parts]",
-			"[+100]% Production when constructing [Military] units [in all cities]"],
+		"uniques": ["Starts with [Rifling]", "Starts with [Replaceable Parts]", "Starts with [Computers]",
+			"Starts with [Incentivization]", "Starts with [Artificial Intelligence]",
+			"[Personnel] units gain the [AI Implant] promotion",
+			"[+66]% Production when constructing [Personnel] units [in all cities]"],
 		"declaringWar": "Down in the ground where the dead men go. That's where you'll be soon.",
 		"attacked": "We're thoroughly unimpressed.",
 		"defeated": "It is what it is... We'll be off to better lands now.",
