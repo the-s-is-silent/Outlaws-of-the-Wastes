@@ -1,7 +1,7 @@
 # Outlaws of the Wastes
 A major expansion mod for DeCiv Redux.
 
-# Features
+## Features
 
 - Barbarians are stronger and spawn more frequently, but give greater rewards for clearing their encampments. (Credit for this concept goes to amfauzn and their "The Barbarians" mod.) In addition to better ruins bonuses, the survivor camp spawn rate is also increased, so players actually have a chance at finding at least one camp in most games.
 
@@ -11,7 +11,7 @@ A major expansion mod for DeCiv Redux.
 
 - New units: Wandering Doctor, Wasteland Patrol, Border Patrol, Expeditionary Force, and Hero of the Wastes, the last one only available as a random camp reward.
 
-- New buildings: Coastal Defenses, Contraband Disposal Site, Jeweler, and Processing Center.
+- New buildings: Coastal Defenses, Contraband Disposal Site, Food Processing Plant, and Jeweler.
 
 - New world wonder: Statue of Remembrance.
 
@@ -21,7 +21,7 @@ A major expansion mod for DeCiv Redux.
 
 - Tile improvement adjustments: The overpowered Settlement GI has been toned down somewhat - it no longer triggers a Culture Bomb. Tree Plantations can now be built on Hills and Swamps after discovering the appropriate tech, provided they're not on Desert or Permafrost.
 
-# TODO:
+## TODO:
 
 - Restore the traditional Science Victory.
 
