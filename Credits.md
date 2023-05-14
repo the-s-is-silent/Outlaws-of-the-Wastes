@@ -31,6 +31,7 @@ Unless otherwise specified, all of the following are from the Noun Project, lice
 - Endowment House: [charity box](https://thenounproject.com/icon/charity-box-4091320/) by Nattapol Seengern
 
 ### Nation Icons
+- Camelot Foundation: [Lion](https://thenounproject.com/icon/lion-394525/) by Creative Stall
 - Deseret Nation: [Beehive](https://thenounproject.com/icon/beehive-106249/) by Cléa Lautrey
 
 ### Promotion Icons
@@ -58,6 +59,7 @@ Unless otherwise specified, all of the following are from the Noun Project, lice
 - Hawkman Brave: [tomahawk](https://thenounproject.com/icon/tomahawk-4130106/) by Amethyst Studio
 - Hero of the Wastes: [Shield](https://thenounproject.com/icon/shield-49999/) by Jonathan Li
 - Lawbringer: [Police](https://thenounproject.com/icon/police-3395179/) by Nhor
+- The Last Minute: [nuclear missile](https://thenounproject.com/icon/nuclear-missile-5460126/) by Fran Couto
 - Wandering Doctor: [caduceus](https://thenounproject.com/icon/caduceus-211045/) by icon 54
 - Wasteland Patrol: [Binoculars](https://thenounproject.com/icon/binoculars-4069422/) by iconixar
 - Wayfarer: [Fleur de Lis](https://thenounproject.com/icon/fleur-de-lis-1383646/) by prasong tadoungsorn
