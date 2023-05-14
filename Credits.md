@@ -12,12 +12,12 @@ Unless otherwise specified, all of the following are from the Noun Project, lice
 - Coastal Defenses: [seawall](https://thenounproject.com/icon/seawall-5503652/) by Luis Prado
 - Contraband Disposal Site: [prohibited](https://thenounproject.com/icon/prohibited-209190/) by Andrea Mazzini
 - Disciplinary Council: [court](https://thenounproject.com/icon/court-4428402/) by Eko Purnomo
+- [Food Processing Plant](https://thenounproject.com/icon/food-processing-plant-1877253/) by ProSymbols
 - Hexlock Chemical Company: [chemical industry](https://thenounproject.com/icon/chemical-industry-4762097/) by Azam Ishaq
 - Homeland Defense Initiative: [national defense](https://thenounproject.com/icon/national-defense-4363309/) by Yusuf Solihudin
 - Jeweler: [jeweler](https://thenounproject.com/icon/jeweler-207094/) by Hans Paul Mösl Junior
 - Parish School: [School](https://thenounproject.com/icon/school-3758946/) by iconcheese
 - [Printing Press](https://thenounproject.com/icon/printing-press/11880/) by Mike Wirth (same icon used for Printing Press tech in base Unciv)
-- Processing Center: [Food Processing Plant](https://thenounproject.com/icon/food-processing-plant-1877253/) by ProSymbols
 - Quorum of the Twelve: [city Council](https://thenounproject.com/icon/city-council-3566027/) by Thomas Deckert
 - Remedial School: [educational school building](https://thenounproject.com/icon/educational-school-building-3017500/) by Vectors Point
 - Restored Temple of Zion: [Salt Lake Temple](https://thenounproject.com/icon/salt-lake-temple-219294/) by Nick Bluth
