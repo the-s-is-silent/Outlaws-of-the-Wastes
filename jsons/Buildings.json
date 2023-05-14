@@ -61,7 +61,7 @@
 		"requiredTech": "Navigation"
 	},
 	{
-		"name": "Processing Center",
+		"name": "Food Processing Plant",
 		"food": 2,
 		"percentStatBonus": {"production": 5},
 		"maintenance": 2,
@@ -74,7 +74,7 @@
 	{
 		"name": "Hexlock Chemical Company",
 		"uniqueTo": "Hexlock",
-		"replaces": "Processing Center",
+		"replaces": "Food Processing Plant",
 		"production": 2,
 		"percentStatBonus": {"production": 5},
 		"maintenance": 2,
