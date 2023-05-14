@@ -4,6 +4,10 @@
 		"uniques": ["[+25]% Spread Religion Strength", "Ignores terrain cost"]
 	},
 	{
+		"name": "Self-Repair",
+		"uniques": ["[+10] HP when healing"]
+	},
+	{
 		"name": "Prospector",
 		"uniques": ["[+10]% Strength when stacked with [Civilian]", "[+10]% Strength <when defending>",
 			"Can build [Land] improvements on tiles",
@@ -18,6 +22,14 @@
 	{
 		"name": "Combat Armor",
 		"uniques": ["[+20]% Strength <when defending>"]
+	},
+	{
+		"name": "AI Implant",
+		"uniques": ["[+10] HP when healing", "[+15]% Strength <when attacking>", "Damage is ignored when determining unit Strength"],
+	},
+	{
+		"name": "[Wayfarer] ability",
+		"uniques": ["May enter foreign tiles without open borders"]
 	},
 	{
 		"name": "[Lawbringer] ability",
