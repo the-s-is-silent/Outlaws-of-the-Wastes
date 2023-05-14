@@ -4,7 +4,7 @@
 		"name": "Homeland Defense Initiative",
 		"cost": 50,
 		"isNationalWonder": true,
-		"uniques": ["Can only be built [in capital]", "[+10]% Strength for [Military] units <when fighting in [Friendly Land] tiles>",
+		"uniques": ["Can only be built [in capital]", "[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
 			"[+10]% City Strength from defensive buildings", "Only available <after adopting [Adaptation]>"],
 		"requiredTech": "Construction"
 	},
