@@ -32,8 +32,9 @@
 		"isWonder": true,
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
-		"uniques": ["[+5]% [Production] [in all cities]", "[+10]% Production when constructing [Military] units [in this city]",
-			"[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
+		"uniques": ["[+1] population [in this city]",
+			"[+5]% [Production] [in all cities]",
+			"[+10]% Production when constructing [Military] units [in this city]"],
 		"requiredTech": "Engineering"
 		//Quote TBD
 	},
@@ -69,6 +70,20 @@
 			"[+1 Food, +1 Production] from [Salt] tiles [in this city]",
 			"Consumes [1] [Salt]", "Consumes [1] [Power]"],
 		"requiredTech": "Refrigeration"
+	},
+	{
+		"name": "Hexlock Chemical Company",
+		"uniqueTo": "Hexlock",
+		"replaces": "Processing Center",
+		"production": 2,
+		"percentStatBonus": {"production": 5},
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["All newly-trained [Purge Robot] units [in this city] receive the [Self-Repair] promotion",
+			"[+2 Production, +2 Gold] from [Refinery] tiles [in this city]",
+			"[+2 Production] from [Salt] tiles [in this city]",
+			"Consumes [1] [Salt]", "Consumes [1] [Power]"],
+		"requiredTech": "Chemistry"
 	},
 	{
 		"name": "Contraband Disposal Site",
@@ -123,7 +138,7 @@
 		"hurryCostModifier": -50
 	},
 	{
-		"name": "Parish School", //I really don't like this one and want to replace it, but can't figure out what to replace it with
+		"name": "Parish School", //I don't like the concept of this one (if anything, it should be a Public School replacement) and want to replace it, but can't figure out what to replace it with
 		"replaces": "Work Camp",
 		"uniqueTo": "Deseret2",
 		"percentStatBonus": {"faith": 25},
@@ -160,7 +175,7 @@
 		"uniques": ["Hidden when religion is disabled"]
 	},
 	{
-		"name": "Communion",
+		"name": "General Conference",
 		"replaces": "Congress",
 		"uniqueTo": "Deseret2",
 		"cost": 100,
@@ -184,6 +199,17 @@
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Congress]>",
 			"Destroyed when the city is captured"]
+	},
+
+	//Adjusted buildings
+	{
+		"name": "Heat Plant", //no longer a Hexlock UB
+		"hurryCostModifier": 25,
+		"uniques": ["Must have an owned [Fissure] within [3] tiles",
+			"Provides [2] [Power]",
+			"[+2 Production] from [Fissure] tiles [in this city]",
+			"Only available <in cities with a [Library]>"],
+		"requiredTech": "Steam Power"
 	},
 
 	//Other new Civ unique buildings
@@ -227,7 +253,7 @@
 		"culture": 2,
 		"cost": 10,
 		"hurryCostModifier": 40,
-		"uniques": ["Reveals the entire map"]
+		"uniques": ["Reveals the entire map", "Destroyed when the city is captured"]
 	},
 	{
 		"name": "Von Bach Industries",
@@ -262,7 +288,7 @@
 		"percentStatBonus": {"science": 25, "culture": 25},
 		"cost": 10,
 		"hurryCostModifier": 0,
-		"uniques": ["Gain a free [Stable] [in this city]"],
+		"uniques": ["Gain a free [Stable] [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Secrets of the Past"
 	},
 
