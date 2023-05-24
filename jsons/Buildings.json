@@ -253,7 +253,7 @@
 		"culture": 2,
 		"cost": 10,
 		"hurryCostModifier": 40,
-		"uniques": ["Reveals the entire map", "Destroyed when the city is captured"]
+		"uniques": ["Reveals the entire map", "Destroyed when the city is captured", "Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Von Bach Industries",
@@ -265,7 +265,9 @@
 			"[Personnel] units gain the [Infantry Weapons] promotion",
 			"[2] free [Ark Hunter] units appear",
 			"Free [Mechanized Worker] appears",
-			"Gain a free [Armory] [in this city]"],
+			"Gain a free [Armory] [in this city]",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"],
 		"requiredTech": "Replaceable Parts"
 	},
 	{
@@ -290,6 +292,22 @@
 		"hurryCostModifier": 0,
 		"uniques": ["Gain a free [Stable] [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Secrets of the Past"
+	},
+	{
+		"name": "Refurbished Textile Mill",
+		"replaces": "Factory",
+		"uniqueTo": "Calico",
+		"percentStatBonus": {"production": 25},
+		"specialistSlots": {"Engineer": 2},
+		"cost": 10,
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques": ["Enables construction of [advanced] units",
+			"[+3 Production] [in this city] <with [Power]>",
+			"[+1 Production] [in this city] <with [Machine Parts]>",
+			"[+1 Production] from [Machine Parts] tiles [in this city]",
+			"Provides [1] [Fabrics]"],
+		"requiredTech": "Manufacturing"
 	},
 
 	//Religion buildings
