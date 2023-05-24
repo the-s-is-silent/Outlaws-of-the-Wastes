@@ -2,7 +2,8 @@
 
 Like the status of the mod as a whole as well as DeCiv Redux's credit list, this is incomplete.<br>
 Pixel art will most likely reuse other sources for the initial upload.<br>
-Some of the icons reuse unsourced images used in either Unciv or DeCiv Redux.
+Some of the icons reuse unsourced images used in either Unciv or DeCiv Redux.<br>
+The version of the Mormonism icon used as a Religion Icon was created by Tomatekh on CivFanatics and can be found [at the Civ 5 Customization Wiki's entry on the Tomatekh's Historical Religions mod](https://civilization-v-customisation.fandom.com/wiki/Tomatekh%27s_Historical_Religions).
 
 Unless otherwise specified, all of the following are from the Noun Project, licensed under Creative Commons or Public Domain. Also, if anyone feels like there is a better/more fitting icon out there for any particular building/unit/etc. than the one that is used, I am open to suggestions for replacement icons.
 
@@ -19,6 +20,7 @@ Unless otherwise specified, all of the following are from the Noun Project, lice
 - Parish School: [School](https://thenounproject.com/icon/school-3758946/) by iconcheese
 - [Printing Press](https://thenounproject.com/icon/printing-press/11880/) by Mike Wirth (same icon used for Printing Press tech in base Unciv)
 - Quorum of the Twelve: [city Council](https://thenounproject.com/icon/city-council-3566027/) by Thomas Deckert
+- Refurbished Textile Mill: [Textile industry](https://thenounproject.com/icon/textile-industry-5649184/) by Studio 365
 - Remedial School: [educational school building](https://thenounproject.com/icon/educational-school-building-3017500/) by Vectors Point
 - Restored Temple of Zion: [Salt Lake Temple](https://thenounproject.com/icon/salt-lake-temple-219294/) by Nick Bluth
 - Statue of Remembrance: [Justice](https://thenounproject.com/icon/justice-3872855/) by Eucalyp
@@ -37,13 +39,12 @@ Unless otherwise specified, all of the following are from the Noun Project, lice
 ### Promotion Icons
 - AI Implant: [Artificial Intelligence](https://thenounproject.com/icon/artificial-intelligence-5689657/) by Anwar Hossain
 - Combat Armor: [armor](https://thenounproject.com/icon/armor-4069582/) by iconixar
+- Conquer Terrain: [atv tire](https://thenounproject.com/icon/atv-tire-378331/) by Martin Hofmann
+- Heroic Resolve: [hero shield](https://thenounproject.com/icon/hero-shield-4533534/) by Made x Made
 - Oath of Vengeance: [Swear On Bible](https://thenounproject.com/icon/swear-on-bible-158489/) by Wolf Böse
 - Prospector: [prospector hat](https://thenounproject.com/icon/prospector-hat-1105355/) by Clément Branger
 - Self-Repair: [Hammer](https://thenounproject.com/icon/hammer-854936/) by Thengaloka (same icon used for Air Repair in base Unciv)
 - Zeal: [zeal of the convert](https://thenounproject.com/icon/zeal-of-the-convert-4708155/) by Saneseed
-
-### Religion Icons
-- [Mormonism](https://thenounproject.com/icon/mormonism-200426/) by Dabid J. Pascual (also used for Living Prophet unit icon)
 
 ### Resource Icons
 - [Scripture](https://thenounproject.com/icon/scripture-4402137/) by Athok
@@ -60,6 +61,8 @@ Unless otherwise specified, all of the following are from the Noun Project, lice
 - Hero of the Wastes: [Shield](https://thenounproject.com/icon/shield-49999/) by Jonathan Li
 - Lawbringer: [Police](https://thenounproject.com/icon/police-3395179/) by Nhor
 - The Last Minute: [nuclear missile](https://thenounproject.com/icon/nuclear-missile-5460126/) by Fran Couto
+- Living Prophet: [Mormonism](https://thenounproject.com/icon/mormonism-200426/) by Dabid J. Pascual
+- Mobile Clinic: [Ambulance](https://thenounproject.com/icon/ambulance-1262538/) by Ralf Schmitzer
 - Wandering Doctor: [caduceus](https://thenounproject.com/icon/caduceus-211045/) by icon 54
 - Wasteland Patrol: [Binoculars](https://thenounproject.com/icon/binoculars-4069422/) by iconixar
 - Wayfarer: [Fleur de Lis](https://thenounproject.com/icon/fleur-de-lis-1383646/) by prasong tadoungsorn
