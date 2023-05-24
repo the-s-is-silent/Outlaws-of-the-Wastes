@@ -103,9 +103,22 @@
 		"attacked": "We shall never surrender!",
 		"defeated": "You may have bested me this day, but mark my words: I shall return with all my knights, on the day that my people call for aid!",
 		"outerColor": [0, 0, 0],
-		"innerColor": [149, 63, 63],
+		"innerColor": [189, 90, 80],
 		"cities": ["Avalon"]
 		//Camelot Foundation is meant to be playable in the future, but is left as a CS for now
+	},
+	{
+		"name": "Calico",
+		"adjective": ["Cali"],
+		"cityStateType": "Labor",
+		"style": "Corporate",
+		"uniques": ["Starts with [Manufacturing]"],
+		"declaringWar": "That's right, flee into the wastes. And remember, mind your step.",
+		"attacked": "Oi there mate, bit rude to be making that war declaration, innit?",
+		"defeated": "It's a shame. There was so much more we could have done.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [149, 63, 63],
+		"cities": ["Calico"]
 	},
 
 	//Barbarian
