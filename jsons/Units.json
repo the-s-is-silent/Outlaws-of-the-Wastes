@@ -5,11 +5,24 @@
 		"unitType": "Scrapper", //is supposed to be Civilian, but it does not function correctly as non-military
 		"movement": 2,
 		"strength": 20,
-		"cost": 100,
+		"cost": 50,
 		"hurryCostModifier": 20,
 		"requiredTech": "Biology",
 		"promotions": ["Medic II"],
-		"uniques": ["Personnel", "All adjacent units heal [10] HP when healing", "[-1] Sight",
+		"uniques": ["Personnel", "All adjacent units heal [+10] HP when healing", "[-1] Sight",
+			"Only available <in cities with a [Hospital]>"]
+	},
+	{
+		"name": "Mobile Clinic",
+		"unitType": "Armor", //see Wandering Doctor
+		"movement": 5,
+		"strength": 45,
+		"cost": 225,
+		"hurryCostModifier": 20,
+		"requiredTech": "Pharmaceuticals",
+		"promotions": ["Medic I", "Medic II"],
+		"uniques": ["Consumes [1] [Oil]", "Cannot attack", "Can carry [3] [Wounded] units",
+			"All adjacent units heal [+15] HP when healing",
 			"Only available <in cities with a [Hospital]>"]
 	},
 
@@ -317,7 +330,7 @@
 		"strength": 35,
 		"interceptRange": 3,
 		"cost": 4000,
-		"promotions": ["Rejuvenation"],
+		"promotions": ["Heroic Resolve"],
 		"uniques": ["Personnel", "Limited to [1] per Civilization", "Unbuildable", "Cannot be purchased",
 			"Can only attack [Military] units", "Can only attack [Civilian] units",
 			"[+20]% Strength <vs [Barbarian] units>",
@@ -328,6 +341,7 @@
 			"[+25]% Strength <starting from the [New Future era]>",
 			"[+1] Movement <starting from the [New Future era]>",
 			"[+100]% chance to intercept air attacks",
+			"[+100]% Damage when intercepting",
 			"[1] extra interceptions may be made per turn",
 			"[-100]% maintenance costs",
 			"Never appears as a Barbarian unit"]
