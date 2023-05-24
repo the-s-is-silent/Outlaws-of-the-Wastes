@@ -1,4 +1,15 @@
 [
+	//Armor
+	{
+		"name": "Conquer Terrain",
+		"prerequisites": ["Maneuver"],
+		"uniques": ["[+1] Movement", "Ignores terrain cost"],
+		"unitTypes": ["Armor"],
+		"column": 8,
+		"row": 7
+	},
+
+	//Special promotions ('abilities' or otherwise 'exclusive to one UU', granted by beliefs/ruins/policies/etc., and so on)
 	{
 		"name": "Zeal",
 		"uniques": ["[+25]% Spread Religion Strength", "Ignores terrain cost"]
@@ -42,5 +53,9 @@
 			"Can build [Fort] improvements on tiles",
 			"Can build [Trench] improvements on tiles",
 			"Uncapturable"]
+	},
+	{
+		"name": "Heroic Resolve",
+		"uniques": ["All healing effects doubled", "[+50]% XP gained from combat", "[+15]% Strength bonus for [Military] units within [2] tiles"],
 	},
 ]
