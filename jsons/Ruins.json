@@ -20,15 +20,15 @@
 
 	// Faith
 	{
-		"name": "stare into the void",
-		"notification": "We stare into the void in terror as the old gods reawaken!",
-		"uniques": ["Gain a free [Pantheon] belief", "Only available <before [75] turns>", "Hidden when religion is disabled"]
+		"name": "philosophical debate",
+		"notification": "The survivors engage in philosophical debates with us, giving us a much deeper understanding of religion! (+[faithAmount] Faith)",
+		"uniques": ["Hidden when religion is disabled", "Only available <after founding a Religion>", "Gain [100]-[150] [Faith]"]
 	},
 
 	// Population
 	{
 		"name": "found survivors (adds 1 population to all cities)",
-		"notification": "Many survivors were saved in the camp and resettled in your cities!",
+		"notification": "Many survivors were rescued from the camp and resettled in your cities!",
 		"uniques": ["[+1] population [in all cities]", "Only available <after [40] turns>"]
 	},
 
@@ -55,6 +55,11 @@
 		"name": "combat armor",
 		"notification": "Our unit finds advanced armor hidden in the camp!",
 		"uniques": ["This Unit gains the [Combat Armor] promotion"]
+	},
+	{
+		"name": "squatters willing to provide medical services for you",
+		"notification": "A [Wandering Doctor] has joined us!",
+		"uniques": ["Free [Wandering Doctor] appears"]
 	},
 	{
 		"name": "levied militia",
