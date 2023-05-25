@@ -11,10 +11,10 @@ A major expansion mod for DeCiv Redux.
 
 - New units:
   - Military support: Wandering Doctor + Mobile Clinic
-  - Scouting + Anti-Barbarian: Wasteland Patrol, Border Patrol, Expeditionary Force
-  - Hero Units (only 1 allowed per Civ): Hero of the Wastes, only available as a random camp reward
+  - Scouting: Wasteland Patrol, Border Patrol, Expeditionary Force
+  - Hero units (only 1 allowed per Civ): Hero of the Wastes, only available as a random camp reward
 
-- New buildings: Coastal Defenses, Contraband Disposal Site, Food Processing Plant, and Jeweler.
+- New buildings: Coastal Defenses, Contraband Disposal Site, Ethanol Station, Food Processing Plant, and Jeweler.
 
 - New world wonder: Statue of Remembrance.
 
@@ -22,13 +22,15 @@ A major expansion mod for DeCiv Redux.
 
 - Several new beliefs for more diverse religion customization along with buffs for a few of the weaker beliefs. However, several of the more powerful beliefs in base DeCiv Redux have been nerfed.
 
-- Tile improvement adjustments: The overpowered Settlement GI has been toned down somewhat - it no longer triggers a Culture Bomb. Tree Plantations can now be built on Hills and Swamps after discovering the appropriate tech, provided they're not on Desert or Permafrost.
+- Tile improvement adjustments:
+  - Settlements no longer trigger a Culture Bomb.
+  - Tree Plantations can now be built on Hills and Swamps after discovering the appropriate tech, provided they're not on Desert or Permafrost.
 
 ## TODO:
 
 - Restore the traditional Science Victory.
 
-- Revise the policy tree to bring down the obscene power of half of the policies (starting three, Rationalism, Constitution, Monopoly) and make the other half actually worth taking.
+- Overhaul the policy tree to bring down the obscene power of half of the policies (starting three, Rationalism, Constitution, Monopoly) and make the other half actually worth taking.
 
 - Add more new factions and City-States, along with more new unique units and buildings for the existing factions, and adjust the unique abilities of some of the existing factions.
 
