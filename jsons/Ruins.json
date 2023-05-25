@@ -57,11 +57,6 @@
 		"uniques": ["This Unit gains the [Combat Armor] promotion"]
 	},
 	{
-		"name": "squatters willing to provide medical services for you",
-		"notification": "A [Wandering Doctor] has joined us!",
-		"uniques": ["Free [Wandering Doctor] appears"]
-	},
-	{
 		"name": "levied militia",
 		"notification": "A [Militia] has joined us!",
 		"uniques": ["Free [Militia] appears"]
