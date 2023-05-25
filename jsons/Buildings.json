@@ -51,6 +51,14 @@
 		"requiredTech": "Machinery"
 	},
 	{
+		"name": "Ethanol Station",
+		"food": -1,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Consumes [2] [Alcohol]", "Provides [1] [Oil]"],
+		"requiredTech": "Biology"
+	},
+	{
 		"name": "Coastal Defenses",
 		"cityStrength": 2,
 		"cityHealth": 80,
@@ -199,6 +207,21 @@
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Congress]>",
 			"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Blue Castle Reactor",
+		"uniqueTo": "Deseret2",
+		"replaces": "Nuclear Plant",
+		"requiredResource": "Uranium",
+		"maintenance": 4,
+		"requiredBuilding": "Library",
+		"cost": 675,
+		"hurryCostModifier": 33,
+		"uniques": ["Provides [8] [Power]", "Provides [2] [Power] <after discovering [Future Power]>",
+			"[+33]% Production when constructing [Manhattan Project] wonders [in this city]",
+			"[+33]% Production when constructing [Missile] units [in this city]",
+			"Only available <in cities without a [Coal Plant]>", "Only available <in cities without a [Recycling Plant]>"]
+		"requiredTech": "Nuclear Fission"
 	},
 
 	//Adjusted buildings
