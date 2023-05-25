@@ -10,9 +10,11 @@ Unless otherwise specified, all of the following are from the Noun Project, lice
 ### Building Icons
 - Atomic Diner: [atom](https://thenounproject.com/icon/atom-1081009/) by ProSymbols
 - Bishop's Storehouse: [Storage Garage](https://thenounproject.com/icon/storage-garage-1371149/) by STBS
+- Blue Castle Reactor: [atom](https://thenounproject.com/icon/atom-2606502/) by Icon Lauk
 - Coastal Defenses: [seawall](https://thenounproject.com/icon/seawall-5503652/) by Luis Prado
 - Contraband Disposal Site: [prohibited](https://thenounproject.com/icon/prohibited-209190/) by Andrea Mazzini
 - Disciplinary Council: [court](https://thenounproject.com/icon/court-4428402/) by Eko Purnomo
+- Ethanol Station: [Corn energy](https://thenounproject.com/icon/corn-energy-1580160/) by dDara
 - [Food Processing Plant](https://thenounproject.com/icon/food-processing-plant-1877253/) by ProSymbols
 - Hexlock Chemical Company: [chemical industry](https://thenounproject.com/icon/chemical-industry-4762097/) by Azam Ishaq
 - Homeland Defense Initiative: [national defense](https://thenounproject.com/icon/national-defense-4363309/) by Yusuf Solihudin
