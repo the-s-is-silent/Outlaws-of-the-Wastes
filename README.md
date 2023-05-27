@@ -14,7 +14,7 @@ A major expansion mod for DeCiv Redux.
   - Scouting: Wasteland Patrol, Border Patrol, Expeditionary Force
   - Hero units (only 1 allowed per Civ): Hero of the Wastes, only available as a random camp reward
 
-- New buildings: Coastal Defenses, Contraband Disposal Site, Ethanol Station, Food Processing Plant, and Jeweler.
+- New buildings: Coastal Defenses, Contraband Disposal Site, Ethanol Station, Food Processing Plant, Jeweler, and Tidal Array.
 
 - New world wonder: Statue of Remembrance.
 
