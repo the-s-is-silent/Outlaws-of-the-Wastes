@@ -100,6 +100,15 @@
 		"uniques": ["Consumes [1] [Narcotics]", "[+25]% Production when constructing [Military] units [in this city]"],
 		"requiredTech": "Munitions"
 	},
+	{
+		"name": "Tidal Array",
+		"requiredBuilding": "Tidal Plant",
+		"maintenance": 0,
+		"hurryCostModifier": 20,
+		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water resource] tiles [in this city]",
+			"Provides [4] [Power]"],
+		"requiredTech": "Ocean Remediation"
+	},
 
 	//Deseret Nation unique buildings
 	{
@@ -110,8 +119,12 @@
 		"faith": 2,
 		"culture": 1,
 		"happiness": 1,
-		"uniques": ["Provides [2] [Weapons]", "Free [Living Prophet] appears", "[+15]% Natural religion spread [in all cities]",
-			"Can only be built [in capital]", "Gain a free [Bishop's Storehouse] [in this city]"]
+		"uniques": ["[+6 Culture] [in this city] <after discovering [Flight]>",
+			"Provides [2] [Weapons]",
+			"Free [Living Prophet] appears",
+			"[+15]% Natural religion spread [in all cities]",
+			"Can only be built [in capital]",
+			"Gain a free [Bishop's Storehouse] [in this city]"]
 	},
 	{
 		"name": "Convert Survivors",
@@ -130,7 +143,10 @@
 		"uniques": ["[20]% Food is carried over after population increases [in this city]",
 			"[+1 Food] [in this city] <with [Salt]>",
 			"[+1 Culture, +1 Faith] [in this city] <with [Books]>",
-			"[+1 Culture, +1 Faith] [in this city] <with [Scripture]>"]
+			"[+1 Culture, +1 Faith] [in this city] <with [Scripture]>",
+			"[-1 Production, -1 Faith] [in this city] <with [Alcohol]>",
+			"[-1 Production, -1 Faith] [in this city] <with [Narcotics]>",
+			"[-1 Production, -1 Faith] [in this city] <with [Refined Narcotics]>"]
 	},
 	{
 		"name": "Disciplinary Council",
@@ -207,6 +223,18 @@
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Congress]>",
 			"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Deseret Data Center",
+		"replaces": "Ground Control Center",
+		"uniqueTo": "Deseret2",
+		"isNationalWonder": true,
+		"cityStrength": 5,
+		"happiness": 3,
+		"uniques": ["[Personnel] units gain the [Drone Recon] promotion",
+			"Provides [2] [Encrypted Data]",
+			"Consumes [1] [Power]"],
+		"requiredTech": "Computers"
 	},
 	{
 		"name": "Blue Castle Reactor",
