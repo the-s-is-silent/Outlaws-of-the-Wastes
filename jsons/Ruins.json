@@ -66,7 +66,7 @@
 		"name": "philosophical debate",
 		"notification": "The survivors engage in philosophical debates with us, giving us a much deeper understanding of religion! (+[faithAmount] Faith)",
 		"weight": 3,
-		"uniques": ["Hidden when religion is disabled", "Only available <after founding a Religion>", "Gain [100]-[150] [Faith]"]
+		"uniques": ["Hidden when religion is disabled", "Only available <after founding a religion>", "Gain [100]-[150] [Faith]"]
 	},
 	{
 		"name": "stare into the void",
