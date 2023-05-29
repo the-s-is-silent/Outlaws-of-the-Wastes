@@ -15,6 +15,10 @@
 		"uniques": ["[+25]% Spread Religion Strength", "Ignores terrain cost"]
 	},
 	{
+		"name": "Faith Healers",
+		"uniques": ["All adjacent units heal [+10] HP when healing"]
+	},
+	{
 		"name": "Self-Repair",
 		"uniques": ["[+10] HP when healing"]
 	},
@@ -28,7 +32,7 @@
 	},
 	{
 		"name": "Oath of Vengeance",
-		"uniques": ["[+25]% Strength <when fighting units from a Civilization with more Cities than you>"]
+		"uniques": ["[+20]% Strength <when fighting units from a Civilization with more Cities than you>"]
 	},
 	{
 		"name": "Combat Armor",
