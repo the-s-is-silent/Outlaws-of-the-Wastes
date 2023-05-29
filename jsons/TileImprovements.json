@@ -21,6 +21,25 @@
 		],
 		"shortcutKey": "T"
 	},
+	{
+		"name": "Artificial atoll",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"turnsToBuild": 10,
+		"food": 1,
+		"production": 2,
+		"culture": 1,
+		"happiness": 1,
+		"requiredTech": "Ocean Remediation",
+		"uniques": [
+			"Food source",
+			"Natural tile",
+			"Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "A"
+	}
 
 	//Great Improvements
 	{
