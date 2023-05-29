@@ -90,9 +90,9 @@
 		"name": "Faith Healers",
 		"type": "Follower",
 		"uniques": ["All newly-trained [non-air] units [in cities following this religion] receive the [Faith Healers] promotion",
-			"[All] Units adjacent to this city heal [+20] HP when healing",
-			"[+2 Faith] from every [Hospital]",
-			"[+2 Faith] from every [Medical Lab]"]
+			"[All] Units adjacent to this city heal [+20] HP per turn when healing",
+			"[+1 Food, +2 Faith] from every [Hospital]",
+			"[+1 Food, +2 Faith] from every [Medical Lab]"]
 	},
 	{
 		"name": "Isolationism",
