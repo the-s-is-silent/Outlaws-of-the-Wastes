@@ -10,6 +10,7 @@ A major expansion mod for DeCiv Redux.
 - Three new national projects tied to the starting three policy trees to aid all of the factions as they try to survive in the early-game.
 
 - New units:
+  - Civilian: Seastead Vessel
   - Military support: Wandering Doctor + Mobile Clinic
   - Scouting: Wasteland Patrol, Border Patrol, Expeditionary Force
   - Hero units (only 1 allowed per Civ): Hero of the Wastes, only available as a random camp reward
@@ -23,8 +24,9 @@ A major expansion mod for DeCiv Redux.
 - Several new beliefs for more diverse religion customization along with buffs for a few of the weaker beliefs. However, several of the more powerful beliefs in base DeCiv Redux have been nerfed.
 
 - Tile improvement adjustments:
+  - A new tile improvement, the Artificial atoll, has been added, available after discovering Ocean Remediation.
   - Settlements no longer trigger a Culture Bomb.
-  - Tree Plantations can now be built on Hills and Swamps after discovering the appropriate tech, provided they're not on Desert or Permafrost.
+  - Tree Plantations can now be built on Hills and Swamps after discovering Land Remediation, provided they're not on Desert or Permafrost.
 
 ## TODO:
 
