@@ -1,4 +1,20 @@
 [
+	//Civilian
+	{
+		"name": "Seastead Vessel",
+		"unitType": "Civilian Water",
+		"movement": 6,
+		"cost": 150,
+		"hurryCostModifier": 20,
+		"requiredTech": "Computers",
+		"uniques": ["May create improvements on water resources",
+			"Can build [Artificial atoll] improvements on tiles",
+			"Gain [5] [Gold] <upon ending a turn in a [Bioculture] tile>",
+			"Gain [5] [Gold] <upon ending a turn in a [Modular island] tile>",
+			"Gain [5] [Gold] <upon ending a turn in a [Artificial atoll] tile>",
+			"[-100]% maintenance costs"]
+	},
+
 	//Support units
 	{
 		"name": "Wandering Doctor",
