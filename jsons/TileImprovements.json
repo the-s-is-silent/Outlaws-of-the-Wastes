@@ -29,7 +29,7 @@
 		"production": 2,
 		"culture": 1,
 		"happiness": 1,
-		"requiredTech": "Ocean Remediation",
+		"techRequired": "Ocean Remediation",
 		"uniques": [
 			"Food source",
 			"Natural tile",
