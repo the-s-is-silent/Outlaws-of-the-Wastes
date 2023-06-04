@@ -15,7 +15,7 @@
 		"uniques": ["[+25]% Spread Religion Strength", "Ignores terrain cost"]
 	},
 	{
-		"name": "Faith Healers",
+		"name": "Healing Hands",
 		"uniques": ["All adjacent units heal [+10] HP when healing"]
 	},
 	{
