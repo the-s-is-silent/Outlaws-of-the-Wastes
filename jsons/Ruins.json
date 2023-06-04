@@ -22,7 +22,7 @@
 	{
 		"name": "recover old world technology",
 		"notification": "We have recovered some old world technological devices for study! ([+scienceAmount] science)",
-		"weight": 3,
+		"weight": 2,
 		"uniques": ["Gain [50]-[75] [Science] <before the [Neofeudal era]>",
 			"Gain [100]-[150] [Science] <starting from the [Neofeudal era]> <before the [Industrial era]>",
 			"Gain [200]-[300] [Science] <starting from the [Industrial era]>"]
@@ -110,7 +110,7 @@
 		"notification": "The survivors trained us in their ways of combat!",
 		"weight": 4,
 		"uniques": ["This Unit gains [15] XP"]
-	}
+	},
 	{
 		"name": "infernal training",
 		"notification": "Our unit experiences infernal training!",
