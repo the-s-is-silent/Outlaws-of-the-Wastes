@@ -12,7 +12,7 @@
 		"name": "Wasteland Surveillance Initiative",
 		"cost": 50,
 		"isNationalWonder": true,
-		"uniques": ["Can only be built [in capital]", "[+1] Sight <for [{Military} {Land}] units>", "[Scout] units gain the [Survivalism] promotion",
+		"uniques": ["Can only be built [in capital]", "[+1] Sight <for [Scout] units>", "[Scout] units gain the [Survivalism] promotion",
 			"Free [Wasteland Patrol] appears", "Only available <after adopting [Expansionism]>"],
 		"requiredTech": "Construction"
 	},
@@ -152,8 +152,8 @@
 		"name": "Disciplinary Council",
 		"replaces": "Prison Camp",
 		"uniqueTo": "Deseret2",
-		"maintenance": 3,
-		"cost": 50,
+		"maintenance": 2,
+		"cost": 20,
 		"uniques": ["Remove extra unhappiness from annexed cities",
 			"Can only be built [in annexed cities]",
 			"Only available <in cities without a [Listening Post]>",
@@ -162,7 +162,7 @@
 		"hurryCostModifier": -50
 	},
 	{
-		"name": "Parish School", //I don't like the concept of this one (if anything, it should be a Public School replacement) and want to replace it, but can't figure out what to replace it with
+		"name": "Cathedral School", //I don't like the concept of this one (if anything, it should be a Public School replacement) and want to replace it, but can't figure out what to replace it with
 		"replaces": "Work Camp",
 		"uniqueTo": "Deseret2",
 		"percentStatBonus": {"faith": 25},
@@ -172,8 +172,10 @@
 		"specialistSlots": {"Administrator": 1},
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["[+1 Science, +1 Faith] [in this city] <with [Power]>", "[+1 Happiness] [in this city] <after adopting [Theocracy Complete]>",
-			"Consumes [1] [Slaves]", "Only available <with [Slaves]>"]
+		"uniques": ["[+1] population [in this city]",
+			"[+1 Science, +1 Faith] [in this city] <with [Power]>",
+			"[+1 Happiness] [in this city] <after adopting [Voting Rights]>",
+			"Consumes [1] [Slaves]", "Only available <with [Slaves]>", "Unsellable"],
 		"requiredTech": "Education"
 	},
 	{
@@ -248,8 +250,119 @@
 		"uniques": ["Provides [8] [Power]", "Provides [2] [Power] <after discovering [Future Power]>",
 			"[+33]% Production when constructing [Manhattan Project] wonders [in this city]",
 			"[+33]% Production when constructing [Missile] units [in this city]",
-			"Only available <in cities without a [Coal Plant]>", "Only available <in cities without a [Recycling Plant]>"]
+			"Only available <in cities without a [Coal Plant]>", "Only available <in cities without a [Recycling Plant]>"],
 		"requiredTech": "Nuclear Fission"
+	},
+
+	//Camelot unique buildings
+	{
+		"name": "PINDAR Station",
+		"isNationalWonder": true,
+		"uniqueTo": "Camelot Foundation",
+		"replaces": "Bomb Shelter",
+		"food": 2,
+		"production": 3,
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"science": 3,
+		"gold": 1,
+		"culture": 1,
+		"cost": 1,
+		"uniques": ["Indicates the capital city", "Population loss from nuclear attacks [-25]% [in this city]",
+			"Gain a free [Food Store] [in this city]"]
+	},
+	{
+		"name": "Stone of Ages",
+		"uniqueTo": "Camelot Foundation",
+		"isWonder": true,
+		"culture": 2,
+		"faith": 1,
+		"happiness": 1,
+		"cost": 1,
+		"uniques": ["[+6 Culture] [in this city] <after discovering [Flight]>",
+			"[+10]% [Production] when constructing [All] units [in this city]",
+			"[2] free [Knight] units appear",
+			"Can only be built [in capital]",
+			"Gain a free [Sangreal Vault] [in this city]",
+			"Gain a free [Riding Arena] [in this city]"]
+		//Quote TBD
+	},
+	{
+		"name": "Sangreal Vault",
+		"replaces": "Shrine",
+		"uniqueTo": "Camelot Foundation",
+		"science": 1,
+		"faith": 1,
+		"cost": 40,
+		"requiredTech": "Secrets of the Past",
+		"uniques": ["Hidden when religion is disabled", "[+1 Science, +1 Faith] [in this city] <with [Artifacts]>"]
+	},
+	{
+		"name": "Riding Arena",
+		"replaces": "Stable",
+		"uniqueTo": "Camelot Foundation",
+		"requiredNearbyImprovedResources": ["Horses"],
+		"culture": 1,
+		"happiness": 1,
+		"cost": 50,
+		"hurryCostModifier": -25,
+		"uniques": ["Enables construction of [Mounted] units",
+			"New [Mounted] units begin with [15] Experience [in this city]",
+			"[+2 Production] from [Horses] tiles [in this city]"],
+		"requiredTech": "Redomestication"
+	},
+	{
+		"name": "Constabulary",
+		"replaces": "Prison Camp",
+		"uniqueTo": "Camelot Foundation",
+		"maintenance": 2,
+		"cost": 20,
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			"Can only be built [in annexed cities]",
+			"Only available <in cities without a [Listening Post]>",
+			"Destroyed when the city is captured"],
+		//Should add defense against spies once Espionage is implemented
+		"requiredTech": "Construction",
+		"hurryCostModifier": -50
+	},
+	{
+		"name": "Parish School", //would rather not copy the Deseret method for the Camelot UB replacement
+		"replaces": "Work Camp",
+		"uniqueTo": "Camelot Foundation",
+		"specialistSlots": {"Scientist": 1},
+		"science": 1,
+		"faith": 1,
+		"happiness": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1] population [in this city]",
+			"[+2 Faith] from every [Scientist] [in this city]",
+			"[+1 Happiness] [in this city] <after adopting [Voting Rights]>",
+			"Consumes [1] [Slaves]", "Only available <with [Slaves]>", "Unsellable"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "The Round Table",
+		"replaces": "Congress",
+		"uniqueTo": "Camelot Foundation",
+		"cost": 150,
+		"requiredTech": "Civil Service",
+		"uniques": ["Also replaces the Council",
+			"[+1 Science, +1 Culture] per [4] population [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"[+5]% Production when constructing [All] buildings [in all cities connected to capital]",
+			"[+33]% [Production] [in this city] <after adopting [Planned Economy]>",
+			"[+33]% [Gold] [in this city] <after adopting [Monopoly]>",
+			"[+25]% [Science] [in this city] <after adopting [Technocracy]>",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Avalon Council",
+		"replaces": "Council",
+		"uniqueTo": "Camelot Foundation",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
 	},
 
 	//Adjusted buildings
@@ -273,8 +386,10 @@
 		"specialistSlots": {"Scientist": 1},
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["[+2 Science] [in this city] <with [Power]>", "[+1 Happiness] [in this city] <after adopting [Technocracy]>",
-			"Consumes [1] [Slaves]", "Only available <with [Slaves]>"]
+		"uniques": ["[+1] population [in this city]",
+			"[+2 Science] [in this city] <with [Power]>",
+			"[+1 Happiness] [in this city] <after adopting [Technocracy]>",
+			"Consumes [1] [Slaves]", "Only available <with [Slaves]>", "Unsellable"],
 		"requiredTech": "Education"
 	},
 	{
@@ -294,7 +409,7 @@
 		"replaces": "Monument",
 		"culture": 2,
 		"cost": 10,
-		"hurryCostModifier": 40,
+		"hurryCostModifier": 5,
 		"uniques": ["New [Military] units begin with [30] Experience [in this city]"]
 	},
 	{
@@ -303,7 +418,7 @@
 		"replaces": "Monument",
 		"culture": 2,
 		"cost": 10,
-		"hurryCostModifier": 40,
+		"hurryCostModifier": 5,
 		"uniques": ["Reveals the entire map", "Destroyed when the city is captured", "Will not be displayed in Civilopedia"]
 	},
 	{
@@ -331,18 +446,6 @@
 		"hurryCostModifier": 5,
 		"requiredTech": "Trade",
 		"uniques": ["[+1 Gold] from [Food source] tiles [in this city]", "Provides [2] [Soft Drinks]"]
-	},
-	{
-		"name": "Neo-Arthurian Court",
-		"replaces": "Walls",
-		"uniqueTo": "Camelot Foundation",
-		"cityStrength": 5,
-		"cityHealth": 100,
-		"percentStatBonus": {"science": 25, "culture": 25},
-		"cost": 10,
-		"hurryCostModifier": 0,
-		"uniques": ["Gain a free [Stable] [in this city]", "Destroyed when the city is captured"],
-		"requiredTech": "Secrets of the Past"
 	},
 	{
 		"name": "Refurbished Textile Mill",
