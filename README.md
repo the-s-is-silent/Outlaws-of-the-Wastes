@@ -7,9 +7,12 @@ A major expansion mod for DeCiv Redux.
 
 - Deseret Nation is now a playable faction. Six new City-States have been added, one of which is a preview for a planned new faction.
 
+- New faction: Camelot Foundation, a constitutional republic arising from what's left of Wales, England and northern France.
+
 - Three new national projects tied to the starting three policy trees to aid all of the factions as they try to survive in the early-game.
 
 - New units:
+  - Barbarian: Suicider + Killdozer
   - Civilian: Seastead Vessel
   - Military support: Wandering Doctor + Mobile Clinic
   - Scouting: Wasteland Patrol, Border Patrol, Expeditionary Force
@@ -34,6 +37,6 @@ A major expansion mod for DeCiv Redux.
 
 - Overhaul the policy tree to bring down the obscene power of half of the policies (starting three, Rationalism, Constitution, Monopoly) and make the other half actually worth taking.
 
-- Add more new factions and City-States, along with more new unique units and buildings for the existing factions, and adjust the unique abilities of some of the existing factions.
+- Add more new factions and City-States, along with more new unique units and buildings for the existing factions (making sure all existing factions get at least two new unique components), and adjust the unique abilities of some of the existing factions.
 
 - And, of course, the bane of all ambitious modders who have no artistic talent: adding sprites for everything.
