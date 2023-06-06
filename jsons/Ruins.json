@@ -139,13 +139,13 @@
 		"name": "levied militia",
 		"notification": "A [Militia] has joined us!",
 		"weight": 2,
-		"uniques": ["Free [Militia] appears"]
+		"uniques": ["Free [Militia] appears", "Only available <after [30] turns> <before [120] turns>"]
 	},
 	{
 		"name": "levied patrols",
 		"notification": "A [Wasteland Patrol] has joined us!",
 		"weight": 2,
-		"uniques": ["Free [Wasteland Patrol] appears"]
+		"uniques": ["Free [Wasteland Patrol] appears", "Only available <before [80] turns>"]
 	},
 	{
 		"name": "held out for a hero",
@@ -166,6 +166,12 @@
 		"notification": "The camp contains maps of the nearby area!",
 		"weight": 2,
 		"uniques": ["From a randomly chosen tile [5] tiles away, reveal tiles up to [5] tiles away with [80]% chance"]
+	},
+	{
+		"name": "reveal nearby bonus resources",
+		"notification": "You recovered notes of vital resources!",
+		"weight": 2,
+		"uniques": ["Reveal up to [All] [Bonus resource] within a [10] tile radius", "Only available <before [75] turns>"]
 	},
 
 	// Deletions
