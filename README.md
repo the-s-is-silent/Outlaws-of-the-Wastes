@@ -5,7 +5,7 @@ A major expansion mod for DeCiv Redux.
 
 - Barbarians are stronger and spawn more frequently, but give greater rewards for clearing their encampments. (Credit for this concept goes to amfauzn and their "The Barbarians" mod.) In addition to better ruins bonuses, the survivor camp spawn rate is also increased, so players actually have a chance at finding at least one camp in most games.
 
-- Deseret Nation is now a playable faction. Six new City-States have been added, one of which is a preview for a planned new faction.
+- Deseret Nation is now a playable faction. Five new City-States have been added.
 
 - New faction: Camelot Foundation, a constitutional republic arising from what's left of Wales, England and northern France.
 
