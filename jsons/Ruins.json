@@ -118,6 +118,12 @@
 		"uniques": ["This Unit gains [30] XP"]
 	},
 	{
+		"name": "medical assistance",
+		"notification": "The survivors gave us medical assistance!",
+		"weight": 2,
+		"uniques": ["Heal this unit by [50] HP", "Only available <when below [50] HP>"]
+	},
+	{
 		"name": "advanced weaponry for your explorer",
 		"notification": "Our unit finds advanced weaponry hidden in the camp!",
 		"weight": 3,
@@ -127,25 +133,27 @@
 		"name": "prospector equipment",
 		"notification": "Our unit finds prospecting tools hidden in the camp!",
 		"weight": 3,
-		"uniques": ["This Unit gains the [Prospector] promotion"]
+		"uniques": ["This Unit gains the [Prospector] promotion", "Only available <for units without [Prospector]>"]
 	},
 	{
 		"name": "combat armor",
 		"notification": "Our unit finds advanced armor hidden in the camp!",
 		"weight": 2,
-		"uniques": ["This Unit gains the [Combat Armor] promotion"]
+		"uniques": ["This Unit gains the [Combat Armor] promotion", "Only available <for units without [Combat Armor]>"]
 	},
 	{
 		"name": "levied militia",
 		"notification": "A [Militia] has joined us!",
 		"weight": 2,
-		"uniques": ["Free [Militia] appears", "Only available <after [30] turns> <before [120] turns>"]
+		"uniques": ["Free [Militia] appears", "Only available <after [30] turns> <before [120] turns>"],
+		"excludedDifficulties": ["Immortal", "Deity"]
 	},
 	{
 		"name": "levied patrols",
 		"notification": "A [Wasteland Patrol] has joined us!",
 		"weight": 2,
-		"uniques": ["Free [Wasteland Patrol] appears", "Only available <before [80] turns>"]
+		"uniques": ["Free [Wasteland Patrol] appears", "Only available <before [80] turns>"],
+		"excludedDifficulties": ["King", "Emperor", "Immortal", "Deity"]
 	},
 	{
 		"name": "held out for a hero",
