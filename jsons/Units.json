@@ -62,7 +62,7 @@
 			"[+50]% Strength <vs [Barbarian] units>",
 			"[+33]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs cities>",
-			"Only available <in cities with a [Stable]>"]
+			"Only available <in cities with a [Stable]>"],
 		"attackSound": "shot"
 	},
 	{
@@ -83,7 +83,7 @@
 			"[+25]% Strength <when fighting in [Friendly Land] tiles>",
 			"[-25]% Strength <when fighting in [Foreign Land] tiles>",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"Only available <in cities with a [Stable]>"]
+			"Only available <in cities with a [Stable]>"],
 		"attackSound": "shot"
 	},
 	{
@@ -101,7 +101,7 @@
 		"requiredResource": "Weapons",
 		"promotions": ["Gas Mask", "Skirmish", "Reconnaissance I", "Amphibious"],
 		"uniques": ["Personnel", "Never appears as a Barbarian unit", "Can move after attacking",
-			"May Paradrop up to [10] tiles from inside friendly territory"]
+			"May Paradrop up to [10] tiles from inside friendly territory"],
 		"attackSound": "shot"
 	},
 
@@ -339,7 +339,6 @@
 		"cost": 100,
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Tank",
-		"obsoleteTech": "Combined Arms",
 		"uniques": ["[+33]% Strength <vs [Low Tech] units> <when attacking>",
 			"[+33]% Strength <vs [Personnel] units> <when attacking>",
 			"[-33]% Strength <vs cities> <when attacking>",
@@ -423,7 +422,7 @@
 		"name": "Hero of the Wastes",
 		"unitType": "Scrapper",
 		"movement": 2,
-		"strength": 35,
+		"strength": 36,
 		"interceptRange": 3,
 		"cost": 500,
 		"promotions": ["Heroic Resolve"],
@@ -440,7 +439,7 @@
 			"[+100]% Damage when intercepting",
 			"[1] extra interceptions may be made per turn",
 			"[-100]% maintenance costs",
-			"Never appears as a Barbarian unit"]
+			"Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	}
 ]
