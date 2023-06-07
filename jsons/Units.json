@@ -4,14 +4,11 @@
 		"name": "Seastead Vessel",
 		"unitType": "Civilian Water",
 		"movement": 6,
-		"cost": 150,
+		"cost": 200,
 		"hurryCostModifier": 20,
-		"requiredTech": "Computers",
+		"requiredTech": "Ocean Remediation",
 		"uniques": ["May create improvements on water resources",
 			"Can build [Artificial atoll] improvements on tiles",
-			"Gain [5] [Gold] <upon ending a turn in a [Bioculture] tile>",
-			"Gain [5] [Gold] <upon ending a turn in a [Modular island] tile>",
-			"Gain [5] [Gold] <upon ending a turn in a [Artificial atoll] tile>",
 			"[-100]% maintenance costs"]
 	},
 
@@ -27,7 +24,8 @@
 		"upgradesTo": "Mobile Clinic",
 		"promotions": ["Medic II"],
 		"uniques": ["Personnel", "All adjacent units heal [+10] HP when healing", "[-1] Sight",
-			"Only available <in cities with a [Hospital]>"]
+			"Only available <in cities with a [Hospital]>"],
+		"attackSound": "shot"
 	},
 	{
 		"name": "Mobile Clinic",
@@ -117,7 +115,8 @@
 		"requiredTech": "Steel",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Militia",
-		"uniques": ["Low Tech", "[+50]% Strength <vs [Low Tech] units>", "Earn [10]% of killed [Military] unit's [Cost] as [Faith]"],
+		"uniques": ["Low Tech", "[+50]% Strength <vs [Low Tech] units>",
+			"Earn [10]% of killed [Military] unit's [Cost] as [Faith]"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -309,7 +308,8 @@
 		"requiredTech": "Steel",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Militia",
-		"uniques": ["Low Tech", "[+50]% Strength <vs [Low Tech] units>", "Earn [100]% of killed [Military] unit's [Strength] as [Faith]",
+		"uniques": ["Low Tech", "[+50]% Strength <vs [Low Tech] units>",
+			"Earn [100]% of killed [Military] unit's [Strength] as [Faith]",
  			"Free [Hawkman Brave] appears <upon being defeated> <with [33]% chance>"],
 		"attackSound": "metalhit"
 	},
