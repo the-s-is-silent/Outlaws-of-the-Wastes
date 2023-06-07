@@ -111,8 +111,7 @@
 		"name": "Trust the Science",
 		"type": "Follower",
 		"uniques": ["[+1 Science, +1 Faith] from every [University] <in cities with at least [5] [Followers of this Religion]>",
-			"[+1 Science, +1 Faith] from every [Public School] <in cities with at least [5] [Followers of this Religion]>",
-			"[+2 Science, +2 Faith] from every [Academy]"]
+			"[+1 Science, +1 Faith] from every [Public School] <in cities with at least [5] [Followers of this Religion]>"]
 	},
 
 //Founder
@@ -125,12 +124,6 @@
 		"name": "Esotericism",
 		"type": "Founder",
 		"uniques": ["[+1 Faith] from every [4] global followers [in all cities]"]
-	},
-	{
-		"name": "Primacy",
-		"type": "Founder",
-		"uniques": ["[Faith] cost of purchasing items in cities [-20]%",
-			"[+3 Production, +3 Food, +3 Gold, +3 Culture, +3 Faith] from every [Grand Monastery]"]
 	},
 
 //Enhancer
@@ -171,11 +164,5 @@
 		"name": "Religious Troubadours",
 		"type": "Enhancer",
 		"uniques": ["[+3 Faith] from each Trade Route", "[+50]% Natural religion spread [in all cities connected to capital]"]
-	},
-	{
-		"name": "Religious Unity",
-		"type": "Enhancer",
-		"uniques": ["[+100]% Natural religion spread [in City-State cities]",
-			"Resting point for Influence with City-States following this religion [+15]"] //merged old Primacy effect with this
 	}
 ]
