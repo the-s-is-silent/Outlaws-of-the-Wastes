@@ -3,7 +3,8 @@
 	{
 		"name": "Atomic Children",
 		"type": "Pantheon",
-		"uniques": ["[+2 Culture, +3 Faith] from every [Fallout]", "[+2 Culture, +3 Faith] from every [Toxic Waste]",
+		"uniques": ["[+2 Culture, +3 Faith] from every [Fallout]",
+			"[+2 Culture, +3 Faith] from every [Toxic Waste]",
 			"[+2 Culture, +2 Faith] from every [Uranium]"]
 	},
 	{
@@ -51,7 +52,7 @@
 		"type": "Pantheon",
 		"uniques": ["[-25]% Culture cost of natural border growth [in this city]",
 			"[-25]% Gold cost of acquiring tiles [in this city]",
-			"[+1 Culture, +1 Faith] from every [National Wonder]"]
+			"[+1 Culture, +2 Faith] from every [National Wonder]"]
 	},
 	{
 		"name": "Respect the Wind",
@@ -65,6 +66,12 @@
 		"uniques": ["[+1 Culture] from every [Forest] <within [2] tiles of a [City center]>",
 			"[+1 Culture] from every [Jungle] <within [2] tiles of a [City center]>",
 			"[+1 Culture] from every [Sunken Ruins]"]
+	},
+	{
+		"name": "Sacrificial Fire",
+		"type": "Pantheon",
+		"uniques": ["[+10]% Production when constructing [{Military} {Land}] units [in this city]",
+			"Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
 	},
 	{
 		"name": "Strength of the Earth",
@@ -91,8 +98,8 @@
 		"type": "Follower",
 		"uniques": ["All newly-trained [non-air] units [in cities following this religion] receive the [Healing Hands] promotion",
 			"[All] Units adjacent to this city heal [+20] HP per turn when healing",
-			"[+1 Food, +2 Faith] from every [Hospital]",
-			"[+1 Food, +2 Faith] from every [Medical Lab]"]
+			"[+2 Faith] from every [Hospital]",
+			"[+2 Faith] from every [Medical Lab]"]
 	},
 	{
 		"name": "Isolationism",
@@ -153,16 +160,19 @@
 	{
 		"name": "Power of Light",
 		"type": "Enhancer",
-		"uniques": ["[+1] Sight <for [All] units>", "Earn [25]% of the damage done to [Military] units as [Faith]"]
+		"uniques": ["[+1] Sight <for [All] units>",
+			"Earn [25]% of the damage done to [Military] units as [Faith]"]
 	},
 	{
 		"name": "Religious Texts",
 		"type": "Enhancer",
-		"uniques": ["[+25]% Natural religion spread [in all cities]", "[+25]% Natural religion spread [in all cities] <after discovering [Education]>"]
+		"uniques": ["[+25]% Natural religion spread [in all cities]",
+			"[+25]% Natural religion spread [in all cities] <after discovering [Education]>"]
 	},
 	{
 		"name": "Religious Troubadours",
 		"type": "Enhancer",
-		"uniques": ["[+3 Faith] from each Trade Route", "[+50]% Natural religion spread [in all cities connected to capital]"]
+		"uniques": ["[+3 Faith] from each Trade Route",
+			"[+50]% Natural religion spread [in all cities connected to capital]"]
 	}
 ]
