@@ -9,8 +9,6 @@ A major expansion mod for DeCiv Redux.
 
 - New faction: Camelot Foundation, a constitutional republic arising from what's left of Wales, England and northern France.
 
-- Three new national projects tied to the starting three policy trees to aid all of the factions as they try to survive in the early-game.
-
 - New units:
   - Barbarian: Suicider + Killdozer
   - Civilian: Seastead Vessel
@@ -18,9 +16,13 @@ A major expansion mod for DeCiv Redux.
   - Scouting: Wasteland Patrol, Border Patrol, Expeditionary Force
   - Hero units (only 1 allowed per Civ): Hero of the Wastes, only available as a random camp reward
 
-- New buildings: Coastal Defenses, Contraband Disposal Site, Ethanol Station, Food Processing Plant, Jeweler, and Tidal Array.
+- New buildings: Coastal Defenses, Contraband Disposal Site, Ethanol Station, Food Processing Plant, Interpretative Center, Jeweler, and Tidal Array.
 
 - New world wonder: Statue of Remembrance.
+
+- New national wonders:
+  - Homeland Defense / Wasteland Surveillance / Raider Suppression Initiatives, each locked behind a starting policy and designed to help each faction survive the early-game.
+  - Naval War College, the naval counterpart to the Military Academy, but cannot exist in the same city as the Military Academy.  
 
 - Some of the factions have gained a new UU or UB, or had one of their UBs adjusted.
 
