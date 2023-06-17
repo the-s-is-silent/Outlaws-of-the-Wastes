@@ -4,7 +4,7 @@
 		"name": "Deseret2", //Deseret Nation in playable form
 		"leaderName": "Keith Graham",
 		"adjective": ["Deseretian"],
-		"startBias": ["Hills"],
+		"startBias": ["Hill"],
 		"preferredVictoryType": "Cultural",
 		"favoredReligion": "Mormonism",
 
@@ -53,7 +53,7 @@
 
 		// "startIntroPart1": "",
 		// "startIntroPart2": "",
-		"declaringWar": "Your days of oppressing the common folk are at an end.",
+		"declaringWar": "Your days of oppressing the common people are at an end.",
 		"attacked": "I see that peaceful reform is not possible. Inciting revolution is our only recourse now.",
 		"defeated": "Like my legendary namesake, I shall retire to my last sanctuary, until the day comes when the people need me once more.",
 		"introduction": "Hail, stranger. I am Arthur, and I welcome you to Camelot, the last redoubt of liberty. Let us set aside the burdens of the past and forge a brighter future together.",
@@ -74,8 +74,8 @@
 			"Starts with [Constitution] adopted",
 			"[-2 Science] [in all cities] <before discovering [Education]>",
 			"Cannot build [Enslaved] units"],
-		"cities": ["Avalon", "New Troy", "Tristram", "Laundsallyn", "Gyanhumara", "Pellaeon", "Ambrose", "Ragnell", "Launfal", "Cambria", 
-			"Westmarch", "Sutcliff", "Amoracchius", "Alderley", "Alba Sarum", "Glatissante"],
+		"cities": ["Avalon", "New Troy", "Tristram", "Danwyn", "Gwalchmai", "Laundsallyn", "Gyanhumara", "Pellaeon", "Ambrose",
+			"Cambria", "Sutcliff", "Amoracchius", "Alderley", "Alba Sarum", "Glatissante"],
 		"spyNames": ["Merlin", "Elaine", "Vivian", "Randall", "Hector", "Owain", "Anna", "Lyonesse", "Tennyson", "Lockheed"]
 	},
 
@@ -112,8 +112,9 @@
 	},
 	{
 		"name": "Defiance",
-		"adjective": ["Defiant"],
+		"adjective": ["Defiant Few"],
 		"cityStateType": "Weapons",
+		"startBias": ["Jungle"],
 		"style": "Corporate",
 		"uniques": ["Starts with [Rifling]", "Starts with [Replaceable Parts]", "Starts with [Computers]",
 			"Starts with [Incentivization]", "Starts with [Artificial Intelligence]",
