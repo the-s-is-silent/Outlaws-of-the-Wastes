@@ -70,7 +70,7 @@
 		"strength": 32,
 		"rangedStrength": 35,
 		"range": 1,
-		"interceptRange": 3,
+		"interceptRange": 1,
 		"cost": 150,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Gyroscopes",
@@ -91,7 +91,7 @@
 		"strength": 36,
 		"rangedStrength": 40,
 		"range": 2,
-		"interceptRange": 3,
+		"interceptRange": 2,
 		"cost": 225,
 		"requiredTech": "Replaceable Parts",
 		"obsoleteTech": "Energy Weapons",
@@ -99,6 +99,7 @@
 		"requiredResource": "Weapons",
 		"promotions": ["Gas Mask", "Skirmish", "Reconnaissance I", "Amphibious"],
 		"uniques": ["Personnel", "Never appears as a Barbarian unit", "Can move after attacking",
+			"[+33]% chance to intercept air attacks",
 			"May Paradrop up to [10] tiles from inside friendly territory"],
 		"attackSound": "shot"
 	},
@@ -112,7 +113,7 @@
 		"movement": 2,
 		"strength": 27,
 		"cost": 50,
-		"requiredTech": "Steel",
+		"requiredTech": "Iron Working",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Militia",
 		"uniques": ["Low Tech", "[+50]% Strength <vs [Low Tech] units>",
@@ -131,9 +132,9 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Exo-Trooper",
 		"hurryCostModifier": 20,
+		"requiredResource": "Weapons",
 		"promotions": ["Gas Mask"],
-		"uniques": ["Personnel", "Consumes [1] [Weapons]",
-			"Earn [10]% of killed [Military] unit's [Cost] as [Faith]",
+		"uniques": ["Personnel", "Earn [10]% of killed [Military] unit's [Cost] as [Faith]",
 			"Gain [2] [Culture] <upon ending a turn in a [City center] tile>"],
 		"attackSound": "machinegun"
 	},
@@ -213,7 +214,8 @@
 		"requiredTech": "Redomestication",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Hussar",
-		"uniques": ["Low Tech", "Mounted", "[+50]% Strength <vs [Low Tech] units>",
+		"uniques": ["Low Tech", "Mounted",
+			"[+50]% Strength <vs [Low Tech] units>", "[+50]% Strength <vs [Mounted] units>",
 			"No defensive terrain bonus", "Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
 			"Only available <in cities with a [Stable]>"],
@@ -257,6 +259,26 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Brownsteel Knight",
+		"unitType": "Scrapper",
+		"replaces": "Hussar",
+		"uniqueTo": "Camelot Foundation",
+		"movement": 4,
+		"strength": 38,
+		"interceptRange": 1,
+		"cost": 75,
+		"requiredTech": "Redomestication",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Weapons",
+		"uniques": ["Personnel", "Mounted",
+			"No defensive terrain bonus", "Can move after attacking",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"Only available <in cities with a [Stable]>"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
 		"name": "Excalibur Knight",
 		"unitType": "Scrapper",
 		"replaces": "Cavalry",
@@ -296,6 +318,38 @@
 		"attackSound": "nuke"
 	},
 
+	//Proklyatyye unique units
+	{
+		"name": "Super Mutant",
+		"unitType": "Scrapper",
+		"replaces": "Exo-Trooper",
+		"uniqueTo": "Proklyatyye",
+		"movement": 2,
+		"strength": 60,
+		"interceptRange": 1,
+		"cost": 280,
+		"requiredTech": "Nuclear Fission",
+		"hurryCostModifier": 20,
+		"uniques": ["Personnel", "Never appears as a Barbarian unit",
+			"Only available <if [Atomgrad Project] is constructed>",
+			"Consumes [2] [Uranium]", "Consumes [1] [Weapons]"],
+		"promotions": ["Forage", "Powered Armor", "Gas Mask"],
+		"attackSound": "machinegun"
+	},
+
+	//Great People
+	{
+		"name": "Legate",
+		"replaces": "Great General",
+		"uniqueTo": "Crimson Legion",
+		"unitType": "Civilian",
+		"uniques": ["Can instantly construct a [Outpost] improvement <by consuming this unit>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [45] Influence",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+
 	//City-State units
 	{
 		"name": "Hawkman Brave",
@@ -327,7 +381,7 @@
 		"hurryCostModifier": 20,
 		"promotions": ["Gas Mask", "Forage", "Prospector", "Drone Recon"],
 		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
-		"attackSound": "machinegun"
+		"attackSound": "phasers"
 	},
 	{
 		"name": "Mounted Railgun",
@@ -428,7 +482,7 @@
 		"promotions": ["Heroic Resolve"],
 		"uniques": ["Personnel", "Limited to [1] per Civilization", "Unbuildable", "Cannot be purchased",
 			"Can only attack [Military] units", "Can only attack [Civilian] units",
-			"[+20]% Strength <vs [Barbarian] units>",
+			"[+25]% Strength <vs [Barbarian] units>",
 			"[+100]% Strength <vs [Purge Robot] units>",
 			"[+25]% Strength <starting from the [Rediscovering era]>",
 			"[+25]% Strength <starting from the [Rebuilding era]>",
@@ -437,7 +491,6 @@
 			"[+1] Movement <starting from the [New Future era]>",
 			"[+100]% chance to intercept air attacks",
 			"[+100]% Damage when intercepting",
-			"[1] extra interceptions may be made per turn",
 			"[-100]% maintenance costs",
 			"Never appears as a Barbarian unit"],
 		"attackSound": "shot"

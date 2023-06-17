@@ -4,26 +4,55 @@
 		"name": "Homeland Defense Initiative",
 		"cost": 50,
 		"isNationalWonder": true,
-		"uniques": ["Can only be built [in capital]", "[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
-			"[+10]% City Strength from defensive buildings", "Only available <after adopting [Adaptation]>"],
+		"uniques": ["Can only be built [in capital]",
+			"[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+			"[+10]% City Strength from defensive buildings",
+			"Only available <after adopting [Adaptation]>"],
 		"requiredTech": "Construction"
 	},
 	{
 		"name": "Wasteland Surveillance Initiative",
 		"cost": 50,
 		"isNationalWonder": true,
-		"uniques": ["Can only be built [in capital]", "[+1] Sight <for [Scout] units>", "[Scout] units gain the [Survivalism] promotion",
+		"uniques": ["Can only be built [in capital]", "[+1] Sight <for [Scout] units>",
+			"[Scout] units gain the [Survivalism] promotion",
 			"Free [Wasteland Patrol] appears", "Only available <after adopting [Expansionism]>"],
 		"requiredTech": "Construction"
 	},
 	{
-		"name": "Tribal Suppression Initiative",
+		"name": "Raider Suppression Initiative",
 		"cost": 50,
 		"isNationalWonder": true,
-		"uniques": ["Can only be built [in capital]", "Earn [100]% of killed [Barbarian] unit's [Strength] as [Gold]",
-			"[+10]% Production when constructing [{Military} {Land}] units [in all cities]", "Provides [2] [Weapons]",
+		"uniques": ["Can only be built [in capital]",
+			"Earn [100]% of killed [Barbarian] unit's [Strength] as [Gold]",
+			"[+10]% Production when constructing [{Military} {Land}] units [in all cities]",
+			"Provides [2] [Weapons]",
 			"Only available <after adopting [Sovereignty]>"],
 		"requiredTech": "Iron Working"
+	},
+	{
+		"name": "Tribal Unification Initiative",
+		"replaces": "Raider Suppression Initiative",
+		"uniqueTo": "Crimson Legion",
+		"cost": 50,
+		"isNationalWonder": true,
+		"uniques": ["Can only be built [in capital]",
+			"[Great General] is earned [33]% faster",
+			"When defeating a [Barbarian] unit, earn [25] Gold and recruit it <with [75]% chance>",
+			"[+15]% Production when constructing [{Military} {Land}] units [in all cities]",
+			"Only available <after adopting [Sovereignty]>"],
+		"requiredTech": "Iron Working"
+	},
+
+	//Other National Wonders
+	{
+		"name": "Naval War College",
+		"isNationalWonder": true,
+		"requiredBuilding": "Seaport",
+		"uniques": ["Must be next to [Coast]", "New [Water] units start with [30] Experience [in this city]",
+			"Only available <in cities without a [Military Academy]>"],
+		//should also award a free Great Admiral once those are implemented
+		"requiredTech": "Combined Arms"
 	},
 
 	//Proper World Wonders
@@ -101,11 +130,24 @@
 		"requiredTech": "Munitions"
 	},
 	{
+		"name": "Interpretative Center",
+		"specialistSlots": {"Administrator": 1},
+		"happiness": 2,
+		"cost": 300,
+		"maintenance": 0,
+		"hurryCostModifier": 15,
+		"uniques": ["[+1 Culture] from [Culture] wonders [in this city]",
+			"[+1 Culture] from [Great Improvement] tiles [in this city]",
+			"Consumes [1] [Power]"],
+		"requiredTech": "Flight"
+	},
+	{
 		"name": "Tidal Array",
 		"requiredBuilding": "Tidal Plant",
+		"requiredResource": "Aluminum",
 		"maintenance": 0,
 		"hurryCostModifier": 20,
-		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water resource] tiles [in this city]",
+		"uniques": ["Must be next to [Coast]", "[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
 			"Provides [4] [Power]"],
 		"requiredTech": "Ocean Remediation"
 	},
@@ -125,6 +167,7 @@
 			"[+15]% Natural religion spread [in all cities]",
 			"Can only be built [in capital]",
 			"Gain a free [Bishop's Storehouse] [in this city]"]
+		//Quote TBD
 	},
 	{
 		"name": "Convert Survivors",
@@ -375,6 +418,15 @@
 			"Only available <in cities with a [Library]>"],
 		"requiredTech": "Steam Power"
 	},
+	{
+		"name": "Military Academy",
+		"isNationalWonder": true,
+		"requiredBuilding": "Barracks",
+		"uniques": ["New [Military] units start with [30] Experience [in this city]",
+			"Only available <in cities without a [Naval War College]>",
+			"Free [Great General] appears"],
+		"requiredTech": "Combined Arms"
+	},
 
 	//Other new Civ unique buildings
 	{
@@ -401,6 +453,43 @@
 		"hurryCostModifier": 40,
 		"uniques": ["New [Military] units begin with [15] Experience [in this city]"]
 	},
+	{
+		"name": "Crucifixion Fields",
+		"uniqueTo": "Crimson Legion",
+		"culture": 2,
+		"food": -2,
+		"happiness": -2,
+		"cost": 20,
+		"hurryCostModifier": -50,
+		"uniques": ["[-1] population [in this city]", 
+			"Free [Legate] appears",
+			"Can only be built [in annexed cities]", "Unsellable"],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Zemlyanka",
+		"replaces": "Food Store",
+		"uniqueTo": "Proklyatyye",
+		"cityHealth": 50,
+		"cost": 10,
+		"hurryCostModifier": -25,
+		"uniques": ["[+20]% Food is carried over after population increases [in this city]",
+			"[+1 Food] [in this city] <with [Salt]>",
+			"[-1 Production, +1 Gold] [in this city] <with [Alcohol]>",
+			"[-1 Production, +1 Gold] [in this city] <with [Narcotics]>",
+			"[-1 Production, -1 Food, +1 Gold] [in this city] <with [Refined Narcotics]>"]
+	},
+	{
+		"name": "Atomgrad Project",
+		"replaces": "Manhattan Project",
+		"uniqueTo": "Proklyatyye",
+		"isNationalWonder": true,
+		"requiredTech": "Nuclear Fission",
+		"uniques": ["Enables nuclear weapon", "Enables construction of [Super Mutant] units",
+			"Provides [4] [Uranium]",
+			"Triggers a global alert upon completion",
+			"Cannot be hurried"]
+	},
 
 	//City-State buildings
 	{
@@ -411,6 +500,31 @@
 		"cost": 10,
 		"hurryCostModifier": 5,
 		"uniques": ["New [Military] units begin with [30] Experience [in this city]"]
+	},
+	{
+		"name": "Pole House",
+		"uniqueTo": "Issaquah Nation",
+		"food": 2,
+		"culture": 1,
+		"cost": 10,
+		"uniques": ["Must be next to [Coast]",
+			"[+1 Food] from [Fishing Boats] tiles [in this city]",
+			"[+1 Food] from [Bioculture] tiles [in this city]",
+			"[+10]% Production when constructing [Water] units [in this city]",
+			"Free [Dinghy] appears",
+			"Free [Work Boat] appears",
+			"Will not be displayed in Civilopedia"],
+		"requiredTech": "Sailing"
+	},
+	{
+		"name": "Coastal Longhouse",
+		"uniqueTo": "Issaquah Nation",
+		"replaces": "Food Store",
+		"culture": 2,
+		"cost": 10,
+		"uniques": ["[20]% Food is carried over after population increases [in this city]",
+			"[+1 Food] [in this city] <with [Salt]>",
+			"[+1 Food, +1 Production, +1 Culture] from [Tree plantation] tiles [in this city]"]
 	},
 	{
 		"name": "Terra-Spire",
