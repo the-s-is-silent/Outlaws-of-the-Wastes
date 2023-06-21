@@ -29,16 +29,18 @@
 	},
 	{
 		"name": "Mobile Clinic",
-		"unitType": "Armor", //see Wandering Doctor
+		"unitType": "Armor", //see above note
 		"movement": 4,
 		"strength": 45,
 		"cost": 225,
-		"hurryCostModifier": 15,
+		"hurryCostModifier": 20,
 		"requiredTech": "Pharmaceuticals",
 		"promotions": ["Medic I", "Medic II"],
-		"uniques": ["Consumes [1] [Oil]", "Cannot attack", "Can carry [2] [Wounded] units",
+		"uniques": ["Consumes [1] [Oil]", "Can carry [2] [Wounded] units",
 			"All adjacent units heal [+15] HP when healing",
-			"Only available <in cities with a [Hospital]>"]
+			"[-33]% Strength <vs cities>",
+			"Only available <in cities with a [Hospital]>"],
+		"attackSound": "machinegun"
 	},
 
 	//Spaceship parts (reimplementing the traditional Science Victory): TBD
@@ -85,6 +87,23 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Speculatores",
+		"replaces": "Forward Observer",
+		"uniqueTo": "Crimson Legion",
+		"unitType": "Scrapper",
+		"movement": 4,
+		"strength": 20,
+		"interceptRange": 1,
+		"cost": 55,
+		"hurryCostModifier": 20,
+		"requiredTech": "Replaceable Parts",
+		"promotions": ["Urban Warfare I", "Urban Warfare II"],
+		"uniques": ["Personnel", "[+1] Sight", "Can move after attacking",
+			"May enter foreign tiles without open borders",
+			"Invisible to non-adjacent units"],
+		"promotions": ["Reconnaissance I", "Skirmish"]
+	},
+	{
 		"name": "Expeditionary Force",
 		"unitType": "Scout",
 		"movement": 2,
@@ -93,7 +112,7 @@
 		"range": 2,
 		"interceptRange": 2,
 		"cost": 225,
-		"requiredTech": "Replaceable Parts",
+		"requiredTech": "Flight",
 		"obsoleteTech": "Energy Weapons",
 		"upgradesTo": "Black Ops",
 		"requiredResource": "Weapons",
@@ -312,7 +331,8 @@
 		"range": 18,
 		"cost": 850,
 		"requiredTech": "Rocketry",
-		"uniques": ["Nuclear weapon of Strength [2]", "Blast radius [2]", "Only available <if [Manhattan Project] is constructed>",
+		"uniques": ["Nuclear weapon of Strength [2]", "Blast radius [2]",
+			"Only available <if [Manhattan Project] is constructed>",
 			"Consumes [2] [Uranium]"],
 		"hurryCostModifier": 20,
 		"attackSound": "nuke"
@@ -490,7 +510,6 @@
 			"[+25]% Strength <starting from the [New Future era]>",
 			"[+1] Movement <starting from the [New Future era]>",
 			"[+100]% chance to intercept air attacks",
-			"[+100]% Damage when intercepting",
 			"[-100]% maintenance costs",
 			"Never appears as a Barbarian unit"],
 		"attackSound": "shot"

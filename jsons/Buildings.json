@@ -38,7 +38,7 @@
 		"isNationalWonder": true,
 		"uniques": ["Can only be built [in capital]",
 			"[Great General] is earned [33]% faster",
-			"When defeating a [Barbarian] unit, earn [25] Gold and recruit it <with [75]% chance>",
+			"When defeating a [Barbarian] unit, earn [25] Gold and recruit it <with [67]% chance>",
 			"[+15]% Production when constructing [{Military} {Land}] units [in all cities]",
 			"Only available <after adopting [Sovereignty]>"],
 		"requiredTech": "Iron Working"
@@ -463,8 +463,21 @@
 		"hurryCostModifier": -50,
 		"uniques": ["[-1] population [in this city]", 
 			"Free [Legate] appears",
+			"Automatically built in all cities where it is buildable",
 			"Can only be built [in annexed cities]", "Unsellable"],
 		"requiredTech": "Construction"
+	},
+	{
+		"name": "Caesareum",
+		"replaces": "Monastery",
+		"uniqueTo": "Crimson Legion",
+		"production": 1,
+		"faith": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Shrine",
+		"requiredTech": "Education",
+		"uniques": ["Hidden when religion is disabled", "[+5]% Production when constructing [All] buildings [in this city]"]
 	},
 	{
 		"name": "Zemlyanka",
@@ -549,6 +562,14 @@
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"],
 		"requiredTech": "Replaceable Parts"
+	},
+	{
+		"name": "Stasis Net",
+		"uniqueTo": "Defiance",
+		"cityStrength": 20,
+		"cityHealth": 200,
+		"requiredTech": "Energy Weapons",
+		"uniques": ["Consumes [1] [Power]", "Destroyed when the city is captured", "Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Atomic Diner",
