@@ -49,7 +49,7 @@ Unless otherwise specified, all of the following are from the Noun Project, lice
 - Endowment House: [charity box](https://thenounproject.com/icon/charity-box-4091320/) by Nattapol Seengern
 
 ### Nation Icons
-- Camelot Foundation: [Wales](https://thenounproject.com/icon/wales-4282300/) by Lars Meiertoberens
+- Camelot Foundation: [Wales](https://thenounproject.com/icon/wales-4282300/) by Lars Meiertoberens, DE
 - Deseret Nation: [Beehive](https://thenounproject.com/icon/beehive-106249/) by Cléa Lautrey
 
 ### Promotion Icons
