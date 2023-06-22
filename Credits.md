@@ -11,16 +11,21 @@ Unless otherwise specified, all of the following are from the Noun Project, lice
 - Atomic Diner: [atom](https://thenounproject.com/icon/atom-1081009/) by ProSymbols
 - Bishop's Storehouse: [Storage Garage](https://thenounproject.com/icon/storage-garage-1371149/) by STBS
 - Blue Castle Reactor: [atom](https://thenounproject.com/icon/atom-2606502/) by Icon Lauk
+- Caesareum: [temple](https://thenounproject.com/icon/temple-3636159/) by Rock Zombie
 - Cathedral School: [temple](https://thenounproject.com/icon/temple-2072915/) by Nick Bluth, US
 - Coastal Defenses: [seawall](https://thenounproject.com/icon/seawall-5503652/) by Luis Prado
+- Coastal Longhouse: [longhouse](https://thenounproject.com/icon/longhouse-5058241/) by Flowicon, TH
 - Constabulary: [jail](https://thenounproject.com/icon/jail-2577140/) by Made by Made, AU
 - Contraband Disposal Site: [prohibited](https://thenounproject.com/icon/prohibited-209190/) by Andrea Mazzini
+- Deseret Data Center: [data warehouse](https://thenounproject.com/icon/data-warehouse-5615005/) by Nikita Kozin, RU
 - Disciplinary Council: [court](https://thenounproject.com/icon/court-4428402/) by Eko Purnomo
 - Ethanol Station: [Corn energy](https://thenounproject.com/icon/corn-energy-1580160/) by dDara
 - [Food Processing Plant](https://thenounproject.com/icon/food-processing-plant-1877253/) by ProSymbols
 - Hexlock Chemical Company: [chemical industry](https://thenounproject.com/icon/chemical-industry-4762097/) by Azam Ishaq
 - Homeland Defense Initiative: [national defense](https://thenounproject.com/icon/national-defense-4363309/) by Yusuf Solihudin
 - Jeweler: [jeweler](https://thenounproject.com/icon/jeweler-207094/) by Hans Paul Mösl Junior
+- Nanomaterial Factory: [nanofabrication](https://thenounproject.com/icon/nanofabrication-4331493/) by Loritas Medina, PH
+- Naval War College: [navy pier](https://thenounproject.com/icon/navy-pier-3925133/) by Lars Meiertoberens, DE
 - Parish School: [School](https://thenounproject.com/icon/school-3758946/) by iconcheese
 - PINDAR Station: [London Underground](https://thenounproject.com/icon/london-underground-26183/) by Daniel Turner
 - [Printing Press](https://thenounproject.com/icon/printing-press/11880/) by Mike Wirth (same icon used for Printing Press tech in base Unciv)
@@ -65,6 +70,7 @@ Unless otherwise specified, all of the following are from the Noun Project, lice
 - Ark Hunter: [rail gun](https://thenounproject.com/icon/rail-gun-3448479/) by Smalllike
 - Battleaxe of the Lord: [ax hammer](https://thenounproject.com/icon/ax-hammer-3635247/) by Eucalyp
 - Border Patrol: [patrol](https://thenounproject.com/icon/patrol-3048375/) by Eucalyp
+- Brownsteel Knight: [Knight](https://thenounproject.com/icon/knight-4110910/) by Robert Bjurshagen, SE
 - Camelot SAS: [Gun](https://thenounproject.com/icon/gun-154282/) by Alberto Venegas, US
 - Commando: [soldier](https://thenounproject.com/icon/soldier-642197/) by Gan Khoon Lay
 - Deseret Missionary: [Religion](https://thenounproject.com/icon/religion-53064/) by Bruno Gätjens González (same source as Missionary icon in base Unciv except *not* adapted)
@@ -73,12 +79,15 @@ Unless otherwise specified, all of the following are from the Noun Project, lice
 - Expeditionary Force: [mission](https://thenounproject.com/icon/mission-3048372/) by Eucalyp
 - Hawkman Brave: [tomahawk](https://thenounproject.com/icon/tomahawk-4130106/) by Amethyst Studio
 - Hero of the Wastes: [Shield](https://thenounproject.com/icon/shield-49999/) by Jonathan Li
-- Lawbringer: [Police](https://thenounproject.com/icon/police-3395179/) by Nhor
+- Knight: [Knight helmet](https://thenounproject.com/icon/knight-helmet-5567347/) by Singlar
+- Lawkeeper: [Police](https://thenounproject.com/icon/police-3395179/) by Nhor
 - The Last Minute: [nuclear missile](https://thenounproject.com/icon/nuclear-missile-5460126/) by Fran Couto
+- Legate: [Legion](https://thenounproject.com/icon/legion-814530/) by Aldric Rodríguez
 - Living Prophet: [Mormonism](https://thenounproject.com/icon/mormonism-200426/) by Dabid J. Pascual
 - Mobile Clinic: [Ambulance](https://thenounproject.com/icon/ambulance-1262538/) by Ralf Schmitzer
 - Mormon Battalion: [flag of utah](https://thenounproject.com/icon/flag-of-utah-5740272/) by Zach Bogart
 - Seastead Vessel: [Ship](https://thenounproject.com/icon/ship-4767613/) by Singlar
+- Speculatores: [bloody knife](https://thenounproject.com/icon/bloody-knife-2109678/) by Vectors Market
 - Wandering Doctor: [caduceus](https://thenounproject.com/icon/caduceus-211045/) by icon 54
 - Wasteland Patrol: [Binoculars](https://thenounproject.com/icon/binoculars-4069422/) by iconixar
 - Wayfarer: [Fleur de Lis](https://thenounproject.com/icon/fleur-de-lis-1383646/) by prasong tadoungsorn
