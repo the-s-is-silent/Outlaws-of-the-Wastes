@@ -7,7 +7,7 @@ A major expansion mod for DeCiv Redux.
 
 - Deseret Nation is now a playable faction. Five new City-States have been added.
 
-- New faction: Camelot Foundation, a constitutional republic arising from what's left of Wales, England and northern France.
+- New faction: Camelot Foundation, a constitutional republic arising from what's left of Wales and England.
 
 - New units:
   - Barbarian: Suicider + Killdozer
@@ -22,23 +22,16 @@ A major expansion mod for DeCiv Redux.
 
 - New national wonders:
   - Homeland Defense / Wasteland Surveillance / Raider Suppression Initiatives, each locked behind a starting policy and designed to help each faction survive the early-game.
-  - Naval War College, the naval counterpart to the Military Academy, but cannot exist in the same city as the Military Academy.  
+  - Naval War College, the naval counterpart to the Military Academy, but cannot exist in the same city as the Military Academy.
 
-- Some of the factions have gained a new UU or UB, or had one of their UBs adjusted.
+- New tile improvement: the Artificial atoll, unlocked at Ocean Remediation and built exclusively by the Seastead Vessel.
+
+- Some of the factions in the base scenario have gained one or more new UUs/UBs, or had one of their UBs adjusted.
 
 - Several new beliefs for more diverse religion customization along with buffs for a few of the weaker beliefs. However, several of the more powerful beliefs in base DeCiv Redux have been nerfed.
 
-- Tile improvement adjustments:
-  - A new tile improvement, the Artificial atoll, has been added, available after discovering Ocean Remediation.
+- Some tile improvements have been adjusted:
   - Settlements no longer trigger a Culture Bomb.
   - Tree Plantations can now be built on Hills and Swamps after discovering Land Remediation, provided they're not on Desert or Permafrost.
 
-## TODO:
-
-- Restore the traditional Science Victory.
-
-- Overhaul the policy tree to bring down the obscene power of half of the policies (starting three, Rationalism, Constitution, Monopoly) and make the other half actually worth taking.
-
-- Add more new factions and City-States, along with more new unique units and buildings for the existing factions (making sure all existing factions get at least two new unique components), and adjust the unique abilities of some of the existing factions.
-
-- And, of course, the bane of all ambitious modders who have no artistic talent: adding sprites for everything.
+- And more is planned for the future; check the ToDoList.md file for some of these things.
