@@ -147,8 +147,9 @@
 		"requiredResource": "Aluminum",
 		"maintenance": 0,
 		"hurryCostModifier": 20,
-		"uniques": ["Must be next to [Coast]", "[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
-			"Provides [4] [Power]"],
+		"uniques": ["Must be next to [Coast]",
+			"[+1 Gold] from [Water resource] tiles [in this city]",
+			"Provides [6] [Power]"],
 		"requiredTech": "Ocean Remediation"
 	},
 
@@ -166,8 +167,13 @@
 			"Free [Living Prophet] appears",
 			"[+15]% Natural religion spread [in all cities]",
 			"Can only be built [in capital]",
-			"Gain a free [Bishop's Storehouse] [in this city]"]
-		//Quote TBD
+			"Gain a free [Bishop's Storehouse] [in this city]"],
+		"quote": "Zion is a place, and a state of being, that has been lost to us several times in the past. Each loss is a new fall of man. And after each fall, we weep in strange new lands and dream of Zion, dream of visiting vengeance upon those who took it from us.",
+		"civilopediaText": [
+			{
+				"text": "Zion is a place, and a state of being, that has been lost to us several times in the past. Each loss is a new fall of man. And after each fall, we weep in strange new lands and dream of Zion, dream of visiting vengeance upon those who took it from us."
+			}
+		]
 	},
 	{
 		"name": "Convert Survivors",
@@ -554,9 +560,11 @@
 		"replaces": "Armaments Production Line",
 		"cityStrength": 5,
 		"cost": 10,
-		"uniques": ["Provides [1] [Oil]", "Provides [4] [Weapons]", "[4] units cost no maintenance", "[+4] Unit Supply",
+		"uniques": ["Provides [1] [Oil]", "Provides [4] [Weapons]",
+			"[4] units cost no maintenance", "[+4] Unit Supply",
 			"[Personnel] units gain the [Infantry Weapons] promotion",
 			"[2] free [Ark Hunter] units appear",
+			"Free [Lawkeeper] appears",
 			"Free [Mechanized Worker] appears",
 			"Gain a free [Armory] [in this city]",
 			"Destroyed when the city is captured",

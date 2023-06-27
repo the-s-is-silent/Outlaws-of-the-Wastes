@@ -1,6 +1,20 @@
 [
 	//Civilian
 	{
+		"name": "Drifter",
+		"replaces": "Worker",
+		"uniqueTo": "The Mariners",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 40,
+		"hurryCostModifier": 20,
+		"upgradesTo": "Mechanized Worker",
+		"uniques": ["Can build [Land] improvements on tiles",
+			"May create improvements on water resources",
+			"[1] Movement point cost to embark",
+			"Automation is a primary action"]
+	},
+	{
 		"name": "Seastead Vessel",
 		"unitType": "Civilian Water",
 		"movement": 6,
@@ -9,6 +23,7 @@
 		"requiredTech": "Ocean Remediation",
 		"uniques": ["May create improvements on water resources",
 			"Can build [Artificial atoll] improvements on tiles",
+			"Can build [Floating Settlement] improvements on tiles",
 			"[-100]% maintenance costs"]
 	},
 
@@ -319,6 +334,34 @@
 		"attackSound": "shot"
 	},
 
+	//Siege units
+	{
+		"name": "Key to the City",
+		"replaces": "Anti-Aircraft Gun",
+		"uniqueTo": "The Mariners",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 50,
+		"range": 2,
+		"interceptRange": 2,
+		"cost": 185,
+		"requiredTech": "Ballistics",
+		"upgradesTo": "Mobile SAM",
+		"uniques": ["May travel on Water tiles without embarking",
+			"Double movement in [Coast]",
+			"Double movement in [Ocean]",
+			"[75]% chance to intercept air attacks",
+			"[+50]% Strength <vs [Air] units>",
+			"[+100]% Strength <vs [Helicopter] units>",
+			"[-33]% Strength <vs [Armor] units>",
+			"[+100]% Strength <vs cities> <when attacking>",
+			"Only available <if [Factory] is constructed>",
+			"Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun"
+	},
+
 	//Missile units
 	{
 		"name": "The Last Minute",
@@ -422,7 +465,7 @@
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "Lawbringer",
+		"name": "Lawkeeper",
 		"unitType": "Scrapper",
 		"replaces": "Great General",
 		"uniqueTo": "Defiance",
@@ -432,7 +475,7 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Exo-Trooper",
 		"uniques": ["Personnel", "Consumes [1] [Weapons]", "Great Person - [War]", "Limited to [1] per Civilization"],
-		"promotions": ["Reconnaissance I", "Gas Mask", "[Lawbringer] ability"],
+		"promotions": ["Reconnaissance I", "Gas Mask", "[Lawkeeper] ability"],
 		"attackSound": "machinegun"
 	},
 
