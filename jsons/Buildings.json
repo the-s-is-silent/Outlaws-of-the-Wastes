@@ -356,7 +356,7 @@
 		"cost": 50,
 		"hurryCostModifier": -25,
 		"uniques": ["Enables construction of [Mounted] units",
-			"New [Mounted] units begin with [15] Experience [in this city]",
+			"New [Mounted] units start with [15] Experience [in this city]",
 			"[+2 Production] from [Horses] tiles [in this city]"],
 		"requiredTech": "Redomestication"
 	},
@@ -457,7 +457,7 @@
 		"culture": 2,
 		"cost": 40,
 		"hurryCostModifier": 40,
-		"uniques": ["New [Military] units begin with [15] Experience [in this city]"]
+		"uniques": ["New [Military] units start with [15] Experience [in this city]"]
 	},
 	{
 		"name": "Crucifixion Fields",
@@ -518,7 +518,7 @@
 		"culture": 2,
 		"cost": 10,
 		"hurryCostModifier": 5,
-		"uniques": ["New [Military] units begin with [30] Experience [in this city]"]
+		"uniques": ["New [Military] units start with [30] Experience [in this city]"]
 	},
 	{
 		"name": "Pole House",
@@ -580,15 +580,26 @@
 		"uniques": ["Consumes [1] [Power]", "Destroyed when the city is captured", "Will not be displayed in Civilopedia"]
 	},
 	{
+		"name": "Carbon Warehouse",
+		"replaces": "Food Store",
+		"uniqueTo": "Carbon",
+		"cost": 5,
+		"uniques": ["[20]% Food is carried over after population increases [in this city]",
+			"[+1 Food] [in this city] <with [Salt]>",
+			"Provides 1 extra copy of each improved luxury resource near this City",
+			"Will not be displayed in Civilopedia"]
+	},
+	{
 		"name": "Atomic Diner",
-		"replaces": "Market",
 		"uniqueTo": "Carbon",
 		"food": 2,
 		"specialistSlots": {"Merchant": 2},
 		"cost": 10,
 		"hurryCostModifier": 5,
 		"requiredTech": "Trade",
-		"uniques": ["[+1 Gold] from [Food source] tiles [in this city]", "Provides [2] [Soft Drinks]"]
+		"uniques": ["[+1 Gold] from [Food source] tiles [in this city]",
+			"Provides [2] [Soft Drinks]",
+			"Never destroyed when the city is captured"]
 	},
 	{
 		"name": "Refurbished Textile Mill",
