@@ -385,7 +385,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": ["[+1] population [in this city]",
-			"[+2 Faith] from every [Scientist] [in this city]",
+			"[+2 Faith] from every [Scientist] <in this city>",
 			"[+1 Happiness] [in this city] <after adopting [Voting Rights]>",
 			"Consumes [1] [Slaves]", "Only available <with [Slaves]>", "Unsellable"],
 		"requiredTech": "Education"
