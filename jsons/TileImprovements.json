@@ -48,7 +48,7 @@
 		"uniques": ["Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
-			"Cannot be built on [All] tiles <with [1] to [6] adjacent [Floating Settlement] tiles>",
+			"Cannot be built on [All] tiles <with [1] to [6] neighboring [Floating Settlement] tiles>",
 			"[+1 Production] for each adjacent [Bioculture]",
 			"[+1 Production] for each adjacent [Modular island]",
 			"[+1 Happiness] for each adjacent [Artificial atoll]",
