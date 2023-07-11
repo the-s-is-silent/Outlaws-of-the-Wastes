@@ -75,8 +75,8 @@
 			"Starts with [Constitution] adopted",
 			"[-2 Science] [in all cities] <before discovering [Education]>",
 			"Cannot build [Enslaved] units"],
-		"cities": ["Avalon", "New Troy", "Tristram", "Danwyn", "Gwalchmai", "Laundsallyn", "Gyanhumara", "Pellaeon", "Ambrose", "Cambria",
-			"Sutcliff", "Amoracchius", "Alderley", "Alba Sarum", "Glatissante"],
+		"cities": ["Avalon", "Caerleon", "New Troy", "Tristram", "Caer Danwyn", "Trevena", "Gwalchmai", "Laundsallyn", "Gyanhumara", "Pellaeon",
+			"Caerbannog", "Ambrose", "Cambria", "Sutcliff", "Benwick", "Alderley", "Alba Sarum", "Glatissante"],
 		"spyNames": ["Merlin", "Elaine", "Vivian", "Randall", "Hector", "Owain", "Anna", "Lyonesse", "Tennyson", "Lockheed"]
 	},
 
