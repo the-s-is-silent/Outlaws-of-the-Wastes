@@ -143,8 +143,8 @@
 		"name": "Atomic Judgment",
 		"type": "Enhancer",
 		"uniques": ["Provides [2] [Uranium]",
-			"[+20]% Strength for [Warhead Truck] units <when attacking>",
-			"[+20]% Strength for [Missile] units <when attacking>"]
+			"[+20]% Strength <for [Warhead Truck] units> <when attacking>",
+			"[+20]% Strength <for [Missile] units> <when attacking>"]
 	},
 	{
 		"name": "Missionary Zeal",
