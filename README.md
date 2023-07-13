@@ -5,9 +5,13 @@ A major expansion mod for DeCiv Redux.
 
 - Barbarians are stronger and spawn more frequently, but give greater rewards for clearing their encampments. (Credit for this concept goes to amfauzn and their "The Barbarians" mod.) In addition to better ruins bonuses, the survivor camp spawn rate is also increased, so players actually have a chance at finding at least one camp in most games.
 
+- As a screw you to the AI's primitive sanity checks, the minimum allowed distance between cities has been increased to 5 tiles (including the city tile).
+
 - Deseret Nation is now a playable faction. Five new City-States have been added.
 
-- New faction: Camelot Foundation, a constitutional republic arising from what's left of Wales and England.
+- New factions:
+  - Camelot Foundation, a constitutional republic arising from what's left of Wales, England and Brittany.
+  - The Harbingers, the remnant of an evil Mega-Corp who are now trying to atone for their previous practices...or are they?
 
 - New units:
   - Barbarian: Suicider + Killdozer
@@ -24,7 +28,7 @@ A major expansion mod for DeCiv Redux.
   - Homeland Defense / Wasteland Surveillance / Raider Suppression Initiatives, each locked behind a starting policy and designed to help each faction survive the early-game.
   - Naval War College, the naval counterpart to the Military Academy, but cannot exist in the same city as the Military Academy.
 
-- New tile improvement: the Artificial atoll, unlocked at Ocean Remediation and built exclusively by the Seastead Vessel.
+- Two new tile improvements: the Artificial atoll and Floating Settlement, unlocked at Ocean Remediation and built exclusively by the Seastead Vessel.
 
 - Some of the factions in the base scenario have gained one or more new UUs/UBs, or had one of their UBs adjusted.
 

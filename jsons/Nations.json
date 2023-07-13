@@ -10,7 +10,7 @@
 
 		"startIntroPart1": "Every day, men fall. Some days are harder than others. The day the nukes were launched... was the hardest fall yet for mankind. In the earliest days after the fallout settled, I tried to mete out vengeance against those responsible for the current state of the world, unaware that I was setting myself up for my own great fall. I rallied many survivors, broken and disillusioned as I was, and set out on a brutal campaign, forgetting all I had been taught in the desire for revenge. The need to make my wrath into God's wrath. And sure enough, that disastrous journey led to my fall, and I found myself at Hell's gates.",
 		"startIntroPart2": "Yet in my darkest hour, I found my way again. I rediscovered my faith and my tribe, and realized why I'm still here, able to rise despite having fallen so far. A fire burns inside me, brighter than the fires that burned the world around me. But whether that fire is of undying love or unappeased rage... Whether I show my people's enemies mercy or become once more the instrument of vengeance... That's up to them. And to you, I suppose.",
-		"declaringWar": "I don't enjoy killing, but when done righteously, it's just a chore like any other.",
+		"declaringWar": "I don't enjoy killing, but when done righteously, it's just a chore, like any other.",
 		"attacked": "We warned you, and you persisted. Like the dogs you are, you followed us to Zion. And now you stand on holy ground, a temple to God's glory on earth. But the only use for an animal in a temple is sacrifice!",
 		"defeated": "Yea, we wept when we remembered Zion. But your time will come.",
 		"introduction": "It's good to meet you. Welcome to Deseret. If you shall be a good neighbor and treat us with brotherly respect, we shall do so in turn.",
@@ -50,7 +50,7 @@
 		"leaderName": "Arthur",
 		"adjective": ["Camelot"],
 		"preferredVictoryType": "Scientific",
-		// "favoredReligion": "",
+		"favoredReligion": "Paganism", //this is temporary until I figure out whether they should harken back to pagan beliefs or keep the Christian faith imposed on them in Medieval fiction
 
 		// "startIntroPart1": "",
 		// "startIntroPart2": "",
@@ -78,6 +78,43 @@
 		"cities": ["Avalon", "Caerleon", "New Troy", "Tristram", "Caer Danwyn", "Trevena", "Gwalchmai", "Laundsallyn", "Gyanhumara", "Pellaeon",
 			"Caerbannog", "Ambrose", "Cambria", "Sutcliff", "Benwick", "Alderley", "Alba Sarum", "Glatissante"],
 		"spyNames": ["Merlin", "Elaine", "Vivian", "Randall", "Hector", "Owain", "Anna", "Lyonesse", "Tennyson", "Lockheed"]
+	},
+	{
+		"name": "The Harbingers",
+		"leaderName": "Yuri Vengerov",
+		"adjective": "Harbingers",
+		"startBias": ["River"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Capitalism",
+
+		// "startIntroPart1": "",
+		// "startIntroPart2": "In many ways, we were Harbingers of the old world's downfall. Perhaps, given the chance, we might set things right, becoming Harbingers of man's triumph and ushering in a new, better world.",
+		"declaringWar": "You have demonstrated that you cannot be trusted to maintain control over your precious resources.",
+		"attacked": "You desire control over our water as we once desired control over yours. Very well. Let us remind you why we are known as the Harbingers.",
+		"defeated": "On this day, we pay in full the price of our corporation's sins...",
+		"introduction": "We know you are displeased to see us. An understandable reaction given our past history.",
+		"neutralHello": "Greetings, comrade.",
+		"hateHello": "You tempt us to revert to old practices in our dealings with you.",
+		"tradeRequest": "Come, let us do business.",
+
+		"outerColor": [2, 46, 89],
+		"innerColor": [113, 233, 248],
+		"style": "Corporate",
+		"uniqueName": "Water Merchants",
+		"uniques": ["[+50]% Production when constructing [Gold] buildings [in all cities]",
+			"[+100]% Yield from every [Moisture trap]",
+			"[+100]% Yield from every [Water pump]",
+			"Starts with [Iron Working]",
+			"Starts with [Trade]",
+			"Starts with [Currency]",
+			"Starts with [Monopoly] adopted",
+			"[Gold] cost of purchasing items in cities [-20]%",
+			"[-33]% Production when constructing [Military] units [in all cities]",
+			"Cannot build [Civilian Convoy] units",
+			"Unhappiness from number of Cities doubled"],
+			//Should gain the Venetian ability to purchase items in puppeted cities, as well as the Venetian ban on annexing cities, once BNW content is implemented
+		"cities": ["Vodagrad", "Prava", "Nevesk", "Kyovashad"]
+		//might expand this later in the event of reworks to Deciv and/or additions to expansion mods that would enable them to found more than three cities
 	},
 
 	//New CS

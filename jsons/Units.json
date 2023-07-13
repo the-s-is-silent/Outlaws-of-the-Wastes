@@ -11,7 +11,7 @@
 		"upgradesTo": "Mechanized Worker",
 		"uniques": ["Can build [Land] improvements on tiles",
 			"May create improvements on water resources",
-			"[1] Movement point cost to embark",
+			"May travel on Water tiles without embarking",
 			"Automation is a primary action"]
 	},
 	{
@@ -30,7 +30,7 @@
 	//Support units
 	{
 		"name": "Wandering Doctor",
-		"unitType": "Scrapper", //is supposed to be Civilian, but it does not function correctly as non-military
+		"unitType": "Scrapper",
 		"movement": 2,
 		"strength": 20,
 		"cost": 50,
@@ -44,7 +44,7 @@
 	},
 	{
 		"name": "Mobile Clinic",
-		"unitType": "Armor", //see above note
+		"unitType": "Armor",
 		"movement": 4,
 		"strength": 45,
 		"cost": 225,
@@ -112,11 +112,11 @@
 		"cost": 55,
 		"hurryCostModifier": 20,
 		"requiredTech": "Replaceable Parts",
-		"promotions": ["Urban Warfare I", "Urban Warfare II"],
+		"promotions": ["Skirmish", "Urban Warfare I", "Urban Warfare II"],
 		"uniques": ["Personnel", "[+1] Sight", "Can move after attacking",
 			"May enter foreign tiles without open borders",
 			"Invisible to non-adjacent units"],
-		"promotions": ["Reconnaissance I", "Skirmish"]
+		"attackSound": "shot"
 	},
 	{
 		"name": "Expeditionary Force",
@@ -332,6 +332,85 @@
 			"Only available <in cities with a [Stable]>"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
+	},
+
+	//Harbinger unique units
+	{
+		"name": "Great Caravanner",
+		"uniqueTo": "The Harbingers",
+		"replaces": "Great Merchant",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 200,
+		"uniques": ["Mounted",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Can instantly construct a [Wasteland Station] improvement <by consuming this unit>",
+			"Is part of Great Person group [Gold]",
+			"Only available <if [Harbinger Manege] is constructed>",
+			"Only available <in cities with a [Contract with Survivors]>",
+			"Requires at least [5] population",
+			"Cannot be purchased"]
+	},
+	{
+		"name": "Educational Officer",
+		"replaces": "Censor",
+		"uniqueTo": "The Harbingers",
+		"unitType": "Shooter",
+		"range": 1,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 24,
+		"interceptRange": 1,
+		"promotions": ["[Educational Officer] ability"],
+		"uniques": ["Personnel",
+			"Can be purchased for [200] [Gold] [in all non-occupied cities]",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Prevents spreading of religion to the city it is next to",
+			"Can [Remove Foreign religions from your own cities] [2] times",
+			"[+1] Sight",
+			"Unbuildable",
+			"Religious Unit",
+			"Hidden when religion is disabled"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Technopath",
+		"unitType": "Scrapper",
+		"replaces": "NBC Conscript",
+		"uniqueTo": "The Harbingers",
+		"movement": 2,
+		"strength": 50,
+		"interceptRange": 2,
+		"cost": 255,
+		"requiredTech": "Computers",
+		"requiredResource": "Encrypted Data",
+		"uniques": ["Personnel",
+			"[+67]% chance to intercept air attacks",
+			"[+200]% Strength <vs [Automated] units>",
+			"[+200]% Strength <vs [Purge Robot] units>"],
+		"promotions": ["AI Implant", "Drone Recon", "Gas Mask"],
+		"hurryCostModifier": -25,
+		"attackSound": "phasers"
+	},
+	{
+		"name": "Neutron Bomb",
+		"uniqueTo": "The Harbingers",
+		"unitType": "Atomic Bomber",
+		"movement": 1,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 18,
+		"cost": 1500,
+		"requiredTech": "Nuclear Fission",
+		"promotions": ["Evasive Maneuvers"],
+		"uniques": ["[+50]% Strength <when attacking>",
+			"Nuclear weapon of Strength [3]",
+			"Blast radius [0]",
+			"Only available <if [Manhattan Project] is constructed>",
+			"Only available <in cities with a [Aerospace Facility]>",
+			"Self-destructs when attacking",
+			"Consumes [2] [Uranium]"],
+		"attackSound": "nuke"
 	},
 
 	//Siege units

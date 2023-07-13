@@ -13,14 +13,19 @@ Unless otherwise specified, all of the following are from the Noun Project, lice
 - Blue Castle Reactor: [atom](https://thenounproject.com/icon/atom-2606502/) by Icon Lauk
 - Caesareum: [temple](https://thenounproject.com/icon/temple-3636159/) by Rock Zombie
 - Cathedral School: [temple](https://thenounproject.com/icon/temple-2072915/) by Nick Bluth, US
+- Census Chamber: [Neural Processor](https://thenounproject.com/icon/neural-processor-1870013/) by ProSymbols, US
 - Coastal Defenses: [seawall](https://thenounproject.com/icon/seawall-5503652/) by Luis Prado
 - Coastal Longhouse: [longhouse](https://thenounproject.com/icon/longhouse-5058241/) by Flowicon, TH
 - Constabulary: [jail](https://thenounproject.com/icon/jail-2577140/) by Made by Made, AU
 - Contraband Disposal Site: [prohibited](https://thenounproject.com/icon/prohibited-209190/) by Andrea Mazzini
+- Contract with Survivors: [contract](https://thenounproject.com/icon/contract-4139832/) by Design Circle, PK
 - Deseret Data Center: [data warehouse](https://thenounproject.com/icon/data-warehouse-5615005/) by Nikita Kozin, RU
 - Disciplinary Council: [court](https://thenounproject.com/icon/court-4428402/) by Eko Purnomo
 - Ethanol Station: [Corn energy](https://thenounproject.com/icon/corn-energy-1580160/) by dDara
 - [Food Processing Plant](https://thenounproject.com/icon/food-processing-plant-1877253/) by ProSymbols
+- Gostiny Dvor: [castle](https://thenounproject.com/icon/castle-1502/) by Iconic, CY
+- Gulag: [star](https://thenounproject.com/icon/star-3086974/) by Dmitry Vasiliev
+- Harbinger Manege: [greek temple](https://thenounproject.com/icon/greek-temple-915585/) by Blair Adams, US
 - Hexlock Chemical Company: [chemical industry](https://thenounproject.com/icon/chemical-industry-4762097/) by Azam Ishaq
 - Homeland Defense Initiative: [national defense](https://thenounproject.com/icon/national-defense-4363309/) by Yusuf Solihudin
 - Jeweler: [jeweler](https://thenounproject.com/icon/jeweler-207094/) by Hans Paul Mösl Junior
@@ -30,27 +35,30 @@ Unless otherwise specified, all of the following are from the Noun Project, lice
 - PINDAR Station: [London Underground](https://thenounproject.com/icon/london-underground-26183/) by Daniel Turner
 - [Printing Press](https://thenounproject.com/icon/printing-press/11880/) by Mike Wirth (same icon used for Printing Press tech in base Unciv)
 - Quorum of the Twelve: [city Council](https://thenounproject.com/icon/city-council-3566027/) by Thomas Deckert
+- Raider Suppression Initiative: [Soldier Attack with Machine Gun](https://thenounproject.com/icon/soldier-attack-with-machine-gun-659094/) by Gan Khoon Lay
 - Refurbished Textile Mill: [Textile industry](https://thenounproject.com/icon/textile-industry-5649184/) by Studio 365
 - Remedial School: [educational school building](https://thenounproject.com/icon/educational-school-building-3017500/) by Vectors Point
 - Restored Temple of Zion: [Salt Lake Temple](https://thenounproject.com/icon/salt-lake-temple-219294/) by Nick Bluth, US
 - Riding Arena: [stadium](https://thenounproject.com/icon/stadium-4477576/) by Doodle Icons
 - The Round Table: [round table](https://thenounproject.com/icon/round-table-4817059/) by Musmellow
 - Sangreal Vault: [holy grail](https://thenounproject.com/icon/holy-grail-2256337/) by Arunika
+- State Dacha: [cabin](https://thenounproject.com/icon/cabin-3306863/) by PenSmasher, TH
 - Statue of Remembrance: [Justice](https://thenounproject.com/icon/justice-3872855/) by Eucalyp
 - Stone of Ages: [excalibur](https://thenounproject.com/icon/excalibur-2526433/) by Andrejs Kirma
 - Tabernacle: [Mormon Temple](https://thenounproject.com/icon/mormon-temple-91138/) by Jason Dilworth
 - Tidal Array: [Tidal energy](https://thenounproject.com/icon/tidal-energy-4215014/) by Lucas Helle
 - [Totem Pole](https://thenounproject.com/icon/totem-pole-20257/) by MaxineVSG
-- Tribal Suppression Initiative: [Soldier Attack with Machine Gun](https://thenounproject.com/icon/soldier-attack-with-machine-gun-659094/) by Gan Khoon Lay
 - Wasteland Surveillance Initiative: [Security](https://thenounproject.com/icon/security-123950/) by Aaron K. Kim
 
 ### Improvement Icons
 - Artificial atoll: [island](https://thenounproject.com/icon/island-1546376/) by Chanut is Industries, TH (same icon used for Atoll in base Unciv)
 - Endowment House: [charity box](https://thenounproject.com/icon/charity-box-4091320/) by Nattapol Seengern
+- Wasteland Station: [station terminal](https://thenounproject.com/icon/station-terminal-2260974/) by Eucalyp
 
 ### Nation Icons
 - Camelot Foundation: [Wales](https://thenounproject.com/icon/wales-4282300/) by Lars Meiertoberens, DE
 - Deseret Nation: [Beehive](https://thenounproject.com/icon/beehive-106249/) by Cléa Lautrey
+- The Harbingers: [Water](https://thenounproject.com/icon/water-3064516/) by brian saptura
 
 ### Promotion Icons
 - AI Implant: [Artificial Intelligence](https://thenounproject.com/icon/artificial-intelligence-5689657/) by Anwar Hossain
@@ -75,8 +83,10 @@ Unless otherwise specified, all of the following are from the Noun Project, lice
 - Commando: [soldier](https://thenounproject.com/icon/soldier-642197/) by Gan Khoon Lay
 - Deseret Missionary: [Religion](https://thenounproject.com/icon/religion-53064/) by Bruno Gätjens González (same source as Missionary icon in base Unciv except *not* adapted)
 - Destroying Angel: [Angel](https://thenounproject.com/icon/angel-354209/) by william dayabaran
+- Educational Officer: [Government Officer](https://thenounproject.com/icon/government-officer-2003970/) by Made x Made, AU
 - Excalibur Knight: [Sword](https://thenounproject.com/icon/sword-2239554/) by Smalllike
 - Expeditionary Force: [mission](https://thenounproject.com/icon/mission-3048372/) by Eucalyp
+- Great Caravanner: [caravan](https://thenounproject.com/icon/caravan-4604787/) by Eucalyp
 - Hawkman Brave: [tomahawk](https://thenounproject.com/icon/tomahawk-4130106/) by Amethyst Studio
 - Hero of the Wastes: [Shield](https://thenounproject.com/icon/shield-49999/) by Jonathan Li
 - Knight: [Knight helmet](https://thenounproject.com/icon/knight-helmet-5567347/) by Singlar
@@ -86,8 +96,10 @@ Unless otherwise specified, all of the following are from the Noun Project, lice
 - Living Prophet: [Mormonism](https://thenounproject.com/icon/mormonism-200426/) by Dabid J. Pascual
 - Mobile Clinic: [Ambulance](https://thenounproject.com/icon/ambulance-1262538/) by Ralf Schmitzer
 - Mormon Battalion: [flag of utah](https://thenounproject.com/icon/flag-of-utah-5740272/) by Zach Bogart
+- Neutron Bomb: [Nuclear](https://thenounproject.com/icon/nuclear-2169503/) by ahmad, ID
 - Seastead Vessel: [Ship](https://thenounproject.com/icon/ship-4767613/) by Singlar
 - Speculatores: [bloody knife](https://thenounproject.com/icon/bloody-knife-2109678/) by Vectors Market
+- Technopath: [mind ability](https://thenounproject.com/icon/mind-ability-3216421/) by Vectors Point, PK
 - Wandering Doctor: [caduceus](https://thenounproject.com/icon/caduceus-211045/) by icon 54
 - Wasteland Patrol: [Binoculars](https://thenounproject.com/icon/binoculars-4069422/) by iconixar
 - Wayfarer: [Fleur de Lis](https://thenounproject.com/icon/fleur-de-lis-1383646/) by prasong tadoungsorn

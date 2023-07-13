@@ -147,9 +147,7 @@
 		"requiredResource": "Aluminum",
 		"maintenance": 0,
 		"hurryCostModifier": 20,
-		"uniques": ["Must be next to [Coast]",
-			"[+1 Gold] from [Water resource] tiles [in this city]",
-			"Provides [6] [Power]"],
+		"uniques": ["Must be next to [Coast]", "Provides [6] [Power]"],
 		"requiredTech": "Ocean Remediation"
 	},
 
@@ -414,6 +412,99 @@
 		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
 	},
 
+	//Harbinger unique buildings
+	{
+		"name": "State Dacha",
+		"uniqueTo": "The Harbingers",
+		"food": 2,
+		"culture": 2,
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["[-10]% Unhappiness from [Population] [in this city]",
+			"Free [Educational Officer] appears",
+			"Can only be built [in capital]",
+			"Gain a free [Food Store] [in this city]",
+			"Gain a free [Harbinger Manege] [in this city]"],
+		"quote": "They say this was where they found the last oligarch, hiding far from the ruins of our old civilization. Hiding from those who survived the apocalypse he helped bring upon us. We gave him up to our enemies to face justice... a peace offering that meant absolutely nothing.",
+		"civilopediaText": [
+			{
+				"text": "They say this was where they found the last oligarch, hiding far from the ruins of our old civilization. Hiding from those who survived the apocalypse he helped bring upon us. We gave him up to our enemies to face justice... a peace offering that meant absolutely nothing."
+			}
+		]
+	},
+	{
+		"name": "Contract with Survivors",
+		"replaces": "Search for Survivors",
+		"uniqueTo": "The Harbingers",
+		"cost": 30,
+		"isNationalWonder": true,
+		"uniques": ["Free [Great Caravanner] appears", "Free [Civilian Convoy] appears"]
+	},
+	{
+		"name": "Harbinger Manege",
+		"replaces": "Stable",
+		"uniqueTo": "The Harbingers",
+		"requiredNearbyImprovedResources": ["Horses"],
+		"gold": 2,
+		"cost": 50,
+		"hurryCostModifier": -25,
+		"uniques": ["Enables construction of [Mounted] units",
+			"[+2 Production, +1 Gold] from [Horses] tiles [in this city]"],
+		"requiredTech": "Redomestication"
+	},
+	{
+		"name": "Gostiny Dvor",
+		"replaces": "Market",
+		"uniqueTo": "The Harbingers",
+		"cityStrength": 2,
+		"cityHealth": 50,
+		"specialistSlots": {"Merchant": 2},
+		"hurryCostModifier": 25,
+		"requiredTech": "Trade",
+		"uniques": ["[+1 Gold] from [Luxury resource] tiles [in this city]",
+			"[+1 Gold] from [Fresh water] tiles [in this city]"]
+	},
+	{
+		"name": "Census Chamber",
+		"replaces": "Listening Post",
+		"uniqueTo": "The Harbingers",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			"[+75]% Great Person generation [in this city]",
+			"[+25]% Great Person generation [in this city] <after adopting [Constitution]>",
+			"Provides [1] [Encrypted Data]",
+			"Only available <in cities without a [Prison Camp]>",
+			"Destroyed when the city is captured"],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Investors' Chamber",
+		"replaces": "Congress",
+		"uniqueTo": "The Harbingers",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+1 Gold, +1 Culture] per [4] population [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Trustees' Committee]>",
+			"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Trustees' Committee",
+		"replaces": "Council",
+		"uniqueTo": "The Harbingers",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": ["Production to [Gold] conversion in cities changed by [33]%",
+			"[+5]% Production when constructing [All] buildings [in all cities connected to capital]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Investors' Chamber]>",
+			"Destroyed when the city is captured"]
+	},
+
 	//Adjusted buildings
 	{
 		"name": "Heat Plant", //no longer a Hexlock UB
@@ -435,21 +526,6 @@
 	},
 
 	//Other new Civ unique buildings
-	{
-		"name": "Remedial School",
-		"replaces": "Work Camp",
-		"uniqueTo": "Atlas",
-		"percentStatBonus": {"science": 25},
-		"science": 2,
-		"specialistSlots": {"Scientist": 1},
-		"maintenance": 1,
-		"hurryCostModifier": 0,
-		"uniques": ["[+1] population [in this city]",
-			"[+2 Science] [in this city] <with [Power]>",
-			"[+1 Happiness] [in this city] <after adopting [Technocracy]>",
-			"Consumes [1] [Slaves]", "Only available <with [Slaves]>", "Unsellable"],
-		"requiredTech": "Education"
-	},
 	{
 		"name": "Victory Column",
 		"uniqueTo": "Crimson Legion",
@@ -499,13 +575,73 @@
 			"[-1 Production, -1 Food, +1 Gold] [in this city] <with [Refined Narcotics]>"]
 	},
 	{
+		"name": "Corrective Colony",
+		"replaces": "Prison Camp",
+		"uniqueTo": "Proklyatyye",
+		"hurryCostModifier": -25,
+		"food": -2,
+		"percentStatBonus": {"food": -10},
+		"cost": 20,
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			"Can only be built [in annexed cities]",
+			"Provides [3] [Slaves]",
+			"Only available <in cities without a [Listening Post]>",
+			"Destroyed when the city is captured"],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Gulag",
+		"replaces": "Work Camp",
+		"uniqueTo": "Proklyatyye",
+		"percentStatBonus": {"production": 5},
+		"specialistSlots": {"Engineer": 1},
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Production] from [Food source] tiles [in this city]",
+			"[+2 Production] [in this city] <with [Slaves]>",
+			"Consumes [1] [Slaves]",
+			"Only available <with [Slaves]>"],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "State Assembly", //originally named Five-Year Plan, which makes no sense
+		"replaces": "Congress",
+		"uniqueTo": "Proklyatyye",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+10]% growth [in all cities connected to capital]",
+			"[+1 Culture] per [5] population [in all cities connected to capital]",
+			"[+25]% Great Person generation [in all cities connected to capital]",
+			"[-10]% Unhappiness from [Population] [in all cities connected to capital]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Politburo]>",
+			"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Politburo", //originally named Gulag, which should have gone to a unique Prison/Labor Camp replacement in the base scenario
+		"cost": 50,
+		"replaces": "Council",
+		"uniqueTo": "Proklyatyye",
+		"requiredTech": "Civil Service",
+		"uniques": ["Double quantity of [Slaves] produced",
+			"[+3 Food, +1 Production] from every [Corrective Colony]",
+			"[+10]% [Food] from every [Corrective Colony]",
+			"[+1 Production] from every [Listening Post]",
+			"[+1 Happiness, +1 Culture] from every [Five-Year Plan]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [State Assembly]>",
+			"Destroyed when the city is captured"]
+	},
+	{
 		"name": "Atomgrad Project",
 		"replaces": "Manhattan Project",
 		"uniqueTo": "Proklyatyye",
 		"isNationalWonder": true,
 		"requiredTech": "Nuclear Fission",
 		"uniques": ["Enables nuclear weapon", "Enables construction of [Super Mutant] units",
-			"Provides [4] [Uranium]",
+			"Double quantity of [Uranium] produced",
 			"Triggers a global alert upon completion",
 			"Cannot be hurried"]
 	},
@@ -550,21 +686,28 @@
 		"uniqueTo": "Defiance",
 		"replaces": "Monument",
 		"culture": 2,
-		"cost": 10,
+		"cost": 1,
 		"hurryCostModifier": 5,
 		"uniques": ["Reveals the entire map", "Destroyed when the city is captured", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Lawkeeper Office",
+		"uniqueTo": "Defiance",
+		"cost": 1,
+		"uniques": ["[+10]% Production when constructing [Personnel] units [in this city]",
+			"Free [Lawkeeper] appears",
+			"Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Von Bach Industries",
 		"uniqueTo": "Defiance",
 		"replaces": "Armaments Production Line",
 		"cityStrength": 5,
-		"cost": 10,
+		"cost": 1,
 		"uniques": ["Provides [1] [Oil]", "Provides [4] [Weapons]",
 			"[4] units cost no maintenance", "[+4] Unit Supply",
 			"[Personnel] units gain the [Infantry Weapons] promotion",
 			"[2] free [Ark Hunter] units appear",
-			"Free [Lawkeeper] appears",
 			"Free [Mechanized Worker] appears",
 			"Gain a free [Armory] [in this city]",
 			"Destroyed when the city is captured",
@@ -594,7 +737,7 @@
 		"uniqueTo": "Carbon",
 		"food": 2,
 		"specialistSlots": {"Merchant": 2},
-		"cost": 10,
+		"cost": 1,
 		"hurryCostModifier": 5,
 		"requiredTech": "Trade",
 		"uniques": ["[+1 Gold] from [Food source] tiles [in this city]",

@@ -44,11 +44,15 @@
 		"name": "AI Implant",
 		"uniques": ["[+10] HP when healing",
 			"[+15]% Strength <when attacking>",
-			"Damage is ignored when determining unit Strength"],
+			"Damage is ignored when determining unit Strength"]
 	},
 	{
 		"name": "[Wayfarer] ability",
 		"uniques": ["May enter foreign tiles without open borders"]
+	},
+	{
+		"name": "[Educational Officer] ability",
+		"uniques": ["[+10]% Strength bonus for [Military] units within [1] tiles"]
 	},
 	{
 		"name": "[Lawkeeper] ability",
@@ -66,6 +70,6 @@
 		"name": "Heroic Resolve",
 		"uniques": ["All healing effects doubled",
 			"[+50]% XP gained from combat",
-			"[+15]% Strength bonus for [Military] units within [2] tiles"],
-	},
+			"[+15]% Strength bonus for [Military] units within [2] tiles"]
+	}
 ]
