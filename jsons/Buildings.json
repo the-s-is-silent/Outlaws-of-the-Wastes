@@ -628,7 +628,7 @@
 			"[+3 Food, +1 Production] from every [Corrective Colony]",
 			"[+10]% [Food] from every [Corrective Colony]",
 			"[+1 Production] from every [Listening Post]",
-			"[+1 Happiness, +1 Culture] from every [Five-Year Plan]",
+			"[+1 Happiness, +1 Culture] from every [Gulag]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [State Assembly]>",
