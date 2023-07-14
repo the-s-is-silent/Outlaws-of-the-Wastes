@@ -24,7 +24,7 @@
 		"uniques": ["May create improvements on water resources",
 			"Can build [Artificial atoll] improvements on tiles",
 			"Can build [Floating Settlement] improvements on tiles",
-			"[-100]% maintenance costs"]
+			"Automation is a primary action"]
 	},
 
 	//Support units
@@ -51,7 +51,7 @@
 		"hurryCostModifier": 20,
 		"requiredTech": "Pharmaceuticals",
 		"promotions": ["Medic I", "Medic II"],
-		"uniques": ["Consumes [1] [Oil]", "Can carry [2] [Wounded] units",
+		"uniques": ["Consumes [1] [Oil]",
 			"All adjacent units heal [+15] HP when healing",
 			"[-33]% Strength <vs cities>",
 			"Only available <in cities with a [Hospital]>"],
@@ -65,7 +65,7 @@
 		"name": "Wasteland Patrol",
 		"unitType": "Scout",
 		"movement": 4,
-		"strength": 12,
+		"strength": 15,
 		"rangedStrength": 20,
 		"range": 1,
 		"cost": 30,
@@ -84,7 +84,7 @@
 		"name": "Border Patrol",
 		"unitType": "Shooter",
 		"movement": 4,
-		"strength": 32,
+		"strength": 30,
 		"rangedStrength": 35,
 		"range": 1,
 		"interceptRange": 1,
@@ -336,7 +336,7 @@
 
 	//Harbinger unique units
 	{
-		"name": "Great Caravanner",
+		"name": "Great Caravan",
 		"uniqueTo": "The Harbingers",
 		"replaces": "Great Merchant",
 		"unitType": "Civilian",
@@ -361,9 +361,11 @@
 		"strength": 30,
 		"rangedStrength": 24,
 		"interceptRange": 1,
-		"promotions": ["[Educational Officer] ability"],
+		"cost": 60,
+		"upgradesTo": "Rifleman",
 		"uniques": ["Personnel",
 			"Can be purchased for [200] [Gold] [in all non-occupied cities]",
+			"[+10]% Strength bonus for [Military] units within [1] tiles",
 			"[-33]% Strength <vs cities> <when attacking>",
 			"Prevents spreading of religion to the city it is next to",
 			"Can [Remove Foreign religions from your own cities] [2] times",
@@ -529,7 +531,7 @@
 		"name": "Mounted Railgun",
 		"unitType": "Armor",
 		"uniqueTo": "Defiance",
-		"replaces": "Armored Car"
+		"replaces": "Armored Car",
 		"movement": 4,
 		"strength": 45,
 		"cost": 100,

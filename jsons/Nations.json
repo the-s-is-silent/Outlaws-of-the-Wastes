@@ -48,9 +48,10 @@
 	{
 		"name": "Camelot Foundation",
 		"leaderName": "Arthur",
-		"adjective": ["Camelot"],
+		"adjective": ["Briton"],
+		"startBias": ["Coast"],
 		"preferredVictoryType": "Scientific",
-		"favoredReligion": "Paganism", //this is temporary until I figure out whether they should harken back to pagan beliefs or keep the Christian faith imposed on them in Medieval fiction
+		"favoredReligion": "Anglicanism",
 
 		// "startIntroPart1": "",
 		// "startIntroPart2": "",
@@ -64,7 +65,7 @@
 
 		"outerColor": [189,90,80],
 		"innerColor": [10,52,45],
-		"style": "Corporate",
+		"style": "Military",
 		"uniqueName": "Restoration of the Round Table",
 		"uniques": ["[{Land} {Low Tech}] units gain the [Powered Armor] promotion",
 			"[Personnel] units gain the [Powered Armor] promotion",

@@ -51,10 +51,6 @@
 		"uniques": ["May enter foreign tiles without open borders"]
 	},
 	{
-		"name": "[Educational Officer] ability",
-		"uniques": ["[+10]% Strength bonus for [Military] units within [1] tiles"]
-	},
-	{
 		"name": "[Lawkeeper] ability",
 		"uniques": ["Great General",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
