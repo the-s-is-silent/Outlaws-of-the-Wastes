@@ -438,7 +438,7 @@
 		"uniqueTo": "The Harbingers",
 		"cost": 30,
 		"isNationalWonder": true,
-		"uniques": ["Free [Great Caravanner] appears", "Free [Civilian Convoy] appears"]
+		"uniques": ["Free [Great Caravan] appears", "Free [Civilian Convoy] appears"]
 	},
 	{
 		"name": "Harbinger Manege",
