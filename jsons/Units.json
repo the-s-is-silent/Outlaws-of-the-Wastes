@@ -135,7 +135,7 @@
 		"uniques": ["Personnel", "Never appears as a Barbarian unit", "Can move after attacking",
 			"[+33]% chance to intercept air attacks",
 			"May Paradrop up to [10] tiles from inside friendly territory"],
-		"attackSound": "shot"
+		"attackSound": "machinegun"
 	},
 
 	//Deseret Nation unique units
@@ -310,7 +310,7 @@
 			"[-25]% Strength <vs cities> <when attacking>",
 			"Only available <in cities with a [Stable]>"],
 		"hurryCostModifier": 20,
-		"attackSound": "shot"
+		"attackSound": "horse"
 	},
 	{
 		"name": "Excalibur Knight",
@@ -331,7 +331,7 @@
 			"[+25]% Strength <when defending>",
 			"Only available <in cities with a [Stable]>"],
 		"hurryCostModifier": 20,
-		"attackSound": "shot"
+		"attackSound": "horse"
 	},
 
 	//Harbinger unique units
@@ -636,6 +636,6 @@
 			"[+100]% chance to intercept air attacks",
 			"[-100]% maintenance costs",
 			"Never appears as a Barbarian unit"],
-		"attackSound": "shot"
+		"attackSound": "machinegun"
 	}
 ]
