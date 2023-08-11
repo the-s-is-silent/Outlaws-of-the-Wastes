@@ -18,7 +18,7 @@ Changes since the Harbinger update
 - Consequently, Precision and Suppression now list Forage instead of Skirmish as a prerequisite promotion.
 - Hazard Pay no longer allows units to move immediately upon purchase, but also awards Water per kill instead of costing the unit's faction Water per kill.
 - Bombardment separated into Water and Air versions, with three tiers for Bomber units, and it along with Siege are removed from Fighter units.
-- Siege II and III can no longer be awarded without first choosing the previous promotion tier.
+- Siege II and III, and Interception II and III, can no longer be awarded without first choosing the previous promotion tier.
 - Targeting buffed to 33% Strength bonus vs Water units.
 - Survivalism removed from the promotion list for Armor, Helicopter, and all Water and Air units.
 - Evasive Maneuvers requires the second tier Fighter/Bomber promotions.

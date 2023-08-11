@@ -623,7 +623,7 @@
 			{
 				"name": "Exclusive Zones",
 				"uniques": ["[+1 Food, +1 Production, +1 Gold] from every [Coast] <in tiles without [Water resource]>",
-					"[+1 Food, +1 Production, +1 Gold] from every [Ocean] <in tiles without [Water resourcce]>",
+					"[+1 Food, +1 Production, +1 Gold] from every [Ocean] <in tiles without [Water resource]>",
 					"[+25]% [Gold] from every [Seaport]"],
 				"requires": ["Aquaculture"],
 				"row": 3,

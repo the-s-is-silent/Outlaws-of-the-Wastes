@@ -101,6 +101,29 @@
 		"row": 3
 	},
 	{
+		"name": "Interception I",
+		"uniques": ["[+33]% Damage when intercepting"],
+		"unitTypes": ["Fighter"],
+		"column": 4,
+		"row": 4
+	},
+	{
+		"name": "Interception II",
+		"prerequisites": ["Interception I"],
+		"uniques": ["[+33]% Damage when intercepting"],
+		"unitTypes": ["Fighter"],
+		"column": 4,
+		"row": 5
+	},
+	{
+		"name": "Interception III",
+		"prerequisites": ["Interception II"],
+		"uniques": ["[+34]% Damage when intercepting"],
+		"unitTypes": ["Fighter"],
+		"column": 4,
+		"row": 6
+	},
+	{
 		"name": "Hazard Pay",
 		"uniques": ["Earn [10]% of killed [Military] unit's [Cost] as [Gold]"],
 		"column": 5,
@@ -238,6 +261,10 @@
 		"uniques": ["[+10] HP when healing",
 			"[+15]% Strength <when attacking>",
 			"Damage is ignored when determining unit Strength"]
+	},
+	{
+		"name": "Sea Raider",
+		"uniques": ["Earn [20]% of the damage done to [All] units as [Gold]"]
 	},
 	{
 		"name": "[Wayfarer] ability",
