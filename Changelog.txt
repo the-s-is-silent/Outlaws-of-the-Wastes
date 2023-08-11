@@ -42,16 +42,18 @@ Changes since the Harbinger update
 - Salvage Army/Tank Depot now award an Ancient Armor instead of a Modern Armor.
 - Nuclear Waste Museum is now a National Wonder, addressing an issue where it could still be purchased if Excavate Nuclear Waste was built first. It also adds 10% Science and Culture to its city, adding incentive to build it.
 - Distribute Soft Drinks has been removed from the game.
-- Public Broadcast's production cost increased to 500 (was previously a much, much too low 100) and it now requires four Broadcast Towers.
+- Public Broadcast's production cost increased to 500 (was previously a much, much too low 100) and it now requires every city you own to have a Broadcast Tower, not just the city it's built in.
 - Broadcast Network now requires every city to have a Television Studio, instead of only needing one in the city it's built in.
 - National College and Grand Monastery's base production cost reduced to 125 (were previously much, much too high, at 300/400 respectively).
+- Medical Network now requires a Hospital in every city instead of a minimum of 4 cities.
+- Public Works Administration only awards one Golden Age now instead of a potential permanent Golden Age.
 - Media Center is now a normal building instead of a National Wonder.
 - Fusion Reactor's cost has been reduced and its effects are drastically buffed: it now doubles the faction's Power supply and adds 25% Production to all cities.
 - Homeland Defense Initiative now boosts production towards defensive buildings (Walls, etc.), reducing the time spent building them by 20%, and adds 15% more city strength from those buildings.
 
 **Building Adjustments**
 - Defensive buildings are no longer all automatically unlocked by building Walls and must now be built in order: Hardened Defenses requires Defensive Emplacements, Battery and Bunker require Hardened Defenses, and Active Denial System requires Battery.
-- Listening Post (and replacements) nerfed to 25% GP generation with no extra bonus for Constitution factions.
+- Listening Post (and relevant replacements) nerfed to 25% GP generation with no extra bonus for Constitution factions.
 - Arcology Dome buffed to +250 City HP and +33% Water, but requires the city to be of size 20 or higher.
 - Aluminum Smelter no longer adds a Food/Water penalty to Aluminum tiles and adds +2 Production to the city along with an Engineer slot.
 - Plastics Factory buffed to add +1 Production to Plastics tiles and +2 Production to Oil tiles worked by the city.
@@ -98,7 +100,7 @@ Changes since the Harbinger update
 - Earthscraper Project, locked behind Collectivism, enabling construction of Earthscraper buildings which add 1 of every Specialist, +2 pop, a *lot* of city HP, and when combined with Bunkers make the city almost completely immune to pop loss from nukes
 - Exotic Reactor - yes, another standalone UB for the Defiance CS, giving them more Power, but like their other UBs it will be destroyed if they're captured.
 - Kolkhoz, Proklyatyye's replacement for the Greenhouse, adds +2 Production, 2 Farmer slots instead of 1, and +1 Production to active Farmers, but has higher maintenance
-- Kruger Line, a unique national wonder for Atlas, requiring a Factory present in four cities and consuming Power to add +2 Production to tiles with a Railroad on them along with +2 Water to each Trade Route
+- Kruger Line, a unique national wonder for Atlas, requiring a Factory present in all cities and consuming Power to add +2 Production to tiles with a Railroad on them along with +2 Water to each Trade Route
 - Nanomaterial Factory, exclusive to the Calico CS, granting a new unique luxury and granting their units a unique promotion
 - Oceanological Center, locked behind Rediscovery, consuming Power and boosting Science/Happiness for coastal cities
 - Resettlement Bureau, locked behind Collectivism, converting 1 pop in the capital to a Civilian Convoy and adding a production boost to Civilian Convoys along with Food yields to Settlements

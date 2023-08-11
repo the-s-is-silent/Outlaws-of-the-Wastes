@@ -354,7 +354,7 @@
 		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": ["[+1 Culture, +1 Faith] per [4] population [in all cities]",
-			"[-10]% Unhappiness from [Population] [in all cities]",
+			"[-15]% Unhappiness from [Followers of the Majority Religion] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Council]>",
@@ -367,7 +367,7 @@
 		"cost": 50,
 		"requiredTech": "Civil Service",
 		"uniques": ["Enables conversion of city production to [Faith]",
-			"[+5]% Production when constructing [All] buildings [in all cities connected to capital]",
+			"[+2 Production] from all [Faith] buildings",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Congress]>",
@@ -390,7 +390,7 @@
 		"uniqueTo": "Deseret2",
 		"replaces": "Nuclear Plant",
 		"requiredResource": "Uranium",
-		"maintenance": 4,
+		"maintenance": 3,
 		"requiredBuilding": "Library",
 		"cost": 675,
 		"hurryCostModifier": 33,
@@ -829,7 +829,7 @@
 		"uniques": [
 			"[+1] population [in all cities]",
 			"Free Great Person",
-			"Requires a [Broadcast Tower] in at least [4] cities",
+			"Requires a [Broadcast Tower] in all cities",
 			"Cost increases by [30] per owned city"
 		],
 		"quote": "When the immediate danger has passed the sirens will sound a steady note. The all clear message will also be given on this wavelength.",
@@ -953,6 +953,31 @@
 			"[Great Sage] units built [in this city] can [Spread Religion] [1] extra times",
 			"Free Social Policy",
 			"[-1] population [in this city]"]
+	},
+	{
+		"name": "Medical Network",
+		"isNationalWonder": true,
+		"science": 3,
+		"requiredTech": "Biology",
+		"uniques": ["Requires a [Hospital] in all cities",
+			"Only available <after adopting [Rationalism]>",
+			"[5]% Food is carried over after population increases [in all cities]",
+			"[+5]% growth [in all cities] <after adopting [Rationalism Complete]>",
+			"[All] Units adjacent to this city heal [30] HP per turn when healing",
+			"This affect applies to all cities"]
+	},
+	{
+		"name": "Public Works Administration",
+		"isNationalWonder": true,
+		"culture": 1,
+		"science": 1,
+		"greatPersonPoints": { "Great Administrator": 2 },
+		"requiredTech": "Civil Service",
+		"uniques": ["Requires a [Town Hall] in all cities",
+			"Only available <after adopting [Constitution]>",
+			"[+1 Production] [in all cities connected to capital]",
+			"[+50]% Golden Age length",
+			"Empire enters golden age"]
 	},
 	{
 		"name": "Heat Plant", //no longer a Hexlock UB
@@ -1220,7 +1245,7 @@
 		"uniques": ["Can only be built [in capital]",
 			"[+2 Production] from [Railroad] tiles [in all cities]",
 			"[+2 Gold] from each Trade Route",
-			"Requires a [Factory] in at least [4] cities",
+			"Requires a [Factory] in all cities",
 			"Consumes [1] [Power]"],
 		"requiredTech": "Railroads"
 	},
@@ -1246,7 +1271,7 @@
 		"faith": 2,
 		"cityStrength": 1,
 		"cityHealth": 50,
-		"uniques": ["May choose [1] additional [Pantheon] beliefs when founding a religion",
+		"uniques": ["May choose [1] additional [Pantheon] beliefs when [founding] a religion",
 			"[2] free [Scavenger] units appear",
 			"Can only be built [in capital]",
 			"Gain a free [Salvage Yard] [in this city]"]
@@ -1297,7 +1322,7 @@
 		"cost": 1,
 		"uniques": ["[+2 Culture] [in this city] <after discovering [Iron Working]>",
 			"Provides [2] [Oil]",
-			"May choose [1] additional [Pantheon] beliefs when founding a religion",
+			"May choose [1] additional [Pantheon] beliefs when [founding] a religion",
 			"Free [War Buggy] appears",
 			"Can only be built [in capital]",
 			"Gain a free [Fuel Depot] [in this city]"],
