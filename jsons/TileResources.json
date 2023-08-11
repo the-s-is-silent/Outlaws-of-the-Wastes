@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Advanced Fabrics",
+		"resourceType": "Luxury",
+		"production": 3
+	},
+	{
 		"name": "Scripture",
 		"resourceType": "Luxury",
 		"faith": 1

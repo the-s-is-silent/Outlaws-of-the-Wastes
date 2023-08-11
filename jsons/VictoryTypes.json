@@ -1,0 +1,15 @@
+[
+	{
+		"name": "Colonization",
+		"hiddenInVictoryScreen": false,
+		"victoryScreenHeader": "Complete all the colony ship parts\nto win!",
+		"milestones": [
+			"Build [Colony Ship Project]", "Add all [colony ship parts] in capital"
+		],
+		"requiredSpaceshipParts": [
+			"SS Engine", "SS Stasis Chamber", "SS Life Support", "SS Casing", "SS Cockpit", "SS Booster"
+		],
+		"victoryString": "You have achieved victory through mastery of Science! You have conquered the mysteries of nature and led your people on a voyage to a brave new world! Your triumph will be remembered as long as the stars burn in the night sky!",
+		"defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+	}
+]

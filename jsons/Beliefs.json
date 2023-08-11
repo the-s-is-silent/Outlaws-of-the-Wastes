@@ -3,8 +3,8 @@
 	{
 		"name": "Atomic Children",
 		"type": "Pantheon",
-		"uniques": ["[+2 Culture, +3 Faith] from every [Fallout]",
-			"[+2 Culture, +3 Faith] from every [Toxic Waste]",
+		"uniques": ["[+2 Culture, +2 Faith] from every [Fallout]",
+			"[+2 Culture, +2 Faith] from every [Toxic Waste]",
 			"[+2 Culture, +2 Faith] from every [Uranium]"]
 	},
 	{
@@ -22,6 +22,16 @@
 			"[+1 Food, +1 Faith] from every [Food Store]"]
 	},
 	{
+		"name": "God of Beasts",
+		"type": "Pantheon",
+		"uniques": ["[+1 Culture] from every [Pasture]", "[+1 Culture] from every [Bioculture]"]
+	},
+	{
+		"name": "God of Commerce",
+		"type": "Pantheon",
+		"uniques": ["[+2 Gold, +1 Faith] from each Trade Route"]
+	},
+	{
 		"name": "God of the Sea",
 		"type": "Pantheon",
 		"uniques": ["[+1 Production, +1 Faith] from every [Water resource]",
@@ -35,10 +45,20 @@
 			"[+1 Happiness] from every [Artificial glacier]"]
 	},
 	{
+		"name": "Harvest Festival",
+		"type": "Pantheon",
+		"uniques": ["[+1 Food] from every [Grain]", "[+1 Food] from every [Tubers]"]
+	},
+	{
 		"name": "Home and Hearth",
 		"type": "Pantheon",
 		"uniques": ["[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith, +1 Happiness] from every [Bomb Shelter]",
 			"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith, +1 Happiness] per [5] population [in capital]"]
+	},
+	{
+		"name": "Hymns of Praise",
+		"type": "Pantheon",
+		"uniques": ["[+1 Happiness] from every [Shrine"]
 	},
 	{
 		"name": "Pray for Water",
@@ -74,6 +94,14 @@
 			"Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
 	},
 	{
+		"name": "Spiritual Research",
+		"type": "Pantheon",
+		"uniques": ["[+1 Culture, +1 Faith] from every [Artifacts]",
+			"[+1 Culture, +1 Faith] from every [Books]",
+			"[+1 Culture, +1 Faith] from every [Data]",
+			"[+1 Culture, +1 Faith] from every [Encrypted Data]"]
+	},
+	{
 		"name": "Strength of the Earth",
 		"type": "Pantheon",
 		"uniques": ["[+1 Production, +1 Faith] from every [Mine] <within [2] tiles of a [City center]>",
@@ -96,7 +124,7 @@
 	{
 		"name": "Faith Healers",
 		"type": "Follower",
-		"uniques": ["All newly-trained [non-air] units [in cities following this religion] receive the [Healing Hands] promotion",
+		"uniques": ["All newly-trained [Personnel] units [in cities following this religion] receive the [Healing Hands] promotion",
 			"[All] Units adjacent to this city heal [+20] HP per turn when healing",
 			"[+2 Faith] from every [Hospital]",
 			"[+2 Faith] from every [Medical Lab]"]
@@ -115,10 +143,32 @@
 		"uniques": ["[+1]% [Production] from every follower, up to [+10]%"]
 	},
 	{
+		"name": "Obey the Elders",
+		"type": "Follower",
+		"uniques": ["[+2 Food, +2 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>"]
+	},
+	{
+        "name": "Public Prayer",
+        "type": "Follower",
+        "uniques": ["[+2 Faith, +1 Culture] from every [Town Hall] <in cities with at least [3] [Followers of this Religion]>"]
+    },
+	{
+		"name": "Sacred Waters",
+		"type": "Follower",
+		"uniques": ["[+1 Happiness, +1 Faith] [in cities following this religion] <in [River] tiles>",
+			"[+1 Food, +1 Faith] from every [Hydroponic Farming]",
+			"[+1 Gold, +1 Faith] from every [Greywater Treatment Plant]"]
+	},
+	{
 		"name": "Trust the Science",
 		"type": "Follower",
 		"uniques": ["[+1 Science, +1 Faith] from every [University] <in cities with at least [5] [Followers of this Religion]>",
 			"[+1 Science, +1 Faith] from every [Public School] <in cities with at least [5] [Followers of this Religion]>"]
+	},
+	{
+		"name": "Veneration of the Elders",
+		"type": "Follower",
+		"uniques": ["[+3 Production, +3 Gold, -1 Happiness] [in cities following this religion] <in cities with at least [10] [Population]>"]
 	},
 
 //Founder
@@ -147,10 +197,23 @@
 			"[+20]% Strength <for [Missile] units> <when attacking>"]
 	},
 	{
+		"name": "Blessing of Peace",
+		"type": "Enhancer", //should be Reformation but that category doesn't exist yet
+		"uniques": ["[+2 Food] from every [Barracks]",
+			"[+20]% growth [in cities following this religion] <when not at war>"]
+	},
+	{
+		"name": "Illuminated Order",
+		"type": "Enhancer",
+		"uniques": ["[Faith] cost of purchasing items in cities [-15]%",
+			"[+3 Production, +3 Food, +3 Gold, +3 Culture, +3 Faith, +3 Happiness] from every [Grand Monastery]"]
+	},
+	{
 		"name": "Missionary Zeal",
 		"type": "Enhancer",
-		"uniques": ["[Philosopher] units gain the [Zeal] promotion",
-			"[Philosopher] units built [in this city] can [Spread Religion] [1] extra times"]
+		"uniques": ["[Faith] cost of purchasing [Philosopher] units [-30]%",
+			"[+25]% Spread Religion Strength <for [Philosopher] units>",
+			"[Philosopher] units built [in all cities] can [Spread Religion] [1] extra times"]
 	},
 	{
 		"name": "New Zion",
@@ -174,5 +237,21 @@
 		"type": "Enhancer",
 		"uniques": ["[+3 Faith] from each Trade Route",
 			"[+50]% Natural religion spread [in all cities connected to capital]"]
+	},
+	{
+		"name": "Thought Control",
+		"type": "Enhancer",
+		"uniques": ["[Faith] cost of purchasing [Censor] units [-30]%",
+			"[Censor] units built [in all cities] can [Remove Foreign religions from your own cities] [1] extra times"]
+	},
+	{
+		"name": "Unity of the Sages",
+		"type": "Enhancer",
+		"replacementTextForUniques": "Seminaries (and their replacements) receive an extra 50% to their yields, and Faith buildings in cities with at least 10 followers of the religion produce an extra 2 Faith.",
+		"uniques": ["[+50]% Yield from every [Seminary]",
+			"[+50]% Yield from every [Oracle]",
+			"[+50]% Yield from every [Endowment House]",
+			"[+2 Faith] from all [Faith] buildings <in cities with at least [10] [Followers of this Religion]>"]
+		// TODO: Should also have the Unity of the Prophets effect of Censors/Sages only reducing foreign religion followers by half once BNW content is implemented
 	}
 ]

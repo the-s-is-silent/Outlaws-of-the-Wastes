@@ -20,11 +20,124 @@
 		"movement": 6,
 		"cost": 200,
 		"hurryCostModifier": 20,
+		"requiredResource": "Oil",
 		"requiredTech": "Ocean Remediation",
 		"uniques": ["May create improvements on water resources",
 			"Can build [Artificial atoll] improvements on tiles",
 			"Can build [Floating Settlement] improvements on tiles",
 			"Automation is a primary action"]
+	},
+	{
+		"name": "Great Admiral",
+		"unitType": "Civilian Water",
+		"uniques": ["Can instantly construct a [Drydock] improvement <by consuming this unit>",
+			"[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles",
+			"May heal outside of friendly territory",
+			"[+15] HP when healing",
+			"All adjacent units heal [+15] HP when healing",
+			"Great Person - [Navy]",
+			"Unbuildable", "Uncapturable"],
+		//Repair Fleet ability is currently unimplemented
+		"movement": 6
+	},
+
+	//Colony Ship Parts (restoring the classic Science Victory)
+	{
+		"name": "SS Booster",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1500,
+		"requiredTech": "Incentivization",
+		"requiredResource": "Aluminum",
+		"uniques": ["Colony Ship Part",
+			"Consumes [1] [Aluminum]",
+			"Only available <in cities with a [Aerospace Facility]>",
+			"Only available <if [Colony Ship Project] is constructed>",
+			"Can be added to [The Colony Ship] in the Capital",
+			"Limited to [1] per Civilization",
+			"Cannot be purchased",
+			"Triggers a global alert upon completion",
+			"Hidden when [Colonization] Victory is disabled"]
+	},
+	{
+		"name": "SS Casing",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1500,
+		"requiredTech": "Advanced Materials",
+		"requiredResource": "Aluminum",
+		"uniques": ["Colony Ship Part",
+			"Only available <in cities with a [Aerospace Facility]>",
+			"Only available <if [Colony Ship Project] is constructed>",
+			"Can be added to [The Colony Ship] in the Capital",
+			"Limited to [1] per Civilization",
+			"Cannot be purchased",
+			"Triggers a global alert upon completion",
+			"Hidden when [Colonization] Victory is disabled"]
+	},
+	{
+		"name": "SS Cockpit",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1500,
+		"requiredTech": "Satellites",
+		"requiredResource": "Aluminum",
+		"uniques": ["Colony Ship Part",
+			"Only available <in cities with a [Aerospace Facility]>",
+			"Only available <if [Colony Ship Project] is constructed>",
+			"Can be added to [The Colony Ship] in the Capital",
+			"Limited to [1] per Civilization",
+			"Cannot be purchased",
+			"Triggers a global alert upon completion",
+			"Hidden when [Colonization] Victory is disabled"]
+	},
+	{
+		"name": "SS Engine",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1500,
+		"requiredTech": "Particle Physics",
+		"requiredResource": "Uranium",
+		"uniques": ["Colony Ship Part",
+			"Only available <in cities with a [Aerospace Facility]>",
+			"Only available <if [Colony Ship Project] is constructed>",
+			"Can be added to [The Colony Ship] in the Capital",
+			"Limited to [1] per Civilization",
+			"Cannot be purchased",
+			"Triggers a global alert upon completion",
+			"Hidden when [Colonization] Victory is disabled"]
+	},
+	{
+		"name": "SS Life Support",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1500,
+		"requiredTech": "Future Power",
+		"requiredResource": "Aluminum",
+		"uniques": ["Colony Ship Part",
+			"Only available <in cities with a [Aerospace Facility]>",
+			"Only available <if [Colony Ship Project] is constructed>",
+			"Can be added to [The Colony Ship] in the Capital",
+			"Limited to [1] per Civilization",
+			"Cannot be purchased",
+			"Triggers a global alert upon completion",
+			"Hidden when [Colonization] Victory is disabled"]
+	},
+	{
+		"name": "SS Stasis Chamber",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1500,
+		"requiredTech": "Future Materials",
+		"requiredResource": "Aluminum",
+		"uniques": ["Colony Ship Part",
+			"Only available <in cities with a [Aerospace Facility]>",
+			"Only available <if [Colony Ship Project] is constructed>",
+			"Can be added to [The Colony Ship] in the Capital",
+			"Limited to [1] per Civilization",
+			"Cannot be purchased",
+			"Triggers a global alert upon completion",
+			"Hidden when [Colonization] Victory is disabled"]
 	},
 
 	//Support units
@@ -68,7 +181,7 @@
 		"strength": 15,
 		"rangedStrength": 20,
 		"range": 1,
-		"cost": 30,
+		"cost": 50,
 		"requiredTech": "Redomestication",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Border Patrol",
@@ -345,7 +458,7 @@
 		"uniques": ["Mounted",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
 			"Can instantly construct a [Wasteland Station] improvement <by consuming this unit>",
-			"Is part of Great Person group [Gold]",
+			"Is part of Great Person group [Merchant]", "Great Person - [Gold]",
 			"Only available <if [Harbinger Manege] is constructed>",
 			"Only available <in cities with a [Contract with Survivors]>",
 			"Requires at least [5] population",
@@ -405,13 +518,14 @@
 		"cost": 1500,
 		"requiredTech": "Nuclear Fission",
 		"promotions": ["Evasive Maneuvers"],
-		"uniques": ["[+50]% Strength <when attacking>",
+		"uniques": ["[+100]% Strength <when attacking>",
 			"Nuclear weapon of Strength [3]",
 			"Blast radius [0]",
 			"Only available <if [Manhattan Project] is constructed>",
 			"Only available <in cities with a [Aerospace Facility]>",
 			"Self-destructs when attacking",
-			"Consumes [2] [Uranium]"],
+			"Consumes [2] [Uranium]",
+			"Cannot be purchased"],
 		"attackSound": "nuke"
 	},
 
@@ -457,6 +571,7 @@
 		"requiredTech": "Rocketry",
 		"uniques": ["Nuclear weapon of Strength [2]", "Blast radius [2]",
 			"Only available <if [Manhattan Project] is constructed>",
+			"Cannot be purchased",
 			"Consumes [2] [Uranium]"],
 		"hurryCostModifier": 20,
 		"attackSound": "nuke"
@@ -495,6 +610,21 @@
 	},
 
 	//City-State units
+	{
+		"name": "Alma State Guard",
+		"unitType": "Scrapper",
+		"uniqueTo": "Almaty",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 45,
+		"interceptRange": 1,
+		"cost": 55,
+		"upgradesTo": "Exo-Trooper",
+		"hurryCostModifier": 20,
+		"promotions": ["Gas Mask"],
+		"uniques": ["Personnel", "Consumes [1] [Weapons]", "[+15]% Strength <when fighting in [Friendly Land] tiles>"],
+		"attackSound": "machinegun"
+	},
 	{
 		"name": "Hawkman Brave",
 		"unitType": "Scrapper",
@@ -560,7 +690,28 @@
 		"attackSound": "machinegun"
 	},
 
-	//Adjusted base units
+	//Adjusted base scenario units
+	{
+		"name": "Purge Robot Proto",
+		"unitType": "Scrapper",
+		"replaces": "Spearman",
+		"uniqueTo": "Hexlock",
+		"upgradesTo": "Purge Robot MKI",
+		"obsoleteTech": "Combined Arms",
+		"movement": 2,
+		"strength": 40,
+		"cost": 50,
+		"requiredTech": "Machinery",
+		"uniques": [
+			"Promotion Nullifier",
+			"Purge Robot",
+			"Can move after attacking",
+			"No defensive terrain penalty",
+			"Consumes [1] [Encrypted Data]"
+		],
+		"promotions": ["Promotion Nullifier", "Portable Power Cell"],
+		"attackSound": "metalhit"
+	},
 	{
 		"name": "Tank",
 		"unitType": "Armor",
@@ -579,6 +730,214 @@
 		], //removed exclusion from Barbarian unit list
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
+	},
+	{
+		"name": "Ancient Armor",
+		"unitType": "Armor",
+		"uniqueTo": "Almaty",
+		"movement": 5,
+		"strength": 55,
+		"cost": 100,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Modern Armor",
+		"uniques": [
+			"Eliminates combat penalty for attacking across a river",
+			"[+1] Movement <in [Friendly Land] tiles>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Only available <if [Alma Tank Depot] is constructed>",
+			"Consumes [1] [Oil]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Attack Boat",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 40,
+		"cost": 100,
+		"requiredTech": "Steam Power",
+		"obsoleteTech": "Plastics",
+		"upgradesTo": "Assault Ship",
+		"uniques": [
+			"Consumes [1] [Oil]",
+			"Double movement in [Coast]",
+			"May withdraw before melee ([33]%)"
+		],
+		//removed Factory requirement and exclusion from Barbarian unit list
+		"hurryCostModifier": 20,
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Corvette",
+		"uniqueTo": "The Mariners",
+		"replaces": "Attack Boat",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 40,
+		"cost": 100,
+		"requiredTech": "Steam Power",
+		"obsoleteTech": "Plastics",
+		"upgradesTo": "Assault Ship",
+		"uniques": [
+			"Consumes [1] [Oil]",
+			"Double movement in [Coast]",
+			"May withdraw before melee ([66]%)",
+			"[+25]% Strength <when defending>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Tactical Nuke",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 8,
+		"cost": 600,
+		"requiredTech": "Gyroscopes",
+		"uniques": [
+			"Nuclear weapon of Strength [1]",
+			"Blast radius [1]",
+			"Only available <if [Manhattan Project] is constructed>",
+			"Cannot be purchased",
+			"Consumes [1] [Uranium]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "nuke"
+	},
+	{
+		"name": "Nuclear Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 16,
+		"cost": 1000,
+		"requiredTech": "Rocketry",
+		"uniques": [
+			"Nuclear weapon of Strength [2]",
+			"Blast radius [2]",
+			"Only available <if [Manhattan Project] is constructed>",
+			"Cannot be purchased",
+			"Consumes [2] [Uranium]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "nuke"
+	},
+	{
+		"name": "Tsar Bomba",
+		"uniqueTo": "Proklyatyye",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 18,
+		"cost": 2000,
+		"requiredTech": "Particle Physics",
+		"uniques": [
+			"[+100]% Strength <when attacking>",
+			"Nuclear weapon of Strength [3]",
+			"Blast radius [3]",
+			"Only available <if [Manhattan Project] is constructed>",
+			"Cannot be purchased",
+			"Consumes [3] [Uranium]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "nuke"
+	},
+	{
+		"name": "Warhead Truck",
+		"unitType": "Warhead Truck",
+		"movement": 4,
+		"strength": 100,
+		"cost": 500,
+		"requiredTech": "Replaceable Parts",
+		"uniques": [
+			"Self-destructs when attacking",
+			"[-75]% Strength <when defending>",
+			"Nuclear weapon of Strength [1]",
+			"Blast radius [1]",
+			"No defensive terrain bonus",
+			"Consumes [1] [Uranium]",
+			"Only available <if [Manhattan Project] is constructed>",
+			"Cannot be purchased",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "nuke"
+	},
+	{
+		"name": "Solar Shade", 
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1500,
+		"requiredTech": "Future Materials",
+		"uniques": [
+			"Terraformer Part",
+			"Consumes [1] [Aluminum]",
+			"Only available <in cities with a [Aerospace Facility]>",
+			"Only available <if [Biosphere Project] is constructed>",
+			"Can be added to [The Terraformer] in the Capital",
+			"Limited to [1] per Civilization",
+			"Cannot be purchased",
+			"Triggers a global alert upon completion",
+			"Hidden when [Scientific] Victory is disabled"
+		]
+	},
+	{
+		"name": "Terraforming Lab",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1500,
+		"requiredTech": "Artificial Intelligence",
+		"uniques": [
+			"Terraformer Part",
+			"Consumes [1] [Aluminum]",
+			"Only available <if [Biosphere Project] is constructed>",
+			"Can be added to [The Terraformer] in the Capital",
+			"Limited to [1] per Civilization",
+			"Cannot be purchased",
+			"Triggers a global alert upon completion",
+			"Hidden when [Scientific] Victory is disabled"
+		]
+	},
+	{
+		"name": "Ocean Scrubber",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1500,
+		"requiredTech": "Future Power",
+		"uniques": [
+			"Terraformer Part",
+			"Consumes [1] [Uranium]",
+			"Only available <if [Biosphere Project] is constructed>",
+			"Only available <in cities with a [Harbor]>",
+			"Can be added to [The Terraformer] in the Capital",
+			"Limited to [1] per Civilization",
+			"Cannot be purchased",
+			"Triggers a global alert upon completion",
+			"Hidden when [Scientific] Victory is disabled"
+		]
+	},
+	{
+		"name": "Atmosphere Processor",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1500,
+		"requiredTech": "Geo Engineering",
+		"uniques": [
+			"Terraformer Part",
+			"Consumes [1] [Uranium]",
+			"Only available <if [Biosphere Project] is constructed>",
+			"Can be added to [The Terraformer] in the Capital",
+			"Limited to [1] per Civilization",
+			"Cannot be purchased",
+			"Triggers a global alert upon completion",
+			"Hidden when [Scientific] Victory is disabled"
+		]
 	},
 
 	//Barbarian units

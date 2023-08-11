@@ -1,0 +1,121 @@
+Changes since the Harbinger update
+
+**Mod Options**
+- The survivor camp spawn rate has been drastically reduced (but is still significantly higher than base level) after determining that the previous rate was very much overpowered.
+- Pantheons now cost 30 Faith to found on Standard speed and do not increase in cost as factions gain their Pantheons.
+
+**Faction Adjustments**
+- Atlas now has a Mountain start bias, and can no longer build Enslaved units, Prison Camps or Work Camps.
+- Crimson Legion now has Imperial Cult as their favored religion, and can no longer build Purge Robot units.
+- Cult of Ignis and Deseret Nation both lose their Turn 1 prophet (they can still get a free one from the Theocracy tree). Deseret now gains their free Enhancer belief upon founding their religion, while Ignis regains their free Pantheon belief but must also found their religion first.
+- Cult of Ignis gains +1 Movement to Armor units.
+- Deseret Nation loses the Iron Working and Steel starting techs along with the temporary Science penalty.
+- The Harbingers now only get half as much Water and Influence from CS trade missions.
+
+**Promotion Adjustments**
+- Forage awards 67% less Science per kill and no longer increases XP gain, but increases healing slightly in Rubble and Ruins tiles and is now available to Shooter units.
+- Skirmish is no longer available to Shooter units unless they start with the promotion or are upgraded from a Scout, and currently, the only Shooter unit that starts with it is the Destroying Angel.
+- Consequently, Precision and Suppression now list Forage instead of Skirmish as a prerequisite promotion.
+- Hazard Pay no longer allows units to move immediately upon purchase, but also awards Water per kill instead of costing the unit's faction Water per kill.
+- Bombardment separated into Water and Air versions, with three tiers for Bomber units, and it along with Siege are removed from Fighter units.
+- Siege II and III can no longer be awarded without first choosing the previous promotion tier.
+- Targeting buffed to 33% Strength bonus vs Water units.
+- Survivalism removed from the promotion list for Armor, Helicopter, and all Water and Air units.
+- Evasive Maneuvers requires the second tier Fighter/Bomber promotions.
+- Air Repair and Operational Range require the third tier Fighter/Bomber promotions.
+- Logistics no longer lists Evasive Maneuvers or Operational Range as requisite promotions, but lists Aerial Bombardment III as one.
+
+**Unit Adjustments**
+- Nuclear weapons can no longer be purchased.
+- Terraformer Part production cost is doubled.
+- Ancient Armor is now a standalone UU for Almaty, and its strength has been reduced to 55. This gives players a chance to fight back in the early-game against enemy factions who are allied with Almaty or have the Army Depot in their possession.
+- Ancient Armor also gains some buffs, however: base movement increased to 5 with another point added when starting its turn in friendly territory, and no combat penalty for attacking across rivers.
+- Attack Boats (and the Mariners' replacement) no longer require Factories to build, so they're now properly available at Steam Power instead of being forced to wait until Manufacturing. They can now also spawn as Barbarian units.
+- Great Caravan's uniques were corrected so it's still properly considered a Great Merchant.
+- Purge Robot Proto's strength increased to 40 and the Low Tech modifier is removed. This gives Hexlock a fighting chance in the early-game.
+- Seastead Vessels now require Oil to build.
+- Wasteland Patrol's production cost increased to 50.
+
+**Wonder Adjustments**
+- Wincon wonders, International Trade Center, and Manhattan Project can no longer have their production hurried.
+- Children of Rust's unique wonder, the Longhouse, has been replaced with First Kiva, which retains the Longhouse's effects but also buffs the wonder by adding 40 more city HP and a free Pantheon belief (awarded upon founding their religion).
+- Salvage Army/Tank Depot now award an Ancient Armor instead of a Modern Armor.
+- Nuclear Waste Museum is now a National Wonder, addressing an issue where it could still be purchased if Excavate Nuclear Waste was built first. It also adds 10% Science and Culture to its city, adding incentive to build it.
+- Distribute Soft Drinks has been removed from the game.
+- Public Broadcast's production cost increased to 500 (was previously a much, much too low 100) and it now requires four Broadcast Towers.
+- Broadcast Network now requires every city to have a Television Studio, instead of only needing one in the city it's built in.
+- National College and Grand Monastery's base production cost reduced to 125 (were previously much, much too high, at 300/400 respectively).
+- Media Center is now a normal building instead of a National Wonder.
+- Fusion Reactor's cost has been reduced and its effects are drastically buffed: it now doubles the faction's Power supply and adds 25% Production to all cities.
+- Homeland Defense Initiative now boosts production towards defensive buildings (Walls, etc.), reducing the time spent building them by 20%, and adds 15% more city strength from those buildings.
+
+**Building Adjustments**
+- Defensive buildings are no longer all automatically unlocked by building Walls and must now be built in order: Hardened Defenses requires Defensive Emplacements, Battery and Bunker require Hardened Defenses, and Active Denial System requires Battery.
+- Listening Post (and replacements) nerfed to 25% GP generation with no extra bonus for Constitution factions.
+- Arcology Dome buffed to +250 City HP and +33% Water, but requires the city to be of size 20 or higher.
+- Aluminum Smelter no longer adds a Food/Water penalty to Aluminum tiles and adds +2 Production to the city along with an Engineer slot.
+- Plastics Factory buffed to add +1 Production to Plastics tiles and +2 Production to Oil tiles worked by the city.
+- Rainwater Purifier buffed to add +5 Water and +25% to the city's total Water yields.
+- Almaty CS UBs: Alma Air Base/Tank Depot now double production for their respective units.
+- Defiance CS UBs: Lawkeeper Office now replaces the Town Hall and gives them +3 Happiness (+4 if they have Power), an extra Administrator slot, and more Production towards Personnel units, but they have to wait a bit now to build it.
+- Deseret UBs: General Conference now counts Followers of the Majority Religion for a 15% Unhappiness reduction, Quorum of the Twelve adds Production to all Faith buildings instead of a percentage bonus towards building construction, and Blue Castle Reactor's maintenance cost is reduced by 1.
+- Harbinger UBs: Census Chamber now adds an Administrator slot.
+- Ignis UBs: Arena now adds an Administrator slot instead of +1 Happiness.
+- Legion UBs: Colosseum buffed to +2 Happiness.
+
+**Belief Adjustments**
+- Atomic Children's Faith yields on Fallout/Toxic Waste reduced from 3 to 2.
+- Blessing of Peace moved to Enhancer and adjusted to +20% growth while at peace, +2 Food to Barracks.
+- Faith Healers is now restricted to Personnel units for its unique promotion.
+- Feed the Faithful buffed to +2 Food from Monasteries and +3 from Megachurches.
+- God of Commerce adds +2 Water instead of +2 Science.
+- Hymns of Praise moved to Pantheon.
+- Illuminated Order's Faith discount on religious units moved to Missionary Zeal/Thought Control; its new effect adds a lesser Faith discount on all purchases and +3 of each yield except Science to the Grand Monastery.
+- Obey the Elders also adds +2 Food to cities with an active specialist.
+- Public Prayer's Faith yields to Town Halls increased from 1 to 2.
+- Sacred Waters moved to Follower and adds yields to Hydroponic Farming and Greywater Treatment Plant buildings (+1 Food/Faith and +1 Water/Faith, respectively).
+
+**Policy Adjustments**
+- The entire policy tree has been redone, borrowing mostly from Rekmod but making some deviations for the sake of lore + to keep it a bit more in line with a BNW-style expansion mod.
+
+**Tile Improvement Adjustments**
+- Refineries have their base yields increased by 1 and gain adjacency bonuses so they're not as utterly useless as they currently are in the base scenario. This is a temporary measure until the entire gimmick for Hexlock is redesigned.
+- Solar collectors and Wind farms provide 1 extra unit of Power if the player chooses Bionics as their ideology and adopts Weather Engineering, and gain +1 Production at Atmosphere Remediation (Wind farms on Ocean tiles gaining another +1 earlier at Ocean Remediation).
+- Solar collectors also have their construction time reduced to 10 turns (on Standard speed).
+- Terrace farms receive extra food scaling (they now start at 2 base and add 1 with adjacent Farm or Grassland tiles) so they aren't obsoleted by Tree plantations being buildable on Hills.
+
+**New Victory Condition**
+- Colonization Victory has been added, inspired somewhat by the "DeCiv in Alpha Frontier" fanfic-tier expansion mod for Alpha Frontier.
+
+**New City-State**
+- The Pax, Research type, inspired by the Gene Roddenberry film *Genesis II*. If they spawn in the game, kiss the Cryo Sanctum wonder goodbye since it's awarded to them for free at the start. Unlike most of the other city-states they don't yet have any unique components, but I'll address that later. The only CS type missing now from the mod is Culture (but at least one more each for Prayer and Labor are also needed).
+
+**New Buildings and Wonders**
+- Abbey, Camelot's replacement for the Monastery, adds +2 Water instead of costing maintenance
+- Advanced Chemical Refinery, a standalone UB for Hexlock locked behind Supremacy that doubles Refinery yields and grants Chemical Weapons to Purge Robots
+- Alma Strategic Reserve, a standalone UB for the Almaty CS giving them more Oil so they can build more of their UUs. It will be destroyed if they're captured.
+- Earth Clinic, locked behind Naturalism, boosting the city's Food/Culture yields and giving it access to part of the Faith Healers belief
+- Earthscraper Project, locked behind Collectivism, enabling construction of Earthscraper buildings which add 1 of every Specialist, +2 pop, a *lot* of city HP, and when combined with Bunkers make the city almost completely immune to pop loss from nukes
+- Exotic Reactor - yes, another standalone UB for the Defiance CS, giving them more Power, but like their other UBs it will be destroyed if they're captured.
+- Kolkhoz, Proklyatyye's replacement for the Greenhouse, adds +2 Production, 2 Farmer slots instead of 1, and +1 Production to active Farmers, but has higher maintenance
+- Kruger Line, a unique national wonder for Atlas, requiring a Factory present in four cities and consuming Power to add +2 Production to tiles with a Railroad on them along with +2 Water to each Trade Route
+- Nanomaterial Factory, exclusive to the Calico CS, granting a new unique luxury and granting their units a unique promotion
+- Oceanological Center, locked behind Rediscovery, consuming Power and boosting Science/Happiness for coastal cities
+- Resettlement Bureau, locked behind Collectivism, converting 1 pop in the capital to a Civilian Convoy and adding a production boost to Civilian Convoys along with Food yields to Settlements
+- Sacred Cave, Deseret's replacement for the Shrine, adding +50 City HP, +1 Culture, and an additional +2 Culture/Faith to Ancient Wonders if the player is lucky enough to settle near one
+- Workers' Facility, locked behind Collectivism, provides a free Factory and boosts the city's Science output but consumes Power and has high maintenance, and cannot be sold
+
+**New Units**
+- Great Admirals are added in the form of their present Rekmod implementation.
+- Alma State Guard, the new Spearman replacement for Almaty with the same combat strength/promotions as NBC Infantry and a combat bonus in friendly territory, so Almaty retains the ability to defend itself from aggressive AI factions in the early-game.
+
+**New Beliefs**
+- Followers of Refined Crafts, adding +1 each of Water, Culture and Faith to Distillery and Jeweler buildings
+- God of Beasts, adding +1 Culture to Pastures and Biocultures
+- Harvest Festival, adding +1 Food to Grain and Tuber resources (swiped from the current Rekmod maintainer's DeCiv rebalance mod)
+- Spiritual Research, adding +1 Culture/Faith to Artifacts, Books, Data and Encrypted Data (swiped from the current Rekmod maintainer's DeCiv rebalance mod)
+- Unity of the Sages, adding 50% to the total yields of Seminaries, Oracles and Endowment Houses, and +2 Faith to all Faith buildings in cities with 10+ followers.
+- Veneration of the Elders, with the same effect as Devoted Elite in Rekmod
+
+**New Resources**
+- Advanced Fabrics, exclusive to the Calico CS and unlocked late in the game

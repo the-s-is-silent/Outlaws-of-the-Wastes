@@ -9,6 +9,196 @@
 		"row": 7
 	},
 
+	//Air
+	{
+		"name": "Aerial Bombardment I",
+		"uniques": ["[+33]% Strength <vs [Land] units>"],
+		"unitTypes": ["Ranged Water"],
+		"column": 1,
+        "row": 10
+	},
+	{
+		"name": "Aerial Bombardment II",
+		"prerequisites": ["Aerial Bombardment I"],
+		"uniques": ["[+33]% Strength <vs [Land] units>"],
+		"unitTypes": ["Bomber"],
+		"column": 1,
+        "row": 11
+	},
+	{
+		"name": "Aerial Bombardment III",
+		"prerequisites": ["Aerial Bombardment II"],
+		"uniques": ["[+34]% Strength <vs [Land] units>"],
+		"unitTypes": ["Bomber"],
+		"column": 1,
+        "row": 12
+	},
+
+	//Adjusted promotions from base scenario (mostly nerfs)
+	{
+		"name": "Forage",
+		"uniques": ["Heals [25] damage if it kills a unit",
+			"Earn [33]% of killed [Military] unit's [Strength] as [Science]",
+			"[+5] HP when healing <in [Forest] tiles>",
+			"[+5] HP when healing <in [Jungle] tiles>"],
+		"unitTypes": ["Scrapper", "Shooter"],
+		"column": 1,
+        "row": 2
+	},
+	{
+		"name": "Skirmish",
+		"uniques": ["May withdraw before melee ([75]%)", "[25]% XP gained from combat"],
+		"unitTypes": ["Scout"],
+		"column": 1,
+        "row": 3
+	},
+	{
+		"name": "Bombardment",
+		"uniques": ["[+33]% Strength <vs [Land] units>"],
+		"unitTypes": ["Ranged Water"],
+		"column": 1,
+        "row": 9
+	},
+	{
+		"name": "Targeting",
+		"uniques": ["[+33]% Strength <vs [Water] units>"],
+		"unitTypes": ["Ranged Water", "Fighter", "Bomber"],
+		"column": 1,
+        "row": 13
+	},
+	{
+		"name": "Chemical Weapons",
+		"uniques": ["Chemical Weapons",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"[+50]% Strength <vs [Personnel] units>",
+			"[+33]% Strength <vs cities>",
+			"Only available <if [Chemical Weapons Laboratory] is constructed>"],
+		"unitTypes": ["Siege", "Fighter", "Bomber", "Helicopter", "Ranged Water"],
+		"column": 3,
+        "row": 9
+	},
+	{
+		"name": "Siege I",
+		"uniques": ["[+33]% Strength <vs cities>"],
+		"unitTypes": ["Bomber"],
+		"column": 4,
+		"row": 1
+	},
+	{
+		"name": "Siege II",
+		"prerequisites": ["Siege I"],
+		"uniques": ["[+33]% Strength <vs cities>"],
+		"unitTypes": ["Bomber"],
+		"column": 4,
+		"row": 2
+	},
+	{
+		"name": "Siege III",
+		"prerequisites": ["Siege II"],
+		"uniques": ["[+34]% Strength <vs cities>"],
+		"unitTypes": ["Bomber"],
+		"column": 4,
+		"row": 3
+	},
+	{
+		"name": "Hazard Pay",
+		"uniques": ["Earn [10]% of killed [Military] unit's [Cost] as [Gold]"],
+		"column": 5,
+		"row": 9
+	},
+	{
+		"name": "Precision",
+		"prerequisites": ["Entrench", "Forage"],
+		"uniques": ["[+25]% Strength <vs [Wounded] units>"],
+		"unitTypes": ["Shooter"],
+		"column": 6,
+		"row": 4
+	},
+	{
+		"name": "Suppression",
+		"prerequisites": ["Entrench", "Forage"],
+		"uniques": ["[+33]% Strength <vs [Melee] units>"],
+		"unitTypes": ["Shooter"],
+		"column": 6,
+		"row": 5
+	},
+	{
+		"name": "Operational Range",
+		"prerequisites": ["Interception III",
+			"Dogfighting III",
+			"Siege III",
+			"Aerial Bombardment III"],
+		"uniques": ["[+2] Range"],
+		"unitTypes": ["Fighter", "Bomber"],
+		"column": 9,
+		"row": 1
+	},
+	{
+		"name": "Sortie",
+		"prerequisites": ["Interception II"],
+		"uniques": ["[1] extra interceptions may be made per turn"],
+		"unitTypes": ["Fighter"],
+		"column": 9,
+		"row": 2
+	},
+	{
+		"name": "Evasive Maneuvers",
+		"prerequisites": ["Interception II", "Dogfighting II", "Siege II", "Aerial Bombardment II"],
+		"uniques": ["Damage taken from interception reduced by [50]%"],
+		"unitTypes": ["Fighter", "Bomber"],
+		"column": 9,
+		"row": 3
+	},
+	{
+		"name": "Air Repair",
+		"prerequisites": ["Logistics"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Fighter", "Bomber", "Helicopter"],
+		"column": 9,
+		"row": 4
+	},
+	{
+		"name": "Logistics",
+		"prerequisites": [
+			"Mobility",
+			"Extended Range",
+			"March",
+			"Flank Speed",
+			"Convoy",
+			"Wolfpack III",
+			"Interception III",
+			"Dogfighting III",
+			"Siege III",
+			"Aerial Bombardment III"
+		],
+		"uniques": [
+			"[1] additional attacks per turn",
+			"Can move after attacking"
+		],
+		"unitTypes": [
+			"Shooter",
+			"Siege",
+			"Helicopter",
+			"Melee Water",
+			"Ranged Water",
+			"Submarine",
+			"Fighter",
+			"Bomber"
+		],
+		"column": 9,
+		"row": 5
+	},
+	{
+		"name": "Survivalism",
+		"prerequisites": ["Medic II", "Resupply", "March"],
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>",
+			"[+25]% Strength <when defending>",
+			"[-50]% maintenance costs"],
+		"unitTypes": ["Scrapper", "Scout", "Shooter", "Armor", "Mounted"],
+		"column": 10,
+		"row": 3
+	},
+
 	//Special promotions ('abilities' or otherwise 'exclusive to one UU', granted by beliefs/ruins/policies/etc., and so on)
 	{
 		"name": "Zeal",
@@ -25,7 +215,6 @@
 	{
 		"name": "Prospector",
 		"uniques": ["[+10]% Strength when stacked with [Civilian]",
-			"[+10]% Strength <when defending>",
 			"Can build [Land] improvements on tiles",
 			"Gain [1]-[5] [Gold] <upon ending a turn in a [Forest] tile>",
 			"Gain [1]-[5] [Gold] <upon ending a turn in a [Jungle] tile>",

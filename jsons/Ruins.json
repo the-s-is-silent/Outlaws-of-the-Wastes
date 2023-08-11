@@ -114,14 +114,14 @@
 	{
 		"name": "infernal training",
 		"notification": "Our unit experiences infernal training!",
-		"weight": 3,
+		"weight": 2,
 		"uniques": ["This Unit gains [30] XP"]
 	},
 	{
 		"name": "medical assistance",
 		"notification": "The survivors gave us medical assistance!",
 		"weight": 2,
-		"uniques": ["Heal this unit by [50] HP", "Only available <when below [50] HP>"]
+		"uniques": ["Heal this unit by [50] HP", "Only available <for [Wounded] units> <when below [50] HP>"]
 	},
 	{
 		"name": "advanced weaponry for your explorer",

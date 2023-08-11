@@ -22,6 +22,81 @@
 		"shortcutKey": "T"
 	},
 	{
+		"name": "Moisture trap",
+		"terrainsCanBeBuiltOn": [
+			"Badlands",
+			"Wasteland",
+			"Desert",
+			"Hill",
+			"Forest",
+			"Jungle",
+			"Swamp",
+			"Tundra",
+			"Permafrost"
+		],
+		"gold": 1,
+		"turnsToBuild": 5,
+		"uniques": [
+			"[+1 Gold] <after discovering [Plastics]>",
+			"[+1 Gold] <after discovering [Atmosphere Remediation]>",
+			"Cannot be built on [Fissure] tiles",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "U"
+	},
+	{
+		"name": "Solar collector",
+		"terrainsCanBeBuiltOn": [
+			"Badlands",
+			"Wasteland",
+			"Desert"
+		],
+		"production": 1,
+		"turnsToBuild": 10,
+		"techRequired": "Electronics",
+		"uniques": [
+			"Provides [1] [Power]",
+			"Provides [1] [Power] <after adopting [Weather Engineering]>",
+			"[+1 Production] <after discovering [Atmosphere Remediation]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "L"
+	},
+	{
+		"name": "Wind farm",
+		"turnsToBuild": 10,
+		"techRequired": "Steel",
+		"uniques": [
+			"Provides [1] [Power]",
+			"Provides [1] [Power] <after adopting [Weather Engineering]>",
+			"[+1 Production] from [Water] tiles <after discovering [Ocean Remediation]>",
+			"[+1 Production] <after discovering [Atmosphere Remediation]>",
+			"Cannot be built on [Water] tiles <before discovering [Oceanography]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "W"
+	},
+	{
+		"name": "Terrace farm",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"turnsToBuild": 10,
+		"food": 2,
+		"production": 1,
+		"techRequired": "Land Remediation",
+		"uniques": [
+			"Food source",
+			"Cannot be built on [Fissure] tiles",
+			"Cannot be built on [Bonus resource] tiles",
+			"[+1 Food] for each adjacent [Mountain]",
+			"[+1 Food] <with [1] to [6] neighboring [Grassland] tiles>",
+			"[+1 Food, -1 Gold] from [Fresh water] tiles",
+			"[+1 Food, +1 Production] <after discovering [Geo Engineering]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "T"
+	},
+	{
 		"name": "Artificial atoll",
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"turnsToBuild": 10,
@@ -75,6 +150,19 @@
 		]
 	},
 	{
+		"name": "Drydock",
+		"production": 3,
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"uniques": ["Great Improvement",
+			"[+1 Production] <after discovering [Oceanography]>",
+			"[+1 Production] <after discovering [Radar]>",
+			"[+1 Production, +1 Science] <after discovering [Ocean Remediation]>",
+			"[+1 Production, +1 Science] <after discovering [Pharmaceuticals]>",
+			"[+1 Production, +1 Science] <after discovering [Satellites]>",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
 		"name": "Endowment House",
 		"gold": 1,
 		"culture": 1,
@@ -109,6 +197,94 @@
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]"]
 	},
+
+	//Hexlock Refineries
+	{
+		"name": "Crystal Refinery",
+		"science": 2,
+		"gold": 2,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Refinery",
+			"[+2 Science, +2 Gold] for each adjacent [Refinery]",
+			"[+2 Production] from [Strategic resource] tiles",
+			"Gives a defensive bonus of [110]%",
+			"Adjacent enemy units ending their turn take [30] damage",
+			"Great Improvement",
+			"Can be built just outside your borders",
+			"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "C1F3 Refinery",
+		"production": 2,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Hexlock",
+		"uniques": [
+			"Refinery",
+			"Provides [1] [C1F3]",
+			"Gives a defensive bonus of [10]%",
+			"[+2 Production] <with [1] to [6] neighboring [Strategic resource] tiles>",
+			"[+2 Production] <with [1] to [6] neighboring [Manufactory] tiles>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		]
+    },
+	{
+		"name": "C2N14 Refinery",
+		"gold": 3,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Hexlock",
+		"uniques": [
+			"Refinery",
+			"Provides [1] [C2N14]",
+			"Gives a defensive bonus of [10]%",
+			"[+2 Production] <with [1] to [6] neighboring [Strategic resource] tiles>",
+			"[+2 Gold] <with [1] to [6] neighboring [Settlement] tiles>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		]
+    },
+	{
+		"name": "C8H17 Refinery",
+		"culture": 2,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Hexlock",
+		"uniques": [
+			"Refinery",
+			"Provides [1] [C8H17]",
+			"Gives a defensive bonus of [10]%",
+			"[+2 Production] <with [1] to [6] neighboring [Strategic resource] tiles>",
+			"[+2 Culture] <with [1] to [6] neighboring [Settlement] tiles>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		]
+    },
+	{
+		"name": "SbF5 Refinery",
+		"science": 2,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Hexlock",
+		"uniques": [
+			"Refinery",
+			"Provides [1] [SbF5]",
+			"Gives a defensive bonus of [10]%",
+			"[+2 Production] <with [1] to [6] neighboring [Strategic resource] tiles>",
+			"[+2 Science] <with [1] to [6] neighboring [Academy] tiles>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		]
+    },
+	{
+		"name": "VX Refinery",
+		"faith": 2,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Hexlock",
+		"uniques": [
+			"Refinery",
+			"Provides [1] [VX]",
+			"Gives a defensive bonus of [10]%",
+			"[+2 Production] <with [1] to [6] neighboring [Strategic resource] tiles>",
+			"[+2 Faith] <with [1] to [6] neighboring [Seminary] tiles>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		]
+    },
 
 	//Unbuildable improvements
 	{

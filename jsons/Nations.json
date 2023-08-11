@@ -8,7 +8,7 @@
 		"preferredVictoryType": "Cultural",
 		"favoredReligion": "Mormonism",
 
-		"startIntroPart1": "Every day, men fall. Some days are harder than others. The day the nukes were launched... was the hardest fall yet for mankind. In the earliest days after the fallout settled, I tried to mete out vengeance against those responsible for the current state of the world, unaware that I was setting myself up for my own great fall. I rallied many survivors, broken and disillusioned as I was, and set out on a brutal campaign, forgetting all I had been taught in the desire for revenge. The need to make my wrath into God's wrath. And sure enough, that disastrous journey led to my fall, and I found myself at Hell's gates.",
+		"startIntroPart1": "Every day, we fall. Some days are harder than others. The day the nukes were launched... was the hardest fall yet for mankind. In the earliest days after the fallout settled, I tried to mete out vengeance against those responsible for the current state of the world, unaware that I was setting myself up for my own great fall. I rallied many survivors, broken and disillusioned as I was, and set out on a brutal campaign, forgetting all I had been taught in the desire for revenge. The need to make my wrath into God's wrath. And sure enough, that disastrous journey led to my fall, and I found myself at Hell's gates.",
 		"startIntroPart2": "Yet in my darkest hour, I found my way again. I rediscovered my faith and my tribe, and realized why I'm still here, able to rise despite having fallen so far. A fire burns inside me, brighter than the fires that burned the world around me. But whether that fire is of undying love or unappeased rage... Whether I show my people's enemies mercy or become once more the instrument of vengeance... That's up to them. And to you, I suppose.",
 		"declaringWar": "I don't enjoy killing, but when done righteously, it's just a chore, like any other.",
 		"attacked": "We warned you, and you persisted. Like the dogs you are, you followed us to Zion. And now you stand on holy ground, a temple to God's glory on earth. But the only use for an animal in a temple is sacrifice!",
@@ -27,10 +27,7 @@
 			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
 			"Starts with [Secrets of the Past]",
 			"Starts with [Botany]",
-			"Starts with [Iron Working]",
-			"Starts with [Steel]",
-			"Gain a free [Enhancer] belief <upon discovering [Education]>",
-			"[-1 Science] [in all cities] <before discovering [Education]>",
+			"May choose 1 additional [Enhancer] beliefs upon [founding] a religion",
 			"Cannot build [Enslaved] units"],
 		"cities": ["Zion Valley", "New Canaan", "Provorem", "Grand Staircase", "Cueva Guarache", "Fort Walker", "Dead Horse Point", "Angel's Landing",
 			"Urim and Thummim", "Patriarch's Court", "Malki Tzedek", "Maeserville", "Fort Browning", "Kolob", "Rainbow Bridge", "Hovenweep", 
@@ -38,7 +35,7 @@
 		"spyNames": ["Daniel", "Mordecai", "Adama", "Jeremiah", "Judah", "Two-Bears-High-Fiving", "Marianne", "Clark", "Dancing Flame", "Quiet Shadow"],
 		"civilopediaText": [
 			{
-				"text": "Every day, men fall. Some days are harder than others. The day the nukes were launched... was the hardest fall yet for mankind. In the earliest days after the fallout settled, I tried to mete out vengeance against those responsible for the current state of the world, unaware that I was setting myself up for my own great fall. I rallied many survivors, broken and disillusioned as I was, and set out on a brutal campaign, forgetting all I had been taught in the desire for revenge. The need to make my wrath into God's wrath. And sure enough, that disastrous journey led to my fall, and I found myself at Hell's gates."
+				"text": "Every day, we fall. Some days are harder than others. The day the nukes were launched... was the hardest fall yet for mankind. In the earliest days after the fallout settled, I tried to mete out vengeance against those responsible for the current state of the world, unaware that I was setting myself up for my own great fall. I rallied many survivors, broken and disillusioned as I was, and set out on a brutal campaign, forgetting all I had been taught in the desire for revenge. The need to make my wrath into God's wrath. And sure enough, that disastrous journey led to my fall, and I found myself at Hell's gates."
 			},
 			{
 				"text": "Yet in my darkest hour, I found my way again. I rediscovered my faith and my tribe, and realized why I'm still here, able to rise despite having fallen so far. A fire burns inside me, brighter than the fires that burned the world around me. But whether that fire is of undying love or unappeased rage... Whether I show my people's enemies mercy or become once more the instrument of vengeance... That's up to them. And to you, I suppose."
@@ -76,20 +73,21 @@
 			"Starts with [Constitution] adopted",
 			"[-2 Science] [in all cities] <before discovering [Education]>",
 			"Cannot build [Enslaved] units"],
-		"cities": ["Avalon", "Caerleon", "New Troy", "Tristram", "Caer Danwyn", "Trevena", "Gwalchmai", "Laundsallyn", "Gyanhumara", "Pellaeon",
-			"Caerbannog", "Ambrose", "Cambria", "Sutcliff", "Benwick", "Alderley", "Alba Sarum", "Glatissante"],
+		"cities": ["Avalon", "Caerleon", "New Troy", "Tristram", "Caer Danwyn", "Trevena", "Alderley", "Gwalchmai", "Laundsallyn", "Gyanhumara",
+			"Pellaeon", "Caerbannog", "Ambrose", "Cambria", "Sutcliff", "The Eildons", "Benwick", "Eletti", "Alba Sarum", "Carhaix",
+			"Carduel", "Joyeuse Garde", "Glatissante"],
 		"spyNames": ["Merlin", "Elaine", "Vivian", "Randall", "Hector", "Owain", "Anna", "Lyonesse", "Tennyson", "Lockheed"]
 	},
 	{
 		"name": "The Harbingers",
 		"leaderName": "Yuri Vengerov",
-		"adjective": "Harbingers",
+		"adjective": "Harbinger",
 		"startBias": ["River"],
 		"preferredVictoryType": "Diplomatic",
 		"favoredReligion": "Capitalism",
 
-		// "startIntroPart1": "",
-		// "startIntroPart2": "In many ways, we were Harbingers of the old world's downfall. Perhaps, given the chance, we might set things right, becoming Harbingers of man's triumph and ushering in a new, better world.",
+		"startIntroPart1": "The years before the Cataclysm were worse than the survivors realize. Humanity came dangerously close to being permanently enslaved by a handful of oligarchs. Some of our ancestors were among those evil elite, and even among that group they wielded exceptional power, having devised a means to control our planet's dwindling water supply. Now we are left to handle the fallout from their actions. Shunned by the rest of the world, atonement for many of us may simply be a matter of practicality, but we must at least try to atone regardless, and use our resources for the benefit of man as we should have done in the last days of our former civilization.",
+		"startIntroPart2": "We were Harbingers of the old world's downfall. Perhaps, given the chance, we might set things right, becoming Harbingers of man's triumph and ushering in a new, better world.",
 		"declaringWar": "You have demonstrated that you cannot be trusted to maintain control over your precious resources.",
 		"attacked": "You desire control over our water as we once desired control over yours. Very well. Let us remind you why we are known as the Harbingers.",
 		"defeated": "On this day, we pay in full the price of our corporation's sins...",
@@ -102,6 +100,7 @@
 		"innerColor": [113, 233, 248],
 		"style": "Corporate",
 		"uniqueName": "Water Merchants",
+		"uniqueText": "Water providing buildings are built in 33% less time, units and buildings cost 20% less Water to purchase, and Moisture traps and Water pumps provide double yields. Unique Great Merchants may be trained in the capital, and they do not increase the Great Person Point counter for other Great Person types, but they only give half as much Water and Influence from trade missions. Civilian Convoys cannot be trained (but free Civilian Convoys can still be awarded), Military units take 50% longer to train, and the empire suffers 100% more base Unhappiness from the number of cities owned. Start with Monopoly adopted, and start with Iron Working, Trade and Currency researched.",
 		"uniques": ["[+50]% Production when constructing [Gold] buildings [in all cities]",
 			"[+100]% Yield from every [Moisture trap]",
 			"[+100]% Yield from every [Water pump]",
@@ -111,11 +110,176 @@
 			"Starts with [Monopoly] adopted",
 			"[Gold] cost of purchasing items in cities [-20]%",
 			"[-33]% Production when constructing [Military] units [in all cities]",
+			"[-50]% Gold from Great Merchant trade missions",
+			"[-50]% Gold from Great Merchant trade missions <after adopting [Venture Capital]>",
 			"Cannot build [Civilian Convoy] units",
 			"Unhappiness from number of Cities doubled"],
 			//Should gain the Venetian ability to purchase items in puppeted cities, as well as the Venetian ban on annexing cities, once BNW content is implemented
-		"cities": ["Vodagrad", "Prava", "Nevesk", "Kyovashad"]
-		//might expand this later in the event of reworks to Deciv and/or additions to expansion mods that would enable them to found more than three cities
+		"cities": ["Vodagrad", "Prava", "Nevesk", "Kyovashad"],
+		//might expand the city list later in the event of reworks to Deciv and/or additions to expansion mods that would enable them to found more than three cities
+		"civilopediaText": [
+			{
+				"text": "The years before the Cataclysm were worse than the survivors realize. Humanity came dangerously close to being permanently enslaved by a handful of oligarchs. Some of our ancestors were among those evil elite, and even among that group they wielded exceptional power, having devised a means to control our planet's dwindling water supply. Now we are left to handle the fallout from their actions. Shunned by the rest of the world, atonement for many of us may simply be a matter of practicality, but we must at least try to atone regardless, and use our resources for the benefit of man as we should have done in the last days of our former civilization."
+			},
+			{
+				"text": "We were Harbingers of the old world's downfall. Perhaps, given the chance, we might set things right, becoming Harbingers of man's triumph and ushering in a new, better world."
+			}
+		]
+	},
+
+	//Adjusted factions
+	{
+		"name": "Atlas",
+		"leaderName": "John Kruger",
+		"adjective": ["Corporate"],
+		"startBias": ["Mountain"],
+		"preferredVictoryType": "Scientific",
+		"favoredReligion": "Objectivism",
+
+		"startIntroPart1": "At the Refuge, I am creating more than a town, more even than a polity; it is a new world, where individuals will be free to act without the burden of taxation or the specter of injustice. Here, I have created a truly voluntary society, where the citizens associate in rational self interest; from love, not from fear of punishment. I have sent you this invitation because you have greatness within you; think of all you have achieved in your life, and how much more you could do, if you were not held back.",
+		"startIntroPart2": "Choose something different. Choose Atlas.",
+		"declaringWar": "All that is required for the triumph of evil is for good men to do nothing.",
+		"attacked": "You're breaking the non-aggression principle!",
+		"defeated": "It is our wealth that you use while destroying us.",
+		"introduction": "I'm John Kruger, CEO of the Atlas Corporation. I thought we were the sole outpost of civilization in a world ruled by barbarism.",
+		"neutralHello": "This is John Kruger speaking.",
+		"hateHello": "I do not share your evil or sink to your concept of morality.",
+		"tradeRequest": "Free trade is the only fair trade.",
+
+		"outerColor": [0, 255, 255],
+		"innerColor": [45, 60, 120],
+		"style": "Corporate",
+		"uniqueName": "Creative Leadership",
+		"uniques": ["Receive free [Great Scientist] when you discover [Secrets of the Past]",
+			"[+33]% Great Person generation [in all cities]",
+			"Starts with [Writing]",
+			"Starts with [Construction]",
+			"Starts with [Machinery]",
+			"Starts with [Electronics]",
+			"[-2 Science] [in all cities] <before discovering [Education]>",
+			"Starts with [Rationalism] adopted",
+			"[100]% Production when constructing [Electrostatic Generator] buildings [in all cities] <after adopting [Rationalism Complete]>",
+			"Cannot build [Enslaved] units",
+			"Cannot build Prison Camp or Work Camp buildings"],
+		"cities": ["Atlas Canyon", "Praxis", "Opportunity", "Enterprise Gardens", "Pareto Estates", "Hanlon College", "The Reservation", "Zakharov Campus",
+			"Curiosity", "Progress Estates", "New Horizon", "Dunning Institute", "Kruger Laboratories", "Apogee", "Hypothesis", "Axiom",
+			"Euclid Center", "Prometheus Laboratories", "Zenith", "Von Neumann Institute"],
+		"civilopediaText": [
+			{
+				"text": "At the Refuge, I am creating more than a town, more even than a polity; it is a new world, where individuals will be free to act without the burden of taxation or the specter of injustice. Here, I have created a truly voluntary society, where the citizens associate in rational self interest; from love, not from fear of punishment. I have sent you this invitation because you have greatness within you; think of all you have achieved in your life, and how much more you could do, if you were not held back."
+			},
+			{
+				"text": "Choose something different. Choose Atlas."
+			}
+		]
+	},
+	{
+		"name": "Crimson Legion",
+		"leaderName": "Caesar",
+		"adjective": ["Legion"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Imperial Cult",
+
+		"startIntroPart1": "Behold! The nations of the past have fallen, their once marvelous cities crumbled into dust. And why? Because they were weak! In their hour of necessity, they could not stand together! They turned on themselves and devoured themselves, and now they are dead. But we are alive, because we are strong! And what is the source of our strength? Our unity! Like the fasces, we are bound together, and with the strength of our bond, we shall rebuild civilization!",
+		"startIntroPart2": "Our enemies are many, but like the nations of old, they are weak and divided. They shall fall before us, and the world shall at last be united under one great banner! Hail victory! Hail Caesar!",
+		"declaringWar": "You have stood in the way of progress for too long.",
+		"attacked": "Do you really believe that you can stand against the tide of history?",
+		"defeated": "You have the strength to prevail. So be it.",
+		"introduction": "Hail. I am Caesar, son of Mars, Consul of the Crimson Legion. Have you come to pay tribute?",
+		"neutralHello": "Hail.",
+		"hateHello": "Your misplaced ideals make you weak.",
+		"tradeRequest": "I offer this, for your consideration.",
+
+		"outerColor": [153, 5, 3],
+		"innerColor": [244, 232, 54],
+		"style": "Legion",
+		"uniqueName": "One Banner",
+		"uniques": [
+			"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>",
+			"[-33]% maintenance costs <for [Land] units>",
+			"Starts with [Redomestication]",
+			"Starts with [Supremacy] adopted",
+			"Empire enters golden age <upon conquering a city> <after adopting [Supremacy Complete]>",
+			"Cannot build [Purge Robot] units"
+		],
+		"cities": [
+			"Postumus",
+			"Rubicon",
+			"Dies Irae",
+			"Tartarus",
+			"Aqua Vitae",
+			"Damocles",
+			"De Facto",
+			"Vae Victis",
+			"Golgotha",
+			"Mors Omnibus",
+			"Carthage",
+			"Lex Talionis",
+			"Kronos",
+			"Extrema Ratio",
+			"Igni Ferroque",
+			"Tycho",
+			"Memento Mori",
+			"Orcus",
+			"Ex Nihilo",
+			"Para Bellum",
+			"Styx",
+			"Manu Forte",
+			"Elysium",
+			"Alea Iacta Est",
+			"Corpus Vile",
+			"Canis Canem Edit",
+			"Ad Astra"
+		],
+		"civilopediaText": [
+			{
+				"text": "Behold! The nations of the past have fallen, their once marvelous cities crumbled into dust. And why? Because they were weak! In their hour of necessity, they could not stand together! They turned on themselves and devoured themselves, and now they are dead. But we are alive, because we are strong! And what is the source of our strength? Our unity! Like the fasces, we are bound together, and with the strength of our bond, we shall rebuild civilization!"
+			},
+			{
+				"text": "Our enemies are many, but like the nations of old, they are weak and divided. They shall fall before us, and the world shall at last be united under one great banner! Hail victory! Hail Caesar!"
+			}
+		]
+	},
+	{
+		"name": "Cult of Ignis",
+		"leaderName": "Ignitor Martina",
+		"adjective": ["Ignisite"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Divine Engine",
+
+		"startIntroPart1": "In the beginning, the earth was without form, cold and void. And the Divine Engine moved upon the face of the earth, and brought forth humans, to serve her. And she blessed the people upon the earth with steel and holy oil, to make engines of their own. But the people of the earth forgot the Divine Engine who had blessed them. So the Engine sent forth the Flame to destroy the people who had sinned, and the earth was cleansed. But the Flame had mercy upon the people, and spared the people who repented and swore to serve the Engine. And it came to pass that Divine Engine blessed the people once more, and gave them steel and holy oil, and commanded them to multiply and replenish the earth, for the engine's glory.",
+		"startIntroPart2": "Now the people of the earth have begun to forget the Engine once more. We are called to spread the word of our god, and compel the nations of the earth to repent and serve the Engine. The wrath of the Flame goes before us, and the strength of the Engine is behind us. We are Ignis, and we cannot fail.",
+		"declaringWar": "Rejoice! Your profane forms will soon become one with the Exhaust!",
+		"attacked": "Your offering is welcome! We shall oxidize together in blessed combustion!",
+		"defeated": "Though our worldly bodies fail, our spirits soar through the skies in oxides immortal...",
+		"introduction": "The sybil has foreseen this meeting! I am Martina, Ignitor and High Priest. I serve the Divine Engine, and so too shall you.",
+		"neutralHello": "In the name of the trinity, I permit your words be heard.",
+		"hateHello": "You risk the wrath of the Flame.",
+		"tradeRequest": "You may yet serve the Engine...",
+
+		"outerColor": [255, 150, 0],
+		"innerColor": [0, 0, 0],
+		"style": "Ignis",
+		"uniqueName": "Road Warriors",
+		"uniques": ["[-33]% maintenance costs <for [Armor] units>",
+			"[+1] Movement <for [Armor] units>",
+			"Starts with [Machinery]",
+			"Starts with [Theocracy] adopted",
+			"[+1 Culture, +1 Faith] from every [Strategic resource]",
+			"[+10]% [Culture] from every [Coal Plant]",
+			"Gain a free [Founder] belief <upon adopting [Theocracy Complete]>"],
+		"cities": ["Gastown", "Blood Farm", "Trial of Sand", "Prophecy", "Thousand Cuts", "The Harrowing", "Temple of Rage", "Immortal Highway",
+			"Tohuvabohu", "Forbidden Palace", "Hanging Gardens", "Megiddo", "The Cauldron", "Traitors' Gate", "Hell Patrol", "Steel Throne",
+			"The Warren", "Well of Souls", "Hermitage", "Ceremony", "Court of Dreams", "Perpetual Ascension", "Death Race", "God Box"],
+		"civilopediaText": [
+			{
+				"text": "In the beginning, the earth was without form, cold and void. And the Divine Engine moved upon the face of the earth, and brought forth humans, to serve her. And she blessed the people upon the earth with steel and holy oil, to make engines of their own. But the people of the earth forgot the Divine Engine who had blessed them. So the Engine sent forth the Flame to destroy the people who had sinned, and the earth was cleansed. But the Flame had mercy upon the people, and spared the people who repented and swore to serve the Engine. And it came to pass that Divine Engine blessed the people once more, and gave them steel and holy oil, and commanded them to multiply and replenish the earth, for the engine's glory."
+			},
+			{
+				"text": "Now the people of the earth have begun to forget the Engine once more. We are called to spread the word of our god, and compel the nations of the earth to repent and serve the Engine. The wrath of the Flame goes before us, and the strength of the Engine is behind us. We are Ignis, and we cannot fail."
+			}
+		]
 	},
 
 	//New CS
@@ -178,6 +342,22 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [224, 224, 224],
 		"cities": ["Carbon"]
+	},
+	{
+		"name": "The Pax",
+		"adjective": ["Pax"],
+		"cityStateType": "Research",
+		"startBias": ["Desert"],
+		"style": "Corporate",
+		"uniques": ["Gain a free [Cryo Sanctum] [in capital]",
+			"Starts with [Secrets of the Past]", "Starts with [Writing]", "Starts with [Electronics]",
+			"[+20]% growth [in all cities] <when not at war>"],
+		"declaringWar": "We'd hoped we wouldn't have to compromise our principles to survive.",
+		"attacked": "Your rationale for justifying conflict is what caused the Cataclysm to happen in the first place.",
+		"defeated": "Are our ideals...our dream for peace...meant to die here?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [177, 157, 63],
+		"cities": ["Carlsbad Cavern"]
 	},
 	{
 		"name": "Calico",

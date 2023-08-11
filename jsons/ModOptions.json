@@ -1,6 +1,6 @@
 {
 	"nationsToRemove": ["Deseret Nation"],
-	"buildingsToRemove": ["Five-Year Plan"],
+	"buildingsToRemove": ["Distribute Soft Drinks", "Five-Year Plan", "Longhouse"],
 	"uniques": [
 		"Rebel units may spawn <upon declaring war with a major Civilization> <when below [0] Happiness>",
 		"Rebel units may spawn <when at war> <when below [0] Happiness>",
@@ -13,6 +13,8 @@
 		"minimalCityDistance": 4,
 		"minimalCityDistanceOnDifferentContinents": 4,
 		"maxXPfromBarbarians": 1200,
-		"ancientRuinCountMultiplier": 1.5
+		"ancientRuinCountMultiplier": 0.2,
+		"pantheonBase": 30,
+		"pantheonGrowth": 0
 	}
 }
