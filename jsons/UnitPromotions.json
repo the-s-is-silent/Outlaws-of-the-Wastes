@@ -15,7 +15,7 @@
 		"uniques": ["[+33]% Strength <vs [Land] units>"],
 		"unitTypes": ["Ranged Water"],
 		"column": 1,
-        "row": 10
+		"row": 10
 	},
 	{
 		"name": "Aerial Bombardment II",
@@ -23,7 +23,7 @@
 		"uniques": ["[+33]% Strength <vs [Land] units>"],
 		"unitTypes": ["Bomber"],
 		"column": 1,
-        "row": 11
+		"row": 11
 	},
 	{
 		"name": "Aerial Bombardment III",
@@ -31,7 +31,7 @@
 		"uniques": ["[+34]% Strength <vs [Land] units>"],
 		"unitTypes": ["Bomber"],
 		"column": 1,
-        "row": 12
+		"row": 12
 	},
 
 	//Adjusted promotions from base scenario (mostly nerfs)
@@ -43,28 +43,28 @@
 			"[+5] HP when healing <in [Jungle] tiles>"],
 		"unitTypes": ["Scrapper", "Shooter"],
 		"column": 1,
-        "row": 2
+		"row": 2
 	},
 	{
 		"name": "Skirmish",
 		"uniques": ["May withdraw before melee ([75]%)", "[25]% XP gained from combat"],
 		"unitTypes": ["Scout"],
 		"column": 1,
-        "row": 3
+		"row": 3
 	},
 	{
 		"name": "Bombardment",
 		"uniques": ["[+33]% Strength <vs [Land] units>"],
 		"unitTypes": ["Ranged Water"],
 		"column": 1,
-        "row": 9
+		"row": 9
 	},
 	{
 		"name": "Targeting",
 		"uniques": ["[+33]% Strength <vs [Water] units>"],
 		"unitTypes": ["Ranged Water", "Fighter", "Bomber"],
 		"column": 1,
-        "row": 13
+		"row": 13
 	},
 	{
 		"name": "Chemical Weapons",
@@ -75,7 +75,7 @@
 			"Only available <if [Chemical Weapons Laboratory] is constructed>"],
 		"unitTypes": ["Siege", "Fighter", "Bomber", "Helicopter", "Ranged Water"],
 		"column": 3,
-        "row": 9
+		"row": 9
 	},
 	{
 		"name": "Siege I",
@@ -112,7 +112,7 @@
 		"uniques": ["[+25]% Strength <vs [Wounded] units>"],
 		"unitTypes": ["Shooter"],
 		"column": 6,
-		"row": 4
+		"row": 5
 	},
 	{
 		"name": "Suppression",
@@ -120,7 +120,7 @@
 		"uniques": ["[+33]% Strength <vs [Melee] units>"],
 		"unitTypes": ["Shooter"],
 		"column": 6,
-		"row": 5
+		"row": 6
 	},
 	{
 		"name": "Operational Range",
@@ -224,6 +224,10 @@
 	{
 		"name": "Oath of Vengeance",
 		"uniques": ["[+20]% Strength <when fighting units from a Civilization with more Cities than you>"]
+	},
+	{
+		"name": "Ballistic Weave",
+		"uniques": ["[+10]% Strength <when defending>", "[+25]% Strength <vs [Ranged] units> <when defending>"]
 	},
 	{
 		"name": "Combat Armor",
