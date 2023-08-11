@@ -27,7 +27,7 @@
 			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
 			"Starts with [Secrets of the Past]",
 			"Starts with [Botany]",
-			"May choose 1 additional [Enhancer] beliefs upon [founding] a religion",
+			"May choose [1] additional [Enhancer] beliefs upon [founding] a religion",
 			"Cannot build [Enslaved] units"],
 		"cities": ["Zion Valley", "New Canaan", "Provorem", "Grand Staircase", "Cueva Guarache", "Fort Walker", "Dead Horse Point", "Angel's Landing",
 			"Urim and Thummim", "Patriarch's Court", "Malki Tzedek", "Maeserville", "Fort Browning", "Kolob", "Rainbow Bridge", "Hovenweep", 
