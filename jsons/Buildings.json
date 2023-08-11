@@ -854,7 +854,7 @@
 		"uniques": [
 			"Double quantity of [Power] produced",
 			"Provides [2] [Uranium]",
-			"[+25%] [Production] [in all cities connected to capital]",
+			"[+25]% [Production] [in all cities connected to capital]",
 			"Can only be built [in capital]"
 		],
 		"requiredTech": "Future Power"

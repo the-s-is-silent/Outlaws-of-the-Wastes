@@ -15,6 +15,7 @@ A major expansion mod for DeCiv Redux.
   - Hexlock's Refineries have had their base yields increased and been given adjacency bonuses. This is to hopefully make them not as utterly useless as they currently are in the base scenario, and is done as a temporary measure until Hexlock's entire gimmick is redesigned.
   - Moisture Traps, Solar Collectors and Wind Farms receive +1 of their respective yield after researching Atmosphere Remediation, with the last one receiving another +1 on Water tiles after researching Ocean Remediation. Solar Collectors also take less time to build (10 turns on Standard).
   - Settlements no longer trigger a Culture Bomb.
+  - Some of the "evil" Great Improvements have been given increased yields.
   - Terrace Farms have had their Food yields increased so they aren't instantly rendered obsolete by the adjustments to Tree Plantations.
   - Tree Plantations can now be built on Hills and Swamps after discovering Land Remediation.
 

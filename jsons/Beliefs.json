@@ -58,7 +58,7 @@
 	{
 		"name": "Hymns of Praise",
 		"type": "Pantheon",
-		"uniques": ["[+1 Happiness] from every [Shrine"]
+		"uniques": ["[+1 Happiness] from every [Shrine]"]
 	},
 	{
 		"name": "Pray for Water",
@@ -128,6 +128,13 @@
 			"[All] Units adjacent to this city heal [+20] HP per turn when healing",
 			"[+2 Faith] from every [Hospital]",
 			"[+2 Faith] from every [Medical Lab]"]
+	},
+	{
+		"name": "Feed the Faithful",
+		"type": "Follower",
+		"uniques": ["[+1 Food] from every [Shrine]",
+			"[+2 Food] from every [Monastery]",
+			"[+3 Food] from every [Megachurch]"]
 	},
 	{
 		"name": "Isolationism",

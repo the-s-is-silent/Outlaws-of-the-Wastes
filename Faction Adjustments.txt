@@ -2,12 +2,12 @@ List of changes to DeCiv Redux's base 14 factions:
 
 Atlas
 - They are given a Mountain start bias and are now forbidden from building Enslaved units, Prison Camps and Work Camps.
-- New UB: Kruger Line (standalone national wonder, unlocks at Railroads, requires 4 Factories, consumes Power, adds +2 Production to tiles with Railroads and +2 Water per Trade Route)
+- New UB: Kruger Line (standalone national wonder, unlocks at Railroads, requires Factories in every city, consumes Power, adds +2 Production to tiles with Railroads and +2 Water per Trade Route)
 Children of Rust
 - The Longhouse wonder is replaced with First Kiva, which retains the Longhouse's effects and also buffs the wonder by adding +40 extra City HP, +2 Faith and a bonus Pantheon belief upon founding their religion.
 - TODO: Add the following UBs: Pithouse (undecided what it replaces yet, but would add +50 City HP), Kiva (replaces Shrine, added effects TBD)
 Crimson Legion
-- Their favored Religion is changed to Imperial Cult, and they are now forbidden from building Purge Robots (in accordance with the source material, where robotics are the only technology Caesar completely opposes).
+- Their favored Religion is changed to Imperial Cult, and they are now forbidden from building Drones and Purge Robots (in accordance with the source material, where robotics are the only technology Caesar completely opposes).
 - New UUs: Speculatores (replaces Forward Observer, can enter foreign borders without Open Borders treaties), Praetorian Guard (replaces Infantry, Strength bonus decreasing with distance from the capital), Legate (replaces Great General, loses instant Golden Age, builds Outposts + can go on trade missions)
 - New UBs: Tribal Unification Initiative (replaces Raider Suppression Initiative, no free Weapons but gives faster Great Generals, added Barbarian recruitment and improved unit training speed), Victory Column (replaces Monument, +15 EXP to new units), Crucifixion Fields (standalone, built automatically in annexed cities and unsellable, kills 1 pop, generates Culture but reduces Food/Happiness, awards free Legate), Caesareum (replaces Monastery, adds minor Production bonuses)
 - TODO: Add a Distillery replacement that does not provide the Alcohol luxury (drugs/alcohol should be banned in Legion territory in accordance with the source material)

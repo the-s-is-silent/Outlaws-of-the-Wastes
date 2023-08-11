@@ -81,6 +81,7 @@ Changes since the Harbinger update
 - The entire policy tree has been redone, borrowing mostly from Rekmod but making some deviations for the sake of lore + to keep it a bit more in line with a BNW-style expansion mod.
 
 **Tile Improvement Adjustments**
+- Outposts and Prison farms receive extra yields (+4 Production for the former atop strategic resources, +1 Production per adjacent Farm and +1 extra Food at Land Remediation for the latter) and provide 1 extra slave (to compensate for the loss of double Slaves from the policy rebalance).
 - Refineries have their base yields increased by 1 and gain adjacency bonuses so they're not as utterly useless as they currently are in the base scenario. This is a temporary measure until the entire gimmick for Hexlock is redesigned.
 - Solar collectors and Wind farms provide 1 extra unit of Power if the player chooses Bionics as their ideology and adopts Weather Engineering, and gain +1 Production at Atmosphere Remediation (Wind farms on Ocean tiles gaining another +1 earlier at Ocean Remediation).
 - Solar collectors also have their construction time reduced to 10 turns (on Standard speed).
@@ -116,7 +117,7 @@ Changes since the Harbinger update
 - God of Beasts, adding +1 Culture to Pastures and Biocultures
 - Harvest Festival, adding +1 Food to Grain and Tuber resources (swiped from the current Rekmod maintainer's DeCiv rebalance mod)
 - Spiritual Research, adding +1 Culture/Faith to Artifacts, Books, Data and Encrypted Data (swiped from the current Rekmod maintainer's DeCiv rebalance mod)
-- Unity of the Sages, adding 50% to the total yields of Seminaries, Oracles and Endowment Houses, and +2 Faith to all Faith buildings in cities with 10+ followers.
+- Unity of the Sages, adding 50% to the total yields of Seminaries, Oracles and Endowment Houses, and +2 Faith to all Faith buildings in cities with 10+ followers
 - Veneration of the Elders, with the same effect as Devoted Elite in Rekmod
 
 **New Resources**

@@ -741,7 +741,7 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Modern Armor",
 		"uniques": [
-			"Eliminates combat penalty for attacking across a river",
+			"Eliminates combat penalty for attacking over a river",
 			"[+1] Movement <in [Friendly Land] tiles>",
 			"Can move after attacking",
 			"No defensive terrain bonus",

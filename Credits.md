@@ -12,7 +12,7 @@ Items still missing an icon (not necessary a complete list): Atomgrad Project, D
 ### Building Icons
 - Abbey: [Westminster Abbey](https://thenounproject.com/icon/westminster-abbey-5459042/) by Brickclay, PK
 - Advanced Chemical Refinery: [smart factory](https://thenounproject.com/icon/smart-factory-2260365/) by ProSymbols, US
-- Atomic Diner: [atom](https://thenounproject.com/icon/atom-1081009/) by ProSymbols
+- Atomic Diner: [atom](https://thenounproject.com/icon/atom-1081009/) by ProSymbols, US
 - Bishop's Storehouse: [Storage Garage](https://thenounproject.com/icon/storage-garage-1371149/) by STBS
 - Blue Castle Reactor: [atom](https://thenounproject.com/icon/atom-2606502/) by Icon Lauk
 - Caesareum: [temple](https://thenounproject.com/icon/temple-3636159/) by Rock Zombie
@@ -31,7 +31,7 @@ Items still missing an icon (not necessary a complete list): Atomgrad Project, D
 - Earthscraper Project: [Skyscraper](https://thenounproject.com/icon/skyscraper-1038032/) by Maxim Kulikov, adapted slightly
 - Ethanol Station: [Corn energy](https://thenounproject.com/icon/corn-energy-1580160/) by dDara
 - First Kiva: [Kiva](https://thenounproject.com/icon/kiva-84834/) by Alex Fuller, US
-- [Food Processing Plant](https://thenounproject.com/icon/food-processing-plant-1877253/) by ProSymbols
+- [Food Processing Plant](https://thenounproject.com/icon/food-processing-plant-1877253/) by ProSymbols, US
 - Gostiny Dvor: [castle](https://thenounproject.com/icon/castle-1502/) by Iconic, CY
 - Gulag: [star](https://thenounproject.com/icon/star-3086974/) by Dmitry Vasiliev
 - Harbinger Manege: [greek temple](https://thenounproject.com/icon/greek-temple-915585/) by Blair Adams, US
@@ -96,7 +96,7 @@ Items still missing an icon (not necessary a complete list): Atomgrad Project, D
 - Prospector: [prospector hat](https://thenounproject.com/icon/prospector-hat-1105355/) by Clément Branger
 - Sea Raider: Same icon as Advanced Piracy
 - Self-Repair: [Hammer](https://thenounproject.com/icon/hammer-854936/) by Thengaloka (same icon used for Air Repair in base Unciv)
-- Zeal: [zeal of the convert](https://thenounproject.com/icon/zeal-of-the-convert-4708155/) by Saneseed
+- Zeal (currently unused): [zeal of the convert](https://thenounproject.com/icon/zeal-of-the-convert-4708155/) by Saneseed
 
 ### Resource Icons
 - Advanced Fabrics: [nanotech shirt](https://thenounproject.com/icon/nanotech-shirt-4817171/) by supalerk laipawat, TH

@@ -19,8 +19,8 @@
 		"afterPeace": "Waging war against good people is bad for the soul.",
 		"tradeRequest": "We are happy to share with you anything you might need.",
 
-		"outerColor": [255, 171, 9],
-		"innerColor": [251, 255, 206],
+		"outerColor": [191, 128, 6],
+		"innerColor": [252, 255, 218],
 		"style": "Corporate",
 		"uniqueName": "Blood of the Prophets",
 		"uniques": ["[-25]% Faith cost of generating Great Prophet equivalents",
@@ -200,6 +200,7 @@
 			"Starts with [Redomestication]",
 			"Starts with [Supremacy] adopted",
 			"Empire enters golden age <upon conquering a city> <after adopting [Supremacy Complete]>",
+			"Cannot build [Automated] units",
 			"Cannot build [Purge Robot] units"
 		],
 		"cities": [

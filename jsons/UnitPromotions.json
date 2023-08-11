@@ -13,7 +13,7 @@
 	{
 		"name": "Aerial Bombardment I",
 		"uniques": ["[+33]% Strength <vs [Land] units>"],
-		"unitTypes": ["Ranged Water"],
+		"unitTypes": ["Bomber"],
 		"column": 1,
 		"row": 10
 	},
