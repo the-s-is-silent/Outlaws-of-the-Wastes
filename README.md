@@ -21,7 +21,7 @@ A major expansion mod for DeCiv Redux.
 
 ## Other features
 
-- New victory condition: Colonization (aka base Civ 5's Science Victory).
+- Two new victory conditions, restoring the "proper" Domination and Science victories.
 
 - Two new factions:
   - Camelot Foundation, a constitutional republic arising from what's left of Wales, England and Brittany.

@@ -713,6 +713,24 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Machine Gun",
+		"unitType": "Siege",
+		"range": 2,
+		"movement": 2,
+		"strength": 50,
+		"rangedStrength": 50,
+		"cost": 150,
+		"requiredTech": "Replaceable Parts",
+		"uniques": ["Personnel",
+			"Must set up to ranged attack",
+			"[-33]% Strength <vs [Armor] units>",
+			"[-50]% Strength <vs cities> <when attacking>",
+			"Only available <if [Factory] is constructed>",
+			"Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun"
+	},
+	{
 		"name": "Tank",
 		"unitType": "Armor",
 		"movement": 4,

@@ -570,7 +570,8 @@
 		"uniqueTo": "The Harbingers",
 		"cityStrength": 2,
 		"cityHealth": 50,
-		"specialistSlots": {"Merchant": 2},
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"requiredTech": "Trade",
 		"uniques": ["[+1 Gold] from [Luxury resource] tiles [in this city]",
@@ -1000,7 +1001,7 @@
 	{
 		"name": "Aluminum Smelter",
 		"maintenance": 1,
-		"production": 2,
+		"production": 3,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"requiredNearbyImprovedResources": ["Aluminum"],
@@ -1008,6 +1009,47 @@
 			"Consumes [1] [Power]",
 			"Provides [1] [Aluminum]"],
 		"requiredTech": "Manufacturing"
+	},
+	{
+		"name": "Oil Refinery",
+		"maintenance": 1,
+		"cost": 150,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"uniques": ["Provides [1] [Oil]",
+			"[+1 Production] [in this city] <with [Machine Parts]>",
+			"[+3 Production] from [Oil] tiles [in this city]",
+			"Consumes [1] [Power]",
+			"Only available <in cities without a [Oil Plant]>"],
+		"requiredTech": "Chemistry"
+	},
+	{
+		"name": "Fuel Depot",
+		"replaces": "Oil Refinery",
+		"uniqueTo": "Cult of Ignis",
+		"maintenance": 1,
+		"cost": 150,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Production, +2 Culture] from [Oil] tiles [in this city]",
+			"Provides [1] [Oil]",
+			"[+1 Production] [in this city] <with [Power]>",
+			"[+1 Production] [in this city] <with [Machine Parts]>",
+			"Only available <in cities without a [Oil Plant]>"]
+	},
+	{
+		"name": "Oil Plant",
+		"maintenance": 1,
+		"cost": 150,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"uniques": ["Provides [2] [Power]",
+			"[+1 Production] [in this city] <with [Machine Parts]>",
+			"[+3 Production] from [Oil] tiles [in this city]",
+			"Consumes [1] [Oil]",
+			"Only available <in cities without a [Oil Refinery]>",
+			"Only available <in cities with a [Library]>"],
+		"requiredTech": "Chemistry"
 	},
 	{
 		"name": "Plastics Factory",
@@ -1019,6 +1061,67 @@
 		"uniques": ["Consumes [1] [Power]", "[+1 Production] from [Plastics] tiles [in this city]",
 			"[+2 Production] from [Oil] tiles [in this city]"],
 		"requiredTech": "Plastics"
+	},
+	{
+		"name": "Market",
+		"specialistSlots": {"Merchant": 1},
+		"gold": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Trade",
+		"uniques": ["[+1 Gold] from [Luxury resource] tiles [in this city]"]
+	},
+	{
+		"name": "Private Label",
+		"replaces": "Market",
+		"uniqueTo": "Hexlock",
+		"specialistSlots": {"Merchant": 1},
+		"gold": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Trade",
+		"uniques": ["[+1 Gold, +1 Science] from [Refinery] tiles [in this city]"]
+	},
+	{
+		"name": "Caravan Office",
+		"replaces": "Market",
+		"uniqueTo": "Commonwealth",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"uniques": ["[+1 Gold] from [Luxury resource] tiles [in this city]",
+			"Provides 1 extra copy of each improved luxury resource near this City"],
+		"requiredTech": "Trade"
+	},
+	{
+		"name": "Water Plant",
+		"specialistSlots": {"Merchant": 1},
+		"percentStatBonus": {"gold": 20},
+		"gold": 2,
+		"maintenance": 0,
+		"uniques": ["[+1 Gold] from [Groundwater] tiles [in this city]",
+			"Consumes [1] [Power]"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Decontamination"
+	},
+	{
+		"name": "Water Storage",
+		"percentStatBonus": {"gold": 10},
+		"specialistSlots": {"Merchant": 1},
+		"requiredTech": "Currency",
+		"uniques": ["Doubles Gold given to enemy if city is captured"]
+	},
+	{
+		"name": "Greywater Treatment Plant",
+		"gold": 2,
+		"percentStatBonus": {"gold": 10},
+		"specialistSlots": {"Merchant": 1},
+		"uniques": [
+			"[+1 Gold] [in this city] <with [Power]>",
+			"[+1 Gold] from [River] tiles [in this city]",
+			"Consumes [1] [Power]",
+			"Only available <in cities with a [Factory]>"
+		],
+		"requiredTech": "Desalination"
 	},
 	{
 		"name": "Rainwater Purifier",

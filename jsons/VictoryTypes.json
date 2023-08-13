@@ -78,5 +78,13 @@
 		],
 		"victoryString": "You have achieved victory through mastery of Science! With the Colony Ship complete, you can now lead your people on a voyage to a brave new world, untainted by the ravages of humanity's many conflicts over this world, and truly build civilization anew.\n\nPerhaps one day, you might return to this world, after you have ensured man will not repeat the mistakes that left it in ruin.",
 		"defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+	},
+	{
+		"name": "Domination (Capital)",
+		"hiddenInVictoryScreen": false,
+		"victoryScreenHeader": "Capture all capital cities\nto win!",
+		"milestones": ["Capture all capitals"],
+		"victoryString": "The world has been convulsed by war. Through overwhelming might, you have conquered the capital cities of your enemies and subdued them. The world will long remember your glorious triumph!",
+		"defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
 	}
 ]

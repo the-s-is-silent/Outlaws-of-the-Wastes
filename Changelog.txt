@@ -7,7 +7,7 @@ Changes since the Harbinger update
 **Faction Adjustments**
 - Atlas now has a Mountain start bias, and can no longer build Enslaved units, Prison Camps or Work Camps.
 - Crimson Legion now has Imperial Cult as their favored religion, and can no longer build Purge Robot units.
-- Cult of Ignis and Deseret Nation both lose their Turn 1 prophet (they can still get a free one from the Theocracy tree). Deseret now gains their free Enhancer belief upon founding their religion, while Ignis regains their free Pantheon belief but must also found their religion first.
+- Cult of Ignis and Deseret Nation both lose their Turn 1 prophet from their unique Wonder (they can still get a free one from the Theocracy tree). Deseret now gains their free Enhancer belief upon founding their religion, while Ignis regains their free Pantheon belief but must also found their religion first.
 - Cult of Ignis gains +1 Movement to Armor units.
 - Deseret Nation loses the Iron Working and Steel starting techs along with the temporary Science penalty.
 - The Harbingers now only get half as much Water and Influence from CS trade missions.
@@ -22,8 +22,9 @@ Changes since the Harbinger update
 - Targeting buffed to 33% Strength bonus vs Water units.
 - Survivalism removed from the promotion list for Armor, Helicopter, and all Water and Air units.
 - Evasive Maneuvers requires the second tier Fighter/Bomber promotions.
-- Air Repair and Operational Range require the third tier Fighter/Bomber promotions.
+- Operational Range requires the third tier Fighter/Bomber promotions.
 - Logistics no longer lists Evasive Maneuvers or Operational Range as requisite promotions, but lists Aerial Bombardment III as one.
+- Air Repair can now only be accessed through Logistics.
 
 **Unit Adjustments**
 - Nuclear weapons can no longer be purchased.
@@ -32,6 +33,7 @@ Changes since the Harbinger update
 - Ancient Armor also gains some buffs, however: base movement increased to 5 with another point added when starting its turn in friendly territory, and no combat penalty for attacking across rivers.
 - Attack Boats (and the Mariners' replacement) no longer require Factories to build, so they're now properly available at Steam Power instead of being forced to wait until Manufacturing. They can now also spawn as Barbarian units.
 - Great Caravan's uniques were corrected so it's still properly considered a Great Merchant.
+- Machine Guns are now Personnel units.
 - Purge Robot Proto's strength increased to 40 and the Low Tech modifier is removed. This gives Hexlock a fighting chance in the early-game.
 - Seastead Vessels now require Oil to build.
 - Wasteland Patrol's production cost increased to 50.
@@ -55,9 +57,16 @@ Changes since the Harbinger update
 - Defensive buildings are no longer all automatically unlocked by building Walls and must now be built in order: Hardened Defenses requires Defensive Emplacements, Battery and Bunker require Hardened Defenses, and Active Denial System requires Battery.
 - Listening Post (and relevant replacements) nerfed to 25% GP generation with no extra bonus for Constitution factions.
 - Arcology Dome buffed to +250 City HP and +33% Water, but requires the city to be of size 20 or higher.
-- Aluminum Smelter no longer adds a Food/Water penalty to Aluminum tiles and adds +2 Production to the city along with an Engineer slot.
-- Plastics Factory buffed to add +1 Production to Plastics tiles and +2 Production to Oil tiles worked by the city.
-- Rainwater Purifier buffed to add +5 Water and +25% to the city's total Water yields.
+- Production building adjustments:
+    - Aluminum Smelter no longer adds a Food/Water penalty to Aluminum tiles and restores the commented out +3 Production to the city, and also adds an Engineer slot.
+    - Oil Refinery no longer adds a Food/Water penalty to Oil tiles; Ignis' Fuel Depot also removes this penalty and adds an extra Production point; both add an Engineer slot.
+    - Oil Plant buffed to provide 2 Power and remove the Food/Water penalty, and add an Engineer slot.
+    - Plastics Factory buffed to add +1 Production to Plastics tiles and +2 Production to Oil tiles worked by the city.
+- Water building adjustments:
+    - Market (and replacements) have a Merchant slot moved to Water Storage, but gain 1 Water in compensation (Gostiny Dvor gains 2 instead).
+    - Water Plant gains a Merchant slot and +2 Water.
+    - Greywater Treatment Plant loses the Production penalties.
+    - Rainwater Purifier adds +5 Water and +25% to the city's total Water yields, making it actually useful to an extent in the late-game.
 - Almaty CS UBs: Alma Air Base/Tank Depot now double production for their respective units.
 - Defiance CS UBs: Lawkeeper Office now replaces the Town Hall and gives them +3 Happiness (+4 if they have Power), an extra Administrator slot, and more Production towards Personnel units, but they have to wait a bit now to build it.
 - Deseret UBs: General Conference now counts Followers of the Majority Religion for a 15% Unhappiness reduction, Quorum of the Twelve adds Production to all Faith buildings instead of a percentage bonus towards building construction, and Blue Castle Reactor's maintenance cost is reduced by 1.
@@ -83,12 +92,13 @@ Changes since the Harbinger update
 **Tile Improvement Adjustments**
 - Outposts and Prison farms receive extra yields (+4 Production for the former atop strategic resources, +1 Production per adjacent Farm and +1 extra Food at Land Remediation for the latter) and provide 1 extra slave (to compensate for the loss of double Slaves from the policy rebalance).
 - Refineries have their base yields increased by 1 and gain adjacency bonuses so they're not as utterly useless as they currently are in the base scenario. This is a temporary measure until the entire gimmick for Hexlock is redesigned.
-- Solar collectors and Wind farms provide 1 extra unit of Power if the player chooses Bionics as their ideology and adopts Weather Engineering, and gain +1 Production at Atmosphere Remediation (Wind farms on Ocean tiles gaining another +1 earlier at Ocean Remediation).
+- Solar collectors and Wind farms provide 1 extra unit of Power if the player chooses Bionics as their ideology and adopts Weather Engineering, and gain +1 Production at Atmosphere Remediation (Wind farms on Ocean tiles gaining another +1 Production earlier at Ocean Remediation).
 - Solar collectors also have their construction time reduced to 10 turns (on Standard speed).
 - Terrace farms receive extra food scaling (they now start at 2 base and add 1 with adjacent Farm or Grassland tiles) so they aren't obsoleted by Tree plantations being buildable on Hills.
 
-**New Victory Condition**
+**New Victory Conditions**
 - Colonization Victory has been added, inspired somewhat by the "DeCiv in Alpha Frontier" fanfic-tier expansion mod for Alpha Frontier.
+- The "proper" Domination Victory condition of only needing to capture all enemy capitals is also enabled.
 
 **New City-State**
 - The Pax, Research type, inspired by the Gene Roddenberry film *Genesis II*. If they spawn in the game, kiss the Cryo Sanctum wonder goodbye since it's awarded to them for free at the start. Unlike most of the other city-states they don't yet have any unique components, but I'll address that later. The only CS type missing now from the mod is Culture (but at least one more each for Prayer and Labor are also needed).
