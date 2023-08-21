@@ -46,11 +46,7 @@
 	},
 	{
 		"name": "Solar collector",
-		"terrainsCanBeBuiltOn": [
-			"Badlands",
-			"Wasteland",
-			"Desert"
-		],
+		"terrainsCanBeBuiltOn": ["Badlands", "Wasteland", "Desert"],
 		"production": 1,
 		"turnsToBuild": 10,
 		"techRequired": "Electronics",
@@ -126,7 +122,7 @@
 			"Cannot be built on [Water] tiles <with [1] to [6] neighboring [Floating Settlement] tiles>",
 			"[+1 Production] for each adjacent [Bioculture]",
 			"[+1 Production] for each adjacent [Modular island]",
-			"[+1 Happiness] for each adjacent [Artificial atoll]",
+			"[+1 Culture] for each adjacent [Artificial atoll]",
 			"Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "S"
 	},

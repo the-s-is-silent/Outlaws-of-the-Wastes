@@ -231,7 +231,7 @@
 			{
 				"name": "Exodus of the Evangelists",
 				"uniques": ["[+2] Movement <for [Religious] units>",
-					"[+4 Faith] [in holy cities]"],
+					"[+33]% [Faith] [in holy cities]"],
 				"requires": ["Apotheosis", "Indulgences"],
 				"row": 3,
 				"column": 3
@@ -272,7 +272,7 @@
 			},
 			{
 				"name": "Sample Analysis",
-				"uniques": ["[+1 Science] from every [Moisture trap]", "[+17]% [Science] from every [Academy]"],
+				"uniques": ["[+1 Science] from every [Moisture trap]", "[+17]% [Science] from every [University]"],
 				"requires": ["Equipment Upgrades"],
 				"row": 2,
 				"column": 2
@@ -282,7 +282,7 @@
 				"uniques": ["[+1 Science, +1 Happiness] from every [University]",
 					"[+1 Science, +1 Happiness] from every [Data Center]",
 					"[+1 Science, +1 Happiness] from every [Public School]"],
-				"requires": ["Sample Analysis"],
+				"requires": ["Technocracy"],
 				"row": 2,
 				"column": 4
 			},
@@ -426,6 +426,7 @@
 			{
 				"name": "Spoils of War",
 				"uniques": ["Double quantity of [Weapons] produced",
+					"Double quantity of [Slaves] produced",
 					"Earn [33]% of the damage done to [City] units as [Gold]",
 					"Earn [10]% of killed [Military] unit's [Cost] as [Gold]"],
 				"requires": ["Police State"],
@@ -529,7 +530,7 @@
 			"Domination": 20,
 			"Scientific": 20
 		},
-		"uniques": ["[Great Engineer] is earned [25]% faster",
+		"uniques": ["[Great Engineer] is earned [20]% faster",
 			"Unlocks building the Resettlement Bureau, Earthscraper Project, and Workers' Facilities",
 			"Only available <before adopting [Monopoly]>"],
 		"policies": [
@@ -768,10 +769,10 @@
 			},
 			{
 				"name": "Mechanization Complete",
-				"uniques": ["[2] free [Purge Robot] units appear",
+				"uniques": ["Free [Purge Robot] appears",
 					"Quantity of strategic resources produced by the empire [+25]%",
-					"[+30]% Production towards any buildings that already exist in the Capital <while the empire is happy>",
-					"[+15]% Production when constructing [All] units [in all cities] <while the empire is happy>"]
+					"[+25]% Production towards any buildings that already exist in the Capital <while the empire is happy>",
+					"[+25]% Production when constructing [All] units [in all cities] <while the empire is happy>"]
 			}
 		]
 	},
@@ -819,7 +820,7 @@
 			{
 				"name": "Cybernetics",
 				"requires": ["Mutagens"],
-				"uniques": ["Damage is ignored when determining unit strength <for [Personnel] units>",
+				"uniques": ["[Personnel] units gain the [AI Implant] promotion",
 					"[+2 Production] per [10] population [in all cities]"],
 				"row": 2,
 				"column": 4
@@ -827,7 +828,8 @@
 			{
 				"name": "Transhumanism",
 				"requires": ["Eugenics", "Cybernetics"],
-				"uniques": ["[+25]% Great Person generation [in all cities]",
+				"uniques": ["[-33]% Unhappiness from [Population] [in capital]",
+					"[+25]% Great Person generation [in all cities]",
 					"[Great General] is earned [25]% faster",
 					"[Faith] cost of purchasing items in cities [-10]%"],
 				"row": 3,

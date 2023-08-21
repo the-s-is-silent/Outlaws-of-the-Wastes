@@ -89,15 +89,16 @@
 		"hurryCostModifier": 40,
 		"uniques": ["City Defense",
 			"[+2] population [in this city]",
-			"Population loss from nuclear attacks [-25]% [in this city]",
+			"Population loss from nuclear attacks [-100]% [in this city]",
 			"Consumes [1] [Power]",
+			"Requires at least [20] population",
 			"Only available <if [Earthscraper Project] is constructed>",
 			"Unsellable", "Never destroyed when the city is captured"],
 		"requiredTech": "Advanced Materials"
 	},
 	{
 		"name": "Workers' Facility",
-		"percentStatBonus": {"science": 25},
+		"percentStatBonus": {"science": 20},
 		"maintenance": 4,
 		"hurryCostModifier": 25,
 		"uniques": ["[+25]% Production when constructing [Civilian] units [in this city]",
@@ -149,7 +150,7 @@
 	{
 		"name": "Statue of Remembrance",
 		"isWonder": true,
-		"culture": 1,
+		"culture": 3,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"uniques": ["[+1] population [in this city]",
 			"[+5]% [Production] [in all cities]",
@@ -236,7 +237,12 @@
 		"requiredResource": "Aluminum",
 		"maintenance": 0,
 		"hurryCostModifier": 20,
-		"uniques": ["Must be next to [Coast]", "Provides [6] [Power]"],
+		"uniques": ["Must be next to [Coast]",
+			"Provides [4] [Power]",
+			"Provides [2] [Power] <after discovering [Geo Engineering]>",
+			"[+2 Production] from [Wind farm] tiles [in this city] <in [Water] tiles>",
+			"[+1 Production] from [Artificial atoll] tiles [in this city]",
+			"[+1 Production] from [Floating Settlement] tiles [in this city]"],
 		"requiredTech": "Ocean Remediation"
 	},
 
@@ -277,6 +283,7 @@
 		"hurryCostModifier": -25,
 		"uniques": ["[20]% Food is carried over after population increases [in this city]",
 			"[+1 Food] [in this city] <with [Salt]>",
+			"[+1 Food] from [Grain] tiles [in this city] <in [Desert] tiles>",
 			"[+1 Culture, +1 Faith] [in this city] <with [Books]>",
 			"[+1 Culture, +1 Faith] [in this city] <with [Scripture]>",
 			"[-1 Production, -1 Faith] [in this city] <with [Alcohol]>",
@@ -329,6 +336,7 @@
 		"name": "Printing Press",
 		"replaces": "Distillery",
 		"uniqueTo": "Deseret2",
+		"faith": 1,
 		"happiness": 2,
 		"maintenance": 1,
 		"uniques": ["Provides [1] [Scripture]"],
@@ -355,22 +363,23 @@
 		"requiredTech": "Civil Service",
 		"uniques": ["[+1 Culture, +1 Faith] per [4] population [in all cities]",
 			"[-15]% Unhappiness from [Followers of the Majority Religion] [in all cities]",
-			"Only available <if [Search for Survivors] is constructed>",
+			"Only available <if [Convert Survivors] is constructed>",
 			"Can only be built [in capital]",
-			"Only available <in cities without a [Council]>",
+			"Only available <in cities without a [Quorum of the Twelve]>",
 			"Destroyed when the city is captured"]
 	},
 	{
 		"name": "Quorum of the Twelve",
 		"replaces": "Council",
 		"uniqueTo": "Deseret2",
-		"cost": 50,
+		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": ["Enables conversion of city production to [Faith]",
 			"[+2 Production] from all [Faith] buildings",
-			"Only available <if [Search for Survivors] is constructed>",
+			"[+10]% growth [in all cities]",
+			"Only available <if [Convert Survivors] is constructed>",
 			"Can only be built [in capital]",
-			"Only available <in cities without a [Congress]>",
+			"Only available <in cities without a [General Conference]>",
 			"Destroyed when the city is captured"]
 	},
 	{
@@ -394,7 +403,9 @@
 		"requiredBuilding": "Library",
 		"cost": 675,
 		"hurryCostModifier": 33,
-		"uniques": ["Provides [8] [Power]", "Provides [2] [Power] <after discovering [Future Power]>",
+		"uniques": ["Provides [6] [Power]",
+			"Provides [2] [Power] <while above [-2] [Uranium]>",
+			"Provides [2] [Power] <after discovering [Future Power]>",
 			"[+33]% Production when constructing [Manhattan Project] wonders [in this city]",
 			"[+33]% Production when constructing [Missile] units [in this city]",
 			"Only available <in cities without a [Coal Plant]>", "Only available <in cities without a [Recycling Plant]>"],
@@ -415,7 +426,8 @@
 		"gold": 1,
 		"culture": 1,
 		"cost": 1,
-		"uniques": ["Indicates the capital city", "Population loss from nuclear attacks [-25]% [in this city]",
+		"uniques": ["Indicates the capital city",
+			"Population loss from nuclear attacks [-25]% [in this city]",
 			"Gain a free [Food Store] [in this city]"]
 	},
 	{
@@ -844,7 +856,7 @@
 		"name": "Broadcast Network",
 		"happiness": 2,
 		"culture": 2,
-		"uniques": ["Provides [+1 Happiness] per [2] social policies adopted",
+		"uniques": ["[+1 Happiness] per [2] social policies adopted",
 			"Requires a [Television Studio] in all cities"],
 		"isNationalWonder": true,
 		"requiredTech": "Social Engineering"
@@ -852,12 +864,10 @@
 	{
 		"name": "Fusion Reactor",
 		"isNationalWonder": true,
-		"uniques": [
-			"Double quantity of [Power] produced",
+		"uniques": ["Double quantity of [Power] produced",
 			"Provides [2] [Uranium]",
 			"[+25]% [Production] [in all cities connected to capital]",
-			"Can only be built [in capital]"
-		],
+			"Can only be built [in capital]"],
 		"requiredTech": "Future Power"
 	},
 	{
@@ -925,15 +935,13 @@
 		"faith": 8,
 		"cost": 125,
 		"requiredTech": "Civil Service",
-		"uniques": [
-			"Requires a [Monastery] in all cities",
+		"uniques": ["Requires a [Monastery] in all cities",
 			"Cost increases by [30] per owned city",
 			"Can only be built [in holy cities]",
 			"Only available <after adopting [Theocracy]>",
 			"Hidden when religion is disabled",
 			"[Philosopher] units built [in this city] can [Spread Religion] [1] extra times",
-			"[Great Sage] units built [in this city] can [Spread Religion] [1] extra times"
-		]
+			"[Great Sage] units built [in this city] can [Spread Religion] [1] extra times"]
 	},
 	{
 		"name": "Execution Chamber",
@@ -971,12 +979,11 @@
 		"name": "Public Works Administration",
 		"isNationalWonder": true,
 		"culture": 1,
-		"science": 1,
-		"greatPersonPoints": { "Great Administrator": 2 },
+		"greatPersonPoints": {"Great Administrator": 2},
 		"requiredTech": "Civil Service",
 		"uniques": ["Requires a [Town Hall] in all cities",
 			"Only available <after adopting [Constitution]>",
-			"[+1 Production] [in all cities connected to capital]",
+			"[+2 Production] [in all cities connected to capital]",
 			"[+50]% Golden Age length",
 			"Empire enters golden age"]
 	},
@@ -1012,6 +1019,7 @@
 	},
 	{
 		"name": "Oil Refinery",
+		"requiredNearbyImprovedResources": ["Oil"],
 		"maintenance": 1,
 		"cost": 150,
 		"specialistSlots": {"Engineer": 1},
@@ -1098,8 +1106,7 @@
 		"percentStatBonus": {"gold": 20},
 		"gold": 2,
 		"maintenance": 0,
-		"uniques": ["[+1 Gold] from [Groundwater] tiles [in this city]",
-			"Consumes [1] [Power]"],
+		"uniques": ["[+1 Gold] from [Groundwater] tiles [in this city]", "Consumes [1] [Power]"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Decontamination"
 	},
@@ -1115,18 +1122,16 @@
 		"gold": 2,
 		"percentStatBonus": {"gold": 10},
 		"specialistSlots": {"Merchant": 1},
-		"uniques": [
-			"[+1 Gold] [in this city] <with [Power]>",
+		"uniques": ["[+1 Gold] [in this city] <when above [0] [Power]>",
 			"[+1 Gold] from [River] tiles [in this city]",
 			"Consumes [1] [Power]",
-			"Only available <in cities with a [Factory]>"
-		],
+			"Only available <in cities with a [Factory]>"],
 		"requiredTech": "Desalination"
 	},
 	{
 		"name": "Rainwater Purifier",
-		"gold": 5,
-		"percentStatBonus": {"gold": 25},
+		"gold": 2,
+		"percentStatBonus": {"gold": 15},
 		"specialistSlots": {"Merchant": 1},
 		"requiredTech": "Atmosphere Remediation",
 		"uniques": ["[+1 Gold] from [Moisture trap] tiles [in this city]"]
@@ -1448,6 +1453,69 @@
 			"Only available <after adopting [Supremacy]>"]
 	},
 	{
+		"name": "Mobile Encampment",
+		"uniqueTo": "New Star",
+		"replaces": "Bomb Shelter",
+		"isNationalWonder": false,
+		"food": 2,
+		"production": 4,
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"science": 3,
+		"gold": 1,
+		"culture": 1,
+		"specialistSlots": {"Administrator": 1},
+		"cost": 150,
+		"requiredTech": "Munitions",
+		"uniques": ["Indicates the capital city", "Provides [2] [Weapons]", "Limited to [2] per Civilization"]
+	},
+	{
+		"name": "Gideon Scanner",
+		"replaces": "Congress",
+		"uniqueTo": "New Star",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": ["Limited to [1] per Civilization",
+			"[+1] Movement <for [All] units>",
+			"[+15]% Strength <for [All] units> <when fighting in [Foreign Land] tiles>",
+			"[+1 Culture] per [4] population [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Unbuildable <if [Rally Station] is constructed>",
+			"Cannot be purchased",
+			"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Rally Station",
+		"cost": 50,
+		"replaces": "Council",
+		"uniqueTo": "New Star",
+		"requiredTech": "Civil Service",
+		"uniques": ["Limited to [1] per Civilization",
+			"[-50]% Unhappiness from [Specialists] [in all cities]",
+			"[+15]% Production when constructing [Military] units [in all cities]",
+			"[+10]% growth [in all cities]",
+			"[+5]% Production when constructing [All] buildings [in this city]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Unbuildable <if [Gideon Scanner] is constructed>",
+			"Cannot be purchased",
+			"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Abandoned Prison Camp",
+		"replaces": "Prison Camp",
+		"uniqueTo": "New Star",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Abandoned Work Camp",
+		"replaces": "Work Camp",
+		"uniqueTo": "New Star",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	},
+	{
 		"name": "Zemlyanka",
 		"replaces": "Food Store",
 		"uniqueTo": "Proklyatyye",
@@ -1643,7 +1711,7 @@
 		"happiness": 3,
 		"cost": 1,
 		"uniques": ["[+33]% Production when constructing [Personnel] units [in this city]",
-			"[+1 Culture, +1 Happiness] [in this city] <with [Power]>",
+			"[+1 Culture, +1 Happiness] [in this city] <when above [0] [Power]>",
 			"Free [Lawkeeper] appears",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"],
@@ -1728,6 +1796,17 @@
 			"Provides [1] [Advanced Fabrics]",
 			"Consumes [1] [Power]"],
 		"requiredTech": "Advanced Materials"
+	},
+	{
+		"name": "Revival Chambers",
+		"uniqueTo": "The Pax",
+		"percentStatBonus": {"science": 25},
+		"cost": 1,
+		"uniques": ["[+2] population [in this city]",
+			"Only available <in cities with a [Cryo Sanctum]>",
+			"Unsellable",
+			"Will not be displayed in Civilopedia"],
+		"requiredTech": "Refrigeration"
 	},
 
 	//Religion buildings

@@ -146,6 +146,59 @@
 		"row": 6
 	},
 	{
+		"name": "Flank Speed",
+		"prerequisites": [
+			"Littoral Warfare",
+			"Exploit Weakness",
+			"Damage Control",
+			"Close-In Weapons System",
+			"Sentry",
+			"Flight Deck II",
+			"Wolfpack I"
+		],
+		"uniques": ["[+1] Movement", "[+25]% to Flank Attack bonuses"],
+		"unitTypes": [
+			"Melee Water",
+			"Ranged Water",
+			"Aircraft Carrier",
+			"Submarine"
+		],
+		"column": 7,
+		"row": 8
+	},
+	{
+		"name": "Convoy",
+		"prerequisites": ["Littoral Warfare",
+			"Exploit Weakness",
+			"Damage Control",
+			"Close-In Weapons System",
+			"Flight Deck II",
+			"Wolfpack II"],
+		"uniques": ["[+10] HP when healing", "May heal outside of friendly territory"],
+		"unitTypes": ["Melee Water", "Ranged Water", "Aircraft Carrier", "Submarine"],
+		"column": 7,
+		"row": 9
+	},
+	{
+		"name": "Sentry",
+		"prerequisites": ["Skirmish",
+			"Entrench",
+			"Forage",
+			"Loose Formation",
+			"Shock",
+			"Guerilla Warfare I",
+			"Urban Warfare I",
+			"Reconnaissance I",
+			"Bombardment",
+			"Targeting",
+			"Littoral Warfare",
+			"Exploit Weakness"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Scrapper", "Scout", "Ranged Water", "Melee Water", "Mounted"],
+		"column": 8,
+		"row": 1
+	},
+	{
 		"name": "Operational Range",
 		"prerequisites": ["Interception III",
 			"Dogfighting III",

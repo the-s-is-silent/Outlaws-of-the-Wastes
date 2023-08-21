@@ -8,7 +8,7 @@
 		"preferredVictoryType": "Cultural",
 		"favoredReligion": "Mormonism",
 
-		"startIntroPart1": "Every day, we fall. Some days are harder than others. The day the nukes were launched... was the hardest fall yet for mankind. In the earliest days after the fallout settled, I tried to mete out vengeance against those responsible for the current state of the world, unaware that I was setting myself up for my own great fall. I rallied many survivors, broken and disillusioned as I was, and set out on a brutal campaign, forgetting all I had been taught in the desire for revenge. The need to make my wrath into God's wrath. And sure enough, that disastrous journey led to my fall, and I found myself at Hell's gates.",
+		"startIntroPart1": "Every day, we fall. Some days are harder than others. The day the nukes were launched... was the hardest fall yet for mankind. In the earliest days after the fallout settled, I tried to mete out vengeance against those responsible for the Cataclysm, unaware that I was setting myself up for my own great fall. I rallied many survivors, broken and disillusioned as I was, and set out on a brutal campaign, forgetting all I had been taught in the desire for revenge. The need to make my wrath into God's wrath. And sure enough, that disastrous journey led to my fall, and I found myself at Hell's gates.",
 		"startIntroPart2": "Yet in my darkest hour, I found my way again. I rediscovered my faith and my tribe, and realized why I'm still here, able to rise despite having fallen so far. A fire burns inside me, brighter than the fires that burned the world around me. But whether that fire is of undying love or unappeased rage... Whether I show my people's enemies mercy or become once more the instrument of vengeance... That's up to them. And to you, I suppose.",
 		"declaringWar": "I don't enjoy killing, but when done righteously, it's just a chore, like any other.",
 		"attacked": "We warned you, and you persisted. Like the dogs you are, you followed us to Zion. And now you stand on holy ground, a temple to God's glory on earth. But the only use for an animal in a temple is sacrifice!",
@@ -35,7 +35,7 @@
 		"spyNames": ["Daniel", "Mordecai", "Adama", "Jeremiah", "Judah", "Two-Bears-High-Fiving", "Marianne", "Clark", "Dancing Flame", "Quiet Shadow"],
 		"civilopediaText": [
 			{
-				"text": "Every day, we fall. Some days are harder than others. The day the nukes were launched... was the hardest fall yet for mankind. In the earliest days after the fallout settled, I tried to mete out vengeance against those responsible for the current state of the world, unaware that I was setting myself up for my own great fall. I rallied many survivors, broken and disillusioned as I was, and set out on a brutal campaign, forgetting all I had been taught in the desire for revenge. The need to make my wrath into God's wrath. And sure enough, that disastrous journey led to my fall, and I found myself at Hell's gates."
+				"text": "Every day, we fall. Some days are harder than others. The day the nukes were launched... was the hardest fall yet for mankind. In the earliest days after the fallout settled, I tried to mete out vengeance against those responsible for the Cataclysm, unaware that I was setting myself up for my own great fall. I rallied many survivors, broken and disillusioned as I was, and set out on a brutal campaign, forgetting all I had been taught in the desire for revenge. The need to make my wrath into God's wrath. And sure enough, that disastrous journey led to my fall, and I found myself at Hell's gates."
 			},
 			{
 				"text": "Yet in my darkest hour, I found my way again. I rediscovered my faith and my tribe, and realized why I'm still here, able to rise despite having fallen so far. A fire burns inside me, brighter than the fires that burned the world around me. But whether that fire is of undying love or unappeased rage... Whether I show my people's enemies mercy or become once more the instrument of vengeance... That's up to them. And to you, I suppose."
@@ -86,7 +86,7 @@
 		"preferredVictoryType": "Diplomatic",
 		"favoredReligion": "Capitalism",
 
-		"startIntroPart1": "The years before the Cataclysm were worse than the survivors realize. Humanity came dangerously close to being permanently enslaved by a handful of oligarchs. Some of our ancestors were among those evil elite, and even among that group they wielded exceptional power, having devised a means to control our planet's dwindling water supply. Now we are left to handle the fallout from their actions. Shunned by the rest of the world, atonement for many of us may simply be a matter of practicality, but we must at least try to atone regardless, and use our resources for the benefit of man as we should have done in the last days of our former civilization.",
+		"startIntroPart1": "The years before the Cataclysm were worse than the survivors realize. Humanity came dangerously close to being permanently enslaved by a handful of oligarchs. Some of our ancestors were among those evil elite, and even among that group they wielded exceptional power, having devised a means to control our planet's dwindling water supply. Anyone who dared to oppose them had their minds reformatted... or worse. Now we are left to handle the fallout from their actions. Shunned by the rest of the world, atonement for many of us may simply be a matter of practicality, but we must at least try to atone regardless, and use our resources for the benefit of man as we should have done in the last days of our former civilization.",
 		"startIntroPart2": "We were Harbingers of the old world's downfall. Perhaps, given the chance, we might set things right, becoming Harbingers of man's triumph and ushering in a new, better world.",
 		"declaringWar": "You have demonstrated that you cannot be trusted to maintain control over your precious resources.",
 		"attacked": "You desire control over our water as we once desired control over yours. Very well. Let us remind you why we are known as the Harbingers.",
@@ -100,7 +100,6 @@
 		"innerColor": [113, 233, 248],
 		"style": "Corporate",
 		"uniqueName": "Water Merchants",
-		"uniqueText": "Water providing buildings are built in 33% less time, units and buildings cost 20% less Water to purchase, and Moisture traps and Water pumps provide double yields. Unique Great Merchants may be trained in the capital, and they do not increase the Great Person Point counter for other Great Person types, but they only give half as much Water and Influence from trade missions. Civilian Convoys cannot be trained (but free Civilian Convoys can still be awarded), Military units take 50% longer to train, and the empire suffers 100% more base Unhappiness from the number of cities owned. Start with Monopoly adopted, and start with Iron Working, Trade and Currency researched.",
 		"uniques": ["[+50]% Production when constructing [Gold] buildings [in all cities]",
 			"[+100]% Yield from every [Moisture trap]",
 			"[+100]% Yield from every [Water pump]",
@@ -111,15 +110,15 @@
 			"[Gold] cost of purchasing items in cities [-20]%",
 			"[-33]% Production when constructing [Military] units [in all cities]",
 			"[-50]% Gold from Great Merchant trade missions",
-			"[-50]% Gold from Great Merchant trade missions <after adopting [Venture Capital]>",
 			"Cannot build [Civilian Convoy] units",
 			"Unhappiness from number of Cities doubled"],
 			//Should gain the Venetian ability to purchase items in puppeted cities, as well as the Venetian ban on annexing cities, once BNW content is implemented
 		"cities": ["Vodagrad", "Prava", "Nevesk", "Kyovashad"],
 		//might expand the city list later in the event of reworks to Deciv and/or additions to expansion mods that would enable them to found more than three cities
+		"spyNames": ["Sergey", "Iosef", "Leonid", "Mikhail", "Tatiana", "Veronika", "Alexei", "Anastasia", "Nikita", "Fyodor"],
 		"civilopediaText": [
 			{
-				"text": "The years before the Cataclysm were worse than the survivors realize. Humanity came dangerously close to being permanently enslaved by a handful of oligarchs. Some of our ancestors were among those evil elite, and even among that group they wielded exceptional power, having devised a means to control our planet's dwindling water supply. Now we are left to handle the fallout from their actions. Shunned by the rest of the world, atonement for many of us may simply be a matter of practicality, but we must at least try to atone regardless, and use our resources for the benefit of man as we should have done in the last days of our former civilization."
+				"text": "The years before the Cataclysm were worse than the survivors realize. Humanity came dangerously close to being permanently enslaved by a handful of oligarchs. Some of our ancestors were among those evil elite, and even among that group they wielded exceptional power, having devised a means to control our planet's dwindling water supply. Anyone who dared to oppose them had their minds reformatted... or worse. Now we are left to handle the fallout from their actions. Shunned by the rest of the world, atonement for many of us may simply be a matter of practicality, but we must at least try to atone regardless, and use our resources for the benefit of man as we should have done in the last days of our former civilization."
 			},
 			{
 				"text": "We were Harbingers of the old world's downfall. Perhaps, given the chance, we might set things right, becoming Harbingers of man's triumph and ushering in a new, better world."
@@ -128,6 +127,55 @@
 	},
 
 	//Adjusted factions
+	{
+		"name": "New Star",
+		"leaderName": "Willand Keiji",
+		"adjective": ["Star"],
+		"startBias": ["Wasteland"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Humanism",
+
+		"startIntroPart1": "'When the Cataclysm happened, there were many that felt lost. Like the world was too far gone. I always had hope, but sometimes it's hard to keep it. Ever since we came out, the world has felt like a jungle. Ruled by wild beasts.'",
+		"startIntroPart2": "'But I got lucky. I found my platoon. My family. I think people seem to forget it, but fundamental rights? Democracy? Those were the result of natural progress. Of us seeing what worked, and what didnt. And as long as we keep marching backwards like this, we will never be better. The world had given me a second chance. And so I give you one as well. We go around the world gathering people like us. That see the world not for what it. But for what it can be. A New Star.'",
+		"declaringWar": "Let's go!",
+		"attacked": "Everyone! Defense Positions!",
+		"defeated": "This is... not the end.",
+		"introduction": "A dream. That's all it takes to keep going.",
+		"neutralHello": "Hello.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "We both stand to gain from this.",
+
+		"outerColor": [0, 0, 0],
+		"innerColor": [255, 165, 0],
+		"style": "",
+		"uniqueName": "Determination",
+		"uniques": [
+			"[+50]% Great Person generation [in all cities]",
+			"[+15]% Strength <for [{Wounded} {Ranged}] units> <when attacking>",
+			"[+15]% Strength <for [{Wounded} {Melee}] units> <when defending>",
+			"[+1] Sight <for [{Wounded} {Scout}] units>",
+			"Cannot build [Enslaved] units",
+			"Cannot build Prison Camp or Work Camp buildings"
+		],
+		"cities": [
+			"Hope",
+			"Eastcity",
+			"Newbay",
+			"Ballenderg",
+			"San Lourn",
+			"Drimere",
+			"Highnimon",
+			"Inford",
+			"Melderk",
+			"Thallas",
+			"Nedaleck",
+			"Douridas Pier",
+			"Silverman Port",
+			"Dalbete",
+			"Light Otis",
+			"Meckenberg"
+		]
+	},
 	{
 		"name": "Atlas",
 		"leaderName": "John Kruger",
@@ -355,10 +403,10 @@
 			"[+20]% growth [in all cities] <when not at war>"],
 		"declaringWar": "We'd hoped we wouldn't have to compromise our principles to survive.",
 		"attacked": "Your rationale for justifying conflict is what caused the Cataclysm to happen in the first place.",
-		"defeated": "Are our ideals...our dream for peace...meant to die here?",
+		"defeated": "Are our ideals... our dream for peace... meant to die here?",
 		"outerColor": [0, 0, 0],
 		"innerColor": [177, 157, 63],
-		"cities": ["Carlsbad Cavern"]
+		"cities": ["Pax Sanctum"]
 	},
 	{
 		"name": "Calico",

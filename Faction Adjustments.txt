@@ -8,12 +8,12 @@ Children of Rust
 - TODO: Add the following UBs: Pithouse (undecided what it replaces yet, but would add +50 City HP), Kiva (replaces Shrine, added effects TBD)
 Crimson Legion
 - Their favored Religion is changed to Imperial Cult, and they are now forbidden from building Drones and Purge Robots (in accordance with the source material, where robotics are the only technology Caesar completely opposes).
-- New UUs: Speculatores (replaces Forward Observer, can enter foreign borders without Open Borders treaties), Praetorian Guard (replaces Infantry, Strength bonus decreasing with distance from the capital), Legate (replaces Great General, loses instant Golden Age, builds Outposts + can go on trade missions)
+- New UUs: Exploratores (replaces Scout, stronger, starts with Sentry, but more expensive to build), Speculatores (replaces Forward Observer, can enter foreign borders without Open Borders treaties), Legate (replaces Great General, loses instant Golden Age, builds Outposts + can go on trade missions)
 - New UBs: Tribal Unification Initiative (replaces Raider Suppression Initiative, no free Weapons but gives faster Great Generals, added Barbarian recruitment and improved unit training speed), Victory Column (replaces Monument, +15 EXP to new units), Crucifixion Fields (standalone, built automatically in annexed cities and unsellable, kills 1 pop, generates Culture but reduces Food/Happiness, awards free Legate), Caesareum (replaces Monastery, adds minor Production bonuses)
 - TODO: Add a Distillery replacement that does not provide the Alcohol luxury (drugs/alcohol should be banned in Legion territory in accordance with the source material)
 Cult of Ignis
 - Armor units gain +1 Movement from their UA.
-- However, the Temple is nerfed to remove their guaranteed Turn 1 Religion, instead restoring the original effect of a bonus Pantheon but requiring them to found their Religion to receive it. Having a guaranteed Religion right after founding the capital is very, very OP, especially when the civ already has higher Faith yields than everyone else in the base scenario.
+- However, the Temple is nerfed to remove their guaranteed Turn 1 Religion, instead restoring the original effect of a bonus Pantheon but requiring them to found their Religion to receive it. Having a guaranteed Religion right after founding the capital is very, very OP, especially when the civ already has higher Faith yields than everyone else in the base scenario. (They can still get a free Prophet from the revised Theocracy tree, though.)
 Hexlock
 - As mentioned in the readme file, Refineries have been buffed. They have base yields 1 higher than the base scenario, and also gain adjacency yields (+2 Production when next to strategic resources, +2 of the respective yield when adjacent to their corresponding GI).
 - Crystal Refineries gain +1 Water to their base yields and another +1 Water for adjacent Refineries, and +4 Production if built atop a strategic resource.
@@ -22,6 +22,11 @@ Hexlock
 The Mariners
 - New UUs: Drifter (replaces Worker, doesn't need to embark, can build water improvements, ~31% cheaper to build), Key to the City (replaces Anti-Aircraft Gun, doesn't need to embark, +100% Strength vs cities)
 - TODO: Add a Great Admiral and Naval War College replacement
+New Star
+- They are no longer allowed to employ prison labor.
+- Mobile Encampment provides more Weapons (2 vs. 1) and can be built in a second city after discovering Munitions, allowing them to move the capital if necessary. Gideon Scanner and Rally Station still cannot be built at the same time, nor be built in multiple cities.
+- New UU: Rapid Response Squad (replaces Forward Observer, starts with Gas Mask and Medic I/II, 75% strength on defense, can sacrifice itself to clear Fallout, more expensive to build)
+- TODO: Add replacements for Prison Camps, Work Camps and Listening Posts
 The Patriots
 - New UU: The Last Minute (replaces Nuclear Missile, 15% cheaper to build; need to rename this UU later)
 Proklyatyye

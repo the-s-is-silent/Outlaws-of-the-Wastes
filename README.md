@@ -1,11 +1,13 @@
 # Outlaws of the Wastes
-A major expansion mod for DeCiv Redux.
+A major expansion + rebalance mod for DeCiv Redux.
 
 ## Changes applied to the base scenario
 
-- Barbarians are stronger and spawn more frequently, but give greater rewards for clearing their encampments. (Credit for this concept goes to amfauzn and their "The Barbarians" mod.) In addition to better ruins bonuses, the survivor camp spawn rate is also increased, so players actually have a chance at finding at least one camp in most games.
+- Barbarians are stronger and spawn more frequently, but the XP cap from combat against them has been raised, and they give greater rewards for clearing their encampments. (Credit for the "barb camps trigger ruins bonuses" concept goes to amfauzn and their "The Barbarians" mod.) In addition, the survivor camp spawn rate is also increased, so players actually have a chance at finding at least one survivor camp in most games.
 
 - As a screw you to the AI's primitive sanity checks, the minimum allowed distance between cities has been increased.
+
+- Pantheons require twice as much Faith to found, but do not increase in cost with each Pantheon founded, and every faction present in a game can now found its own religion.
 
 - Deseret Nation is now a playable faction.
 
@@ -51,7 +53,7 @@ A major expansion mod for DeCiv Redux.
   - Artificial atoll and Floating Settlement, unlocked at Ocean Remediation and built exclusively by the Seastead Vessel.
   - Drydock, the Great Admiral unit's Great Improvement.
 
-- Some of the factions in the base scenario have gained one or more new unique components, and/or had their unique ability/some of their unique components adjusted. Check the Faction Adjustments.txt file for more details.
+- Several of the 14 factions in the base scenario have gained one or more new unique components, and/or had their unique ability/some of their unique components adjusted. Check the Faction Adjustments.txt file for more details.
 
 - Several new beliefs for more diverse religion customization.
 

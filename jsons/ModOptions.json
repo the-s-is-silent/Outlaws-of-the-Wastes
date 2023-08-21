@@ -14,6 +14,8 @@
 		"minimalCityDistanceOnDifferentContinents": 4,
 		"maxXPfromBarbarians": 1200,
 		"ancientRuinCountMultiplier": 0.1,
+		"religionLimitBase": 0,
+		"religionLimitMultiplier": 1,
 		"pantheonBase": 30,
 		"pantheonGrowth": 0
 	}

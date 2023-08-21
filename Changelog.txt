@@ -3,6 +3,7 @@ Changes since the Harbinger update
 **Mod Options**
 - The survivor camp spawn rate has been drastically reduced (but is still significantly higher than base level) after determining that the previous rate was very much overpowered.
 - Pantheons now cost 30 Faith to found on Standard speed and do not increase in cost as factions gain their Pantheons.
+- Every player can now found a religion.
 
 **Faction Adjustments**
 - Atlas now has a Mountain start bias, and can no longer build Enslaved units, Prison Camps or Work Camps.
@@ -11,20 +12,24 @@ Changes since the Harbinger update
 - Cult of Ignis gains +1 Movement to Armor units.
 - Deseret Nation loses the Iron Working and Steel starting techs along with the temporary Science penalty.
 - The Harbingers now only get half as much Water and Influence from CS trade missions.
+- New Star is no longer allowed to build Prison Camp or Work Camp buildings. This is temporary until I can come up with appropriate replacements for those buildings. Being a True Good faction, New Star shouldn't be allowed to have those buildings and while others may disagree with me on this stance, I consider them still being able to employ prison labor despite outlawing slavery to be an oversight.
+- City-States: Issaquah and Venice Beach have been given unique Civilian Convoy units that must be on a coastal tile to found a city, due to the faults in Unciv's start bias logic.
 
 **Promotion Adjustments**
 - Forage awards 67% less Science per kill and no longer increases XP gain, but increases healing slightly in Rubble and Ruins tiles and is now available to Shooter units.
-- Skirmish is no longer available to Shooter units unless they start with the promotion or are upgraded from a Scout, and currently, the only Shooter unit that starts with it is the Destroying Angel.
+- Skirmish is no longer available to Shooter units unless they start with the promotion or upgrade from a unit that has the promotion. Not counting expansion mods, the only Shooter unit that starts with it is the Destroying Angel, and the only Shooter unit that can inherit Skirmish by upgrading from a Scout unit is the Border Patrol.
 - Consequently, Precision and Suppression now list Forage instead of Skirmish as a prerequisite promotion.
 - Hazard Pay no longer allows units to move immediately upon purchase, but also awards Water per kill instead of costing the unit's faction Water per kill.
 - Bombardment separated into Water and Air versions, with three tiers for Bomber units, and it along with Siege are removed from Fighter units.
 - Siege II and III, and Interception II and III, can no longer be awarded without first choosing the previous promotion tier.
 - Targeting buffed to 33% Strength bonus vs Water units.
+- Sentry removed from the promotion list for Shooter and Helicopter units, and the promotion requirements are adjusted to address an error in the promotion tree.
 - Survivalism removed from the promotion list for Armor, Helicopter, and all Water and Air units.
 - Evasive Maneuvers requires the second tier Fighter/Bomber promotions.
 - Operational Range requires the third tier Fighter/Bomber promotions.
 - Logistics no longer lists Evasive Maneuvers or Operational Range as requisite promotions, but lists Aerial Bombardment III as one.
 - Air Repair can now only be accessed through Logistics.
+- Chemical Weapons nerfed to lose almost half of its combat bonuses.
 
 **Unit Adjustments**
 - Nuclear weapons can no longer be purchased.
@@ -32,11 +37,16 @@ Changes since the Harbinger update
 - Ancient Armor is now a standalone UU for Almaty, and its strength has been reduced to 55. This gives players a chance to fight back in the early-game against enemy factions who are allied with Almaty or have the Army Depot in their possession.
 - Ancient Armor also gains some buffs, however: base movement increased to 5 with another point added when starting its turn in friendly territory, and no combat penalty for attacking across rivers.
 - Attack Boats (and the Mariners' replacement) no longer require Factories to build, so they're now properly available at Steam Power instead of being forced to wait until Manufacturing. They can now also spawn as Barbarian units.
+- Border Patrol no longer starts with Skirmish.
+- Expeditionary Force no longer obsoletes.
 - Great Caravan's uniques were corrected so it's still properly considered a Great Merchant.
 - Machine Guns are now Personnel units.
+- Neutron Bomb's production cost reduced to 1000.
 - Purge Robot Proto's strength increased to 40 and the Low Tech modifier is removed. This gives Hexlock a fighting chance in the early-game.
+- Scouts (and New Star's First Aid units) now upgrade to Forward Observers instead of Gunmen, putting an end to a commonly abused strategy. Camelot's Wayfarers have to wait until Plastics to upgrade to Commandos instead.
 - Seastead Vessels now require Oil to build.
-- Wasteland Patrol's production cost increased to 50.
+- Speculatores regains the Forward Observer's Reconnaissance I starting promotion and also gains double combat strength when attacking cities.
+- Wasteland Patrol is now locked behind Expansionism's national wonder and its production cost is increased to 60.
 
 **Wonder Adjustments**
 - Wincon wonders, International Trade Center, and Manhattan Project can no longer have their production hurried.
@@ -44,35 +54,43 @@ Changes since the Harbinger update
 - Salvage Army/Tank Depot now award an Ancient Armor instead of a Modern Armor.
 - Nuclear Waste Museum is now a National Wonder, addressing an issue where it could still be purchased if Excavate Nuclear Waste was built first. It also adds 10% Science and Culture to its city, adding incentive to build it.
 - Distribute Soft Drinks has been removed from the game.
-- Public Broadcast's production cost increased to 500 (was previously a much, much too low 100) and it now requires every city you own to have a Broadcast Tower, not just the city it's built in.
+- Public Broadcast's production cost increased to 500 (was previously a much, much too low 100) and it now requires every non-puppeted city you control to have a Broadcast Tower, not just the city it's built in.
 - Broadcast Network now requires every city to have a Television Studio, instead of only needing one in the city it's built in.
 - National College and Grand Monastery's base production cost reduced to 125 (were previously much, much too high, at 300/400 respectively).
 - Medical Network now requires a Hospital in every city instead of a minimum of 4 cities.
-- Public Works Administration only awards one Golden Age now instead of a potential permanent Golden Age.
+- Public Works Administration only awards one Golden Age now instead of a potential permanent Golden Age. It also loses its one measly Science point, but adds an extra Production point to all cities (that are connected to the capital).
 - Media Center is now a normal building instead of a National Wonder.
 - Fusion Reactor's cost has been reduced and its effects are drastically buffed: it now doubles the faction's Power supply and adds 25% Production to all cities.
-- Homeland Defense Initiative now boosts production towards defensive buildings (Walls, etc.), reducing the time spent building them by 20%, and adds 15% more city strength from those buildings.
+- Homeland Defense Initiative now boosts production towards defensive buildings (Walls, etc.), reducing the time spent building them by 20%, and adds 15% more city strength from those buildings - gaining an effect that was removed from Castle Doctrine in the policy rebalance.
+- Mobile Encampment adopts Rekmod Hungary's gimmick of being able to move the capital at will, once Munitions is researched.
 
 **Building Adjustments**
 - Defensive buildings are no longer all automatically unlocked by building Walls and must now be built in order: Hardened Defenses requires Defensive Emplacements, Battery and Bunker require Hardened Defenses, and Active Denial System requires Battery.
 - Listening Post (and relevant replacements) nerfed to 25% GP generation with no extra bonus for Constitution factions.
-- Arcology Dome buffed to +250 City HP and +33% Water, but requires the city to be of size 20 or higher.
+- Arcology Dome buffed to +250 City HP and +33% Water, but requires the city to be of size 20 or higher (or will once that base game bug is fixed).
 - Production building adjustments:
     - Aluminum Smelter no longer adds a Food/Water penalty to Aluminum tiles and restores the commented out +3 Production to the city, and also adds an Engineer slot.
     - Oil Refinery no longer adds a Food/Water penalty to Oil tiles; Ignis' Fuel Depot also removes this penalty and adds an extra Production point; both add an Engineer slot.
-    - Oil Plant buffed to provide 2 Power and remove the Food/Water penalty, and add an Engineer slot.
+    - Oil Plant buffed to provide 2 Power (1 by default, 1 more if the faction hasn't run out of Oil) and remove the Food/Water penalty, and add an Engineer slot.
     - Plastics Factory buffed to add +1 Production to Plastics tiles and +2 Production to Oil tiles worked by the city.
 - Water building adjustments:
     - Market (and replacements) have a Merchant slot moved to Water Storage, but gain 1 Water in compensation (Gostiny Dvor gains 2 instead).
     - Water Plant gains a Merchant slot and +2 Water.
-    - Greywater Treatment Plant loses the Production penalties.
-    - Rainwater Purifier adds +5 Water and +25% to the city's total Water yields, making it actually useful to an extent in the late-game.
+    - Greywater Treatment Plant loses the Production penalties, but also loses its single point of Food yield and one point of base Water yield.
+    - Rainwater Purifier adds an additional +15% to the city's total Water yields, making it more useful than it originally was.
+- Tidal Array adjusted to gate 2 units of power behind Geo Engineering, but add +1 Production to Artificial atolls and Floating Settlements worked by the city and +2 Production to oceanic Wind farms.
 - Almaty CS UBs: Alma Air Base/Tank Depot now double production for their respective units.
 - Defiance CS UBs: Lawkeeper Office now replaces the Town Hall and gives them +3 Happiness (+4 if they have Power), an extra Administrator slot, and more Production towards Personnel units, but they have to wait a bit now to build it.
-- Deseret UBs: General Conference now counts Followers of the Majority Religion for a 15% Unhappiness reduction, Quorum of the Twelve adds Production to all Faith buildings instead of a percentage bonus towards building construction, and Blue Castle Reactor's maintenance cost is reduced by 1.
+- Deseret UBs:
+    - Bishop's Storehouse now adds +1 Food to Grain tiles on Desert.
+    - Printing Press regains +1 Faith.
+    - General Conference now counts Followers of the Majority Religion for a 15% Unhappiness reduction
+    - Quorum of the Twelve adds +2 Production to all Faith buildings instead of a percentage bonus towards building construction and boosts Growth like the standard Council, but has its production cost doubled.
+    - Blue Castle Reactor's maintenance cost is reduced by 1.
 - Harbinger UBs: Census Chamber now adds an Administrator slot.
 - Ignis UBs: Arena now adds an Administrator slot instead of +1 Happiness.
 - Legion UBs: Colosseum buffed to +2 Happiness.
+- New Star UBs: In accordance with the Mobile Encampment adjustment, Gideon Scanner and Rally Station are adjusted to be limited to 1, unbuildable if their opposite building is constructed, and unable to be purchased. The latter building also has its production cost doubled.
 
 **Belief Adjustments**
 - Atomic Children's Faith yields on Fallout/Toxic Waste reduced from 3 to 2.
@@ -90,7 +108,8 @@ Changes since the Harbinger update
 - The entire policy tree has been redone, borrowing mostly from Rekmod but making some deviations for the sake of lore + to keep it a bit more in line with a BNW-style expansion mod.
 
 **Tile Improvement Adjustments**
-- Outposts and Prison farms receive extra yields (+4 Production for the former atop strategic resources, +1 Production per adjacent Farm and +1 extra Food at Land Remediation for the latter) and provide 1 extra slave (to compensate for the loss of double Slaves from the policy rebalance).
+- Floating Settlements now yield Culture instead of Happiness for each adjacent Artificial atoll.
+- Outposts and Prison farms receive extra yields (+4 Production for the former atop strategic resources, +1 Production per adjacent Farm and +1 extra Food at Land Remediation for the latter) and provide 1 extra slave each (doubled with Spoils of War now instead of Autocracy).
 - Refineries have their base yields increased by 1 and gain adjacency bonuses so they're not as utterly useless as they currently are in the base scenario. This is a temporary measure until the entire gimmick for Hexlock is redesigned.
 - Solar collectors and Wind farms provide 1 extra unit of Power if the player chooses Bionics as their ideology and adopts Weather Engineering, and gain +1 Production at Atmosphere Remediation (Wind farms on Ocean tiles gaining another +1 Production earlier at Ocean Remediation).
 - Solar collectors also have their construction time reduced to 10 turns (on Standard speed).
@@ -101,16 +120,16 @@ Changes since the Harbinger update
 - The "proper" Domination Victory condition of only needing to capture all enemy capitals is also enabled.
 
 **New City-State**
-- The Pax, Research type, inspired by the Gene Roddenberry film *Genesis II*. If they spawn in the game, kiss the Cryo Sanctum wonder goodbye since it's awarded to them for free at the start. Unlike most of the other city-states they don't yet have any unique components, but I'll address that later. The only CS type missing now from the mod is Culture (but at least one more each for Prayer and Labor are also needed).
+- The Pax, Research type, inspired by the Gene Roddenberry film *Genesis II*. If they spawn in the game, kiss the Cryo Sanctum wonder goodbye since it's awarded to them for free at the start. The only CS type missing now from the mod is Culture (but at least one more each for Prayer and Labor are also needed).
 
 **New Buildings and Wonders**
 - Abbey, Camelot's replacement for the Monastery, adds +2 Water instead of costing maintenance
 - Advanced Chemical Refinery, a standalone UB for Hexlock locked behind Supremacy that doubles Refinery yields and grants Chemical Weapons to Purge Robots
 - Alma Strategic Reserve, a standalone UB for the Almaty CS giving them more Oil so they can build more of their UUs. It will be destroyed if they're captured.
 - Earth Clinic, locked behind Naturalism, boosting the city's Food/Culture yields and giving it access to part of the Faith Healers belief
-- Earthscraper Project, locked behind Collectivism, enabling construction of Earthscraper buildings which add 1 of every Specialist, +2 pop, a *lot* of city HP, and when combined with Bunkers make the city almost completely immune to pop loss from nukes
+- Earthscraper Project, locked behind Collectivism, enabling construction of Earthscraper buildings which add 1 of every Specialist, +2 pop, a *lot* of city HP and make the city almost completely immune to pop loss from nukes.
 - Exotic Reactor - yes, another standalone UB for the Defiance CS, giving them more Power, but like their other UBs it will be destroyed if they're captured.
-- Kolkhoz, Proklyatyye's replacement for the Greenhouse, adds +2 Production, 2 Farmer slots instead of 1, and +1 Production to active Farmers, but has higher maintenance
+- Kolkhoz, Proklyatyye's replacement for the Greenhouse, adds +2 Production, 2 Farmer slots instead of 1, and +1 Production to active Farmers in the city, but has higher maintenance
 - Kruger Line, a unique national wonder for Atlas, requiring a Factory present in all cities and consuming Power to add +2 Production to tiles with a Railroad on them along with +2 Water to each Trade Route
 - Nanomaterial Factory, exclusive to the Calico CS, granting a new unique luxury and granting their units a unique promotion
 - Oceanological Center, locked behind Rediscovery, consuming Power and boosting Science/Happiness for coastal cities
@@ -121,10 +140,12 @@ Changes since the Harbinger update
 **New Units**
 - Great Admirals are added in the form of their present Rekmod implementation.
 - Alma State Guard, the new Spearman replacement for Almaty with the same combat strength/promotions as NBC Infantry and a combat bonus in friendly territory, so Almaty retains the ability to defend itself from aggressive AI factions in the early-game.
+- Exploratores, the Legion's replacement for the Scout with increased strength, starts with Sentry, can move after attacking, and has a chance to capture any Barbarians it picks off, but has a higher production cost.
+- Pridwen-class, Camelot's replacement for the Missile Cruiser with increased strength but also has a higher production cost.
+- Rapid Response Squad, New Star's replacement for the Forward Observer that starts with Medic I/II and Gas Mask, has extra strength when defending, and can instantly clear Fallout, but has a higher production cost.
 
 **New Beliefs**
 - Followers of Refined Crafts, adding +1 each of Water, Culture and Faith to Distillery and Jeweler buildings
-- God of Beasts, adding +1 Culture to Pastures and Biocultures
 - Harvest Festival, adding +1 Food to Grain and Tuber resources (swiped from the current Rekmod maintainer's DeCiv rebalance mod)
 - Spiritual Research, adding +1 Culture/Faith to Artifacts, Books, Data and Encrypted Data (swiped from the current Rekmod maintainer's DeCiv rebalance mod)
 - Unity of the Sages, adding 50% to the total yields of Seminaries, Oracles and Endowment Houses, and +2 Faith to all Faith buildings in cities with 10+ followers

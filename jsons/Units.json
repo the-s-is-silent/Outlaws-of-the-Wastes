@@ -171,9 +171,53 @@
 		"attackSound": "machinegun"
 	},
 
-	//Spaceship parts (reimplementing the traditional Science Victory): TBD
-
 	//Scout units
+	{
+		"name": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 12,
+		"cost": 25,
+		"upgradesTo": "Forward Observer",
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Replaceable Parts",
+		"uniques": ["Low Tech", "[-50]% Strength <vs cities>", "Unable to capture cities"],
+		"promotions": ["Reconnaissance I", "Skirmish"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "First Aid",
+		"unitType": "Scout",
+		"uniqueTo": "New Star",
+		"replaces": "Scout",
+		"movement": 2,
+		"strength": 12,
+		"cost": 25,
+		"upgradesTo": "Forward Observer",
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Replaceable Parts",
+		"uniques": ["Low Tech", "May capture killed [Barbarian] units <with [33]% chance>",
+			"[-50]% Strength <vs cities>",
+			"Unable to capture cities"],
+		"promotions": ["Reconnaissance I", "Medic I", "Skirmish"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Exploratores",
+		"unitType": "Scout",
+		"replaces": "Scout",
+		"uniqueTo": "Crimson Legion",
+		"movement": 2,
+		"strength": 16,
+		"cost": 40,
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Forward Observer",
+		"promotions": ["Skirmish", "Sentry", "Reconnaissance I"],
+		"uniques": ["Low Tech", "Can move after attacking",
+			"May capture killed [Barbarian] units <with [33]% chance>",
+			"[-50]% Strength <vs cities>", "Unable to capture cities"],
+		"attackSound": "shot"
+	},
 	{
 		"name": "Wasteland Patrol",
 		"unitType": "Scout",
@@ -181,7 +225,7 @@
 		"strength": 15,
 		"rangedStrength": 20,
 		"range": 1,
-		"cost": 50,
+		"cost": 60,
 		"requiredTech": "Redomestication",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Border Patrol",
@@ -190,6 +234,7 @@
 			"[+50]% Strength <vs [Barbarian] units>",
 			"[+33]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs cities>",
+			"Only available <if [Wasteland Surveillance Initiative] is constructed>",
 			"Only available <in cities with a [Stable]>"],
 		"attackSound": "shot"
 	},
@@ -206,7 +251,7 @@
 		"obsoleteTech": "Gyroscopes",
 		"upgradesTo": "Helicopter",
 		"requiredResource": "Weapons",
-		"promotions": ["Skirmish", "Reconnaissance I"],
+		"promotions": ["Reconnaissance I"],
 		"uniques": ["Personnel", "Mounted", "Can move after attacking", "Never appears as a Barbarian unit",
 			"[+25]% Strength <when fighting in [Friendly Land] tiles>",
 			"[-25]% Strength <when fighting in [Foreign Land] tiles>",
@@ -225,10 +270,28 @@
 		"cost": 55,
 		"hurryCostModifier": 20,
 		"requiredTech": "Replaceable Parts",
-		"promotions": ["Skirmish", "Urban Warfare I", "Urban Warfare II"],
+		"promotions": ["Reconnaissance I", "Skirmish", "Urban Warfare I", "Urban Warfare II"],
 		"uniques": ["Personnel", "[+1] Sight", "Can move after attacking",
+			"[+100]% Strength <vs cities> <when attacking>",
 			"May enter foreign tiles without open borders",
 			"Invisible to non-adjacent units"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Rapid Response Squad",
+		"replaces": "Forward Observer",
+		"uniqueTo": "New Star",
+		"unitType": "Scrapper",
+		"movement": 4,
+		"strength": 20,
+		"interceptRange": 1,
+		"cost": 85,
+		"hurryCostModifier": 20,
+		"requiredTech": "Replaceable Parts",
+		"promotions": ["Reconnaissance I", "Skirmish", "Gas Mask", "Medic I", "Medic II"],
+		"uniques": ["Personnel", "[+1] Sight", "Can move after attacking",
+			"[+75]% Strength <when defending>",
+			"Can instantly construct a [Remove Fallout] improvement <by consuming this unit>"],
 		"attackSound": "shot"
 	},
 	{
@@ -241,7 +304,6 @@
 		"interceptRange": 2,
 		"cost": 225,
 		"requiredTech": "Flight",
-		"obsoleteTech": "Energy Weapons",
 		"upgradesTo": "Black Ops",
 		"requiredResource": "Weapons",
 		"promotions": ["Gas Mask", "Skirmish", "Reconnaissance I", "Amphibious"],
@@ -344,8 +406,8 @@
 		"rangedStrength": 20,
 		"range": 1,
 		"cost": 30,
-		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Gunman",
+		"obsoleteTech": "Plastics",
+		"upgradesTo": "NBC Marksman",
 		"promotions": ["Skirmish", "Reconnaissance I", "[Wayfarer] ability"],
 		"uniques": ["Low Tech", "Can move after attacking", "[-33]% Strength <vs cities>"],
 		"attackSound": "shot"
@@ -446,6 +508,31 @@
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
+	{
+		"name": "Pridwen-class",
+		"replaces": "Missile Cruiser",
+		"uniqueTo": "Camelot Foundation",
+		"unitType": "Ranged Water",
+		"movement": 6,
+		"strength": 55,
+		"rangedStrength": 90,
+		"range": 3,
+		"interceptRange": 3,
+		"cost": 475,
+		"requiredTech": "Advanced Materials",
+		"uniques": ["Can see invisible [Submarine] units",
+			"[75]% chance to intercept air attacks",
+			"[+100]% Strength <vs [Air] units>",
+			"[+75]% Strength <vs [Submarine] units>",
+			"[+100]% Strength <vs [Helicopter] units>",
+			"May withdraw before melee ([33]%)",
+			"Only available <if [Factory] is constructed>",
+			"Can carry [2] [Missile] units",
+			"Never appears as a Barbarian unit",
+			"Consumes [1] [Oil]"],
+		"promotions": ["Artillery"],
+		"attackSound": "shipguns"
+	},
 
 	//Harbinger unique units
 	{
@@ -456,7 +543,7 @@
 		"movement": 2,
 		"cost": 200,
 		"uniques": ["Mounted",
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence",
 			"Can instantly construct a [Wasteland Station] improvement <by consuming this unit>",
 			"Is part of Great Person group [Merchant]", "Great Person - [Gold]",
 			"Only available <if [Harbinger Manege] is constructed>",
@@ -515,7 +602,7 @@
 		"strength": 150,
 		"rangedStrength": 150,
 		"range": 18,
-		"cost": 1500,
+		"cost": 1000,
 		"requiredTech": "Nuclear Fission",
 		"promotions": ["Evasive Maneuvers"],
 		"uniques": ["[+100]% Strength <when attacking>",
@@ -626,6 +713,34 @@
 		"attackSound": "machinegun"
 	},
 	{
+		"name": "Venetian Convoy",
+		"replaces": "Civilian Convoy",
+		"uniqueTo": "Venice Beach",
+		"unitType": "Civilian",
+		"movement": 3,
+		"cost": 106,
+		"uniques": ["Ignores terrain cost",
+			"Founds a new city <in [Coastal] tiles> <by consuming this unit>",
+			"[+15] HP when healing",
+			"All adjacent units heal [+15] HP when healing",
+			"Will not be displayed in Civilopedia"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Issaquah Convoy",
+		"replaces": "Civilian Convoy",
+		"uniqueTo": "Issaquah Nation",
+		"unitType": "Civilian",
+		"movement": 3,
+		"cost": 106,
+		"uniques": ["Ignores terrain cost",
+			"Founds a new city <in [Coastal] tiles> <by consuming this unit>",
+			"[+15] HP when healing",
+			"All adjacent units heal [+15] HP when healing",
+			"Will not be displayed in Civilopedia"],
+		"hurryCostModifier": 20
+	},
+	{
 		"name": "Hawkman Brave",
 		"unitType": "Scrapper",
 		"replaces": "Machete",
@@ -687,7 +802,7 @@
 		"upgradesTo": "Exo-Trooper",
 		"uniques": ["Personnel", "Consumes [1] [Weapons]", "Great Person - [War]", "Limited to [1] per Civilization"],
 		"promotions": ["Reconnaissance I", "Gas Mask", "[Lawkeeper] ability"],
-		"attackSound": "machinegun"
+		"attackSound": "phasers"
 	},
 
 	//Adjusted base scenario units
