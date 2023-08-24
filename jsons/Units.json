@@ -713,34 +713,6 @@
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "Venetian Convoy",
-		"replaces": "Civilian Convoy",
-		"uniqueTo": "Venice Beach",
-		"unitType": "Civilian",
-		"movement": 3,
-		"cost": 106,
-		"uniques": ["Ignores terrain cost",
-			"Founds a new city <in [Coastal] tiles> <by consuming this unit>",
-			"[+15] HP when healing",
-			"All adjacent units heal [+15] HP when healing",
-			"Will not be displayed in Civilopedia"],
-		"hurryCostModifier": 20
-	},
-	{
-		"name": "Issaquah Convoy",
-		"replaces": "Civilian Convoy",
-		"uniqueTo": "Issaquah Nation",
-		"unitType": "Civilian",
-		"movement": 3,
-		"cost": 106,
-		"uniques": ["Ignores terrain cost",
-			"Founds a new city <in [Coastal] tiles> <by consuming this unit>",
-			"[+15] HP when healing",
-			"All adjacent units heal [+15] HP when healing",
-			"Will not be displayed in Civilopedia"],
-		"hurryCostModifier": 20
-	},
-	{
 		"name": "Hawkman Brave",
 		"unitType": "Scrapper",
 		"replaces": "Machete",

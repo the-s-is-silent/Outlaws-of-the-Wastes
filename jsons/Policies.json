@@ -321,7 +321,7 @@
 				"name": "Civil Society",
 				"uniques": ["[+33]% Strength for cities"],
 				"row": 1,
-				"column": 2
+				"column": 1
 			},
 			{
 				"name": "Protected Speech",
@@ -344,7 +344,7 @@
 				"uniques": ["[+33]% [Culture] from every [Congress]",
 					"Free [Great Administrator] appears",
 					"[Great Administrator] is earned [20]% faster"],
-				"requires": ["Civil Society", "Protected Speech"],
+				"requires": ["Protected Speech"],
 				"row": 2,
 				"column": 3
 			},
