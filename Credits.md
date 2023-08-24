@@ -1,13 +1,14 @@
 # Credits
 
 Like the status of the mod as a whole as well as DeCiv Redux's credit list, this is incomplete.<br>
-Pixel art will most likely reuse other sources for the initial upload. Floating Settlements and Wasteland Stations borrow the Biodome City and Mining Camp images from Alpha Frontier, with permission from [Indonesian Gentleman](https://github.com/carriontrooper).<br>
+Pixel art will most likely reuse other sources (several of them from DeCiv) for the initial upload. Floating Settlements and Wasteland Stations borrow the Biodome City and Mining Camp images from Alpha Frontier, with permission from [Indonesian Gentleman](https://github.com/carriontrooper).<br>
 Some of the icons reuse unsourced images used in either Unciv or DeCiv Redux.<br>
-The Religion Icons for Anglicanism, Imperial Cult and Mormonism were created by Tomatekh on CivFanatics and can be found [at the Civ 5 Customization Wiki's entry on the Tomatekh's Historical Religions mod](https://civilization-v-customisation.fandom.com/wiki/Tomatekh%27s_Historical_Religions).
+The Religion Icons for Anglicanism, Imperial Cult and Mormonism were created by Tomatekh on CivFanatics and can be found [at the Civ 5 Customization Wiki's entry on the Tomatekh's Historical Religions mod](https://civilization-v-customisation.fandom.com/wiki/Tomatekh%27s_Historical_Religions).<br>
+The icon for Alma State Guard is of my own creation.
 
 Unless otherwise specified, all of the following are from the Noun Project, licensed under Creative Commons or Public Domain. Also, if anyone feels like there is a better/more fitting icon out there for any particular building/unit/etc. than the one that is used, I am open to suggestions for replacement icons.
 
-Items still missing an icon (not necessary a complete list): Atomgrad Project, Drifter, Interpretative Center, Key to the City, Mounted Railgun, SS Casing, SS Life Support, Super Mutant, Tribal Unification Initiative
+Items still missing an icon (not necessary a complete list): Atomgrad Project, Drifter, Exploratores, Interpretative Center, Key to the City, Mounted Railgun, Pridwen-class, Rapid Response Squad, SS Casing, SS Life Support, Super Mutant, Tribal Unification Initiative
 
 ### Building Icons
 - Abbey: [Westminster Abbey](https://thenounproject.com/icon/westminster-abbey-5459042/) by Brickclay, PK
@@ -61,6 +62,7 @@ Items still missing an icon (not necessary a complete list): Atomgrad Project, D
 - Tabernacle: [Mormon Temple](https://thenounproject.com/icon/mormon-temple-91138/) by Jason Dilworth
 - Tidal Array: [Tidal energy](https://thenounproject.com/icon/tidal-energy-4215014/) by Lucas Helle
 - [Totem Pole](https://thenounproject.com/icon/totem-pole-20257/) by MaxineVSG
+- [Victory Column](https://thenounproject.com/icon/victory-column-4202773/) by tezar tantular, ID
 - Wasteland Surveillance Initiative: [Security](https://thenounproject.com/icon/security-123950/) by Aaron K. Kim
 - Workers' Facility: [facility](https://thenounproject.com/icon/facility-2815116/) by WEBTECHOPS LLP, IN
 
