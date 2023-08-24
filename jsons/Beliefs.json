@@ -81,6 +81,11 @@
 			"[+2 Production, +1 Faith] from every [Wind farm]"]
 	},
 	{
+		"name": "Sacred Bog",
+		"type": "Pantheon",
+		"uniques": ["[+1 Production, +1 Faith] from every [Swamp]"]
+	},
+	{
 		"name": "Sacred Ruins",
 		"type": "Pantheon",
 		"uniques": ["[+1 Culture] from every [Forest] <within [2] tiles of a [City center]>",
