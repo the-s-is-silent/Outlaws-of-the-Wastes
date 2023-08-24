@@ -13,7 +13,6 @@ Changes since the Harbinger update
 - Deseret Nation loses the Iron Working and Steel starting techs along with the temporary Science penalty.
 - The Harbingers now only get half as much Water and Influence from CS trade missions.
 - New Star is no longer allowed to build Prison Camp or Work Camp buildings. This is temporary until I can come up with appropriate replacements for those buildings. Being a True Good faction, New Star shouldn't be allowed to have those buildings and while others may disagree with me on this stance, I consider them still being able to employ prison labor despite outlawing slavery to be an oversight.
-- City-States: Issaquah and Venice Beach have been given unique Civilian Convoy units that must be on a coastal tile to found a city, due to the faults in Unciv's start bias logic.
 
 **Promotion Adjustments**
 - Forage awards 67% less Science per kill and no longer increases XP gain, but increases healing slightly in Rubble and Ruins tiles and is now available to Shooter units.
@@ -147,6 +146,7 @@ Changes since the Harbinger update
 **New Beliefs**
 - Followers of Refined Crafts, adding +1 each of Water, Culture and Faith to Distillery and Jeweler buildings
 - Harvest Festival, adding +1 Food to Grain and Tuber resources (swiped from the current Rekmod maintainer's DeCiv rebalance mod)
+- Sacred Bog, adding +1 Production and Faith to Swamp tiles
 - Spiritual Research, adding +1 Culture/Faith to Artifacts, Books, Data and Encrypted Data (swiped from the current Rekmod maintainer's DeCiv rebalance mod)
 - Unity of the Sages, adding 50% to the total yields of Seminaries, Oracles and Endowment Houses, and +2 Faith to all Faith buildings in cities with 10+ followers
 - Veneration of the Elders, with the same effect as Devoted Elite in Rekmod
