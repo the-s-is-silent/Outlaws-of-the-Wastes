@@ -218,6 +218,11 @@
 			"[+3 Production, +3 Food, +3 Gold, +3 Culture, +3 Faith, +3 Happiness] from every [Grand Monastery]"]
 	},
 	{
+		"name": "Itinerant Preachers",
+		"type": "Enhancer",
+		"uniques": ["[+1 Faith] from every specialist [in cities following this religion]"]
+	},
+	{
 		"name": "Missionary Zeal",
 		"type": "Enhancer",
 		"uniques": ["[Faith] cost of purchasing [Philosopher] units [-30]%",
@@ -234,6 +239,12 @@
 		"type": "Enhancer",
 		"uniques": ["[+1] Sight <for [All] units>",
 			"Earn [25]% of the damage done to [Military] units as [Faith]"]
+	},
+	{
+		"name": "Religious Texts",
+		"type": "Follower",
+		"uniques": ["[+17]% Natural religion spread [in all cities]",
+			"[+17]% Natural religion spread [in all cities] <after discovering [Education]>"]
 	},
 	{
 		"name": "Religious Troubadours",
@@ -266,19 +277,5 @@
 			"[+50]% Yield from every [Endowment House]",
 			"[+2 Faith] from all [Faith] buildings <in cities with at least [10] [Followers of this Religion]>"]
 		// TODO: Should also have the Unity of the Prophets effect of Censors/Sages only reducing foreign religion followers by half once BNW content is implemented
-	},
-//Deletions
-	{
-		"name": "Itinerant Preachers",
-		"type": "Follower",
-		"uniques": ["Religion naturally spreads to cities [+3] tiles away",
-			"Only available <before discovering [The Wheel]>"]
-	},
-	{
-		"name": "Religious Texts",
-		"type": "Follower",
-		"uniques": ["[+25]% Natural religion spread [in all cities]",
-			"[+25]% Natural religion spread [in all cities] <after discovering [Education]>",
-			"Only available <before discovering [The Wheel]>"]
 	}
 ]
