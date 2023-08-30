@@ -90,6 +90,7 @@
 		"uniques": ["City Defense",
 			"[+2] population [in this city]",
 			"Population loss from nuclear attacks [-100]% [in this city]",
+			"Damage to garrison from nuclear attacks [-100]% [in this city]",
 			"Consumes [1] [Power]",
 			"Requires at least [20] population",
 			"Only available <if [Earthscraper Project] is constructed>",
@@ -123,6 +124,7 @@
 	//Other National Wonders
 	{
 		"name": "Naval War College",
+		"greatPersonPoints": {"Great Admiral": 4},
 		"isNationalWonder": true,
 		"requiredBuilding": "Seaport",
 		"uniques": ["Must be next to [Coast]",
@@ -188,6 +190,19 @@
 		"requiredTech": "Navigation"
 	},
 	{
+		"name": "Navy Shipyard",
+		"greatPersonPoints": {"Great Admiral": 2},
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Harbor",
+		"uniques": ["Must be next to [Coast]", 
+			"[Water] units gain the [Reinforced Hull] promotion",
+			"New [Water] units start with [15] Experience [in this city]",
+			"[+2 Production] from [Drydock] tiles [in this city]",
+			"Only available <after adopting [Rediscovery Complete]>"],
+		"requiredTech": "Oceanography"
+	},
+	{
 		"name": "Food Processing Plant",
 		"food": 2,
 		"percentStatBonus": {"production": 5},
@@ -244,6 +259,15 @@
 			"[+1 Production] from [Artificial atoll] tiles [in this city]",
 			"[+1 Production] from [Floating Settlement] tiles [in this city]"],
 		"requiredTech": "Ocean Remediation"
+	},
+	{
+		"name": "Sanctuary",
+		"happiness": 3,
+		"maintenance": 3,
+		"hurryCostModifier": 30,
+		"uniques": ["[+1 Food, +1 Gold, +1 Culture] from [Nature preserve] tiles [in this city]",
+			"Must have an owned [Nature preserve] within [3] tiles"],
+		"requiredTech": "Atmosphere Remediation"
 	},
 
 	//Deseret Nation unique buildings
@@ -428,6 +452,7 @@
 		"cost": 1,
 		"uniques": ["Indicates the capital city",
 			"Population loss from nuclear attacks [-25]% [in this city]",
+			"Damage to garrison from nuclear attacks [-25]% [in this city]",
 			"Gain a free [Food Store] [in this city]"]
 	},
 	{
@@ -435,15 +460,13 @@
 		"uniqueTo": "Camelot Foundation",
 		"isWonder": true,
 		"culture": 2,
-		"faith": 1,
 		"happiness": 1,
 		"cost": 1,
 		"uniques": ["[+6 Culture] [in this city] <after discovering [Flight]>",
 			"[+10]% [Production] when constructing [All] units [in this city]",
 			"[2] free [Knight] units appear",
 			"Can only be built [in capital]",
-			"Gain a free [Sangreal Vault] [in this city]",
-			"Gain a free [Riding Arena] [in this city]"]
+			"Gain a free [Sangreal Vault] [in this city]"]
 		//Quote TBD
 	},
 	{
@@ -467,7 +490,7 @@
 		"hurryCostModifier": -25,
 		"uniques": ["Enables construction of [Mounted] units",
 			"New [Mounted] units start with [15] Experience [in this city]",
-			"[+2 Production] from [Horses] tiles [in this city]"],
+			"[+1 Production, +1 Culture] from [Horses] tiles [in this city]"],
 		"requiredTech": "Redomestication"
 	},
 	{
@@ -521,8 +544,7 @@
 		"uniques": ["Also replaces the Council",
 			"[+1 Science, +1 Culture] per [4] population [in all cities]",
 			"[-10]% Unhappiness from [Population] [in all cities]",
-			"[+5]% Production when constructing [All] buildings [in all cities connected to capital]",
-			"[+33]% [Production] [in this city] <after adopting [Planned Economy]>",
+			"[+10]% [Production] [in all cities connected to capital] <after adopting [Constitution Complete]>",
 			"[+33]% [Gold] [in this city] <after adopting [Monopoly]>",
 			"[+25]% [Science] [in this city] <after adopting [Technocracy]>",
 			"Only available <if [Search for Survivors] is constructed>",
@@ -573,7 +595,7 @@
 		"cost": 50,
 		"hurryCostModifier": -25,
 		"uniques": ["Enables construction of [Mounted] units",
-			"[+2 Production, +1 Gold] from [Horses] tiles [in this city]"],
+			"[+1 Production, +1 Gold] from [Horses] tiles [in this city]"],
 		"requiredTech": "Redomestication"
 	},
 	{
@@ -842,8 +864,7 @@
 		"uniques": [
 			"[+1] population [in all cities]",
 			"Free Great Person",
-			"Requires a [Broadcast Tower] in all cities",
-			"Cost increases by [30] per owned city"
+			"Requires a [Broadcast Tower] in all cities"
 		],
 		"quote": "When the immediate danger has passed the sirens will sound a steady note. The all clear message will also be given on this wavelength.",
 		"civilopediaText": [
@@ -856,8 +877,10 @@
 		"name": "Broadcast Network",
 		"happiness": 2,
 		"culture": 2,
+		"cost": 400,
 		"uniques": ["[+1 Happiness] per [2] social policies adopted",
-			"Requires a [Television Studio] in all cities"],
+			"Requires a [Television Studio] in all cities",
+			"Cost increases by [30] per owned city"],
 		"isNationalWonder": true,
 		"requiredTech": "Social Engineering"
 	},
@@ -883,12 +906,31 @@
 		"civilopediaText": [{ "text": "To a man with a hammer, everything looks like a nail." }]
 	},
 	{
+		"name": "Faust Project",
+		"percentStatBonus": {"science": 10},
+		"isWonder": true,
+		"uniques": [
+			"Must have an owned [Missile Complex] within [3] tiles",
+			"[+20]% Production when constructing [Manhattan Project] wonders [in all cities]",
+			"[+20]% Production when constructing [Missile] units [in all cities]",
+			"[+1 Production, +3 Science] from [Missile Complex] tiles [in all cities]",
+			"Provides [1] [Uranium]"
+		],
+		"requiredTech": "Writing",
+		"quote": "Our legends tell of weapons, wielded by kings of old; crafted by evil wizards, unholy to behold...",
+		"civilopediaText": [
+			{
+				"text": "Our legends tell of weapons, wielded by kings of old; crafted by evil wizards, unholy to behold..."
+			}
+		]
+	},
+	{
 		"name": "Nuclear Waste Museum",
 		"percentStatBonus": {"science": 10, "culture": 10},
 		"isNationalWonder": true,
 		"requiredTech": "Writing",
 		"uniques": ["Must have an owned [Nuclear Waste Storage] within [3] tiles",
-			"[+1 Culture, +1 Science] from [Nuclear Waste Storage] tiles [in this city]",
+			"[+1 Culture, +3 Science] from [Nuclear Waste Storage] tiles [in this city]",
 			"Unbuildable <if [Excavate Nuclear Waste] is constructed>"]
 	},
 	{
@@ -897,17 +939,17 @@
 		"requiredTech": "Steam Power",
 		"uniques": ["Must have an owned [Soft Drinks Factory] within [3] tiles",
 			"Provides [3] [Soft Drinks]",
-			"[+1 Culture, +1 Happiness, +1 Gold] from [Soft Drinks Factory] tiles [in all cities]",
+			"[+2 Gold, +2 Culture, +1 Happiness] from [Soft Drinks Factory] tiles [in all cities]",
 			"Empire enters golden age",
 			"Consumes [1] [Power]"]
 	},
 	{
-		"name": "Salvage Army Depot",
+		"name": "Restore Army Depot",
 		"requiredTech": "Engineering",
 		"isWonder": true,
-		"cost": 50,
 		"uniques": ["Must have an owned [Army Depot] within [3] tiles",
-			"[+1 Science, +1 Production] from [Army Depot] tiles [in all cities]",
+			"[+1 Science, +3 Production] from [Army Depot] tiles [in all cities]",
+			"[+25]% Production when constructing [Armor] units [in this city]",
 			"Provides [2] [Weapons]",
 			"Provides [1] [Oil]",
 			"Free [Ancient Armor] appears"],
@@ -915,6 +957,58 @@
 		"civilopediaText": [
 			{
 				"text": "Oh, see the fire is sweepin, our very street today; burns like a red coat carpet, mad bull lost your way... War, children! It's just a shot away!"
+			}
+		]
+	},
+	{
+		"name": "Salvage Space Station",
+		"isWonder": true,
+		"percentStatBonus": {"science": 10},
+		"requiredTech": "Writing",
+		"uniques": [
+			"Must have an owned [Space Station Wreckage] within [3] tiles",
+			"[+3 Science, +1 Culture, +1 Production] from [Space Station Wreckage] tiles [in all cities]"
+		],
+		"quote": "Everything in space obeys the laws of physics. If you know these laws, and obey them, space will treat you kindly. And don't tell me that man doesn't belong out there. Man belongs wherever he wants to go - and he'll do plenty well when he gets there.",
+		"civilopediaText": [
+			{
+				"text": "Everything in space obeys the laws of physics. If you know these laws, and obey them, space will treat you kindly. And don't tell me that man doesn't belong out there. Man belongs wherever he wants to go - and he'll do plenty well when he gets there."
+			}
+		]
+	},
+	{
+		"name": "Pit of Sacrifice",
+		"isWonder": true,
+		"percentStatBonus": {"faith": 25},
+		"requiredTech": "Secrets of the Past",
+		"uniques": [
+			"[-1 Food, +4 Faith] from [Mining Pit] tiles [in all cities]",
+			"Must have an owned [Mining Pit] within [3] tiles",
+			"Unbuildable <if [Mining Operation] is constructed>"
+		],
+		"quote": "'The earth itself is hungry! See, its mouth wide open before us! It must be fed!'",
+		"civilopediaText": [
+			{
+				"text": "'The earth itself is hungry! See, its mouth wide open before us! It must be fed!'"
+			}
+		]
+	},
+	{
+		"name": "The Last Paradise",
+		"isWonder": true,
+		"requiredTech": "Trade",
+		"cost": 125,
+		"percentStatBonus": {"gold": 10},
+		"greatPersonPoints": {"Great Merchant": 2},
+		"uniques": [
+			"[+3 Culture, +3 Happiness] from [Oasis] tiles [in all cities]",
+			"[+1 Food, +1 Gold, +1 Culture, +1 Happiness] from [Artificial oasis] tiles [in all cities]",
+			"Must have an owned [Oasis] within [3] tiles"
+		],
+		"quote": "The Lord God made all kinds of trees grow out of the ground - trees that were pleasing to the eye and good for food.",
+		"civilopediaText": [
+			{
+				"text": "The Lord God made all kinds of trees grow out of the ground - trees that were pleasing to the eye and good for food."
 			}
 		]
 	},
@@ -967,8 +1061,10 @@
 		"name": "Medical Network",
 		"isNationalWonder": true,
 		"science": 3,
+		"cost": 150,
 		"requiredTech": "Biology",
 		"uniques": ["Requires a [Hospital] in all cities",
+			"Cost increases by [30] per owned city",
 			"Only available <after adopting [Rationalism]>",
 			"[5]% Food is carried over after population increases [in all cities]",
 			"[+5]% growth [in all cities] <after adopting [Rationalism Complete]>",
@@ -980,12 +1076,38 @@
 		"isNationalWonder": true,
 		"culture": 1,
 		"greatPersonPoints": {"Great Administrator": 2},
+		"cost": 150,
 		"requiredTech": "Civil Service",
-		"uniques": ["Requires a [Town Hall] in all cities",
-			"Only available <after adopting [Constitution]>",
+		"uniques": ["Only available <after adopting [Constitution]>",
 			"[+2 Production] [in all cities connected to capital]",
 			"[+50]% Golden Age length",
-			"Empire enters golden age"]
+			"Empire enters golden age",
+			"Requires a [Town Hall] in all cities",
+			"Cost increases by [30] per owned city"]
+	},
+	{
+		"name": "Heavy Equipment",
+		"isNationalWonder": true,
+		"production": 3,
+		"cost": 150,
+		"requiredTech": "Engineering",
+		"requiredNearbyImprovedResources": ["Oil", "Coal", "Aluminum"],
+		"uniques": ["[-25]% tile improvement construction time",
+			"[2] free [Worker] units appear"]
+	},
+	{
+		"name": "Domestic Electrification",
+		"isNationalWonder": true,
+		"cost": 150,
+		"uniques": ["[+2 Happiness, +2 Culture] [in this city] <when above [0] [Power]>",
+			"[+2 Happiness] [in this city] <with [Data]>",
+			"[+2 Happiness] [in this city] <with [Electronics]>",
+			"[+2 Happiness] [in this city] <with [Machine Parts]>",
+			"Cost increases by [30] per owned city",
+			"Can only be built [in capital]",
+			"Consumes [1] [Power]"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Engineering"
 	},
 	{
 		"name": "Heat Plant", //no longer a Hexlock UB
@@ -1004,6 +1126,100 @@
 		"greatPersonPoints": {"Great Administrator": 2},
 		"uniques": ["Consumes [1] [Power]"],
 		"requiredTech": "Networking"
+	},
+	{
+		"name": "Hospital",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Biology",
+		"uniques": [
+			"[30]% Food is carried over after population increases [in this city]",
+			"All newly-trained [Personnel] units [in this city] receive the [Medic I] promotion",
+			"[+1 Food] [in this city] <with [Harvested Organs]>",
+			"Consumes [1] [Power]"
+		]
+	},
+	{
+		"name": "Pre-Med Lab",
+		"replaces": "Hospital",
+		"uniqueTo": "Hexlock",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Biology",
+		"uniques": [
+			"[30]% Food is carried over after population increases [in this city]",
+			"All newly-trained [Personnel] units [in this city] receive the [Medic I] promotion",
+			"All newly-trained [Promotion Nullifier] units [in this city] receive the [Medic I] promotion",
+			"[+5]% [Food] [in this city] <with [Harvested Organs]>",
+			"[+5]% [Science] [in this city] <with [Machine Parts]>",
+			"Consumes [1] [Power]"
+		]
+	},
+	{
+		"name": "Organ Farm",
+		"replaces": "Hospital",
+		"uniqueTo": "Deadrock Clan",
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"requiredTech": "Biology",
+		"uniques": [
+			"[10]% Food is carried over after population increases [in this city]",
+			"[+1 Food] [in this city] <with [Harvested Organs]>",
+			"Provides [1] [Harvested Organs]",
+			"Consumes [1] [Slaves]"
+		]
+	},
+	{
+		"name": "Decontamination Center",
+		"replaces": "Hospital",
+		"uniqueTo": "Proklyatyye",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Biology",
+		"uniques": [
+			"[10]% Food is carried over after population increases [in this city]",
+			"Population loss from nuclear attacks [-25]% [in this city]",
+			"Damage to garrison from nuclear attacks [-25]% [in this city]",
+			"All newly-trained [Personnel] units [in this city] receive the [Gas Mask] promotion",
+			"All newly-trained [{Land} {Low Tech}] units [in this city] receive the [Gas Mask] promotion",
+			"[+1 Food] [in this city] <with [Harvested Organs]>",
+			"Consumes [1] [Power]"
+		]
+	},
+	{
+		"name": "Medical Lab",
+		"food": 2,
+		"maintenance": 2,
+		"requiredBuilding": "Hospital",
+		"requiredTech": "Pharmaceuticals",
+		"uniques": ["[20]% Food is carried over after population increases [in this city]"]
+	},
+	{
+		"name": "Organ Lab",
+		"isNationalWonder": true,
+		"maintenance": 2,
+		"requiredTech": "Human Genome",
+		"uniques": ["Provides [2] [Harvested Organs]",
+			"Only available <in cities with a [Medical Lab]>",
+			"Consumes [1] [Power]"]
+	},
+	{
+		"name": "Stable",
+		"requiredNearbyImprovedResources": ["Horses"],
+		"cost": 50,
+		"hurryCostModifier": -25,
+		"uniques": ["Enables construction of [Mounted] units",
+			"[+1 Production] from [Horses] tiles [in this city]"],
+		"requiredTech": "Redomestication"
+	},
+	{
+		"name": "Blast Furnace",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Scrap", "Metal"],
+		"uniques": ["[+1 Production] from [Scrap] tiles [in this city]",
+			"[+1 Production] from [Metal] tiles [in this city]"],
+		"requiredTech": "Steel"
 	},
 	{
 		"name": "Aluminum Smelter",
@@ -1026,7 +1242,7 @@
 		"hurryCostModifier": 25,
 		"uniques": ["Provides [1] [Oil]",
 			"[+1 Production] [in this city] <with [Machine Parts]>",
-			"[+3 Production] from [Oil] tiles [in this city]",
+			"[+2 Production] from [Oil] tiles [in this city]",
 			"Consumes [1] [Power]",
 			"Only available <in cities without a [Oil Plant]>"],
 		"requiredTech": "Chemistry"
@@ -1051,9 +1267,10 @@
 		"cost": 150,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
-		"uniques": ["Provides [2] [Power]",
+		"uniques": ["Provides [1] [Power]",
+			"Provides [1] [Power] <when above [0] [Oil]>",
 			"[+1 Production] [in this city] <with [Machine Parts]>",
-			"[+3 Production] from [Oil] tiles [in this city]",
+			"[+2 Production] from [Oil] tiles [in this city]",
 			"Consumes [1] [Oil]",
 			"Only available <in cities without a [Oil Refinery]>",
 			"Only available <in cities with a [Library]>"],
@@ -1066,9 +1283,19 @@
 		"maintenance": 2,
 		"hurryCostModifier": 0,
 		"requiredNearbyImprovedResources": ["Oil"],
-		"uniques": ["Consumes [1] [Power]", "[+1 Production] from [Plastics] tiles [in this city]",
-			"[+2 Production] from [Oil] tiles [in this city]"],
+		"uniques": ["[+1 Production] from [Plastics] tiles [in this city]",
+			"[+2 Production] from [Oil] tiles [in this city]",
+			"Consumes [1] [Power]"],
 		"requiredTech": "Plastics"
+	},
+	{
+		"name": "Carbon Capture",
+		"food": 2,
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Food, +1 Production] from [Tree plantation] tiles [in this city]",
+			"Consumes [1] [Power]"],
+		"requiredTech": "Atmosphere Remediation"
 	},
 	{
 		"name": "Market",
@@ -1186,6 +1413,7 @@
 		"hurryCostModifier": 50,
 		"requiredBuilding": "Hardened Defenses",
 		"uniques": ["City Defense", "Population loss from nuclear attacks [-75]% [in this city]",
+			"Damage to garrison from nuclear attacks [-75]% [in this city]",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Munitions"
 	},
@@ -1377,7 +1605,6 @@
 		"production": 1,
 		"culture": 1,
 		"faith": 2,
-		"cityStrength": 1,
 		"cityHealth": 50,
 		"uniques": ["May choose [1] additional [Pantheon] beliefs when [founding] a religion",
 			"[2] free [Scavenger] units appear",
@@ -1425,16 +1652,13 @@
 		"isWonder": true,
 		"uniqueTo": "Cult of Ignis",
 		"specialistSlots": {"Administrator": 1},
-		"happiness": 1,
 		"faith": 2,
 		"cost": 1,
 		"uniques": ["[+2 Culture] [in this city] <after discovering [Iron Working]>",
 			"Provides [2] [Oil]",
-			"May choose [1] additional [Pantheon] beliefs when [founding] a religion",
 			"Free [War Buggy] appears",
 			"Can only be built [in capital]",
 			"Gain a free [Fuel Depot] [in this city]"],
-			//Nerf - the original effect of a bonus Pantheon Belief instead of a free Great Prophet has been restored, but with added restrictions, due to the buff enabling a Turn 1 Religion being clearly overpowered
 		"quote": "Be thy hands, anointed, with holy oil.\nBe thy breast, anointed, with holy oil.\nBe thy head, anointed, with holy oil.\nAs kings, priests, and prophets were anointed.\nAnd as Solomon was anointed king by Zadok the priest and Nathan the prophet, so be thee anointed.",
 		"civilopediaText": [
 			{
@@ -1473,7 +1697,7 @@
 		"name": "Gideon Scanner",
 		"replaces": "Congress",
 		"uniqueTo": "New Star",
-		"cost": 100,
+		"cost": 150,
 		"requiredTech": "Civil Service",
 		"uniques": ["Limited to [1] per Civilization",
 			"[+1] Movement <for [All] units>",
@@ -1488,7 +1712,7 @@
 	},
 	{
 		"name": "Rally Station",
-		"cost": 50,
+		"cost": 150,
 		"replaces": "Council",
 		"uniqueTo": "New Star",
 		"requiredTech": "Civil Service",
@@ -1575,7 +1799,7 @@
 		"name": "State Assembly", //originally named Five-Year Plan, which makes no sense
 		"replaces": "Congress",
 		"uniqueTo": "Proklyatyye",
-		"cost": 100,
+		"cost": 150,
 		"requiredTech": "Civil Service",
 		"uniques": ["[+10]% growth [in all cities connected to capital]",
 			"[+1 Culture] per [5] population [in all cities connected to capital]",
@@ -1588,7 +1812,7 @@
 	},
 	{
 		"name": "Politburo", //originally named Gulag, which should have gone to a unique Prison/Labor Camp replacement in the base scenario
-		"cost": 50,
+		"cost": 100,
 		"replaces": "Council",
 		"uniqueTo": "Proklyatyye",
 		"requiredTech": "Civil Service",
@@ -1615,6 +1839,48 @@
 	},
 
 	//City-State buildings
+	{
+		"name": "Defense Directorate",
+		"cityStrength": 5,
+		"cityHealth": 80,
+		"cost": 1,
+		"uniques": ["City Defense",
+			"[2] free [State Guard] units appear",
+			"Free [State Guard] appears <upon declaring war with a major Civilization>",
+			"Automatically built in all cities where it is buildable",
+			"Only available <for [City-States]>",
+			"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Voice of the Tree",
+		"replaces": "Defense Directorate",
+		"uniqueTo": "Tellus",
+		"cityStrength": 5,
+		"cityHealth": 100,
+		"cost": 1,
+		"uniques": ["City Defense",
+			"Free [Dendro Mutant] appears",
+			"[2] free [Dendro Mutant] units appear <upon declaring war with a major Civilization>",
+			"Automatically built in all cities where it is buildable",
+			"Only available <for [City-States]>",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Alma Defense Directorate",
+		"replaces": "Defense Directorate",
+		"uniqueTo": "Almaty",
+		"cityStrength": 5,
+		"cityHealth": 100,
+		"cost": 1,
+		"uniques": ["City Defense",
+			"Provides [2] [Weapons]",
+			"Free [Alma State Guard] appears",
+			"Free [Alma State Guard] appears <upon declaring war with a major Civilization>",
+			"Automatically built in all cities where it is buildable",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"]
+	},
 	{
 		"name": "Alma Air Base",
 		"uniqueTo": "Almaty",

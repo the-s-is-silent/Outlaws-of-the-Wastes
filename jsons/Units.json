@@ -35,6 +35,7 @@
 			"May heal outside of friendly territory",
 			"[+15] HP when healing",
 			"All adjacent units heal [+15] HP when healing",
+			"Is part of Great Person group [Admiral]",
 			"Great Person - [Navy]",
 			"Unbuildable", "Uncapturable"],
 		//Repair Fleet ability is currently unimplemented
@@ -267,7 +268,7 @@
 		"movement": 4,
 		"strength": 20,
 		"interceptRange": 1,
-		"cost": 55,
+		"cost": 85,
 		"hurryCostModifier": 20,
 		"requiredTech": "Replaceable Parts",
 		"promotions": ["Reconnaissance I", "Skirmish", "Urban Warfare I", "Urban Warfare II"],
@@ -543,7 +544,7 @@
 		"movement": 2,
 		"cost": 200,
 		"uniques": ["Mounted",
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence",
 			"Can instantly construct a [Wasteland Station] improvement <by consuming this unit>",
 			"Is part of Great Person group [Merchant]", "Great Person - [Gold]",
 			"Only available <if [Harbinger Manege] is constructed>",
@@ -698,6 +699,22 @@
 
 	//City-State units
 	{
+		"name": "State Guard",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 36,
+		"interceptRange": 1,
+		"cost": 50,
+		"upgradesTo": "Soldier",
+		"hurryCostModifier": 20,
+		"uniques": ["Personnel", "[+25]% Strength <when fighting in [Friendly Land] tiles>",
+			"Only available <for [City-States]>",
+			"Unbuildable <for [Almaty]>", "Cannot be purchased <for [Almaty]>",
+			"Never appears as a Barbarian unit",
+			"Limited to [5] per Civilization"],
+		"attackSound": "machinegun"
+	},
+	{
 		"name": "Alma State Guard",
 		"unitType": "Scrapper",
 		"uniqueTo": "Almaty",
@@ -709,8 +726,25 @@
 		"upgradesTo": "Exo-Trooper",
 		"hurryCostModifier": 20,
 		"promotions": ["Gas Mask"],
-		"uniques": ["Personnel", "Consumes [1] [Weapons]", "[+15]% Strength <when fighting in [Friendly Land] tiles>"],
+		"uniques": ["Personnel", "Consumes [1] [Weapons]", "[+25]% Strength <when fighting in [Friendly Land] tiles>"],
 		"attackSound": "machinegun"
+	},
+	{
+		"name": "Dendro Mutant",
+		"unitType": "Shooter",
+		"uniqueTo": "Tellus",
+		"replaces": "State Guard",
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 24,
+		"range": 1,
+		"cost": 50,
+		"upgradesTo": "Rifleman",
+		"hurryCostModifier": 20,
+		"uniques": ["Low Tech",
+			"Can instantly construct a [Tree plantation] improvement <once> <for [2] movement>",
+			"Invisible to others <in [Tree plantation] tiles>"],
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Hawkman Brave",

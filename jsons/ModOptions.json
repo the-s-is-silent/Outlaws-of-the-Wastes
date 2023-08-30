@@ -1,6 +1,6 @@
 {
 	"nationsToRemove": ["Deseret Nation"],
-	"buildingsToRemove": ["Distribute Soft Drinks", "Five-Year Plan", "Longhouse"],
+	"buildingsToRemove": ["Distribute Soft Drinks", "Fist of God", "Five-Year Plan", "Longhouse", "Salvage Army Depot"],
 	"uniques": [
 		"Rebel units may spawn <upon declaring war with a major Civilization> <when below [0] Happiness>",
 		"Rebel units may spawn <when at war> <when below [0] Happiness>",

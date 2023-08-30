@@ -99,7 +99,7 @@
 		"outerColor": [2, 46, 89],
 		"innerColor": [113, 233, 248],
 		"style": "Corporate",
-		"uniqueName": "Water Merchants",
+		"uniqueName": "Custodians of the World's Water",
 		"uniques": ["[+50]% Production when constructing [Gold] buildings [in all cities]",
 			"[+100]% Yield from every [Moisture trap]",
 			"[+100]% Yield from every [Water pump]",
@@ -109,7 +109,7 @@
 			"Starts with [Monopoly] adopted",
 			"[Gold] cost of purchasing items in cities [-20]%",
 			"[-33]% Production when constructing [Military] units [in all cities]",
-			"[-50]% Gold from Great Merchant trade missions",
+			"[-67]% Gold from Great Merchant trade missions",
 			"Cannot build [Civilian Convoy] units",
 			"Unhappiness from number of Cities doubled"],
 			//Should gain the Venetian ability to purchase items in puppeted cities, as well as the Venetian ban on annexing cities, once BNW content is implemented
@@ -174,6 +174,64 @@
 			"Dalbete",
 			"Light Otis",
 			"Meckenberg"
+		]
+	},
+	{
+		"name": "Blackwarden",
+		"leaderName": "Eric Price",
+		"adjective": ["Mercenary"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Capitalism",
+
+		"startIntroPart1": "With over 250,000 employees across 40 nations, Blackwarden Associates is the first choice for any situation requiring a professional and discreet security solution. Our friendly, highly trained personnel are always ready to help  - from your local bank or supermarket, to immigration processing centers and border defense at home, to fallout remediation and nuclear site security in the Indus Exclusion Zone.",
+		"startIntroPart2": "Blackwarden. Securing Your Future.",
+		"declaringWar": "It's time for you to join the Blackwarden family.",
+		"attacked": "Competitiveness? It's one of our core values.",
+		"defeated": "I'm sure we can come to an agreement. Let me send you my resume.",
+		"introduction": "You've reached the office of Eric Price, VP of mergers and acquisitions, Blackwarden, incorporated. Here at Blackwarden, the comfort and security of our shareholders is our number one priority.",
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		"tradeRequest": "This is a great opportunity for you. It would be unwise to refuse.",
+
+		"outerColor": [100, 170, 210],
+		"innerColor": [42, 42, 70],
+		"style": "Corporate",
+		"uniqueName": "Limited Liability",
+		"uniques": [
+			"[+10]% Strength <for [All] units> <when fighting in [Foreign Land] tiles> <while the empire is happy>",
+			"City-State Influence recovers at twice the normal rate",
+			"Starts with [Writing]",
+			"Starts with [Trade]",
+			"Starts with [Currency]",
+			"Starts with [Electronics]",
+			"[-2 Science] [in all cities] <before discovering [Education]>",
+			"Starts with [Monopoly] adopted",
+			"Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns. <after adopting [Monopoly Complete]>"
+		],
+		"cities": [
+			"Ark One",
+			"Vanguard",
+			"New Haven",
+			"Competitor View",
+			"Prosperity Plaza",
+			"Break Even",
+			"Spearhead",
+			"Profit Margin",
+			"Searchlight",
+			"Carte Blanche",
+			"Jackalsville",
+			"Horwich Green",
+			"Laissez's Fair",
+			"Hard Cash",
+			"Innovation",
+			"Conflict of Interest",
+			"Sunk Cost",
+			"Forbes",
+			"Cornucopia"
+		],
+		"civilopediaText": [
+			{ "text": "With over 250,000 employees across 40 nations, Blackwarden Associates is the first choice for any situation requiring a professional and discreet security solution. Our friendly, highly trained personnel are always ready to help  - from your local bank or supermarket, to immigration processing centers and border defense at home, to fallout remediation and nuclear site security in the Indus Exclusion Zone." },
+			{ "text": "Blackwarden. Securing Your Future." }
 		]
 	},
 	{

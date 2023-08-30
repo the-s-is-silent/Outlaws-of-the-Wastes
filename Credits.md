@@ -1,14 +1,14 @@
 # Credits
 
 Like the status of the mod as a whole as well as DeCiv Redux's credit list, this is incomplete.<br>
-Pixel art will most likely reuse other sources (several of them from DeCiv) for the initial upload. Floating Settlements and Wasteland Stations borrow the Biodome City and Mining Camp images from Alpha Frontier, with permission from [Indonesian Gentleman](https://github.com/carriontrooper).<br>
+Pixel art will most likely reuse other sources (several of them from DeCiv, Drydock from Rekmod) for the initial upload. Floating Settlements and Wasteland Stations borrow the Biodome City and Mining Camp images from Alpha Frontier, with permission from [Indonesian Gentleman](https://github.com/carriontrooper).<br>
 Some of the icons reuse unsourced images used in either Unciv or DeCiv Redux.<br>
 The Religion Icons for Anglicanism, Imperial Cult and Mormonism were created by Tomatekh on CivFanatics and can be found [at the Civ 5 Customization Wiki's entry on the Tomatekh's Historical Religions mod](https://civilization-v-customisation.fandom.com/wiki/Tomatekh%27s_Historical_Religions).<br>
 The icon for Alma State Guard is of my own creation.
 
 Unless otherwise specified, all of the following are from the Noun Project, licensed under Creative Commons or Public Domain. Also, if anyone feels like there is a better/more fitting icon out there for any particular building/unit/etc. than the one that is used, I am open to suggestions for replacement icons.
 
-Items still missing an icon (not necessary a complete list): Atomgrad Project, Drifter, Exploratores, Interpretative Center, Key to the City, Mounted Railgun, Pridwen-class, Rapid Response Squad, SS Casing, SS Life Support, Super Mutant, Tribal Unification Initiative
+Items still missing an icon (not necessary a complete list): Atomgrad Project, Defense Directorate (and its replacements), Drifter, Exploratores, Interpretative Center, Key to the City, Mounted Railgun, Navy Shipyard, Pridwen-class, Rapid Response Squad, SS Casing, SS Life Support, State Guard, Super Mutant, Tribal Unification Initiative
 
 ### Building Icons
 - Abbey: [Westminster Abbey](https://thenounproject.com/icon/westminster-abbey-5459042/) by Brickclay, PK
@@ -50,7 +50,7 @@ Items still missing an icon (not necessary a complete list): Atomgrad Project, D
 - Quorum of the Twelve: [city Council](https://thenounproject.com/icon/city-council-3566027/) by Thomas Deckert
 - Raider Suppression Initiative: [Soldier Attack with Machine Gun](https://thenounproject.com/icon/soldier-attack-with-machine-gun-659094/) by Gan Khoon Lay
 - Refurbished Textile Mill: [Textile industry](https://thenounproject.com/icon/textile-industry-5649184/) by Studio 365
-- Remedial School: [educational school building](https://thenounproject.com/icon/educational-school-building-3017500/) by Vectors Point
+- Remedial School (currently unused): [educational school building](https://thenounproject.com/icon/educational-school-building-3017500/) by Vectors Point
 - Restored Temple of Zion: [Salt Lake Temple](https://thenounproject.com/icon/salt-lake-temple-219294/) by Nick Bluth, US
 - Riding Arena: [stadium](https://thenounproject.com/icon/stadium-4477576/) by Doodle Icons
 - The Round Table: [round table](https://thenounproject.com/icon/round-table-4817059/) by Musmellow
@@ -68,6 +68,7 @@ Items still missing an icon (not necessary a complete list): Atomgrad Project, D
 
 ### Improvement Icons
 - Artificial atoll: [island](https://thenounproject.com/icon/island-1546376/) by Chanut is Industries, TH (same icon used for Atoll in base Unciv)
+- Drydock: [Dock Lifter](https://thenounproject.com/icon/dock-lifter-906357/) by Smashicons, GB
 - Endowment House: [charity box](https://thenounproject.com/icon/charity-box-4091320/) by Nattapol Seengern
 - Floating Settlement: [houseboat](https://thenounproject.com/icon/houseboat-4260799/) by Luis Prado, US
 - Wasteland Station: [station terminal](https://thenounproject.com/icon/station-terminal-2260974/) by Eucalyp
@@ -102,6 +103,7 @@ Items still missing an icon (not necessary a complete list): Atomgrad Project, D
 
 ### Resource Icons
 - Advanced Fabrics: [nanotech shirt](https://thenounproject.com/icon/nanotech-shirt-4817171/) by supalerk laipawat, TH
+- [Newspaper](https://thenounproject.com/icon/newspaper-5525221/) by ermachello
 - [Scripture](https://thenounproject.com/icon/scripture-4402137/) by Athok
 
 ### Unit Icons
@@ -111,6 +113,7 @@ Items still missing an icon (not necessary a complete list): Atomgrad Project, D
 - Brownsteel Knight: [Knight](https://thenounproject.com/icon/knight-4110910/) by Robert Bjurshagen, SE
 - Camelot SAS: [Gun](https://thenounproject.com/icon/gun-154282/) by Alberto Venegas, US
 - Commando: [soldier](https://thenounproject.com/icon/soldier-642197/) by Gan Khoon Lay
+- Dendro Mutant: [vines](https://thenounproject.com/icon/vines-4169419/) by Zulfa Mahendra, ID
 - Deseret Missionary: [Religion](https://thenounproject.com/icon/religion-53064/) by Bruno Gätjens González (same source as Missionary icon in base Unciv except *not* adapted)
 - Destroying Angel: [Angel](https://thenounproject.com/icon/angel-354209/) by william dayabaran
 - Educational Officer: [Government Officer](https://thenounproject.com/icon/government-officer-2003970/) by Made x Made, AU

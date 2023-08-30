@@ -140,7 +140,7 @@
 	{
 		"name": "Suppression",
 		"prerequisites": ["Entrench", "Forage"],
-		"uniques": ["[+33]% Strength <vs [Melee] units>"],
+		"uniques": ["[+25]% Strength <vs [Melee] units>"],
 		"unitTypes": ["Shooter"],
 		"column": 6,
 		"row": 6
@@ -314,6 +314,10 @@
 	{
 		"name": "Sea Raider",
 		"uniques": ["Earn [25]% of the damage done to [All] units as [Gold]"]
+	},
+	{
+		"name": "Reinforced Hull",
+		"uniques": ["[+20]% Strength <when defending>"]
 	},
 	{
 		"name": "[Wayfarer] ability",

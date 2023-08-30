@@ -7,19 +7,11 @@ A major expansion + rebalance mod for DeCiv Redux.
 
 - As a screw you to the AI's primitive sanity checks, the minimum allowed distance between cities has been increased.
 
-- Pantheons require twice as much Faith to found, but do not increase in cost with each Pantheon founded, and every faction present in a game can now found its own religion.
+- Pantheons require twice as much Faith to found, but do not increase in cost with each Pantheon founded; every faction present in a game can now found its own religion; and passive religion spread is 50% weaker than in the base scenario.
 
 - Deseret Nation is now a playable faction.
 
-- Many units, buildings, wonders, promotions, and beliefs from the base scenario have been either buffed or nerfed. A file containing a full list of these adjustments will be added later.
-
-- Several tile improvements have been adjusted:
-  - Hexlock's Refineries have had their base yields increased and been given adjacency bonuses. This is to hopefully make them not as utterly useless as they currently are in the base scenario, and is done as a temporary measure until Hexlock's entire gimmick is redesigned.
-  - Moisture Traps, Solar Collectors and Wind Farms receive +1 of their respective yield after researching Atmosphere Remediation, with the last one receiving another +1 on Water tiles after researching Ocean Remediation. Solar Collectors also take less time to build (10 turns on Standard).
-  - Settlements no longer trigger a Culture Bomb.
-  - Some of the "evil" Great Improvements have been given increased yields.
-  - Terrace Farms have had their Food yields increased so they aren't instantly rendered obsolete by the adjustments to Tree Plantations.
-  - Tree Plantations can now be built on Hills and Swamps after discovering Land Remediation.
+- Many units, buildings, wonders, promotions, beliefs, and tile improvements from the base scenario have been either buffed or nerfed. Check the Rebalance Log.md file for a comprehensive list of adjustments.
 
 ## Other features
 
@@ -33,12 +25,13 @@ A major expansion + rebalance mod for DeCiv Redux.
 
 - New units:
   - Barbarian: Suicider + Killdozer
+  - City-States: State Guard
   - Civilian: Great Admiral (Rekmod implementation) + Seastead Vessel
   - Military support: Wandering Doctor + Mobile Clinic
   - Scouting: Wasteland Patrol, Border Patrol, Expeditionary Force
   - Hero units (only 1 allowed per Civ): Hero of the Wastes, only available as a random camp reward
 
-- New buildings: Coastal Defenses, Contraband Disposal Site, Earth Clinic (Naturalism only), Earthscraper (Collectivism only), Ethanol Station, Food Processing Plant, Interpretative Center, Jeweler, Tidal Array, and Workers' Facility (Collectivism only).
+- New buildings: Coastal Defenses, Contraband Disposal Site, Defense Directorate (City-States only), Earth Clinic (Naturalism only), Earthscraper (Collectivism only), Ethanol Station, Food Processing Plant, Interpretative Center, Jeweler, Navy Shipyard (Rediscovery only), Sanctuary, Tidal Array, and Workers' Facility (Collectivism only).
 
 - New world wonder: Statue of Remembrance.
 

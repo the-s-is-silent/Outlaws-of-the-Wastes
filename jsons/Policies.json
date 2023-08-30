@@ -231,7 +231,7 @@
 			{
 				"name": "Exodus of the Evangelists",
 				"uniques": ["[+2] Movement <for [Religious] units>",
-					"[+33]% [Faith] [in holy cities]"],
+					"[+33]% [Faith] from every [Grand Monastery]"],
 				"requires": ["Apotheosis", "Indulgences"],
 				"row": 3,
 				"column": 3
@@ -239,9 +239,9 @@
 			{
 				"name": "Theocracy Complete",
 				"uniques": ["[Faith] cost of purchasing items in cities [-20]%",
-					"[+1 Food, +2 Culture, +2 Faith] from every [Seminary]",
-					"[+1 Food, +2 Culture, +2 Faith] from every [Oracle]",
-					"[+1 Food, +2 Culture, +2 Faith] from every [Endowment House]",
+					"[+2 Food, +2 Culture, +2 Faith] from every [Seminary]",
+					"[+2 Food, +2 Culture, +2 Faith] from every [Oracle]",
+					"[+2 Food, +2 Culture, +2 Faith] from every [Endowment House]",
 					"Gain a free [Enhancer] belief"]
 			}
 		]
@@ -298,8 +298,7 @@
 				"name": "Rationalism Complete",
 				"uniques": ["[+10]% [Science] <while the empire is happy>",
 					"[+4 Production] from every [Academy] <during a Golden Age>",
-					"Free Technology",
-					"May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
+					"Free Technology"]
 			}
 		]
 	},
@@ -321,13 +320,13 @@
 				"name": "Civil Society",
 				"uniques": ["[+33]% Strength for cities"],
 				"row": 1,
-				"column": 1
+				"column": 2
 			},
 			{
 				"name": "Protected Speech",
-				"uniques": ["[+1 Culture] per [3] population [in all cities]"],
+				"uniques": ["[+1 Culture] per [4] population [in all cities]"],
 				"row": 1,
-				"column": 4
+				"column": 5
 			},
 			{
 				"name": "Public Good",
@@ -344,7 +343,7 @@
 				"uniques": ["[+33]% [Culture] from every [Congress]",
 					"Free [Great Administrator] appears",
 					"[Great Administrator] is earned [20]% faster"],
-				"requires": ["Protected Speech"],
+				"requires": ["Civil Society", "Protected Speech"],
 				"row": 2,
 				"column": 3
 			},
@@ -408,9 +407,7 @@
 				"name": "Police State",
 				"uniques": ["[+3 Happiness] from every [Listening Post]",
 					"[+3 Production] from every [Prison Camp]",
-					"[+3 Production] from every [Work Camp]",
-					"[-3 Food] [in annexed cities]",
-					"[-3 Food] [in puppeted cities]"],
+					"[+3 Production] from every [Work Camp]"],
 				"requires": ["Scorched Earth", "Mobilization"],
 				"row": 2,
 				"column": 3
@@ -658,6 +655,7 @@
 			"Scientific": 0
 		},
 		"uniques": ["[+2 Food, +2 Culture] [in all cities]",
+			"[Great Farmer] is earned [20]% faster",
 			"Unlocks building Earth Clinics",
 			"Only available <before adopting [Mechanization]>",
 			"Only available <before adopting [Bionics]>"],
@@ -803,8 +801,8 @@
 			},
 			{
 				"name": "Mutagens",
-				"uniques": ["[+1 Culture, +1 Food, +1 Science] from every [Hospital]",
-					"[+1 Culture, +1 Food, +1 Science] from every [Medical Lab]"],
+				"uniques": ["[+2 Culture, +2 Food, +2 Science] from every [Hospital]",
+					"[+2 Culture, +2 Food, +2 Science] from every [Medical Lab]"],
 				"row": 1,
 				"column": 3
 			},

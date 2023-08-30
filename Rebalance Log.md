@@ -1,0 +1,195 @@
+Here is a comprehensive list of every change that was made to a unit, building, wonder, policy, belief, etc. in the base scenario (excluding faction unique components, but including one city-state unique component):
+
+Unit Changes:
+- Nuclear weapons can no longer be purchased.
+- Terraformer Part production cost is doubled.
+- Ancient Armor is now a standalone UU for Almaty, and its strength has been reduced to 55. This gives players a chance to fight back in the early-game against enemy factions who either allied with or conquered Almaty or have the Army Depot in their possession.
+- Ancient Armor also gains some buffs, however: base movement increased to 5 with another point added when starting its turn in friendly territory, and no combat penalty for attacking across rivers.
+- Attack Boats (and the Mariners' replacement) no longer require Factories to build, so they're now properly available at Steam Power instead of being forced to wait until Manufacturing. They can now also spawn as Barbarian units.
+- Machine Guns are now Personnel units.
+- Scouts (and New Star's replacement) now upgrade to Forward Observers instead of Gunmen.
+- Tanks can now appear as Barbarian units (the Barbarian version is the Killdozer which is available earlier and doesn't spend movement points to pillage).
+
+Building Changes:
+- Defensive buildings are no longer all automatically unlocked by building Walls and must now be built in order: Hardened Defenses requires Defensive Emplacements, Battery and Bunker require Hardened Defenses, and Active Denial System requires Battery.
+- Nuclear Waste Museum is now a National Wonder, addressing an issue where it could still be purchased if Excavate Nuclear Waste was built first. It also adds 10% Science and Culture to its city, adding incentive to build it, along with an additional +2 Science to the ancient wonder tile.
+- Hospitals (and relevant replacements), Medical Labs, and Organ Labs have had their minor Science penalty removed (a penalty they shouldn't have had in the first place). Hospitals also *ignore* the difficulty update that shuts down their food preservation effect when the faction falls into negative Power.
+- Listening Post (and relevant replacements) nerfed to 25% GP generation with no extra bonus for Constitution factions.
+- Arcology Dome buffed to +250 City HP and +33% Water, but requires the city to be of size 20 or higher (or will once that base game bug is fixed).
+- Carbon Capture no longer adds stats to Grasslands; it instead adds +1 Food/Production to Tree plantations and it consumes Power to build.
+- Production building adjustments:
+	- Stable nerfed to +1 Production on Horses tiles, but no longer adds a Food penalty to them.
+	- Blast Furnace nerfed to +1 Production on Scrap/Metal tiles, but no longer adds Food/Water penalties to them.
+	- Aluminum Smelter no longer adds a Food/Water penalty to Aluminum tiles and restores the commented out +3 Production to the city, and also adds an Engineer slot.
+	- Oil Refinery no longer adds a Food/Water penalty to Oil tiles and gains an Engineer slot.
+	- Oil Plant buffed to provide 2 Power (1 by default, 1 more if the owner still has Oil) and remove the Food/Water penalty, and it gains an Engineer slot.
+	- Both of these buildings only add +2 Production instead of +3 to Oil tiles now, however.
+	- Plastics Factory buffed to add +1 Production to Plastics tiles and +2 Production to Oil tiles worked by the city.
+- Water building adjustments:
+	- Market (and replacements) have a Merchant slot moved to Water Storage, but those that didn't have a base Water yield on the building itself gain 1 Water in compensation.
+	- Water Plant gains a Merchant slot and +2 Water.
+	- Greywater Treatment Plant loses the Production penalties, but also loses its single point of Food yield and one point of base Water yield.
+	- Rainwater Purifier adds an additional +15% to the city's total Water yields, making it more useful than it originally was.
+
+Wonder Changes
+(Several of these are mostly due to Wonders not obeying their proper behavior - in Unciv, they *can* be rebuilt after razing the city they're in, which should not be possible. However, it is unlikely I will revert most of the nerfs to wonders that were made because of this bug enabling exploits with the old effects.)
+- Wincon wonders, International Trade Center, and Manhattan Project can no longer have their production hurried.
+- Salvage Tank Depot now awards an Ancient Armor instead of a Tank (it originally awarded a Modern Armor in the base scenario prior to an "increased difficulty" update).
+- Salvage Army Depot replaced with Restore Army Depot, which costs 5x more Production (era-based 250 vs. 50), awards an Ancient Armor instead of a Tank (Modern Armor prior to the "increased difficulty" update), adds +25% Production towards Armor units in the owning city, and adds an extra +2 Production to the Army Depot tile.
+- Salvage Space Station nerfed to remove its free Technology, due to that same exploit, which would have allowed players to gain several free Technologies by razing and rebuilding non-capital cities next to its ancient wonder. Instead it adds +2 extra Science and +1 Culture to that wonder's tile along with 10% more Science and 2 Great Scientist Points in the city that owns it.
+- Faust Project adjusted in almost the exact same way due to that same exploit, but without the added Culture point to its ancient wonder. Its Production cost is also increased to the era-default 185 (Standard speed).
+- Pit of Sacrifice nerfed to remove its free Pantheon Effect due to that same exploit and also kills 1 pop upon completion along with adding a minor Food penalty (-1 to the tile instead of +1), but gives 25% more Faith to that city. This one will be reverted once World Wonders start obeying their proper behavior.
+- The Last Paradise buffed to add +3 Culture/Happiness to the Oasis instead of +1, along with 10% more Water to the city that owns it, and +1 Food, Water, Culture and Happiness to Artificial Oases once those become available.
+- Distribute Soft Drinks and Fist of God have been removed from the game.
+- Produce Soft Drinks buffed to add an extra point of Water and Culture to the Soft Drinks Factory tile.
+- Heavy Equipment's production cost reduced to 150 (was previously a much, much too high 400) and the project is buffed to award 2 free Workers and add +3 Production to the city it's built in.
+- Domestic Electrification's production cost reduced to 150 base + an extra 30 per owned city (among wonders that had their production cost set too high, this was by far the worst offender, at an obscenely high *400 base + 50 extra per owned city*).
+- Public Broadcast's production cost increased to 500 (was previously a much, much too low 100) and it now requires every non-puppeted city you control to have a Broadcast Tower, not just the city it's built in. However, it also adds +3 Culture to the city it's built in.
+- Broadcast Network now requires every city to have a Television Studio, instead of only needing one in the city it's built in. Its Production cost is reduced to 400 base + 30 per owned city.
+- National College and Grand Monastery's base production cost reduced to 125 + 30 extra per owned city (were previously much, much too high, at 300/400 respectively).
+- Medical Network now requires a Hospital in every city instead of a minimum of 4 cities, and its base production cost is reduced to 150 (was previously 400) + 30 extra per owned city.
+- Public Works Administration only awards one Golden Age now instead of a potential permanent Golden Age. It also loses its one measly Science point, but adds an extra Production point to all cities that are connected to the capital. Prior to this nerf, it was inarguably the most overpowered wonder in the base scenario. However, like many other National Wonders its Production cost has been reduced, to 150 base + 30 per owned city.
+- Media Center is now a normal building instead of a National Wonder.
+- Fusion Reactor's cost has been reduced and its effects are drastically buffed: it now doubles the owning faction's Power supply and adds 25% Production to all cities.
+
+Policy Changes:
+- The policy tree has been overhauled, borrowing heavily from Rekmod with some thematic deviations to make it feel a bit more like a BNW-style expansion.
+	- One new policy tree, Rediscovery, has been added, available starting from the second technological era.
+	- Growth bonuses in general are *severely* nerfed, denying an absurd advantage that going Adaptation-Constitution once provided.
+	- Adaptation:
+		- Castle Doctrine no longer adds +25% city strength to defensive buildings (this bonus has been moved to the Homeland Defense Initiative wonder), but receives part of the old finisher bonus and gives free Walls in your first 4 cities.
+		- Differential Rationing's bonus was moved all the way back to Harmony and it now receives Centralization's effect.
+		- Centralization now requires Differential Rationing and adds +1 Culture to every specialist in the capital and +10% Production towards building construction in the capital.
+		- Planned Economy and Parallel Markets now only require Centralization.
+		- Planned Economy's +33% Production to the Council is moved to Shared Vision and the +25% Growth bonus is removed; it instead receives the +33% Water bonus to the Council that was part of Monopoly's opener.
+		- The finisher bonus is buffed to a +15% growth bonus (though it also now requires a garrison to be active), and allows purchasing Great Farmers with Faith (moved here from Naturalism's finisher).
+	- Expansionism
+		- Citizen Militia and Courier Service have been swapped in the tree; the former is also buffed to award a free Worker.
+	- Sovereignty
+		- The opener bonus loses the Culture from Barbarian kills and gains Doctrine's old Culture per kill bonus against all Military units.
+        - Discipline loses its old effect completely and now boosts unit production by 20%.
+        - Doctrine now starts the war economy earlier than before; the Culture per kill becomes Water per kill, and it adds yields to the Barracks (+2 Production/Culture).
+        - Autocracy adjusted to award +2 Culture, +3 Happiness from garrisoned units and move the double Slaves bonus to Spoils of War.
+        - Military Tradition's bonus of double military unit gift rate from Military CS while allies at war is moved to the finisher bonus and it now gives a 10% Strength bonus to Land units.
+        - Triumph receives the old finisher of reduced upgrade costs.
+        - The finisher bonus now awards Science per kill (25% of unit's cost), the free Great General that was originally awarded by Discipline, the boosted unit gift rate that was originally provided by Military Tradition, and allows purchasing Great Generals with Faith (moved here from Supremacy's finisher).
+	- Theocracy
+		- Can now be taken alongside Rationalism, and is available at the start of the game.
+		- The opener bonus is buffed to add +1 Culture/Faith to the capital.
+		- Organized Religion buffed to remove the Science penalty from Faith buildings and add a Happiness bonus to those buildings instead.
+		- Indulgences buffed to +25% Water bonus from Monasteries and adds +1 Water to the main three Faith buildings and +2 Water to Seminaries + replacements (the latter was moved here from the finisher bonus).
+		- Mandate of Heaven, God Emperor, and Holy Scriptures are removed, with the aim of decoupling this policy from Supremacy by making it less warlike.
+		- Divine Mandate replaces Mandate of Heaven, adding +2 Culture/Happiness to Monuments and 10% Faith to Monasteries.
+		- Apotheosis replaces God Emperor, awarding a free Great Sage and 10% reduced Culture cost for policies.
+		- Exodus of the Evangelists replaces Holy Scriptures, adding +2 Movement to Religious Units and +33% Faith to the Grand Monastery.
+		- The finisher bonus now adds 2 Food and 1 extra Faith to Seminaries + replacements.
+    - Rationalism
+        - Can now be taken alongside Theocracy.
+		- In general, the tree gives less Science, but is deliberately not as severely nerfed as it is in Rekmod (which nerfs it to the point of making it a legitimately bad policy tree).
+        - The opener bonus loses the extra Science from Research Agreements.
+        - Technocracy is now an entry level policy for the tree.
+		- Skepticism buffed to remove the Faith penalty from Science buildings and add a Science bonus to those buildings, but now requires Technocracy. This policy will be renamed later.
+		- Sample Analysis now requires Equipment Upgrades.
+		- Equipment Upgrades loses its old effects and boosts Science building production, making the policy less warlike. This policy will be renamed later to reflect its new effect.
+		- Educated Elite now requires Skepticism.
+		- Finisher bonus nerfed to lose 1 free tech and disallow purchasing Great Scientists with Faith. However, it also now adds +4 Production to Academies during Golden Ages.
+	- Constitution
+		- Conceptually this is supposed to be the Freedom analogue, but ended up taking more after Aesthetics, resulting in an overpowered, unfocused mess. This tree receives some of the most severe nerfs.
+		- The tree no longer boosts growth at all.
+		- Civil Society also loses its Unhappiness reduction from specialists (this is moved to Harmony), and instead gets the effect of Their Finest Hour (+33% Strength for cities) that was removed from Political Officers.
+		- Protected Speech is nerfed to +1 Culture per 4 population and no longer adds yields to Town Halls.
+		- Public Good's old effect has been thrown out; it now adds +1 Water/Happiness to Water Storage units, Hospitals, Town Halls, and Broadcast Towers.
+		- Legislative Process loses the +1 Happiness per 5 population bonus and reduced to 20% extra Great Administrator generation (in accordance with other trees only boosting their respective Great Person by 20% instead of 25%), but awards a free Great Administrator to compensate.
+		- Voting Rights loses the 25% Strength penalty while the empire is unhappy.
+		- The finisher bonus is nerfed to +4 of the respective primary yield to each non-evil Great Improvement (+2 of each primary yield for Settlements, Wasteland Stations and Citadels) instead of double yields. Yes, this means other expansion mods with unique Great Improvements get shafted, and I do mean to address that at a later time.
+	- Supremacy
+		- Police State no longer gives +3 Happiness to Prison Camps (that bonus is moved to Listening Posts); instead it adds +3 Production to those buildings and Work Camps. Town Hall also loses its +1 Happiness from the policy.
+		- Spoils of War now provides double Slaves instead of Autocracy.
+		- The finisher bonus now adds +2 Food/Production/Water to every owned city while you have Slaves and +4 of the respective primary yield to each evil Great Improvement (Narcotics farm, Oracle, Outpost, Prison farm; Crystal Refineries get +2 Water/Science instead).
+	- Monopoly
+		- The +33% Water bonus to the Council from the opener bonus was moved to Planned Economy.
+		- The tree no longer adds extra Water to Factories or Work Camps aside from Privatization retaining its +2.
+		- Mass Consumption adds +1 Water to Moisture traps/Water pumps.
+		- Venture Capital adds +2 Water to the four main Water buildings instead of reducing item purchase cost (this was moved to Privatization).
+		- Privatization's stat penalties were removed. It is no longer a game-breaking policy thanks to the Hazard Pay nerf.
+		- Entrepreneurship loses the extra GM generation and receives the reduced road maintenance which was part of Privatization + a buffed building maintenance cost reduction moved from the finisher bonus, and adds +2 Science to the main four Water buildings.
+		- Corporate Personhood now requires Entrepreneurship in addition to Privatization.
+		- The finisher bonus adds further yields to Moisture traps, Water pumps, Settlements and Wasteland Stations (+1 Water/Food for the first two, +2 Water/Science/Culture for Settlements, +2 Water/Food/Production for Wasteland Stations), but loses the tile purchase discount.
+	- Collectivism
+		- The opener is nerfed to reduce the bonus to Great Engineer generation to 20%.
+		- Re-Education loses the Culture penalties but also loses the Happiness bonuses; it instead adds +1 Production/Science to Factories, Prison Camps and Work Camps.
+		- Nationalization is replaced with Expropriation, which reduces Water costs of purchasing settlers and tiles to aid mid-game expansion (the old policy's effect was moved to the Workers' Facility in a nerfed form).
+		- Political Officers now requires Re-Education and boosts all unit production instead of unit/city strength.
+		- Shared Vision now requires both Re-Education and Expropriation and loses the previous Production/maintenance cost reduction bonuses but gains Planned Economy's old 33% Production boost to the Council.
+		- The finisher bonus is buffed to add +2 Water/Science to every owned city.
+	- Naturalism
+		- The opener is buffed to add +2 Food/Culture instead of +1 and +20% bonus to Great Farmer generation.
+		- Emissions Standards removes the Production penalty to Coal Plants and adds an extra +1 Happiness/Culture to Recycling Plant and Carbon Capture buildings. It's still a bad policy since the only Power Plant you'll ever build is Nuclear and Carbon Capture comes too late in the game to matter, but this is unavoidable.
+		- Physiolatry loses the Science penalty and gains extra Food, Production and Culture yields.
+		- Ecodefense's Strength bonus buffed to 15%
+		- Harmony gains the old effects of Differential Rationing and Civil Society to replace the lackluster stat bonus to cities of size 7+.
+		- Conservation buffs Farmer specialists to return +2 Water.
+		- The finisher bonus loses the Faith purchase on Great Farmers (which was moved to Adaptation's finisher) but awards 2 of them for free.
+	- Mechanization
+		- All of the Food/Growth maluses have been removed.
+		- The opener is adjusted to add 5% Production in all cities and lose the Science boost/Culture penalty.
+		- Automation loses the Science boost and now adds +2 Production/Happiness to Factories and Automated Factories.
+		- Logistics renamed to Integrated Attack Logistics and loses the minor healing bonus and Unit Supply bonus, but adds 50% Production to Automated units.
+		- The finisher awards a free Purge Robot and increases the Production bonuses from 10% to 25%.
+	- Bionics
+		- The opener is now +1 Science per 4 population instead of a flat +2 Science per city.
+		- Weather Engineering now adds +2 Water to Moisture traps, along with +2 Production and +1 Power to Solar collectors and Wind farms, making it much more useful.
+		- Eugenics loses the Unhappiness reduction and adds +15 starting XP to Military units.
+		- Cybernetics loses the weak +1 Production per 10 population and adds 25% Production towards Military units. Additionally, the old effect of letting Personnel units retain full strength while wounded has been moved to a new "AI Implant" promotion granted by this tenet that also adds a 15% Strength bonus when attacking and additional healing.
+		- Transhumanism adds a 33% reduction to Unhappiness in the Capital.
+		- The finisher bonus also adds a Production bonus towards Colony Ship Parts for players pursuing a Colonization Victory.
+
+Belief Changes:
+- Pantheons
+	- Terrain based Pantheons and Strength of the Earth are limited to only add yields to tiles that are in the first and second rings of workable tiles for cities following that religion. However, Strength of the Earth doesn't apply this restriction to Manufactories or the Mining Pit ancient wonder, and adds an extra +1 Production/Faith to each.
+	- Pantheons that added Happiness to Natural tiles no longer do so.
+	- Faith Healers is moved to Follower, only grants +10 HP of healing to units adjacent to the city, but grants a new "Healing Hands" promotion to Personnel units (boosts healing for adjacent units by +10 HP) and adds +2 Faith to Hospitals and Medical Labs.
+	- Fertility Rites buffed to add +25% Production towards Civilians and +1 Food/Faith to Food Stores (and replacements).
+	- Home and Hearth buffed to count every 5 population in capital cities for its extra yields.
+	- God of Commerce adds +2 Water instead of +2 Science.
+	- Religious Settlements buffed to +25% expansion rate and adds +1 Culture, +2 Faith to National Wonders.
+	- Sacred Waters moved to Follower and buffed to add yields to Greywater Treatment Plant (+1 Water/Faith) and Hydroponic Farming (+1 Food/Faith) buildings.
+	- Sacrificial Fire buffed to add +10% Production towards Land Military units.
+	- Works of Genius nerfed, only adding +2 Faith to Great Improvements and another +1 to cities with an active Specialist (along with +1 Science to those cities).
+- Follower
+	- Art of War is now a flat 200 Faith per unit instead of 2x Production cost and restricted to Land units.
+	- Blessing of Peace moved to Enhancer and adjusted to +20% growth while at peace, +2 Food to Barracks.
+	- Feed the Faithful buffed to +2 Food from Monasteries and +3 from Megachurches.
+	- Hymns of Praise moved to Pantheon. If a mod option to remove beliefs is ever added, it will be removed entirely.
+	- Labor of Love nerfed to a cap of +10% extra Production.
+	- Obey the Elders buffed to also add +2 Food to cities with an active specialist.
+	- Public Prayer buffed to +2 Faith per Town Hall.
+- Enhancer
+	- Illuminated Order's Faith discount on religious units moved to Missionary Zeal/Thought Control; its new effect adds a lesser Faith discount on all purchases and +3 of each yield except Science to the Grand Monastery.
+	- Itinerant Preachers and Religious Texts have been made **inaccessible.**
+	- Religious Unity nerfed to +67% passive religious pressure in City-States.
+
+Promotion Changes:
+- Forage was the second worst offender of OP promotions, and the nerfs are appropriately severe: it awards 67% less Science per kill and no longer gives extra XP. Instead it adds minor healing bonuses in Rubble/Ruins tiles.
+- Skirmish was the worst offender of all, making ranged units far too strong; it is now exclusive to Scout units instead of Shooter units. Shooter units receive access to Forage to compensate.
+- Precision and Suppression now list Forage instead of Skirmish as a prerequisite.
+- Suppression nerfed to 25% bonus against Melee units.
+- Hazard Pay was also far too strong, and no longer allows units to move the same turn they're bought; however, it and Headhunter no longer cost you Water for killing units.
+- Chemical Weapons was yet another overpowered promotion, and its combat bonuses have been cut in half.
+- Pursuit has been nerfed to remove the unit healing upon killing enemy units.
+- Bombardment has been separated into separate promotions for Ranged Water and Bomber units, with two more tiers added for Bomber units, and it along with Siege are removed from the Fighter promotion list.
+- Targeting is one of the few promotions that is buffed, now giving a 33% bonus against Water units.
+- Survivalism has been removed from the promotion list for Armor, Helicopter, and all Water and Air units.
+- Sentry has been removed from the promotion list for Shooter and Helicopter units, and its promotion requirements have been adjusted to address an error in the promotion tree.
+- Evasive Maneuvers requires the second tier Fighter/Bomber promotions.
+- Operational Range requires the third tier Fighter/Bomber promotions.
+- Air Repair no longer lists Interception/Siege III, Sortie or Evasive Maneuvers as requisite promotions; the unit *must* obtain the Logistics promotion before it can obtain this one.
+- Logistics no longer lists Evasive Maneuvers or Operational Range as requisite promotions, but lists Aerial Bombardment III as one.
+
+Tile Improvement Changes:
+- Grasslands is severely nerfed to curtail its absurd adjacency bonuses; it only gains yields once with the appropriate tile adjacency instead of stacking, and no longer increases Happiness at all. However, it no longer drains Water from fresh water tiles, and gains +1 Food at Atmosphere Remediation.
+- Moisture traps gain +1 Water at Atmosphere Remediation.
+- Solar collectors take less time to build (10 turns on Standard speed) and gain +1 Production at Atmosphere Remediation.
+- Terrace farms buffed to add +2 base Food with another +1 with adjacent Grasslands.
+- Tree plantations can now be built on Hills and Swamps with the appropriate techs. Desert and Permafrost is still off-limits.
+- Wind farms gain +1 Water at Atmosphere Remediation; if built on water they gain another +1 earlier at Ocean Remediation.

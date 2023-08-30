@@ -74,6 +74,27 @@
 		"shortcutKey": "W"
 	},
 	{
+		"name": "Grassland",
+		"terrainsCanBeBuiltOn": ["Badlands","Swamp"],
+		"turnsToBuild": 10,
+		"food": 3,
+		"techRequired": "Land Remediation",
+		"uniques": [
+			"Food source",
+			"Natural tile",
+			"Can also be built on tiles adjacent to fresh water",
+			"[+1 Food, -1 Gold] from [Fresh water] tiles",
+			"Cannot be built on [Permafrost] tiles",
+			"Cannot be built on [Desert] tiles <before discovering [Geo Engineering]>",
+			"[+1 Food] <with [1] to [6] neighboring [Tree plantation] tiles>",
+			"[+2 Culture] <with [1] to [6] neighboring [Nature preserve] tiles>",
+			"[+1 Gold] <with [1] to [6] neighboring [Artificial oasis] tiles>",
+			"[+1 Production] <with [1] to [6] neighboring [Terrace farm] tiles>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "G"
+	},
+	{
 		"name": "Terrace farm",
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"turnsToBuild": 10,
@@ -85,7 +106,7 @@
 			"Cannot be built on [Fissure] tiles",
 			"Cannot be built on [Bonus resource] tiles",
 			"[+1 Food] for each adjacent [Mountain]",
-			"[+1 Food] <with [1] to [6] neighboring [Grassland] tiles>",
+			"[+1 Food, +1 Production] <with [1] to [6] neighboring [Grassland] tiles>",
 			"[+1 Food, -1 Gold] from [Fresh water] tiles",
 			"[+1 Food, +1 Production] <after discovering [Geo Engineering]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
@@ -98,7 +119,6 @@
 		"turnsToBuild": 10,
 		"food": 1,
 		"production": 2,
-		"happiness": 1,
 		"techRequired": "Ocean Remediation",
 		"uniques": [
 			"Food source",
@@ -230,6 +250,7 @@
 		"uniques": ["Refinery",
 			"[+2 Science, +2 Gold] for each adjacent [Refinery]",
 			"[+2 Production] from [Strategic resource] tiles",
+			"[+4 Production] from [Oil] tiles",
 			"Gives a defensive bonus of [110]%",
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Great Improvement",
