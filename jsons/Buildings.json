@@ -428,7 +428,7 @@
 		"cost": 675,
 		"hurryCostModifier": 33,
 		"uniques": ["Provides [6] [Power]",
-			"Provides [2] [Power] <while above [-2] [Uranium]>",
+			"Provides [2] [Power] <when above [-2] [Uranium]>",
 			"Provides [2] [Power] <after discovering [Future Power]>",
 			"[+33]% Production when constructing [Manhattan Project] wonders [in this city]",
 			"[+33]% Production when constructing [Missile] units [in this city]",
