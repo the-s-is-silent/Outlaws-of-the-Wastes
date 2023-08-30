@@ -242,7 +242,7 @@
 	},
 	{
 		"name": "Religious Texts",
-		"type": "Follower",
+		"type": "Enhancer",
 		"uniques": ["[+17]% Natural religion spread [in all cities]",
 			"[+17]% Natural religion spread [in all cities] <after discovering [Education]>"]
 	},
@@ -250,7 +250,7 @@
 		"name": "Religious Troubadours",
 		"type": "Enhancer",
 		"uniques": ["[+3 Faith] from each Trade Route",
-			"[+33]% Natural religion spread [in all cities connected to capital]"]
+			"[+34]% Natural religion spread [in all cities connected to capital]"]
 	},
 	{
 		"name": "Religious Unity",
