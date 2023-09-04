@@ -9,7 +9,8 @@
 			"Domination": 0,
 			"Scientific": 30
 		},
-		"uniques": ["[+3 Culture] [in capital]", "[-25]% Culture cost of natural border growth [in all cities]",
+		"uniques": ["[+3 Culture] [in capital]",
+			"[-25]% Culture cost of natural border growth [in all cities]",
 			"Unlocks building the Homeland Defense Initiative"],
 		"policies": [
 			{
@@ -68,7 +69,9 @@
 			"Domination": 30,
 			"Scientific": 0
 		},
-		"uniques": ["[+1 Culture] [in all cities]", "Unlocks building the Wasteland Surveillance Initiative"],
+		"uniques": ["[+1 Culture] [in all cities]",
+			"[-25]% Gold cost of acquiring tiles [in all cities]",
+			"Unlocks building the Wasteland Surveillance Initiative"],
 		"policies": [
 			{
 				"name": "Restorers",
@@ -203,8 +206,7 @@
 			},
 			{
 				"name": "Divine Mandate",
-				"uniques": ["[+2 Culture, +2 Happiness] from every [Monument]",
-					"[+10]% [Faith] from every [Monastery]"],
+				"uniques": ["[+2 Culture, +2 Happiness] from every [Monument]"],
 				"row": 1,
 				"column": 4
 			},
@@ -239,9 +241,9 @@
 			{
 				"name": "Theocracy Complete",
 				"uniques": ["[Faith] cost of purchasing items in cities [-20]%",
-					"[+2 Food, +2 Culture, +2 Faith] from every [Seminary]",
-					"[+2 Food, +2 Culture, +2 Faith] from every [Oracle]",
-					"[+2 Food, +2 Culture, +2 Faith] from every [Endowment House]",
+					"[+1 Food, +2 Culture, +2 Faith] from every [Seminary]",
+					"[+1 Food, +2 Culture, +2 Faith] from every [Oracle]",
+					"[+1 Food, +2 Culture, +2 Faith] from every [Endowment House]",
 					"Gain a free [Enhancer] belief"]
 			}
 		]
@@ -324,7 +326,8 @@
 			},
 			{
 				"name": "Protected Speech",
-				"uniques": ["[+1 Culture] per [4] population [in all cities]"],
+				"uniques": ["[+100]% Production when constructing [Happiness] buildings [in all cities]",
+					"[+2 Culture] from every [Town Hall]"],
 				"row": 1,
 				"column": 5
 			},
@@ -381,8 +384,7 @@
 			"Domination": 40,
 			"Scientific": 0
 		},
-		"uniques": ["[8] units cost no maintenance",
-			"[+50]% Production when constructing [Barracks] buildings [in all cities]",
+		"uniques": ["[+50]% Production when constructing [Barracks] buildings [in all cities]",
 			"[+50]% Production when constructing [Military Academy] wonders [in all cities]",
 			"Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
 			"Unlocks building the Chemical Weapons Laboratory",
@@ -673,7 +675,8 @@
 				"requires": ["Emissions Standards"],
 				"uniques": ["[+2 Food, +2 Production, +1 Faith, +1 Culture] from every [Greenhouse]",
 					"[+2 Food, +2 Production, +1 Faith, +1 Culture] from every [Protected Area]",
-					"[+2 Food, +2 Production, +1 Faith, +1 Culture] from every [Arcology Dome]"],
+					"[+2 Food, +2 Production, +1 Faith, +1 Culture] from every [Arcology Dome]",
+					"[+2 Food, +2 Production, +1 Faith, +1 Culture] from every [Sanctuary]"],
 				"row": 2,
 				"column": 2
 			},
@@ -699,7 +702,7 @@
 				"requires": ["Physiolatry"],
 				"uniques": ["[+2 Gold] from every [Farmer]",
 					"[+1 Gold] from [Fresh water] tiles [in all cities]",
-					"[+2 Gold] from every [Rainwater Purifier]"],
+					"[+1 Gold] from every [Rainwater Purifier]"],
 				"row": 3,
 				"column": 3
 			},

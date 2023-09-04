@@ -24,7 +24,8 @@
 	{
 		"name": "God of Commerce",
 		"type": "Pantheon",
-		"uniques": ["[+2 Gold, +1 Faith] from each Trade Route"]
+		"uniques": ["[+2 Gold, +1 Faith] from each Trade Route",
+			"[+1 Faith] from every [Market]"]
 	},
 	{
 		"name": "God of Winter",
@@ -35,18 +36,13 @@
 	{
 		"name": "Harvest Festival",
 		"type": "Pantheon",
-		"uniques": ["[+1 Food] from every [Grain]", "[+1 Food] from every [Tubers]"]
+		"uniques": ["[+1 Faith] from every [Grain]", "[+1 Faith] from every [Tubers]"]
 	},
 	{
 		"name": "Home and Hearth",
 		"type": "Pantheon",
 		"uniques": ["[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith, +1 Happiness] from every [Bomb Shelter]",
 			"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith, +1 Happiness] per [5] population [in capital]"]
-	},
-	{
-		"name": "Hymns of Praise",
-		"type": "Pantheon",
-		"uniques": ["[+1 Happiness] from every [Shrine]"]
 	},
 	{
 		"name": "Old World Idols",
@@ -109,15 +105,10 @@
 		"name": "Works of Genius",
 		"type": "Pantheon",
 		"uniques": ["[+2 Faith] from every [Great Improvement]",
-			"[+1 Science, +1 Faith] [in cities following this religion] <in cities with at least [1] [Specialists]>"]
+			"[+2 Science, +1 Faith] [in cities following this religion] <in cities with at least [1] [Specialists]>"]
 	},
 
 //Follower
-	{
-		"name": "Art of War",
-		"type": "Follower",
-		"uniques": ["May buy [{Military} {Land}] units with [Faith] [in cities following this religion]"]
-	},
 	{
 		"name": "Cathedrals",
 		"type": "Follower",
@@ -127,7 +118,7 @@
 		"name": "Faith Healers",
 		"type": "Follower",
 		"uniques": ["All newly-trained [Personnel] units [in cities following this religion] receive the [Healing Hands] promotion",
-			"[All] Units adjacent to this city heal [+20] HP per turn when healing",
+			"[All] Units adjacent to this city heal [+10] HP per turn when healing",
 			"[+2 Faith] from every [Hospital]",
 			"[+2 Faith] from every [Medical Lab]"]
 	},
@@ -137,6 +128,19 @@
 		"uniques": ["[+1 Food] from every [Shrine]",
 			"[+2 Food] from every [Monastery]",
 			"[+3 Food] from every [Megachurch]"]
+	},
+	{
+		"name": "Followers of Old World Crafts",
+		"type": "Follower",
+		"uniques": ["[+1 Gold, +1 Culture, +1 Faith] from every [Jeweler]",
+			"[+1 Gold, +1 Culture, +1 Faith] from every [Distillery]"]
+	},
+	{
+		"name": "Happiness in Faith",
+		"type": "Follower",
+		"uniques": ["[+1 Happiness] from every [Shrine]",
+			"[+2 Happiness] from every [Temple]",
+			"[+3 Happiness] from every [Megachurch]"]
 	},
 	{
 		"name": "Isolationism",
@@ -159,7 +163,7 @@
 	{
         "name": "Public Prayer",
         "type": "Follower",
-        "uniques": ["[+2 Faith, +1 Culture] from every [Town Hall] <in cities with at least [3] [Followers of this Religion]>"]
+        "uniques": ["[+2 Faith, +1 Culture] from every [Town Hall]"]
     },
 	{
 		"name": "Sacred Waters",
@@ -179,8 +183,19 @@
 		"type": "Follower",
 		"uniques": ["[+3 Production, +3 Gold, -1 Happiness] [in cities following this religion] <in cities with at least [10] [Population]>"]
 	},
+	{
+		"name": "Worship Music",
+		"type": "Follower",
+		"uniques": ["[+1 Culture, +1 Faith] from every [Broadcast Tower]",
+			"[+1 Culture, +1 Faith] from every [Television Studio]"]
+	},
 
 //Founder
+	{
+		"name": "Acolytes of a New God",
+		"type": "Founder",
+		"uniques": ["Gain [50] [Faith] <upon conquering a city>"]
+	},
 	{
 		"name": "Cross-Cultural Dialogue",
 		"type": "Founder",
@@ -191,60 +206,25 @@
 		"type": "Founder",
 		"uniques": ["[+1 Faith] from every [4] global followers [in all cities]"]
 	},
-
-//Enhancer (several of these *should* be Reformation, but that category doesn't exist yet)
-	{
-		"name": "Annihilationism",
-		"type": "Enhancer",
-		"uniques": ["Cities are razed [3] times as fast"]
-	},
-	{
-		"name": "Atomic Judgment",
-		"type": "Enhancer",
-		"uniques": ["Provides [2] [Uranium]",
-			"[+20]% Strength <for [Warhead Truck] units> <when attacking>",
-			"[+20]% Strength <for [Missile] units> <when attacking>"]
-	},
-	{
-		"name": "Blessing of Peace",
-		"type": "Enhancer",
-		"uniques": ["[+2 Food] from every [Barracks]",
-			"[+20]% growth [in cities following this religion] <when not at war>"]
-	},
 	{
 		"name": "Illuminated Order",
-		"type": "Enhancer",
-		"uniques": ["[Faith] cost of purchasing items in cities [-15]%",
-			"[+3 Production, +3 Food, +3 Gold, +3 Culture, +3 Faith, +3 Happiness] from every [Grand Monastery]"]
+		"type": "Founder",
+		"uniques": ["[+50 Culture] when a city adopts this religion for the first time (modified by game speed)"]
 	},
-	{
-		"name": "Itinerant Preachers",
-		"type": "Enhancer",
-		"uniques": ["[+1 Faith] from every specialist [in cities following this religion]"]
-	},
+
+//Enhancer
 	{
 		"name": "Missionary Zeal",
 		"type": "Enhancer",
-		"uniques": ["[Faith] cost of purchasing [Philosopher] units [-30]%",
-			"[+30]% Spread Religion Strength <for [Philosopher] units>",
+		"uniques": ["[Faith] cost of purchasing [Philosopher] units [-25]%",
+			"[+25]% Spread Religion Strength <for [Philosopher] units>",
 			"[Philosopher] units built [in all cities] can [Spread Religion] [1] extra times"]
-	},
-	{
-		"name": "New Zion",
-		"type": "Enhancer",
-		"uniques": ["[+1 Production, +1 Food, +1 Gold, +1 Culture, +1 Faith] from every [Great Improvement]"]
 	},
 	{
 		"name": "Power of Light",
 		"type": "Enhancer",
 		"uniques": ["[+1] Sight <for [All] units>",
 			"Earn [25]% of the damage done to [Military] units as [Faith]"]
-	},
-	{
-		"name": "Religious Texts",
-		"type": "Enhancer",
-		"uniques": ["[+17]% Natural religion spread [in all cities]",
-			"[+17]% Natural religion spread [in all cities] <after discovering [Education]>"]
 	},
 	{
 		"name": "Religious Troubadours",
@@ -255,7 +235,8 @@
 	{
 		"name": "Religious Unity",
 		"type": "Enhancer",
-		"uniques": ["[+67]% Natural religion spread [in City-State cities]"]
+		"uniques": ["[+67]% Natural religion spread [in City-State cities]",
+			"Resting point for Influence with City-States following this religion [+15]"]
 	},
 	{
 		"name": "The Radiant City",
@@ -265,17 +246,108 @@
 	{
 		"name": "Thought Control",
 		"type": "Enhancer",
-		"uniques": ["[Faith] cost of purchasing [Censor] units [-30]%",
+		"uniques": ["[Faith] cost of purchasing [Censor] units [-25]%",
 			"[Censor] units built [in all cities] can [Remove Foreign religions from your own cities] [1] extra times"]
 	},
 	{
 		"name": "Unity of the Sages",
 		"type": "Enhancer",
-		"replacementTextForUniques": "Seminaries (and their replacements) receive an extra 50% to their yields, and Faith buildings in cities with at least 10 followers of the religion produce an extra 2 Faith.",
+		"replacementTextForUniques": "Seminaries (and their replacements) receive an extra 50% to their yields, and Faith buildings in cities of size 10 or greater produce an extra 2 Faith.",
 		"uniques": ["[+50]% Yield from every [Seminary]",
 			"[+50]% Yield from every [Oracle]",
 			"[+50]% Yield from every [Endowment House]",
-			"[+2 Faith] from all [Faith] buildings <in cities with at least [10] [Followers of this Religion]>"]
+			"[+2 Faith] from all [Faith] buildings [in cities following this religion] <in cities with at least [10] [Population]>"]
 		// TODO: Should also have the Unity of the Prophets effect of Censors/Sages only reducing foreign religion followers by half once BNW content is implemented
+	},
+
+//Pseudo-Reformation
+	{
+		"name": "Annihilationism",
+		"type": "Enhancer",
+		"uniques": ["Cities are razed [3] times as fast",
+			"Only available <after adopting [Theocracy Complete]>"]
+	},
+	{
+		"name": "Art of War",
+		"type": "Enhancer",
+		"uniques": ["May buy [{Military} {Land}] units for [200] [Faith] [in cities following this religion] at an increasing price ([100])",
+			"Only available <after adopting [Theocracy Complete]>"]
+	},
+	{
+		"name": "Atomic Judgment",
+		"type": "Enhancer",
+		"uniques": ["Provides [2] [Uranium]",
+			"[+20]% Strength <for [Warhead Truck] units> <when attacking>",
+			"[+20]% Strength <for [Missile] units> <when attacking>",
+			"Only available <after adopting [Theocracy Complete]>"]
+	},
+	{
+		"name": "Blessing of Peace",
+		"type": "Enhancer",
+		"uniques": ["[+2 Food] from every [Barracks]",
+			"[+20]% growth [in cities following this religion] <when not at war>",
+			"Only available <after adopting [Theocracy Complete]>"]
+	},
+	{
+		"name": "Hopeful Habitability",
+		"type": "Enhancer",
+		"uniques": ["[+1 Food, +1 Faith] from every [Natural tile]",
+			"Only available <after adopting [Theocracy Complete]>"]
+	},
+	{
+		"name": "Jesuit Education",
+		"type": "Enhancer",
+		"uniques": ["May buy [University] buildings for [220] [Faith] [in cities following this religion]",
+			"May buy [Public School] buildings for [260] [Faith] [in cities following this religion]",
+			"May buy [Research Lab] buildings for [380] [Faith] [in cities following this religion]",
+			"Only available <after adopting [Theocracy Complete]>"]
+	},
+	{
+		"name": "New Zion",
+		"type": "Enhancer",
+		"uniques": ["[+1 Production, +1 Food, +1 Gold, +1 Culture, +1 Faith] from every [Great Improvement]",
+			"Free [Great Sage] appears",
+			"Only available <after adopting [Theocracy Complete]>"]
+	},
+	{
+		"name": "Sacred Sites",
+		"type": "Enhancer",
+		"replacementTextForUniques": "Cities which own a World Wonder receive +4 Water and Culture. Religious buildings purchased with Faith receive +2 Water and Culture.",
+		"uniques": ["[+4 Gold, +4 Culture] [in cities following this religion] <in cities with a [World Wonder]>",
+			"[+2 Gold, +2 Culture] from every [Cathedral]",
+			"[+2 Gold, +2 Culture] from every [Divinity School]",
+			"[+2 Gold, +2 Culture] from every [Dojo]",
+			"[+2 Gold, +2 Culture] from every [Garden]",
+			"[+2 Gold, +2 Culture] from every [Holy Fortress]",
+			"[+2 Gold, +2 Culture] from every [Pyramid]",
+			"Only available <after adopting [Theocracy Complete]>"]
+		//This one may require adding a unique to all Worship Belief buildings - e.g. "[+2 Gold, +2 Culture] from every [Worship Center]"
+	},
+
+//Deletions
+	{
+		"name": "Hymns of Praise",
+		"type": "Follower",
+		"uniques": ["[+1 Happiness] from every [Shrine]",
+			"Only available <before discovering [The Wheel]>"]
+	},
+	{
+		"name": "Itinerant Preachers",
+		"type": "Enhancer",
+		"uniques": ["Religion naturally spreads to cities [+3] tiles away",
+			"Only available <before discovering [The Wheel]>"]
+	},
+	{
+		"name": "Primacy",
+		"type": "Founder",
+		"uniques": ["Resting point for Influence with City-States following this religion [+15]",
+			"Only available <before discovering [The Wheel]>"]
+	},
+	{
+		"name": "Religious Texts",
+		"type": "Enhancer",
+		"uniques": ["[+17]% Natural religion spread [in all cities]",
+			"[+17]% Natural religion spread [in all cities] <after discovering [Education]>",
+			"Only available <before discovering [The Wheel]>"]
 	}
 ]

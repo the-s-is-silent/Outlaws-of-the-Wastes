@@ -288,6 +288,7 @@
 		"name": "Prospector",
 		"uniques": ["[+10]% Strength when stacked with [Civilian]",
 			"Can build [Land] improvements on tiles",
+			"[-25]% tile improvement construction time <after discovering [Replaceable Parts]>",
 			"Gain [1]-[5] [Gold] <upon ending a turn in a [Forest] tile>",
 			"Gain [1]-[5] [Gold] <upon ending a turn in a [Jungle] tile>",
 			"[+5] HP when healing",
@@ -333,6 +334,7 @@
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Can build [Trench] improvements on tiles",
+			"[-33]% tile improvement construction time <after discovering [Replaceable Parts]>",
 			"Uncapturable"]
 	},
 	{

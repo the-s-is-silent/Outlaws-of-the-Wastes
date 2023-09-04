@@ -11,7 +11,7 @@ A major expansion + rebalance mod for DeCiv Redux.
 
 - Deseret Nation is now a playable faction.
 
-- Many units, buildings, wonders, promotions, beliefs, and tile improvements from the base scenario have been either buffed or nerfed. Check the Rebalance Log.md file for a comprehensive list of adjustments.
+- Many units, buildings, wonders, promotions, beliefs, and tile improvements from the base scenario have been either buffed or nerfed. In addition, the social policies have been overhauled. Check the Rebalance Log.md file for a comprehensive list of adjustments.
 
 ## Other features
 
@@ -31,7 +31,7 @@ A major expansion + rebalance mod for DeCiv Redux.
   - Scouting: Wasteland Patrol, Border Patrol, Expeditionary Force
   - Hero units (only 1 allowed per Civ): Hero of the Wastes, only available as a random camp reward
 
-- New buildings: Coastal Defenses, Contraband Disposal Site, Defense Directorate (City-States only), Earth Clinic (Naturalism only), Earthscraper (Collectivism only), Ethanol Station, Food Processing Plant, Interpretative Center, Jeweler, Navy Shipyard (Rediscovery only), Sanctuary, Tidal Array, and Workers' Facility (Collectivism only).
+- New buildings: Coastal Defenses, Contraband Disposal Site, Defense Directorate (City-States only), Earth Clinic (Naturalism only), Earthscraper (Collectivism only), Ethanol Station, Food Processing Plant, Interpretative Center, Jeweler, Navy Shipyard (Rediscovery only), Sanctuary, Sociopolitical Institute, Tidal Array, and Workers' Facility (Collectivism only).
 
 - New world wonder: Statue of Remembrance.
 

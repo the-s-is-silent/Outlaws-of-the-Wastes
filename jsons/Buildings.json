@@ -99,7 +99,7 @@
 	},
 	{
 		"name": "Workers' Facility",
-		"percentStatBonus": {"science": 20},
+		"percentStatBonus": {"science": 10},
 		"maintenance": 4,
 		"hurryCostModifier": 25,
 		"uniques": ["[+25]% Production when constructing [Civilian] units [in this city]",
@@ -110,6 +110,19 @@
 		"requiredTech": "Manufacturing"
 	},
 	{
+		"name": "Navy Shipyard",
+		"greatPersonPoints": {"Great Admiral": 2},
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Harbor",
+		"uniques": ["Must be next to [Coast]", 
+			"[Water] units gain the [Reinforced Hull] promotion",
+			"New [Water] units start with [15] Experience [in this city]",
+			"[+2 Production] from [Drydock] tiles [in this city]",
+			"Only available <after adopting [Rediscovery Complete]>"],
+		"requiredTech": "Oceanography"
+	},
+	{
 		"name": "Earth Clinic",
 		"food": 5,
 		"culture": 3,
@@ -117,7 +130,7 @@
 		"maintenance": 3,
 		"uniques": ["Only available <after adopting [Naturalism]>",
 			"Destroyed when the city is captured",
-			"[All] Units adjacent to this city heal [+20] HP per turn when healing",
+			"[All] Units adjacent to this city heal [+10] HP per turn when healing",
 			"All newly-trained [Personnel] units [in this city] receive the [Healing Hands] promotion"]
 	},
 
@@ -190,17 +203,27 @@
 		"requiredTech": "Navigation"
 	},
 	{
-		"name": "Navy Shipyard",
-		"greatPersonPoints": {"Great Admiral": 2},
+		"name": "Sociopolitical Institute",
+		"culture": 1,
+		"specialistSlots": {"Administrator": 1},
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"requiredBuilding": "Harbor",
-		"uniques": ["Must be next to [Coast]", 
-			"[Water] units gain the [Reinforced Hull] promotion",
-			"New [Water] units start with [15] Experience [in this city]",
-			"[+2 Production] from [Drydock] tiles [in this city]",
-			"Only available <after adopting [Rediscovery Complete]>"],
-		"requiredTech": "Oceanography"
+		"replacementTextForUniques": "Every completed social policy adds +2 Science, +1 Culture to this city.",
+		"uniques": ["[+2 Science, +1 Culture] [in this city] <after adopting [Adaptation Complete]>",
+			"[+2 Science, +1 Culture] [in this city] <after adopting [Expansionism Complete]>",
+			"[+2 Science, +1 Culture] [in this city] <after adopting [Sovereignty Complete]>",
+			"[+2 Science, +1 Culture] [in this city] <after adopting [Theocracy Complete]>",
+			"[+2 Science, +1 Culture] [in this city] <after adopting [Rationalism Complete]>",
+			"[+2 Science, +1 Culture] [in this city] <after adopting [Constitution Complete]>",
+			"[+2 Science, +1 Culture] [in this city] <after adopting [Supremacy Complete]>",
+			"[+2 Science, +1 Culture] [in this city] <after adopting [Monopoly Complete]>",
+			"[+2 Science, +1 Culture] [in this city] <after adopting [Collectivism Complete]>",
+			"[+2 Science, +1 Culture] [in this city] <after adopting [Rediscovery Complete]>",
+			"[+2 Science, +1 Culture] [in this city] <after adopting [Naturalism Complete]>",
+			"[+2 Science, +1 Culture] [in this city] <after adopting [Mechanization Complete]>",
+			"[+2 Science, +1 Culture] [in this city] <after adopting [Bionics Complete]>",
+			"Hidden until [2] social policy branches have been completed"],
+		"requiredTech": "Civil Service"
 	},
 	{
 		"name": "Food Processing Plant",
@@ -281,7 +304,7 @@
 		"happiness": 1,
 		"uniques": ["[+6 Culture] [in this city] <after discovering [Flight]>",
 			"Provides [2] [Weapons]",
-			"[+15]% Natural religion spread [in all cities]",
+			"[+25]% Natural religion spread [in all cities]",
 			"Can only be built [in capital]",
 			"Gain a free [Bishop's Storehouse] [in this city]"],
 		"quote": "Zion is a place, and a state of being, that has been lost to us several times in the past. Each loss is a new fall of man. And after each fall, we weep in strange new lands and dream of Zion, dream of visiting vengeance upon those who took it from us.",
@@ -396,11 +419,11 @@
 		"name": "Quorum of the Twelve",
 		"replaces": "Council",
 		"uniqueTo": "Deseret2",
+		"percentStatBonus": {"faith": 25},
 		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": ["Enables conversion of city production to [Faith]",
 			"[+2 Production] from all [Faith] buildings",
-			"[+10]% growth [in all cities]",
 			"Only available <if [Convert Survivors] is constructed>",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [General Conference]>",
@@ -939,7 +962,7 @@
 		"requiredTech": "Steam Power",
 		"uniques": ["Must have an owned [Soft Drinks Factory] within [3] tiles",
 			"Provides [3] [Soft Drinks]",
-			"[+2 Gold, +2 Culture, +1 Happiness] from [Soft Drinks Factory] tiles [in all cities]",
+			"[+3 Culture, +1 Gold, +1 Happiness] from [Soft Drinks Factory] tiles [in all cities]",
 			"Empire enters golden age",
 			"Consumes [1] [Power]"]
 	},
@@ -1689,9 +1712,37 @@
 		"gold": 1,
 		"culture": 1,
 		"specialistSlots": {"Administrator": 1},
-		"cost": 150,
+		"cost": 200,
 		"requiredTech": "Munitions",
 		"uniques": ["Indicates the capital city", "Provides [2] [Weapons]", "Limited to [2] per Civilization"]
+	},
+	{
+		"name": "Soup Kitchen",
+		"replaces": "Prison Camp",
+		"uniqueTo": "New Star",
+		"food": 2,
+		"happiness": 1,
+		"maintenance": 1,
+		"cost": 20,
+		"uniques": ["[+1 Food] from every [Administrator] <in this city>",
+			"Remove extra unhappiness from annexed cities",
+			"Destroyed when the city is captured"],
+		"requiredTech": "Construction",
+		"hurryCostModifier": -50
+	},
+	{
+		"name": "Triage",
+		"replaces": "Work Camp",
+		"uniqueTo": "New Star",
+		"cityHealth": 50,
+		"cost": 20,
+		"maintenance": 0,
+		"hurryCostModifier": 0,
+		"uniques": ["[All] Units adjacent to this city heal [+10] HP per turn when healing",
+			"[+15]% Production when constructing [Support] units [in this city]",
+			"[+1 Happiness] [in this city] <after adopting [Voting Rights]>",
+			"Can only be built [in non-occupied cities]",
+			"Destroyed when the city is captured"]
 	},
 	{
 		"name": "Gideon Scanner",
@@ -1728,16 +1779,30 @@
 			"Destroyed when the city is captured"]
 	},
 	{
-		"name": "Abandoned Prison Camp",
-		"replaces": "Prison Camp",
+		"name": "Emergency Response Network",
+		"replaces": "Listening Post",
 		"uniqueTo": "New Star",
-		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+		"specialistSlots": {"Administrator": 1},
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+25]% Great Person generation [in this city]",
+			"Population loss from nuclear attacks [-25]% [in this city]",
+			"Damage to garrison from nuclear attacks [-25]% [in this city]",
+			"Free [Rapid Response Squad] appears",
+			"Destroyed when the city is captured"],
+		"requiredTech": "Civil Service"
 	},
 	{
-		"name": "Abandoned Work Camp",
-		"replaces": "Work Camp",
+		"name": "Medical School",
+		"replaces": "Public School",
 		"uniqueTo": "New Star",
-		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Medic II] promotion",
+			"[+1 Science, +1 Culture] per [3] population [in this city]",
+			"Only available <in cities with a [Hospital]>",
+			"[+1 Culture] [in this city] <when above [0] [Power]>"],
+		"requiredTech": "Civil Service"
 	},
 	{
 		"name": "Zemlyanka",
