@@ -21,7 +21,7 @@ A major expansion + rebalance mod for DeCiv Redux.
   - Camelot Foundation, a constitutional republic arising from what's left of Wales, England and Brittany.
   - The Harbingers, the remnant of an evil Mega-Corp who are now trying to atone for their previous practices...or are they?
 
-- Six new city-states: Calico (Labor), Carbon (Farming), Defiance (Weapons), Issaquah Nation (Prayer, replacing Deseret in that slot), The Pax (Research), and Venice Beach (Trading).
+- Seven new city-states: Calico (Labor), Carbon (Farming), Defiance (Weapons), Hockeytown (Culture), Issaquah Nation (Prayer, replacing Deseret in that slot), The Pax (Research), and Venice Beach (Trading).
 
 - New units:
   - Barbarian: Suicider + Killdozer

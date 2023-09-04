@@ -430,6 +430,23 @@
 		"innerColor": [149, 63, 63],
 		"cities": ["Calico"]
 	},
+	{
+		"name": "Hockeytown",
+		"adjective": ["Hockeytownsfolk"],
+		"cityStateType": "Culture",
+		"startBias": ["Tundra"],
+		"style": "Corporate",
+		"uniques": ["[+1 Food, +1 Culture] from every [Tundra]",
+			"Starts with [Electronics]",
+			"Starts with [Refrigeration]",
+			"Starts with [Social Engineering]"],
+		"declaringWar": "We went to join a war and then a hockey game broke out.",
+		"attacked": "You were planning a fight, huh? Then let's have a bench-clearing brawl to remember.",
+		"defeated": "That's a game misconduct penalty for us.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [51, 102, 0],
+		"cities": ["Hockeytown"]
+	},
 
 	//Barbarian
 	{

@@ -299,7 +299,7 @@
 			{
 				"name": "Rationalism Complete",
 				"uniques": ["[+10]% [Science] <while the empire is happy>",
-					"[+4 Production] from every [Academy] <during a Golden Age>",
+					"[+4 Production, +4 Science] from every [Academy] <during a Golden Age>",
 					"Free Technology"]
 			}
 		]

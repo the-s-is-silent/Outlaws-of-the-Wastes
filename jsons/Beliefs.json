@@ -45,6 +45,11 @@
 			"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith, +1 Happiness] per [5] population [in capital]"]
 	},
 	{
+		"name": "Hymns of Praise",
+		"type": "Pantheon",
+		"uniques": ["[+1 Happiness] from every [Shrine]"]
+	},
+	{
 		"name": "Old World Idols",
 		"type": "Pantheon",
 		"uniques": ["[+1 Culture, +1 Faith] from every [Gems]", "[+1 Culture, +1 Faith] from every [Silver]"]
@@ -270,7 +275,7 @@
 	{
 		"name": "Art of War",
 		"type": "Enhancer",
-		"uniques": ["May buy [{Military} {Land}] units for [200] [Faith] [in cities following this religion] at an increasing price ([100])",
+		"uniques": ["May buy [{Military} {Land}] units with [Faith] for [3] times their normal Production cost",
 			"Only available <after adopting [Theocracy Complete]>"]
 	},
 	{
@@ -325,12 +330,6 @@
 	},
 
 //Deletions
-	{
-		"name": "Hymns of Praise",
-		"type": "Follower",
-		"uniques": ["[+1 Happiness] from every [Shrine]",
-			"Only available <before discovering [The Wheel]>"]
-	},
 	{
 		"name": "Itinerant Preachers",
 		"type": "Enhancer",
