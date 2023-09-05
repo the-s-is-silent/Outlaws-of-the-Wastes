@@ -144,7 +144,7 @@
 		"name": "Happiness in Faith",
 		"type": "Follower",
 		"uniques": ["[+1 Happiness] from every [Shrine]",
-			"[+2 Happiness] from every [Temple]",
+			"[+2 Happiness] from every [Monastery]",
 			"[+3 Happiness] from every [Megachurch]"]
 	},
 	{
@@ -166,10 +166,10 @@
 		"uniques": ["[+2 Food, +2 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>"]
 	},
 	{
-        "name": "Public Prayer",
-        "type": "Follower",
-        "uniques": ["[+2 Faith, +1 Culture] from every [Town Hall]"]
-    },
+		"name": "Public Prayer",
+		"type": "Follower",
+		"uniques": ["[+2 Faith, +1 Culture] from every [Town Hall]"]
+	},
 	{
 		"name": "Sacred Waters",
 		"type": "Follower",
