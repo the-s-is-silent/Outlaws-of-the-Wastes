@@ -3,6 +3,7 @@ List of changes to DeCiv Redux's base 14 factions:
 Atlas
 - They are given a Mountain start bias and are now forbidden from building Enslaved units, Prison Camps and Work Camps.
 - New UB: Kruger Line (standalone national wonder, unlocks at Railroads, requires Factories in every city, consumes Power, adds +2 Production to tiles with Railroads and +2 Water per Trade Route)
+- TODO: Add at least one new UU and UB based off the fictional technology in the source material
 Blackwarden
 - They now start with Trade and Currency instead of Construction and Machinery.
 Children of Rust
@@ -42,7 +43,12 @@ New Star
 - Mobile Encampment provides more Weapons (2 vs. 1) and can be built in a second city after discovering Munitions, allowing them to move the capital if necessary.
 - Gideon Scanner and Rally Station still cannot be built at the same time, nor be built in multiple cities, and are more expensive, costing 150 Production each.
 - New UU: Rapid Response Squad (replaces Forward Observer, starts with Gas Mask and Medic I/II, 75% strength on defense, can sacrifice itself to clear Fallout, more expensive to build)
-- TODO: Add replacements for Prison Camps, Work Camps and Listening Posts
+- New UBs:
+  - Soup Kitchen (replaces Prison Camp, +2 Food, +1 Local Happiness, removes extra unhappiness from annexed cities, does not provide Slaves, can be built in the same city as Emergency Response Network)
+  - Triage (replaces Work Camp, +10 unit healing for units adjacent to the city, +15% Production towards "support" units, +1 Local Happiness restored at Voting Rights, does not consume Slaves)
+  - Emergency Response Network (replaces Listening Post, adds 1 Administrator slot instead of +1 Local Happiness, adds protection from nukes, can be built in the same city as Soup Kitchen)
+  - Medical School (replaces Public School, requires a Hospital instead of a Library, awards Medic II to new units)
+  - TODO: Add some way for them to liberate Slaves provided by City-States/Great Improvements)
 The Patriots
 - New UU: The Last Minute (replaces Nuclear Missile, 15% cheaper to build; need to rename this UU later)
 Proklyatyye
