@@ -669,7 +669,7 @@ ResourceIcons/Advanced Fabrics
   orig: 200, 200
   offset: 0, 0
   index: -1
-ResourceIcons/Scripture
+ResourceIcons/Scriptures
   rotate: false
   xy: 420, 820
   size: 200, 200

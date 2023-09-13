@@ -6,13 +6,15 @@ Changes since the Harbinger update
 - Every player can now found a religion.
 - Passive religious pressure reduced by 50%.
 
-**Faction Adjustments**
+**Faction and City-State Adjustments**
+- Almaty can no longer build Low Tech units. Their "defeated" dialogue was also changed.
 - Atlas now has a Mountain start bias, and can no longer build Enslaved units, Prison Camps or Work Camps.
 - Crimson Legion now has Imperial Cult as their favored religion, and can no longer build Purge Robot units.
 - Cult of Ignis and Deseret Nation both lose their Turn 1 prophet from their unique Wonder (they can still get a free one from the Theocracy tree). Deseret now gains their free Enhancer belief upon founding their religion.
 - Cult of Ignis gains +1 Movement to Armor units.
 - Deseret Nation loses the Iron Working and Steel starting techs along with the temporary Science penalty.
 - The Harbingers now only get one-third as much Water and Influence from CS trade missions.
+- Hexlock gains double Encrypted Data in their UA, but loses the free Construction, Machinery and Engineering techs and gets Chemistry as a free tech instead.
 - New Star is no longer allowed to build Prison Camp or Work Camp buildings. This is temporary until I can come up with appropriate replacements for those buildings. Being a True Good faction, New Star shouldn't be allowed to have those buildings and while others may disagree with me on this stance, I consider them still being able to employ prison labor despite outlawing slavery to be an oversight.
 
 **Promotion Adjustments**
@@ -37,13 +39,13 @@ Changes since the Harbinger update
 **Unit Adjustments**
 - Nuclear weapons can no longer be purchased.
 - Terraformer Part production cost is doubled.
-- Ancient Armor is now a standalone UU for Almaty, and its strength has been reduced to 55. This gives players a chance to fight back in the early-game against enemy factions who are allied with Almaty or have the Army Depot in their possession.
+- Ancient Armor is now a standalone unit and its strength has been reduced to 55. This gives players a chance to fight back in the early-game against enemy factions who are allied with Almaty or have the Army Depot in their possession.
 - Ancient Armor also gains some buffs, however: base movement increased to 5 with another point added when starting its turn in friendly territory, and no combat penalty for attacking across rivers.
 - Attack Boats (and the Mariners' replacement) no longer require Factories to build, so they're now properly available at Steam Power instead of being forced to wait until Manufacturing. They can now also spawn as Barbarian units.
 - Border Patrol no longer starts with Skirmish.
 - Expeditionary Force no longer obsoletes.
 - Great Caravan's uniques were corrected so it's still properly considered a Great Merchant.
-- Machine Guns are now Personnel units.
+- Machine Guns are now Shooter/Personnel units.
 - Neutron Bomb's production cost reduced to 1000.
 - Purge Robot Proto's strength increased to 40 and the Low Tech modifier is removed. This gives Hexlock a fighting chance in the early-game.
 - Scouts (and New Star's First Aid units) now upgrade to Forward Observers instead of Gunmen, putting an end to a commonly abused strategy.
@@ -53,12 +55,13 @@ Changes since the Harbinger update
 - Wandering Doctors and Mobile Clinics, along with New Star's First Aid and Armed Ambulance units, are given a fake "Support" unique that I may do more with in the future.
 - Wasteland Patrol is now locked behind Expansionism's national wonder and its production cost is increased to 60.
 - Camelot UUs: Wayfarers, Knights and Brownsteel Knights have had their Production cost increased by 20 each, Excalibur Knights by 30.
+- Deseret UUs: Battleaxe of the Lord no longer has a tech requirement and is available as a starting unit.
 
 **Wonder Adjustments**
 - Wincon wonders, International Trade Center, and Manhattan Project can no longer have their production hurried.
 - Children of Rust's unique wonder, the Longhouse, has been replaced with First Kiva, which retains the Longhouse's effects but also buffs the wonder by adding 40 more city HP and a free Pantheon belief (awarded upon founding their religion).
-- Salvage Tank Depot now awards an Ancient Armor instead of a Tank and its Production penalty is removed..
-- Salvage Army Depot replaced with Restore Army Depot, which costs 5x more Production, awards an Ancient Armor upon completion, adds +3 Production instead of +1 to the Army Depot tile, and adds +25% Production towards Armor units in the owning city.
+- Salvage Tank Depot's Production penalty is removed.
+- Salvage Army Depot replaced with Restore Army Depot, which costs 5x more Production, but adds +3 Production instead of +1 to the Army Depot tile and adds +25% Production towards Armor units in the owning city.
 - Nuclear Waste Museum is now a National Wonder, addressing an issue where it could still be purchased if Excavate Nuclear Waste was built first. It also adds 10% Science and Culture to its city, adding incentive to build it.
 - Distribute Soft Drinks and Fist of God have been removed from the game.
 - Produce Soft Drinks buffed to add +2 extra Culture to the Soft Drinks Factory.
@@ -69,7 +72,7 @@ Changes since the Harbinger update
 - Broadcast Network's production cost adjusted to 500 base + 30 per owned city, and now requires every city to have a Television Studio, instead of only needing one in the city it's built in.
 - National College and Grand Monastery's base production cost reduced to 125 (were previously much, much too high, at 300/400 respectively).
 - Medical Network now requires a Hospital in every city instead of a minimum of 4 cities and its base production cost is reduced to 125 (was previously 400, too high for its tech requirement) + scaling upward by 30 per owned city.
-- Public Works Administration only awards one Golden Age now instead of a potential permanent Golden Age. It also loses its one measly Science point, but adds an extra Production point to all cities (that are connected to the capital). Its Production cost is reduced to 150 base + 30 per owned city.
+- Public Works Administration only awards one Golden Age now instead of a potential permanent Golden Age. (This was prior to a much more severe nerf in the base scenario replacing the Golden Ages with a pathetic +20 Culture per friendship declaration/defensive pact, which will NOT be incorporated.) It also loses its one measly Science point, but adds an extra Production point to all cities (that are connected to the capital). Its Production cost is reduced to 150 base + 30 per owned city.
 - Heavy Equipment awards 2 free Workers and adds +3 Production to the owning city, and its Production cost is reduced to 150 base + 30 per owned city.
 - Domestic Electrification's production cost reduced to 150 base + 30 per owned city (the original cost of 400 base + 50 per owned city was excessive to the point of obscenity).
 - Media Center is now a normal building instead of a National Wonder.
@@ -99,7 +102,7 @@ Changes since the Harbinger update
 - Almaty CS UBs: Alma Air Base/Tank Depot now double production for their respective units.
 - Defiance CS UBs: Lawkeeper Office now replaces the Town Hall and gives them +3 Happiness (+4 if they have Power), an extra Administrator slot, and more Production towards Personnel units, but they have to wait a bit now to build it.
 - Camelot UBs:
-    - Stone of Ages no longer awards a free Riding Arena and no longer generates Faith on its own. The player is now expected to settle at least 1-2 cities with access to Horses tiles.
+    - Stone of Ages no longer awards a free Riding Arena and no longer generates Faith on its own. The player is now expected to search for tiles with the Horses resource to settle near.
     - Riding Arena adds +1 Culture to Horses.
     - The Round Table now boosts Production in all cities connected to the capital by 10% instead of adding 33% Production to the capital with Planned Economy and 5% Production towards all buildings in cities connected to the capital.
 - Deseret UBs:
@@ -119,16 +122,17 @@ Changes since the Harbinger update
 
 **Belief Adjustments**
 - The three pantheons that added Happiness to specific Natural tiles no longer do so.
+- Follower beliefs that add Food yields are now exclusive from each other, as are Enhancer beliefs that add passive religious pressure.
 - Annihilationism, Atomic Judgment, and New Zion are now locked behind Theocracy Complete.
 - Art of War is now locked behind Theocracy Complete and the Faith cost of unit purchase is now 3x the unit's Production cost.
 - Atomic Children's Faith yields on Fallout/Toxic Waste reduced from 3 to 2.
 - Blessing of Peace is now locked behind Theocracy Complete and adjusted to +20% growth while at peace, +2 Food to Barracks.
 - Faith Healers nerfed; healing for units adjacent to cities reduced to +10 HP and it's restricted to Personnel units for its unique promotion.
-- Feed the Faithful buffed to +2 Food from Monasteries and +3 from Megachurches.
 - God of Commerce adds +2 Water instead of +2 Science.
-- Happiness of Faith buffed to add +1 Happiness to Shrines (merging Hymns of Praise' effect into it) and +3 Happiness to Megachurches.
-- Hymns of Praise, Itinerant Preachers, Primacy, and Religious Texts have been made inaccessible.
+- Happiness in Faith altered to add +2 Production and +1 Culture/Happiness to Monasteries.
+- Hymns of Praise moved to Pantheon and buffed to add +1 Water.
 - Illuminated Order moved to Founder and its Faith discount on religious units moved to Missionary Zeal/Thought Control in a reduced amount (25% to each). Its new effect awards 50 Culture (modified by game speed) the first time each city converts to that religion.
+- Itinerant Preachers, Primacy, and Religious Texts have been made inaccessible.
 - New Zion buffed to award the player with a free Great Sage upon adopting the belief.
 - Obey the Elders also adds +2 Food to cities with an active specialist.
 - Public Prayer's Faith yields to Town Halls increased from 1 to 2.
@@ -161,7 +165,9 @@ Changes since the Harbinger update
 **New Buildings and Wonders**
 - Abbey, Camelot's replacement for the Monastery, adds +2 Water instead of costing maintenance
 - Advanced Chemical Refinery, a standalone UB for Hexlock locked behind Supremacy that doubles Refinery yields and grants Chemical Weapons to Purge Robots
-- Alma Strategic Reserve, a standalone UB for the Almaty CS giving them more Oil so they can build more of their UUs. It will be destroyed if they're captured.
+- Alma Strategic Reserve, a standalone UB for the Almaty CS giving them more Oil so they can build more tanks. It will be destroyed if they're captured.
+- Composite Materials Plant, which consumes Coal and Power to give a 10% boost to building construction in the owning city and add +1 Production to strategic resources, +2 Production to Manufactories
+- Condenser Cooler, which consumes Coal to provide the owning city with more Water (10% total and +1 to worked Moisture traps), but obsoletes in the late-game
 - Defense Directorate, a defensive building exclusive to City-States to aid them against aggressive AI factions in the early-game, made in response to the latest update to DeCiv Redux enabling capital razing (Almaty and Tellus get unique versions right away, other variants are planned later)
 - Earth Clinic, locked behind Naturalism, boosting the city's Food/Culture yields and giving it access to part of the Faith Healers belief
 - Earthscraper Project, locked behind Collectivism, enabling construction of Earthscraper buildings which add 1 of every Specialist, +2 pop, a *lot* of city HP and make the city almost completely immune to pop loss from nukes.
@@ -187,12 +193,15 @@ Changes since the Harbinger update
 
 **New Beliefs**
 - Acolytes of a New God, awarding 50 Faith each time a city is conquered
-- Followers of Old World Crafts, adding +1 each of Water, Culture and Faith to Distillery and Jeweler buildings
+- Followers of Old World Crafts, adding +1 Water and Culture to Distillery and Jeweler buildings
+- Great Commission, adding +2 Water to Harbors and Seaports
 - Harvest Festival, adding +1 Faith to Grain and Tuber resources (using the Race for Religion version instead of the Rekmod one)
 - Hopeful Habitability, locked behind Theocracy Complete, adding +1 Food/Faith to all natural tiles
-- Jesuit Education, serving roughly the same purpose as in Civ 5: letting you purchase specific Science buildings with Faith
+- Humanitarian Missions, aka BNW's Charitable Missions except as a Founder belief instead of Reformation
+- Jesuit Education, serving the same purpose as in Civ 5: letting you purchase specific Science buildings with Faith
+- Mandatory Rationing, adding +2 Food/Water to cities following the religion but also generating +1 Unhappiness
 - Old World Idols, adding +1 Culture and Faith to Gems and Silver resources
-- Radiant City, adding +67% passive religious pressure in the capital city
+- The Radiant City, adding +67% passive religious pressure in the capital city
 - Sacred Bog, adding +1 Production and Faith to Swamp tiles
 - Sacred Sites, locked behind Theocracy Complete, giving +4 Water/Culture to cities with a World Wonder and +2 Water/Culture to each Faith-purchased worship building
 - Spiritual Research, adding +1 Culture/Faith to Artifacts, Books, Data and Encrypted Data (swiped from the current Rekmod maintainer's DeCiv rebalance mod)

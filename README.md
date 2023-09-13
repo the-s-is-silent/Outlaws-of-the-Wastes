@@ -31,7 +31,7 @@ A major expansion + rebalance mod for DeCiv Redux.
   - Scouting: Wasteland Patrol, Border Patrol, Expeditionary Force
   - Hero units (only 1 allowed per Civ): Hero of the Wastes, only available as a random camp reward
 
-- New buildings: Coastal Defenses, Contraband Disposal Site, Defense Directorate (City-States only), Earth Clinic (Naturalism only), Earthscraper (Collectivism only), Ethanol Station, Food Processing Plant, Interpretative Center, Jeweler, Navy Shipyard (Rediscovery only), Sanctuary, Sociopolitical Institute, Tidal Array, and Workers' Facility (Collectivism only).
+- New buildings: Coastal Defenses, Composite Materials Plant, Condenser Cooler, Contraband Disposal Site, Defense Directorate (City-States only), Earth Clinic (Naturalism only), Earthscraper (Collectivism only), Ethanol Station, Food Processing Plant, Interpretative Center, Jeweler, Navy Shipyard (Rediscovery only), Sanctuary, Sociopolitical Institute, Tidal Array, and Workers' Facility (Collectivism only).
 
 - New world wonder: Statue of Remembrance.
 
@@ -46,7 +46,7 @@ A major expansion + rebalance mod for DeCiv Redux.
   - Artificial atoll and Floating Settlement, unlocked at Ocean Remediation and built exclusively by the Seastead Vessel.
   - Drydock, the Great Admiral unit's Great Improvement.
 
-- Several of the 14 factions in the base scenario have gained one or more new unique components, and/or had their unique ability/some of their unique components adjusted. Check the Faction Adjustments.txt file for more details.
+- Several of the 14 factions in the base scenario have gained one or more new unique components, and/or had their unique ability/some of their unique components adjusted. Check the Faction Adjustments.md file for more details.
 
 - Several new beliefs for more diverse religion customization.
 

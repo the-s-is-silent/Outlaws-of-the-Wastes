@@ -30,7 +30,7 @@
 			"May choose [1] additional [Enhancer] beliefs when [founding] a religion",
 			"Cannot build [Enslaved] units"],
 		"cities": ["Zion Valley", "New Canaan", "Provorem", "Grand Staircase", "Cueva Guarache", "Fort Walker", "Dead Horse Point", "Angel's Landing",
-			"Urim and Thummim", "Patriarch's Court", "Malki Tzedek", "Maeserville", "Fort Browning", "Kolob", "Rainbow Bridge", "Hovenweep", 
+			"Traverse City", "New Tooele", "Patriarch's Court", "Malki Tzedek", "Maeserville", "Fort Browning", "Kolob", "Rainbow Bridge", "Hovenweep",
 			"Van Buren", "Mesa Verde", "Nuevo Vicios"],
 		"spyNames": ["Daniel", "Mordecai", "Adama", "Jeremiah", "Judah", "Two-Bears-High-Fiving", "Marianne", "Clark", "Dancing Flame", "Quiet Shadow"],
 		"civilopediaText": [
@@ -127,6 +127,53 @@
 	},
 
 	//Adjusted factions
+	{
+		"name": "Hexlock",
+		"leaderName": "Aura",
+		"adjective": ["Hexlock"],
+		"startBias": ["Fissure"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Objectivism",
+
+		"startIntroPart1": "'I will admit. There were times were even I felt stumped. Science is supposed to be free. To let you discover things to your heart's content without a single care. But for every step forward, there are some who wish to take two steps backwards. With their arbitrary regulations and limits. They had a system meant to hinder your progress. They... are gone now.'",
+		"startIntroPart2": "'For Hexlock, this new world is a paradise. Free to research whatever you want, however you want. No limits. Tell me. What will you bring this world next?'",
+		"declaringWar": "Congratulations. You will help me test my new advancements.",
+		"attacked": "Now isn't that interesting?",
+		"defeated": "Will this be the end? I wonder",
+		"introduction": "Hello-o. Anyone to spare for a science experiment?",
+		"neutralHello": "Yeah?",
+		"hateHello": "Quite an interesting person...",
+		"tradeRequest": "This Shipment was brought to you by Hexlock Technologies.",
+		
+		"outerColor": [64, 8, 114],
+		"innerColor": [255, 40, 255],
+		"style": "Hexlock",
+		"uniqueName": "Adaptive Systems",
+		"uniques": ["Can Mix Unique Strategic Resources to Generate a Great Person",
+			"Double quantity of [Encrypted Data] produced",
+			"Starts with [Writing]",
+			"Starts with [Chemistry]",
+			"Starts with [Electronics]",
+			"[-2 Happiness] [in all cities]"],
+		"cities": [
+			"Halimax",
+			"Darkfield",
+			"Nightcity",
+			"Aella",
+			"Cybellia Complex",
+			"Vannell",
+			"L-T",
+			"Hemfield",
+			"Chaoslance",
+			"Nicord",
+			"Slyphis",
+			"Stradival",
+			"Eblaizal",
+			"Qrephel",
+			"Mabelcut",
+			"Prawrie"
+		]
+	},
 	{
 		"name": "Blackwarden",
 		"leaderName": "Eric Price",
@@ -338,6 +385,23 @@
 				"text": "Now the people of the earth have begun to forget the Engine once more. We are called to spread the word of our god, and compel the nations of the earth to repent and serve the Engine. The wrath of the Flame goes before us, and the strength of the Engine is behind us. We are Ignis, and we cannot fail."
 			}
 		]
+	},
+
+	//Adjusted CS
+	{
+		"name": "Almaty",
+		"adjective": ["Almaty"],
+		"cityStateType": "Weapons",
+		"startBias": ["Hills"],
+		"style": "Military",
+		"uniques": ["Double quantity of [Weapons] produced",
+			"Cannot build [Low Tech] units"],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "The end of Almaty is a terrible day for everyone. Do you not have a heart?!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [40, 135, 20],
+		"cities": ["Alma Base"]
 	},
 
 	//New CS

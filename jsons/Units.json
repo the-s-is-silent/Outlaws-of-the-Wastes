@@ -327,7 +327,6 @@
 		"movement": 2,
 		"strength": 27,
 		"cost": 50,
-		"requiredTech": "Iron Working",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Militia",
 		"uniques": ["Low Tech", "[+50]% Strength <vs [Low Tech] units>",
@@ -740,16 +739,14 @@
 		"hurryCostModifier": 20,
 		"uniques": ["Personnel", "[+25]% Strength <when fighting in [Friendly Land] tiles>",
 			"Only available <for [City-States]>",
-			"Unbuildable <for [Almaty]>", "Cannot be purchased <for [Almaty]>",
-			"Never appears as a Barbarian unit",
-			"Limited to [5] per Civilization"],
+			"Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},
 	{
 		"name": "Alma State Guard",
 		"unitType": "Scrapper",
 		"uniqueTo": "Almaty",
-		"replaces": "Spearman",
+		"replaces": "State Guard",
 		"movement": 2,
 		"strength": 45,
 		"interceptRange": 1,
@@ -773,7 +770,7 @@
 		"upgradesTo": "Rifleman",
 		"hurryCostModifier": 20,
 		"uniques": ["Low Tech",
-			"Can instantly construct a [Tree plantation] improvement <once> <for [2] movement>",
+			"Can instantly construct a [Tree plantation] improvement <[2] times]> <after which this unit is consumed>",
 			"Invisible to others <in [Tree plantation] tiles>"],
 		"attackSound": "nonmetalhit"
 	},
@@ -899,7 +896,7 @@
 	},
 	{
 		"name": "Machine Gun",
-		"unitType": "Siege",
+		"unitType": "Shooter",
 		"range": 2,
 		"movement": 2,
 		"strength": 50,
@@ -933,6 +930,33 @@
 		], //removed exclusion from Barbarian unit list
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
+	},
+	{
+		"name": "Purge Robot",
+		"unitType": "Armor",
+		"movement": 5,
+		"interceptRange": 2,
+		"strength": 125,
+		"cost": 500,
+		"requiredTech": "Future Power",
+		"uniques": [
+			"Promotion Nullifier",
+			"Purge Robot",
+			"[100]% chance to intercept air attacks",
+			"[1] extra interceptions may be made per turn",
+			"[+50]% Strength <vs [Air] units>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Only available <if [Automated Factory] is constructed>",
+			"Consumes [2] [Uranium]",
+			"Can carry [1] [Automated] units",
+			"Eliminates combat penalty for attacking over a river",
+			"Eliminates combat penalty for attacking across a coast",
+			"Defense bonus when embarked",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Powered Armor", "Promotion Nullifier", "Portable Power Cell"],
+		"attackSound": "gdrAttack"
 	},
 	{
 		"name": "Ancient Armor",
