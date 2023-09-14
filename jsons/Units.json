@@ -583,6 +583,23 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Opolcheniye",
+		"unitType": "Scrapper",
+		"uniqueTo": "The Harbingers",
+		"replaces": "Militia",
+		"movement": 2,
+		"strength": 36,
+		"interceptRange": 1,
+		"cost": 55,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Soldier",
+		"hurryCostModifier": -20,
+		"uniques": ["Personnel"],
+		"promotions": ["Hazard Pay"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Technopath",
 		"unitType": "Scrapper",
 		"replaces": "NBC Conscript",
@@ -770,7 +787,7 @@
 		"upgradesTo": "Rifleman",
 		"hurryCostModifier": 20,
 		"uniques": ["Low Tech",
-			"Can instantly construct a [Tree plantation] improvement <[2] times]> <after which this unit is consumed>",
+			"Can instantly construct a [Tree plantation] improvement <[2] times> <after which this unit is consumed>",
 			"Invisible to others <in [Tree plantation] tiles>"],
 		"attackSound": "nonmetalhit"
 	},

@@ -56,6 +56,7 @@ Changes since the Harbinger update
 - Wasteland Patrol is now locked behind Expansionism's national wonder and its production cost is increased to 60.
 - Camelot UUs: Wayfarers, Knights and Brownsteel Knights have had their Production cost increased by 20 each, Excalibur Knights by 30.
 - Deseret UUs: Battleaxe of the Lord no longer has a tech requirement and is available as a starting unit.
+- Harbinger UUs: Technopath gains a 30% Strength bonus upon researching Artificial Intelligence.
 
 **Wonder Adjustments**
 - Wincon wonders, International Trade Center, and Manhattan Project can no longer have their production hurried.
@@ -112,7 +113,9 @@ Changes since the Harbinger update
     - General Conference now counts Followers of the Majority Religion for a 15% Unhappiness reduction.
     - Quorum of the Twelve adds +2 Production to all Faith buildings instead of a percentage bonus towards building construction and adds 25% Faith to the capital, but has its production cost doubled.
     - Blue Castle Reactor's maintenance cost is reduced by 1.
-- Harbinger UBs: Census Chamber now adds an Administrator slot.
+- Harbinger UBs:
+    - State Dacha also spawns a free Opolcheniye unit (newly added Militia replacement).
+    - Census Chamber now adds an Administrator slot.
 - Ignis UBs:
     - Fuel Depot loses the Food/Water penalties and adds +2 Production to Oil tiles, but only adds +1 Production to the city itself while the faction has Power. Like the Oil Refinery it replaces, it gains an Engineer slot.
     - Arena now adds an Administrator slot instead of +1 Happiness.
@@ -177,10 +180,11 @@ Changes since the Harbinger update
 - Nanomaterial Factory, exclusive to the Calico CS, granting a new unique luxury and granting their units a unique promotion
 - Navy Shipyard, locked behind Rediscovery and requiring the player to finish the tree, boosting starting XP of naval units, giving those units a unique promotion, and adding +2 Production to Drydocks worked by the city along with +2 Great Admiral points per turn
 - Oceanological Center, locked behind Rediscovery, consuming Power and boosting Science/Happiness for coastal cities
+- Pogost, the Harbingers' replacement for the Town Hall, boosting the city's Water yields (+2 base increasing to +3 with sufficient Power, along with +1 Water per trade route, +2 Water to Wasteland Stations worked by the city, and a Merchant slot instead of an Administrator slot)
 - Resettlement Bureau, locked behind Collectivism, converting 1 pop in the capital to a Civilian Convoy and adding a production boost to Civilian Convoys along with Food yields to Settlements
 - Sacred Cave, Deseret's replacement for the Shrine, adding +50 City HP, +1 Culture, and an additional +2 Culture/Faith to Ancient Wonders if the player is lucky enough to settle near one
 - Sanctuary, a Happiness boosting building meant to encourage building Nature preserve improvements since it adds yields to those improvements (+1 Food/Water/Culture) but requires the city to be working at least 1
-- Sociopolitical Institute, a Science and Culture boosting building that grows stronger with each social policy completed (starts at +1 Culture and +1 Administrator slot; gains +2 Science, +1 Culture per completed policy) and requires completing 2 policies to unlock
+- Sociopolitical Institute, a Culture boosting building that grows stronger with each social policy completed (starts at +2 Culture and +1 Administrator slot, gains +1 Culture per completed policy)
 - Workers' Facility, locked behind Collectivism, provides a free Factory, boosts training speed of Civilian units by 25% and boosts the city's Science output by 10% but consumes Power, has high maintenance, and cannot be sold
 
 **New Units**
@@ -188,6 +192,7 @@ Changes since the Harbinger update
 - State Guard, a unit exclusive to City-States made in response to the latest update to DeCiv Redux enabling capital razing. Tellus gets a unique version that can plant more trees. Almaty is excluded, because it gets...
 - Alma State Guard, the new Spearman replacement for Almaty with the same combat strength/promotions as NBC Infantry and a combat bonus in friendly territory, so Almaty retains the ability to defend itself from aggressive AI factions in the early-game.
 - Exploratores, the Legion's replacement for the Scout with increased strength, starts with Sentry, can move after attacking, and has a chance to capture any Barbarians it picks off, but has a higher production cost.
+- Opolcheniye, the Harbingers' replacement for the Militia that's cheaper to buy, does not consume Weapons resources, and starts with Hazard Pay.
 - Pridwen-class, Camelot's replacement for the Missile Cruiser with increased strength but also has a higher production cost.
 - Rapid Response Squad, New Star's replacement for the Forward Observer that starts with Medic I/II and Gas Mask, has extra strength when defending, and can instantly clear Fallout, but has a higher production cost.
 

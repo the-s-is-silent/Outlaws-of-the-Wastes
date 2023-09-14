@@ -375,7 +375,8 @@
 		"uniqueTo": "Deseret2",
 		"maintenance": 2,
 		"cost": 20,
-		"uniques": ["Remove extra unhappiness from annexed cities",
+		"uniques": ["[+25]% Natural religion spread [in this city]",
+			"Remove extra unhappiness from annexed cities",
 			"Can only be built [in annexed cities]",
 			"Only available <in cities without a [Listening Post]>",
 			"Destroyed when the city is captured"],
@@ -611,6 +612,7 @@
 		"isWonder": true,
 		"uniques": ["[-10]% Unhappiness from [Population] [in all cities]",
 			"Free [Educational Officer] appears",
+			"Free [Opolcheniye] appears",
 			"Can only be built [in capital]",
 			"Gain a free [Food Store] [in this city]",
 			"Gain a free [Harbinger Manege] [in this city]"],
@@ -653,6 +655,19 @@
 		"requiredTech": "Trade",
 		"uniques": ["[+1 Gold] from [Luxury resource] tiles [in this city]",
 			"[+1 Gold] from [Fresh water] tiles [in this city]"]
+	},
+	{
+		"name": "Pogost",
+		"replaces": "Town Hall",
+		"uniqueTo": "The Harbingers",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"uniques": ["[+1 Gold] from each Trade Route",
+			"[+2 Gold] from [Wasteland Station] tiles [in this city]",
+			"[-25]% Culture cost of natural border growth [in this city]",
+			"[-25]% Gold cost of acquiring tiles [in this city]",
+			"[+1 Happiness, +1 Culture, +1 Gold] [in this city] <when above [0] [Power]>"],
+		"requiredTech": "Civil Service"
 	},
 	{
 		"name": "Census Chamber",
