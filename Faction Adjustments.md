@@ -28,12 +28,13 @@
 #### Cult of Ignis
 - Armor units gain +1 Movement from their UA.
 - However, the Temple is nerfed to remove both its bonus to Local Happiness and their instant Pantheon (was formerly a guaranteed Turn 1 Religion via free Great Prophet prior to them being nerfed in the base scenario).
+- The Fuel Depot is also nerfed: it only adds +1 Culture to Oil tiles.
 
 #### Hexlock
 - They start with fewer free techs now: knowledge of Chemistry is gained, but knowledge of Construction, Machinery and Engineering is lost. The malus on GP generation is removed, and Encrypted Data resources are doubled by their UA.
 - Purge Robot Proto's base Strength increased from 25 to 40, in order to give them a fighting chance.
 - Standard Refineries have base yields 1 higher than the base scenario, and also gain adjacency yields (+2 Production when next to strategic resources, +2 of the respective yield when adjacent to their corresponding GI).
-- Crystal Refineries gain +1 Water to their base yields and another +1 Water for adjacent Refineries, and +2 Production if built atop a strategic resource, or +6 if that resource is Oil.
+- Crystal Refineries gain +1 Water to their base yields and another +1 Water for adjacent Refineries, and +2 Production if built atop a strategic resource, or +4 if that resource is Oil.
 - The Heat Plant building is no longer one of their unique components and can be built by everyone.
 - Pre-Med Labs have been buffed to carry over the same amount of Food on population increase as the Hospitals they replace.
 - Record Grids have been buffed to give +1 Local Happiness while the faction has Power and remove the increase to Production cost.
@@ -59,7 +60,7 @@
   - Triage (replaces Work Camp, +10 unit healing for units adjacent to the city, +15% Production towards "support" units, +1 Local Happiness restored at Voting Rights, does not consume Slaves)
   - Emergency Response Network (replaces Listening Post, adds 1 Administrator slot instead of +1 Local Happiness, adds protection from nukes, can be built in the same city as Soup Kitchen)
   - Medical School (replaces Public School, requires a Hospital instead of a Library, awards Medic II to new units)
-- TODO: Add some way for them to liberate Slaves provided by City-States/Great Improvements)
+- TODO: Add some way for them to liberate Slaves provided by City-States/Great Improvements
 
 #### The Patriots
 - New UU: The Last Minute (replaces Nuclear Missile, 15% cheaper to build; need to rename this UU later)
@@ -71,5 +72,5 @@
   - Zemlyanka (replaces Food Store, adds +50 City HP)
   - Kolkhoz (replaces Greenhouse, higher maintenance cost, adds 2 Production along with an extra Farmer slot and 1 Production to each Farmer in the city)
   - Corrective Colony (replaces Prison Camp, harsher Food penalties but provides 2 extra Slaves, and the penalties are negated by Politburo)
-  - Gulag (now replaces Work Camp, lower baseline Production bonuses and costs 2 Slaves instead of 1 but adds 1 Production to Food source tiles)
+  - Gulag (now replaces Work Camp, lower baseline Production bonuses but adds 1 Production to Food source tiles)
   - Atomgrad Project (replaces Manhattan Project, enables Super Mutants and doubles Uranium resources)

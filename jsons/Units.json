@@ -588,9 +588,9 @@
 		"uniqueTo": "The Harbingers",
 		"replaces": "Militia",
 		"movement": 2,
-		"strength": 36,
+		"strength": 32,
 		"interceptRange": 1,
-		"cost": 55,
+		"cost": 45,
 		"requiredTech": "The Wheel",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Soldier",
@@ -976,6 +976,29 @@
 		"attackSound": "gdrAttack"
 	},
 	{
+		"name": "Howitzer",
+		"unitType": "Siege",
+		"uniqueTo": "Almaty",
+		"movement": 2,
+		"strength": 25,
+		"rangedStrength": 30,
+		"range": 3,
+		"cost": 55,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Rocket Artillery",
+		"uniques": [
+			"[+100]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"[-50]% Strength <vs [Helicopter] units>",
+			"Must set up to ranged attack",
+			"[-1] Sight",
+			"Only available <if [Factory] is constructed>"
+		],
+		"promotions": ["Artillery"],
+		"hurryCostModifier": 20,
+		"attackSound": "artillery"
+	},
+	{
 		"name": "Ancient Armor",
 		"unitType": "Armor",
 		"uniqueTo": "Almaty",
@@ -994,6 +1017,46 @@
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
+	},
+	{
+		"name": "Salvaged Helicopter",
+		"unitType": "Helicopter",
+		"uniqueTo": "Almaty",
+		"range": 1,
+		"movement": 6,
+		"strength": 15,
+		"rangedStrength": 50,
+		"cost": 200,
+		"requiredTech": "Steel",
+		"upgradesTo": "Helicopter",
+		"uniques": [
+			"[-25]% Strength <vs [Armor] units>",
+			"Can move after attacking",
+			"May withdraw before melee ([75]%)",
+			"Only available <if [Alma Air Base] is constructed>",
+			"Consumes [1] [Oil]"
+		],
+		"promotions": ["Amphibious"],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Salvaged Bomber",
+		"unitType": "Bomber",
+		"uniqueTo": "Almaty",
+		"movement": 1,
+		"strength": 25,
+		"rangedStrength": 50,
+		"range": 7,
+		"cost": 185,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Bomber",
+		"uniques": [
+			"Only available <if [Alma Air Base] is constructed>",
+			"Consumes [1] [Oil]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
 	},
 	{
 		"name": "Attack Boat",

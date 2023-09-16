@@ -250,7 +250,7 @@
 		"uniques": ["Refinery",
 			"[+2 Science, +2 Gold] for each adjacent [Refinery]",
 			"[+2 Production] from [Strategic resource] tiles",
-			"[+4 Production] from [Oil] tiles",
+			"[+2 Production] from [Oil] tiles",
 			"Gives a defensive bonus of [110]%",
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Great Improvement",

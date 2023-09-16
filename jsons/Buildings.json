@@ -957,22 +957,21 @@
 		"isWonder": true,
 		"cost": 75,
 		"science": 1,
-		"uniques": ["Free [Tank] appears",
+		"percentStatBonus": {"production": 10},
+		"uniques": ["Free [Ancient Armor] appears",
 			"Only available <in cities with a [Alma Tank Depot]>"],
 		"quote": "To a man with a hammer, everything looks like a nail.",
 		"civilopediaText": [{ "text": "To a man with a hammer, everything looks like a nail." }]
 	},
 	{
 		"name": "Faust Project",
-		"percentStatBonus": {"science": 10},
+		"percentStatBonus": {"science": 20},
 		"isWonder": true,
-		"uniques": [
-			"Must have an owned [Missile Complex] within [3] tiles",
+		"uniques": ["Must have an owned [Missile Complex] within [3] tiles",
 			"[+20]% Production when constructing [Manhattan Project] wonders [in all cities]",
-			"[+20]% Production when constructing [Missile] units [in all cities]",
-			"[+1 Production, +3 Science] from [Missile Complex] tiles [in all cities]",
-			"Provides [1] [Uranium]"
-		],
+			"[+20]% Production when constructing [Nuclear Weapon] units [in all cities]",
+			"[+2 Production, +5 Science] from [Missile Complex] tiles [in all cities]",
+			"Provides [2] [Uranium]"],
 		"requiredTech": "Writing",
 		"quote": "Our legends tell of weapons, wielded by kings of old; crafted by evil wizards, unholy to behold...",
 		"civilopediaText": [
@@ -1009,7 +1008,7 @@
 			"[+25]% Production when constructing [Armor] units [in this city]",
 			"Provides [2] [Weapons]",
 			"Provides [1] [Oil]",
-			"Free [Tank] appears"],
+			"Free [Ancient Armor] appears"],
 		"quote": "Oh, see the fire is sweepin, our very street today; burns like a red coat carpet, mad bull lost your way... War, children! It's just a shot away!",
 		"civilopediaText": [
 			{
@@ -1018,13 +1017,59 @@
 		]
 	},
 	{
+		"name": "Salvage Graveyard",
+		"requiredTech": "Sailing",
+		"isWonder": true,
+		"cost": 50,
+		"uniques": ["Must have an owned [Ship Graveyard] within [3] tiles",
+			"[+2 Science, +2 Production] from [Ship Graveyard] tiles [in all cities]",
+			"Provides [2] [Oil]",
+			"[2] free [Patrol Boat] units appear"],
+		"quote": "He who commands the sea has command of everything.",
+		"civilopediaText": [
+			{
+				"text": "He who commands the sea has command of everything."
+			}
+		]
+	},
+	{
+		"name": "Turbine Hall",
+		"isWonder": true,
+		"requiredTech": "Steel",
+		"percentStatBonus": {"production": 20},
+		"uniques": ["Must have an owned [Hydroelectric Dam] within [3] tiles",
+			"[+2 Production, +2 Gold, +1 Science] from [Hydroelectric Dam] tiles [in all cities]",
+			"Provides [8] [Power]"],
+		"quote": "At full capacity, these turbines were able to provide clean electricity for 31,052 homes, offsetting up to 51,997 tons of CO2 each year.",
+		"civilopediaText": [
+			{
+				"text": "At full capacity, these turbines were able to provide clean electricity for 31,052 homes, offsetting up to 51,997 tons of CO2 each year."
+			}
+		]
+	},
+	{
+		"name": "Open the Vault",
+		"isWonder": true,
+		"requiredTech": "Secrets of the Past",
+		"uniques": ["[+2 Science, +2 Culture, +2 Faith] from [Vault of Records] tiles [in all cities]",
+			"Must have an owned [Vault of Records] within [3] tiles",
+			"Provides [2] [Books]",
+			"Hidden when religion is disabled"],
+		"quote": "And I seal up these records, after I have spoken a few words by way of exhortation unto you.",
+		"civilopediaText": [
+			{
+				"text": "And I seal up these records, after I have spoken a few words by way of exhortation unto you."
+			}
+		]
+	},
+	{
 		"name": "Salvage Space Station",
 		"isWonder": true,
-		"percentStatBonus": {"science": 10},
+		"percentStatBonus": {"science": 20},
 		"requiredTech": "Writing",
 		"uniques": [
 			"Must have an owned [Space Station Wreckage] within [3] tiles",
-			"[+3 Science, +1 Culture, +1 Production] from [Space Station Wreckage] tiles [in all cities]"
+			"[+5 Science, +2 Culture, +2 Production] from [Space Station Wreckage] tiles [in all cities]"
 		],
 		"quote": "Everything in space obeys the laws of physics. If you know these laws, and obey them, space will treat you kindly. And don't tell me that man doesn't belong out there. Man belongs wherever he wants to go - and he'll do plenty well when he gets there.",
 		"civilopediaText": [
@@ -1312,7 +1357,7 @@
 		"cost": 150,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Production, +2 Culture] from [Oil] tiles [in this city]",
+		"uniques": ["[+2 Production, +1 Culture] from [Oil] tiles [in this city]",
 			"Provides [1] [Oil]",
 			"[+1 Production] [in this city] <with [Power]>",
 			"[+1 Production] [in this city] <with [Machine Parts]>",
@@ -1774,16 +1819,14 @@
 		"uniqueTo": "Hexlock",
 		"cost": 150,
 		"requiredTech": "Civil Service",
-		"uniques": [
-		    "[Land] units gain the [Stormfront] promotion",
+		"uniques": ["[Land] units gain the [Stormfront] promotion",
 			"[+100]% City Strength from defensive buildings",
 			"[+1 Culture] per [4] population [in all cities]",
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Overcouncil]>",
-			"Destroyed when the city is captured"
-		]
+			"Destroyed when the city is captured"]
 	},
 	{
 		"name": "Overcouncil",
@@ -1791,8 +1834,7 @@
 		"uniqueTo": "Hexlock",
 		"cost": 150,
 		"requiredTech": "Civil Service",
-		"uniques": [
-		    "Provides [1] [C1F3]",
+		"uniques": ["Provides [1] [C1F3]",
 			"Provides [1] [C2N14]",
 			"Provides [1] [C8H17]",
 			"Provides [1] [SbF5]",
@@ -1803,8 +1845,7 @@
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Stormfront Center]>",
-			"Destroyed when the city is captured"
-		]
+			"Destroyed when the city is captured"]
 	},
 	{
 		"name": "Advanced Chemical Refinery",
@@ -2073,7 +2114,9 @@
 		"science": 1,
 		"production": 3,
 		"uniques": ["Provides [2] [Weapons]",
+			"Provides [2] [Oil]",
 			"[+100]% Production when constructing [Helicopter] units [in this city]",
+			"[2] free [Salvaged Helicopter] units appear",
 			"Must not be on [Hill]",
 			"Only available <in cities without a [Alma Tank Depot]>",
 			"Never destroyed when the city is captured"]
@@ -2087,7 +2130,9 @@
 		"science": 1,
 		"production": 3,
 		"uniques": ["Provides [2] [Weapons]",
+			"Provides [2] [Oil]",
 			"[+100]% Production when constructing [Armor] units [in this city]",
+			"Free [Ancient Armor] appears",
 			"Only available <in cities without a [Alma Air Base]>",
 			"Never destroyed when the city is captured"]
 	},
