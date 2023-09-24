@@ -110,7 +110,7 @@
 			"[Gold] cost of purchasing items in cities [-20]%",
 			"[-33]% Production when constructing [Military] units [in all cities]",
 			"[-67]% Gold from Great Merchant trade missions",
-			"Unhappiness from number of Cities doubled"],
+			"[+100]% unhappiness from the number of cities"],
 		"cities": ["Vodagrad", "Prava", "Nevesk", "Kyovashad", "Prekrasnaya", "Zapolyarny", "Ubezhishche", "Nostrava",
 			"Margrave", "Yelesna", "Menestad"],
 		"spyNames": ["Sergey", "Iosef", "Leonid", "Mikhail", "Tatiana", "Veronika", "Alexei", "Anastasia", "Nikita", "Fyodor"],
