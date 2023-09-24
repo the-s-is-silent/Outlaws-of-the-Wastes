@@ -13,9 +13,8 @@ Changes since the Harbinger update
 - Cult of Ignis and Deseret Nation both lose their Turn 1 prophet from their unique Wonder (they can still get a free one from the Theocracy tree). Deseret now gains their free Enhancer belief upon founding their religion.
 - Cult of Ignis gains +1 Movement to Armor units.
 - Deseret Nation loses the Iron Working and Steel starting techs along with the temporary Science penalty.
-- The Harbingers now only get one-third as much Water and Influence from CS trade missions.
+- The Harbingers only get one-third as much Water and Influence from CS trade missions. However, the ban on building settlers has also been rescinded.
 - Hexlock gains double Encrypted Data in their UA, but loses the free Construction, Machinery and Engineering techs and gets Chemistry as a free tech instead.
-- New Star is no longer allowed to build Prison Camp or Work Camp buildings. This is temporary until I can come up with appropriate replacements for those buildings. Being a True Good faction, New Star shouldn't be allowed to have those buildings and while others may disagree with me on this stance, I consider them still being able to employ prison labor despite outlawing slavery to be an oversight.
 
 **Promotion Adjustments**
 - Forage awards 67% less Science per kill and no longer increases XP gain, but increases healing slightly in Rubble and Ruins tiles and is now available to Shooter units.
@@ -49,7 +48,7 @@ Changes since the Harbinger update
 - Neutron Bomb's production cost reduced to 1000.
 - Purge Robot Proto's strength increased to 40 and the Low Tech modifier is removed. This gives Hexlock a fighting chance in the early-game.
 - Scouts (and New Star's First Aid units) now upgrade to Forward Observers instead of Gunmen, putting an end to a commonly abused strategy.
-    - Camelot's Wayfarers have to wait until Plastics to upgrade to Commandos instead... though they can still become Gunmen in the early-game, if they find the right camp...
+    - Camelot's Wayfarers have to wait until Plastics to upgrade to Commandos instead... though they can still become Gunmen in the early-game, if they get lucky with survivor camps...
 - Seastead Vessels now require Oil to build.
 - Speculatores regains the Forward Observer's Reconnaissance I starting promotion and also gains double combat strength when attacking cities.
 - Wandering Doctors and Mobile Clinics, along with New Star's First Aid and Armed Ambulance units, are given a fake "Support" unique that I may do more with in the future.
@@ -57,22 +56,27 @@ Changes since the Harbinger update
 - Camelot UUs: Wayfarers, Knights and Brownsteel Knights have had their Production cost increased by 20 each, Excalibur Knights by 30.
 - Deseret UUs: Battleaxe of the Lord no longer has a tech requirement and is available as a starting unit.
 - Harbinger UUs: Technopath gains a 30% Strength bonus upon researching Artificial Intelligence.
+- Hexlock UUs: Field Scientist is now a standalone unit with 120 production cost, but gets 2 instant build charges.
 
 **Wonder Adjustments**
 - Wincon wonders, International Trade Center, and Manhattan Project can no longer have their production hurried.
 - Children of Rust's unique wonder, the Longhouse, has been replaced with First Kiva, which retains the Longhouse's effects but also buffs the wonder by adding 40 more city HP and a free Pantheon belief (awarded upon founding their religion).
 - Salvage Tank Depot's Production penalty is replaced with a Production bonus.
 - World Wonders tied to Ancient Wonders:
-    - Salvage Army Depot replaced with Restore Army Depot, which costs 5x more Production and awards an Ancient Armor instead of a Tank, but adds +3 Production instead of +1 to the Army Depot tile and adds +25% Production towards Armor units in the owning city.
-    - Nuclear Waste Museum is now a National Wonder, addressing an issue where it could still be purchased if Excavate Nuclear Waste was built first. It also adds 10% Science and Culture to its city, adding incentive to build it.
+    - Salvage Army Depot replaced with Restore Army Depot, which costs 5x more Production and awards an Ancient Armor instead of a Tank, but adds +4 Production instead of +1 to the Army Depot tile and adds +25% Production towards Armor units in the owning city.
+    - Nuclear Waste Museum is now a National Wonder, addressing an issue where it could still be purchased if Excavate Nuclear Waste was built first. It also adds 10% Science and Culture to its city, along with an additional +1 Culture/+3 Science to the ancient wonder tile, adding incentive to build it.
+    - Excavate Nuclear Waste is adjusted to be far less punishing: the Food malus to the ancient wonder tile is removed and replaced with +3 Production, and the Food malus from the world wonder itself is cut in half.
+    - Ally with Isolationists is now a National Wonder due to the same issue as Nuclear Waste Museum and its cost is now appropriate for an early-game wonder. Furthermore, it adds an extra point of Water/Science and two points of Culture to the Isolated Island, along with two points of Happiness to the city that owns it.
+    - Annex Isolationists buffed to provide an extra copy of Weapons and Slaves. The -1 Culture penalty to the Isolated Island was moved to the world wonder itself.
     - Distribute Soft Drinks and Fist of God have been removed from the game.
     - Open the Vault loses the free Great Sage due to the wonder bug; however, it adds +2 Science and an extra +1 Culture/Faith to the Vault of Records. The free Sage will be restored once the bug is fixed.
     - Produce Soft Drinks buffed to add +2 extra Culture to the Soft Drinks Factory.
     - Salvage Graveyard buffed to +2 Production/Science to the Ship Graveyard tiles, 2 Oil and 2 free Patrol Boats.
     - The Last Paradise buffed to add +2 extra Culture and Happiness to the Oasis and +15% Water to the owning city, along with +1 each of Food, Water, Culture and Happiness to Artificial oases.
     - Turbine Hall buffed to add +2 Production/Water and +1 Science to the Hydroelectric Dam and +20% Production to the city that owns it.
-    - Faust Project and Salvage Space Station no longer award free techs due to the bug involving World Wonders; they instead give +20% Science to the owning city and add extra yields to their respective Ancient Wonders (now +5 Science, +2 Production for both, with an additional +2 Culture for the latter) and an extra copy of Uranium for the former.
+    - Faust Project and Salvage Space Station no longer award free techs due to the bug involving World Wonders; they instead give +20% Science to the owning city and add extra yields to their respective Ancient Wonders (now +4 Science, +2 Production for both, with an additional +2 Culture for the latter) and an extra copy of Uranium for the former.
     - Pit of Sacrifice no longer awards a free Pantheon Belief because of that same bug; it instead kills 1 pop in the city and adds +25% Faith. This one will be reversed once the bug is fixed.
+    - Mining Operation buffed to add an extra point of Production to the Mining Pit, along with 15% Production to the city owning the wonder.
 - Public Broadcast's production cost increased to 500 (was previously a much, much too low 100) and it now requires every non-puppeted city you control to have a Broadcast Tower, not just the city it's built in.
 - Broadcast Network's production cost adjusted to 500 base + 30 per owned city, and now requires every city to have a Television Studio, instead of only needing one in the city it's built in.
 - National College and Grand Monastery's base production cost reduced to 125 (were previously much, much too high, at 300/400 respectively).
@@ -80,7 +84,7 @@ Changes since the Harbinger update
 - Public Works Administration only awards one Golden Age now instead of a potential permanent Golden Age. (This was prior to a much more severe nerf in the base scenario replacing the Golden Ages with a pathetic +20 Culture per friendship declaration/defensive pact, which will NOT be incorporated.) It also loses its one measly Science point, but adds an extra Production point to all cities (that are connected to the capital). Its Production cost is reduced to 150 base + 30 per owned city.
 - Heavy Equipment awards 2 free Workers and adds +3 Production to the owning city, and its Production cost is reduced to 150 base + 30 per owned city.
 - Domestic Electrification's production cost reduced to 150 base + 30 per owned city (the original cost of 400 base + 50 per owned city was excessive to the point of obscenity).
-- Media Center is now a normal building instead of a National Wonder.
+- Media Center is now a normal building instead of a National Wonder and adds +2 Culture to Data tiles worked by the city.
 - Fusion Reactor's cost has been reduced and its effects are drastically buffed: it now doubles the faction's Power supply and adds 25% Production to all cities.
 - Homeland Defense Initiative now boosts production towards defensive buildings (Walls, etc.), reducing the time spent building them by 20%, and adds 15% more city strength from those buildings - gaining an effect that was removed from Castle Doctrine in the policy rebalance.
 - Mobile Encampment adopts Rekmod Hungary's gimmick of being able to move the capital at will, once Munitions is researched.
@@ -88,7 +92,15 @@ Changes since the Harbinger update
 
 **Building Adjustments**
 - Defensive buildings are no longer all automatically unlocked by building Walls and must now be built in order: Hardened Defenses requires Defensive Emplacements, Battery and Bunker require Hardened Defenses, and Active Denial System requires Battery.
+- Ranches now include Horses.
 - Listening Post (and relevant replacements) nerfed to 25% GP generation with no extra bonus for Constitution factions.
+- Monopoly building adjustments:
+    - None of them penalize the city's Production any longer. They also ignore the difficulty update that strips the respective resource when the faction runs out of Power.
+    - Content Farms (and replacements) give +3 Science instead of +1 Culture.
+        - Blackwarden's replacement gives +10% Water but no longer boosts city growth or provides Slaves, and no longer has a limit.
+    - Electronics Production Lines reduce local Unhappiness in the owning city by 10%.
+    - Machinery Production Lines boost the city's Production by 10%.
+    - Publishing Houses give +2 Culture.
 - Arcology Dome buffed to +250 City HP and +33% Water, but requires the city to be of size 20 or higher (or will once that base game bug is fixed).
 - Carbon Capture no longer adds stats to Grassland tiles; it instead adds Food and Production to Tree plantations and consumes Power.
 - Production building adjustments:
@@ -103,6 +115,10 @@ Changes since the Harbinger update
     - Water Plant gains a Merchant slot and +2 Water.
     - Greywater Treatment Plant loses the Production penalties, but also loses its single point of Food yield and one point of base Water yield.
     - Rainwater Purifier adds an additional +15% to the city's total Water yields, making it more useful than it originally was.
+- Science building adjustments:
+    - Libraries (and all base scenario replacements) no longer add Culture to Books tiles, but add +2 Science instead of +1 to those tiles. All faction replacements now keep this bonus instead of just the Ignis replacement.
+    - Public Schools (and replacements) no longer add Culture, and count every 2 population for Science instead of every 3.
+    - Data Center nerfed to +5 Science instead of +50% Science (Hexlock's Encoding Center gives +8 instead of +65%). It also loses the Culture bonus to Data/Encrypted Data tiles, but adds an extra point of Science to those tiles and an extra Scientist slot to compensate.
 - Tidal Array adjusted to gate 2 units of power behind Geo Engineering, but add +1 Production to Artificial atolls and Floating Settlements worked by the city and +2 Production to oceanic Wind farms.
 - Almaty CS UBs: Alma Air Base/Tank Depot now double production for their respective units.
 - Defiance CS UBs: Lawkeeper Office now replaces the Town Hall and gives them +3 Happiness (+4 if they have Power), an extra Administrator slot, and more Production towards Personnel units, but they have to wait a bit now to build it.
@@ -113,6 +129,7 @@ Changes since the Harbinger update
 - Deseret UBs:
     - Restored Temple of Zion buffed to +25% passive religious pressure; however it remains weaker than it was prior to the "nuclear option" update cutting religious pressure in half.
     - Bishop's Storehouse now adds +1 Food to Grain tiles on Desert.
+    - Disciplinary Council adds +1 Faith/Happiness and +25% passive religious pressure to annexed cities, so there's now a reason to build it instead of the Listening Post in those cities.
     - Printing Press adds +2 Science.
     - General Conference now counts Followers of the Majority Religion for a 15% Unhappiness reduction.
     - Quorum of the Twelve adds +2 Production to all Faith buildings instead of a percentage bonus towards building construction and adds 25% Faith to the capital, but has its production cost doubled.
@@ -120,6 +137,10 @@ Changes since the Harbinger update
 - Harbinger UBs:
     - State Dacha also spawns a free Opolcheniye unit (newly added Militia replacement).
     - Census Chamber now adds an Administrator slot.
+- Hexlock UBs:
+    - Experiment on Survivors nerfed to lose the free Great Scientist (it now gives a Field Scientist instead). It also adds +2 pop to the capital instead of +1 to all cities. Also, it's only available in the capital, but this is mostly inconsequential.
+    - Record Grid buffed by giving +1 Local Happiness while the faction has Power to offset their UA's malus and reducing its production cost to match that of the Library it replaces.
+    - Stormfront Center and Overcouncil nerfed by increasing their production cost to 150 each.
 - Ignis UBs:
     - Fuel Depot loses the Food/Water penalties and adds +2 Production to Oil tiles, but only adds +1 Production to the city itself while the faction has Power and loses half its Culture output. Like the Oil Refinery it replaces, it gains an Engineer slot.
     - Arena now adds an Administrator slot instead of +1 Happiness.
@@ -129,11 +150,11 @@ Changes since the Harbinger update
 
 **Belief Adjustments**
 - The three pantheons that added Happiness to specific Natural tiles no longer do so.
-- Follower beliefs that add Food yields are now exclusive from each other, as are Enhancer beliefs that add passive religious pressure.
-- Annihilationism, Atomic Judgment, and New Zion are now locked behind Theocracy Complete.
-- Art of War is now locked behind Theocracy Complete and the Faith cost of unit purchase is now 3x the unit's Production cost.
+- Follower beliefs that add +2 or higher Food yields are now exclusive from each other, as are Enhancer beliefs that add passive religious pressure.
+- Annihilationism, Art of War, Atomic Judgment, Blessing of Peace, and New Zion are now locked behind Theocracy Complete.
+- Atomic Judgment now only gives the Strength bonus to Nuclear Weapons.
 - Atomic Children's Faith yields on Fallout/Toxic Waste reduced from 3 to 2.
-- Blessing of Peace is now locked behind Theocracy Complete and adjusted to +20% growth while at peace, +2 Food to Barracks.
+- Blessing of Peace adjusted to +20% growth while at peace, +2 Food to Barracks.
 - Faith Healers nerfed; healing for units adjacent to cities reduced to +10 HP and it's restricted to Personnel units for its unique promotion.
 - God of Commerce adds +2 Water instead of +2 Science.
 - Happiness in Faith altered to add +2 Production and +1 Culture/Happiness to Monasteries.
@@ -143,8 +164,7 @@ Changes since the Harbinger update
 - New Zion buffed to award the player with a free Great Sage upon adopting the belief.
 - Obey the Elders also adds +2 Food to cities with an active specialist.
 - Public Prayer's Faith yields to Town Halls increased from 1 to 2.
-- Religious Troubadours nerfed to +34% passive religious pressure.
-- Religious Unity nerfed to +67% passive religious pressure, but also gains Primacy's effect of increasing resting point for CS influence by +15.
+- Religious Unity gains Primacy's effect of increasing resting point for CS influence by +15.
 - Sacred Waters moved to Follower and adds yields to Hydroponic Farming and Greywater Treatment Plant buildings (+1 Food/Faith and +1 Water/Faith, respectively).
 - Works of Genius' Faith yields to Great Improvements cut in half and it now adds +1 Science/Faith to cities with an active Specialist.
 
@@ -157,7 +177,7 @@ Changes since the Harbinger update
 - Grasslands severely nerfed; they no longer yield Happiness and their adjacency bonuses from other natural tiles have been heavily curtailed.
 - Outposts and Prison farms receive extra yields (+4 Production for the former atop strategic resources, +1 Production per adjacent Farm and +1 extra Food at Land Remediation for the latter) and provide 1 extra slave each.
 - Refineries have their base yields increased by 1 and gain adjacency bonuses so they're not as utterly useless as they currently are in the base scenario. This is a temporary measure until the entire gimmick for Hexlock is redesigned.
-- Solar collectors and Wind farms provide 1 extra unit of Power if the player chooses Bionics as their ideology and adopts Weather Engineering, and gain +1 Production at Atmosphere Remediation (Wind farms on Ocean tiles gaining another +1 Production earlier at Ocean Remediation).
+- Solar collectors and Wind farms provide 1 extra unit of Power if the player chooses Bionics as their ideology and adopts Weather Engineering, and gain +1 Production at Plastics and another +1 at Atmosphere Remediation (Wind farms on Ocean tiles gaining another +1 at Ocean Remediation).
 - Solar collectors also have their construction time reduced to 10 turns (on Standard speed).
 - Terrace farms receive extra food scaling (they now start at 2 base and add 1 with adjacent Farm or Grassland tiles) so they aren't obsoleted by Tree plantations being buildable on Hills.
 
@@ -170,31 +190,51 @@ Changes since the Harbinger update
 - Hockeytown, Culture type.
 
 **New Buildings and Wonders**
-- Abbey, Camelot's replacement for the Monastery, adds +2 Water instead of costing maintenance
-- Advanced Chemical Refinery, a standalone UB for Hexlock locked behind Supremacy that doubles Refinery yields and grants Chemical Weapons to Purge Robots
-- Alma Strategic Reserve, a standalone UB for the Almaty CS giving them more Oil so they can build more tanks. It will be destroyed if they're captured.
-- Composite Materials Plant, which consumes Coal and Power to give a 10% boost to building construction in the owning city and add +1 Production to strategic resources, +2 Production to Manufactories
-- Condenser Cooler, which consumes Coal to provide the owning city with more Water (10% total and +1 to worked Moisture traps), but obsoletes in the late-game
-- Defense Directorate, a defensive building exclusive to City-States to aid them against aggressive AI factions in the early-game, made in response to the latest update to DeCiv Redux enabling capital razing (Almaty and Tellus get unique versions right away, other variants are planned later)
-- Earth Clinic, locked behind Naturalism, boosting the city's Food/Culture yields and giving it access to part of the Faith Healers belief
-- Earthscraper Project, locked behind Collectivism, enabling construction of Earthscraper buildings which add 1 of every Specialist, +2 pop, a *lot* of city HP and make the city almost completely immune to pop loss from nukes.
-- Exotic Reactor - yes, another standalone UB for the Defiance CS, giving them more Power, but like their other UBs it will be destroyed if they're captured.
-- Kolkhoz, Proklyatyye's replacement for the Greenhouse, adds +2 Production, 2 Farmer slots instead of 1, and +1 Production to active Farmers in the city, but has higher maintenance
-- Kruger Line, a unique national wonder for Atlas, requiring a Factory present in all cities and consuming Power to add +2 Production to tiles with a Railroad on them along with +2 Water to each Trade Route
-- Nanomaterial Factory, exclusive to the Calico CS, granting a new unique luxury and granting their units a unique promotion
-- Navy Shipyard, locked behind Rediscovery and requiring the player to finish the tree, boosting starting XP of naval units, giving those units a unique promotion, and adding +2 Production to Drydocks worked by the city along with +2 Great Admiral points per turn
-- Oceanological Center, locked behind Rediscovery, consuming Power and boosting Science/Happiness for coastal cities
-- Pogost, the Harbingers' replacement for the Town Hall, boosting the city's Water yields (+2 base increasing to +3 with sufficient Power, along with +1 Water per trade route, +2 Water to Wasteland Stations worked by the city, and a Merchant slot instead of an Administrator slot)
-- Resettlement Bureau, locked behind Collectivism, converting 1 pop in the capital to a Civilian Convoy and adding a production boost to Civilian Convoys along with Food yields to Settlements
-- Sacred Cave, Deseret's replacement for the Shrine, adding +50 City HP, +1 Culture, and an additional +2 Culture/Faith to Ancient Wonders if the player is lucky enough to settle near one
-- Sanctuary, a Happiness boosting building meant to encourage building Nature preserve improvements since it adds yields to those improvements (+1 Food/Water/Culture) but requires the city to be working at least 1
-- Sociopolitical Institute, a Culture boosting building that grows stronger with each social policy completed (starts at +2 Culture and +1 Administrator slot, gains +1 Culture per completed policy)
-- Workers' Facility, locked behind Collectivism, provides a free Factory, boosts training speed of Civilian units by 25% and boosts the city's Science output by 10% but consumes Power, has high maintenance, and cannot be sold
+- Standalone:
+    - Alternet Cafe, a Culture/Happiness boosting building that consumes Power and grows stronger in larger cities (but nowhere near as strong as pre-nerf Public Schools)
+    - Composite Materials Plant, which consumes Coal and Power to give a 10% boost to building construction in the owning city and add +1 Production to strategic resources, +2 Production to Manufactories
+    - Condenser Cooler, which consumes Coal to provide the owning city with more Water (10% total and +1 to worked Moisture traps), but obsoletes in the late-game
+    - Sanctuary, a Happiness boosting building meant to encourage building Nature preserve improvements since it adds yields to those improvements (+1 Food/Water/Culture) but requires the city to be working at least 1
+    - Sociopolitical Institute, a Culture boosting building that grows stronger with each social policy completed (starts at +2 Culture and +1 Administrator slot, gains +1 Culture per completed policy)
+- Policy Specific:
+    - Earth Clinic, locked behind Naturalism, boosting the city's Food/Culture yields and giving it access to part of the Faith Healers belief
+    - Earthscraper Project, locked behind Collectivism, enabling construction of Earthscraper buildings which add 1 of every Specialist, +2 pop, a *lot* of city HP and make the city almost completely immune to pop loss from nukes.
+    - Navy Shipyard, locked behind Rediscovery and requiring the player to finish the tree, boosting starting XP of naval units, giving those units a unique promotion, and adding +2 Production to Drydocks worked by the city along with +2 Great Admiral points per turn
+    - Oceanological Center, locked behind Rediscovery, consuming Power and boosting Science/Happiness for coastal cities
+    - Resettlement Bureau, locked behind Collectivism, converting 1 pop in the capital to a Civilian Convoy and adding a production boost to Civilian Convoys along with Food yields to Settlements
+    - Workers' Facility, locked behind Collectivism, provides a free Factory, boosts training speed of Civilian units by 25% and boosts the city's Science output by 10% but consumes Power, has high maintenance, and cannot be sold
+- Faction/City-State Specific:
+    - All City-States:
+        - Defense Directorate, a defensive building to aid them against aggressive AI factions in the early-game, made in response to the latest update to DeCiv Redux enabling capital razing (Almaty, Hockeytown and Tellus get unique versions right away, other variants are planned later)
+    - Almaty CS:
+        - Alma Strategic Reserve, a standalone UB giving them more Oil so they can build more tanks
+        - Central Press Service, a standalone UB giving them a unique luxury
+    - Atlas:
+        - Kruger Line, a unique national wonder requiring a Factory present in all cities and consuming Power to add +2 Production to tiles with a Railroad on them along with +2 Water to each Trade Route
+    - Calico CS:
+        - Nanomaterial Factory, granting a new unique luxury and granting their units a unique promotion
+    - Camelot Foundation:
+        - Abbey, replacing the Monastery, adding +2 Water instead of costing maintenance
+    - Defiance CS:
+        - Exotic Reactor, giving them more Power, but like their other UBs it will be destroyed if they're captured.
+    - Deseret Nation:
+        - Sacred Cave, replacing the Shrine, adding +50 City HP, +1 Culture, and an additional +2 Culture/Faith to Ancient Wonders if the player is lucky enough to settle near one
+    - The Harbingers:
+        - Pogost, replacing the Town Hall, boosting the city's Water yields (+2 base increasing to +3 with sufficient Power, along with +1 Water per trade route, +2 Water to Wasteland Stations worked by the city, and a Merchant slot instead of an Administrator slot)
+    - Hexlock:
+        - Advanced Chemical Refinery, a standalone UB for Hexlock locked behind Supremacy that doubles Refinery yields and grants Chemical Weapons to Purge Robots
+    - Proklyatyye:
+        - Kolkhoz, replacing the Greenhouse, adds +2 Production, 2 Farmer slots instead of 1, and +1 Production to active Farmers in the city, but has higher maintenance
 
 **New Units**
 - Great Admirals are added in the form of their present Rekmod implementation. They use the "Is part of Great Person group" unique and do not increase the GPP cost of other Great People.
-- State Guard, a unit exclusive to City-States made in response to the latest update to DeCiv Redux enabling capital razing. Tellus gets a unique version that can plant more trees. Almaty is excluded, because it gets...
-- Alma State Guard, the new Spearman replacement for Almaty with the same combat strength/promotions as NBC Infantry and a combat bonus in friendly territory, so Almaty retains the ability to defend itself from aggressive AI factions in the early-game.
+- State Guard, a unit exclusive to City-States made in response to the latest update to DeCiv Redux enabling capital razing. Tellus gets a unique version that can plant more trees.
+    - Unique versions (so far):
+        - Almaty: Alma State Guard, with the same combat strength/promotions as NBC Infantry and a combat bonus in friendly territory, so Almaty retains the ability to defend itself from aggressive AI factions in the early-game.
+        - Defiance: Pale Veteran, with the same combat strength as Soldiers and starting with Gas Mask and Drone Recon
+        - Hockeytown: Blueliner, which gains extra effectiveness in cold terrain
+        - Tellus: Dendro Mutant, with the same stats as the Gunman instead and can instantly build 2 Tree plantations.
+- Alma Frontier Guard and Alma Honor Guard, Almaty's new replacements for the Scout and Spearman
 - Exploratores, the Legion's replacement for the Scout with increased strength, starts with Sentry, can move after attacking, and has a chance to capture any Barbarians it picks off, but has a higher production cost.
 - Opolcheniye, the Harbingers' replacement for the Militia that's weaker (32 vs. 36) but cheaper to both build (45 vs. 55) and buy, does not consume Weapons resources, and starts with Hazard Pay.
 - Pridwen-class, Camelot's replacement for the Missile Cruiser with increased strength but also has a higher production cost.
@@ -203,19 +243,24 @@ Changes since the Harbinger update
 **New Beliefs**
 - Acolytes of a New God, awarding 50 Faith each time a city is conquered
 - Followers of Old World Crafts, adding +1 Water and Culture to Distillery and Jeweler buildings
-- Great Commission, adding +2 Water to Harbors and Seaports
+- Great Commission, adding +1 Water/Faith to Harbors and Seaports. Shame the AI doesn't know to not pick this one when it's not controlling a coastal faction.
 - Harvest Festival, adding +1 Faith to Grain and Tuber resources (using the Race for Religion version instead of the Rekmod one)
 - Hopeful Habitability, locked behind Theocracy Complete, adding +1 Food/Faith to all natural tiles
 - Humanitarian Missions, aka BNW's Charitable Missions except as a Founder belief instead of Reformation
 - Jesuit Education, serving the same purpose as in Civ 5: letting you purchase specific Science buildings with Faith
 - Mandatory Rationing, adding +2 Food/Water to cities following the religion but also generating +1 Unhappiness
 - Old World Idols, adding +1 Culture and Faith to Gems and Silver resources
-- The Radiant City, adding +67% passive religious pressure in the capital city
+- The Radiant City, doubling passive religious pressure in the capital city
 - Sacred Bog, adding +1 Production and Faith to Swamp tiles
-- Sacred Sites, locked behind Theocracy Complete, giving +4 Water/Culture to cities with a World Wonder and +2 Water/Culture to each Faith-purchased worship building
+- Sacred Sites, locked behind Theocracy Complete, giving +4 Water/Culture to cities with a World Wonder and +2 Water/Culture to each Faith-purchased worship building. Shame the AI almost never picks Worship Building beliefs.
 - Spiritual Research, adding +1 Culture/Faith to Artifacts, Books, Data and Encrypted Data (swiped from the current Rekmod maintainer's DeCiv rebalance mod)
 - Unity of the Sages, adding 50% to the total yields of Seminaries, Oracles and Endowment Houses, and +2 Faith to all Faith buildings in cities with 10+ followers
 - Veneration of the Elders, with the same effect as Devoted Elite in Rekmod
+- Worship Music, adding +1 Culture/Faith to Broadcast Towers and Television Studios
 
 **New Resources**
 - Advanced Fabrics, exclusive to the Calico CS and unlocked late in the game
+- Newspaper, (currently) exclusive to the Almaty CS
+
+**New Tile Improvements**
+- Preservator, borrowed from Bamboolord's expansion mod with his permission and granted to The Pax CS. This GI gains yields from the finisher bonuses of Rationalism and Constitution (+4 Culture/Science during Golden Ages from the former, +2 Culture/Science from the latter)

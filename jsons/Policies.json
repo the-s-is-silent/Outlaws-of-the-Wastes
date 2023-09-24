@@ -300,6 +300,7 @@
 				"name": "Rationalism Complete",
 				"uniques": ["[+10]% [Science] <while the empire is happy>",
 					"[+4 Production, +4 Science] from every [Academy] <during a Golden Age>",
+					"[+4 Culture, +4 Science] from every [Preservator] <during a Golden Age>",
 					"Free Technology"]
 			}
 		]
@@ -364,6 +365,7 @@
 					"[+4 Production] from every [Manufactory]",
 					"[+4 Production] from every [Drydock]",
 					"[+4 Science] from every [Academy]",
+					"[+2 Culture, +2 Science] from every [Preservator]",
 					"[+2 Gold, +2 Culture] from every [Settlement]",
 					"[+2 Food, +2 Production, +2 Gold] from every [Wasteland Station]",
 					"[+4 Faith] from every [Seminary]",
@@ -822,7 +824,7 @@
 				"name": "Cybernetics",
 				"requires": ["Mutagens"],
 				"uniques": ["[Personnel] units gain the [AI Implant] promotion",
-					"[+2 Production] per [10] population [in all cities]"],
+					"[+25]% Production when constructing [Military] units [in all cities]"],
 				"row": 2,
 				"column": 4
 			},

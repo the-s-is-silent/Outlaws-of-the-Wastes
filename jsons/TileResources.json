@@ -1,8 +1,85 @@
 [
 	{
+		"name": "Scrap",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": [
+			"Jungle",
+			"Forest",
+			"Desert",
+			"Permafrost",
+			"Toxic Waste",
+			"Badlands",
+			"Tundra",
+			"Wasteland",
+			"Swamp"
+		],
+		"production": 1,
+		"improvedBy": ["Salvage site", "Borough", "Preservator"],
+		"improvementStats": {"production": 1},
+		"uniques": [
+			"Generated on every [12] tiles <in [Featureless] [Tundra] tiles>",
+			"Generated on every [25] tiles <in [Badlands] tiles> <in tiles without [Hill]>",
+			"Generated on every [25] tiles <in [Wasteland] tiles> <in tiles without [Hill]>",
+			"Generated on every [16] tiles <in [Tundra] tiles> <in tiles without [Hill]>",
+			"Generated on every [16] tiles <in [Permafrost] tiles> <in tiles without [Hill]>"
+		]
+	},
+	{
+		"name": "Plastics",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": [
+			"Jungle",
+			"Forest",
+			"Desert",
+			"Permafrost",
+			"Toxic Waste",
+			"Badlands",
+			"Tundra",
+			"Hill",
+			"Wasteland",
+			"Coast",
+			"Ocean",
+			"Swamp"
+		],
+		"production": 1,
+		"improvedBy": ["Salvage site", "Borough", "Modular island", "Preservator"],
+		"improvementStats": {"production": 1},
+		"uniques": [
+			"Generated on every [20] tiles <in [Featureless] [Coast] tiles>",
+			"Generated on every [23] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>",
+			"Generated on every [20] tiles <in [Wasteland] tiles>",
+			"Generated on every [20] tiles <in [Badlands] tiles>",
+			"Generated on every [20] tiles <in [Tundra] tiles>",
+			"Generated on every [20] tiles <in [Desert] tiles>",
+			"Generated on every [20] tiles <in [Permafrost] tiles>"
+		]
+	},
+	{
+		"name": "Artifacts",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle", "Sunken Ruins"],
+		"culture": 1,
+		"improvedBy": ["Research site", "Borough", "Modular island", "Preservator"],
+		"improvementStats": {"culture": 1},
+		"uniques": [
+			"Generated on every [15] tiles <in [Coast] tiles>",
+			"Generated with weight [30] <in [Jungle] Regions>",
+			"Generated with weight [20] <in [Hybrid] Regions>",
+			"Generated with weight [10] <in [Desert] Regions>",
+			"Generated with weight [15] <in [Hill] Regions>",
+			"Generated with weight [15] <in [Badlands] Regions>",
+			"Generated with weight [10] <in [Wasteland] Regions>",
+			"Generated near City States with weight [15]"
+		]
+	},
+	{
 		"name": "Advanced Fabrics",
 		"resourceType": "Luxury",
 		"production": 3
+	},
+	{
+		"name": "Newspaper",
+		"resourceType": "Luxury"
 	},
 	{
 		"name": "Scriptures",

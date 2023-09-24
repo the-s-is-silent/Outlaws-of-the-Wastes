@@ -250,7 +250,7 @@
 		"rangedStrength": 35,
 		"range": 1,
 		"interceptRange": 1,
-		"cost": 150,
+		"cost": 145,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Gyroscopes",
 		"upgradesTo": "Helicopter",
@@ -260,7 +260,7 @@
 			"[+25]% Strength <when fighting in [Friendly Land] tiles>",
 			"[-25]% Strength <when fighting in [Foreign Land] tiles>",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"Only available <in cities with a [Stable]>"],
+			"Only available <if [Stable] is constructed>"],
 		"attackSound": "shot"
 	},
 	{
@@ -434,7 +434,7 @@
 			"[+50]% Strength <vs [Low Tech] units>", "[+50]% Strength <vs [Mounted] units>",
 			"No defensive terrain bonus", "Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
-			"Only available <in cities with a [Stable]>"],
+			"Only available <if [Riding Arena] is constructed>"],
 		"attackSound": "horse"
 	},
 	{
@@ -490,7 +490,7 @@
 		"uniques": ["Personnel", "Mounted",
 			"No defensive terrain bonus", "Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
-			"Only available <in cities with a [Stable]>"],
+			"Only available <if [Riding Arena] is constructed>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -511,7 +511,7 @@
 			"[+25]% Strength <vs [Low Tech] units> <when attacking>",
 			"[+25]% Strength <vs [Personnel] units> <when attacking>",
 			"[+25]% Strength <when defending>",
-			"Only available <in cities with a [Stable]>"],
+			"Only available <if [Riding Arena] is constructed>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -775,6 +775,37 @@
 		"attackSound": "machinegun"
 	},
 	{
+		"name": "Alma Honor Guard",
+		"unitType": "Scrapper",
+		"uniqueTo": "Almaty",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 24,
+		"interceptRange": 1,
+		"cost": 50,
+		"upgradesTo": "State Guard",
+		"hurryCostModifier": 20,
+		"promotions": ["Gas Mask"],
+		"uniques": ["Personnel", "[+20]% Strength <when fighting in [Friendly Land] tiles>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Alma Frontier Guard",
+		"unitType": "Scrapper",
+		"uniqueTo": "Almaty",
+		"replaces": "Scout",
+		"movement": 2,
+		"strength": 12,
+		"interceptRange": 1,
+		"cost": 25,
+		"upgradesTo": "Militia",
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Rifling",
+		"uniques": ["Personnel", "[-33]% Strength <vs cities>",
+			"[+150]% Strength <vs [Barbarian] units>"],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Dendro Mutant",
 		"unitType": "Shooter",
 		"uniqueTo": "Tellus",
@@ -806,6 +837,21 @@
 			"Earn [100]% of killed [Military] unit's [Strength] as [Faith]",
  			"Free [Hawkman Brave] appears <upon being defeated> <with [33]% chance>"],
 		"attackSound": "metalhit"
+	},
+	{
+		"name": "Pale Veteran",
+		"unitType": "Scrapper",
+		"uniqueTo": "Defiance",
+		"replaces": "State Guard",
+		"movement": 2,
+		"strength": 40,
+		"interceptRange": 1,
+		"cost": 55,
+		"upgradesTo": "Infantry",
+		"hurryCostModifier": 20,
+		"promotions": ["Gas Mask", "Drone Recon"],
+		"uniques": ["Personnel", "Consumes [1] [Weapons]", "[+25]% Strength <when fighting in [Friendly Land] tiles>"],
+		"attackSound": "machinegun"
 	},
 	{
 		"name": "Ark Hunter",
@@ -856,6 +902,37 @@
 		"attackSound": "phasers"
 	},
 	{
+		"name": "Pax Researcher",
+		"replaces": "Worker",
+		"uniqueTo": "The Pax",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 70,
+		"hurryCostModifier": 20,
+		"upgradesTo": "Mechanized Worker",
+		"replacementTextForUniques": "Can build normal tile improvements on land, sacrifice itself to instantly build a Research site, or generate small amounts of Science when it ends its turn on a Rubble or Ruins tile",
+		"uniques": ["Can build [Land] improvements on tiles",
+			"Can instantly construct a [Research site] improvement <by consuming this unit>",
+			"Gain [5]-[10] [Science] <upon ending a turn in a [Forest] tile> <before the [Neofeudal era]>",
+			"Gain [5]-[10] [Science] <upon ending a turn in a [Jungle] tile> <before the [Neofeudal era]>",
+			"Gain [15]-[30] [Science] <upon ending a turn in a [Forest] tile> <starting from the [Neofeudal era]> <before the [Industrial era]>",
+			"Gain [15]-[30] [Science] <upon ending a turn in a [Jungle] tile> <starting from the [Neofeudal era]> <before the [Industrial era]>",
+			"Gain [45]-[90] [Science] <upon ending a turn in a [Forest] tile> <starting from the [Industrial era]>",
+			"Gain [45]-[90] [Science] <upon ending a turn in a [Jungle] tile> <starting from the [Industrial era]>",
+			"Automation is a primary action"]
+	},
+	{
+		"name": "Persevering Pax Researcher",
+		"uniqueTo": "The Pax",
+		"unitType": "Civilian",
+		"uniques": ["May withdraw from melee ([100]%)",
+			"Can instantly construct a [Preservator] improvement <by consuming this unit>",
+			"Is part of Great Person group [Scientist]",
+			"Great Person - [Science]",
+			"Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
 		"name": "Goon",
 		"unitType": "Scrapper",
 		"uniqueTo": "Hockeytown",
@@ -866,6 +943,7 @@
 		"upgradesTo": "Militia",
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Rifling",
+		"promotions": ["Line Brawl"],
 		"uniques": ["Low Tech",
 			"[+50]% Strength <vs [Low Tech] units>",
 			"[+25]% Strength <when fighting in [Tundra] tiles>",
@@ -883,6 +961,7 @@
 		"cost": 50,
 		"upgradesTo": "Soldier",
 		"hurryCostModifier": 20,
+		"promotions": ["Line Brawl"],
 		"uniques": ["Personnel", "[+25]% Strength <when fighting in [Friendly Land] tiles>",
 			"[+25]% Strength <when fighting in [Tundra] tiles>",
 			"[+25]% Strength <when fighting in [Permafrost] tiles>"],
@@ -890,6 +969,23 @@
 	},
 
 	//Adjusted base scenario units
+	{
+		"name": "Field Scientist",
+		"unitType": "Civilian",
+		"uniqueTo": "Hexlock",
+		"requiredTech": "Writing",
+		"cost": 70,
+		"movement": 2,
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Can instantly construct a [C1F3 Refinery] improvement <[2] times> <after which this unit is consumed>",
+			"Can instantly construct a [C2N14 Refinery] improvement <[2] times> <after which this unit is consumed>",
+			"Can instantly construct a [C8H17 Refinery] improvement <[2] times> <after which this unit is consumed>",
+			"Can instantly construct a [SbF5 Refinery] improvement <[2] times> <after which this unit is consumed>",
+			"Can instantly construct a [VX Refinery] improvement <[2] times> <after which this unit is consumed>",
+			"Automation is a primary action"
+		]
+	},
 	{
 		"name": "Purge Robot Proto",
 		"unitType": "Scrapper",

@@ -45,7 +45,7 @@
 		"name": "stockpiled water",
 		"notification": "We have recovered a stockpile of [goldAmount] water from the camp!",
 		"weight": 2,
-		"uniques": ["Gain [450]-[750] [Gold]", "Only available <after [50] turns>"]
+		"uniques": ["Gain [450]-[750] [Gold]", "Only available <after [40] turns>"]
 	},
 
 	// Faith
@@ -115,18 +115,18 @@
 		"name": "infernal training",
 		"notification": "Our unit experiences infernal training!",
 		"weight": 2,
-		"uniques": ["This Unit gains [30] XP"]
+		"uniques": ["This Unit gains [30] XP", "Only available <after [20] turns>"]
 	},
 	{
 		"name": "medical assistance",
 		"notification": "The survivors gave us medical assistance!",
-		"weight": 2,
+		"weight": 3,
 		"uniques": ["Heal this unit by [50] HP", "Only available <for [Wounded] units> <when below [50] HP>"]
 	},
 	{
 		"name": "advanced weaponry for your explorer",
 		"notification": "Our unit finds advanced weaponry hidden in the camp!",
-		"weight": 3,
+		"weight": 2,
 		"uniques": ["This Unit upgrades for free including special upgrades"]
 	},
 	{
@@ -173,7 +173,7 @@
 		"name": "find a crudely-drawn map",
 		"notification": "The camp contains maps of the nearby area!",
 		"weight": 2,
-		"uniques": ["From a randomly chosen tile [5] tiles away, reveal tiles up to [5] tiles away with [80]% chance"]
+		"uniques": ["From a randomly chosen tile [5] tiles away, reveal tiles up to [5] tiles away with [100]% chance"]
 	},
 	{
 		"name": "reveal nearby bonus resources",
@@ -188,13 +188,13 @@
 		"notification": "A [Worker] has joined us!",
 		"weight": 0,
 		"uniques": ["Free [Worker] found in the ruins"],
-		"excludedDifficulties": ["Tourist", "Settler", "Chieftain", "Warlord", "Prince", "King", "Emperor", "Immortal", "Deity"]
+		"excludedDifficulties": ["Tourist", "Settler", "Chieftain", "Warlord", "Prince", "King", "Emperor", "Immortal", "Deity", "Sandbox"]
 	},
 	{
 		"name": "squatters wishing to settle under your rule",
 		"notification": "A [Civilian Convoy] has joined us!",
 		"weight": 0,
 		"uniques": ["Free [Civilian Convoy] found in the ruins"],
-		"excludedDifficulties": ["Tourist", "Settler", "Chieftain", "Warlord", "Prince", "King", "Emperor", "Immortal", "Deity"]
+		"excludedDifficulties": ["Tourist", "Settler", "Chieftain", "Warlord", "Prince", "King", "Emperor", "Immortal", "Deity", "Sandbox"]
 	}
 ]

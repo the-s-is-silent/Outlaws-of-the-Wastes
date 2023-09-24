@@ -155,7 +155,8 @@
 		"uniques": ["Enables construction of [Colony Ship Part] units",
 			"[+50]% Production when constructing [Aerospace Facility] buildings [in all cities]",
 			"Triggers a global alert upon completion",
-			"Hidden when [Colonization] Victory is disabled"],
+			"Hidden when [Colonization] Victory is disabled",
+			"Cannot be hurried"],
 		"requiredTech": "Rocketry",
 		"quote": "If we pull this off, it will be a wonder unlike anything else man has ever created... the last wonder we'll ever build on Earth.",
 		"civilopediaText": [{ "text": "If we pull this off, it will be a wonder unlike anything else man has ever created... the last wonder we'll ever build on Earth." }]
@@ -290,6 +291,18 @@
 		"requiredTech": "Flight"
 	},
 	{
+		"name": "Alternet Cafe",
+		"culture": 3,
+		"happiness": 1,
+		"specialistSlots": {"Administrator": 1},
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Culture, +1 Happiness] per [10] population [in this city] <when above [0] [Power]>",
+			"[+1 Culture, +1 Happiness] [in this city] <after discovering [Social Engineering]>",
+			"Consumes [1] [Power]"],
+		"requiredTech": "Networking"
+	},
+	{
 		"name": "Tidal Array",
 		"requiredBuilding": "Tidal Plant",
 		"requiredResource": "Aluminum",
@@ -318,7 +331,7 @@
 		"name": "Restored Temple of Zion",
 		"isWonder": true,
 		"uniqueTo": "Deseret2",
-		"cost": 1,
+		"cost": 0,
 		"faith": 2,
 		"culture": 1,
 		"happiness": 1,
@@ -373,6 +386,8 @@
 		"name": "Disciplinary Council",
 		"replaces": "Prison Camp",
 		"uniqueTo": "Deseret2",
+		"faith": 1,
+		"happiness": 1,
 		"maintenance": 2,
 		"cost": 20,
 		"uniques": ["[+25]% Natural religion spread [in this city]",
@@ -505,7 +520,7 @@
 		"isWonder": true,
 		"culture": 2,
 		"happiness": 1,
-		"cost": 1,
+		"cost": 0,
 		"uniques": ["[+6 Culture] [in this city] <after discovering [Flight]>",
 			"[+10]% [Production] when constructing [All] units [in this city]",
 			"[2] free [Knight] units appear",
@@ -608,7 +623,7 @@
 		"uniqueTo": "The Harbingers",
 		"food": 2,
 		"culture": 2,
-		"cost": 1,
+		"cost": 0,
 		"isWonder": true,
 		"uniques": ["[-10]% Unhappiness from [Population] [in all cities]",
 			"Free [Educational Officer] appears",
@@ -964,14 +979,40 @@
 		"civilopediaText": [{ "text": "To a man with a hammer, everything looks like a nail." }]
 	},
 	{
+		"name": "Ally with Isolationists",
+		"happiness": 2,
+		"isNationalWonder": true,
+		"uniques": ["Must have an owned [Isolated Island] within [3] tiles",
+			"[+3 Science, +3 Gold, +2 Culture] from [Isolated Island] tiles [in this city]",
+			"Unbuildable <if [Annex Isolationists] is constructed>"]
+	},
+	{
+		"name": "Annex Isolationists",
+		"isNationalWonder": true,
+		"requiredTech": "Sailing",
+		"cost": 200,
+		"happiness": -1,
+		"culture": -2,
+		"uniques": ["Must have an owned [Isolated Island] within [3] tiles",
+			"[+2 Food, +5 Gold] from [Isolated Island] tiles [in all cities]",
+			"Provides [2] [Weapons]",
+			"Provides [2] [Slaves]",
+			"Unbuildable <if [Ally with Isolationists] is constructed>"],
+		"civilopediaText": [
+			{
+				"text": "Ephialtes the son of Eurydemos, a Malian, came to speech with him, supposing that he would win a very great reward from the king; and this man told him of the path which leads over the mountain to Thermopylae, and brought about the destruction of those Greeks who remained in that place."
+			}
+		]
+	},
+	{
 		"name": "Faust Project",
 		"percentStatBonus": {"science": 20},
 		"isWonder": true,
 		"uniques": ["Must have an owned [Missile Complex] within [3] tiles",
 			"[+20]% Production when constructing [Manhattan Project] wonders [in all cities]",
 			"[+20]% Production when constructing [Nuclear Weapon] units [in all cities]",
-			"[+2 Production, +5 Science] from [Missile Complex] tiles [in all cities]",
-			"Provides [2] [Uranium]"],
+			"[+2 Production, +4 Science] from [Missile Complex] tiles [in all cities]",
+			"Provides [4] [Uranium]"],
 		"requiredTech": "Writing",
 		"quote": "Our legends tell of weapons, wielded by kings of old; crafted by evil wizards, unholy to behold...",
 		"civilopediaText": [
@@ -986,8 +1027,25 @@
 		"isNationalWonder": true,
 		"requiredTech": "Writing",
 		"uniques": ["Must have an owned [Nuclear Waste Storage] within [3] tiles",
-			"[+1 Culture, +3 Science] from [Nuclear Waste Storage] tiles [in this city]",
+			"[+2 Culture, +4 Science] from [Nuclear Waste Storage] tiles [in this city]",
 			"Unbuildable <if [Excavate Nuclear Waste] is constructed>"]
+	},
+	{
+		"name": "Excavate Nuclear Waste",
+		"isWonder": true,
+		"happiness": -1,
+		"percentStatBonus": {"food": -10},
+		"requiredTech": "Mining",
+		"uniques": ["Must have an owned [Nuclear Waste Storage] within [3] tiles",
+			"[+3 Production, +4 Science] from [Nuclear Waste Storage] tiles [in all cities]",
+			"Provides [5] [Uranium]",
+			"Unbuildable <if [Nuclear Waste Museum] is constructed>"],
+		"quote": "Sending this message was important to us.\nWe considered ourselves to be a powerful culture.\nThis place is not a place of honor... no highly esteemed deed is commemorated here... nothing valued is here.\nWhat is here was dangerous and repulsive to us.\nThis message is a warning about danger.\nThe danger is still present, in your time, as it was in ours.",
+		"civilopediaText": [
+			{
+				"text": "Sending this message was important to us.\nWe considered ourselves to be a powerful culture.\nThis place is not a place of honor... no highly esteemed deed is commemorated here... nothing valued is here.\nWhat is here was dangerous and repulsive to us.\nThis message is a warning about danger.\nThe danger is still present, in your time, as it was in ours."
+			}
+		]
 	},
 	{
 		"name": "Produce Soft Drinks",
@@ -995,7 +1053,7 @@
 		"requiredTech": "Steam Power",
 		"uniques": ["Must have an owned [Soft Drinks Factory] within [3] tiles",
 			"Provides [3] [Soft Drinks]",
-			"[+3 Culture, +1 Gold, +1 Happiness] from [Soft Drinks Factory] tiles [in all cities]",
+			"[+1 Gold, +3 Culture, +3 Happiness] from [Soft Drinks Factory] tiles [in all cities]",
 			"Empire enters golden age",
 			"Consumes [1] [Power]"]
 	},
@@ -1004,7 +1062,7 @@
 		"requiredTech": "Engineering",
 		"isWonder": true,
 		"uniques": ["Must have an owned [Army Depot] within [3] tiles",
-			"[+1 Science, +3 Production] from [Army Depot] tiles [in all cities]",
+			"[+1 Science, +4 Production] from [Army Depot] tiles [in all cities]",
 			"[+25]% Production when constructing [Armor] units [in this city]",
 			"Provides [2] [Weapons]",
 			"Provides [1] [Oil]",
@@ -1039,7 +1097,8 @@
 		"percentStatBonus": {"production": 20},
 		"uniques": ["Must have an owned [Hydroelectric Dam] within [3] tiles",
 			"[+2 Production, +2 Gold, +1 Science] from [Hydroelectric Dam] tiles [in all cities]",
-			"Provides [8] [Power]"],
+			"Provides [8] [Power]",
+			"Provides [4] [Power] <after discovering [Computers]>"],
 		"quote": "At full capacity, these turbines were able to provide clean electricity for 31,052 homes, offsetting up to 51,997 tons of CO2 each year.",
 		"civilopediaText": [
 			{
@@ -1069,12 +1128,29 @@
 		"requiredTech": "Writing",
 		"uniques": [
 			"Must have an owned [Space Station Wreckage] within [3] tiles",
-			"[+5 Science, +2 Culture, +2 Production] from [Space Station Wreckage] tiles [in all cities]"
+			"[+4 Science, +2 Culture, +2 Production] from [Space Station Wreckage] tiles [in all cities]"
 		],
 		"quote": "Everything in space obeys the laws of physics. If you know these laws, and obey them, space will treat you kindly. And don't tell me that man doesn't belong out there. Man belongs wherever he wants to go - and he'll do plenty well when he gets there.",
 		"civilopediaText": [
 			{
 				"text": "Everything in space obeys the laws of physics. If you know these laws, and obey them, space will treat you kindly. And don't tell me that man doesn't belong out there. Man belongs wherever he wants to go - and he'll do plenty well when he gets there."
+			}
+		]
+	},
+	{
+		"name": "Mining Operation",
+		"isWonder": true,
+		"percentStatBonus": {"production": 15},
+		"requiredTech": "Mining",
+		"uniques": [
+			"[+5 Production, +1 Science] from [Mining Pit] tiles [in all cities]",
+			"Must have an owned [Mining Pit] within [3] tiles",
+			"Unbuildable <if [Pit of Sacrifice] is constructed>"
+		],
+		"quote": "There is, of course, a gold mine or a buried treasure on every mortgaged homestead. Whether the farmer ever digs for it or not, it is there, haunting his daydreams when the burden of debt is most unbearable.",
+		"civilopediaText": [
+			{
+				"text": "There is, of course, a gold mine or a buried treasure on every mortgaged homestead. Whether the farmer ever digs for it or not, it is there, haunting his daydreams when the burden of debt is most unbearable."
 			}
 		]
 	},
@@ -1212,6 +1288,78 @@
 		"requiredTech": "Engineering"
 	},
 	{
+		"name": "Content Farm",
+		"science": 3,
+		"uniques": [
+			"Provides [1] [Data]",
+			"Consumes [1] [Power]",
+			"Only available <after adopting [Monopoly]>",
+			"Only available <in cities with a [Broadcast Tower]>"
+		],
+		"requiredTech": "Computers"
+	},
+	{
+		"name": "Software Lab",
+		"uniqueTo": "Hexlock",
+		"replaces": "Content Farm",
+		"science": 3,
+		"percentStatBonus": {"science": 10},
+		"uniques": [
+			"Provides [1] [Data]",
+			"Consumes [1] [Power]",
+			"Only available <after adopting [Monopoly]>",
+			"Only available <in cities with a [Broadcast Tower]>"
+		],
+		"requiredTech": "Computers"
+	},
+	{
+		"name": "Resource Management Server",
+		"uniqueTo": "Blackwarden",
+		"replaces": "Content Farm",
+		"science": 3,
+		"percentStatBonus": {"gold": 10},
+		"uniques": [
+			"Provides [1] [Data]",
+			"Consumes [1] [Power]",
+			"Only available <after adopting [Monopoly]>",
+			"Only available <in cities with a [Broadcast Tower]>"
+		],
+		"requiredTech": "Computers"
+	},
+	{
+		"name": "Electronics Production Line",
+		"uniques": [
+			"Provides [1] [Electronics]",
+			"Consumes [1] [Power]",
+			"Only available <after adopting [Monopoly]>",
+			"Only available <in cities with a [Factory]>",
+			"[-10]% Unhappiness from [Population] [in this city]"
+		],
+		"requiredTech": "Electronics"
+	},
+	{
+		"name": "Machinery Production Line",
+		"percentStatBonus": {"production": 10},
+		"uniques": [
+			"Provides [1] [Machine Parts]",
+			"Consumes [1] [Power]",
+			"Only available <after adopting [Monopoly]>",
+			"Only available <in cities with a [Factory]>"
+		],
+		"requiredTech": "Replaceable Parts"
+	},
+	{
+		"name": "Publishing House",
+		"culture": 3,
+		"uniques": [
+			"Provides [1] [Books]",
+			"Consumes [1] [Power]",
+			"Only available <after adopting [Monopoly]>",
+			"Only available <in cities with a [Factory]>"
+		],
+		"requiredTech": "Manufacturing"
+	},
+	{
 		"name": "Heat Plant", //no longer a Hexlock UB
 		"hurryCostModifier": 25,
 		"uniques": ["Must have an owned [Fissure] within [3] tiles",
@@ -1226,20 +1374,34 @@
 		"culture": 2,
 		"requiredNearbyImprovedResources": ["Data"],
 		"greatPersonPoints": {"Great Administrator": 2},
-		"uniques": ["Consumes [1] [Power]"],
+		"uniques": ["[+2 Culture] from [Data] tiles [in this city]",
+			"Consumes [1] [Power]"],
 		"requiredTech": "Networking"
+	},
+	{
+		"name": "Ranch",
+		"requiredNearbyImprovedResources": ["Cattle", "Goats", "Furs", "Hogs", "Horses"],
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Food] from [Cattle] tiles [in this city]",
+			"[+1 Food] from [Insects] tiles [in this city]",
+			"[+1 Food] from [Goats] tiles [in this city]",
+			"[+1 Food] from [Furs] tiles [in this city]",
+			"[+1 Food] from [Hogs] tiles [in this city]",
+			"[+1 Food] from [Horses] tiles [in this city]"
+		],
+		"requiredTech": "Redomestication"
 	},
 	{
 		"name": "Hospital",
 		"maintenance": 3,
 		"hurryCostModifier": 0,
 		"requiredTech": "Biology",
-		"uniques": [
-			"[30]% Food is carried over after population increases [in this city]",
+		"uniques": ["[30]% Food is carried over after population increases [in this city]",
 			"All newly-trained [Personnel] units [in this city] receive the [Medic I] promotion",
 			"[+1 Food] [in this city] <with [Harvested Organs]>",
-			"Consumes [1] [Power]"
-		]
+			"Consumes [1] [Power]"]
 	},
 	{
 		"name": "Pre-Med Lab",
@@ -1464,6 +1626,140 @@
 		"specialistSlots": {"Merchant": 1},
 		"requiredTech": "Atmosphere Remediation",
 		"uniques": ["[+1 Gold] from [Moisture trap] tiles [in this city]"]
+	},
+	{
+		"name": "Library",
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Science] per [2] population [in this city]",
+			"[+1 Science] [in this city] <when above [0] [Power]>",
+			"[+2 Science] from [Books] tiles [in this city]",
+			"Enables construction of [Power] buildings"
+		],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Record Grid",
+		"replaces": "Library",
+		"uniqueTo": "Hexlock",
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Science, +1 Happiness] [in this city] <when above [0] [Power]>",
+			"[+1 Science] per [2] population [in this city]",
+			"[+2 Science] from [Books] tiles [in this city]",
+			"Free [Field Scientist] appears",
+			"Enables construction of [Power] buildings"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Information Market",
+		"replaces": "Library",
+		"uniqueTo": "Deadrock Clan",
+		"gold": 1,
+		"science": 1,
+		"uniques": ["[+1 Science, +1 Gold] [in this city] <when above [0] [Power]>",
+			"[+1 Science] per [2] population [in this city]",
+			"[+2 Science] from [Books] tiles [in this city]",
+			"Enables construction of [Power] buildings"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Study",
+		"replaces": "Library",
+		"uniqueTo": "Crimson Legion",
+		"science": 1,
+		"uniques": ["[+1 Science] per [2] population [in this city]",
+			"[+2 Science] from [Books] tiles [in this city]",
+			"Enables construction of [Power] buildings"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Sanctum",
+		"replaces": "Library",
+		"uniqueTo": "Cult of Ignis",
+		"culture": 1,
+		"science": 1,
+		"uniques": ["[+1 Science, +1 Faith] [in this city] <when above [0] [Power]>",
+			"[+2 Science] from [Books] tiles [in this city]",
+			"[+1 Science] per [3] population [in this city]",
+			"Enables construction of [Power] buildings"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Public School",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Science] per [2] population [in this city]",
+			"[+1 Science] [in this city] <when above [0] [Power]>",
+			"Only available <in cities with a [Library]>"],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Clubhouse",
+		"replaces": "Public School",
+		"uniqueTo": "Deadrock Clan",
+		"gold": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Enables construction of [Clansman] units",
+			"[+1 Science] per [2] population [in this city]",
+			"[+1 Science] [in this city] <when above [0] [Power]>",
+			"[+20]% Production when constructing [Military] units [in this city]",
+			"Only available <in cities with a [Library]>"],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Military School",
+		"replaces": "Public School",
+		"uniqueTo": "Crimson Legion",
+		"production": 1,
+		"science": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Science] per [2] population [in this city]",
+			"[+15]% Production when constructing [Military] units [in this city]",
+			"New [Military] units start with [15] Experience [in this city]",
+			"Only available <in cities with a [Barracks]>"],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Initiate School",
+		"replaces": "Public School",
+		"uniqueTo": "Cult of Ignis",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Science] per [2] population [in this city]",
+			"[+1 Science, +1 Culture, +1 Faith] [in this city] <when above [0] [Power]>",
+			"New [Armor] units start with [15] Experience [in this city]",
+			"Only available <in cities with a [Sanctum]>"],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Data Center",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"science": 5,
+		"specialistSlots": {"Scientist": 2},
+		"requiredTech": "Networking",
+		"uniques": ["[+2 Science] from [Data] tiles [in this city]",
+			"[+2 Science] from [Encrypted Data] tiles [in this city]",
+			"Consumes [1] [Power]"]
+	},
+	{
+		"name": "Encoding Center",
+		"replaces": "Data Center",
+		"uniqueTo": "Hexlock",
+		"maintenance": 2,
+		"cost": 550,
+		"hurryCostModifier": 25,
+		"science": 8,
+		"specialistSlots": {"Scientist": 2},
+		"requiredTech": "Networking",
+		"uniques": ["[+2 Science] from [Data] tiles [in this city]",
+			"[+2 Science] from [Encrypted Data] tiles [in this city]",
+			"Provides [1] [Encrypted Data]",
+			"Consumes [1] [Power]"]
 	},
 	{
 		"name": "Walls",
@@ -1759,7 +2055,8 @@
 		"culture": 2,
 		"cost": 40,
 		"hurryCostModifier": 40,
-		"uniques": ["New [Military] units start with [15] Experience [in this city]"]
+		"uniques": ["New [Military] units start with [15] Experience [in this city]",
+			"[+1 Happiness] [in this city] <when at war>"]
 	},
 	{
 		"name": "Crucifixion Fields",
@@ -1803,15 +2100,14 @@
 		"civilopediaText": [{ "text": "Be thy hands, anointed, with holy oil.\nBe thy breast, anointed, with holy oil.\nBe thy head, anointed, with holy oil.\nAs kings, priests, and prophets were anointed.\nAnd as Solomon was anointed king by Zadok the priest and Nathan the prophet, so be thee anointed." }]
 	},
 	{
-		"name": "Record Grid",
-		"replaces": "Library",
+		"name": "Experiment on Survivors",
+		"replaces": "Search for Survivors",
 		"uniqueTo": "Hexlock",
-		"hurryCostModifier": 25,
-		"uniques": ["[+1 Science, +1 Happiness] [in this city] <when above [0] [Power]>",
-			"[+1 Science] per [3] population [in this city]",
+		"cost": 40,
+		"isNationalWonder": true,
+		"uniques": ["[+2] population [in capital]",
 			"Free [Field Scientist] appears",
-			"Enables construction of [Power] buildings"],
-		"requiredTech": "Writing"
+			"Can only be built [in capital]"]
 	},
 	{
 		"name": "Stormfront Center",
@@ -1956,9 +2252,9 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Medic II] promotion",
-			"[+1 Science, +1 Culture] per [3] population [in this city]",
-			"Only available <in cities with a [Hospital]>",
-			"[+1 Culture] [in this city] <when above [0] [Power]>"],
+			"[+1 Science] per [2] population [in this city]",
+			"[+1 Science, +1 Happiness] [in this city] <when above [0] [Power]>",
+			"Only available <in cities with a [Hospital]>"],
 		"requiredTech": "Civil Service"
 	},
 	{
@@ -2146,6 +2442,16 @@
 		"requiredTech": "Manufacturing"
 	},
 	{
+		"name": "Central Press Service",
+		"uniqueTo": "Almaty",
+		"requiredBuilding": "Defense Directorate",
+		"cost": 0,
+		"uniques": ["Provides [1] [Newspaper]",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"],
+		"requiredTech": "Civil Service"
+	},
+	{
 		"name": "Totem Pole",
 		"uniqueTo": "Issaquah Nation",
 		"replaces": "Monument",
@@ -2290,6 +2596,22 @@
 			"Provides [1] [Advanced Fabrics]",
 			"Consumes [1] [Power]"],
 		"requiredTech": "Advanced Materials"
+	},
+	{
+		"name": "Research and Preservation Institute",
+		"uniqueTo": "The Pax",
+		"percentStatBonus": {"science": 33},
+		"cost": 0,
+		"replacementTextForUniques": "Receive a free Persevering Pax Researcher upon construction, and again each time you advance to a new technological era starting at the Industrial era. Preservators provide +1 Science and Culture, increasing to +2 upon reaching the Industrial era.",
+		"uniques": ["Free [Persevering Pax Researcher] appears",
+			"Free [Persevering Pax Researcher] appears <upon entering the [Industrial era]>",
+			"Free [Persevering Pax Researcher] appears <upon entering the [Postmodern era]>",
+			"Free [Persevering Pax Researcher] appears <upon entering the [Information era]>",
+			"Free [Persevering Pax Researcher] appears <upon entering the [New Future era]>",
+			"[+1 Science, +1 Culture] from every [Preservator]",
+			"[+1 Science, +1 Culture] from every [Preservator] <starting from the [Industrial era]>",
+			"Unsellable",
+			"Never destroyed when the city is captured"]
 	},
 	{
 		"name": "Revival Chambers",

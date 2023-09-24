@@ -53,6 +53,7 @@
 		"uniques": [
 			"Provides [1] [Power]",
 			"Provides [1] [Power] <after adopting [Weather Engineering]>",
+			"[+1 Production] <after discovering [Plastics]>",
 			"[+1 Production] <after discovering [Atmosphere Remediation]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -66,6 +67,7 @@
 			"Provides [1] [Power]",
 			"Provides [1] [Power] <after adopting [Weather Engineering]>",
 			"[+1 Production] from [Water] tiles <after discovering [Ocean Remediation]>",
+			"[+1 Production] <after discovering [Plastics]>",
 			"[+1 Production] <after discovering [Atmosphere Remediation]>",
 			"Cannot be built on [Water] tiles <before discovering [Oceanography]>",
 			"Can only be built to improve a resource",
@@ -75,7 +77,7 @@
 	},
 	{
 		"name": "Grassland",
-		"terrainsCanBeBuiltOn": ["Badlands","Swamp"],
+		"terrainsCanBeBuiltOn": ["Badlands", "Swamp"],
 		"turnsToBuild": 10,
 		"food": 3,
 		"techRequired": "Land Remediation",
@@ -87,7 +89,7 @@
 			"Cannot be built on [Permafrost] tiles",
 			"Cannot be built on [Desert] tiles <before discovering [Geo Engineering]>",
 			"[+1 Food] <with [1] to [6] neighboring [Tree plantation] tiles>",
-			"[+2 Culture] <with [1] to [6] neighboring [Nature preserve] tiles>",
+			"[+1 Culture] <with [1] to [6] neighboring [Nature preserve] tiles>",
 			"[+1 Gold] <with [1] to [6] neighboring [Artificial oasis] tiles>",
 			"[+1 Production] <with [1] to [6] neighboring [Terrace farm] tiles>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
@@ -240,6 +242,53 @@
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]"]
 	},
+	{
+		"name": "Preservator",
+		"culture": 1,
+		"science": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Tile provides yield without assigned population",
+			"Ensures a minimum tile yield of [+1 Production]",
+			"[+2 Food, +2 Gold] <in [Fallout] tiles>",
+			"[+2 Food, +2 Gold] <in [Toxic Waste] tiles>",
+			"[+1 Culture, +1 Science] <after discovering [Education]>",
+			"[+1 Production] <after discovering [Laboratory]>",
+			"[+2 Science] <after discovering [Decryption]>",
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"Does not need removal of [Toxic Waste]",
+			"Does not need removal of [Fallout]",
+			"Provides [1] [Coal] <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fallout]>",
+			"Provides [1] [Artifacts] <in [Jungle] tiles> <in [Wasteland] tiles>",
+			"Provides [1] [Electronics] <in [Jungle] tiles> <in [Badlands] tiles>",
+			"Provides [1] [Machine Parts] <in [Jungle] tiles> <in [Tundra] tiles>",
+			"Provides [1] [Artifacts] <in [Jungle] tiles> <in [Desert] tiles>",
+			"Provides [1] [Machine Parts] <in [Jungle] tiles> <in [Permafrost] tiles>",
+			"Provides [1] [Aluminum] <in [Featureless] [Permafrost] tiles>",
+			"Provides [1] [Oil] <in [Featureless] [Tundra] tiles>",
+			"Cannot be built on [Water] tiles",
+			"Cannot be built on [Grain] tiles",
+			"Cannot be built on [Tubers] tiles",
+			"Cannot be built on [Metal] tiles",
+			"Cannot be built on [Insects] tiles",
+			"Cannot be built on [Horses] tiles",
+			"Cannot be built on [Oil] tiles",
+			"Cannot be built on [Weapons] tiles",
+			"Cannot be built on [Power] tiles",
+			"Cannot be built on [Coal] tiles",
+			"Cannot be built on [Aluminum] tiles",
+			"Cannot be built on [Uranium] tiles",
+			"Cannot be built on [Cattle] tiles",
+			"Cannot be built on [Goats] tiles",
+			"Cannot be built on [Deer] tiles",
+			"Cannot be built on [Furs] tiles",
+			"Cannot be built on [Hostile Fauna] tiles",
+			"Cannot be built on [Hogs] tiles",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	}
 
 	//Hexlock Refineries
 	{

@@ -254,14 +254,14 @@
 		"name": "Religious Troubadours",
 		"type": "Enhancer",
 		"uniques": ["[+3 Faith] from each Trade Route",
-			"[+34]% Natural religion spread [in all cities connected to capital]",
+			"[+50]% Natural religion spread [in all cities connected to capital]",
 			"Only available <before adopting [Religious Unity]>",
 			"Only available <before adopting [The Radiant City]>"]
 	},
 	{
 		"name": "Religious Unity",
 		"type": "Enhancer",
-		"uniques": ["[+67]% Natural religion spread [in City-State cities]",
+		"uniques": ["[+100]% Natural religion spread [in City-State cities]",
 			"Resting point for Influence with City-States following this religion [+15]",
 			"Only available <before adopting [Religious Troubadours]>",
 			"Only available <before adopting [The Radiant City]>"]
@@ -269,7 +269,7 @@
 	{
 		"name": "The Radiant City",
 		"type": "Enhancer",
-		"uniques": ["[+67]% Natural religion spread [in capital]",
+		"uniques": ["[+100]% Natural religion spread [in capital]",
 			"Only available <before adopting [Religious Troubadours]>",
 			"Only available <before adopting [Religious Unity]>"]
 	},
@@ -300,15 +300,14 @@
 	{
 		"name": "Art of War",
 		"type": "Enhancer",
-		"uniques": ["May buy [{Military} {Land}] units with [Faith] for [3] times their normal Production cost",
+		"uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost",
 			"Only available <after adopting [Theocracy Complete]>"]
 	},
 	{
 		"name": "Atomic Judgment",
 		"type": "Enhancer",
 		"uniques": ["Provides [2] [Uranium]",
-			"[+20]% Strength <for [Warhead Truck] units> <when attacking>",
-			"[+20]% Strength <for [Missile] units> <when attacking>",
+			"[+20]% Strength <for [Nuclear Weapon] units> <when attacking>"
 			"Only available <after adopting [Theocracy Complete]>"]
 	},
 	{

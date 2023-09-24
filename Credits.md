@@ -1,14 +1,16 @@
 # Credits
 
 Like the status of the mod as a whole as well as DeCiv Redux's credit list, this is incomplete.<br>
-Pixel art will most likely reuse other sources (several of them from DeCiv, Drydock from Rekmod) for the initial upload. Floating Settlements and Wasteland Stations borrow the Biodome City and Mining Camp images from Alpha Frontier, with permission from [Indonesian Gentleman](https://github.com/carriontrooper).<br>
+Pixel art will most likely reuse other sources (several of them from DeCiv, Drydock from Rekmod) for the initial upload.<br>
+Floating Settlements and Wasteland Stations borrow the Biodome City and Mining Camp images from Alpha Frontier, with permission from [Indonesian Gentleman](https://github.com/carriontrooper).<br>
+Preservator is borrowed from [Bamboolord](https://github.com/RealBamboolord) with his permission.<br>
 Some of the icons reuse unsourced images used in either Unciv or DeCiv Redux.<br>
 The Religion Icons for Anglicanism, Imperial Cult and Mormonism were created by Tomatekh on CivFanatics and can be found [at the Civ 5 Customization Wiki's entry on the Tomatekh's Historical Religions mod](https://civilization-v-customisation.fandom.com/wiki/Tomatekh%27s_Historical_Religions).<br>
 The icon for Alma State Guard is of my own creation.
 
 Unless otherwise specified, all of the following are from the Noun Project, licensed under Creative Commons or Public Domain. Also, if anyone feels like there is a better/more fitting icon out there for any particular building/unit/etc. than the one that is used, I am open to suggestions for replacement icons.
 
-Items still missing an icon (not necessary a complete list): Atomgrad Project, Defense Directorate (and its replacements), Drifter, Exploratores, Key to the City, Mounted Railgun, Pridwen-class, Rapid Response Squad, SS Casing, SS Life Support, State Guard, Super Mutant, Tribal Unification Initiative
+Items still missing an icon (not necessarily a complete list): Alma Frontier Guard, Alma Honor Guard, Alternet Cafe, Atomgrad Project, Defense Directorate (and its replacements), Drifter, Exploratores, Key to the City, Mounted Railgun, Opolcheniye, Pogost, Pridwen-class, Rapid Response Squad, SS Casing, SS Life Support, State Guard, Super Mutant, Tribal Unification Initiative
 
 ### Building Icons
 - Abbey: [Westminster Abbey](https://thenounproject.com/icon/westminster-abbey-5459042/) by Brickclay, PK
@@ -103,6 +105,7 @@ Items still missing an icon (not necessary a complete list): Atomgrad Project, D
 - Conquer Terrain: [atv tire](https://thenounproject.com/icon/atv-tire-378331/) by Martin Hofmann
 - Healing Hands: [medical symbol](https://thenounproject.com/icon/medical-symbol-1017634/) by IconTrack
 - Heroic Resolve: [hero shield](https://thenounproject.com/icon/hero-shield-4533534/) by Made x Made, AU
+- Line Brawl: [fighting](https://thenounproject.com/icon/fighting-2717946/) by Vectors Point, PK
 - Oath of Vengeance: [Swear On Bible](https://thenounproject.com/icon/swear-on-bible-158489/) by Wolf Böse
 - Prospector: [prospector hat](https://thenounproject.com/icon/prospector-hat-1105355/) by Clément Branger
 - Sea Raider: Same icon as Advanced Piracy

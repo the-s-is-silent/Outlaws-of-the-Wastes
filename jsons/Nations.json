@@ -110,11 +110,9 @@
 			"[Gold] cost of purchasing items in cities [-20]%",
 			"[-33]% Production when constructing [Military] units [in all cities]",
 			"[-67]% Gold from Great Merchant trade missions",
-			"Cannot build [Civilian Convoy] units",
 			"Unhappiness from number of Cities doubled"],
-			//Should gain the Venetian ability to purchase items in puppeted cities, as well as the Venetian ban on annexing cities, once BNW content is implemented
-		"cities": ["Vodagrad", "Prava", "Nevesk", "Kyovashad"],
-		//might expand the city list later in the event of reworks to Deciv and/or additions to expansion mods that would enable them to found more than three cities
+		"cities": ["Vodagrad", "Prava", "Nevesk", "Kyovashad", "Prekrasnaya", "Zapolyarny", "Ubezhishche", "Nostrava",
+			"Margrave", "Yelesna", "Menestad"],
 		"spyNames": ["Sergey", "Iosef", "Leonid", "Mikhail", "Tatiana", "Veronika", "Alexei", "Anastasia", "Nikita", "Fyodor"],
 		"civilopediaText": [
 			{
