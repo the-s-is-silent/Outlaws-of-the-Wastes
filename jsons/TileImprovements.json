@@ -172,6 +172,7 @@
 	{
 		"name": "Research site",
 		"turnsToBuild": 7,
+		"science": 1,
 		"techRequired": "Secrets of the Past",
 		"uniques": [
 			"Does not need removal of [Forest]",
