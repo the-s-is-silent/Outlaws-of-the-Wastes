@@ -20,7 +20,7 @@ Building Changes:
 	- Content Farm (and replacements): +3 Science, but no longer adds Culture
 	- Electronics Production Line: -10% Unhappiness from population in the owning city
 	- Machinery Production Line: +10% Production
-	- Publishing House: +3 Culture
+	- Publishing House: +2 Culture
 - Arcology Dome buffed to +250 City HP and +33% Water, but requires the city to be of size 20 or higher (or will once that base game bug is fixed).
 - Carbon Capture no longer adds stats to Grasslands; it instead adds +1 Food/Production to Tree plantations and it consumes Power to build.
 - Production building adjustments:
@@ -39,7 +39,7 @@ Building Changes:
 - Science building adjustments:
 	- Library (and replacements) add +2 Science to Books tiles instead of +1 Science, +1 Culture.
 	- Public School (and replacements) no longer add Culture and count every 2 population instead of every 3 for their scaling Science boost.
-	- Data Center severely nerfed; it only adds +5 Science instead of +50% to the city's total Science yields (Hexlock's replacement adds +8 base instead of +65% total).
+	- Data Center severely nerfed; it only adds +5 Science instead of +50% to the city's total Science yields (Hexlock's replacement adds +8 base instead of +65% total), and no longer adds Culture to Data and Encrypted Data tiles, adding +2 Science instead of +1 to those tiles.
 
 Wonder Changes
 (Several of these are mostly due to Wonders not obeying their proper behavior - in Unciv, they *can* be rebuilt after razing the city they're in, which should not be possible. However, it is unlikely I will revert most of the nerfs to wonders that were made because of this bug enabling exploits with the old effects.)

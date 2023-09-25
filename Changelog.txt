@@ -118,7 +118,7 @@ Changes since the Harbinger update
 - Science building adjustments:
     - Libraries (and all base scenario replacements) no longer add Culture to Books tiles, but add +2 Science instead of +1 to those tiles. All faction replacements now keep this bonus instead of just the Ignis replacement.
     - Public Schools (and replacements) no longer add Culture, and count every 2 population for Science instead of every 3.
-    - Data Center nerfed to +5 Science instead of +50% Science (Hexlock's Encoding Center gives +8 instead of +65%). It also loses the Culture bonus to Data/Encrypted Data tiles, but adds an extra point of Science to those tiles and an extra Scientist slot to compensate.
+    - Data Center nerfed to +5 Science instead of +50% Science (Hexlock's Encoding Center gives +8 instead of +65%). It also loses the Culture bonus to Data/Encrypted Data tiles, but adds an extra point of Science to those tiles.
 - Tidal Array adjusted to gate 2 units of power behind Geo Engineering, but add +1 Production to Artificial atolls and Floating Settlements worked by the city and +2 Production to oceanic Wind farms.
 - Almaty CS UBs: Alma Air Base/Tank Depot now double production for their respective units.
 - Defiance CS UBs: Lawkeeper Office now replaces the Town Hall and gives them +3 Happiness (+4 if they have Power), an extra Administrator slot, and more Production towards Personnel units, but they have to wait a bit now to build it.

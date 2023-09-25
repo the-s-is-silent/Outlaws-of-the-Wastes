@@ -292,12 +292,11 @@
 	},
 	{
 		"name": "Alternet Cafe",
-		"culture": 3,
-		"happiness": 1,
-		"specialistSlots": {"Administrator": 1},
-		"maintenance": 2,
+		"culture": 2,
+		"happiness": 2,
+		"maintenance": 3,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Culture, +1 Happiness] per [10] population [in this city] <when above [0] [Power]>",
+		"uniques": ["[+1 Culture] per [10] population [in this city] <when above [0] [Power]>",
 			"[+1 Culture, +1 Happiness] [in this city] <after discovering [Social Engineering]>",
 			"Consumes [1] [Power]"],
 		"requiredTech": "Networking"
@@ -1353,7 +1352,7 @@
 	},
 	{
 		"name": "Publishing House",
-		"culture": 3,
+		"culture": 2,
 		"uniques": [
 			"Provides [1] [Books]",
 			"Consumes [1] [Power]",
@@ -1743,7 +1742,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"science": 5,
-		"specialistSlots": {"Scientist": 2},
+		"specialistSlots": {"Scientist": 1},
 		"requiredTech": "Networking",
 		"uniques": ["[+2 Science] from [Data] tiles [in this city]",
 			"[+2 Science] from [Encrypted Data] tiles [in this city]",
@@ -1757,7 +1756,7 @@
 		"cost": 550,
 		"hurryCostModifier": 25,
 		"science": 8,
-		"specialistSlots": {"Scientist": 2},
+		"specialistSlots": {"Scientist": 1},
 		"requiredTech": "Networking",
 		"uniques": ["[+2 Science] from [Data] tiles [in this city]",
 			"[+2 Science] from [Encrypted Data] tiles [in this city]",
