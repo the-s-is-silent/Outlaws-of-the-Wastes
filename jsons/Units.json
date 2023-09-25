@@ -974,7 +974,7 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Hexlock",
 		"requiredTech": "Writing",
-		"cost": 70,
+		"cost": 120,
 		"movement": 2,
 		"hurryCostModifier": 20,
 		"uniques": [

@@ -55,6 +55,55 @@
 		]
 	},
 	{
+		"name": "Books",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle"],
+		"science": 1,
+		"improvedBy": ["Research site", "Borough", "Preservator"],
+		"improvementStats": { "science": 1 },
+		"uniques": [
+			"Generated with weight [30] <in [Jungle] Regions>",
+			"Generated near City States with weight [10]"
+		]
+	},
+	{
+		"name": "Data",
+		"resourceType": "Luxury",
+		"revealedBy": "Electronics",
+		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
+		"improvedBy": ["Research site", "Borough", "Preservator"],
+		"improvementStats": {"science": 2},
+		"uniques": [
+			"Generated with weight [30] <in [Jungle] Regions>",
+			"Generated with weight [30] <in [Forest] Regions>",
+			"Generated near City States with weight [10]"
+		]
+	},
+	{
+		"name": "Machine Parts",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
+		"improvedBy": ["Salvage site", "Borough", "Preservator"],
+		"improvementStats": {"production": 1},
+		"uniques": [
+			"Generated with weight [30] <in [Jungle] Regions>",
+			"Generated with weight [30] <in [Forest] Regions>",
+			"Generated near City States with weight [10]"
+		]
+	},
+	{
+		"name": "Electronics",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
+		"improvedBy": ["Salvage site", "Borough", "Preservator"],
+		"improvementStats": {"science": 1},
+		"uniques": [
+			"Generated with weight [30] <in [Jungle] Regions>",
+			"Generated with weight [30] <in [Forest] Regions>",
+			"Generated near City States with weight [10]"
+		]
+	},
+	{
 		"name": "Artifacts",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle", "Sunken Ruins"],

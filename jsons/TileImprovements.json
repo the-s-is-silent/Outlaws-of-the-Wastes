@@ -116,6 +116,27 @@
 		"shortcutKey": "T"
 	},
 	{
+		"name": "Borough",
+		"terrainsCanBeBuiltOn": ["Forest", "Jungle"],
+		"turnsToBuild": 15,
+		"techRequired": "Computers",
+		"production": 1,
+		"food": 2,
+		"uniques": [
+			"Food source",
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"[+1 Science] from [Data] tiles",
+			"[+1 Science] from [Electronics] tiles",
+			"[+1 Culture] from [Artifacts] tiles",
+			"[+1 Culture] from [Weapons] tiles",
+			"[+1 Science] <after discovering [Artificial Intelligence]>",
+			"Cannot be built on [Water] tiles",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "H"
+	},
+	{
 		"name": "Artificial atoll",
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"turnsToBuild": 10,
@@ -147,6 +168,20 @@
 			"[+1 Culture] for each adjacent [Artificial atoll]",
 			"Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "S"
+	},
+	{
+		"name": "Research site",
+		"turnsToBuild": 7,
+		"techRequired": "Secrets of the Past",
+		"uniques": [
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"Obsolete with [Computers]",
+			"[+1 Science] <after discovering [Laboratory]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "H"
 	},
 
 	//Great Improvements
@@ -274,12 +309,7 @@
 			"Cannot be built on [Metal] tiles",
 			"Cannot be built on [Insects] tiles",
 			"Cannot be built on [Horses] tiles",
-			"Cannot be built on [Oil] tiles",
-			"Cannot be built on [Weapons] tiles",
-			"Cannot be built on [Power] tiles",
-			"Cannot be built on [Coal] tiles",
-			"Cannot be built on [Aluminum] tiles",
-			"Cannot be built on [Uranium] tiles",
+			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Cattle] tiles",
 			"Cannot be built on [Goats] tiles",
 			"Cannot be built on [Deer] tiles",
@@ -288,7 +318,7 @@
 			"Cannot be built on [Hogs] tiles",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		]
-	}
+	},
 
 	//Hexlock Refineries
 	{

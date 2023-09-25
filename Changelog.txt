@@ -67,7 +67,7 @@ Changes since the Harbinger update
     - Nuclear Waste Museum is now a National Wonder, addressing an issue where it could still be purchased if Excavate Nuclear Waste was built first. It also adds 10% Science and Culture to its city, along with an additional +1 Culture/+3 Science to the ancient wonder tile, adding incentive to build it.
     - Excavate Nuclear Waste is adjusted to be far less punishing: the Food malus to the ancient wonder tile is removed and replaced with +3 Production, and the Food malus from the world wonder itself is cut in half.
     - Ally with Isolationists is now a National Wonder due to the same issue as Nuclear Waste Museum and its cost is now appropriate for an early-game wonder. Furthermore, it adds an extra point of Water/Science and two points of Culture to the Isolated Island, along with two points of Happiness to the city that owns it.
-    - Annex Isolationists buffed to provide an extra copy of Weapons and Slaves. The -1 Culture penalty to the Isolated Island was moved to the world wonder itself.
+    - Annex Isolationists buffed to provide an extra copy of Weapons and Slaves and +1 population to the owning city. The -1 Culture penalty to the Isolated Island was moved to the world wonder itself and increased to -2.
     - Distribute Soft Drinks and Fist of God have been removed from the game.
     - Open the Vault loses the free Great Sage due to the wonder bug; however, it adds +2 Science and an extra +1 Culture/Faith to the Vault of Records. The free Sage will be restored once the bug is fixed.
     - Produce Soft Drinks buffed to add +2 extra Culture to the Soft Drinks Factory.
@@ -76,7 +76,7 @@ Changes since the Harbinger update
     - Turbine Hall buffed to add +2 Production/Water and +1 Science to the Hydroelectric Dam and +20% Production to the city that owns it.
     - Faust Project and Salvage Space Station no longer award free techs due to the bug involving World Wonders; they instead give +20% Science to the owning city and add extra yields to their respective Ancient Wonders (now +4 Science, +2 Production for both, with an additional +2 Culture for the latter) and an extra copy of Uranium for the former.
     - Pit of Sacrifice no longer awards a free Pantheon Belief because of that same bug; it instead kills 1 pop in the city and adds +25% Faith. This one will be reversed once the bug is fixed.
-    - Mining Operation buffed to add an extra point of Production to the Mining Pit, along with 15% Production to the city owning the wonder.
+    - Mining Operation buffed to add an extra point of Production to the Mining Pit, along with +15% Production to the city owning the wonder.
 - Public Broadcast's production cost increased to 500 (was previously a much, much too low 100) and it now requires every non-puppeted city you control to have a Broadcast Tower, not just the city it's built in.
 - Broadcast Network's production cost adjusted to 500 base + 30 per owned city, and now requires every city to have a Television Studio, instead of only needing one in the city it's built in.
 - National College and Grand Monastery's base production cost reduced to 125 (were previously much, much too high, at 300/400 respectively).
@@ -173,10 +173,12 @@ Changes since the Harbinger update
 
 **Tile Improvement Adjustments**
 - Artificial atolls no longer yield Happiness.
+- Boroughs now provide +1 Science on Data/Electronics tiles and +1 Culture on Artifacts/Weapons tiles.
 - Floating Settlements now yield Culture instead of Happiness for each adjacent Artificial atoll.
 - Grasslands severely nerfed; they no longer yield Happiness and their adjacency bonuses from other natural tiles have been heavily curtailed.
 - Outposts and Prison farms receive extra yields (+4 Production for the former atop strategic resources, +1 Production per adjacent Farm and +1 extra Food at Land Remediation for the latter) and provide 1 extra slave each.
 - Refineries have their base yields increased by 1 and gain adjacency bonuses so they're not as utterly useless as they currently are in the base scenario. This is a temporary measure until the entire gimmick for Hexlock is redesigned.
+- Research sites receive an extra +1 Science at Laboratory.
 - Solar collectors and Wind farms provide 1 extra unit of Power if the player chooses Bionics as their ideology and adopts Weather Engineering, and gain +1 Production at Plastics and another +1 at Atmosphere Remediation (Wind farms on Ocean tiles gaining another +1 at Ocean Remediation).
 - Solar collectors also have their construction time reduced to 10 turns (on Standard speed).
 - Terrace farms receive extra food scaling (they now start at 2 base and add 1 with adjacent Farm or Grassland tiles) so they aren't obsoleted by Tree plantations being buildable on Hills.
@@ -228,12 +230,12 @@ Changes since the Harbinger update
 
 **New Units**
 - Great Admirals are added in the form of their present Rekmod implementation. They use the "Is part of Great Person group" unique and do not increase the GPP cost of other Great People.
-- State Guard, a unit exclusive to City-States made in response to the latest update to DeCiv Redux enabling capital razing. Tellus gets a unique version that can plant more trees.
+- State Guard, a unit exclusive to City-States made in response to a hated update to DeCiv Redux that temporarily allowed capital razing.
     - Unique versions (so far):
-        - Almaty: Alma State Guard, with the same combat strength/promotions as NBC Infantry and a combat bonus in friendly territory, so Almaty retains the ability to defend itself from aggressive AI factions in the early-game.
+        - Almaty: Alma State Guard, with the same combat strength/promotions as NBC Infantry and a combat bonus in friendly territory
         - Defiance: Pale Veteran, with the same combat strength as Soldiers and starting with Gas Mask and Drone Recon
         - Hockeytown: Blueliner, which gains extra effectiveness in cold terrain
-        - Tellus: Dendro Mutant, with the same stats as the Gunman instead and can instantly build 2 Tree plantations.
+        - Tellus: Dendro Mutant, with the same stats as Gunmen instead of Militia, and can instantly build 2 Tree plantations
 - Alma Frontier Guard and Alma Honor Guard, Almaty's new replacements for the Scout and Spearman
 - Exploratores, the Legion's replacement for the Scout with increased strength, starts with Sentry, can move after attacking, and has a chance to capture any Barbarians it picks off, but has a higher production cost.
 - Opolcheniye, the Harbingers' replacement for the Militia that's weaker (32 vs. 36) but cheaper to both build (45 vs. 55) and buy, does not consume Weapons resources, and starts with Hazard Pay.
@@ -263,4 +265,4 @@ Changes since the Harbinger update
 - Newspaper, (currently) exclusive to the Almaty CS
 
 **New Tile Improvements**
-- Preservator, borrowed from Bamboolord's expansion mod with his permission and granted to The Pax CS. This GI gains yields from the finisher bonuses of Rationalism and Constitution (+4 Culture/Science during Golden Ages from the former, +2 Culture/Science from the latter)
+- Preservator, borrowed from Bamboolord's expansion mod with his permission, adjusted, and granted to The Pax CS. This GI gains yields from the finisher bonuses of Rationalism and Constitution (+4 Culture/Science during Golden Ages from the former, +2 Culture/Science from the latter)
