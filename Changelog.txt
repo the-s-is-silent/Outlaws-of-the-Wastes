@@ -117,7 +117,7 @@ Changes since the Harbinger update
 - Culture building adjustments:
     - Broadcast Tower now gives 2 Culture, no Happiness, keeps its 25% boost to Culture, and costs 3 maintenance.
     - Television Studio now gives 2 Culture, 2 Happiness, and costs 2 maintenance.
-    - Interpretative Center no longer gives Happiness and requires the city to be working a Settlement GI.
+    - Interpretative Center no longer gives Happiness and requires the city to own a National Wonder and be working a Settlement GI. However, it also adds 3 base Culture to compensate.
 - Water building adjustments:
     - Market (and replacements) have a Merchant slot moved to Water Storage, but gain 1 Water in compensation (Gostiny Dvor gains 2 instead).
     - Water Plant gains a Merchant slot and +2 Water.

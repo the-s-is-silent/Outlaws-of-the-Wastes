@@ -280,13 +280,14 @@
 	},
 	{
 		"name": "Interpretative Center",
+		"culture": 3,
 		"specialistSlots": {"Administrator": 1},
 		"cost": 300,
 		"maintenance": 0,
 		"hurryCostModifier": 15,
-		"uniques": ["[+1 Culture] from [Culture] wonders [in this city]",
-			"[+1 Culture] from [Great Improvement] tiles [in this city]",
+		"uniques": ["[+1 Culture] from [Great Improvement] tiles [in this city]",
 			"Must have an owned [Settlement] within [3] tiles",
+			"Only available <in cities with a [National Wonder]>",
 			"Consumes [1] [Power]"],
 		"requiredTech": "Flight"
 	},
@@ -871,7 +872,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+1 Gold] from every [Town Hall]",
-			"Cost of purchasing items in cities reduced by [20]%",
+			"[Gold] cost of purchasing items in cities [-20]%",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Shareholders' Fund]>",
@@ -2547,7 +2548,7 @@
 		"maintenance": 2,
 		"requiredTech": "Laboratory",
 		"uniques": ["All newly-trained [Purge Robot] units [in this city] receive the [Chemical Weapons] promotion",
-			"[+100]% Yield from [Refinery] tiles [in this city]",
+			"[+50]% Yield from every [Refinery] <in this city>",
 			"Consumes [1] [Coal]", "Consumes [1] [Power]",
 			"Only available <after adopting [Supremacy]>"]
 	},
