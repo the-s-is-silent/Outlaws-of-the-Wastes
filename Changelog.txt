@@ -7,23 +7,25 @@ Changes since the Harbinger update
 - Passive religious pressure reduced by 50%.
 
 **Faction and City-State Adjustments**
-- Almaty can no longer build Low Tech units. Their "defeated" dialogue was also changed.
+- Almaty can no longer build Low Tech units. Their dialogue was also changed, to give them more personality.
 - Atlas now has a Mountain start bias, and can no longer build Enslaved units, Prison Camps or Work Camps.
 - Crimson Legion now has Imperial Cult as their favored religion, and can no longer build Purge Robot units.
 - Cult of Ignis and Deseret Nation both lose their Turn 1 prophet from their unique Wonder (they can still get a free one from the Theocracy tree). Deseret now gains their free Enhancer belief upon founding their religion.
-- Cult of Ignis gains +1 Movement to Armor units.
+- Cult of Ignis gains +1 Movement to Armor units, but loses the Culture boost to Coal Plants.
 - Deseret Nation loses the Iron Working and Steel starting techs along with the temporary Science penalty.
 - The Harbingers only get one-third as much Water and Influence from CS trade missions. However, the ban on building settlers has also been rescinded.
 - Hexlock gains double Encrypted Data in their UA, but loses the free Construction, Machinery and Engineering techs and gets Chemistry as a free tech instead.
+- The Mariners now start with Rediscovery adopted, and after adopting Advanced Piracy their Ranged Water and Personnel units also gain the Sea Raider promotion.
+
+**Specialist Adjustments**
+- Administrators no longer give Happiness. They now provide +2 Culture while active.
 
 **Promotion Adjustments**
 - Forage awards 67% less Science per kill and no longer increases XP gain, but increases healing slightly in Rubble and Ruins tiles and is now available to Shooter units.
 - Skirmish is no longer available to Shooter units unless they start with the promotion or upgrade from a unit that has the promotion. Not counting expansion mods, the only Shooter unit that starts with it is the Destroying Angel, and the only Shooter unit that can inherit Skirmish by upgrading from a Scout unit is the Border Patrol.
 - Consequently, Precision and Suppression now list Forage instead of Skirmish as a prerequisite promotion.
 - Suppression has been nerfed to a 25% combat bonus against Melee units.
-- Hazard Pay no longer allows units to move immediately upon purchase, but also awards Water per kill instead of costing the unit's faction Water per kill.
-- Headhunter now awards Water per kill instead of costing the unit's faction Water per kill.
-- Clansman now works properly and awards Water per kill.
+- Hazard Pay no longer allows units to move immediately upon purchase.
 - Bombardment separated into Water and Air versions, with three tiers for Bomber units, and it along with Siege are removed from Fighter units.
 - Siege II and III, and Interception II and III, can no longer be awarded without first choosing the previous promotion tier.
 - Targeting buffed to 33% Strength bonus vs Water units.
@@ -56,7 +58,7 @@ Changes since the Harbinger update
 - Camelot UUs: Wayfarers, Knights and Brownsteel Knights have had their Production cost increased by 20 each, Excalibur Knights by 30.
 - Deseret UUs: Battleaxe of the Lord no longer has a tech requirement and is available as a starting unit.
 - Harbinger UUs: Technopath gains a 30% Strength bonus upon researching Artificial Intelligence.
-- Hexlock UUs: Field Scientist is now a standalone unit with 120 production cost, but gets 2 instant build charges.
+- Hexlock UUs: Field Scientist is now a standalone unit with 120 production cost and gets 2 instant build charges.
 
 **Wonder Adjustments**
 - Wincon wonders, International Trade Center, and Manhattan Project can no longer have their production hurried.
@@ -78,7 +80,7 @@ Changes since the Harbinger update
     - Pit of Sacrifice no longer awards a free Pantheon Belief because of that same bug; it instead kills 1 pop in the city and adds +25% Faith. This one will be reversed once the bug is fixed.
     - Mining Operation buffed to add an extra point of Production to the Mining Pit, along with +15% Production to the city owning the wonder.
 - Public Broadcast's production cost increased to 500 (was previously a much, much too low 100) and it now requires every non-puppeted city you control to have a Broadcast Tower, not just the city it's built in.
-- Broadcast Network's production cost adjusted to 500 base + 30 per owned city, and now requires every city to have a Television Studio, instead of only needing one in the city it's built in.
+- Broadcast Network's production cost adjusted to 500 base + 30 per owned city, and now requires every city to have a Television Studio, instead of only needing one in the city it's built in. It also only gives half as much Global Happiness.
 - National College and Grand Monastery's base production cost reduced to 125 (were previously much, much too high, at 300/400 respectively).
 - Medical Network now requires a Hospital in every city instead of a minimum of 4 cities and its base production cost is reduced to 125 (was previously 400, too high for its tech requirement) + scaling upward by 30 per owned city.
 - Public Works Administration only awards one Golden Age now instead of a potential permanent Golden Age. (This was prior to a much more severe nerf in the base scenario replacing the Golden Ages with a pathetic +20 Culture per friendship declaration/defensive pact, which will NOT be incorporated.) It also loses its one measly Science point, but adds an extra Production point to all cities (that are connected to the capital). Its Production cost is reduced to 150 base + 30 per owned city.
@@ -91,13 +93,15 @@ Changes since the Harbinger update
 - Naval War College now provides 4 Great Admiral points per turn.
 
 **Building Adjustments**
+- Congress variants providing a faction-wide Unhappiness reduction nerfed to 5%.
+- All Council variants now cost a minimum of 100 Production.
 - Defensive buildings are no longer all automatically unlocked by building Walls and must now be built in order: Hardened Defenses requires Defensive Emplacements, Battery and Bunker require Hardened Defenses, and Active Denial System requires Battery.
 - Ranches now include Horses.
 - Listening Post (and relevant replacements) nerfed to 25% GP generation with no extra bonus for Constitution factions.
 - Monopoly building adjustments:
-    - None of them penalize the city's Production any longer. They also ignore the difficulty update that strips the respective resource when the faction runs out of Power.
-    - Content Farms (and replacements) give +3 Science instead of +1 Culture.
-        - Blackwarden's replacement gives +10% Water but no longer boosts city growth or provides Slaves, and no longer has a limit.
+    - None of them penalize the city's Production any longer. However, they have a civ-wide limit of 2 and only one of the four can exist in a city.
+    - Content Farms (and replacements) now unlock at Networking and require Data Centers instead of Broadcast Towers, and give +3 Science instead of +1 Culture.
+        - Blackwarden's replacement gives +10% Water but no longer boosts city growth, and provides 3 Slaves instead of 1.
     - Electronics Production Lines reduce local Unhappiness in the owning city by 10%.
     - Machinery Production Lines boost the city's Production by 10%.
     - Publishing Houses give +2 Culture.
@@ -110,6 +114,10 @@ Changes since the Harbinger update
     - Oil Refinery no longer adds a Food/Water penalty to Oil tiles and also adds an Engineer slot.
     - Oil Plant buffed to provide 2 Power (1 by default, 1 more if the faction hasn't run out of Oil) and remove the Food/Water penalty, and add an Engineer slot.
     - Plastics Factory buffed to add +1 Production to Plastics tiles and +2 Production to Oil tiles worked by the city.
+- Culture building adjustments:
+    - Broadcast Tower now gives 2 Culture, no Happiness, keeps its 25% boost to Culture, and costs 3 maintenance.
+    - Television Studio now gives 2 Culture, 2 Happiness, and costs 2 maintenance.
+    - Interpretative Center no longer gives Happiness and requires the city to be working a Settlement GI.
 - Water building adjustments:
     - Market (and replacements) have a Merchant slot moved to Water Storage, but gain 1 Water in compensation (Gostiny Dvor gains 2 instead).
     - Water Plant gains a Merchant slot and +2 Water.
@@ -121,17 +129,19 @@ Changes since the Harbinger update
     - Data Center nerfed to +5 Science instead of +50% Science (Hexlock's Encoding Center gives +8 instead of +65%). It also loses the Culture bonus to Data/Encrypted Data tiles, but adds an extra point of Science to those tiles.
 - Tidal Array adjusted to gate 2 units of power behind Geo Engineering, but add +1 Production to Artificial atolls and Floating Settlements worked by the city and +2 Production to oceanic Wind farms.
 - Almaty CS UBs: Alma Air Base/Tank Depot now double production for their respective units.
-- Defiance CS UBs: Lawkeeper Office now replaces the Town Hall and gives them +3 Happiness (+4 if they have Power), an extra Administrator slot, and more Production towards Personnel units, but they have to wait a bit now to build it.
+- Defiance CS UBs:
+    - Terra-Spire now awards a free Pale Veteran (their variant of the State Guard unit).
+    - Lawkeeper Office now replaces the Town Hall and gives them +3 Happiness (+4 if they have Power), an extra Administrator slot, and more Production towards Personnel units, but it's no longer available at the start of the game.
 - Camelot UBs:
     - Stone of Ages no longer awards a free Riding Arena and no longer generates Faith on its own. The player is now expected to search for tiles with the Horses resource to settle near.
     - Riding Arena adds +1 Culture to Horses.
-    - The Round Table now boosts Production in all cities connected to the capital by 10% instead of adding 33% Production to the capital with Planned Economy and 5% Production towards all buildings in cities connected to the capital.
+    - The Round Table now boosts Production in all cities connected to the capital by 5% instead of adding 33% Production to the capital with Planned Economy and 5% Production towards all buildings in cities connected to the capital. Its bonuses to Water and Science require finishing the Monopoly/Rationalism trees, respectively.
 - Deseret UBs:
     - Restored Temple of Zion buffed to +25% passive religious pressure; however it remains weaker than it was prior to the "nuclear option" update cutting religious pressure in half.
     - Bishop's Storehouse now adds +1 Food to Grain tiles on Desert.
     - Disciplinary Council adds +1 Faith/Happiness and +25% passive religious pressure to annexed cities, so there's now a reason to build it instead of the Listening Post in those cities.
     - Printing Press adds +2 Science.
-    - General Conference now counts Followers of the Majority Religion for a 15% Unhappiness reduction.
+    - General Conference counts Followers of the Majority Religion.
     - Quorum of the Twelve adds +2 Production to all Faith buildings instead of a percentage bonus towards building construction and adds 25% Faith to the capital, but has its production cost doubled.
     - Blue Castle Reactor's maintenance cost is reduced by 1.
 - Harbinger UBs:
@@ -193,7 +203,7 @@ Changes since the Harbinger update
 
 **New Buildings and Wonders**
 - Standalone:
-    - Alternet Cafe, a Culture/Happiness boosting building that consumes Power and grows stronger in larger cities (but nowhere near as strong as pre-nerf Public Schools)
+    - Alternet Cafe, a Culture boosting building that consumes Power and grows stronger in larger cities (but not as strong as pre-nerf Public Schools)
     - Composite Materials Plant, which consumes Coal and Power to give a 10% boost to building construction in the owning city and add +1 Production to strategic resources, +2 Production to Manufactories
     - Condenser Cooler, which consumes Coal to provide the owning city with more Water (10% total and +1 to worked Moisture traps), but obsoletes in the late-game
     - Sanctuary, a Happiness boosting building meant to encourage building Nature preserve improvements since it adds yields to those improvements (+1 Food/Water/Culture) but requires the city to be working at least 1
@@ -236,7 +246,7 @@ Changes since the Harbinger update
         - Defiance: Pale Veteran, with the same combat strength as Soldiers and starting with Gas Mask and Drone Recon
         - Hockeytown: Blueliner, which gains extra effectiveness in cold terrain
         - Tellus: Dendro Mutant, with the same stats as Gunmen instead of Militia, and can instantly build 2 Tree plantations
-- Alma Frontier Guard and Alma Honor Guard, Almaty's new replacements for the Scout and Spearman
+- Alma Frontier Guard and Alma Honor Guard, Almaty's new replacements for the Scout and Spearman.
 - Exploratores, the Legion's replacement for the Scout with increased strength, starts with Sentry, can move after attacking, and has a chance to capture any Barbarians it picks off, but has a higher production cost.
 - Opolcheniye, the Harbingers' replacement for the Militia that's weaker (32 vs. 36) but cheaper to both build (45 vs. 55) and buy, does not consume Weapons resources, and starts with Hazard Pay.
 - Pridwen-class, Camelot's replacement for the Missile Cruiser with increased strength but also has a higher production cost.

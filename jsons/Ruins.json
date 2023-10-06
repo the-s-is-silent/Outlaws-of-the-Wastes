@@ -45,7 +45,7 @@
 		"name": "stockpiled water",
 		"notification": "We have recovered a stockpile of [goldAmount] water from the camp!",
 		"weight": 2,
-		"uniques": ["Gain [450]-[750] [Gold]", "Only available <after [40] turns>"]
+		"uniques": ["Gain [450]-[750] [Gold]", "Only available <after [50] turns>"]
 	},
 
 	// Faith
@@ -173,7 +173,7 @@
 		"name": "find a crudely-drawn map",
 		"notification": "The camp contains maps of the nearby area!",
 		"weight": 2,
-		"uniques": ["From a randomly chosen tile [5] tiles away, reveal tiles up to [5] tiles away with [100]% chance"]
+		"uniques": ["From a randomly chosen tile [5] tiles away from the ruins, reveal tiles up to [5] tiles away with [100]% chance"]
 	},
 	{
 		"name": "reveal nearby bonus resources",

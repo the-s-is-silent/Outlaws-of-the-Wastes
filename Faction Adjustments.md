@@ -7,7 +7,8 @@
 
 #### Blackwarden
 - They now start with Trade and Currency instead of Construction and Machinery.
-- The Information Market adds +1 Water while the faction has Power and no longer has reduced Science gain compared to standard Libraries, but also no longer gives Great Scientist Points.
+- Information Markets add +1 Water while the faction has Power and no longer have reduced Science gain compared to standard Libraries, but also no longer give Great Scientist Points.
+- Resource Management Servers have a harsher limit (2 vs. base scenario's 5, but all Monopoly policy buildings have this limit now) and no longer boost city growth, but to compensate, they give +10% Water to the two cities that own one and provide 3 Slaves instead of 1.
 
 #### Children of Rust
 - The Longhouse wonder is replaced with First Kiva, which retains the Longhouse's effects and also buffs the wonder by adding +40 extra City HP, +2 Faith and a bonus Pantheon belief upon founding their religion.
@@ -30,7 +31,8 @@
 
 #### Cult of Ignis
 - Armor units gain +1 Movement from their UA.
-- However, the Temple is nerfed to remove both its bonus to Local Happiness and their instant Pantheon (was formerly a guaranteed Turn 1 Religion via free Great Prophet prior to them being nerfed in the base scenario).
+- Coal Plants no longer boost Culture.
+- The Temple is nerfed to remove both its bonus to Local Happiness and their instant Pantheon (was formerly a guaranteed Turn 1 Religion via free Great Prophet prior to them being nerfed in the base scenario).
 - Fuel Depots are also nerfed: they only add +1 Culture to Oil tiles.
 - Sanctums are buffed: they add +1 Faith while the faction has Power and don't have as much of a reduction in Science gain compared to standard Libraries.
 - Initiate Schools are nerfed: they lose the added Science yields to Rubble/Ruins and the extra starting XP to new units is only granted to Armor units. However, they add +1 Culture/Faith while the faction has Power.
@@ -42,7 +44,7 @@
 - They start with fewer free techs now: knowledge of Chemistry is gained, but knowledge of Construction, Machinery and Engineering is lost. The malus on GP generation is removed, and Encrypted Data resources are doubled by their UA.
 - Field Scientists are now standalone units, cost 120 Production, and have 2 charges.
 - Purge Robot Proto's base Strength increased from 25 to 40, in order to give them a fighting chance.
-- Standard Refineries have base yields 1 higher than the base scenario, and also gain adjacency yields (+2 Production when next to strategic resources, +2 of the respective yield when adjacent to their corresponding GI).
+- Standard Refineries have base yields 1 higher than the base scenario, and also gain adjacency bonuses (+2 Production when next to strategic resources, +2 of the respective yield when adjacent to their corresponding GI).
 - Crystal Refineries gain +1 Water to their base yields and another +1 Water for adjacent Refineries, and +2 Production if built atop a strategic resource, or +4 if that resource is Oil.
 - The Heat Plant building is no longer one of their unique components and can be built by everyone.
 - Pre-Med Labs have been buffed to carry over the same amount of Food on population increase as the Hospitals they replace.
@@ -55,6 +57,7 @@
 - TODO: Port over the entire gimmick rework from a certain other rebalance mod once it's finished, and until the base scenario itself reworks the gimmick
 
 #### The Mariners
+- They now start with Rediscovery adopted, and upon adopting Advanced Piracy *all* of their Water units along with their Personnel units gain the policy's Sea Raider promotion.
 - New UUs:
   - Drifter (replaces Worker, doesn't need to embark, can build water improvements, ~31% cheaper to build)
   - Key to the City (replaces Anti-Aircraft Gun, doesn't need to embark, +100% Strength vs cities)
@@ -63,7 +66,7 @@
 #### New Star
 - They are no longer allowed to employ prison labor.
 - Mobile Encampment provides more Weapons (2 vs. 1) and can be built in a second city after discovering Munitions, allowing them to move the capital if necessary.
-- Gideon Scanner and Rally Station still cannot exist at the same time, nor exist in more than one city, and they are more expensive, costing 150 Production each.
+- Gideon Scanner and Rally Station still cannot exist at the same time, nor exist in more than one city, and they are more expensive, costing 150 Production each. They also cannot be purchased.
 - New UU: Rapid Response Squad (replaces Forward Observer, starts with Gas Mask and Medic I/II, 75% strength on defense, can sacrifice itself to clear Fallout, more expensive to build)
 - New UBs:
   - Soup Kitchen (replaces Prison Camp, +2 Food, +1 Local Happiness, removes extra unhappiness from annexed cities, does not provide Slaves, can be built in the same city as Emergency Response Network)

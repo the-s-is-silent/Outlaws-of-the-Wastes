@@ -30,8 +30,8 @@
 			"May choose [1] additional [Enhancer] beliefs when [founding] a religion",
 			"Cannot build [Enslaved] units"],
 		"cities": ["Zion Valley", "New Canaan", "Provorem", "Grand Staircase", "Cueva Guarache", "Fort Walker", "Dead Horse Point", "Angel's Landing",
-			"Traverse City", "New Tooele", "Patriarch's Court", "Malki Tzedek", "Maeserville", "Fort Browning", "Kolob", "Rainbow Bridge", "Hovenweep",
-			"Van Buren", "Mesa Verde", "Nuevo Vicios"],
+			"Traverse City", "New Tooele", "Patriarch's Court", "Urim and Thummim", "Malki Tzedek", "Maeserville", "Fort Browning", "Kolob", "Rainbow Bridge",
+			"Hovenweep", "Van Buren", "Mesa Verde", "Nuevo Vicios"],
 		"spyNames": ["Daniel", "Mordecai", "Adama", "Jeremiah", "Judah", "Two-Bears-High-Fiving", "Marianne", "Clark", "Dancing Flame", "Quiet Shadow"],
 		"civilopediaText": [
 			{
@@ -384,6 +384,62 @@
 			}
 		]
 	},
+	{
+		"name": "The Mariners",
+		"leaderName": "Deacon Hopper",
+		"adjective": ["Marine"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Rongorongo",
+
+		// "startIntroPart1": "",
+		// "startIntroPart2": "",
+		"declaringWar": "The sea is ours, and all the dry lands shall soon be as well!",
+		"attacked": "Ha! You think to challenge us? I hope you can swim well.",
+		"defeated": "Damn you! We should never have left the protection of the sea.",
+		"introduction": "Ahoy! We are the Mariners, and we've come to reclaim the dry land from the lot of you.",
+		"neutralHello": "Greetings, land dweller.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "We've got the finest goods that the sea can offer! What do you say?",
+
+		"outerColor": [51, 25, 0],
+		"innerColor": [255, 255, 102],
+		"style": "Tribal",
+		"uniqueName": "People of the Sea",
+		"uniques": [
+			"Enables embarkation for land units",
+			"Enables [All] units to enter ocean tiles",
+			"[1] Movement point cost to embark <for [All] units>",
+			"[1] Movement point cost to disembark <for [All] units>",
+			"Defense bonus when embarked <for [All] units>",
+			"[+1] Sight <for [Embarked] units>",
+			"[+1] Movement <for [Water] units>",
+			"[{Land} {Low Tech}] units gain the [Amphibious] promotion",
+			"[Personnel] units gain the [Amphibious] promotion",
+			"[Personnel] units gain the [Sea Raider] promotion <after adopting [Advanced Piracy]>",
+			"[Ranged Water] units gain the [Sea Raider] promotion <after adopting [Advanced Piracy]>",
+			"Starts with [Sailing]",
+			"Starts with [Rediscovery] adopted"
+		],
+		"cities": [
+			"Dryplace",
+			"Everest Peak",
+			"Tripplehorn Harbor",
+			"Majorino Bay",
+			"Coates Beach",
+			"LaSardo Coast",
+			"Mokae Pier",
+			"Kazann Port",
+			"Shimono Harbor",
+			"Aviles Beach",
+			"Kehler Coast",
+			"Douridas Pier",
+			"Silverman Port",
+			"Giuntoli Bay",
+			"Whalen Cove",
+			"Arenberg Fjord"
+		]
+	},
 
 	//Adjusted CS
 	{
@@ -394,8 +450,8 @@
 		"style": "Military",
 		"uniques": ["Double quantity of [Weapons] produced",
 			"Cannot build [Low Tech] units"],
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
+		"declaringWar": "The greatest city in the post-Cataclysm world does not abide the existence of threats.",
+		"attacked": "So be it. Our counteroffensive will bring you to ruin.",
 		"defeated": "The end of Almaty is a terrible day for everyone. Do you not have a heart?!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [40, 135, 20],
@@ -471,7 +527,8 @@
 		"style": "Corporate",
 		"uniques": ["Gain a free [Cryo Sanctum] [in capital]",
 			"Starts with [Secrets of the Past]", "Starts with [Writing]", "Starts with [Electronics]",
-			"[+20]% growth [in all cities] <when not at war>"],
+			"[+20]% growth [in all cities] <when not at war>",
+			"Cannot build [Enslaved] units"],
 		"declaringWar": "We'd hoped we wouldn't have to compromise our principles to survive.",
 		"attacked": "Your rationale for justifying conflict is what caused the Cataclysm to happen in the first place.",
 		"defeated": "Are our ideals... our dream for peace... meant to die here?",

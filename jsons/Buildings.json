@@ -281,23 +281,22 @@
 	{
 		"name": "Interpretative Center",
 		"specialistSlots": {"Administrator": 1},
-		"happiness": 2,
 		"cost": 300,
 		"maintenance": 0,
 		"hurryCostModifier": 15,
 		"uniques": ["[+1 Culture] from [Culture] wonders [in this city]",
 			"[+1 Culture] from [Great Improvement] tiles [in this city]",
+			"Must have an owned [Settlement] within [3] tiles",
 			"Consumes [1] [Power]"],
 		"requiredTech": "Flight"
 	},
 	{
 		"name": "Alternet Cafe",
 		"culture": 2,
-		"happiness": 2,
-		"maintenance": 3,
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Culture] per [10] population [in this city] <when above [0] [Power]>",
-			"[+1 Culture, +1 Happiness] [in this city] <after discovering [Social Engineering]>",
+			"[+1 Culture] [in this city] <after discovering [Social Engineering]>",
 			"Consumes [1] [Power]"],
 		"requiredTech": "Networking"
 	},
@@ -444,7 +443,7 @@
 		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": ["[+1 Culture, +1 Faith] per [4] population [in all cities]",
-			"[-15]% Unhappiness from [Followers of the Majority Religion] [in all cities]",
+			"[-10]% Unhappiness from [Followers of the Majority Religion] [in all cities]",
 			"Only available <if [Convert Survivors] is constructed>",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Quorum of the Twelve]>",
@@ -601,10 +600,10 @@
 		"requiredTech": "Civil Service",
 		"uniques": ["Also replaces the Council",
 			"[+1 Science, +1 Culture] per [4] population [in all cities]",
-			"[-10]% Unhappiness from [Population] [in all cities]",
-			"[+10]% [Production] [in all cities connected to capital] <after adopting [Constitution Complete]>",
-			"[+33]% [Gold] [in this city] <after adopting [Monopoly]>",
-			"[+25]% [Science] [in this city] <after adopting [Technocracy]>",
+			"[-5]% Unhappiness from [Population] [in all cities]",
+			"[+5]% [Production] [in all cities connected to capital] <after adopting [Constitution Complete]>",
+			"[+33]% [Gold] [in this city] <after adopting [Monopoly Complete]>",
+			"[+25]% [Science] [in this city] <after adopting [Rationalism Complete]>",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
 			"Destroyed when the city is captured"]
@@ -624,7 +623,7 @@
 		"culture": 2,
 		"cost": 0,
 		"isWonder": true,
-		"uniques": ["[-10]% Unhappiness from [Population] [in all cities]",
+		"uniques": ["[-10]% Unhappiness from [Population] [in this city]",
 			"Free [Educational Officer] appears",
 			"Free [Opolcheniye] appears",
 			"Can only be built [in capital]",
@@ -704,7 +703,7 @@
 		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": ["[+1 Gold, +1 Culture] per [4] population [in all cities]",
-			"[-10]% Unhappiness from [Population] [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Trustees' Committee]>",
@@ -714,7 +713,7 @@
 		"name": "Trustees' Committee",
 		"replaces": "Council",
 		"uniqueTo": "The Harbingers",
-		"cost": 50,
+		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": ["Production to [Gold] conversion in cities changed by [33]%",
 			"[+5]% Production when constructing [All] buildings [in all cities connected to capital]",
@@ -725,6 +724,394 @@
 	},
 
 	//Adjusted buildings and wonders
+	{
+		"name": "Congress",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture] per [4] population [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Council]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Council",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+10]% growth [in all cities]",
+			"[+5]% Production when constructing [All] buildings [in this city]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Congress]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Gideon Scanner",
+		"replaces": "Congress",
+		"uniqueTo": "New Star",
+		"cost": 150,
+		"requiredTech": "Civil Service",
+		"uniques": ["Limited to [1] per Civilization",
+			"[+1] Movement <for [All] units>",
+			"[+15]% Strength <for [All] units> <when fighting in [Foreign Land] tiles>",
+			"[+1 Culture] per [4] population [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Unbuildable <if [Rally Station] is constructed>",
+			"Cannot be purchased",
+			"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Rally Station",
+		"cost": 150,
+		"replaces": "Council",
+		"uniqueTo": "New Star",
+		"requiredTech": "Civil Service",
+		"uniques": ["Limited to [1] per Civilization",
+			"[-50]% Unhappiness from [Specialists] [in all cities]",
+			"[+15]% Production when constructing [Military] units [in all cities]",
+			"[+10]% growth [in all cities]",
+			"[+5]% Production when constructing [All] buildings [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Unbuildable <if [Gideon Scanner] is constructed>",
+			"Cannot be purchased",
+			"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Stormfront Center",
+		"replaces": "Congress",
+		"uniqueTo": "Hexlock",
+		"cost": 150,
+		"requiredTech": "Civil Service",
+		"uniques": ["[Land] units gain the [Stormfront] promotion",
+			"[+100]% City Strength from defensive buildings",
+			"[+1 Culture] per [4] population [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Overcouncil]>",
+			"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Overcouncil",
+		"replaces": "Council",
+		"uniqueTo": "Hexlock",
+		"cost": 150,
+		"requiredTech": "Civil Service",
+		"uniques": ["Provides [1] [C1F3]",
+			"Provides [1] [C2N14]",
+			"Provides [1] [C8H17]",
+			"Provides [1] [SbF5]",
+			"Provides [1] [VX]",
+			"[+100]% Yield from every [Crystal Refinery]",
+			"[+10]% growth [in all cities]",
+			"[+5]% Production when constructing [All] buildings [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Stormfront Center]>",
+			"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Citizens' Assembly",
+		"replaces": "Congress",
+		"uniqueTo": "Children of Rust",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Science, +1 Culture] per [4] population [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Defense Committee]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Defense Committee",
+		"replaces": "Council",
+		"uniqueTo": "Children of Rust",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+			"[+20]% Production when constructing [Military] units [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Citizens' Assembly]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Shareholders' Fund",
+		"replaces": "Congress",
+		"uniqueTo": "Blackwarden",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture, +1 Gold] per [4] population [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Board of Directors]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Board of Directors",
+		"replaces": "Council",
+		"uniqueTo": "Blackwarden",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Gold] from every [Town Hall]",
+			"Cost of purchasing items in cities reduced by [20]%",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Shareholders' Fund]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Freedom Foundation",
+		"replaces": "Congress",
+		"uniqueTo": "Atlas",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Science, +1 Gold] per [4] population [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Think Tank]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Think Tank",
+		"replaces": "Council",
+		"uniqueTo": "Atlas",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"Production to [Science] conversion in cities changed by [33]%",
+			"[+10]% Production when constructing [Science] buildings [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Freedom Foundation]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Smugglers' Guild",
+		"replaces": "Congress",
+		"uniqueTo": "Deadrock Clan",
+		"cost": 100,
+		"requiredTech": "Currency",
+		"uniques": [
+			"Provides a sum of gold each time you spend a Great Person",
+			"[Great Merchant] is earned [25]% faster",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Grand Clan Manor]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Grand Clan Manor",
+		"replaces": "Council",
+		"uniqueTo": "Deadrock Clan",
+		"cost": 200,
+		"requiredTech": "Currency",
+		"uniques": [
+			"Enables construction of [Black Hand] units",
+			"[Great General] is earned [50]% faster",
+			"New [Personnel] units start with [30] Experience [in all cities]",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Smugglers' Guild]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Senate",
+		"replaces": "Congress",
+		"uniqueTo": "Crimson Legion",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture, +1 Gold] per [4] population [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Consulate]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Consulate",
+		"replaces": "Council",
+		"uniqueTo": "Crimson Legion",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"Great General provides double combat bonus",
+			"[+20]% Production when constructing [Military] units [in all cities]",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Senate]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "War Council",
+		"replaces": "Congress",
+		"uniqueTo": "Cult of Ignis",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Production] per [4] population [in all cities]",
+			"[+20]% Production when constructing [Military] units [in all cities]",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Seer Council]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Seer Council",
+		"replaces": "Council",
+		"uniqueTo": "Cult of Ignis",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+25]% [Science] from every [College of Mystics]",
+			"[+20]% Production when constructing [Science] buildings [in all cities]",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [War Council]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Embassy",
+		"replaces": "Council",
+		"uniqueTo": "Commonwealth",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"When declaring friendship, both parties gain a [10]% boost to great person generation",
+			"Gain [30] Influence with a [Military] gift to a City-State",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Parliament]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Parliament",
+		"replaces": "Congress",
+		"uniqueTo": "Commonwealth",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture, +1 Science] per [4] population [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Embassy]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Trader's Congress",
+		"uniqueTo": "The Mariners",
+		"replaces": "Congress",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"Resting point for Influence with City-States is increased by [20]",
+			"Gifts of Gold to City-States generate [25]% more Influence",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Raider's Council]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Raider's Council",
+		"uniqueTo": "The Mariners",
+		"replaces": "Council",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"+30% Strength when fighting City-State units and cities",
+			"Receive triple Gold from Barbarian encampments and pillaging Cities",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Trader's Congress]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Survival Program",
+		"uniqueTo": "New Afrika",
+		"replaces": "Congress",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+10]% growth [in all cities]",
+			"[+2 Food, +2 Culture] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Revolutionary Council]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Revolutionary Council",
+		"uniqueTo": "New Afrika",
+		"replaces": "Council",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1] Unit Supply per [2] population [in all cities]",
+			"[-25]% maintenance costs <for [Military] units>",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Survival Program]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "State Assembly", //originally named Five-Year Plan, which makes no sense
+		"replaces": "Congress",
+		"uniqueTo": "Proklyatyye",
+		"cost": 150,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+10]% growth [in all cities connected to capital]",
+			"[+1 Culture] per [5] population [in all cities connected to capital]",
+			"[+25]% Great Person generation [in all cities connected to capital]",
+			"[-10]% Unhappiness from [Population] [in all cities connected to capital]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Politburo]>",
+			"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Politburo", //originally named Gulag, which should have gone to a unique Prison/Labor Camp replacement in the base scenario
+		"cost": 100,
+		"replaces": "Council",
+		"uniqueTo": "Proklyatyye",
+		"requiredTech": "Civil Service",
+		"uniques": ["Double quantity of [Slaves] produced",
+			"[+3 Food, +1 Production] from every [Corrective Colony]",
+			"[+10]% [Food] from every [Corrective Colony]",
+			"[+1 Production] from every [Listening Post]",
+			"[+1 Happiness, +1 Culture] from every [Gulag]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [State Assembly]>",
+			"Destroyed when the city is captured"]
+	},
 	{
 		"name": "Utopia Project",
 		"cost": 1500,
@@ -1214,15 +1601,14 @@
 			"Can only be built [in holy cities]",
 			"Only available <after adopting [Theocracy]>",
 			"Hidden when religion is disabled",
-			"[Philosopher] units built [in this city] can [Spread Religion] [1] extra times",
-			"[Great Sage] units built [in this city] can [Spread Religion] [1] extra times"]
+			"All newly-trained [Philosopher] units [in this city] receive the [Devout] promotion",
+			"All newly-trained [Great Sage] units [in this city] receive the [Devout] promotion"]
 	},
 	{
 		"name": "Execution Chamber",
 		"isNationalWonder": true,
 		"culture": 1,
 		"faith": 10,
-		"food": -2,
 		"cost": 125,
 		"requiredTech": "Civil Service",
 		"uniqueTo": "Cult of Ignis",
@@ -1232,8 +1618,8 @@
 			"Can only be built [in holy cities]",
 			"Only available <after adopting [Theocracy]>",
 			"Hidden when religion is disabled",
-			"[Philosopher] units built [in this city] can [Spread Religion] [1] extra times",
-			"[Great Sage] units built [in this city] can [Spread Religion] [1] extra times",
+			"All newly-trained [Philosopher] units [in this city] receive the [Devout] promotion",
+			"All newly-trained [Great Sage] units [in this city] receive the [Devout] promotion",
 			"Free Social Policy",
 			"[-1] population [in this city]"]
 	},
@@ -1291,73 +1677,98 @@
 	},
 	{
 		"name": "Content Farm",
+		"requiredBuilding": "Data Center",
 		"science": 3,
 		"uniques": [
-			"Provides [1] [Data]",
+			"Provides [1] [Data] <when above [0] [Power]>",
 			"Consumes [1] [Power]",
 			"Only available <after adopting [Monopoly]>",
-			"Only available <in cities with a [Broadcast Tower]>"
+			"Only available <in cities without a [Electronics Production Line]>",
+			"Only available <in cities without a [Machinery Production Line]>",
+			"Only available <in cities without a [Publishing House]>",
+			"Limited to [2] per Civilization"
 		],
-		"requiredTech": "Computers"
+		"requiredTech": "Networking"
 	},
 	{
 		"name": "Software Lab",
 		"uniqueTo": "Hexlock",
 		"replaces": "Content Farm",
+		"requiredBuilding": "Data Center",
 		"science": 3,
 		"percentStatBonus": {"science": 10},
 		"uniques": [
-			"Provides [1] [Data]",
+			"Provides [1] [Data] <when above [0] [Power]>",
 			"Consumes [1] [Power]",
 			"Only available <after adopting [Monopoly]>",
-			"Only available <in cities with a [Broadcast Tower]>"
+			"Only available <in cities without a [Electronics Production Line]>",
+			"Only available <in cities without a [Machinery Production Line]>",
+			"Only available <in cities without a [Publishing House]>",
+			"Limited to [2] per Civilization"
 		],
-		"requiredTech": "Computers"
+		"requiredTech": "Networking"
 	},
 	{
 		"name": "Resource Management Server",
 		"uniqueTo": "Blackwarden",
 		"replaces": "Content Farm",
+		"requiredBuilding": "Data Center",
 		"science": 3,
 		"percentStatBonus": {"gold": 10},
 		"uniques": [
-			"Provides [1] [Data]",
+			"Provides [3] [Slaves]",
+			"Provides [1] [Data] <when above [0] [Power]>",
 			"Consumes [1] [Power]",
 			"Only available <after adopting [Monopoly]>",
-			"Only available <in cities with a [Broadcast Tower]>"
+			"Only available <in cities without a [Electronics Production Line]>",
+			"Only available <in cities without a [Machinery Production Line]>",
+			"Only available <in cities without a [Publishing House]>",
+			"Limited to [2] per Civilization"
 		],
-		"requiredTech": "Computers"
+		"requiredTech": "Networking"
 	},
 	{
 		"name": "Electronics Production Line",
+		"requiredBuilding": "Factory",
 		"uniques": [
-			"Provides [1] [Electronics]",
+			"Provides [1] [Electronics] <when above [0] [Power]>",
 			"Consumes [1] [Power]",
 			"Only available <after adopting [Monopoly]>",
-			"Only available <in cities with a [Factory]>",
-			"[-10]% Unhappiness from [Population] [in this city]"
+			"Only available <in cities without a [Content Farm]>",
+			"Only available <in cities without a [Machinery Production Line]>",
+			"Only available <in cities without a [Publishing House]>",
+			"[-10]% Unhappiness from [Population] [in this city]",
+			"Limited to [2] per Civilization"
 		],
 		"requiredTech": "Electronics"
 	},
 	{
 		"name": "Machinery Production Line",
+		"requiredBuilding": "Factory",
 		"percentStatBonus": {"production": 10},
 		"uniques": [
-			"Provides [1] [Machine Parts]",
+			"Provides [1] [Machine Parts] <when above [0] [Power]>",
 			"Consumes [1] [Power]",
 			"Only available <after adopting [Monopoly]>",
-			"Only available <in cities with a [Factory]>"
+			"Only available <in cities without a [Content Farm]>",
+			"Only available <in cities without a [Electronics Production Line]>",
+			"Only available <in cities without a [Publishing House]>",
+			"Limited to [2] per Civilization"
 		],
 		"requiredTech": "Replaceable Parts"
 	},
 	{
 		"name": "Publishing House",
+		"requiredBuilding": "Factory",
 		"culture": 2,
 		"uniques": [
-			"Provides [1] [Books]",
+			"Provides [1] [Books] <when above [0] [Power]>",
 			"Consumes [1] [Power]",
 			"Only available <after adopting [Monopoly]>",
-			"Only available <in cities with a [Factory]>"
+			"Only available <in cities without a [Content Farm]>",
+			"Only available <in cities without a [Electronics Production Line]>",
+			"Only available <in cities without a [Machinery Production Line]>",
+			"Limited to [2] per Civilization"
 		],
 		"requiredTech": "Manufacturing"
 	},
@@ -1562,6 +1973,25 @@
 		"uniques": ["[+1 Food, +1 Production] from [Tree plantation] tiles [in this city]",
 			"Consumes [1] [Power]"],
 		"requiredTech": "Atmosphere Remediation"
+	},
+	{
+		"name": "Broadcast Tower",
+		"requiredResource": "Power",
+		"culture": 2,
+		"specialistSlots": {"Administrator": 1},
+		"percentStatBonus": {"culture": 25},
+		"maintenance": 3,
+		"requiredTech": "Radio"
+	},
+	{
+		"name": "Television Studio",
+		"requiredBuilding": "Broadcast Tower",
+		"requiredResource": "Power",
+		"culture": 2,
+		"happiness": 2,
+		"specialistSlots": {"Administrator": 1},
+		"maintenance": 2,
+		"requiredTech": "Electronics"
 	},
 	{
 		"name": "Market",
@@ -2112,40 +2542,6 @@
 			"Can only be built [in capital]"]
 	},
 	{
-		"name": "Stormfront Center",
-		"replaces": "Congress",
-		"uniqueTo": "Hexlock",
-		"cost": 150,
-		"requiredTech": "Civil Service",
-		"uniques": ["[Land] units gain the [Stormfront] promotion",
-			"[+100]% City Strength from defensive buildings",
-			"[+1 Culture] per [4] population [in all cities]",
-			"[-10]% Unhappiness from [Population] [in all cities]",
-			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
-			"Only available <in cities without a [Overcouncil]>",
-			"Destroyed when the city is captured"]
-	},
-	{
-		"name": "Overcouncil",
-		"replaces": "Council",
-		"uniqueTo": "Hexlock",
-		"cost": 150,
-		"requiredTech": "Civil Service",
-		"uniques": ["Provides [1] [C1F3]",
-			"Provides [1] [C2N14]",
-			"Provides [1] [C8H17]",
-			"Provides [1] [SbF5]",
-			"Provides [1] [VX]",
-			"[+100]% Yield from every [Crystal Refinery]",
-			"[+10]% growth [in all cities]",
-			"[+5]% Production when constructing [All] buildings [in this city]",
-			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
-			"Only available <in cities without a [Stormfront Center]>",
-			"Destroyed when the city is captured"]
-	},
-	{
 		"name": "Advanced Chemical Refinery",
 		"uniqueTo": "Hexlock",
 		"maintenance": 2,
@@ -2197,40 +2593,6 @@
 		"uniques": ["[All] Units adjacent to this city heal [+10] HP per turn when healing",
 			"[+15]% Production when constructing [Support] units [in this city]",
 			"[+1 Happiness] [in this city] <after adopting [Voting Rights]>",
-			"Destroyed when the city is captured"]
-	},
-	{
-		"name": "Gideon Scanner",
-		"replaces": "Congress",
-		"uniqueTo": "New Star",
-		"cost": 150,
-		"requiredTech": "Civil Service",
-		"uniques": ["Limited to [1] per Civilization",
-			"[+1] Movement <for [All] units>",
-			"[+15]% Strength <for [All] units> <when fighting in [Foreign Land] tiles>",
-			"[+1 Culture] per [4] population [in all cities]",
-			"[-10]% Unhappiness from [Population] [in all cities]",
-			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
-			"Unbuildable <if [Rally Station] is constructed>",
-			"Cannot be purchased",
-			"Destroyed when the city is captured"]
-	},
-	{
-		"name": "Rally Station",
-		"cost": 150,
-		"replaces": "Council",
-		"uniqueTo": "New Star",
-		"requiredTech": "Civil Service",
-		"uniques": ["Limited to [1] per Civilization",
-			"[-50]% Unhappiness from [Specialists] [in all cities]",
-			"[+15]% Production when constructing [Military] units [in all cities]",
-			"[+10]% growth [in all cities]",
-			"[+5]% Production when constructing [All] buildings [in this city]",
-			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
-			"Unbuildable <if [Gideon Scanner] is constructed>",
-			"Cannot be purchased",
 			"Destroyed when the city is captured"]
 	},
 	{
@@ -2314,37 +2676,6 @@
 			"[+1 Food] from [Grain] tiles [in this city]",
 			"[+1 Production] from every [Farmer] <in this city>"],
 		"requiredTech": "Botany"
-	},
-	{
-		"name": "State Assembly", //originally named Five-Year Plan, which makes no sense
-		"replaces": "Congress",
-		"uniqueTo": "Proklyatyye",
-		"cost": 150,
-		"requiredTech": "Civil Service",
-		"uniques": ["[+10]% growth [in all cities connected to capital]",
-			"[+1 Culture] per [5] population [in all cities connected to capital]",
-			"[+25]% Great Person generation [in all cities connected to capital]",
-			"[-10]% Unhappiness from [Population] [in all cities connected to capital]",
-			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
-			"Only available <in cities without a [Politburo]>",
-			"Destroyed when the city is captured"]
-	},
-	{
-		"name": "Politburo", //originally named Gulag, which should have gone to a unique Prison/Labor Camp replacement in the base scenario
-		"cost": 100,
-		"replaces": "Council",
-		"uniqueTo": "Proklyatyye",
-		"requiredTech": "Civil Service",
-		"uniques": ["Double quantity of [Slaves] produced",
-			"[+3 Food, +1 Production] from every [Corrective Colony]",
-			"[+10]% [Food] from every [Corrective Colony]",
-			"[+1 Production] from every [Listening Post]",
-			"[+1 Happiness, +1 Culture] from every [Gulag]",
-			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
-			"Only available <in cities without a [State Assembly]>",
-			"Destroyed when the city is captured"]
 	},
 	{
 		"name": "Atomgrad Project",
@@ -2454,11 +2785,32 @@
 		"requiredTech": "Civil Service"
 	},
 	{
+		"name": "Thunderdome",
+		"uniqueTo": "Bartertown",
+		"culture": 2,
+		"happiness": 4,
+		"maintenance": 0,
+		"cost": 0,
+		"uniques": ["New [Military] units start with [30] Experience [in this city]",
+			"Never destroyed when the city is captured"],
+		"requiredTech": "Iron Working"
+	},
+	{
+		"name": "Underworld",
+		"uniqueTo": "Bartertown",
+		"production": 2,
+		"cost": 0,
+		"uniques": ["[+1 Production] from [Pasture] tiles [in this city]",
+			"[+1 Production] from [Bioculture] tiles [in this city]",
+			"Provides [2] [Power]",
+			"Never destroyed when the city is captured"]
+	},
+	{
 		"name": "Totem Pole",
 		"uniqueTo": "Issaquah Nation",
 		"replaces": "Monument",
 		"culture": 2,
-		"cost": 10,
+		"cost": 0,
 		"hurryCostModifier": 5,
 		"uniques": ["New [Military] units start with [30] Experience [in this city]"]
 	},
@@ -2494,6 +2846,7 @@
 		"culture": 2,
 		"cost": 0,
 		"uniques": ["Reveals the entire map",
+			"Free [Pale Veteran] appears",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
 	},

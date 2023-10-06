@@ -1,0 +1,8 @@
+[
+	{
+		"name": "Administrator",
+		"culture": 2,
+		"greatPersonPoints": {"Great Administrator": 3},
+		"color": [160, 32, 240]
+	}
+]

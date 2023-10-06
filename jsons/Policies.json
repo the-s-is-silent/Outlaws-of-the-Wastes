@@ -110,7 +110,7 @@
 			{
 				"name": "Courier Service",
 				"uniques": ["[+1 Happiness] [in all cities connected to capital]",
-					"[-10]% Unhappiness from [Population] [in all cities]",
+					"[-5]% Unhappiness from [Population] [in all cities]",
 					"[-25]% City-State Influence degradation"],
 				"requires": ["Representation", "Citizen Militia"],
 				"row": 2,
@@ -327,7 +327,7 @@
 			},
 			{
 				"name": "Protected Speech",
-				"uniques": ["[+100]% Production when constructing [Happiness] buildings [in all cities]",
+				"uniques": ["[+100]% Production when constructing [Culture] buildings [in all cities]",
 					"[+2 Culture] from every [Town Hall]"],
 				"row": 1,
 				"column": 5
@@ -409,7 +409,8 @@
 			},
 			{
 				"name": "Police State",
-				"uniques": ["[+3 Happiness] from every [Listening Post]",
+				"uniques": ["[+100]% Production when constructing [Listening Post] buildings [in all cities]",
+					"[+3 Happiness] from every [Listening Post]",
 					"[+3 Production] from every [Prison Camp]",
 					"[+3 Production] from every [Work Camp]"],
 				"requires": ["Scorched Earth", "Mobilization"],
@@ -462,8 +463,7 @@
 		"policies": [
 			{
 				"name": "Mass Consumption",
-				"uniques": ["[+50]% Happiness from luxury resources gifted by City-States",
-					"[+1] Happiness from each type of luxury resource",
+				"uniques": ["[+25]% resources gifted by City-States",
 					"[+1 Gold] from every [Moisture trap]",
 					"[+1 Gold] from every [Water pump]"],
 				"row": 1,
@@ -643,6 +643,7 @@
 			{
 				"name": "Rediscovery Complete",
 				"uniques": ["[+1] population [in all coastal cities]",
+					"[+1] Happiness from each type of luxury resource",
 					"Free [Great Admiral] appears",
 					"May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
 			}
@@ -840,7 +841,8 @@
 			},
 			{
 				"name": "Bionics Complete",
-				"uniques": ["Free Great Person",
+				"uniques": ["Free [Great General] appears",
+					"Free [Great Scientist] appears",
 					"[+10]% Production when constructing [Utopia Project] wonders [in all cities]",
 					"[+15]% Production when constructing [Terraformer Part] units [in all cities]",
 					"[+15]% Production when constructing [Colony Ship Part] units [in all cities]"]

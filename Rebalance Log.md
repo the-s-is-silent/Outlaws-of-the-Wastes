@@ -16,13 +16,17 @@ Building Changes:
 - Nuclear Waste Museum is now a National Wonder, addressing an issue where it could still be purchased if Excavate Nuclear Waste was built first. It also adds 10% Science and Culture to its city, adding incentive to build it, along with an additional +3 Science and +1 Culture to the ancient wonder tile.
 - Hospitals (and relevant replacements), Medical Labs, and Organ Labs have had their minor Science penalty removed (a penalty they shouldn't have had in the first place). Hospitals also *ignore* the difficulty update that shuts down their food preservation effect when the faction falls into negative Power.
 - Listening Post (and relevant replacements) nerfed to 25% GP generation with no extra bonus for Constitution factions.
-- The four Monopoly buildings *ignore* the "increased difficulty" update that turns off their resource when the faction falls into negative Power. They no longer have a Production malus and instead grant extra stats as follows:
+- The four Monopoly buildings no longer have a Production malus and instead grant extra stats as follows:
 	- Content Farm (and replacements): +3 Science, but no longer adds Culture
 	- Electronics Production Line: -10% Unhappiness from population in the owning city
 	- Machinery Production Line: +10% Production
 	- Publishing House: +2 Culture
+	- However, they now have a civ-wide limit of 2 each and you cannot have more than one of the four in the same city, and they will shut down when the faction runs out of Power instead of still functioning until falling into negative Power. Content Farms also unlock at Networking and require Data Centers instead of Broadcast Towers.
 - Arcology Dome buffed to +250 City HP and +33% Water, but requires the city to be of size 20 or higher (or will once that base game bug is fixed).
 - Carbon Capture no longer adds stats to Grasslands; it instead adds +1 Food/Production to Tree plantations and it consumes Power to build.
+- Government building adjustments:
+	- All Congress variants that reduce Unhappiness have their potency reduced by half.
+	- All Council variants are increased to a minimum production cost of 100.
 - Production building adjustments:
 	- Stable nerfed to +1 Production on Horses tiles, but no longer adds a Food penalty to them.
 	- Blast Furnace nerfed to +1 Production on Scrap/Metal tiles, but no longer adds Food/Water penalties to them.
@@ -112,20 +116,20 @@ Policy Changes:
 		- Conceptually this is supposed to be the Freedom analogue, but ended up taking more after Aesthetics, resulting in an overpowered, unfocused mess. This tree receives some of the most severe nerfs.
 		- The tree no longer boosts growth at all.
 		- Civil Society also loses its Unhappiness reduction from specialists (this is moved to Harmony), and instead gets the effect of Their Finest Hour (+33% Strength for cities) that was removed from Political Officers.
-		- Protected Speech's old effect of +1 Culture per 3 population in your cities has been thrown out because it was giving too much Culture. It now cuts the production time of Happiness buildings in half. It also adds +2 Culture instead of +1 to Town Halls.
+		- Protected Speech's old effect of +1 Culture per 3 population in your cities has been thrown out because it was giving too much Culture. It now cuts the production time of Culture buildings in half. It also adds +2 Culture instead of +1 to Town Halls.
 		- Public Good's old effect has been thrown out; it now adds +1 Water/Happiness to Water Storage units, Hospitals, Town Halls, and Broadcast Towers.
-		- Legislative Process loses the +1 Happiness per 5 population bonus and reduced to 20% extra Great Administrator generation (in accordance with other trees only boosting their respective Great Person by 20% instead of 25%), but awards a free Great Administrator to compensate.
+		- Legislative Process loses the +1 Happiness per 5 population bonus and is reduced to 20% extra Great Administrator generation (in accordance with other trees only boosting their respective Great Person by 20% instead of 25%), but awards a free Great Administrator to compensate.
 		- Voting Rights loses the 25% Strength penalty while the empire is unhappy.
 		- The finisher bonus is nerfed to +4 of the respective primary yield to each non-evil Great Improvement (+2 of each primary yield for Settlements, Wasteland Stations, Citadels, and Preservators) instead of double yields. Yes, this means other expansion mods with unique Great Improvements get shafted, and I do mean to address that at a later time.
 	- Supremacy
 		- The opener no longer gives free upkeep to units.
-		- Police State no longer gives +3 Happiness to Prison Camps (that bonus is moved to Listening Posts); instead it adds +3 Production to those buildings and Work Camps. Town Hall also loses its +1 Happiness from the policy. Annexed and puppeted cities no longer have a Food malus.
+		- Police State no longer gives +3 Happiness to Prison Camps (that bonus is moved to Listening Posts); instead it adds +3 Production to those buildings and Work Camps. Town Hall also loses its +1 Happiness from the policy. Annexed and puppeted cities no longer have a Food malus. The production time of Listening Posts is cut in half.
 		- Spoils of War now provides double Slaves instead of Autocracy.
 		- The finisher bonus now adds +2 Food/Production/Water to every owned city while you have Slaves and +4 of the respective primary yield to each evil Great Improvement (Narcotics farm, Oracle, Outpost, Prison farm; Crystal Refineries get +2 Water/Science instead).
 	- Monopoly
 		- The +33% Water bonus to the Council from the opener bonus was moved to Planned Economy.
 		- The tree no longer adds extra Water to Factories or Work Camps aside from Privatization retaining its +2.
-		- Mass Consumption adds +1 Water to Moisture traps/Water pumps.
+		- Mass Consumption's old effect has been thrown out; it instead adds +1 Water to Moisture traps/Water pumps and +25% more gifted resources from City-States. (The +1 Happiness per unique luxury still exists but requires completing the Rediscovery tree instead.)
 		- Venture Capital adds +2 Water to the four main Water buildings instead of reducing item purchase cost (this was moved to Privatization).
 		- Privatization's stat penalties were removed. It is no longer a game-breaking policy thanks to the Hazard Pay nerf.
 		- Entrepreneurship loses the extra GM generation and receives the reduced road maintenance which was part of Privatization + a buffed building maintenance cost reduction moved from the finisher bonus, and adds +2 Science to the main four Water buildings.
@@ -151,14 +155,14 @@ Policy Changes:
 		- The opener is adjusted to add 5% Production in all cities and lose the Science boost/Culture penalty.
 		- Automation loses the Science boost and now adds +2 Production/Happiness to Factories and Automated Factories.
 		- Logistics renamed to Integrated Attack Logistics and loses the minor healing bonus and Unit Supply bonus, but adds 50% Production to Automated units.
-		- The finisher awards a free Purge Robot and increases the Production bonuses from 10% to 25%.
+		- The finisher awards a free Purge Robot and increases the Production bonuses from 10% to 25%, but nerfs the extra quantity of strategic resources from 50% to 25% (this was not originally a nerf; Mechanization in the base scenario was buffed after this mod reworked the social policies).
 	- Bionics
 		- The opener is now +1 Science per 4 population instead of a flat +2 Science per city.
 		- Weather Engineering now adds +2 Water to Moisture traps, along with +2 Production and +1 Power to Solar collectors and Wind farms, making it much more useful.
 		- Eugenics loses the Unhappiness reduction and adds +15 starting XP to Military units.
 		- Cybernetics loses the weak +1 Production per 10 population and adds 25% Production towards Military units. Additionally, the old effect of letting Personnel units retain full strength while wounded has been moved to a new "AI Implant" promotion granted by this tenet that also adds a 15% Strength bonus when attacking and additional healing.
 		- Transhumanism adds a 33% reduction to Unhappiness in the Capital.
-		- The finisher bonus also adds a Production bonus towards Colony Ship Parts for players pursuing a Colonization Victory.
+		- The finisher bonus now awards a free Great General and Great Scientist instead of letting the player choose any one free Great Person, and adds a Production bonus towards Colony Ship Parts for players pursuing a Colonization Victory.
 
 Belief Changes:
 - Pantheons
@@ -188,6 +192,9 @@ Belief Changes:
 	- Itinerant Preachers and Religious Texts have been made **inaccessible.**
 - Misc.
 	- Missionary Zeal renamed to Philosophic Debates.
+
+Specialist Changes:
+- Administrators are adjusted to +2 Culture while active and no longer give Happiness.
 
 Promotion Changes:
 - Forage was the second worst offender of OP promotions, and the nerfs are appropriately severe: it awards 67% less Science per kill and no longer gives extra XP. Instead it adds minor healing bonuses in Rubble/Ruins tiles.
