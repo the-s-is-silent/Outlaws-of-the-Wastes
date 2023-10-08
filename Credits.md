@@ -10,11 +10,12 @@ The icon for Alma State Guard is of my own creation.
 
 Unless otherwise specified, all of the following are from the Noun Project, licensed under Creative Commons or Public Domain. Also, if anyone feels like there is a better/more fitting icon out there for any particular building/unit/etc. than the one that is used, I am open to suggestions for replacement icons.
 
-Items still missing an icon (not necessarily a complete list): Alma Frontier Guard, Alma Honor Guard, Alternet Cafe, Atomgrad Project, Defense Directorate (and its replacements), Drifter, Exploratores, Key to the City, Mounted Railgun, Opolcheniye, Pogost, Pridwen-class, Rapid Response Squad, SS Casing, SS Life Support, State Guard, Super Mutant, Tribal Unification Initiative
+Items still missing an icon (not necessarily a complete list): Alma Frontier Guard, Alma Honor Guard, Atomgrad Project, Composite Materials Plant, Condenser Cooler, Defense Directorate (and its replacements), Drifter, Exploratores, Key to the City, Mounted Railgun, Preservator (icon also missing from TCC-beta), Pridwen-class, Rapid Response Squad, SS Casing, SS Life Support, State Guard, Super Mutant, Tribal Unification Initiative
 
 ### Building Icons
 - Abbey: [Westminster Abbey](https://thenounproject.com/icon/westminster-abbey-5459042/) by Brickclay, PK
 - Advanced Chemical Refinery: [smart factory](https://thenounproject.com/icon/smart-factory-2260365/) by ProSymbols, US
+- Alternet Cafe: [internet cafe](https://thenounproject.com/icon/internet-cafe-4624824/) by Eucalyp
 - Atomic Diner: [atom](https://thenounproject.com/icon/atom-1081009/) by ProSymbols, US
 - Bishop's Storehouse: [Storage Garage](https://thenounproject.com/icon/storage-garage-1371149/) by STBS, IN
 - Blue Castle Reactor: [atom](https://thenounproject.com/icon/atom-2606502/) by Icon Lauk, ID
@@ -69,9 +70,11 @@ Items still missing an icon (not necessarily a complete list): Alma Frontier Gua
 - Statue of Remembrance: [Justice](https://thenounproject.com/icon/justice-3872855/) by Eucalyp
 - Stone of Ages: [excalibur](https://thenounproject.com/icon/excalibur-2526433/) by Andrejs Kirma, LV
 - Tabernacle: [Mormon Temple](https://thenounproject.com/icon/mormon-temple-91138/) by Jason Dilworth
+- Thunderdome: [dome](https://thenounproject.com/icon/dome-4026886/) by Zaenal Abidin, ID
 - Tidal Array: [Tidal energy](https://thenounproject.com/icon/tidal-energy-4215014/) by Lucas Helle, CL
 - [Totem Pole](https://thenounproject.com/icon/totem-pole-20257/) by MaxineVSG, GB
 - Triage: [Medical cross](https://thenounproject.com/icon/medical-cross-267749/) by TMD
+- Underworld: Merger of [boar](https://thenounproject.com/icon/boar-3864428/) by Andrejs Kirma, LV and [Power](https://thenounproject.com/icon/power-1196196/) by Icon Depot, IN
 - [Victory Column](https://thenounproject.com/icon/victory-column-4202773/) by tezar tantular, ID
 - Wasteland Surveillance Initiative: [Security](https://thenounproject.com/icon/security-123950/) by Aaron K. Kim, US
 - Workers' Facility: [facility](https://thenounproject.com/icon/facility-2815116/) by WEBTECHOPS LLP, IN
@@ -110,7 +113,7 @@ Items still missing an icon (not necessarily a complete list): Alma Frontier Gua
 - Prospector: [prospector hat](https://thenounproject.com/icon/prospector-hat-1105355/) by Clément Branger
 - Sea Raider: Same icon as Advanced Piracy
 - Self-Repair: [Hammer](https://thenounproject.com/icon/hammer-854936/) by Thengaloka (same icon used for Air Repair in base Unciv)
-- Zeal (currently unused): [zeal of the convert](https://thenounproject.com/icon/zeal-of-the-convert-4708155/) by Saneseed
+- Zeal: [zeal of the convert](https://thenounproject.com/icon/zeal-of-the-convert-4708155/) by Saneseed
 
 ### Resource Icons
 - Advanced Fabrics: [nanotech shirt](https://thenounproject.com/icon/nanotech-shirt-4817171/) by supalerk laipawat, TH
@@ -143,6 +146,7 @@ Items still missing an icon (not necessarily a complete list): Alma Frontier Gua
 - Mobile Clinic: [Ambulance](https://thenounproject.com/icon/ambulance-1262538/) by Ralf Schmitzer
 - Mormon Battalion: [flag of utah](https://thenounproject.com/icon/flag-of-utah-5740272/) by Zach Bogart
 - Neutron Bomb: [Nuclear](https://thenounproject.com/icon/nuclear-2169503/) by ahmad, ID
+- Opolcheniye: [Ak-47](https://thenounproject.com/icon/ak-47-1745454/) by Nico Ilk, CH
 - Seastead Vessel: [Ship](https://thenounproject.com/icon/ship-4767613/) by Singlar
 - Speculatores: [bloody knife](https://thenounproject.com/icon/bloody-knife-2109678/) by Vectors Market
 - Technopath: [mind ability](https://thenounproject.com/icon/mind-ability-3216421/) by Vectors Point, PK

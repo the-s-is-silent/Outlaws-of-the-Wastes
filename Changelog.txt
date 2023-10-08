@@ -223,6 +223,11 @@ Changes since the Harbinger update
         - Central Press Service, a standalone UB giving them a unique luxury
     - Atlas:
         - Kruger Line, a unique national wonder requiring a Factory present in all cities and consuming Power to add +2 Production to tiles with a Railroad on them along with +2 Water to each Trade Route
+    - Bartertown CS:
+        - Thunderdome, a standalone building boosting Culture/Happiness and starting unit XP
+        - Underworld, a standalone building which adds +2 base Production (increasing to +4 with Hogs), +1 Production to Pastures/Biocultures, and provides 2 Power
+        - Wheelwright, replacing the Forge, with higher Production bonuses than a standard Forge and a bonus to Armor unit production
+        - Both the Thunderdome and Underworld will remain intact if Bartertown is captured
     - Calico CS:
         - Nanomaterial Factory, granting a new unique luxury and granting their units a unique promotion
     - Camelot Foundation:
@@ -232,11 +237,11 @@ Changes since the Harbinger update
     - Deseret Nation:
         - Sacred Cave, replacing the Shrine, adding +50 City HP, +1 Culture, and an additional +2 Culture/Faith to Ancient Wonders if the player is lucky enough to settle near one
     - The Harbingers:
-        - Pogost, replacing the Town Hall, boosting the city's Water yields (+2 base increasing to +3 with sufficient Power, along with +1 Water per trade route, +2 Water to Wasteland Stations worked by the city, and a Merchant slot instead of an Administrator slot)
+        - Pogost, replacing the Town Hall, boosting the city's Water yields (+2 base increasing to +3 and +1 Faith/Culture/Happiness with sufficient Power, along with +1 Water per trade route, +2 Water to Wasteland Stations worked by the city, and a Merchant slot instead of an Administrator slot)
     - Hexlock:
-        - Advanced Chemical Refinery, a standalone UB for Hexlock locked behind Supremacy that doubles Refinery yields and grants Chemical Weapons to Purge Robots
+        - Advanced Chemical Refinery, a standalone UB for Hexlock locked behind Supremacy that boosts Refinery yields by 50% and grants Chemical Weapons to Purge Robots trained in the city, but consumes both Coal and Power
     - Proklyatyye:
-        - Kolkhoz, replacing the Greenhouse, adds +2 Production, 2 Farmer slots instead of 1, and +1 Production to active Farmers in the city, but has higher maintenance
+        - Kolkhoz, replacing the Greenhouse, adds +2 Production, 2 Farmer slots instead of 1, and +1 Production to active Farmers in the city, but has higher maintenance (2 vs. 1)
 
 **New Units**
 - Great Admirals are added in the form of their present Rekmod implementation. They use the "Is part of Great Person group" unique and do not increase the GPP cost of other Great People.

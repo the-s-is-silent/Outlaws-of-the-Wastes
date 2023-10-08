@@ -111,7 +111,7 @@
 			"[-33]% Production when constructing [Military] units [in all cities]",
 			"[-67]% Gold from Great Merchant trade missions",
 			"[+100]% unhappiness from the number of cities"],
-		"cities": ["Vodagrad", "Prava", "Nevesk", "Kyovashad", "Prekrasnaya", "Zapolyarny", "Ubezhishche", "Nostrava",
+		"cities": ["Vodagrad", "Prava", "Nevesk", "Kyovashad", "Prekrasnaya", "Zapolyarny", "Ubezhishche", "Nostrava", "Sysevichgrad",
 			"Margrave", "Yelesna", "Menestad"],
 		"spyNames": ["Sergey", "Iosef", "Leonid", "Mikhail", "Tatiana", "Veronika", "Alexei", "Anastasia", "Nikita", "Fyodor"],
 		"civilopediaText": [
@@ -443,10 +443,24 @@
 
 	//Adjusted CS
 	{
+		"name": "Bartertown",
+		"adjective": ["Bartertown"],
+		"cityStateType": "Trading",
+		"startBias": ["Desert"],
+		"style": "Gang",
+		"uniques": ["Starts with [Redomestication]", "Starts with [Iron Working]", "Starts with [Chemistry]"],
+		"declaringWar": "Ladies and gentlemen, boys and girls, it's dyin' time!",
+		"attacked": "Two men enter, one man leaves!",
+		"defeated": "You run Bartertown.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [194, 7, 255],
+		"cities": ["Bartertown"]
+	},
+	{
 		"name": "Almaty",
 		"adjective": ["Almaty"],
 		"cityStateType": "Weapons",
-		"startBias": ["Hills"],
+		"startBias": ["Hill"],
 		"style": "Military",
 		"uniques": ["Double quantity of [Weapons] produced",
 			"Cannot build [Low Tech] units"],
