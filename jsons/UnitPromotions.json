@@ -9,6 +9,17 @@
 		"column": 8,
 		"row": 7
 	},
+	{
+		"name": "Active Protection System",
+		"uniques": ["[+33]% Strength <vs [Air] units> <when defending>",
+			"[+33]% Strength <vs [Helicopter] units> <when defending>",
+			"[+33]% Strength <vs [Siege] units> <when defending>",
+			"Only available <if [Armor Production Line] is constructed>",
+			"Only available <for units without [Promotion Nullifier]>"],
+		"unitTypes": ["Armor"],
+		"column": 8,
+		"row": 8
+	},
 
 	//Air
 	{
@@ -56,6 +67,23 @@
 		"unitTypes": ["Scout"],
 		"column": 1,
 		"row": 3
+	},
+	{
+		"name": "Shock",
+		"uniques": ["[+25]% Strength <when fighting in [Open terrain] tiles>",
+			"Only available <for units without [Promotion Nullifier]>"],
+		"unitTypes": ["Mounted", "Armor"],
+		"column": 1,
+		"row": 4
+	},
+	{
+		"name": "Loose Formation",
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>",
+			"May withdraw before melee ([25]%)",
+			"Only available <for units without [Promotion Nullifier]>"],
+		"unitTypes": ["Mounted", "Armor"],
+		"column": 1,
+        "row": 5
 	},
 	{
 		"name": "Bombardment",
@@ -134,6 +162,42 @@
 			"Only available <for units without [Promotion Nullifier]>"],
 		"unitTypes": ["Fighter"],
 		"column": 4,
+		"row": 6
+	},
+	{
+		"name": "Reconnaissance I",
+		"uniques": ["Ignores terrain cost",
+			"Only available <for units without [Promotion Nullifier]>"],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
+		"column": 5,
+		"row": 1
+	},
+	{
+		"name": "Reconnaissance II",
+		"prerequisites": ["Reconnaissance I"],
+		"uniques": ["[+50]% Strength <vs [Siege] units>",
+			"Ignores Zone of Control",
+			"Only available <for units without [Promotion Nullifier]>"],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
+		"column": 5,
+		"row": 2
+	},
+	{
+		"name": "Reconnaissance III",
+		"prerequisites": ["Reconnaissance II"],
+		"uniques": ["[+1] Movement", 
+			"Only available <for units without [Promotion Nullifier]>"],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
+		"column": 5,
+		"row": 3
+	},
+	{
+		"name": "Pursuit",
+		"prerequisites": ["Loose Formation", "Shock"],
+		"uniques": ["[+25]% Strength <vs [Wounded] units>",
+			"Only available <for units without [Promotion Nullifier]>"],
+		"unitTypes": ["Mounted", "Armor"],
+		"column": 5,
 		"row": 6
 	},
 	{
@@ -306,7 +370,7 @@
 		"name": "Prospector",
 		"uniques": ["[+10]% Strength when stacked with [Civilian]",
 			"Can build [Land] improvements on tiles",
-			"[-25]% tile improvement construction time <after discovering [Replaceable Parts]>",
+			"[-25]% construction time for [Land] improvements <after discovering [Replaceable Parts]>",
 			"Gain [1]-[5] [Gold] <upon ending a turn in a [Forest] tile>",
 			"Gain [1]-[5] [Gold] <upon ending a turn in a [Jungle] tile>",
 			"[+5] HP when healing",
@@ -352,7 +416,7 @@
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Can build [Trench] improvements on tiles",
-			"[-33]% tile improvement construction time <after discovering [Replaceable Parts]>",
+			"[-25]% construction time for [Land] improvements <after discovering [Replaceable Parts]>",
 			"Uncapturable"]
 	},
 	{

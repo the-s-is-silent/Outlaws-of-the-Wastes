@@ -11,7 +11,7 @@ A major expansion + rebalance mod for DeCiv Redux.
 
 - Deseret Nation is now a playable faction.
 
-- Many units, buildings, wonders, promotions, beliefs, and tile improvements from the base scenario have been either buffed or nerfed. In addition, the social policies have been overhauled. Check the Rebalance Log.md file for a comprehensive list of adjustments.
+- Many units, buildings, wonders, promotions, beliefs, and tile improvements from the base scenario have been either buffed or nerfed, or in the worst-case scenario removed outright. In addition, the social policies have been overhauled. Check the Rebalance Log.md file for a comprehensive list of adjustments.
 
 ## Other features
 
@@ -19,7 +19,7 @@ A major expansion + rebalance mod for DeCiv Redux.
 
 - Two new factions:
   - Camelot Foundation, a constitutional republic arising from what's left of Wales, England and Brittany.
-  - The Harbingers, the remnant of an evil Mega-Corp who are now trying to atone for their previous practices...or are they?
+  - The Harbingers, the remnants of an evil Mega-Corp who are now trying to atone for their previous practices...or are they?
 
 - Seven new city-states: Calico (Labor), Carbon (Farming), Defiance (Weapons), Hockeytown (Culture), Issaquah Nation (Prayer, replacing Deseret in that slot), The Pax (Research), and Venice Beach (Trading).
 
@@ -28,10 +28,11 @@ A major expansion + rebalance mod for DeCiv Redux.
   - City-States: State Guard
   - Civilian: Great Admiral (Rekmod implementation) + Seastead Vessel
   - Military support: Wandering Doctor + Mobile Clinic
+  - Naturalism policy: Eco-Terrorist
   - Scouting: Wasteland Patrol, Border Patrol, Expeditionary Force
   - Hero units (only 1 allowed per Civ): Hero of the Wastes, only available as a random camp reward
 
-- New buildings: Alternet Cafe, Coastal Defenses, Composite Materials Plant, Condenser Cooler, Contraband Disposal Site, Defense Directorate (City-States only), Earth Clinic (Naturalism only), Earthscraper (Collectivism only), Ethanol Station, Food Processing Plant, Interpretative Center, Jeweler, Navy Shipyard (Rediscovery only), Sanctuary, Sociopolitical Institute, Tidal Array, and Workers' Facility (Collectivism only).
+- New buildings: Alternet Cafe, Coastal Defenses, Condenser Cooler, Contraband Disposal Site, Defense Directorate (City-States only), Earth Clinic (Naturalism only), Earthscraper (Collectivism only), Ethanol Station, Food Processing Plant, Interpretative Center, Jeweler, Navy Shipyard (Rediscovery only), Sanctuary, Sociopolitical Institute, Tidal Array, and Workers' Facility (Collectivism only).
 
 - New world wonder: Statue of Remembrance.
 
@@ -41,12 +42,14 @@ A major expansion + rebalance mod for DeCiv Redux.
   - Resettlement Bureau, to help Collectivist factions expand faster into unclaimed territory in the mid-game.
   - Naval War College, the naval counterpart to the Military Academy, but cannot exist in the same city as the Military Academy.
   - Earthscraper Project, unlocking a powerful late-game building for Collectivist factions.
+  - Microwave Power Satellite, a late-game Power building for desert cities that also improves Solar collectors.
 
 - New tile improvements:
   - Artificial atoll and Floating Settlement, unlocked at Ocean Remediation and built exclusively by the Seastead Vessel.
   - Drydock, the Great Admiral unit's Great Improvement.
+  - Preservator, borrowed from Bamboolord's expansion mods and built by a new Great Person who is exclusive to The Pax.
 
-- Several of the 14 factions in the base scenario have gained one or more new unique components, and/or had their unique ability/some of their unique components adjusted. Check the Faction Adjustments.md file for more details.
+- Most of the 14 factions in the base scenario have gained one or more new unique components, and/or had their unique ability/some of their unique components adjusted. Check the Faction Adjustments.md file for more details.
 
 - Several new beliefs for more diverse religion customization.
 

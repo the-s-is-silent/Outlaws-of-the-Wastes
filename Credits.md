@@ -4,19 +4,20 @@ Like the status of the mod as a whole as well as DeCiv Redux's credit list, this
 Pixel art will most likely reuse other sources (several of them from DeCiv, Drydock from Rekmod) for the initial upload.<br>
 Floating Settlements and Wasteland Stations borrow the Biodome City and Mining Camp images from Alpha Frontier, with permission from [Indonesian Gentleman](https://github.com/carriontrooper).<br>
 Preservator is borrowed from [Bamboolord](https://github.com/RealBamboolord) with his permission.<br>
-Some of the icons reuse unsourced images used in either Unciv or DeCiv Redux.<br>
+Several icons reuse images used in either Unciv or DeCiv Redux, with some of the latter remaining unsourced.<br>
 The Religion Icons for Anglicanism, Imperial Cult and Mormonism were created by Tomatekh on CivFanatics and can be found [at the Civ 5 Customization Wiki's entry on the Tomatekh's Historical Religions mod](https://civilization-v-customisation.fandom.com/wiki/Tomatekh%27s_Historical_Religions).<br>
 The icon for Alma State Guard is of my own creation.
 
 Unless otherwise specified, all of the following are from the Noun Project, licensed under Creative Commons or Public Domain. Also, if anyone feels like there is a better/more fitting icon out there for any particular building/unit/etc. than the one that is used, I am open to suggestions for replacement icons.
 
-Items still missing an icon (not necessarily a complete list): Alma Frontier Guard, Alma Honor Guard, Atomgrad Project, Composite Materials Plant, Condenser Cooler, Defense Directorate (and its replacements), Drifter, Exploratores, Key to the City, Mounted Railgun, Preservator (icon also missing from TCC-beta), Pridwen-class, Rapid Response Squad, SS Casing, SS Life Support, State Guard, Super Mutant, Tribal Unification Initiative
+Items still missing an icon (not necessarily a complete list): Alma Frontier Guard, Alma Honor Guard, Arsenal of Liberty, Atomgrad Project, Commonwealth Reserve, Condenser Cooler, Defense Directorate (and its replacements), Drifter, Eco-Terrorist, Exploratores, Field Preparations Squad, Issaquah Mystic, Key to the City, Miracle Metal Mill, Mounted Railgun, OSI, Preservator (icon also missing from TCC-beta), Pridwen-class, Rapid Response Squad, SS Casing, SS Life Support, State Guard, Super Mutant, Tribal Unification Initiative
 
 ### Building Icons
 - Abbey: [Westminster Abbey](https://thenounproject.com/icon/westminster-abbey-5459042/) by Brickclay, PK
 - Advanced Chemical Refinery: [smart factory](https://thenounproject.com/icon/smart-factory-2260365/) by ProSymbols, US
 - Alternet Cafe: [internet cafe](https://thenounproject.com/icon/internet-cafe-4624824/) by Eucalyp
 - Atomic Diner: [atom](https://thenounproject.com/icon/atom-1081009/) by ProSymbols, US
+- Austere Processing Hub: [database](https://thenounproject.com/icon/database-5276636/) by iconfield, ID
 - Bishop's Storehouse: [Storage Garage](https://thenounproject.com/icon/storage-garage-1371149/) by STBS, IN
 - Blue Castle Reactor: [atom](https://thenounproject.com/icon/atom-2606502/) by Icon Lauk, ID
 - Caesareum: [temple](https://thenounproject.com/icon/temple-3636159/) by Rock Zombie
@@ -38,12 +39,14 @@ Items still missing an icon (not necessarily a complete list): Alma Frontier Gua
 - First Kiva: [Kiva](https://thenounproject.com/icon/kiva-84834/) by Alex Fuller, US
 - [Food Processing Plant](https://thenounproject.com/icon/food-processing-plant-1877253/) by ProSymbols, US
 - Gostiny Dvor: [castle](https://thenounproject.com/icon/castle-1502/) by Iconic, CY
+- Grand Tabernacle: [Mormon Temple](https://thenounproject.com/icon/mormon-temple-91138/) by Jason Dilworth
 - Gulag: [star](https://thenounproject.com/icon/star-3086974/) by Dmitry Vasiliev
 - Harbinger Manege: [greek temple](https://thenounproject.com/icon/greek-temple-915585/) by Blair Adams, US
 - Hexlock Chemical Company: [chemical industry](https://thenounproject.com/icon/chemical-industry-4762097/) by Azam Ishaq, PK
 - Homeland Defense Initiative: [national defense](https://thenounproject.com/icon/national-defense-4363309/) by Yusuf Solihudin, ID
 - Ice Hockey Rink: [hockey](https://thenounproject.com/icon/hockey-3509449/) by nareerat jaikaew, TH
 - Interpretative Center: [translate](https://thenounproject.com/icon/translate-3624415/) by sripfoto, TH
+- Interstice: [hyperloop train](https://thenounproject.com/icon/hyperloop-train-5736270/) by Delwar Hossain, BD
 - Jeweler: [jeweler](https://thenounproject.com/icon/jeweler-207094/) by Hans Paul Mösl Junior, BR
 - Kolkhoz: [Hammer and Sickle](https://thenounproject.com/icon/hammer-and-sickle-1367671/) by Dmitry Baranovskiy, AU
 - Kruger Line: [railway](https://thenounproject.com/icon/railway-5804165/) by Viktor Turchyn, UA
@@ -64,12 +67,13 @@ Items still missing an icon (not necessarily a complete list): Alma Frontier Gua
 - The Round Table: [round table](https://thenounproject.com/icon/round-table-4817059/) by Musmellow
 - Sacred Cave: [cave](https://thenounproject.com/icon/cave-5590220/) by Ardhian Rama
 - Sangreal Vault: [holy grail](https://thenounproject.com/icon/holy-grail-2256337/) by Arunika
+- Sharecropper Farm: [out building](https://thenounproject.com/icon/out-building-1848316/) by Smashicons, GB
 - Sociopolitical Institute: [Campus](https://thenounproject.com/icon/campus-3884267/) by Adrien Coquet, FR
 - Soup Kitchen: [Soup](https://thenounproject.com/icon/soup-1182528/) by Peter Emil van den Berg, NL
 - State Dacha: [cabin](https://thenounproject.com/icon/cabin-3306863/) by PenSmasher, TH
 - Statue of Remembrance: [Justice](https://thenounproject.com/icon/justice-3872855/) by Eucalyp
 - Stone of Ages: [excalibur](https://thenounproject.com/icon/excalibur-2526433/) by Andrejs Kirma, LV
-- Tabernacle: [Mormon Temple](https://thenounproject.com/icon/mormon-temple-91138/) by Jason Dilworth
+- Tabernacle: [temple](https://thenounproject.com/icon/temple-22044/) by George Patterson, US
 - Thunderdome: [dome](https://thenounproject.com/icon/dome-4026886/) by Zaenal Abidin, ID
 - Tidal Array: [Tidal energy](https://thenounproject.com/icon/tidal-energy-4215014/) by Lucas Helle, CL
 - [Totem Pole](https://thenounproject.com/icon/totem-pole-20257/) by MaxineVSG, GB
@@ -102,6 +106,7 @@ Items still missing an icon (not necessarily a complete list): Alma Frontier Gua
   - Expropriation: [appropriation](https://thenounproject.com/icon/appropriation-3057089/) by Ninejipjip
 
 ### Promotion Icons
+- Active Protection System: [Radar](https://thenounproject.com/icon/radar-1427289/) by Mohamed Mb, IT
 - AI Implant: [Artificial Intelligence](https://thenounproject.com/icon/artificial-intelligence-5689657/) by Anwar Hossain
 - Ballistic Weave: [graphene technology](https://thenounproject.com/icon/graphene-technology-1870120/) by ProSymbols, US
 - Combat Armor: [armor](https://thenounproject.com/icon/armor-4069582/) by iconixar

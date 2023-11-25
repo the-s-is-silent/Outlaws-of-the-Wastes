@@ -1,5 +1,7 @@
 Changes since the Harbinger update
 
+1) August - October 2023
+
 **Mod Options and Game Speed Adjustments**
 - The survivor camp spawn rate has been drastically reduced (but is still significantly higher than base level) after determining that the previous rate was very much overpowered.
 - Pantheons now cost 30 Faith to found on Standard speed and do not increase in cost as factions gain their Pantheons.
@@ -8,12 +10,13 @@ Changes since the Harbinger update
 
 **Faction and City-State Adjustments**
 - Almaty can no longer build Low Tech units. Their dialogue was also changed, to give them more personality.
-- Atlas now has a Mountain start bias, and can no longer build Enslaved units, Prison Camps or Work Camps.
-- Crimson Legion now has Imperial Cult as their favored religion, and can no longer build Purge Robot units.
-- Cult of Ignis and Deseret Nation both lose their Turn 1 prophet from their unique Wonder (they can still get a free one from the Theocracy tree). Deseret now gains their free Enhancer belief upon founding their religion.
+- Atlas now has a Mountain start bias and can no longer build Enslaved units, Prison Camps or Work Camps.
+- Bartertown now starts with Redomestication, Iron Working, and Chemistry. Their declaring war line was also changed.
+- Crimson Legion now has Imperial Cult as their favored religion, and can no longer build Automated or Purge Robot units.
+- Cult of Ignis and Deseret Nation both lose their Turn 1 prophet from their unique Wonder (they can still get a free one from the Theocracy tree).
 - Cult of Ignis gains +1 Movement to Armor units, but loses the Culture boost to Coal Plants.
-- Deseret Nation loses the Iron Working and Steel starting techs along with the temporary Science penalty.
-- The Harbingers only get one-third as much Water and Influence from CS trade missions. However, the ban on building settlers has also been rescinded.
+- Deseret Nation loses the Iron Working and Steel starting techs along with the temporary Science penalty, and gains their bonus Enhancer belief upon founding their religion.
+- The Harbingers only get one-third as much Water and Influence from CS trade missions. However, the ban on building settlers has been rescinded.
 - Hexlock gains double Encrypted Data in their UA, but loses the free Construction, Machinery and Engineering techs and gets Chemistry as a free tech instead.
 - The Mariners now start with Rediscovery adopted, and after adopting Advanced Piracy their Ranged Water and Personnel units also gain the Sea Raider promotion.
 
@@ -204,7 +207,7 @@ Changes since the Harbinger update
 **New Buildings and Wonders**
 - Standalone:
     - Alternet Cafe, a Culture boosting building that consumes Power and grows stronger in larger cities (but not as strong as pre-nerf Public Schools)
-    - Composite Materials Plant, which consumes Coal and Power to give a 10% boost to building construction in the owning city and add +1 Production to strategic resources, +2 Production to Manufactories
+    - Composite Materials Plant, which consumes Coal and Power to give a 10% boost to building construction in the owning city and add +1 Production to strategic resources, +2 Production to Manufactories (Note: this building has since been deleted)
     - Condenser Cooler, which consumes Coal to provide the owning city with more Water (10% total and +1 to worked Moisture traps), but obsoletes in the late-game
     - Sanctuary, a Happiness boosting building meant to encourage building Nature preserve improvements since it adds yields to those improvements (+1 Food/Water/Culture) but requires the city to be working at least 1
     - Sociopolitical Institute, a Culture boosting building that grows stronger with each social policy completed (starts at +2 Culture and +1 Administrator slot, gains +1 Culture per completed policy)
@@ -213,7 +216,7 @@ Changes since the Harbinger update
     - Earthscraper Project, locked behind Collectivism, enabling construction of Earthscraper buildings which add 1 of every Specialist, +2 pop, a *lot* of city HP and make the city almost completely immune to pop loss from nukes.
     - Navy Shipyard, locked behind Rediscovery and requiring the player to finish the tree, boosting starting XP of naval units, giving those units a unique promotion, and adding +2 Production to Drydocks worked by the city along with +2 Great Admiral points per turn
     - Oceanological Center, locked behind Rediscovery, consuming Power and boosting Science/Happiness for coastal cities
-    - Resettlement Bureau, locked behind Collectivism, converting 1 pop in the capital to a Civilian Convoy and adding a production boost to Civilian Convoys along with Food yields to Settlements
+    - Resettlement Bureau, locked behind Collectivism, converting 1 pop in the capital to a Civilian Convoy and adding a production boost to Civilian Convoys along with Food yields to Settlements (Note: this building has since been deleted)
     - Workers' Facility, locked behind Collectivism, provides a free Factory, boosts training speed of Civilian units by 25% and boosts the city's Science output by 10% but consumes Power, has high maintenance, and cannot be sold
 - Faction/City-State Specific:
     - All City-States:
@@ -281,3 +284,184 @@ Changes since the Harbinger update
 
 **New Tile Improvements**
 - Preservator, borrowed from Bamboolord's expansion mod with his permission, adjusted, and granted to The Pax CS. This GI gains yields from the finisher bonuses of Rationalism and Constitution (+4 Culture/Science during Golden Ages from the former, +2 Culture/Science from the latter)
+
+2) November 2023
+
+**Mod Options**
+- The XP cap from Barbarians has been reduced from 1200 to 450.
+
+**Ruins Adjustments**
+- Units can no longer receive free upgrades from clearing a survivor or barbarian camp.
+- The "infernal training" bonus is now unavailable during the first 40 turns of the game (was previously the first 20).
+
+**Tech Adjustments**
+- Plastics and Plastics Recycling replaced with Synthetic Materials and Materials Reprocessing.
+- Radar now has Electronics as an additional prerequisite tech, preventing players from skipping an entire technological era.
+- Computers now has Electronics as an additional prerequisite tech and no longer increases Production or Science.
+- Biology no longer increases city growth.
+- Nuclear Fission renamed to Nuclear Power.
+
+**Faction Adjustments**
+- Atlas nerfed to lose the free Electronics starting tech along with the frankly unnecessary double Production speed towards their unique Electrostatic Generators.
+- Crimson Legion now starts with Iron Working instead of Redomestication.
+- New Afrika nerfed; the Great Wall effect in their UA now has an expiration date, and they no longer start with Redomestication. However, their combat bonus against larger civs no longer has a policy requirement.
+- The Patriots now start with only one free tech - Munitions, instead of any of their original four - and no longer have an early-game Science penalty. Additionally, Citadels gain +2 Production/Science, increasing to +4 after entering the Industrial era.
+
+**Building Adjustments**
+- Government:
+	- Resettlement Bureau has been deleted.
+	- Congress variants:
+		- Camelot Foundation's Round Table gains the standard Council growth bonus and no longer has a policy requirement for the Production bonus.
+		- Children of Rust's Citizens' Assembly now adds scaling Production yields instead of scaling Science yields.
+		- Commonwealth's Parliament now cuts CS influence degradation in half and adds scaling Water yields instead of scaling Science yields.
+		- Crimson Legion's Senate now gives a +15% Production boost to cities other than the capital when they construct buildings owned by the capital.
+		- Cult of Ignis's War Council now only boosts Production of Armor units. It also gains the standard Congress bonus of Unhappiness reduction, but requires Ignis to be at war.
+		- Deadrock Clan's Smugglers' Guild now adds +3 Water/Culture to worked Narcotics farms and +2 Water/Culture to Casinos.
+		- The Mariners' Trader's Congress no longer increases Influence gain from Water gifts to City-States; instead it adds scaling Water yields (+1 per 4 population) to all cities, +1 Water to city connections, and grants Culture equal to 10% of the total Culture output of allied City-States.
+		- New Afrika's Survival Program now adds scaling Culture yields (+1 per 4 population) instead of a flat +2 Culture to all cities.
+        - Politburo's State Assembly also adds scaling Production yields and now counts every 4 population instead of every 5.
+	- Council variants:
+		- Atlas's Think Tank buffed to give a +25% Production boost towards Science buildings and a +15% Production boost to cities other than the capital when they construct buildings owned by the capital.
+		- Blackwarden's Board of Directors now adds +2 Water/Science to Personnel Offices and allows Military units to farm Water in combat equal to 10% of the damage they deal to enemy Military units.
+		- Commonwealth's Embassy no longer boosts GP generation, but instead makes Water gifts to City-States yield 25% more influence, and it gains the standard Council bonuses.
+		- Crimson Legion's Consulate now doubles the recovery rate of lost CS influence. This is a placeholder buff until Gunboat Diplomacy is added to Unciv.
+		- Cult of Ignis's Seer Council's old effects have been thrown out; it now adds +2 Culture to every Fuel Depot and College of Mystics along with a +25% Production bonus towards Faith buildings. More importantly, it lets Ignis convert Production into Faith.
+		- Deadrock Clan's Grand Clan Manor now costs 100 Production (down from 200) but only gives 15 XP to newly trained units. However, it grants a +10% Production boost towards Personnel units and boosts city growth by 10% like most Council variants.
+		- Deseret Nation's Quorum of the Twelve now adds +2 Science/Culture to all worked Great Improvements.
+		- The Mariners' Raider's Council now gives a +20% Production boost towards naval units and the standard Council +10% growth boost, but only to coastal cities.
+		- New Afrika's Revolutionary Council now gives a +15% Production boost towards Personnel units.
+		- Proklyatyye's Politburo no longer adds Culture/Happiness to Gulags; it instead adds +3 Production to them, and the Production bonus to Corrective Colonies and Listening Posts is increased to +3.
+- Industry:
+	- Bio Synthesizer moved to Materials Reprocessing and now provides 2 copies of Oil, but no Aluminum or Uranium. You can now have up to 5 instead of 3.
+	- Carbon Capture nerfed; it no longer provides Food at all (I thought I'd made this change earlier, but apparently not) and costs 3 maintenance instead of 2.
+	- Composite Materials Plant has been deleted on account of it becoming redundant after reworks to other buildings.
+	- Heat Plant moved to Synthetic Materials and now provides 4 units of Power.
+	- Metal Reprocessor moved to Materials Reprocessing and now provides 2 copies of Aluminum.
+	- Nuclear Plant now provides 16 units of Power but cannot be built if the city owns an Oil Plant. Deseret and Proklyatyye's versions have been adjusted accordingly.
+		- Proklyatyye's Atomic Pile starts at 8 units of Power and scales to 16 with techs.
+	- Oil Plant now provides up to 8 units of Power, scaling with techs + resource availability. However, it no longer increases Production.
+	- Oil Refinery now provides a second copy of Oil after researching Advanced Materials.
+	- Plastics Reprocessor has been removed from the game.
+	- Recycling Plant is now a Production building instead of a Power building, adding +1 Production to Scrap/Metal/Plastic and Strategic resource tiles, +15% to the city's total Production output, but does not provide resources.
+	- Transport Network *severely* nerfed; it now only adds +1 Production to Boroughs and no other stats.
+		- Childen of Rust's Bike Path is now a standalone Culture building instead of a Production building; it adds +1 Culture to Road tiles (but *not* Railroad tiles) within 2 tiles of the city center.
+	- Uranium Centrifuge's restrictions are tightened; you can now only have 3 and they must be in cities with a Nuclear Plant.
+- Military:
+	- Armament/Armor Production Lines and Aerospace Facilities no longer have negative modifiers to the owning city's Production. However, they now have a maintenance cost of 3 Water.
+	- Armor Production Line is overall nerfed; its Production bonus towards Armor units is reduced to 33% (and turns off when Power is lost) and it no longer awards a free Tank. To compensate, building it unlocks access to a new promotion for Armor units, which is given for free to newly-trained Armor units in that city.
+	- Defense Directorate and its variants are now exclusive to the city-states' original city, just in case issues crop up in the rare case where a city-state captures another city-state or a faction's capital.
+- Science and Culture:
+	- University slightly buffed; it now adds an extra +2 Science instead of +1 when the owner has access to Power.
+	- The three base game faction variants no longer senselessly have reduced Science compared to the standard University, but also no longer give Great Person Points. They are further adjusted as follows:
+		- Crimson Legion: College of Rhetoric now adds +2 Happiness and gives a Scientist slot instead of an Administrator slot, but does not add Culture.
+		- Cult of Ignis: College of Mystics now adds an unconditional +2 Culture, along with +1 Faith when they have access to Power.
+		- Deadrock Clan: Trade College now adds +2 Water and no longer has a maintenance cost, but does not add Culture.
+	- Media Center can now be built with worked Books tiles and adds +2 Culture to those tiles. It also now adds 1 Administrator slot to the city instead of 2 Great Administrator points.
+- Other faction-specific buildings:
+	- Blackwarden:
+		- Personnel Office regains its commented out Merchant slot, gains an Administrator slot, and adds a +10% Production bonus towards Personnel units along with a 25% cost reduction in tile purchases. However, its Production cost is increased to 160 and it no longer gains bonuses from having Slaves.
+		- Resource Management Server no longer provides Slaves.
+		- These two changes mean that Blackwarden is no longer a Slaver faction.
+	- Camelot Foundation:
+		- Sangreal Vault is now an unconditional +2 Science/Faith.
+		- Riding Arena adjusted to +2 Culture/Happiness.
+		- Constabulary's maintenance cost reduced to 1.
+		- Parish School now adds +2 Science/Faith.
+	- Crimson Legion:
+		- Crucifixion Fields no longer reduce Food (I thought I'd made this adjustment earlier, but apparently not). They will be destroyed if another faction takes the city.
+		- Caesareum buffed to +2 Production.
+	- Deadrock Clan:
+		- Clubhouse now generates 2 Water per turn and no longer costs maintenance.
+	- Deseret Nation:
+		- Disciplinary Council's maintenance cost reduced to 1.
+
+**Wonder Adjustments**
+- Domestic Electrification now adds +1 Culture/Happiness to all cities connected to the capital instead of a potential +8 Happiness in the capital. However, its Production cost no longer scales according to how many cities the faction owns.
+- Fusion Reactor now requires the capital to own a Nuclear Plant, but is buffed to add an additional +8 Production to the capital and all cities connected to it.
+- Ground Control Center's Production cost reduced to 300 and it gives +3 Culture instead of Happiness. Adjustments to faction-specific replacements:
+	- Atlas (Survey Center): Starts at +3 Science/+1 Culture, gains +5 Science/+2 Culture with Flight
+	- Blackwarden (Operations Center): 150 base Production
+	- Deseret (Deseret Data Center): 250 base Production, regains bonus for Automated units
+	- The Patriots (Tactics Center): 100 base Production, moved to Munitions
+- International Trade Center buffed to +5 base Water, +50% total Water yields for the owning city, and +3 Water from Trade Routes, adding more incentive to build it in the endgame.
+
+**Unit Adjustments**
+- Bartertown Security Force renamed (or rather, had its name corrected) to Bartertown Imperial Guard.
+- Clansmen no longer require Clubhouses to be built, due to the building being available two tech eras later.
+- Commandos now obsolete at Energy Weapons (since unlike normal Black Ops who consume 2 Weapons, Camelot SAS only consumes 1 so there's no point in letting Commandos remain trainable in the endgame).
+- Destroying Angel no longer obsoletes.
+- Forward Observers now play the "shot" attack sound in combat.
+- Purge Robot Proto and MKI are now Armor units.
+- Scouts (and all unique replacements present in the mod) now gain 1 XP for each Land tile they discover.
+- Seastead Vessel now uses a single unique for all Water improvements that are not specifically for improving Water resources, in the event that more such improvements are added in the future.
+- Tree Lovers now cost 50 Production instead of 70.
+
+**Policy Adjustments**
+- Rationalism:
+	- Skepticism renamed to New Pioneers. (Educated Elite will be renamed later.)
+- Supremacy:
+	- The finisher bonus is reduced to a 15% combat bonus, but remains in effect for the entire game once adopted. With the adjustments to Crystal Refinery yields, it now adds +4 Science to them instead of +2 Water/Science.
+- Monopoly:
+	- The finisher bonus now boosts the yields of Narcotics farms (+2 Water/Science/Culture).
+- Rediscovery:
+	- The finisher bonus no longer adds Global Happiness.
+- Naturalism:
+	- Emissions Standards now boosts the yields of Solar collectors and Wind farms the same way Weather Engineering does (+2 Production, +1 Power).
+	- Ecodefense reverted to a 10% Strength bonus. However, it now unlocks access to a new unit and awards six of them for free.
+
+**Promotion Adjustments**
+- The Reconnaissance promotion line is nerfed as follows:
+	- Level 1 no longer awards bonus XP from combat.
+	- Level 2 no longer gives extra movement or removes the movement cost of pillaging tiles; it now has the Ignore Zone of Control promotion and bonus against Siege units that was part of Level 3.
+	- Level 3 is now just +1 movement.
+- Shock, Pursuit, and Loose Formation are no longer available for Scrapper units. Pursuit is now available for Armor units, but it is nerfed to remove the unit healing on killing units.
+
+**Resource Adjustments**
+- Hexlock's Chemicals are now Strategic Resources as they should be according to Hexlock's UA instead of Luxury Resources. Hexlock now actually suffers from early-game Happiness issues as intended.
+
+**Tile Improvement Adjustments**
+- In general, most Great Improvements now benefit from improved stat scaling.
+- Academies now gain +3 Science instead of +2 from the relevant techs.
+- Artificial oases are now available earlier at Land Remediation and can be built on Desert Swamps (gaining an additional +1 Food, +3 Water if built on those tiles). However, the Water they award enemy factions for pillaging is doubled.
+- Crystal Refineries now start at +4 Science but their adjacency bonuses are nerfed; they now gain +2 Science, +1 Water with 3 or less adjacent Refineries, increasing to +4 Science, +2 Water with 4 or more. Their Production gains are also reduced, only gaining +2 from Coal or Oil tiles.
+- Drydocks now start at +4 Production and gain a total of +6 Production/Science from tech progression.
+- Endowment Houses are adjusted as follows: Start at +6 Faith, gain an additional +1 Water/Culture/Faith from tech progression, but are capped at +2 Food from adjacent food sources.
+- Manufactories now start at +4 Production and scale to +12 from tech progression, along with +2 Food/Science.
+- Narcotics farms now start at +2 Water, +4 Culture and gain an additional +4 Culture with Social Engineering.
+- Oracles now start at +6 Faith, +1 Culture, increasing to +8 Faith, +2 Culture with Chemistry, but no longer provide Happiness.
+- Outposts are adjusted to gain their +4 Production bonus from researching Combined Arms instead of building atop Strategic Resources.
+- Prison farms gain an additional +4 Production with Social Engineering.
+- Seminaries now start at +4 Faith, increasing to +6 with Education, but no longer provide any Culture on their own.
+- Settlements now gain an additional +2 Water/Science from tech progression.
+- Wasteland Stations now start at +2 Food/Water instead of the original +1 Food/Water, +1 from Currency, given that the Harbingers start with that tech so that particular bit of stat scaling is pointless.
+
+**New Units**
+- Commonwealth:
+	- Field Preparations Squad, replacing the Forward Observer, can build Roads, Railroads, Forts and Trenches and do so faster than any other unit
+- Issaquah Nation:
+	- Issaquah Mystic, replacing the State Guard, Low Tech modifier and ranged unit with the same strength as Gunmen, awards Culture per kill (100% of unit's Strength) and has a 1-in-3 chance of withdrawing from melee
+- Naturalism policy:
+	- Eco-Terrorist, unlocked by adopting Ecodefense - its sole purpose is to commit atrocities
+
+**New Buildings**
+- Atlas:
+	- Miracle Metal Mill, replacing the Plastics Factory, adding Production to Metal/Aluminum instead of Plastics/Oil and +10% total Production to the city, but requiring a Factory and Electrostatic Generator present in the city
+- Commonwealth:
+	- Sharecropper Farm, replacing the Greenhouse, adding +1 Food to worked Cattle/Goats tiles and +1 Water to active Farmers in the city after discovering Hydroponics
+	- Commonwealth Reserve, replacing the Water Storage, adding an extra 10% to the city's total Water yields and +1 Water to active Merchants in the city
+	- OSI, replacing the Research Lab, reducing construction time of Food/Production buildings in the city by 1/3 and adding +2 Science to Food providing buildings owned by the city
+- Deseret Nation:
+	- Grand Tabernacle, replacing the Grand Monastery, creating an Endowment House on completion and boosting the yields of Endowment Houses by +1 Food, +2 Water/Culture
+- The Harbingers:
+	- Austere Processing Hub, replacing the Ground Control Center, doubling Encrypted Data resources and adding Science yields to the owning city (+5 base, +15% total) but is more expensive (400 base vs. original's rebalanced 300, increasing by 30 per owned city) and requires every non-puppeted city to own a Census Chamber
+	- Interstice, replacing the Transport Network, adding +1 Production to tiles with a Railroad
+- Issaquah Nation:
+	- Issaquah Tribal Council, replacing the Defense Directorate, adding a +25% Production bonus towards Military units (free units are: 2x Hawkman Brave on construction, 2x Issaquah Mystic on war declaration)
+- The Patriots:
+	- Arsenal of Liberty, replacing the Armaments Production Line, much cheaper to build (100 vs. 250) but requires a Power surplus for both the provided Weapons and Production boost towards Military units
+
+**New National Wonders**
+- Microwave Power Satellite, available at Incentivization, must be in a desert city, provides significant late-game boosts to Solar collectors (+4 Production each) along with 8 units of Power, and adds +1 Production to all desert tiles in the city, +5 Production to the city itself, and +2 Local Happiness
+
+**New Promotions**
+- Active Protection System, only available to Armor units (sans those with Promotion Nullifier) and only if Armor Production Line is built, granting a 33% defense bonus against Air/Helicopter/Siege units. I may add a Hexlock specific version for Purge Robots later

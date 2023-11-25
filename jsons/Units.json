@@ -23,8 +23,7 @@
 		"requiredResource": "Oil",
 		"requiredTech": "Ocean Remediation",
 		"uniques": ["May create improvements on water resources",
-			"Can build [Artificial atoll] improvements on tiles",
-			"Can build [Floating Settlement] improvements on tiles",
+			"Can build [Water] improvements on tiles",
 			"Automation is a primary action"]
 	},
 	{
@@ -141,6 +140,26 @@
 			"Hidden when [Colonization] Victory is disabled"]
 	},
 
+	//Naturalism ideology
+	{
+		"name": "Eco-Terrorist",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 60,
+		"cost": 500,
+		"uniques": ["May Paradrop up to [10] tiles from inside friendly territory",
+			"May enter foreign tiles without open borders",
+			"Destroys tile improvements when attacking <in tiles without [Natural tile]>",
+			"Self-destructs when attacking",
+			"[-75]% Strength <when defending>",
+			"Nuclear weapon of Strength [2]",
+			"Blast radius [0]",
+			"Only available <if [Manhattan Project] is constructed>",
+			"Only available <after adopting [Ecodefense]>"],
+		"promotions": ["Thermoptic Camouflage"],
+		"attackSound": "nuke"
+	},
+
 	//Support units
 	{
 		"name": "Wandering Doctor",
@@ -184,7 +203,8 @@
 		"upgradesTo": "Forward Observer",
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Replaceable Parts",
-		"uniques": ["Low Tech", "[-50]% Strength <vs cities>", "Unable to capture cities"],
+		"uniques": ["Low Tech", "This Unit gains [1] XP <upon discovering a [Land] tile>",
+			"[-50]% Strength <vs cities>", "Unable to capture cities"],
 		"promotions": ["Reconnaissance I", "Skirmish"],
 		"attackSound": "nonmetalhit"
 	},
@@ -200,6 +220,7 @@
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Replaceable Parts",
 		"uniques": ["Low Tech", "Support",
+			"This Unit gains [1] XP <upon discovering a [Land] tile>",
 			"May capture killed [Barbarian] units <with [33]% chance>",
 			"[-50]% Strength <vs cities>",
 			"Unable to capture cities"],
@@ -218,8 +239,10 @@
 		"upgradesTo": "Forward Observer",
 		"promotions": ["Skirmish", "Sentry", "Reconnaissance I"],
 		"uniques": ["Low Tech", "Can move after attacking",
+			"This Unit gains [1] XP <upon discovering a [Land] tile>",
 			"May capture killed [Barbarian] units <with [33]% chance>",
-			"[-50]% Strength <vs cities>", "Unable to capture cities"],
+			"[-50]% Strength <vs cities>",
+			"Unable to capture cities"],
 		"attackSound": "shot"
 	},
 	{
@@ -264,6 +287,19 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Forward Observer",
+		"unitType": "Scrapper",
+		"movement": 4,
+		"strength": 20,
+		"interceptRange": 1,
+		"cost": 55,
+		"hurryCostModifier": 20,
+		"requiredTech": "Replaceable Parts",
+		"uniques": ["Personnel", "[+1] Sight", "Can move after attacking"],
+		"promotions": ["Reconnaissance I", "Skirmish"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Speculatores",
 		"replaces": "Forward Observer",
 		"uniqueTo": "Crimson Legion",
@@ -297,6 +333,25 @@
 			"Can move after attacking",
 			"[+75]% Strength <when defending>",
 			"Can instantly construct a [Remove Fallout] improvement <by consuming this unit>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Field Preparations Squad",
+		"replaces": "Forward Observer",
+		"uniqueTo": "Commonwealth",
+		"unitType": "Scrapper",
+		"movement": 4,
+		"strength": 20,
+		"interceptRange": 1,
+		"cost": 55,
+		"hurryCostModifier": 20,
+		"requiredTech": "Replaceable Parts",
+		"promotions": ["Skirmish", "Reconnaissance I"],
+		"uniques": ["Personnel", "[+1] Sight", "Can move after attacking",
+			"Can build [All Road] improvements on tiles",
+			"Can build [Fort] improvements on tiles",
+			"Can build [Trench] improvements on tiles",
+			"[-50]% construction time for [Land] improvements"],
 		"attackSound": "shot"
 	},
 	{
@@ -363,7 +418,6 @@
 		"interceptRange": 1,
 		"cost": 225,
 		"requiredTech": "Replaceable Parts",
-		"obsoleteTech": "Energy Weapons",
 		"upgradesTo": "Black Ops",
 		"hurryCostModifier": 20,
 		"requiredResource": "Weapons",
@@ -412,11 +466,11 @@
 		"rangedStrength": 20,
 		"range": 1,
 		"cost": 50,
-		"obsoleteTech": "Plastics",
+		"obsoleteTech": "Synthetic Materials",
 		"upgradesTo": "NBC Marksman",
 		"promotions": ["Skirmish", "Reconnaissance I", "[Wayfarer] ability"],
 		"uniques": ["Low Tech",
-			"May upgrade to [Gunman] through ruins-like effects",
+			"This Unit gains [1] XP <upon discovering a [Land] tile>",
 			"Can move after attacking",
 			"[-33]% Strength <vs cities>"],
 		"attackSound": "shot"
@@ -450,7 +504,8 @@
 		"rangedStrength": 35,
 		"interceptRange": 1,
 		"cost": 225,
-		"requiredTech": "Plastics",
+		"requiredTech": "Synthetic Materials",
+		"obsoleteTech": "Energy Weapons",
 		"upgradesTo": "Black Ops",
 		"hurryCostModifier": 20,
 		"uniques": ["Personnel", "May Paradrop up to [10] tiles from inside friendly territory",
@@ -471,8 +526,11 @@
 		"cost": 300,
 		"requiredTech": "Energy Weapons",
 		"hurryCostModifier": 20,
-		"uniques": ["Personnel", "May Paradrop up to [10] tiles from inside friendly territory",
-			"Only available <if [Automated Factory] is constructed>", "Consumes [1] [Weapons]", "Never appears as a Barbarian unit"],
+		"uniques": ["Personnel",
+			"May Paradrop up to [10] tiles from inside friendly territory",
+			"Only available <if [Automated Factory] is constructed>",
+			"Consumes [1] [Weapons]",
+			"Never appears as a Barbarian unit"],
 		"promotions": ["Drone Recon", "Reconnaissance I", "Gas Mask", "Thermoptic Camouflage", "Infantry Weapons"],
 		"attackSound": "shot"
 	},
@@ -508,7 +566,8 @@
 		"requiredTech": "Rifling",
 		"upgradesTo": "Tank",
 		"promotions": ["March"],
-		"uniques": ["Personnel", "Mounted", "No defensive terrain penalty", "Can move after attacking",
+		"uniques": ["Personnel", "Mounted",
+			"No defensive terrain penalty", "Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
 			"[+25]% Strength <vs [Low Tech] units> <when attacking>",
 			"[+25]% Strength <vs [Personnel] units> <when attacking>",
@@ -770,7 +829,8 @@
 		"upgradesTo": "Exo-Trooper",
 		"hurryCostModifier": 20,
 		"promotions": ["Gas Mask"],
-		"uniques": ["Personnel", "Consumes [1] [Weapons]", "[+25]% Strength <when fighting in [Friendly Land] tiles>"],
+		"uniques": ["Personnel", "Consumes [1] [Weapons]",
+			"[+25]% Strength <when fighting in [Friendly Land] tiles>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -805,7 +865,7 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Bartertown Security Force",
+		"name": "Bartertown Imperial Guard",
 		"unitType": "Scrapper",
 		"uniqueTo": "Bartertown",
 		"replaces": "State Guard",
@@ -833,6 +893,23 @@
 		"uniques": ["Low Tech",
 			"Can instantly construct a [Tree plantation] improvement <[2] times> <after which this unit is consumed>",
 			"Invisible to others <in [Tree plantation] tiles>"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Issaquah Mystic",
+		"unitType": "Shooter",
+		"uniqueTo": "Issaquah Nation",
+		"replaces": "State Guard",
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 24,
+		"range": 1,
+		"cost": 50,
+		"upgradesTo": "Rifleman",
+		"hurryCostModifier": 20,
+		"uniques": ["Low Tech",
+			"May withdraw before melee ([33]%)",
+			"Earn [100]% of killed [Military] unit's [Strength] as [Culture]"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1000,8 +1077,53 @@
 		]
 	},
 	{
-		"name": "Purge Robot Proto",
+		"name": "Tree Lover",
+		"replaces": "Worker",
+		"unitType": "Civilian",
+		"uniqueTo": "Tellus",
+		"movement": 2,
+		"hurryCostModifier": 20,
+		"upgradesTo": "Mechanized Worker",
+		"uniques": [
+			"Can build [Land] improvements on tiles",
+			"[-25]% construction time for [Land] improvements",
+			"Automation is a primary action"
+		],
+		"cost": 50
+	},
+	{
+		"name": "Mechanized Worker",
+		"unitType": "Civilian",
+		"requiredTech": "Replaceable Parts",
+		"movement": 4,
+		"cost": 200,
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Consumes [1] [Oil]",
+			"Only available <if [Factory] is constructed>",
+			"May withdraw before melee ([50]%)",
+			"Can build [Land] improvements on tiles",
+			"[-25]% construction time for [Land] improvements",
+			"Automation is a primary action"
+		]
+	},
+	{
+		"name": "Clansman",
 		"unitType": "Scrapper",
+		"uniqueTo": "Deadrock Clan",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 20,
+		"cost": 50,
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Militia",
+		"uniques": ["Low Tech", "[+50]% Strength <vs [Mounted] units>"],
+		"promotions": ["Clansman"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Purge Robot Proto",
+		"unitType": "Armor",
 		"replaces": "Spearman",
 		"uniqueTo": "Hexlock",
 		"upgradesTo": "Purge Robot MKI",
@@ -1021,6 +1143,77 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Purge Robot MKI",
+		"unitType": "Armor",
+		"replaces": "Infantry",
+		"uniqueTo": "Hexlock",
+		"upgradesTo": "Purge Robot MKII",
+		"movement": 2,
+		"strength": 50,
+		"interceptRange": 1,
+		"cost": 150,
+		"requiredTech": "Machinery",
+		"obsoleteTech": "Combined Arms",
+		"uniques": [
+			"Promotion Nullifier",
+			"Purge Robot",
+			"Can move after attacking",
+			"No defensive terrain penalty",
+			"Consumes [1] [Weapons]",
+			"Consumes [1] [Encrypted Data]"
+		],
+		"promotions": ["Promotion Nullifier", "Portable Power Cell"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Conscript",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 36,
+		"interceptRange": 1,
+		"cost": 60,
+		"upgradesTo": "NBC Conscript",
+		"hurryCostModifier": 20,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Combined Arms",
+		"uniques": [
+			"Personnel",
+			"Enslaved",
+			"[-25]% construction time for [Land] improvements",
+			"Can build [All Road] improvements on tiles",
+			"Can build [Fort] improvements on tiles",
+			"Can build [Trench] improvements on tiles",
+			"Only available <with [Slaves]>",
+			"Consumes [1] [Slaves]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Rubble Militia",
+		"unitType": "Scrapper",
+		"uniqueTo": "Deadrock Clan",
+		"replaces": "Conscript",
+		"movement": 2,
+		"strength": 36,
+		"cost": 60,
+		"upgradesTo": "NBC Conscript",
+		"hurryCostModifier": 20,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Combined Arms",
+		"uniques": [
+			"Low Tech",
+			"Enslaved",
+			"[-25]% construction time for [Land] improvements",
+			"Can build [All Road] improvements on tiles",
+			"Can build [Fort] improvements on tiles",
+			"Can build [Trench] improvements on tiles",
+			"Only available <with [Slaves]>",
+			"Consumes [1] [Slaves]"
+		],
+		"attackSound": "machinegun"
+	},
+	{
 		"name": "Machine Gun",
 		"unitType": "Shooter",
 		"range": 2,
@@ -1037,6 +1230,93 @@
 			"Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
+	},
+	{
+		"name": "NBC Infantry",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 45,
+		"interceptRange": 1,
+		"cost": 230,
+		"requiredTech": "Synthetic Materials",
+		"upgradesTo": "Exo-Trooper",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions": ["Gas Mask"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "NBC Conscript",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 36,
+		"interceptRange": 1,
+		"cost": 125,
+		"requiredTech": "Synthetic Materials",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Enslaved",
+			"Only available <if [Factory] is constructed>",
+			"[-25]% construction time for [Land] improvements",
+			"Can build [All Road] improvements on tiles",
+			"Can build [Fort] improvements on tiles",
+			"Can build [Trench] improvements on tiles",
+			"Only available <with [Slaves]>",
+			"Consumes [1] [Slaves]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Gas Mask"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Henchman",
+		"unitType": "Scrapper",
+		"uniqueTo": "Deadrock Clan",
+		"replaces": "NBC Conscript",
+		"movement": 2,
+		"strength": 36,
+		"interceptRange": 1,
+		"cost": 125,
+		"requiredTech": "Synthetic Materials",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Enslaved",
+			"Only available <if [Factory] is constructed>",
+			"[-25]% construction time for [Land] improvements",
+			"Can build [All Road] improvements on tiles",
+			"Can build [Fort] improvements on tiles",
+			"Can build [Trench] improvements on tiles",
+			"Only available <with [Slaves]>",
+			"Consumes [1] [Slaves]"
+		],
+		"promotions": ["Gas Mask"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "NBC Marksman",
+		"unitType": "Shooter",
+		"range": 1,
+		"movement": 2,
+		"strength": 40,
+		"rangedStrength": 35,
+		"interceptRange": 1,
+		"cost": 225,
+		"requiredTech": "Synthetic Materials",
+		"upgradesTo": "Black Ops",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions": ["Reconnaissance I", "Gas Mask"],
+		"attackSound": "shot"
 	},
 	{
 		"name": "Tank",
@@ -1174,7 +1454,7 @@
 		"strength": 40,
 		"cost": 100,
 		"requiredTech": "Steam Power",
-		"obsoleteTech": "Plastics",
+		"obsoleteTech": "Synthetic Materials",
 		"upgradesTo": "Assault Ship",
 		"uniques": [
 			"Consumes [1] [Oil]",
@@ -1194,13 +1474,31 @@
 		"strength": 40,
 		"cost": 100,
 		"requiredTech": "Steam Power",
-		"obsoleteTech": "Plastics",
+		"obsoleteTech": "Synthetic Materials",
 		"upgradesTo": "Assault Ship",
 		"uniques": [
 			"Consumes [1] [Oil]",
 			"Double movement in [Coast]",
 			"May withdraw before melee ([66]%)",
 			"[+25]% Strength <when defending>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Assault Ship",
+		"unitType": "Melee Water",
+		"movement": 6,
+		"strength": 60,
+		"cost": 300,
+		"requiredTech": "Synthetic Materials",
+		"uniques": [
+		    "Can move after attacking",
+			"Consumes [1] [Oil]",
+			"Double movement in [Coast]",
+			"May withdraw before melee ([33]%)",
+			"Only available <if [Factory] is constructed>",
+			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
@@ -1384,7 +1682,10 @@
 		"cost": 150,
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Modern Armor",
-		"uniques": ["[-25]% Strength <vs cities> <when attacking>", "Can move after attacking", "No defensive terrain bonus"],
+		"uniques": ["[-25]% Strength <vs cities> <when attacking>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"No movement cost to pillage"],
 		"promotions": ["Raider", "Shock", "Awe"],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"

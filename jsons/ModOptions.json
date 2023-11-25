@@ -1,6 +1,7 @@
 {
 	"nationsToRemove": ["Deseret Nation"],
-	"buildingsToRemove": ["Distribute Soft Drinks", "Fist of God", "Five-Year Plan", "Longhouse", "Salvage Army Depot"],
+	"buildingsToRemove": ["Distribute Soft Drinks", "Fist of God", "Five-Year Plan", "Grand Temple", "Longhouse", "Mormon Monument", "Plastics Reprocessor", "Salvage Army Depot"],
+	"techsToRemove": ["Plastics", "Plastics Recycling"],
 	"uniques": [
 		"Rebel units may spawn <upon declaring war with a major Civilization> <when below [0] Happiness> <with [67]% chance>",
 		"Rebel units may spawn <when at war> <when below [-10] Happiness> <with [100]% chance>",
@@ -13,7 +14,7 @@
 	"constants": {
 		"minimalCityDistance": 4,
 		"minimalCityDistanceOnDifferentContinents": 4,
-		"maxXPfromBarbarians": 1200,
+		"maxXPfromBarbarians": 450,
 		"ancientRuinCountMultiplier": 0.1,
 		"religionLimitBase": 0,
 		"religionLimitMultiplier": 1,

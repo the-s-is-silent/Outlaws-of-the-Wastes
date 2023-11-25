@@ -134,5 +134,40 @@
 		"name": "Scriptures",
 		"resourceType": "Luxury",
 		"faith": 1
+	},
+	{
+		"name": "C1F3",
+		"production": 1,
+		"resourceType": "Strategic",
+		"improvementStats": {"production": 1},
+		"uniques": ["Not shown on world screen"]
+	},
+	{
+		"name": "C2N14",
+		"gold": 2,
+		"resourceType": "Strategic",
+		"improvementStats": {"gold": 2},
+		"uniques": ["Not shown on world screen"]
+	},
+	{
+		"name": "C8H17",
+		"culture": 1,
+		"resourceType": "Strategic",
+		"improvementStats": {"culture": 1},
+		"uniques": ["Not shown on world screen"]
+	},
+	{
+		"name": "SbF5",
+		"science": 1,
+		"resourceType": "Strategic",
+		"improvementStats": {"science": 1},
+		"uniques": ["Not shown on world screen"]
+	},
+	{
+		"name": "VX",
+		"faith": 1,
+		"resourceType": "Strategic",
+		"improvementStats": {"faith": 1},
+		"uniques": ["Not shown on world screen"]
 	}
 ]

@@ -10,8 +10,7 @@
 			"Scientific": 30
 		},
 		"uniques": ["[+3 Culture] [in capital]",
-			"[-25]% Culture cost of natural border growth [in all cities]",
-			"Unlocks building the Homeland Defense Initiative"],
+			"[-25]% Culture cost of natural border growth [in all cities]"],
 		"policies": [
 			{
 				"name": "Differential Rationing",
@@ -70,8 +69,7 @@
 			"Scientific": 0
 		},
 		"uniques": ["[+1 Culture] [in all cities]",
-			"[-25]% Gold cost of acquiring tiles [in all cities]",
-			"Unlocks building the Wasteland Surveillance Initiative"],
+			"[-25]% Gold cost of acquiring tiles [in all cities]"],
 		"policies": [
 			{
 				"name": "Restorers",
@@ -135,8 +133,7 @@
 		},
 		"uniques": ["[+33]% Strength <vs [Barbarian] units>",
 			"Earn [50]% of killed [Military] unit's [Strength] as [Culture]",
-			"Notified of new Barbarian encampments",
-			"Unlocks building the Raider Suppression Initiative"],
+			"Notified of new Barbarian encampments"],
 		"policies": [
 			{
 				"name": "Discipline",
@@ -193,8 +190,7 @@
 			"Scientific": 0
 		},
 		"uniques": ["[+100]% Production when constructing [Faith] buildings [in all cities]",
-			"[+1 Culture, +1 Faith] [in capital]",
-			"Unlocks building the Grand Monastery"],
+			"[+1 Culture, +1 Faith] [in capital]"],
 		"policies": [
 			{
 				"name": "Organized Religion",
@@ -258,7 +254,7 @@
 			"Domination": 20,
 			"Scientific": 50
 		},
-		"uniques": ["[Great Scientist] is earned [20]% faster", "Unlocks building the Medical Network"],
+		"uniques": ["[Great Scientist] is earned [20]% faster"],
 		"policies": [
 			{
 				"name": "Equipment Upgrades",
@@ -280,7 +276,7 @@
 				"column": 2
 			},
 			{
-				"name": "Skepticism",
+				"name": "New Pioneers",
 				"uniques": ["[+1 Science, +1 Happiness] from every [University]",
 					"[+1 Science, +1 Happiness] from every [Data Center]",
 					"[+1 Science, +1 Happiness] from every [Public School]"],
@@ -292,7 +288,7 @@
 				"name": "Educated Elite",
 				"uniques": ["[+1 Science] from every specialist [in all cities]",
 					"Allied City-States provide [Science] equal to [25]% of what they produce for themselves"],
-				"requires": ["Skepticism"],
+				"requires": ["New Pioneers"],
 				"row": 3,
 				"column": 4
 			},
@@ -316,7 +312,6 @@
 			"Scientific": 20
 		},
 		"uniques": ["[+25]% Great Person generation [in all cities]",
-			"Unlocks building the Public Works Administration",
 			"Only available <before adopting [Supremacy]>"],
 		"policies": [
 			{
@@ -389,7 +384,6 @@
 		"uniques": ["[+50]% Production when constructing [Barracks] buildings [in all cities]",
 			"[+50]% Production when constructing [Military Academy] wonders [in all cities]",
 			"Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
-			"Unlocks building the Chemical Weapons Laboratory",
 			"Only available <before adopting [Constitution]>"],
 		"policies": [
 			{
@@ -437,12 +431,12 @@
 			},
 			{
 				"name": "Supremacy Complete",
-				"uniques": ["[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>",
+				"uniques": ["[+15]% Strength <for [Military] units> <when attacking>",
 					"[+4 Production] from every [Outpost]",
 					"[+4 Production] from every [Prison farm]",
 					"[+4 Culture] from every [Narcotics farm]",
 					"[+4 Faith] from every [Oracle]",
-					"[+2 Gold, +2 Science] from every [Crystal Refinery]",
+					"[+4 Science] from every [Crystal Refinery]",
 					"[+2 Food, +2 Production, +2 Gold] [in all cities] <with [Slaves]>"]
 			}
 		]
@@ -458,7 +452,6 @@
 			"Scientific": 20
 		},
 		"uniques": ["[Great Merchant] is earned [20]% faster",
-			"Unlocks building Content Farms, Electronics Production Lines, Machinery Production Lines, and Publishing Houses",
 			"Only available <before adopting [Collectivism]>"],
 		"policies": [
 			{
@@ -516,6 +509,7 @@
 				"uniques": ["[+1 Gold, +1 Food] from every [Moisture trap]",
 					"[+1 Gold, +1 Food] from every [Water pump]",
 					"[+2 Gold, +2 Culture, +2 Science] from every [Settlement]",
+					"[+2 Gold, +2 Culture, +2 Science] from every [Narcotics farm]",
 					"[+2 Gold, +2 Food, +2 Production] from every [Wasteland Station]",
 					"May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
 			}
@@ -532,7 +526,6 @@
 			"Scientific": 20
 		},
 		"uniques": ["[Great Engineer] is earned [20]% faster",
-			"Unlocks building the Resettlement Bureau, Earthscraper Project, and Workers' Facilities",
 			"Only available <before adopting [Monopoly]>"],
 		"policies": [
 			{
@@ -592,8 +585,7 @@
 			"Scientific": 20
 		},
 		"uniques": ["[+1] Movement <for [{Military} {Water}] units>", "[+1] Sight <for [{Military} {Water}] units>",
-			"[+50]% Production when constructing [Naval War College] wonders [in all cities]",
-			"Unlocks building the Oceanological Center"],
+			"[+50]% Production when constructing [Naval War College] wonders [in all cities]"],
 		"policies": [
 			{
 				"name": "Maritime Industries",
@@ -643,7 +635,6 @@
 			{
 				"name": "Rediscovery Complete",
 				"uniques": ["[+1] population [in all coastal cities]",
-					"[+1] Happiness from each type of luxury resource",
 					"Free [Great Admiral] appears",
 					"May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
 			}
@@ -661,13 +652,15 @@
 		},
 		"uniques": ["[+2 Food, +2 Culture] [in all cities]",
 			"[Great Farmer] is earned [20]% faster",
-			"Unlocks building Earth Clinics",
 			"Only available <before adopting [Mechanization]>",
 			"Only available <before adopting [Bionics]>"],
 		"policies": [
 			{
 				"name": "Emissions Standards",
 				"uniques": ["[+10]% [Food] from every [Coal Plant]",
+					"[+2 Production] from every [Solar collector]",
+					"[+2 Production] from every [Wind farm]",
+					"Solar collectors and Wind farms provide 1 extra unit of Power",
 					"[+2 Happiness, +1 Culture] from every [Recycling Plant]",
 					"[+2 Happiness, +1 Culture] from every [Carbon Capture]"],
 				"row": 1,
@@ -686,7 +679,8 @@
 			{
 				"name": "Ecodefense",
 				"requires": ["Emissions Standards"],
-				"uniques": ["[+15]% Strength <for [All] units> <within [2] tiles of a [Natural tile]>"],
+				"uniques": ["[+10]% Strength <for [All] units> <within [2] tiles of a [Natural tile]>",
+					"[6] free [Eco-Terrorist] units appear"],
 				"row": 2,
 				"column": 4
 			},
@@ -705,7 +699,7 @@
 				"requires": ["Physiolatry"],
 				"uniques": ["[+2 Gold] from every [Farmer]",
 					"[+1 Gold] from [Fresh water] tiles [in all cities]",
-					"[+1 Gold] from every [Rainwater Purifier]"],
+					"[+2 Gold] from every [Rainwater Purifier]"],
 				"row": 3,
 				"column": 3
 			},
