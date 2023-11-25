@@ -18,7 +18,7 @@
 - Resource Management Servers have a harsher limit (2 vs. base scenario's 5, but all Monopoly policy buildings have this limit now) and no longer boost city growth or provide Slaves, but to compensate, they give +10% Water to the two cities that can own one.
 
 #### Children of Rust
-- The Longhouse wonder is replaced with First Kiva, which retains the Longhouse's effects and also buffs the wonder by adding +40 extra City HP, +2 Faith and a bonus Pantheon belief upon founding their religion.
+- The Longhouse wonder is replaced with First Kiva, which retains the Longhouse's effects and also buffs the wonder by adding +40 extra City HP (at the cost of losing the measly +1 to City Strength), +1 Faith and a bonus Pantheon belief upon founding their religion.
 - Bike Paths are now standalone buildings boosting Culture instead of improved Transport Networks: they add +1 Culture to Road and Railroad tiles, initially only those adjacent to the city, but expanding the range to 2 tiles with Incentivization. It is available much earlier, at Railroads.
 - Citizens' Assembly now increases Production instead of Science.
 - TODO: Add the following UBs: Pithouse (undecided what it replaces yet, but would add +50 City HP), Kiva (replaces Shrine, added effects TBD)
@@ -35,6 +35,7 @@
 #### Crimson Legion
 - Their favored Religion is changed to Imperial Cult, and they are now forbidden from building Drones and Purge Robots (in accordance with the source material, where robotics are the only technology Caesar completely opposes).
 - They start with Iron Working instead of Redomestication.
+- Forum now only gives a 5% faction-wide reduction to Unhappiness and no longer increases city health. However, it receives +1 Water and lets them start with a second free Swordsman.
 - Studies no longer have reduced Science gain compared to standard Libraries, but also no longer give Great Scientist Points.
 - College of Rhetoric no longer has reduced Science gain compared to standard Universities, but also no longer gives Great Person Points. Additionally, it adds +2 Happiness instead of adding Culture, and adds a Scientist slot instead of an Administrator slot.
 - The Senate now adds a +15% Production boost to cities constructing buildings which are owned in the capital.
@@ -55,7 +56,7 @@
 - Armor units gain +1 Movement from their UA.
 - Coal Plants no longer boost Culture.
 - Oracles start at +6 Faith, +1 Culture and increase to +8 Faith, +2 Culture with Chemistry, but no longer provide Happiness.
-- The Temple is nerfed to remove both its bonus to Local Happiness and their instant Pantheon (was formerly a guaranteed Turn 1 Religion via free Great Prophet prior to them being nerfed in the base scenario).
+- The Temple is nerfed to remove both the bonus to Local Happiness and the instant Pantheon (which was formerly a guaranteed Turn 1 Religion via free Great Prophet prior to them being nerfed in the base scenario).
 - Fuel Depots are also nerfed: they only add +1 Culture to Oil tiles.
 - Sanctums are buffed: they add +1 Faith while the faction has Power and don't have as much of a reduction in Science gain compared to standard Libraries.
 - College of Mystics is buffed: it no longer has reduced Science gain compared to standard Universities, adds an unconditional +2 Culture, and adds +1 Faith while the faction has Power. However, it no longer adds Great Scientist Points.
@@ -65,12 +66,16 @@
 
 ### Deadrock Clan
 - Narcotics farms are buffed to start at +4 Culture, +2 Water, and gain an additional +4 Culture at Social Engineering.
+- Clan Hideout buffed to +2 Water and +100 City HP.
 - Clansmen no longer require Clubhouses to be built.
 - Information Markets add +1 Water while the faction has Power and no longer have reduced Science gain compared to standard Libraries, but also no longer give Great Scientist Points.
 - Clubhouses are pushed back to Civil Service where they should be, instead of being available at Secrets of the Past. They also lose the -1 Food penalty, add +2 Water by default instead of needing to own Slaves, and no longer cost maintenance.
 - Trade Colleges no longer have reduced Science gain compared to standard Universities and generate +2 Water per turn instead of costing maintenance. They no longer add Culture or Great Administrator Points.
 - Smugglers' Guild now adds +2 Water/Culture to Casinos and +3 to Narcotics farms.
 - Grand Clan Manor's Production cost and XP bonus to newly trained units are cut in half. It adds a +10% Production boost towards new Personnel units and a +10% growth boost.
+
+#### Enclavers
+- Stockpile buffed to +2 Food.
 
 #### Hexlock
 - They start with fewer free techs now: knowledge of Chemistry is gained, but knowledge of Construction, Machinery and Engineering is lost. The malus on GP generation is removed, and Encrypted Data resources are doubled by their UA.
@@ -91,6 +96,7 @@
 
 #### The Mariners
 - They now start with Rediscovery adopted, and upon adopting Advanced Piracy *all* of their Water units along with their Personnel units gain the policy's Sea Raider promotion.
+- The Great Lighthouse buffed to add +2 Food to the capital provided it's actually founded on the coast.
 - Trader's Congress no longer increases the effectivess of Water gifts to City-States, but generates Culture equal to 10% of the total output from allied City-States, and adds +1 Water per 4 population to all cities along with +1 Water to city connections.
 - Raider's Council now grants a +10% growth boost in coastal cities and a +20% Production bonus towards Water units.
 - New UUs:
@@ -102,6 +108,7 @@
 - The +20% combat bonus against larger factions no longer has a policy requirement.
 - The "Great Wall" effect in their UA now expires at Railroads.
 - They no longer start with Redomestication.
+- Great Mosque's minor city defense bonuses are doubled.
 - Survival Program now adds +1 Culture per 4 population instead of a flat +2 Culture to all cities.
 - Revolutionary Council now adds a +15% Production bonus towards Personnel units for all cities.
 
@@ -124,6 +131,7 @@
 - New UB: Arsenal of Liberty (replaces Armaments Production Line, 60% cheaper to build, adds an extra +1 Unit Supply, but requires a Power surplus for both the provided Weapons and the extra Production speed towards Personnel units, and still consumes Power to build)
 
 #### Proklyatyye
+- Sarcophagus buffed to +2 Production.
 - Five-Year Plan and Gulag have been renamed to State Assembly and Politburo and their Production cost has been increased by 50 each.
 - State Assembly now adds scaling Production yields (in addition to the scaling Culture yields) and counts every 4 population in cities instead of every 5.
 - Politburo no longer adds Culture/Happiness; it instead adds +3 Production to their Prison Camp/Work Camp replacements and Listening Posts.

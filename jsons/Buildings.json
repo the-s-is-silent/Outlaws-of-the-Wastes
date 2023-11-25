@@ -772,6 +772,292 @@
 	},
 
 	//Adjusted buildings and wonders
+	//Part 1: Faction identity wonders and government buildings
+	{
+		"name": "Stockpile",
+		"isWonder": true,
+		"uniqueTo": "Enclavers",
+		"food": 2,
+		"cost": 0,
+		"uniques": [
+			"[10]% Food is carried over after population increases [in this city]",
+			"Provides [2] [Weapons]",
+			"Free [Guerilla] appears",
+			"Can only be built [in capital]",
+			"Gain a free [Deep Larder] [in this city]"
+		],
+		"quote": "An armed society is a polite society.",
+		"civilopediaText": [{ "text": "An armed society is a polite society." }]
+	},
+	{
+		"name": "On the run",
+		"isWonder": true,
+		"uniqueTo": "New Star",
+		"culture": 1,
+		"cost": 0,
+		"uniques": [
+			"Free [Militia] appears",
+			"Can only be built [in capital]",
+			"Gain a free [Food Store] [in this city]"
+		],
+		"quote": "I look around and see that others have begun to build bases. Operation centers made of steel. But not us. Because the true home is not some building made of lead, but rather the people around you. Surround yourself with them. And you'l be home forever.",
+		"civilopediaText": [
+			{
+				"text": "The New Star Operations Center consists of large and mobile encampments. Since they are set up according to their missions. They do not have a fixed location and are constantly moving."
+			}
+		]
+	},
+	{
+		"name": "Hex Corporation",
+		"isWonder": true,
+		"uniqueTo": "Hexlock",
+		"science": 2,
+		"production": 1,
+		"cityHealth": 20,
+		"cost": 0,
+		"uniques": [
+			"Provides [1] [Power]",
+			"Provides [2] [Encrypted Data]",
+			"[2] free [Purge Robot Proto] units appear",
+			"Can only be built [in capital]",
+			"Gain a free [Compound Mixer] [in this city]"
+		],
+		"quote": "'I will tell you a secret. Truth is, I'm not human. Not fully, at least. For some reason, Hexlock decided that it would be best having a computer lead them, instead of a person. And so their president decided to alter the head of his own daugther. Maybe the fact that I killed him as soon as I came out meant that I was now different. But to be honest? I feel the same. Just get bored of things much faster.'",
+		"civilopediaText": [
+			{
+				"text": "Even before the Cataclysm, Hexlock was already well on its way to becoming the world's first Corporate Republic. Mainly comprised of unhinged and ethic-less advanced scientists. Hexlock were the firsts to develop many of the Old world's final advancements. Which it sold at a high price. Strangely enough, none of their old leaders seem to be around anymore."
+			}
+		]
+	},
+	{
+		"name": "Ark One",
+		"isWonder": true,
+		"uniqueTo": "Blackwarden",
+		"culture": 1,
+		"happiness": 1,
+		"gold": 1,
+		"cityStrength": 10,
+		"cityHealth": 60,
+		"cost": 0,
+		"uniques": [
+			"Provides [1] [Power]",
+			"Provides [1] [Weapons]",
+			"Free [Security] appears",
+			"Can only be built [in capital]",
+			"Gain a free [Food Store] [in this city]"
+		],
+		"quote": "While your deposit clears, you may want to read through this guide for potential residents. The Ark One shelter comprises a unique set of secure luxury accomodation based within a former military facility. In addition to their private living space, residents will have access to a complete set of facilities including two restaurants, a cinema, a bowling alley, and a fitness area with gym, spa, sauna and pool. The Ark One shelter is protected by a world-class professional security company, and is hardened to resist a nuclear strike and any armed attack.",
+		"civilopediaText": [
+			{
+				"text": "While your deposit clears, you may want to read through this guide for potential residents. The Ark One shelter comprises a unique set of secure luxury accomodation based within a former military facility. In addition to their private living space, residents will have access to a complete set of facilities including two restaurants, a cinema, a bowling alley, and a fitness area with gym, spa, sauna and pool. The Ark One shelter is protected by a world-class professional security company, and is hardened to resist a nuclear strike and any armed attack."
+			}
+		]
+	},
+	{
+		"name": "Atlas Refuge",
+		"isWonder": true,
+		"uniqueTo": "Atlas",
+		"specialistSlots": {"Scientist": 1},
+		"gold": 1,
+		"cityHealth": 40,
+		"cost": 0,
+		"uniques": [
+			"Provides [1] [Power]",
+			"[2] free [Surveyor] units appear",
+			"Can only be built [in capital]",
+			"Gain a free [Food Store] [in this city]"
+		],
+		"quote": "At the Refuge, I am creating more than a town, more even than a polity; it is a new world, where individuals will be free to act without the burden of taxation or the specter of injustice. Here, I have created a truly voluntary society, where the citizens associate in rational self interest; from love, not from fear of punishment. I have sent you this invitation because you have greatness within you; think of all you have achieved in your life, and how much more you could do, if you were not held back. Choose something different. Choose Atlas.",
+		"civilopediaText": [
+			{
+				"text": "At the Refuge, I am creating more than a town, more even than a polity; it is a new world, where individuals will be free to act without the burden of taxation or the specter of injustice. Here, I have created a truly voluntary society, where the citizens associate in rational self interest; from love, not from fear of punishment. I have sent you this invitation because you have greatness within you; think of all you have achieved in your life, and how much more you could do, if you were not held back. Choose something different. Choose Atlas."
+			}
+		]
+	},
+	{
+		"name": "Eagle Rock Complex",
+		"isWonder": true,
+		"uniqueTo": "The Patriots",
+		"specialistSlots": {"Engineer": 1},
+		"gold": 1,
+		"cityStrength": 20,
+		"cityHealth": 80,
+		"cost": 0,
+		"uniques": [
+			"[10]% Food is carried over after population increases [in this city]",
+			"Provides [1] [Power]",
+			"Provides [2] [Weapons]",
+			"Free [Spec Ops] appears",
+			"Can only be built [in capital]",
+			"Gain a free [Food Store] [in this city]"
+		],
+		"quote": "We are here to protect the people, and we will do it here. Here we make our stand against anarchy and tyranny. Here, we will once again establish freedom and order. This is the oath we have taken, and we will keep that oath.",
+		"civilopediaText": [
+			{
+				"text": "We are here to protect the people, and we will do it here. Here we make our stand against anarchy and tyranny. Here, we will once again establish freedom and order. This is the oath we have taken, and we will keep that oath."
+			}
+		]
+	},
+	{
+		"name": "Forum",
+		"isWonder": true,
+		"uniqueTo": "Crimson Legion",
+		"gold": 1,
+		"culture": 1,
+		"cost": 0,
+		"uniques": [
+			"[-5]% Unhappiness from [Population] [in all cities]",
+			"[2] free [Swordsman] units appear",
+			"Can only be built [in capital]",
+			"Gain a free [Food Store] [in this city]"
+		],
+		"quote": "Whatsoever any man either doth or saith, thou must be good; not for any man's sake, but for thine own nature's sake; as if either gold, or the emerald, or purple, should ever be saying to themselves, Whatsoever any man either doth or saith, I must still be an emerald, and I must keep my colour.",
+		"civilopediaText": [
+			{
+				"text": "Whatsoever any man either doth or saith, thou must be good; not for any man's sake, but for thine own nature's sake; as if either gold, or the emerald, or purple, should ever be saying to themselves, Whatsoever any man either doth or saith, I must still be an emerald, and I must keep my colour."
+			}
+		]
+	},
+	{
+		"name": "Temple",
+		"isWonder": true,
+		"uniqueTo": "Cult of Ignis",
+		"specialistSlots": {"Administrator": 1},
+		"faith": 1,
+		"cost": 0,
+		"uniques": [
+			"[+2 Culture] [in this city] <after discovering [Iron Working]>",
+			"Provides [2] [Oil]",
+			"Free [War Buggy] appears",
+			"Can only be built [in capital]",
+			"Gain a free [Fuel Depot] [in this city]"
+		],
+		"quote": "Be thy hands, anointed, with holy oil.\nBe thy breast, anointed, with holy oil.\nBe thy head, anointed, with holy oil.\nAs kings, priests, and prophets were anointed.\nAnd as Solomon was anointed king by Zadok the priest and Nathan the prophet, so be thee anointed.",
+		"civilopediaText": [
+			{
+				"text": "Be thy hands, anointed, with holy oil.\nBe thy breast, anointed, with holy oil.\nBe thy head, anointed, with holy oil.\nAs kings, priests, and prophets were anointed.\nAnd as Solomon was anointed king by Zadok the priest and Nathan the prophet, so be thee anointed."
+			}
+		]
+	},
+	{
+		"name": "Peace Memorial",
+		"isWonder": true,
+		"uniqueTo": "Commonwealth",
+		"culture": 1,
+		"cost": 0,
+		"uniques": [
+			"[+25]% Great Person generation [in this city]",
+			"[+1 Faith, +1 Happiness] [in this city] <when not at war>",
+			"Free [Ranger] appears",
+			"Can only be built [in capital]",
+			"Gain a free [Monument] [in this city]"
+		],
+		"quote": "Lasting peace is sought, it is essential to adopt international measures to improve the lot of the masses. The welfare of the entire human race must replace hunger and oppression. People of the world must be taught to give up envy, avarice and rancour.",
+		"civilopediaText": [
+			{
+				"text": "Lasting peace is sought, it is essential to adopt international measures to improve the lot of the masses. The welfare of the entire human race must replace hunger and oppression. People of the world must be taught to give up envy, avarice and rancour."
+			}
+		]
+	},
+	{
+		"name": "First Kiva", //replaces Longhouse, which wasn't appropriate for their start location
+		"isWonder": true,
+		"uniqueTo": "Children of Rust",
+		"cost": 0,
+		"production": 1,
+		"culture": 1,
+		"faith": 1,
+		"cityHealth": 50,
+		"uniques": ["May choose [1] additional [Pantheon] beliefs when [founding] a religion",
+			"[2] free [Scavenger] units appear",
+			"Can only be built [in capital]",
+			"Gain a free [Salvage Yard] [in this city]"]
+		//Quote TBD
+	},
+	{
+		"name": "The Great Lighthouse",
+		"isWonder": true,
+		"uniqueTo": "The Mariners",
+		"culture": 1,
+		"cost": 0,
+		"uniques": [
+			"Can only be built [in capital]",
+			"[+2 Food, +1 Faith] [in this city] <with [1] to [6] neighboring [Coast] tiles>",
+			"[2] free [Sharkman] units appear",
+			"Gain a free [Lighthouse] [in this city]"
+		],
+		"quote": "Brightly beams our father's mercy\nFrom his lighthouse evermore\nBut to us he gives the keeping\nOf the lights along the shore.",
+		"civilopediaText": [
+			{
+				"text": "Brightly beams our father's mercy\nFrom his lighthouse evermore\nBut to us he gives the keeping\nOf the lights along the shore."
+			}
+		]
+	},
+	{
+		"name": "Great Mosque",
+		"isWonder": true,
+		"uniqueTo": "New Afrika",
+		"cost": 0,
+		"culture": 1,
+		"food": 2,
+		"cityStrength": 2,
+		"cityHealth": 20,
+		"uniques": [
+			"Can only be built [in capital]",
+			"Provides [1] [Weapons]",
+			"Free [Panther] appears",
+			"Gain a free [Mosque] [in this city]",
+			"May choose [1] additional belief(s) of any type when [enhancing] a religion"
+		],
+		"quote": "We declare our right on this earth to be a human being, to be respected as a human being, to be given the rights of a human being in this society, on this earth, in this day, which we intend to bring into existence by any means necessary.",
+		"civilopediaText": [
+			{
+				"text": "We declare our right on this earth to be a human being, to be respected as a human being, to be given the rights of a human being in this society, on this earth, in this day, which we intend to bring into existence by any means necessary."
+			}
+		]
+	},
+	{
+		"name": "Clan Hideout",
+		"isWonder": true,
+		"uniqueTo": "Deadrock Clan",
+		"cost": 0,
+		"gold": 2,
+		"cityHealth": 100,
+		"uniques": [
+			"Can only be built [in capital]",
+			"Provides [1] [Weapons]",
+			"[2] free [Clansman] units appear",
+			"Gain a free [Food Store] [in this city]"
+		],
+		"quote": "If you would keep your secret from an enemy, tell it not to a friend.",
+		"civilopediaText": [
+			{
+				"text": "If you would keep your secret from an enemy, tell it not to a friend."
+			}
+		]
+	},
+	{
+		"name": "Sarcophagus",
+		"isWonder": true,
+		"uniqueTo": "Proklyatyye",
+		"cityHealth": 20,
+		"cost": 0,
+		"production": 2,
+		"uniques": [
+			"Provides [2] [Uranium]",
+			"Provides [1] [Power]",
+			"[+2 Culture, +1 Happiness] [in this city] <after discovering [Decontamination]>",
+			"Free [Mutant] appears",
+			"Can only be built [in capital]",
+			"Gain a free [Food Store] [in this city]"
+		],
+		"quote": "There is a sickness in the earth. You can feel it in the air we breathe and the water we drink. We have poisoned our mother. All we can do now is try to make things right.",
+		"civilopediaText": [
+			{
+				"text": "There is a sickness in the earth. You can feel it in the air we breathe and the water we drink. We have poisoned our mother. All we can do now is try to make things right."
+			}
+		]
+	},
 	{
 		"name": "Congress",
 		"cost": 100,
@@ -1045,7 +1331,7 @@
 		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": ["[+10]% growth [in all cities]",
-			"[+5]% Production when constructing [All] buildings [in all cities connected to capital]",
+			"[+5]% Production when constructing [All] buildings [in this city]",
 			"Gifts of Gold to City-States generate [25]% more Influence",
 			"Gain [30] Influence with a [Military] gift to a City-State",
 			"Can only be built [in capital]",
@@ -1154,6 +1440,9 @@
 			"Only available <in cities without a [State Assembly]>",
 			"Destroyed when the city is captured"]
 	},
+
+	//Adjusted base scenario buildings and wonders
+	//Part 2: Everything else
 	{
 		"name": "Utopia Project",
 		"cost": 1500,
@@ -2463,7 +2752,7 @@
 	},
 	{
 		"name": "Ground Control Center",
-		"cost": 125,
+		"cost": 300,
 		"isNationalWonder": true,
 		"cityStrength": 5,
 		"culture": 3,
@@ -2789,7 +3078,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"maintenance": 2,
 		"hurryCostModifier": 0,
-		"requiredNearbyImprovedResources": ["Metal"],
+		"requiredNearbyImprovedResources": ["Metal", "Aluminum"],
 		"uniques": ["[+1 Production] from [Metal] tiles [in this city]",
 			"[+2 Production] from [Aluminum] tiles [in this city]",
 			"Only available <in cities with a [Factory]>",
@@ -2823,26 +3112,11 @@
 		"hurryCostModifier": 25
 	},
 	{
-		"name": "First Kiva", //replaces Longhouse, which wasn't appropriate for their start location
-		"isWonder": true,
-		"uniqueTo": "Children of Rust",
-		"cost": 1,
-		"production": 1,
-		"culture": 1,
-		"faith": 2,
-		"cityHealth": 50,
-		"uniques": ["May choose [1] additional [Pantheon] beliefs when [founding] a religion",
-			"[2] free [Scavenger] units appear",
-			"Can only be built [in capital]",
-			"Gain a free [Salvage Yard] [in this city]"]
-		//Quote TBD
-	},
-	{
 		"name": "Bike Path",
 		"uniqueTo": "Children of Rust",
 		"maintenance": 2,
 		"requiredTech": "Railroads",
-		"replacementTextForUniques": "Every tile adjacent to this city with a road or railroad provides +1 Culture. After discovering Incentivization, roads and railroads up to 2 tiles away from this city provide +1 Culture.",
+		"replacementTextForUniques": "Every tile adjacent to this city with a Road or Railroad provides +1 Culture. After discovering Incentivization, every tile with a Road or Railroad up to 2 tiles away from this city provides +1 Culture.",
 		"uniques": [
 			"[+1 Culture] from [All Road] tiles [in this city] <within [1] tiles of a [City center]> <before discovering [Incentivization]>",
 			"[+1 Culture] from [All Road] tiles [in this city] <within [2] tiles of a [City center]> <after discovering [Incentivization]>",
@@ -2927,22 +3201,8 @@
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Shrine",
 		"requiredTech": "Education",
-		"uniques": ["Hidden when religion is disabled", "[+5]% Production when constructing [All] buildings [in this city]"]
-	},
-	{
-		"name": "Temple",
-		"isWonder": true,
-		"uniqueTo": "Cult of Ignis",
-		"specialistSlots": {"Administrator": 1},
-		"faith": 2,
-		"cost": 1,
-		"uniques": ["[+2 Culture] [in this city] <after discovering [Iron Working]>",
-			"Provides [2] [Oil]",
-			"Free [War Buggy] appears",
-			"Can only be built [in capital]",
-			"Gain a free [Fuel Depot] [in this city]"],
-		"quote": "Be thy hands, anointed, with holy oil.\nBe thy breast, anointed, with holy oil.\nBe thy head, anointed, with holy oil.\nAs kings, priests, and prophets were anointed.\nAnd as Solomon was anointed king by Zadok the priest and Nathan the prophet, so be thee anointed.",
-		"civilopediaText": [{ "text": "Be thy hands, anointed, with holy oil.\nBe thy breast, anointed, with holy oil.\nBe thy head, anointed, with holy oil.\nAs kings, priests, and prophets were anointed.\nAnd as Solomon was anointed king by Zadok the priest and Nathan the prophet, so be thee anointed." }]
+		"uniques": ["Hidden when religion is disabled",
+			"[+5]% Production when constructing [All] buildings [in this city]"]
 	},
 	{
 		"name": "Experiment on Survivors",
@@ -3132,6 +3392,7 @@
 			"[2] free [State Guard] units appear",
 			"Free [State Guard] appears <upon declaring war with a major Civilization>",
 			"Automatically built in all cities where it is buildable",
+			"Can only be built [in capital]",
 			"Only available <for [City-States]>",
 			"Destroyed when the city is captured"]
 	},
@@ -3147,6 +3408,7 @@
 			"Free [Dendro Mutant] appears",
 			"[2] free [Dendro Mutant] units appear <upon declaring war with a major Civilization>",
 			"Automatically built in all cities where it is buildable",
+			"Can only be built [in capital]",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
 	},
@@ -3163,6 +3425,7 @@
 			"Free [Alma State Guard] appears",
 			"Free [Alma State Guard] appears <upon declaring war with a major Civilization>",
 			"Automatically built in all cities where it is buildable",
+			"Can only be built [in capital]",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
 	},
@@ -3252,6 +3515,23 @@
 			"[+2 Production] [in this city] <with [Hogs]>",
 			"Provides [2] [Power]",
 			"Never destroyed when the city is captured"]
+	},
+	{
+		"name": "Issaquah Tribal Council",
+		"replaces": "Defense Directorate",
+		"uniqueTo": "Issaquah Nation",
+		"cityStrength": 5,
+		"cityHealth": 80,
+		"cost": 1,
+		"uniques": ["[5] units cost no maintenance", "[+5] Unit Supply",
+			"[2] free [Hawkman Brave] units appear",
+			"[2] free [Issaquah Mystic] units appear <upon declaring war with a major Civilization>",
+			"[+25]% Production when constructing [Military] units [in this city] <when at war>",
+			"Reveals the entire map",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built [in capital]",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Totem Pole",
@@ -3377,8 +3657,7 @@
 		"cost": 0,
 		"maintenance": 2,
 		"hurryCostModifier": 0,
-		"uniques": ["Enables construction of [advanced] units",
-			"[+3 Production] [in this city] <with [Power]>",
+		"uniques": ["[+3 Production] [in this city] <with [Power]>",
 			"[+1 Production] [in this city] <with [Machine Parts]>",
 			"[+1 Production] from [Machine Parts] tiles [in this city]",
 			"Provides [1] [Fabrics]"],
@@ -3392,8 +3671,7 @@
 		"production": 5,
 		"maintenance": 3,
 		"specialistSlots": {"Engineer": 2},
-		"uniques": ["Enables construction of [advanced energy] units",
-			"[Personnel] units gain the [Ballistic Weave] promotion",
+		"uniques": ["[Personnel] units gain the [Ballistic Weave] promotion",
 			"[+3 Production] [in this city] <with [Power]>",
 			"Only available <in cities with a [Refurbished Textile Mill]>",
 			"Provides [1] [Advanced Fabrics]",
@@ -3442,7 +3720,9 @@
 			"[5] units cost no maintenance", "[+5] Unit Supply",
 			"[2] free [Goon] units appear",
 			"[2] free [Blueliner] units appear <upon declaring war with a major Civilization>",
+			"Reveals the entire map",
 			"Automatically built in all cities where it is buildable",
+			"Can only be built [in capital]",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
 	},

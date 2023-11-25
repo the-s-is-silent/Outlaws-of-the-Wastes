@@ -60,7 +60,6 @@ Changes since the Harbinger update
 - Wasteland Patrol is now locked behind Expansionism's national wonder and its production cost is increased to 60.
 - Camelot UUs: Wayfarers, Knights and Brownsteel Knights have had their Production cost increased by 20 each, Excalibur Knights by 30.
 - Deseret UUs: Battleaxe of the Lord no longer has a tech requirement and is available as a starting unit.
-- Harbinger UUs: Technopath gains a 30% Strength bonus upon researching Artificial Intelligence.
 - Hexlock UUs: Field Scientist is now a standalone unit with 120 production cost and gets 2 instant build charges.
 
 **Wonder Adjustments**
@@ -310,6 +309,12 @@ Changes since the Harbinger update
 **Building Adjustments**
 - Government:
 	- Resettlement Bureau has been deleted.
+    - All 14 of the base factions' starting wonders now have a base production cost of 0.
+        - Clan Hideout now gives Deadrock Clan's capital +2 Water and +100 HP.
+        - Forum corrected to a 5% Unhappiness reduction (was still 10%) and no longer increases City HP, but it now adds +1 Water and awards 2 free Swordsmen instead of 1.
+        - The Great Lighthouse now gives The Mariners's capital +2 Food if it's founded on a coastline.
+        - Great Mosque now gives New Afrika's capital +2 Strength and +20 HP.
+        - Sarcophagus now gives Proklyatyye's capital +2 Production.
 	- Congress variants:
 		- Camelot Foundation's Round Table gains the standard Council growth bonus and no longer has a policy requirement for the Production bonus.
 		- Children of Rust's Citizens' Assembly now adds scaling Production yields instead of scaling Science yields.
@@ -387,6 +392,7 @@ Changes since the Harbinger update
 
 **Unit Adjustments**
 - Bartertown Security Force renamed (or rather, had its name corrected) to Bartertown Imperial Guard.
+- Brownsteel Knight's Production cost reduced by 10; the initial cost increase of 20 from standard Hussars was too high considering the difference in strength between the two isn't that great.
 - Clansmen no longer require Clubhouses to be built, due to the building being available two tech eras later.
 - Commandos now obsolete at Energy Weapons (since unlike normal Black Ops who consume 2 Weapons, Camelot SAS only consumes 1 so there's no point in letting Commandos remain trainable in the endgame).
 - Destroying Angel no longer obsoletes.
@@ -394,6 +400,7 @@ Changes since the Harbinger update
 - Purge Robot Proto and MKI are now Armor units.
 - Scouts (and all unique replacements present in the mod) now gain 1 XP for each Land tile they discover.
 - Seastead Vessel now uses a single unique for all Water improvements that are not specifically for improving Water resources, in the event that more such improvements are added in the future.
+- Technopaths now actually get their intended endgame buff of a 30% Strength bonus at Artificial Intelligence.
 - Tree Lovers now cost 50 Production instead of 70.
 
 **Policy Adjustments**
