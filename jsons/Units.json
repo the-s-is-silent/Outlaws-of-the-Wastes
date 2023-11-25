@@ -147,6 +147,7 @@
 		"movement": 2,
 		"strength": 60,
 		"cost": 500,
+		"requiredTech": "Nuclear Fission",
 		"uniques": ["May Paradrop up to [10] tiles from inside friendly territory",
 			"May enter foreign tiles without open borders",
 			"Destroys tile improvements when attacking <in tiles without [Natural tile]>",
@@ -154,8 +155,11 @@
 			"[-75]% Strength <when defending>",
 			"Nuclear weapon of Strength [2]",
 			"Blast radius [0]",
+			"Consumes [1] [Weapons]",
+			"Consumes [1] [Uranium]",
 			"Only available <if [Manhattan Project] is constructed>",
-			"Only available <after adopting [Ecodefense]>"],
+			"Only available <after adopting [Ecodefense]>",
+			"Never appears as a Barbarian unit"],
 		"promotions": ["Thermoptic Camouflage"],
 		"attackSound": "nuke"
 	},
@@ -203,8 +207,7 @@
 		"upgradesTo": "Forward Observer",
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Replaceable Parts",
-		"uniques": ["Low Tech", "This Unit gains [1] XP <upon discovering a [Land] tile>",
-			"[-50]% Strength <vs cities>", "Unable to capture cities"],
+		"uniques": ["Low Tech", "[-50]% Strength <vs cities>", "Unable to capture cities"],
 		"promotions": ["Reconnaissance I", "Skirmish"],
 		"attackSound": "nonmetalhit"
 	},
@@ -220,7 +223,6 @@
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Replaceable Parts",
 		"uniques": ["Low Tech", "Support",
-			"This Unit gains [1] XP <upon discovering a [Land] tile>",
 			"May capture killed [Barbarian] units <with [33]% chance>",
 			"[-50]% Strength <vs cities>",
 			"Unable to capture cities"],
@@ -239,7 +241,6 @@
 		"upgradesTo": "Forward Observer",
 		"promotions": ["Skirmish", "Sentry", "Reconnaissance I"],
 		"uniques": ["Low Tech", "Can move after attacking",
-			"This Unit gains [1] XP <upon discovering a [Land] tile>",
 			"May capture killed [Barbarian] units <with [33]% chance>",
 			"[-50]% Strength <vs cities>",
 			"Unable to capture cities"],
@@ -469,10 +470,7 @@
 		"obsoleteTech": "Synthetic Materials",
 		"upgradesTo": "NBC Marksman",
 		"promotions": ["Skirmish", "Reconnaissance I", "[Wayfarer] ability"],
-		"uniques": ["Low Tech",
-			"This Unit gains [1] XP <upon discovering a [Land] tile>",
-			"Can move after attacking",
-			"[-33]% Strength <vs cities>"],
+		"uniques": ["Low Tech", "Can move after attacking", "[-33]% Strength <vs cities>"],
 		"attackSound": "shot"
 	},
 	{
@@ -1213,6 +1211,33 @@
 			"Consumes [1] [Slaves]"
 		],
 		"attackSound": "machinegun"
+	},
+	{
+		"name": "Rubble Gunman",
+		"unitType": "Shooter",
+		"uniqueTo": "Deadrock Clan",
+		"replaces": "Crossbowman",
+		"range": 1,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 24,
+		"interceptRange": 1,
+		"cost": 90,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Combined Arms",
+		"upgradesTo": "Machine Gun",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Low Tech",
+			"Enslaved",
+			"Can build [All Road] improvements on tiles",
+			"Can build [Fort] improvements on tiles",
+			"Can build [Trench] improvements on tiles",
+			"Only available <with [Slaves]>",
+			"Consumes [1] [Slaves]"
+		],
+		"promotions": ["Urban Warfare I"],
+		"attackSound": "shot"
 	},
 	{
 		"name": "Machine Gun",

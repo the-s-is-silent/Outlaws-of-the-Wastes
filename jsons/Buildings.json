@@ -327,9 +327,9 @@
 		"faith": 2,
 		"culture": 1,
 		"happiness": 1,
-		"uniques": ["[+6 Culture] [in this city] <after discovering [Flight]>",
+		"uniques": ["[+25]% Natural religion spread [in all cities]",
 			"Provides [2] [Weapons]",
-			"[+25]% Natural religion spread [in all cities]",
+			"[2] free [Battleaxe of the Lord] units appear",
 			"Can only be built [in capital]",
 			"Gain a free [Bishop's Storehouse] [in this city]"],
 		"quote": "Zion is a place, and a state of being, that has been lost to us several times in the past. Each loss is a new fall of man. And after each fall, we weep in strange new lands and dream of Zion, dream of visiting vengeance upon those who took it from us.",
@@ -338,14 +338,6 @@
 				"text": "Zion is a place, and a state of being, that has been lost to us several times in the past. Each loss is a new fall of man. And after each fall, we weep in strange new lands and dream of Zion, dream of visiting vengeance upon those who took it from us."
 			}
 		]
-	},
-	{
-		"name": "Convert Survivors",
-		"replaces": "Search for Survivors",
-		"uniqueTo": "Deseret2",
-		"cost": 20,
-		"isNationalWonder": true,
-		"uniques": ["[2] free [Battleaxe of the Lord] units appear", "Free [Civilian Convoy] appears"]
 	},
 	{
 		"name": "Bishop's Storehouse",
@@ -504,7 +496,7 @@
 			"Provides [4] [Power] <when above [-2] [Uranium]>",
 			"Provides [4] [Power] <after discovering [Future Power]>",
 			"[+33]% Production when constructing [Manhattan Project] wonders [in this city]",
-			"[+33]% Production when constructing [Missile] units [in this city]",
+			"[+33]% Production when constructing [Nuclear Weapon] units [in this city]",
 			"Only available <in cities without a [Coal Plant]>",
 			"Only available <in cities without a [Oil Plant]>"],
 		"requiredTech": "Nuclear Fission"

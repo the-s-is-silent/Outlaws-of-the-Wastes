@@ -309,7 +309,7 @@ Changes since the Harbinger update
 **Building Adjustments**
 - Government:
 	- Resettlement Bureau has been deleted.
-    - All 14 of the base factions' starting wonders now have a base production cost of 0.
+    - All 14 of the base scenario factions' starting wonders now have a base production cost of 0.
         - Clan Hideout now gives Deadrock Clan's capital +2 Water and +100 HP.
         - Forum corrected to a 5% Unhappiness reduction (was still 10%) and no longer increases City HP, but it now adds +1 Water and awards 2 free Swordsmen instead of 1.
         - The Great Lighthouse now gives The Mariners's capital +2 Food if it's founded on a coastline.
@@ -378,6 +378,8 @@ Changes since the Harbinger update
 	- Deadrock Clan:
 		- Clubhouse now generates 2 Water per turn and no longer costs maintenance.
 	- Deseret Nation:
+        - Convert Survivors has been deleted.
+        - Restored Temple of Zion now spawns the 2 free Battleaxe of the Lord units, at the expense of losing the late-game Culture boost. This was because the previous setup put Deseret at a significant early-game disadvantage and made them the undisputed worst faction on Marathon speed.
 		- Disciplinary Council's maintenance cost reduced to 1.
 
 **Wonder Adjustments**
@@ -398,7 +400,7 @@ Changes since the Harbinger update
 - Destroying Angel no longer obsoletes.
 - Forward Observers now play the "shot" attack sound in combat.
 - Purge Robot Proto and MKI are now Armor units.
-- Scouts (and all unique replacements present in the mod) now gain 1 XP for each Land tile they discover.
+- Rubble Gunmen now replace Crossbowmen, correcting the major error in the base game where Deadrock Clan had two unique units replacing Archers.
 - Seastead Vessel now uses a single unique for all Water improvements that are not specifically for improving Water resources, in the event that more such improvements are added in the future.
 - Technopaths now actually get their intended endgame buff of a 30% Strength bonus at Artificial Intelligence.
 - Tree Lovers now cost 50 Production instead of 70.
