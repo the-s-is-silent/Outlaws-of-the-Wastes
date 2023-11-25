@@ -2861,7 +2861,7 @@
 			"[+1 Food] from [Grain] tiles [in this city]",
 			"[+1 Food] from [Cattle] tiles [in this city]",
 			"[+1 Food] from [Goats] tiles [in this city]",
-			"[+1 Water] from every [Farmer] <in this city> <after discovering [Hydroponics]>"],
+			"[+1 Gold] from every [Farmer] <in this city> <after discovering [Hydroponics]>"],
 		"requiredTech": "Botany",
 		"civilopediaText": [
 			{
