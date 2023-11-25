@@ -1016,8 +1016,6 @@
 		"unitType": "Civilian",
 		"uniques": ["May withdraw from melee ([100]%)",
 			"Can instantly construct a [Preservator] improvement <by consuming this unit>",
-			"Is part of Great Person group [Scientist]",
-			"Great Person - [Science]",
 			"Unbuildable", "Uncapturable"],
 		"movement": 2
 	},

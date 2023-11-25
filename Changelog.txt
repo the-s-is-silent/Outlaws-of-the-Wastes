@@ -399,6 +399,7 @@ Changes since the Harbinger update
 - Commandos now obsolete at Energy Weapons (since unlike normal Black Ops who consume 2 Weapons, Camelot SAS only consumes 1 so there's no point in letting Commandos remain trainable in the endgame).
 - Destroying Angel no longer obsoletes.
 - Forward Observers now play the "shot" attack sound in combat.
+- Persevering Pax Researchers are no longer Great People.
 - Purge Robot Proto and MKI are now Armor units.
 - Rubble Gunmen now replace Crossbowmen, correcting the major error in the base game where Deadrock Clan had two unique units replacing Archers.
 - Seastead Vessel now uses a single unique for all Water improvements that are not specifically for improving Water resources, in the event that more such improvements are added in the future.
