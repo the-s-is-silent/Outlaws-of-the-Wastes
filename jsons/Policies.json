@@ -768,7 +768,7 @@
 			{
 				"name": "Mechanization Complete",
 				"uniques": ["Free [Purge Robot] appears",
-					"Quantity of strategic resources produced by the empire [+25]%",
+					"Quantity of strategic resources produced by the empire +[25]%",
 					"[+25]% Production towards any buildings that already exist in the Capital <while the empire is happy>",
 					"[+25]% Production when constructing [All] units [in all cities] <while the empire is happy>"]
 			}

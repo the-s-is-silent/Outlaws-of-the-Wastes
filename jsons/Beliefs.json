@@ -285,7 +285,7 @@
 		"name": "Thought Control",
 		"type": "Enhancer",
 		"uniques": ["[Faith] cost of purchasing [Censor] units [-25]%",
-			"[Censor] units built [in all cities] gain the [Control] promotion"]
+			"[Censor] units gain the [Control] promotion"]
 	},
 	{
 		"name": "Unity of the Sages",
@@ -294,7 +294,7 @@
 		"uniques": ["[+50]% Yield from every [Seminary]",
 			"[+50]% Yield from every [Oracle]",
 			"[+50]% Yield from every [Endowment House]",
-			"[+2 Faith] from all [Faith] buildings [in cities following this religion] <in cities with at least [10] [Population]>"]
+			"[+2 Faith] from all [Faith] buildings <in cities with at least [10] [Followers of this Religion]>"]
 		// TODO: Should also have the Unity of the Prophets effect of Censors/Sages only reducing foreign religion followers by half once BNW content is implemented
 	},
 
