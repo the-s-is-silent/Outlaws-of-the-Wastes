@@ -2255,7 +2255,7 @@
 		"uniques": ["Provides [2] [Power]",
 			"Provides [2] [Power] <when above [0] [Oil]>",
 			"Provides [2] [Power] <after discovering [Steam Power]>",
-			"Provides [2] [Power] <after discovering [Synthetic Materials]>",
+			"Provides [2] [Power] <after discovering [Plastics]>",
 			"Consumes [1] [Oil]",
 			"Only available <in cities without a [Oil Refinery]>",
 			"Only available <in cities without a [Nuclear Plant]>",
@@ -2285,7 +2285,7 @@
 		"uniques": ["[+1 Production] from [Plastics] tiles [in this city]",
 			"[+2 Production] from [Oil] tiles [in this city]",
 			"Consumes [1] [Power]"],
-		"requiredTech": "Synthetic Materials"
+		"requiredTech":"Plastics"
 	},
 	{
 		"name": "Heat Plant", //no longer a Hexlock UB
@@ -2294,7 +2294,7 @@
 			"Provides [4] [Power]",
 			"[+2 Production] from [Fissure] tiles [in this city]",
 			"Only available <in cities with a [Library]>"],
-		"requiredTech": "Synthetic Materials"
+		"requiredTech": "Plastics"
 	},
 	{
 		"name": "Nuclear Plant",
@@ -3076,7 +3076,7 @@
 			"Only available <in cities with a [Factory]>",
 			"Only available <in cities with a [Electrostatic Generator]>",
 			"Consumes [1] [Power]"],
-		"requiredTech": "Synthetic Materials"
+		"requiredTech": "Plastics"
 	},
 	{
 		"name": "Demolished Prison Camp",
