@@ -467,7 +467,7 @@
 		"rangedStrength": 20,
 		"range": 1,
 		"cost": 50,
-		"obsoleteTech": "Synthetic Materials",
+		"obsoleteTech": "Plastics",
 		"upgradesTo": "NBC Marksman",
 		"promotions": ["Skirmish", "Reconnaissance I", "[Wayfarer] ability"],
 		"uniques": ["Low Tech", "Can move after attacking", "[-33]% Strength <vs cities>"],
@@ -502,7 +502,7 @@
 		"rangedStrength": 35,
 		"interceptRange": 1,
 		"cost": 225,
-		"requiredTech": "Synthetic Materials",
+		"requiredTech": "Plastics",
 		"obsoleteTech": "Energy Weapons",
 		"upgradesTo": "Black Ops",
 		"hurryCostModifier": 20,
@@ -1262,7 +1262,7 @@
 		"strength": 45,
 		"interceptRange": 1,
 		"cost": 230,
-		"requiredTech": "Synthetic Materials",
+		"requiredTech": "Plastics",
 		"upgradesTo": "Exo-Trooper",
 		"hurryCostModifier": 20,
 		"uniques": [
@@ -1280,7 +1280,7 @@
 		"strength": 36,
 		"interceptRange": 1,
 		"cost": 125,
-		"requiredTech": "Synthetic Materials",
+		"requiredTech": "Plastics",
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Personnel",
@@ -1306,7 +1306,7 @@
 		"strength": 36,
 		"interceptRange": 1,
 		"cost": 125,
-		"requiredTech": "Synthetic Materials",
+		"requiredTech":"Plastics",
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Personnel",
@@ -1331,7 +1331,7 @@
 		"rangedStrength": 35,
 		"interceptRange": 1,
 		"cost": 225,
-		"requiredTech": "Synthetic Materials",
+		"requiredTech":"Plastics",
 		"upgradesTo": "Black Ops",
 		"hurryCostModifier": 20,
 		"uniques": [
@@ -1478,7 +1478,7 @@
 		"strength": 40,
 		"cost": 100,
 		"requiredTech": "Steam Power",
-		"obsoleteTech": "Synthetic Materials",
+		"obsoleteTech":"Plastics",
 		"upgradesTo": "Assault Ship",
 		"uniques": [
 			"Consumes [1] [Oil]",
@@ -1498,7 +1498,7 @@
 		"strength": 40,
 		"cost": 100,
 		"requiredTech": "Steam Power",
-		"obsoleteTech": "Synthetic Materials",
+		"obsoleteTech": "Plastics",
 		"upgradesTo": "Assault Ship",
 		"uniques": [
 			"Consumes [1] [Oil]",
@@ -1515,7 +1515,7 @@
 		"movement": 6,
 		"strength": 60,
 		"cost": 300,
-		"requiredTech": "Synthetic Materials",
+		"requiredTech": "Plastics",
 		"uniques": [
 		    "Can move after attacking",
 			"Consumes [1] [Oil]",
