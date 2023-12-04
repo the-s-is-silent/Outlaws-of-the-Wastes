@@ -352,7 +352,7 @@
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Can build [Trench] improvements on tiles",
-			"[-50]% construction time for [Land] improvements"],
+			"[-50]% construction time for [All] improvements"],
 		"attackSound": "shot"
 	},
 	{
@@ -1083,7 +1083,7 @@
 		"upgradesTo": "Mechanized Worker",
 		"uniques": [
 			"Can build [Land] improvements on tiles",
-			"[-25]% construction time for [Land] improvements",
+			"[-25]% construction time for [Natural tile] improvements",
 			"Automation is a primary action"
 		],
 		"cost": 50
@@ -1100,7 +1100,7 @@
 			"Only available <if [Factory] is constructed>",
 			"May withdraw before melee ([50]%)",
 			"Can build [Land] improvements on tiles",
-			"[-25]% construction time for [Land] improvements",
+			"[-25]% construction time for [All] improvements",
 			"Automation is a primary action"
 		]
 	},
@@ -1176,7 +1176,7 @@
 		"uniques": [
 			"Personnel",
 			"Enslaved",
-			"[-25]% construction time for [Land] improvements",
+			"[-25]% construction time for [All] improvements",
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Can build [Trench] improvements on tiles",
@@ -1201,7 +1201,7 @@
 		"uniques": [
 			"Low Tech",
 			"Enslaved",
-			"[-25]% construction time for [Land] improvements",
+			"[-25]% construction time for [All] improvements",
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Can build [Trench] improvements on tiles",
@@ -1256,24 +1256,6 @@
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "NBC Infantry",
-		"unitType": "Scrapper",
-		"movement": 2,
-		"strength": 45,
-		"interceptRange": 1,
-		"cost": 230,
-		"requiredTech": "Plastics",
-		"upgradesTo": "Exo-Trooper",
-		"hurryCostModifier": 20,
-		"uniques": [
-			"Personnel",
-			"Only available <if [Factory] is constructed>",
-			"Consumes [1] [Weapons]"
-		],
-		"promotions": ["Gas Mask"],
-		"attackSound": "machinegun"
-	},
-	{
 		"name": "NBC Conscript",
 		"unitType": "Scrapper",
 		"movement": 2,
@@ -1286,7 +1268,7 @@
 			"Personnel",
 			"Enslaved",
 			"Only available <if [Factory] is constructed>",
-			"[-25]% construction time for [Land] improvements",
+			"[-25]% construction time for [All] improvements",
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Can build [Trench] improvements on tiles",
@@ -1312,7 +1294,7 @@
 			"Personnel",
 			"Enslaved",
 			"Only available <if [Factory] is constructed>",
-			"[-25]% construction time for [Land] improvements",
+			"[-25]% construction time for [All] improvements",
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Can build [Trench] improvements on tiles",
@@ -1321,26 +1303,6 @@
 		],
 		"promotions": ["Gas Mask"],
 		"attackSound": "machinegun"
-	},
-	{
-		"name": "NBC Marksman",
-		"unitType": "Shooter",
-		"range": 1,
-		"movement": 2,
-		"strength": 40,
-		"rangedStrength": 35,
-		"interceptRange": 1,
-		"cost": 225,
-		"requiredTech":"Plastics",
-		"upgradesTo": "Black Ops",
-		"hurryCostModifier": 20,
-		"uniques": [
-			"Personnel",
-			"Only available <if [Factory] is constructed>",
-			"Consumes [1] [Weapons]"
-		],
-		"promotions": ["Reconnaissance I", "Gas Mask"],
-		"attackSound": "shot"
 	},
 	{
 		"name": "Tank",
@@ -1478,7 +1440,7 @@
 		"strength": 40,
 		"cost": 100,
 		"requiredTech": "Steam Power",
-		"obsoleteTech":"Plastics",
+		"obsoleteTech": "Plastics",
 		"upgradesTo": "Assault Ship",
 		"uniques": [
 			"Consumes [1] [Oil]",
@@ -1505,24 +1467,6 @@
 			"Double movement in [Coast]",
 			"May withdraw before melee ([66]%)",
 			"[+25]% Strength <when defending>"
-		],
-		"hurryCostModifier": 20,
-		"attackSound": "shipguns"
-	},
-	{
-		"name": "Assault Ship",
-		"unitType": "Melee Water",
-		"movement": 6,
-		"strength": 60,
-		"cost": 300,
-		"requiredTech": "Plastics",
-		"uniques": [
-		    "Can move after attacking",
-			"Consumes [1] [Oil]",
-			"Double movement in [Coast]",
-			"May withdraw before melee ([33]%)",
-			"Only available <if [Factory] is constructed>",
-			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
