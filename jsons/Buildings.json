@@ -1598,7 +1598,7 @@
 			"Hidden when [Scientific] Victory is disabled",
 			"Cannot be hurried"
 		],
-		"requiredTech": "Materials Reprocessing",
+		"requiredTech": "Plastics Recycling",
 		"civilopediaText": [
 			{
 				"text": "Completion of this project enables the manufacture of components to construct a Terraformer which can restore Earth to its pre-Cataclysm state."
@@ -2349,13 +2349,13 @@
 			"[+1 Production] from [Strategic resource] tiles [in this city]",
 			"Only available <in cities with a [Factory]>"
 		],
-		"requiredTech": "Materials Reprocessing"
+		"requiredTech": "Plastics Recycling"
 	},
 	{
 		"name": "Bio Synthetizer",
 		"cost": 1000,
 		"maintenance": 3,
-		"requiredTech": "Materials Reprocessing",
+		"requiredTech": "Plastics Recycling",
 		"uniques": [
 		    "Provides [2] [Oil] <when above [-2] [Power]>",
 			"Consumes [1] [Power]",
@@ -2365,7 +2365,7 @@
 	{
 		"name": "Metal Reprocessor",
 		"maintenance": 3,
-		"requiredTech": "Materials Reprocessing",
+		"requiredTech": "Plastics Recycling",
 		"uniques": [
 			"Provides [2] [Aluminum] <when above [-2] [Power]>",
 			"Consumes [1] [Power]",
@@ -2377,7 +2377,7 @@
 		"replaces": "Metal Reprocessor",
 		"uniqueTo": "Hexlock",
 		"maintenance": 3,
-		"requiredTech": "Materials Reprocessing",
+		"requiredTech": "Plastics Recycling",
 		"uniques": [
 			"Provides [2] [Aluminum]",
 			"[+25]% Production when constructing [Promotion Nullifier] units [in this city] <when above [-2] [Power]>",
