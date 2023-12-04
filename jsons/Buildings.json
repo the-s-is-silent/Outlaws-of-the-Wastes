@@ -1598,7 +1598,7 @@
 			"Hidden when [Scientific] Victory is disabled",
 			"Cannot be hurried"
 		],
-		"requiredTech": "Materials Reprocessing",
+		"requiredTech": "Plastics Recycling",
 		"civilopediaText": [
 			{
 				"text": "Completion of this project enables the manufacture of components to construct a Terraformer which can restore Earth to its pre-Cataclysm state."
@@ -2255,7 +2255,7 @@
 		"uniques": ["Provides [2] [Power]",
 			"Provides [2] [Power] <when above [0] [Oil]>",
 			"Provides [2] [Power] <after discovering [Steam Power]>",
-			"Provides [2] [Power] <after discovering [Synthetic Materials]>",
+			"Provides [2] [Power] <after discovering [Plastics]>",
 			"Consumes [1] [Oil]",
 			"Only available <in cities without a [Oil Refinery]>",
 			"Only available <in cities without a [Nuclear Plant]>",
@@ -2285,7 +2285,7 @@
 		"uniques": ["[+1 Production] from [Plastics] tiles [in this city]",
 			"[+2 Production] from [Oil] tiles [in this city]",
 			"Consumes [1] [Power]"],
-		"requiredTech": "Synthetic Materials"
+		"requiredTech":"Plastics"
 	},
 	{
 		"name": "Heat Plant", //no longer a Hexlock UB
@@ -2294,7 +2294,7 @@
 			"Provides [4] [Power]",
 			"[+2 Production] from [Fissure] tiles [in this city]",
 			"Only available <in cities with a [Library]>"],
-		"requiredTech": "Synthetic Materials"
+		"requiredTech": "Plastics"
 	},
 	{
 		"name": "Nuclear Plant",
@@ -2349,13 +2349,13 @@
 			"[+1 Production] from [Strategic resource] tiles [in this city]",
 			"Only available <in cities with a [Factory]>"
 		],
-		"requiredTech": "Materials Reprocessing"
+		"requiredTech": "Plastics Recycling"
 	},
 	{
 		"name": "Bio Synthetizer",
 		"cost": 1000,
 		"maintenance": 3,
-		"requiredTech": "Materials Reprocessing",
+		"requiredTech": "Plastics Recycling",
 		"uniques": [
 		    "Provides [2] [Oil] <when above [-2] [Power]>",
 			"Consumes [1] [Power]",
@@ -2365,7 +2365,7 @@
 	{
 		"name": "Metal Reprocessor",
 		"maintenance": 3,
-		"requiredTech": "Materials Reprocessing",
+		"requiredTech": "Plastics Recycling",
 		"uniques": [
 			"Provides [2] [Aluminum] <when above [-2] [Power]>",
 			"Consumes [1] [Power]",
@@ -2377,7 +2377,7 @@
 		"replaces": "Metal Reprocessor",
 		"uniqueTo": "Hexlock",
 		"maintenance": 3,
-		"requiredTech": "Materials Reprocessing",
+		"requiredTech": "Plastics Recycling",
 		"uniques": [
 			"Provides [2] [Aluminum]",
 			"[+25]% Production when constructing [Promotion Nullifier] units [in this city] <when above [-2] [Power]>",
@@ -3076,7 +3076,7 @@
 			"Only available <in cities with a [Factory]>",
 			"Only available <in cities with a [Electrostatic Generator]>",
 			"Consumes [1] [Power]"],
-		"requiredTech": "Synthetic Materials"
+		"requiredTech": "Plastics"
 	},
 	{
 		"name": "Demolished Prison Camp",
