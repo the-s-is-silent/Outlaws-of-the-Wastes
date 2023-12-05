@@ -343,7 +343,7 @@ Changes since the Harbinger update
 	- Plastics Reprocessor has been removed from the game.
 	- Recycling Plant is now a Production building instead of a Power building, adding +1 Production to Scrap/Metal/Plastic and Strategic resource tiles, +15% to the city's total Production output, but does not provide resources.
 	- Transport Network *severely* nerfed; it now only adds +1 Production to Boroughs and no other stats.
-		- Childen of Rust's Bike Path is now a standalone Culture building instead of a Production building and is available at Railroads; it adds +1 Culture to Road/Railroad tiles adjacent to the city, extending the range to the second tile ring with Incentivization.
+		- Childen of Rust's Bike Path is now a standalone Culture building instead of a Production building and is available at Railroads; it adds +1 Culture to Rubble/Ruins tiles that are up to 2 tiles away from the city center.
 	- Uranium Centrifuge's restrictions are tightened; you can now only have 3 and they must be in cities with a Nuclear Plant.
 - Military:
 	- Armament/Armor Production Lines and Aerospace Facilities no longer have negative modifiers to the owning city's Production. However, they now have a maintenance cost of 3 Water.
@@ -357,6 +357,8 @@ Changes since the Harbinger update
 		- Deadrock Clan: Trade College now adds +2 Water and no longer has a maintenance cost, but does not add Culture.
 	- Media Center can now be built with worked Books tiles and adds +2 Culture to those tiles. It also now adds 1 Administrator slot to the city instead of 2 Great Administrator points.
 - Other faction-specific buildings:
+    - Atlas:
+        - Kruger Line now adds +3 Culture to the capital and +3 Production to all cities connected to the capital. This was done due to the current impossibility of adding stats to Road and Railroad improvements.
 	- Blackwarden:
 		- Personnel Office regains its commented out Merchant slot, gains an Administrator slot, and adds a +10% Production bonus towards Personnel units along with a 25% cost reduction in tile purchases. However, its Production cost is increased to 160 and it no longer gains bonuses from having Slaves.
 		- Resource Management Server no longer provides Slaves.
@@ -465,7 +467,6 @@ Changes since the Harbinger update
 	- Grand Tabernacle, replacing the Grand Monastery, creating an Endowment House on completion and boosting the yields of Endowment Houses by +1 Food, +2 Water/Culture
 - The Harbingers:
 	- Austere Processing Hub, replacing the Ground Control Center, doubling Encrypted Data resources and adding Science yields to the owning city (+5 base, +15% total) but is more expensive (400 base vs. original's rebalanced 300, increasing by 30 per owned city) and requires every non-puppeted city to own a Census Chamber
-	- Interstice, replacing the Transport Network, adding +1 Production to tiles with a Railroad
 - Hexlock:
 	- Chemfuel Generator, a standalone building providing 2 units of Power and +5% total Production that's only available with a Research Lab and a worked Refinery of any type in the city, and will be destroyed if the city is captured
 - Issaquah Nation:

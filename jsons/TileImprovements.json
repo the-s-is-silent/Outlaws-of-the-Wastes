@@ -336,7 +336,7 @@
 			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 			"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Wasteland Station] tiles>",
-			"[+1 Food] <with [1] to [6] neighboring [Food source] tiles",
+			"[+1 Food] <with [1] to [6] neighboring [Food source] tiles>",
 			"[+1 Production, +1 Gold] <after discovering [Railroads]>",
 			"[+1 Production, +1 Gold] <after discovering [Incentivization]>",
 			"[+2 Gold] <after discovering [Globalization]>",

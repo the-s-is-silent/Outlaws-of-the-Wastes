@@ -752,16 +752,6 @@
 			"Cost increases by [30] per owned city"],
 		"requiredTech": "Networking"
 	},
-	{
-		"name": "Interstice",
-		"uniqueTo": "The Harbingers",
-		"replaces": "Transport Network",
-		"maintenance": 2,
-		"requiredTech": "Incentivization",
-		"uniques": ["[+1 Production] from [Borough] tiles [in this city]",
-			"[+1 Production] from [Railroad] tiles [in this city]",
-			"Consumes [1] [Power]"]
-	},
 
 	//Adjusted buildings and wonders
 	//Part 1: Faction identity wonders and government buildings
@@ -3054,8 +3044,9 @@
 		"name": "Kruger Line",
 		"uniqueTo": "Atlas",
 		"isNationalWonder": true,
+		"culture": 3,
 		"uniques": ["Can only be built [in capital]",
-			"[+2 Production] from [Railroad] tiles [in all cities]",
+			"[+3 Production] [in all cities connected to capital]",
 			"[+2 Gold] from each Trade Route",
 			"Requires a [Factory] in all cities",
 			"Consumes [1] [Power]"],
@@ -3107,10 +3098,9 @@
 		"uniqueTo": "Children of Rust",
 		"maintenance": 2,
 		"requiredTech": "Railroads",
-		"replacementTextForUniques": "Every tile adjacent to this city with a Road or Railroad provides +1 Culture. After discovering Incentivization, every tile with a Road or Railroad up to 2 tiles away from this city provides +1 Culture.",
 		"uniques": [
-			"[+1 Culture] from [All Road] tiles [in this city] <within [1] tiles of a [City center]> <before discovering [Incentivization]>",
-			"[+1 Culture] from [All Road] tiles [in this city] <within [2] tiles of a [City center]> <after discovering [Incentivization]>",
+			"[+1 Culture] from [Forest] tiles [in this city] <within [2] tiles of a [City center]>",
+			"[+1 Culture] from [Jungle] tiles [in this city] <within [2] tiles of a [City center]>",
 			"Never destroyed when the city is captured"
 		]
 	},
