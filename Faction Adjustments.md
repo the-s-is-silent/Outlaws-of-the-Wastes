@@ -26,7 +26,7 @@
 #### Commonwealth
 - Embassy no longer increases GP generation. It now increases influence gain from Water gifts to City-States and receives the +10% growth and +5% Production bonuses of the standard Council.
 - Parliament now adds scaling Water yields instead of scaling Science yields and cuts CS influence degradation in half.
-- New UU: Field Preparations Squad (replaces Forward Observer, can build Roads, Railroads, Forts and Trenches and does so 50% faster than standard Workers)
+- New UU: Field Preparations Squad (replaces Forward Observer, can build Roads, Railroads, Forts and Trenches and does so in half the time of standard Workers)
 - New UBs:
   - Sharecropper Farm (replaces Greenhouse, adds +1 Food to worked Cattle/Goats tiles, adds +1 Water to active Farmers after discovering Hydroponics)
   - Commonwealth Reserve (replaces Water Storage, adds +20% to the city's total Water yields instead of 10%, adds +1 Water to active Merchants)
@@ -81,7 +81,8 @@
 - They start with fewer free techs now: knowledge of Chemistry is gained, but knowledge of Construction, Machinery and Engineering is lost. The malus on GP generation is removed, and Encrypted Data resources are doubled by their UA.
 - Chemicals are now properly Strategic Resources instead of Luxury Resources.
 - Field Scientists are now standalone units, cost 120 Production, and have 2 charges.
-- Purge Robot Proto's base Strength increased from 25 to 40, in order to give them a fighting chance.
+- Purge Robot Proto's base Strength increased from 25 to 40, in order to give them a fighting chance. But their Production cost is increased from 50 to 65.
+- Hex Corporation only creates one free Purge Robot Proto now, but it also gives a 10% Production bonus towards the construction of all Promotion Nullifier units after Engineering is researched.
 - Standard Refineries have base yields 1 higher than the base scenario, and also gain adjacency bonuses (+2 Production when next to strategic resources, +2 of the respective yield when adjacent to their corresponding GI).
 - Crystal Refineries have their base yields doubled to +4 Science, +2 Water, but have their adjacency bonuses reduced to +2 Science, +1 Water with 3 or less adjacent Refineries, +4 Science, +2 Water with 4 or more. They gain +2 Production if built atop Coal or Oil resources.
 - The Heat Plant building is no longer one of their unique components and can be built by everyone.
@@ -91,7 +92,8 @@
 - Stormfront Center and Overcouncil now cost 150 Production each. The latter now provides 2 of each of their unique resources.
 - New UBs:
   - Hexlock Chemical Company (replaces Food Processing Plant, adds Production/Gold yields to Refinery improvements instead of boosting Food and grants the unique Self-Repair promotion to Purge Robots instead of granting Resupply to Personnel units)
-  - Advanced Chemical Refinery (standalone, requires Supremacy, doubles Refinery yields for that city and gives Purge Robots access to Chemical Weapons, but costs Coal and Power to build)
+  - Chemfuel Generator (standalone, requires a worked Refinery of any type and a Research Lab, boosts city Production by 5% and provides 2 units of Power, will be destroyed if the city is captured)
+  - Advanced Chemical Refinery (standalone, requires Supremacy, boosts Refinery yields by 50% in that city and gives Purge Robots access to Chemical Weapons, but costs Coal and Power to build)
 - TODO: Port over the entire gimmick rework from a certain other rebalance mod once it's finished, and until the base scenario itself reworks the gimmick
 
 #### The Mariners
@@ -116,11 +118,11 @@
 - They are no longer allowed to employ prison labor.
 - Mobile Encampment provides more Weapons (2 vs. 1) and can be built in a second city after discovering Munitions, allowing them to move the capital if necessary.
 - Gideon Scanner and Rally Station still cannot exist at the same time, nor exist in more than one city, and they are more expensive, costing 150 Production each. They also cannot be purchased.
-- New UU: Rapid Response Squad (replaces Forward Observer, starts with Gas Mask and Medic I/II, 75% strength on defense, can sacrifice itself to clear Fallout, more expensive to build)
+- New UU: Rapid Response Squad (replaces Forward Observer, starts with Gas Mask and Medic I/II, 75% strength on defense, can sacrifice itself to clear Fallout or Toxic Waste, more expensive to build)
 - New UBs:
   - Soup Kitchen (replaces Prison Camp, +2 Food, +1 Local Happiness, removes extra unhappiness from annexed cities, does not provide Slaves, can be built in the same city as Emergency Response Network)
   - Triage (replaces Work Camp, +10 unit healing for units adjacent to the city, +15% Production towards "support" units, +1 Local Happiness restored at Voting Rights, does not consume Slaves)
-  - Emergency Response Network (replaces Listening Post, adds 1 Administrator slot instead of +1 Local Happiness, adds protection from nukes, can be built in the same city as Soup Kitchen)
+  - Emergency Response Network (replaces Listening Post, adds 1 Administrator slot instead of +1 Local Happiness, adds protection from nukes, does not remove extra unhappiness from annexed cities since unlike Prison Camps/Listening Posts + all other replacements, it can exist alongside a Soup Kitchen)
   - Medical School (replaces Public School, requires a Hospital instead of a Library, awards Medic II to new units and adds +1 Local Happiness while the faction has Power)
 - TODO: Add some way for them to liberate Slaves provided by City-States/Great Improvements
 
@@ -132,8 +134,8 @@
 
 #### Proklyatyye
 - Sarcophagus buffed to +2 Production.
-- Five-Year Plan and Gulag have been renamed to State Assembly and Politburo and their Production cost has been increased by 50 each.
-- State Assembly now adds scaling Production yields (in addition to the scaling Culture yields) and counts every 4 population in cities instead of every 5.
+- Five-Year Plan and Gulag have been renamed to State Assembly and Politburo.
+- State Assembly now adds scaling Production yields (in addition to the scaling Culture yields) and counts every 4 population in cities instead of every 5. However, it costs 150 Production.
 - Politburo no longer adds Culture/Happiness; it instead adds +3 Production to their Prison Camp/Work Camp replacements and Listening Posts.
 - New UU: Super Mutant (replaces Exo-Trooper, available earlier at Nuclear Fission but requires Atomgrad Project, consumes 2 Uranium + 1 Weapons, loses paradrop)
 - New UBs:

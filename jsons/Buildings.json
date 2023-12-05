@@ -807,13 +807,12 @@
 		"production": 1,
 		"cityHealth": 20,
 		"cost": 0,
-		"uniques": [
+		"uniques": ["[+10]% Production when constructing [Promotion Nullifier] units [in all cities] <after discovering [Engineering]>",
 			"Provides [1] [Power]",
 			"Provides [2] [Encrypted Data]",
-			"[2] free [Purge Robot Proto] units appear",
+			"Free [Purge Robot Proto] appears",
 			"Can only be built [in capital]",
-			"Gain a free [Compound Mixer] [in this city]"
-		],
+			"Gain a free [Compound Mixer] [in this city]"],
 		"quote": "'I will tell you a secret. Truth is, I'm not human. Not fully, at least. For some reason, Hexlock decided that it would be best having a computer lead them, instead of a person. And so their president decided to alter the head of his own daugther. Maybe the fact that I killed him as soon as I came out meant that I was now different. But to be honest? I feel the same. Just get bored of things much faster.'",
 		"civilopediaText": [
 			{
@@ -3207,6 +3206,17 @@
 			"Can only be built [in capital]"]
 	},
 	{
+		"name": "Chemfuel Generator",
+		"uniqueTo": "Hexlock",
+		"percentStatBonus": {"production": 5},
+		"maintenance": 1,
+		"uniques": ["Provides [2] [Power]",
+			"Must have an owned [Refinery] within [3] tiles",
+			"Only available <in cities with a [Research Lab]>",
+			"Destroyed when the city is captured"],
+		"requiredTech": "Laboratory"
+	},
+	{
 		"name": "Advanced Chemical Refinery",
 		"uniqueTo": "Hexlock",
 		"maintenance": 2,
@@ -3514,7 +3524,7 @@
 		"uniqueTo": "Issaquah Nation",
 		"cityStrength": 5,
 		"cityHealth": 80,
-		"cost": 1,
+		"cost": 0,
 		"uniques": ["[5] units cost no maintenance", "[+5] Unit Supply",
 			"[2] free [Hawkman Brave] units appear",
 			"[2] free [Issaquah Mystic] units appear <upon declaring war with a major Civilization>",

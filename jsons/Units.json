@@ -333,7 +333,8 @@
 		"uniques": ["Personnel", "Support", "[+1] Sight",
 			"Can move after attacking",
 			"[+75]% Strength <when defending>",
-			"Can instantly construct a [Remove Fallout] improvement <by consuming this unit>"],
+			"Can instantly construct a [Remove Fallout] improvement <by consuming this unit>",
+			"Can instantly construct a [Remove Toxic Waste] improvement <by consuming this unit>"],
 		"attackSound": "shot"
 	},
 	{
@@ -1127,7 +1128,7 @@
 		"obsoleteTech": "Combined Arms",
 		"movement": 2,
 		"strength": 40,
-		"cost": 50,
+		"cost": 65,
 		"requiredTech": "Machinery",
 		"uniques": [
 			"Promotion Nullifier",
@@ -1288,7 +1289,7 @@
 		"strength": 36,
 		"interceptRange": 1,
 		"cost": 125,
-		"requiredTech":"Plastics",
+		"requiredTech": "Plastics",
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Personnel",

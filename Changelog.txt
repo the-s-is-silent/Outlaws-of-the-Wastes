@@ -284,7 +284,7 @@ Changes since the Harbinger update
 **New Tile Improvements**
 - Preservator, borrowed from Bamboolord's expansion mod with his permission, adjusted, and granted to The Pax CS. This GI gains yields from the finisher bonuses of Rationalism and Constitution (+4 Culture/Science during Golden Ages from the former, +2 Culture/Science from the latter)
 
-2) November 2023
+2) November - December 2023
 
 **Mod Options**
 - The XP cap from Barbarians has been reduced from 1200 to 450.
@@ -294,11 +294,12 @@ Changes since the Harbinger update
 - The "infernal training" bonus is now unavailable during the first 40 turns of the game (was previously the first 20).
 
 **Tech Adjustments**
-- Plastics and Plastics Recycling replaced with Synthetic Materials and Materials Reprocessing.
+- Plastics renamed to Synthetic Materials.
 - Radar now has Electronics as an additional prerequisite tech, preventing players from skipping an entire technological era.
 - Computers now has Electronics as an additional prerequisite tech and no longer increases Production or Science.
 - Biology no longer increases city growth.
 - Nuclear Fission renamed to Nuclear Power.
+- Plastics Recycling renamed to Materials Reprocessing.
 
 **Faction Adjustments**
 - Atlas nerfed to lose the free Electronics starting tech along with the frankly unnecessary double Production speed towards their unique Electrostatic Generators.
@@ -308,13 +309,6 @@ Changes since the Harbinger update
 
 **Building Adjustments**
 - Government:
-	- Resettlement Bureau has been deleted.
-    - All 14 of the base scenario factions' starting wonders now have a base production cost of 0.
-        - Clan Hideout now gives Deadrock Clan's capital +2 Water and +100 HP.
-        - Forum corrected to a 5% Unhappiness reduction (was still 10%) and no longer increases City HP, but it now adds +1 Water and awards 2 free Swordsmen instead of 1.
-        - The Great Lighthouse now gives The Mariners's capital +2 Food if it's founded on a coastline.
-        - Great Mosque now gives New Afrika's capital +2 Strength and +20 HP.
-        - Sarcophagus now gives Proklyatyye's capital +2 Production.
 	- Congress variants:
 		- Camelot Foundation's Round Table gains the standard Council growth bonus and no longer has a policy requirement for the Production bonus.
 		- Children of Rust's Citizens' Assembly now adds scaling Production yields instead of scaling Science yields.
@@ -349,7 +343,7 @@ Changes since the Harbinger update
 	- Plastics Reprocessor has been removed from the game.
 	- Recycling Plant is now a Production building instead of a Power building, adding +1 Production to Scrap/Metal/Plastic and Strategic resource tiles, +15% to the city's total Production output, but does not provide resources.
 	- Transport Network *severely* nerfed; it now only adds +1 Production to Boroughs and no other stats.
-		- Childen of Rust's Bike Path is now a standalone Culture building instead of a Production building; it adds +1 Culture to Road tiles (but *not* Railroad tiles) within 2 tiles of the city center.
+		- Childen of Rust's Bike Path is now a standalone Culture building instead of a Production building and is available at Railroads; it adds +1 Culture to Road/Railroad tiles adjacent to the city, extending the range to the second tile ring with Incentivization.
 	- Uranium Centrifuge's restrictions are tightened; you can now only have 3 and they must be in cities with a Nuclear Plant.
 - Military:
 	- Armament/Armor Production Lines and Aerospace Facilities no longer have negative modifiers to the owning city's Production. However, they now have a maintenance cost of 3 Water.
@@ -378,17 +372,24 @@ Changes since the Harbinger update
 	- Deadrock Clan:
 		- Clubhouse now generates 2 Water per turn and no longer costs maintenance.
 	- Deseret Nation:
-        - Convert Survivors has been deleted.
-        - Restored Temple of Zion now spawns the 2 free Battleaxe of the Lord units, at the expense of losing the late-game Culture boost. This was because the previous setup put Deseret at a significant early-game disadvantage and made them the undisputed worst faction on Marathon speed.
 		- Disciplinary Council's maintenance cost reduced to 1.
 
 **Wonder Adjustments**
+- All of the base scenario factions' starting wonders now have a base production cost of 0. Several of these "faction identity wonders" are further adjusted as follows:
+	- Clan Hideout now gives Deadrock Clan's capital +2 Water and +100 HP.
+	- Forum corrected to a 5% Unhappiness reduction (was still 10%) and no longer increases City HP, but it now adds +1 Water and awards 2 free Swordsmen instead of 1.
+	- Hex Corporation only awards 1 free Purge Robot Proto instead of 2. To compensate, it also gives a 10% Production bonus towards Purge Robot construction.
+	- The Great Lighthouse now gives The Mariners's capital +2 Food if it's founded on a coastline.
+	- Great Mosque now gives New Afrika's capital +2 Strength and +20 HP.
+	- Sarcophagus now gives Proklyatyye's capital +2 Production.
+	- Restored Temple of Zion now spawns the 2 free Battleaxe of the Lord units, at the expense of losing the late-game Culture boost. This was because the previous setup put Deseret at a significant early-game disadvantage and made them the undisputed worst faction on Marathon speed.
+- Convert Survivors and Resettlement Bureau have been deleted.
 - Domestic Electrification now adds +1 Culture/Happiness to all cities connected to the capital instead of a potential +8 Happiness in the capital. However, its Production cost no longer scales according to how many cities the faction owns.
 - Fusion Reactor now requires the capital to own a Nuclear Plant, but is buffed to add an additional +8 Production to the capital and all cities connected to it.
 - Ground Control Center's Production cost reduced to 300 and it gives +3 Culture instead of Happiness. Adjustments to faction-specific replacements:
 	- Atlas (Survey Center): Starts at +3 Science/+1 Culture, gains +5 Science/+2 Culture with Flight
 	- Blackwarden (Operations Center): 150 base Production
-	- Deseret (Deseret Data Center): 250 base Production, regains bonus for Automated units
+	- Deseret (Deseret Data Center): 250 base Production, gains bonus for Automated units
 	- The Patriots (Tactics Center): 100 base Production, moved to Munitions
 - International Trade Center buffed to +5 base Water, +50% total Water yields for the owning city, and +3 Water from Trade Routes, adding more incentive to build it in the endgame.
 
@@ -400,11 +401,11 @@ Changes since the Harbinger update
 - Destroying Angel no longer obsoletes.
 - Forward Observers now play the "shot" attack sound in combat.
 - Persevering Pax Researchers are no longer Great People.
-- Purge Robot Proto and MKI are now Armor units.
+- Purge Robot Proto and MKI are now Armor units. The former's Production cost is increased to 65.
 - Rubble Gunmen now replace Crossbowmen, correcting the major error in the base game where Deadrock Clan had two unique units replacing Archers.
 - Seastead Vessel now uses a single unique for all Water improvements that are not specifically for improving Water resources, in the event that more such improvements are added in the future.
 - Technopaths now actually get their intended endgame buff of a 30% Strength bonus at Artificial Intelligence.
-- Tree Lovers now cost 50 Production instead of 70.
+- Tree Lovers now cost 50 Production instead of 70, but only Natural tiles benefit from reduced construction time.
 
 **Policy Adjustments**
 - Rationalism:
@@ -435,7 +436,7 @@ Changes since the Harbinger update
 - Artificial oases are now available earlier at Land Remediation and can be built on Desert Swamps (gaining an additional +1 Food, +3 Water if built on those tiles). However, the Water they award enemy factions for pillaging is doubled.
 - Crystal Refineries now start at +4 Science but their adjacency bonuses are nerfed; they now gain +2 Science, +1 Water with 3 or less adjacent Refineries, increasing to +4 Science, +2 Water with 4 or more. Their Production gains are also reduced, only gaining +2 from Coal or Oil tiles.
 - Drydocks now start at +4 Production and gain a total of +6 Production/Science from tech progression.
-- Endowment Houses are adjusted as follows: Start at +6 Faith, gain an additional +1 Water/Culture/Faith from tech progression, but are capped at +2 Food from adjacent food sources.
+- Endowment Houses are adjusted as follows: Start at +6 Faith, gain an additional +1 Water/Culture/Faith from tech progression, but only gain +1 Food from having adjacent food sources (instead of +1 Food for each adjacent food source).
 - Manufactories now start at +4 Production and scale to +12 from tech progression, along with +2 Food/Science.
 - Narcotics farms now start at +2 Water, +4 Culture and gain an additional +4 Culture with Social Engineering.
 - Oracles now start at +6 Faith, +1 Culture, increasing to +8 Faith, +2 Culture with Chemistry, but no longer provide Happiness.
@@ -443,7 +444,7 @@ Changes since the Harbinger update
 - Prison farms gain an additional +4 Production with Social Engineering.
 - Seminaries now start at +4 Faith, increasing to +6 with Education, but no longer provide any Culture on their own.
 - Settlements now gain an additional +2 Water/Science from tech progression.
-- Wasteland Stations now start at +2 Food/Water instead of the original +1 Food/Water, +1 from Currency, given that the Harbingers start with that tech so that particular bit of stat scaling is pointless.
+- Wasteland Stations now start at +2 Food/Water instead of the original +1 Food/Water, +1 from Currency, given that the Harbingers start with that tech so that particular bit of stat scaling is pointless. They also no longer gain Production from being built on Strategic resources (since this appears to be nonfunctional at present).
 
 **New Units**
 - Commonwealth:
@@ -465,6 +466,8 @@ Changes since the Harbinger update
 - The Harbingers:
 	- Austere Processing Hub, replacing the Ground Control Center, doubling Encrypted Data resources and adding Science yields to the owning city (+5 base, +15% total) but is more expensive (400 base vs. original's rebalanced 300, increasing by 30 per owned city) and requires every non-puppeted city to own a Census Chamber
 	- Interstice, replacing the Transport Network, adding +1 Production to tiles with a Railroad
+- Hexlock:
+	- Chemfuel Generator, a standalone building providing 2 units of Power and +5% total Production that's only available with a Research Lab and a worked Refinery of any type in the city, and will be destroyed if the city is captured
 - Issaquah Nation:
 	- Issaquah Tribal Council, replacing the Defense Directorate, adding a +25% Production bonus towards Military units (free units are: 2x Hawkman Brave on construction, 2x Issaquah Mystic on war declaration)
 - The Patriots:
