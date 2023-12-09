@@ -3,7 +3,7 @@ A major expansion + rebalance mod for DeCiv Redux.
 
 ## Changes applied to the base scenario
 
-- Barbarians are stronger and spawn more frequently, but the XP cap from combat against them has been raised, and they give greater rewards for clearing their encampments. (Credit for the "barb camps trigger ruins bonuses" concept goes to amfauzn and their "The Barbarians" mod.) In addition, the survivor camp spawn rate is also increased, so players actually have a chance at finding at least one survivor camp in most games.
+- Barbarians are stronger and spawn more frequently, but they give greater rewards for clearing their encampments. (Credit for the "barb camps trigger ruins bonuses" concept goes to amfauzn and their "The Barbarians" mod.) In addition, the survivor camp spawn rate is also increased, so players actually have a chance at finding at least one survivor camp in most games.
 
 - As a screw you to the AI's primitive sanity checks, the minimum allowed distance between cities has been increased.
 
@@ -39,7 +39,6 @@ A major expansion + rebalance mod for DeCiv Redux.
 - New national wonders:
   - Homeland Defense / Wasteland Surveillance / Raider Suppression Initiatives, each locked behind a starting policy and designed to help each faction survive the early-game.
   - Oceanological Center, boosting the Science output and Happiness of coastal cities for factions that have adopted the new Rediscovery policy.
-  - Resettlement Bureau, to help Collectivist factions expand faster into unclaimed territory in the mid-game.
   - Naval War College, the naval counterpart to the Military Academy, but cannot exist in the same city as the Military Academy.
   - Earthscraper Project, unlocking a powerful late-game building for Collectivist factions.
   - Microwave Power Satellite, a late-game Power building for desert cities that also improves Solar collectors.
@@ -47,7 +46,7 @@ A major expansion + rebalance mod for DeCiv Redux.
 - New tile improvements:
   - Artificial atoll and Floating Settlement, unlocked at Ocean Remediation and built exclusively by the Seastead Vessel.
   - Drydock, the Great Admiral unit's Great Improvement.
-  - Preservator, borrowed from Bamboolord's expansion mods and built by a new Great Person who is exclusive to The Pax.
+  - Preservator, borrowed from Bamboolord's expansion mods, currently exclusive to The Pax.
 
 - Most of the 14 factions in the base scenario have gained one or more new unique components, and/or had their unique ability/some of their unique components adjusted. Check the Faction Adjustments.md file for more details.
 

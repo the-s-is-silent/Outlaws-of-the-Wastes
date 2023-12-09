@@ -111,8 +111,8 @@
 			"[-33]% Production when constructing [Military] units [in all cities]",
 			"[-67]% Gold from Great Merchant trade missions",
 			"[+100]% unhappiness from the number of cities"],
-		"cities": ["Vodagrad", "Prava", "Nevesk", "Kyovashad", "Prekrasnaya", "Zapolyarny", "Ubezhishche", "Nostrava", "Grad Sysevich",
-			"Margrave", "Yelesna", "Menestad"],
+		"cities": ["Vodagrad", "Prava", "Nevesk", "Kyovashad", "Snezhnaya", "Prekrasnaya", "Zapolyarny", "Ubezhishche", "Nostrava",
+			"Grad Sysevich", "Mirny", "Margrave", "Yelesna", "Menestad"],
 		"spyNames": ["Sergey", "Iosef", "Leonid", "Mikhail", "Tatiana", "Veronika", "Alexei", "Anastasia", "Nikita", "Fyodor"],
 		"civilopediaText": [
 			{

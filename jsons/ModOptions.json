@@ -13,7 +13,6 @@
 	"constants": {
 		"minimalCityDistance": 4,
 		"minimalCityDistanceOnDifferentContinents": 4,
-		"maxXPfromBarbarians": 450,
 		"ancientRuinCountMultiplier": 0.1,
 		"religionLimitBase": 0,
 		"religionLimitMultiplier": 1,

@@ -1247,12 +1247,14 @@
 		"rangedStrength": 50,
 		"cost": 150,
 		"requiredTech": "Replaceable Parts",
-		"uniques": ["Personnel",
-			"Must set up to ranged attack",
+		"uniques": ["Personnel", "Must set up to ranged attack",
+			"[+33]% Strength <vs [Scrapper] units> <when attacking>",
+			"[+33]% Strength <vs [Shooter] units> <when attacking>",
 			"[-33]% Strength <vs [Armor] units>",
 			"[-50]% Strength <vs cities> <when attacking>",
 			"Only available <if [Factory] is constructed>",
 			"Never appears as a Barbarian unit"],
+		"promotions": ["Logistics"],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
 	},
@@ -1471,6 +1473,60 @@
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
+	},
+	{
+		"name": "Bomber",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 35,
+		"rangedStrength": 50,
+		"range": 10,
+		"cost": 185,
+		"requiredTech": "Flight",
+		"upgradesTo": "Heavy Bomber",
+		"uniques": [
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Oil]"
+		],
+		"obsoleteTech": "Lasers",
+		"hurryCostModifier": 20,
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Heavy Bomber",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 50,
+		"rangedStrength": 60,
+		"range": 15,
+		"cost": 400,
+		"requiredTech": "Avionics",
+		"upgradesTo": "Stealth Bomber",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Only available <if [Aerospace Facility] is constructed>",
+			"Consumes [1] [Oil]"
+		],
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Stealth Bomber",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 70,
+		"rangedStrength": 80,
+		"range": 20,
+		"cost": 500,
+		"requiredTech": "Future Materials",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Only available <if [Aerospace Facility] is constructed>",
+			"Consumes [1] [Aluminum]",
+			"Consumes [1] [Oil]",
+			"Stealth",
+			"Cannot be carried by [Carrier] units"
+		],
+		"attackSound": "bombing"
 	},
 	{
 		"name": "Tactical Nuke",

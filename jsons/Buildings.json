@@ -177,8 +177,8 @@
 		"uniques": ["[+1] population [in this city]",
 			"[+5]% [Production] [in all cities]",
 			"[+10]% Production when constructing [Military] units [in this city]"],
-		"requiredTech": "Engineering"
-		//Quote TBD
+		"requiredTech": "Engineering",
+		"quote": "Remember the sacrifices of everyone we lost, and remember the treachery of those who took them from us. Remember our righteous desire to rain vengeance down upon those who transgressed against all of humankind, and remember our drive to ensure such a calamity will never again befall us. Remember always..."
 	},
 
 	//New buildings

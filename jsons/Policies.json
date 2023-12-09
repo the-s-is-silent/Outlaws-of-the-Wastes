@@ -157,7 +157,7 @@
 			{
 				"name": "Military Tradition",
 				"uniques": ["[+10]% Strength <for [{Military} {Land}] units>",
-					"[50]% XP gained from combat <for [Military] units>"],
+					"[50]% XP gained from combat <for [{non-air} {Military}] units>"],
 				"requires": ["Doctrine", "Discipline"],
 				"row": 2,
 				"column": 1
@@ -546,7 +546,7 @@
 			{
 				"name": "Political Officers",
 				"requires": ["Re-Education"],
-				"uniques": ["[+25]% Production when constructing [All] units [in all cities]"],
+				"uniques": ["[+25]% Production when constructing [non-air] units [in all cities]"],
 				"row": 2,
 				"column": 1
 			},
@@ -680,7 +680,7 @@
 				"name": "Ecodefense",
 				"requires": ["Emissions Standards"],
 				"uniques": ["[+10]% Strength <for [All] units> <within [2] tiles of a [Natural tile]>",
-					"[6] free [Eco-Terrorist] units appear"],
+					"[3] free [Eco-Terrorist] units appear"],
 				"row": 2,
 				"column": 4
 			},
@@ -705,7 +705,9 @@
 			},
 			{
 				"name": "Naturalism Complete",
-				"uniques": ["[2] free [Great Farmer] units appear", "Empire enters golden age", "[+50]% Golden Age length"]
+				"uniques": ["[2] free [Great Farmer] units appear",
+					"Empire enters golden age",
+					"[+50]% Golden Age length"]
 			}
 		]
 	},
@@ -810,7 +812,7 @@
 				"name": "Eugenics",
 				"requires": ["Mutagens"],
 				"uniques": ["[+25]% Strength <for [Personnel] units>",
-					"New [Military] units start with [15] Experience [in all cities]",
+					"New [Personnel] units start with [15] Experience [in all cities]",
 					"[+2 Faith] <in cities with at least [2] [Specialists]>"],
 				"row": 2,
 				"column": 2

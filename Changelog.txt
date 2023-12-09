@@ -287,19 +287,17 @@ Changes since the Harbinger update
 2) November - December 2023
 
 **Mod Options**
-- The XP cap from Barbarians has been reduced from 1200 to 450.
+- The increase to the XP cap from combat with Barbarians has been removed.
 
 **Ruins Adjustments**
 - Units can no longer receive free upgrades from clearing a survivor or barbarian camp.
 - The "infernal training" bonus is now unavailable during the first 40 turns of the game (was previously the first 20).
 
 **Tech Adjustments**
-- Plastics renamed to Synthetic Materials.
 - Radar now has Electronics as an additional prerequisite tech, preventing players from skipping an entire technological era.
 - Computers now has Electronics as an additional prerequisite tech and no longer increases Production or Science.
 - Biology no longer increases city growth.
 - Nuclear Fission renamed to Nuclear Power.
-- Plastics Recycling renamed to Materials Reprocessing.
 
 **Faction Adjustments**
 - Atlas nerfed to lose the free Electronics starting tech along with the frankly unnecessary double Production speed towards their unique Electrostatic Generators.
@@ -394,14 +392,17 @@ Changes since the Harbinger update
 	- Deseret (Deseret Data Center): 250 base Production, gains bonus for Automated units
 	- The Patriots (Tactics Center): 100 base Production, moved to Munitions
 - International Trade Center buffed to +5 base Water, +50% total Water yields for the owning city, and +3 Water from Trade Routes, adding more incentive to build it in the endgame.
+- Statue of Remembrance now has its flavor text/quote.
 
 **Unit Adjustments**
+- All three non-drone Bomber units have had their ranged strength reduced by 5 (and in the case of Stealth Bombers, their strength reduced by 15).
 - Bartertown Security Force renamed (or rather, had its name corrected) to Bartertown Imperial Guard.
 - Brownsteel Knight's Production cost reduced by 10; the initial cost increase of 20 from standard Hussars was too high considering the difference in strength between the two isn't that great.
 - Clansmen no longer require Clubhouses to be built, due to the building being available two tech eras later.
 - Commandos now obsolete at Energy Weapons (since unlike normal Black Ops who consume 2 Weapons, Camelot SAS only consumes 1 so there's no point in letting Commandos remain trainable in the endgame).
 - Destroying Angel no longer obsoletes.
 - Forward Observers now play the "shot" attack sound in combat.
+- Machine Guns now start with Logistics and gain a bonus when attacking Scrapper and Shooter units.
 - Persevering Pax Researchers are no longer Great People.
 - Purge Robot Proto and MKI are now Armor units. The former's Production cost is increased to 65.
 - Rubble Gunmen now replace Crossbowmen, correcting the major error in the base game where Deadrock Clan had two unique units replacing Archers.
@@ -410,17 +411,23 @@ Changes since the Harbinger update
 - Tree Lovers now cost 50 Production instead of 70, but only Natural tiles benefit from reduced construction time.
 
 **Policy Adjustments**
+- Sovereignty:
+	- Military Tradition no longer grants its XP bonus to Aircraft.
 - Rationalism:
 	- Skepticism renamed to New Pioneers. (Educated Elite will be renamed later.)
 - Supremacy:
 	- The finisher bonus is reduced to a 15% combat bonus, but remains in effect for the entire game once adopted. With the adjustments to Crystal Refinery yields, it now adds +4 Science to them instead of +2 Water/Science.
 - Monopoly:
 	- The finisher bonus now boosts the yields of Narcotics farms (+2 Water/Science/Culture).
+- Collectivism:
+	- Political Officers no longer boosts the production speed of Aircraft.
 - Rediscovery:
 	- The finisher bonus no longer adds Global Happiness.
 - Naturalism:
 	- Emissions Standards now boosts the yields of Solar collectors and Wind farms the same way Weather Engineering does (+2 Production, +1 Power).
-	- Ecodefense reverted to a 10% Strength bonus. However, it now unlocks access to a new unit and awards six of them for free.
+	- Ecodefense reverted to a 10% Strength bonus. However, it now unlocks access to a new unit and awards three of them for free.
+- Bionics:
+	- Eugenics now only grants extra starting XP to Personnel units.
 
 **Promotion Adjustments**
 - The Reconnaissance promotion line is nerfed as follows:
