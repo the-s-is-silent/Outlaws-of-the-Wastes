@@ -540,10 +540,11 @@
 		"replaces": "Shrine",
 		"uniqueTo": "Camelot Foundation",
 		"science": 2,
-		"faith": 2,
+		"faith": 1,
 		"cost": 40,
 		"requiredTech": "Secrets of the Past",
-		"uniques": ["Hidden when religion is disabled"]
+		"uniques": ["Hidden when religion is disabled",
+			"[+1 Culture, +1 Faith] [in this city] <with [Artifacts]>"]
 	},
 	{
 		"name": "Riding Arena",
@@ -1422,8 +1423,7 @@
 			"Destroyed when the city is captured"]
 	},
 
-	//Adjusted base scenario buildings and wonders
-	//Part 2: Everything else
+	//Part 2: Wincon wonders
 	{
 		"name": "Utopia Project",
 		"cost": 1500,
@@ -1634,6 +1634,8 @@
 			"Cannot be hurried"
 		]
 	},
+
+	//Part 3: Everything else
 	{
 		"name": "Public Broadcast",
 		"isWonder": true,
@@ -2552,7 +2554,8 @@
 		"uniques": ["[+1 Science, +1 Happiness] [in this city] <when above [0] [Power]>",
 			"[+1 Science] per [2] population [in this city]",
 			"[+2 Science] from [Books] tiles [in this city]",
-			"Free [Field Scientist] appears"],
+			"Free [Field Scientist] appears",
+			"Unsellable"],
 		"requiredTech": "Writing"
 	},
 	{
@@ -3045,11 +3048,13 @@
 		"uniqueTo": "Atlas",
 		"isNationalWonder": true,
 		"culture": 3,
+		"cost": 150,
 		"uniques": ["Can only be built [in capital]",
 			"[+3 Production] [in all cities connected to capital]",
 			"[+2 Gold] from each Trade Route",
+			"Consumes [1] [Power]",
 			"Requires a [Factory] in all cities",
-			"Consumes [1] [Power]"],
+			"Cost increases by [30] per owned city"],
 		"requiredTech": "Railroads"
 	},
 	{
@@ -3215,6 +3220,19 @@
 			"[+50]% Yield from every [Refinery] <in this city>",
 			"Consumes [1] [Coal]", "Consumes [1] [Power]",
 			"Only available <after adopting [Supremacy]>"]
+	},
+	{
+		"name": "Gas Field",
+		"replaces": "Protected Area",
+		"uniqueTo": "Hexlock",
+		"science": 2,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+2 Science, +1 Production, -1 Food] from [Tree plantation] tiles [in this city]",
+			"[+2 Science, +1 Production] [in this city] <with [Exotic Seeds]>"
+		],
+		"requiredTech": "Hydroponics"
 	},
 	{
 		"name": "Mobile Encampment",

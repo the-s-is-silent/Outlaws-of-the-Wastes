@@ -1122,7 +1122,6 @@
 	{
 		"name": "Purge Robot Proto",
 		"unitType": "Armor",
-		"replaces": "Spearman",
 		"uniqueTo": "Hexlock",
 		"upgradesTo": "Purge Robot MKI",
 		"obsoleteTech": "Combined Arms",
@@ -1143,7 +1142,6 @@
 	{
 		"name": "Purge Robot MKI",
 		"unitType": "Armor",
-		"replaces": "Infantry",
 		"uniqueTo": "Hexlock",
 		"upgradesTo": "Purge Robot MKII",
 		"movement": 2,
@@ -1157,11 +1155,39 @@
 			"Purge Robot",
 			"Can move after attacking",
 			"No defensive terrain penalty",
-			"Consumes [1] [Weapons]",
+			"Consumes [1] [Aluminum]",
 			"Consumes [1] [Encrypted Data]"
 		],
 		"promotions": ["Promotion Nullifier", "Portable Power Cell"],
 		"attackSound": "machinegun"
+	},
+	{
+		"name": "Purge Robot MKII",
+		"unitType": "Armor",
+		"uniqueTo": "Hexlock",
+		"upgradesTo": "Purge Robot",
+		"movement": 5,
+		"strength": 90,
+		"interceptRange": 2,
+		"cost": 400,
+		"requiredTech": "Combined Arms",
+		"obsoleteTech": "Future Power",
+		"uniques": [
+			"Promotion Nullifier",
+			"Purge Robot",
+			"Only available <if [Factory] is constructed>",
+			"[95]% chance to intercept air attacks",
+			"[+25]% Strength <vs [Air] units>",
+			"Can move after attacking",
+			"No defensive terrain penalty",
+			"Eliminates combat penalty for attacking over a river",
+			"Eliminates combat penalty for attacking across a coast",
+			"Defense bonus when embarked",
+			"Consumes [1] [Aluminum]",
+			"Consumes [1] [Encrypted Data]"
+		],
+		"promotions": ["Promotion Nullifier","Portable Power Cell"],
+		"attackSound": "tankshot"
 	},
 	{
 		"name": "Conscript",

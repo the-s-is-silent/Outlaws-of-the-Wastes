@@ -52,7 +52,8 @@
 	{
 		"name": "Old World Idols",
 		"type": "Pantheon",
-		"uniques": ["[+1 Culture, +1 Faith] from every [Gems]", "[+1 Culture, +1 Faith] from every [Silver]"]
+		"uniques": ["[+1 Culture, +1 Faith] from every [Gems]",
+			"[+1 Culture, +1 Faith] from every [Silver]"]
 	},
 	{
 		"name": "Pray for Water",
@@ -107,6 +108,11 @@
 			"[+2 Production, +2 Faith] from every [Mining Pit]"]
 	},
 	{
+		"name": "Weapon Rituals",
+		"type": "Pantheon",
+		"uniques": ["[+1 Production, +1 Culture, +2 Faith] from every [Weapons]"]
+	},
+	{
 		"name": "Works of Genius",
 		"type": "Pantheon",
 		"uniques": ["[+2 Faith] from every [Great Improvement]",
@@ -145,20 +151,13 @@
 	{
 		"name": "Great Commission",
 		"type": "Follower",
-		"uniques": ["[+1 Gold, +1 Faith] from every [Harbor]", "[+1 Gold, +1 Faith] from every [Seaport]"]
+		"uniques": ["[+1 Gold, +1 Faith] from every [Harbor]",
+			"[+1 Gold, +1 Faith] from every [Seaport]"]
 	},
 	{
 		"name": "Happiness in Faith",
 		"type": "Follower",
 		"uniques": ["[+2 Production, +1 Culture, +1 Happiness] from every [Monastery]"]
-	},
-	{
-		"name": "Isolationism",
-		"type": "Follower",
-		"uniques": ["[+3 Science, +3 Faith] from every [Seminary]",
-			"[+3 Science, +3 Faith] from every [Oracle]",
-			"[+3 Science, +3 Faith] from every [Endowment House]",
-			"[-25]% [Culture] [in all cities]"]
 	},
 	{
 		"name": "Labor of Love",
@@ -171,6 +170,13 @@
 		"uniques": ["[+2 Food, +2 Gold, -1 Happiness] [in cities following this religion]",
 			"Only available <before adopting [Feed the Faithful]>",
 			"Only available <before adopting [Obey the Elders]>"]
+	},
+	{
+		"name": "Monasticism",
+		"type": "Follower",
+		"uniques": ["[+3 Science, +3 Faith] from every [Seminary]",
+			"[+3 Science, +3 Faith] from every [Oracle]",
+			"[+3 Science, +3 Faith] from every [Endowment House]"]
 	},
 	{
 		"name": "Obey the Elders",
@@ -213,7 +219,7 @@
 	{
 		"name": "Acolytes of a New God",
 		"type": "Founder",
-		"uniques": ["Gain [50] [Faith] <upon conquering a city>"]
+		"uniques": ["Gain [100] [Faith] (modified by game speed) <upon conquering a city>"]
 	},
 	{
 		"name": "Cross-Cultural Dialogue",

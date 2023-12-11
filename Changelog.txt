@@ -53,7 +53,7 @@ Changes since the Harbinger update
 - Neutron Bomb's production cost reduced to 1000.
 - Purge Robot Proto's strength increased to 40 and the Low Tech modifier is removed. This gives Hexlock a fighting chance in the early-game.
 - Scouts (and New Star's First Aid units) now upgrade to Forward Observers instead of Gunmen, putting an end to a commonly abused strategy.
-    - Camelot's Wayfarers have to wait until Plastics to upgrade to Commandos instead... though they can still become Gunmen in the early-game, if they get lucky with survivor camps...
+    - Camelot's Wayfarers have to wait until Plastics to upgrade to Commandos instead.
 - Seastead Vessels now require Oil to build.
 - Speculatores regains the Forward Observer's Reconnaissance I starting promotion and also gains double combat strength when attacking cities.
 - Wandering Doctors and Mobile Clinics, along with New Star's First Aid and Armed Ambulance units, are given a fake "Support" unique that I may do more with in the future.
@@ -356,13 +356,13 @@ Changes since the Harbinger update
 	- Media Center can now be built with worked Books tiles and adds +2 Culture to those tiles. It also now adds 1 Administrator slot to the city instead of 2 Great Administrator points.
 - Other faction-specific buildings:
     - Atlas:
-        - Kruger Line now adds +3 Culture to the capital and +3 Production to all cities connected to the capital. This was done due to the current impossibility of adding stats to Road and Railroad improvements.
+        - Kruger Line now adds +3 Culture to the capital and +3 Production to all cities connected to the capital. This was done due to the current impossibility of adding stats to Road and Railroad improvements. Its cost is greatly reduced, to 150 + 30 per owned city (was originally 625).
 	- Blackwarden:
 		- Personnel Office regains its commented out Merchant slot, gains an Administrator slot, and adds a +10% Production bonus towards Personnel units along with a 25% cost reduction in tile purchases. However, its Production cost is increased to 160 and it no longer gains bonuses from having Slaves.
 		- Resource Management Server no longer provides Slaves.
 		- These two changes mean that Blackwarden is no longer a Slaver faction.
 	- Camelot Foundation:
-		- Sangreal Vault is now an unconditional +2 Science/Faith.
+		- Sangreal Vault is now an unconditional +2 Science and adds +1 Culture/Faith with access to Artifacts.
 		- Riding Arena adjusted to +2 Culture/Happiness.
 		- Constabulary's maintenance cost reduced to 1.
 		- Parish School now adds +2 Science/Faith.
@@ -373,6 +373,9 @@ Changes since the Harbinger update
 		- Clubhouse now generates 2 Water per turn and no longer costs maintenance.
 	- Deseret Nation:
 		- Disciplinary Council's maintenance cost reduced to 1.
+	- Hexlock:
+		- Record Grids are now unsellable.
+		- Gas Field's stats adjusted to +2 Science, +1 Production, -1 Food for Tree plantations (was +4 Science, -1 Food/Water) and +2 Science, +1 Production in the city with access to Exotic Seeds (was +1 Science/Production).
 
 **Wonder Adjustments**
 - All of the base scenario factions' starting wonders now have a base production cost of 0. Several of these "faction identity wonders" are further adjusted as follows:
@@ -410,7 +413,13 @@ Changes since the Harbinger update
 - Technopaths now actually get their intended endgame buff of a 30% Strength bonus at Artificial Intelligence.
 - Tree Lovers now cost 50 Production instead of 70, but only Natural tiles benefit from reduced construction time.
 
+**Belief Adjustments**
+- Acolytes of a New God now awards +100 Faith (modified by game speed) for each city conquered.
+- Isolationism renamed to Monasticism and no longer inflicts a Culture penalty.
+
 **Policy Adjustments**
+- Adaptation:
+	- Castle Doctrine buffed to +1 Happiness per 10 population (but still requires a garrison).
 - Sovereignty:
 	- Military Tradition no longer grants its XP bonus to Aircraft.
 - Rationalism:
@@ -418,6 +427,7 @@ Changes since the Harbinger update
 - Supremacy:
 	- The finisher bonus is reduced to a 15% combat bonus, but remains in effect for the entire game once adopted. With the adjustments to Crystal Refinery yields, it now adds +4 Science to them instead of +2 Water/Science.
 - Monopoly:
+	- Increased priority for AI factions that prefer Diplomatic Victory.
 	- The finisher bonus now boosts the yields of Narcotics farms (+2 Water/Science/Culture).
 - Collectivism:
 	- Political Officers no longer boosts the production speed of Aircraft.
@@ -426,8 +436,11 @@ Changes since the Harbinger update
 - Naturalism:
 	- Emissions Standards now boosts the yields of Solar collectors and Wind farms the same way Weather Engineering does (+2 Production, +1 Power).
 	- Ecodefense reverted to a 10% Strength bonus. However, it now unlocks access to a new unit and awards three of them for free.
+- Mechanization:
+	- Increased priority for AI factions that prefer Domination Victory.
 - Bionics:
-	- Eugenics now only grants extra starting XP to Personnel units.
+	- Increased priority for AI factions that prefer Science Victory.
+	- Eugenics now only grants extra starting XP to Personnel units, but it grants them 25 XP (when combined with Total War, this allows Personnel trained in the city that owns the Military Academy for every faction that isn't locked out of Supremacy, sans Enclavers, to start with a minimum of 4 promotions).
 
 **Promotion Adjustments**
 - The Reconnaissance promotion line is nerfed as follows:
@@ -453,7 +466,7 @@ Changes since the Harbinger update
 - Prison farms gain an additional +4 Production with Social Engineering.
 - Seminaries now start at +4 Faith, increasing to +6 with Education, but no longer provide any Culture on their own.
 - Settlements now gain an additional +2 Water/Science from tech progression.
-- Wasteland Stations now start at +2 Food/Water instead of the original +1 Food/Water, +1 from Currency, given that the Harbingers start with that tech so that particular bit of stat scaling is pointless. They also no longer gain Production from being built on Strategic resources (since this appears to be nonfunctional at present).
+- Wasteland Stations now start at +2 Food/Water instead of the original +1 Food/Water, +1 from Currency, given that the Harbingers start with that tech so that particular bit of stat scaling is pointless. The +2 Production from building atop any Strategic resource was changed to be limited to Weapons tiles (since the former unique was non-functional and Weapons are one of the few that won't end up with wasted stats).
 
 **New Units**
 - Commonwealth:
@@ -486,3 +499,6 @@ Changes since the Harbinger update
 
 **New Promotions**
 - Active Protection System, only available to Armor units (sans those with Promotion Nullifier) and only if Armor Production Line is built, granting a 33% defense bonus against Air/Helicopter/Siege units. I may add a Hexlock specific version for Purge Robots later
+
+**New Beliefs**
+- Weapon Rituals, adding +1 Production/Culture and +2 Faith to Weapons tiles
