@@ -449,7 +449,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": ["[+1 Culture, +1 Faith] per [4] population [in all cities]",
 			"[-10]% Unhappiness from [Followers of the Majority Religion] [in all cities]",
-			"Only available <if [Convert Survivors] is constructed>",
+			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Quorum of the Twelve]>",
 			"Destroyed when the city is captured"]
@@ -464,7 +464,7 @@
 		"uniques": ["Enables conversion of city production to [Faith]",
 			"[+2 Production] from all [Faith] buildings",
 			"[+2 Science, +2 Culture] from every [Great Improvement]",
-			"Only available <if [Convert Survivors] is constructed>",
+			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [General Conference]>",
 			"Destroyed when the city is captured"]
