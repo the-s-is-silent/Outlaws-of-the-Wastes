@@ -324,7 +324,7 @@
 		"isWonder": true,
 		"uniqueTo": "Deseret2",
 		"cost": 0,
-		"faith": 2,
+		"faith": 1,
 		"culture": 1,
 		"happiness": 1,
 		"uniques": ["[+25]% Natural religion spread [in all cities]",
@@ -348,7 +348,6 @@
 		"uniques": ["[20]% Food is carried over after population increases [in this city]",
 			"[+1 Food] [in this city] <with [Salt]>",
 			"[+1 Food] from [Grain] tiles [in this city] <in [Desert] tiles>",
-			"[+1 Culture, +1 Faith] [in this city] <with [Books]>",
 			"[+1 Culture, +1 Faith] [in this city] <with [Scriptures]>",
 			"[-1 Production, -1 Faith] [in this city] <with [Alcohol]>",
 			"[-1 Production, -1 Faith] [in this city] <with [Narcotics]>",
@@ -458,11 +457,14 @@
 		"name": "Quorum of the Twelve",
 		"replaces": "Council",
 		"uniqueTo": "Deseret2",
-		"percentStatBonus": {"faith": 25},
+		"percentStatBonus": {"faith": 10},
 		"cost": 100,
 		"requiredTech": "Civil Service",
-		"uniques": ["Enables conversion of city production to [Faith]",
-			"[+2 Production] from all [Faith] buildings",
+		"uniques": ["[+10]% growth [in all cities]",
+			"[+2 Production] from every [Sacred Cave]",
+			"[+2 Production] from every [Tabernacle]",
+			"[+2 Production] from every [Megachurch]",
+			"[+2 Production] from every [Worship Center]",
 			"[+2 Science, +2 Culture] from every [Great Improvement]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
@@ -528,11 +530,11 @@
 		"culture": 2,
 		"happiness": 1,
 		"cost": 0,
-		"uniques": ["[+6 Culture] [in this city] <after discovering [Flight]>",
+		"uniques": ["Gain a free [Sangreal Vault] [in this city] <after discovering [Secrets of the Past]>",
+			"[+6 Culture] [in this city] <after discovering [Flight]>",
 			"[+10]% Production when constructing [All] units [in this city]",
 			"[2] free [Knight] units appear",
-			"Can only be built [in capital]",
-			"Gain a free [Sangreal Vault] [in this city]"]
+			"Can only be built [in capital]"]
 		//Quote TBD
 	},
 	{
@@ -608,11 +610,11 @@
 		"cost": 150,
 		"requiredTech": "Civil Service",
 		"uniques": ["[+10]% growth [in all cities]",
-			"[+1 Science, +1 Culture] per [4] population [in all cities]",
+			"[+1 Culture] per [4] population [in all cities]",
 			"[-5]% Unhappiness from [Population] [in all cities]",
 			"[+5]% [Production] [in all cities connected to capital]",
-			"[+33]% [Gold] [in this city] <after adopting [Monopoly Complete]>",
-			"[+25]% [Science] [in this city] <after adopting [Rationalism Complete]>",
+			"[+5]% [Science] [in all cities connected to capital]",
+			"[+10]% [Gold] [in all cities connected to capital]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
 			"Destroyed when the city is captured"],
@@ -641,7 +643,6 @@
 			"Free [Educational Officer] appears",
 			"Free [Opolcheniye] appears",
 			"Can only be built [in capital]",
-			"Gain a free [Food Store] [in this city]",
 			"Gain a free [Harbinger Manege] [in this city]"],
 		"quote": "They say this was where they found the last oligarch, hiding far from the ruins of our old civilization. Hiding from those who survived the apocalypse he helped bring upon us. We gave him up to our enemies to face justice... a peace offering that meant absolutely nothing.",
 		"civilopediaText": [
@@ -752,6 +753,16 @@
 			"Requires a [Census Chamber] in all cities",
 			"Cost increases by [30] per owned city"],
 		"requiredTech": "Networking"
+	},
+	{
+		"name": "Interstice",
+		"uniqueTo": "The Harbingers",
+		"replaces": "Transport Network",
+		"maintenance": 2,
+		"requiredTech": "Incentivization",
+		"uniques": ["[+1 Production] from [Borough] tiles [in this city]",
+			"[+1 Production] from [Railroad] tiles [in this city]",
+			"Consumes [1] [Power]"]
 	},
 
 	//Adjusted buildings and wonders
@@ -905,10 +916,10 @@
 		"isWonder": true,
 		"uniqueTo": "Cult of Ignis",
 		"specialistSlots": {"Administrator": 1},
-		"faith": 1,
 		"cost": 0,
 		"uniques": [
-			"[+2 Culture] [in this city] <after discovering [Iron Working]>",
+			"[+2 Culture, +1 Faith] [in this city] <after discovering [Iron Working]>",
+			"[+2 Faith] from every [Administrator] <after discovering [Chemistry]>",
 			"Provides [2] [Oil]",
 			"Free [War Buggy] appears",
 			"Can only be built [in capital]",
@@ -929,7 +940,7 @@
 		"cost": 0,
 		"uniques": [
 			"[+25]% Great Person generation [in this city]",
-			"[+1 Faith, +1 Happiness] [in this city] <when not at war>",
+			"[+1 Happiness] [in all cities] <when not at war>",
 			"Free [Ranger] appears",
 			"Can only be built [in capital]",
 			"Gain a free [Monument] [in this city]"
@@ -948,7 +959,6 @@
 		"cost": 0,
 		"production": 1,
 		"culture": 1,
-		"faith": 1,
 		"cityHealth": 50,
 		"uniques": ["May choose [1] additional [Pantheon] beliefs when [founding] a religion",
 			"[2] free [Scavenger] units appear",
@@ -964,7 +974,7 @@
 		"cost": 0,
 		"uniques": [
 			"Can only be built [in capital]",
-			"[+2 Food, +1 Faith] [in this city] <with [1] to [6] neighboring [Coast] tiles>",
+			"[+2 Food] [in this city] <with [1] to [6] neighboring [Coast] tiles>",
 			"[2] free [Sharkman] units appear",
 			"Gain a free [Lighthouse] [in this city]"
 		],
@@ -976,19 +986,17 @@
 		]
 	},
 	{
-		"name": "Great Mosque",
+		"name": "Mansion of Our Father",
 		"isWonder": true,
 		"uniqueTo": "New Afrika",
 		"cost": 0,
-		"culture": 1,
+		"culture": 2,
 		"food": 2,
-		"cityStrength": 2,
-		"cityHealth": 20,
 		"uniques": [
 			"Can only be built [in capital]",
 			"Provides [1] [Weapons]",
 			"Free [Panther] appears",
-			"Gain a free [Mosque] [in this city]",
+			"Gain a free [Food Store] [in this city]",
 			"May choose [1] additional belief(s) of any type when [enhancing] a religion"
 		],
 		"quote": "We declare our right on this earth to be a human being, to be respected as a human being, to be given the rights of a human being in this society, on this earth, in this day, which we intend to bring into existence by any means necessary.",
@@ -1298,7 +1306,7 @@
 		"uniqueTo": "Cult of Ignis",
 		"cost": 100,
 		"requiredTech": "Civil Service",
-		"uniques": ["Enables conversion of city production to [Faith]",
+		"uniques": ["[+10]% growth [in all cities]",
 			"[+2 Culture] from every [Fuel Depot]",
 			"[+2 Culture] from every [College of Mystics]",
 			"[+25]% Production when constructing [Faith] buildings [in all cities]",
@@ -1415,8 +1423,8 @@
 		"uniques": ["Double quantity of [Slaves] produced",
 			"[+3 Food, +3 Production] from every [Corrective Colony]",
 			"[+10]% [Food] from every [Corrective Colony]",
-			"[+3 Production] from every [Listening Post]",
 			"[+3 Production] from every [Gulag]",
+			"[+3 Production] from every [Listening Post]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [State Assembly]>",
@@ -3050,8 +3058,8 @@
 		"culture": 3,
 		"cost": 150,
 		"uniques": ["Can only be built [in capital]",
-			"[+3 Production] [in all cities connected to capital]",
-			"[+2 Gold] from each Trade Route",
+			"[+1 Production] from [Railroad] tiles [in all cities]",
+			"[+1 Gold] from each Trade Route",
 			"Consumes [1] [Power]",
 			"Requires a [Factory] in all cities",
 			"Cost increases by [30] per owned city"],
@@ -3191,6 +3199,45 @@
 			"[+5]% Production when constructing [All] buildings [in this city]"]
 	},
 	{
+		"name": "Ignitor's Tower",
+		"replaces": "Town Hall",
+		"uniqueTo": "Cult of Ignis",
+		"specialistSlots": {"Administrator": 1},
+		"cityHealth": 80,
+		"cost": 40,
+		"hurryCostModifier": 25,
+		"uniques": ["[+75]% Production when constructing [Worker] units [in this city]",
+			"[+2 Food, +2 Production] [in this city] <when above [0] [Slaves]>",
+			"[+1 Culture, +1 Faith] [in this city] <with [Books]>",
+			"Only available <with [Slaves]>",
+			"Consumes [1] [Slaves]"]
+	},
+	{
+		"name": "Shake Down Survivors",
+		"cost": 30,
+		"isNationalWonder": true,
+		"replaces": "Search for Survivors",
+		"uniqueTo": "Deadrock Clan",
+		"uniques": ["Provides [4] [Slaves]", "Free [Gangboss] appears"]
+	},
+	{
+		"name": "Plantation",
+		"replaces": "Greenhouse",
+		"uniqueTo": "Deadrock Clan",
+		"food": 2,
+		"specialistSlots": {"Farmer": 1},
+		"uniques": ["[+1 Food] from [Grain] tiles [in this city]",
+			"[+1 Food] from [Tubers] tiles [in this city]",
+			"[+1 Food] from every [Farmer] <in this city>",
+			"[+1 Culture] from [Narcotics farm] tiles [in this city]",
+			"[+50]% Production when constructing [Worker] units [in this city]",
+			"[+2 Food] [in this city] <when above [0] [Slaves]>",
+			"Only available <with [Slaves]>",
+			"Consumes [1] [Slaves]"],
+		"cost": 40,
+		"hurryCostModifier": 25
+	},
+	{
 		"name": "Experiment on Survivors",
 		"replaces": "Search for Survivors",
 		"uniqueTo": "Hexlock",
@@ -3233,6 +3280,18 @@
 			"[+2 Science, +1 Production] [in this city] <with [Exotic Seeds]>"
 		],
 		"requiredTech": "Hydroponics"
+	},
+	{
+		"name": "Afrikan Reformed Church",
+		"replaces": "Monastery",
+		"uniqueTo": "New Afrika",
+		"food": 2,
+		"faith": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Shrine",
+		"requiredTech": "Education",
+		"uniques": ["Hidden when religion is disabled"]
 	},
 	{
 		"name": "Mobile Encampment",

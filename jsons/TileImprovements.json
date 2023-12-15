@@ -300,14 +300,13 @@
 	{
 		"name": "Oracle",
 		"faith": 6,
-		"culture": 1,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Great Improvement",
 			"Gives a defensive bonus of [10]%",
 			"Removes removable features when built",
 			"Provides [1] [Oil]",
 			"Provides [1] [Oil] <after discovering [Biology]>",
-			"[+1 Culture, +2 Faith] <after discovering [Chemistry]>",
+			"[+2 Culture] <after discovering [Chemistry]>",
 			"Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{

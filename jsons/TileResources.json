@@ -132,8 +132,7 @@
 	},
 	{
 		"name": "Scriptures",
-		"resourceType": "Luxury",
-		"faith": 1
+		"resourceType": "Luxury"
 	},
 	{
 		"name": "C1F3",

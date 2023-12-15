@@ -3,7 +3,7 @@ A major expansion + rebalance mod for DeCiv Redux.
 
 ## Changes applied to the base scenario
 
-- Barbarians are stronger and spawn more frequently, but they give greater rewards for clearing their encampments. (Credit for the "barb camps trigger ruins bonuses" concept goes to amfauzn and their "The Barbarians" mod.) In addition, the survivor camp spawn rate is also increased, so players actually have a chance at finding at least one survivor camp in most games.
+- Barbarians are stronger and spawn more frequently, but they give greater rewards for clearing their encampments. (Credit for the "barb camps trigger ruins bonuses" concept goes to amfauzn and their "The Barbarians" mod.) In addition, the survivor camp spawn rate is also increased.
 
 - As a screw you to the AI's primitive sanity checks, the minimum allowed distance between cities has been increased.
 
@@ -11,7 +11,7 @@ A major expansion + rebalance mod for DeCiv Redux.
 
 - Deseret Nation is now a playable faction.
 
-- Many units, buildings, wonders, promotions, beliefs, and tile improvements from the base scenario have been either buffed or nerfed, or in the worst-case scenario removed outright. In addition, the social policies have been overhauled. Check the Rebalance Log.md file for a comprehensive list of adjustments.
+- Many units, buildings, wonders, promotions, beliefs, tile improvements, and ruins bonuses from the base scenario have been either buffed or nerfed, or in the worst-case scenario removed outright. In addition, the social policies have been overhauled. Check the Rebalance Log.md file for a comprehensive list of adjustments.
 
 ## Other features
 
@@ -48,7 +48,7 @@ A major expansion + rebalance mod for DeCiv Redux.
   - Drydock, the Great Admiral unit's Great Improvement.
   - Preservator, borrowed from Bamboolord's expansion mods, currently exclusive to The Pax.
 
-- Most of the 14 factions in the base scenario have gained one or more new unique components, and/or had their unique ability/some of their unique components adjusted. Check the Faction Adjustments.md file for more details.
+- All 14 factions in the base scenario have had their unique ability and/or one or more of their unique components adjusted. Several of those factions have received at least one new unique component. Check the Faction Adjustments.md file for more details.
 
 - Several new beliefs for more diverse religion customization.
 

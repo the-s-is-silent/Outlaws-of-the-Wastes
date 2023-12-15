@@ -15,6 +15,7 @@ Items still missing an icon (not necessarily a complete list): Alma Frontier Gua
 ### Building Icons
 - Abbey: [Westminster Abbey](https://thenounproject.com/icon/westminster-abbey-5459042/) by Brickclay, PK
 - Advanced Chemical Refinery: [smart factory](https://thenounproject.com/icon/smart-factory-2260365/) by ProSymbols, US
+- Afrikan Reformed Church: [Church](https://thenounproject.com/icon/church-1786868/) by SANTRI ICON, ID
 - Alternet Cafe: [internet cafe](https://thenounproject.com/icon/internet-cafe-4624824/) by Eucalyp
 - Atomic Diner: [atom](https://thenounproject.com/icon/atom-1081009/) by ProSymbols, US
 - Austere Processing Hub: [database](https://thenounproject.com/icon/database-5276636/) by iconfield, ID
@@ -50,6 +51,7 @@ Items still missing an icon (not necessarily a complete list): Alma Frontier Gua
 - Jeweler: [jeweler](https://thenounproject.com/icon/jeweler-207094/) by Hans Paul Mösl Junior, BR
 - Kolkhoz: [Hammer and Sickle](https://thenounproject.com/icon/hammer-and-sickle-1367671/) by Dmitry Baranovskiy, AU
 - Kruger Line: [railway](https://thenounproject.com/icon/railway-5804165/) by Viktor Turchyn, UA
+- Mansion of Our Father: [holy trinity cathedral](https://thenounproject.com/icon/holy-trinity-cathedral-4284193/) by Amethyst Studio, TH
 - [Medical School](https://thenounproject.com/icon/medical-school-1203776/) by Vectors Market
 - Nanomaterial Factory: [nanofabrication](https://thenounproject.com/icon/nanofabrication-4331493/) by Loritas Medina, PH
 - Navy Shipyard: [shipyard](https://thenounproject.com/icon/shipyard-5848043/) by Andi Nur Abdullah, ID

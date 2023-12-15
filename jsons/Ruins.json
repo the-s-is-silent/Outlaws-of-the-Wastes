@@ -4,7 +4,7 @@
 		"name": "discover cultural artifacts",
 		"notification": "We have discovered cultural artifacts in the camp! (+[cultureAmount] culture)",
 		"weight": 4,
-		"uniques": ["Gain [20]-[30] [Culture]", "Only available <before [50] turns>"]
+		"uniques": ["Gain [20]-[30] [Culture]", "Only available <after [15] turns> <before [50] turns>"]
 	},
 	{
 		"name": "shared cultural inspiration",
@@ -15,7 +15,7 @@
 	{
 		"name": "recovered old world policy",
 		"notification": "We have recovered some old world documents and gained insight into lost policies!",
-		"uniques": ["Free Social Policy", "Only available <before [75] turns>"]
+		"uniques": ["Free Social Policy", "Only available <after [50] turns> <before [100] turns>"]
 	},
 
 	// Science
@@ -39,13 +39,13 @@
 		"name": "a stash of water",
 		"notification": "We have found a stash of [goldAmount] water in the camp!",
 		"weight": 4,
-		"uniques": ["Gain [150]-[250] [Gold]"]
+		"uniques": ["Gain [100]-[150] [Gold]"]
 	},
 	{
 		"name": "stockpiled water",
 		"notification": "We have recovered a stockpile of [goldAmount] water from the camp!",
 		"weight": 2,
-		"uniques": ["Gain [450]-[750] [Gold]", "Only available <after [50] turns>"]
+		"uniques": ["Gain [400]-[600] [Gold]", "Only available <after [50] turns>"]
 	},
 
 	// Faith
@@ -53,25 +53,34 @@
 		"name": "discover religious texts",
 		"notification": "We have found religious texts in the camp, giving us a deeper understanding of religion! (+[faithAmount] Faith)",
 		"weight": 4,
-		"uniques": ["Hidden when religion is disabled", "Gain [25]-[50] [Faith]", "Only available <before founding a Pantheon>"]
+		"uniques": ["Hidden when religion is disabled",
+			"Gain [25]-[50] [Faith]",
+			"Only available <after [15] turns>",
+			"Only available <before founding a Pantheon>"]
 	},
 	{
 		"name": "an ancient prophecy",
 		"notification": "We have found an ancient prophecy in the camp, greatly increasing our spiritual connection! (+[faithAmount] Faith)",
 		"weight": 3,
-		"uniques": ["Hidden when religion is disabled", "Only available <after founding a Pantheon>",
-			"Gain enough Faith for [50]% of a Great Prophet", "Hidden after generating a Great Prophet"]
+		"uniques": ["Hidden when religion is disabled",
+			"Only available <after founding a Pantheon>",
+			"Gain enough Faith for [33]% of a Great Prophet",
+			"Hidden after generating a Great Prophet"]
 	},
 	{
 		"name": "philosophical debate",
 		"notification": "The survivors engage in philosophical debates with us, giving us a much deeper understanding of religion! (+[faithAmount] Faith)",
-		"weight": 3,
-		"uniques": ["Hidden when religion is disabled", "Only available <after founding a religion>", "Gain [100]-[150] [Faith]"]
+		"weight": 2,
+		"uniques": ["Hidden when religion is disabled",
+			"Only available <after founding a religion>",
+			"Gain [100]-[150] [Faith]"]
 	},
 	{
 		"name": "stare into the void",
 		"notification": "We stare into the void in terror as the old gods reawaken!",
-		"uniques": ["Hidden when religion is disabled", "Gain a free [Pantheon] belief", "Only available <before [75] turns>"],
+		"uniques": ["Hidden when religion is disabled",
+			"Gain a free [Pantheon] belief",
+			"Only available <after [30] turns> <before [80] turns>"],
 		"excludedDifficulties": ["Immortal", "Deity"]
 		//This effect currently does not show up as a Notification when triggered
 	},
@@ -94,13 +103,15 @@
 	{
 		"name": "recruit a general",
 		"notification": "We tracked down and recruited a [Great General]!",
-		"uniques": ["Free [Great General] found in the ruins"],
+		"uniques": ["Free [Great General] found in the ruins",
+			"Only available <after [50] turns>"],
 		"excludedDifficulties": ["Immortal", "Deity"]
 	},
 	{
 		"name": "rescue a farmer",
 		"notification": "We have successfully rescued a [Great Farmer]!",
-		"uniques": ["Free [Great Farmer] found in the ruins"],
+		"uniques": ["Free [Great Farmer] found in the ruins",
+			"Only available <after [50] turns>"],
 		"excludedDifficulties": ["Immortal", "Deity"]
 	},
 
@@ -118,22 +129,20 @@
 		"uniques": ["This Unit gains [30] XP", "Only available <after [40] turns>"]
 	},
 	{
-		"name": "medical assistance",
-		"notification": "The survivors gave us medical assistance!",
-		"weight": 3,
-		"uniques": ["Heal this unit by [50] HP", "Only available <for [Wounded] units> <when below [50] HP>"]
-	},
-	{
 		"name": "prospector equipment",
 		"notification": "Our unit finds prospecting tools hidden in the camp!",
-		"weight": 3,
-		"uniques": ["This Unit gains the [Prospector] promotion", "Only available <for units without [Prospector]>"]
+		"weight": 4,
+		"uniques": ["This Unit gains the [Prospector] promotion",
+			"This Unit gains [10] XP",
+			"Only available <for units without [Prospector]>"]
 	},
 	{
 		"name": "combat armor",
 		"notification": "Our unit finds advanced armor hidden in the camp!",
-		"weight": 2,
-		"uniques": ["This Unit gains the [Combat Armor] promotion", "Only available <for units without [Combat Armor]>"]
+		"weight": 3,
+		"uniques": ["This Unit gains the [Combat Armor] promotion",
+			"This Unit gains [10] XP",
+			"Only available <for [Personnel] units> <for units without [Combat Armor]>"]
 	},
 	{
 		"name": "levied militia",
@@ -167,13 +176,15 @@
 		"name": "find a crudely-drawn map",
 		"notification": "The camp contains maps of the nearby area!",
 		"weight": 2,
-		"uniques": ["From a randomly chosen tile [5] tiles away from the ruins, reveal tiles up to [5] tiles away with [100]% chance"]
+		"uniques": ["From a randomly chosen tile [5] tiles away from the ruins, reveal tiles up to [5] tiles away with [100]% chance",
+			"Only available <before [75] turns>"]
 	},
 	{
 		"name": "reveal nearby bonus resources",
 		"notification": "You recovered notes of vital resources!",
 		"weight": 2,
-		"uniques": ["Reveal up to [All] [Bonus resource] within a [10] tile radius", "Only available <before [75] turns>"]
+		"uniques": ["Reveal up to [All] [Bonus resource] within a [10] tile radius",
+			"Only available <before [75] turns>"]
 	},
 
 	// Deletions
