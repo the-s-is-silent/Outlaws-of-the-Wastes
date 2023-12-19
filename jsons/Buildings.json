@@ -530,11 +530,11 @@
 		"culture": 2,
 		"happiness": 1,
 		"cost": 0,
-		"uniques": ["Gain a free [Sangreal Vault] [in this city] <after discovering [Secrets of the Past]>",
-			"[+6 Culture] [in this city] <after discovering [Flight]>",
+		"uniques": ["[+6 Culture] [in this city] <after discovering [Flight]>",
 			"[+10]% Production when constructing [All] units [in this city]",
 			"[2] free [Knight] units appear",
-			"Can only be built [in capital]"]
+			"Can only be built [in capital]",
+			"Gain a free [Sangreal Vault] [in this city]"]
 		//Quote TBD
 	},
 	{

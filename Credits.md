@@ -6,17 +6,18 @@ Floating Settlements and Wasteland Stations borrow the Biodome City and Mining C
 Preservator is borrowed from [Bamboolord](https://github.com/RealBamboolord) with his permission.<br>
 Several icons reuse images used in either Unciv or DeCiv Redux, with some of the latter remaining unsourced.<br>
 The Religion Icons for Anglicanism, Imperial Cult and Mormonism were created by Tomatekh on CivFanatics and can be found [at the Civ 5 Customization Wiki's entry on the Tomatekh's Historical Religions mod](https://civilization-v-customisation.fandom.com/wiki/Tomatekh%27s_Historical_Religions).<br>
-The icon for Alma State Guard is of my own creation.
+The icons for Alma Frontier Guard and Alma State Guard are of my own creation.
 
 Unless otherwise specified, all of the following are from the Noun Project, licensed under Creative Commons or Public Domain. Also, if anyone feels like there is a better/more fitting icon out there for any particular building/unit/etc. than the one that is used, I am open to suggestions for replacement icons.
 
-Items still missing an icon (not necessarily a complete list): Alma Frontier Guard, Alma Honor Guard, Arsenal of Liberty, Atomgrad Project, Commonwealth Reserve, Condenser Cooler, Defense Directorate (and its replacements), Drifter, Eco-Terrorist, Exploratores, Field Preparations Squad, Issaquah Mystic, Key to the City, Miracle Metal Mill, Mounted Railgun, OSI, Preservator (icon also missing from TCC-beta), Pridwen-class, Rapid Response Squad, SS Casing, SS Life Support, State Guard, Super Mutant, Tribal Unification Initiative
+Items still missing an icon (not necessarily a complete list): Arsenal of Liberty, Condenser Cooler, Defense Directorate (and its replacements), Eco-Terrorist, Exploratores, Field Preparations Squad, Ignitor's Tower, Issaquah Mystic, Mounted Railgun, Preservator (icon also missing from TCC-beta), Pridwen-class, Rapid Response Squad, Research and Preservation Institute, SS Casing, SS Life Support, State Guard, Super Mutant, Zemlyanka
 
 ### Building Icons
 - Abbey: [Westminster Abbey](https://thenounproject.com/icon/westminster-abbey-5459042/) by Brickclay, PK
 - Advanced Chemical Refinery: [smart factory](https://thenounproject.com/icon/smart-factory-2260365/) by ProSymbols, US
 - Afrikan Reformed Church: [Church](https://thenounproject.com/icon/church-1786868/) by SANTRI ICON, ID
 - Alternet Cafe: [internet cafe](https://thenounproject.com/icon/internet-cafe-4624824/) by Eucalyp
+- Atomgrad Project: [Nuclear](https://thenounproject.com/icon/nuclear-2661706/) by emkamal kamaluddin, ID
 - Atomic Diner: [atom](https://thenounproject.com/icon/atom-1081009/) by ProSymbols, US
 - Austere Processing Hub: [database](https://thenounproject.com/icon/database-5276636/) by iconfield, ID
 - Bishop's Storehouse: [Storage Garage](https://thenounproject.com/icon/storage-garage-1371149/) by STBS, IN
@@ -26,6 +27,7 @@ Items still missing an icon (not necessarily a complete list): Alma Frontier Gua
 - Census Chamber: [Neural Processor](https://thenounproject.com/icon/neural-processor-1870013/) by ProSymbols, US
 - Coastal Defenses: [seawall](https://thenounproject.com/icon/seawall-5503652/) by Luis Prado, US
 - Coastal Longhouse: [longhouse](https://thenounproject.com/icon/longhouse-5058241/) by Flowicon, TH
+- Commonwealth Reserve: [aquifer](https://thenounproject.com/icon/aquifer-5399259/) by M. Oki Orlando, ID
 - Constabulary: [jail](https://thenounproject.com/icon/jail-2577140/) by Made by Made, AU
 - Contraband Disposal Site: [prohibited](https://thenounproject.com/icon/prohibited-209190/) by Andrea Mazzini, IT
 - Contract with Survivors: [contract](https://thenounproject.com/icon/contract-4139832/) by Design Circle, PK
@@ -53,10 +55,13 @@ Items still missing an icon (not necessarily a complete list): Alma Frontier Gua
 - Kruger Line: [railway](https://thenounproject.com/icon/railway-5804165/) by Viktor Turchyn, UA
 - Mansion of Our Father: [holy trinity cathedral](https://thenounproject.com/icon/holy-trinity-cathedral-4284193/) by Amethyst Studio, TH
 - [Medical School](https://thenounproject.com/icon/medical-school-1203776/) by Vectors Market
+- Microwave Power Satellite: [space station](https://thenounproject.com/icon/space-station-3312581/) by Vectors Point, PK
+- Miracle Metal Mill: [smart industry](https://thenounproject.com/icon/smart-industry-3191201/) by WiStudio, TH
 - Nanomaterial Factory: [nanofabrication](https://thenounproject.com/icon/nanofabrication-4331493/) by Loritas Medina, PH
 - Navy Shipyard: [shipyard](https://thenounproject.com/icon/shipyard-5848043/) by Andi Nur Abdullah, ID
 - Naval War College: [navy pier](https://thenounproject.com/icon/navy-pier-3925133/) by Lars Meiertoberens, DE
 - Oceanological Center: [national maritime museum](https://thenounproject.com/icon/national-maritime-museum-3348038/) by Justicon, TH
+- OSI: [Research](https://thenounproject.com/icon/research-2280921/) by Petai Jantrapoon, TH
 - Parish School: [School](https://thenounproject.com/icon/school-3758946/) by iconcheese
 - PINDAR Station: [London Underground](https://thenounproject.com/icon/london-underground-26183/) by Daniel Turner, GB
 - [Printing Press](https://thenounproject.com/icon/printing-press/11880/) by Mike Wirth (same icon used for Printing Press tech in base Unciv)
@@ -80,6 +85,7 @@ Items still missing an icon (not necessarily a complete list): Alma Frontier Gua
 - Tidal Array: [Tidal energy](https://thenounproject.com/icon/tidal-energy-4215014/) by Lucas Helle, CL
 - [Totem Pole](https://thenounproject.com/icon/totem-pole-20257/) by MaxineVSG, GB
 - Triage: [Medical cross](https://thenounproject.com/icon/medical-cross-267749/) by TMD
+- Tribal Unification Initiative: [roman law](https://thenounproject.com/icon/roman-law-1615859/) by sachin modgekar, IN
 - Underworld: Merger of [boar](https://thenounproject.com/icon/boar-3864428/) by Andrejs Kirma, LV and [Power](https://thenounproject.com/icon/power-1196196/) by Icon Depot, IN
 - [Victory Column](https://thenounproject.com/icon/victory-column-4202773/) by tezar tantular, ID
 - Wasteland Surveillance Initiative: [Security](https://thenounproject.com/icon/security-123950/) by Aaron K. Kim, US
@@ -128,6 +134,7 @@ Items still missing an icon (not necessarily a complete list): Alma Frontier Gua
 - [Scripture](https://thenounproject.com/icon/scripture-4402137/) by Athok
 
 ### Unit Icons
+- Alma Honor Guard: Derived from [Kazakhstan](https://thenounproject.com/icon/kazakhstan-2624175/) by Xinh Studio
 - Ark Hunter: [rail gun](https://thenounproject.com/icon/rail-gun-3448479/) by Smalllike
 - Battleaxe of the Lord: [ax hammer](https://thenounproject.com/icon/ax-hammer-3635247/) by Eucalyp
 - Blueliner: [hockey](https://thenounproject.com/icon/hockey-2744255/) by Gan Khoon Lay
@@ -138,6 +145,7 @@ Items still missing an icon (not necessarily a complete list): Alma Frontier Gua
 - Dendro Mutant: [vines](https://thenounproject.com/icon/vines-4169419/) by Zulfa Mahendra, ID
 - Deseret Missionary: [Religion](https://thenounproject.com/icon/religion-53064/) by Bruno Gätjens González (same source as Missionary icon in base Unciv except *not* adapted)
 - Destroying Angel: [Angel](https://thenounproject.com/icon/angel-354209/) by william dayabaran
+- Drifter: [driftwood](https://thenounproject.com/icon/driftwood-374954/) by BK
 - Educational Officer: [Government Officer](https://thenounproject.com/icon/government-officer-2003970/) by Made x Made, AU
 - Excalibur Knight: [Sword](https://thenounproject.com/icon/sword-2239554/) by Smalllike
 - Expeditionary Force: [mission](https://thenounproject.com/icon/mission-3048372/) by Eucalyp
@@ -145,6 +153,7 @@ Items still missing an icon (not necessarily a complete list): Alma Frontier Gua
 - Great Caravan: [caravan](https://thenounproject.com/icon/caravan-4604787/) by Eucalyp
 - Hawkman Brave: [tomahawk](https://thenounproject.com/icon/tomahawk-4130106/) by Amethyst Studio
 - Hero of the Wastes: [Shield](https://thenounproject.com/icon/shield-49999/) by Jonathan Li
+- Key to the City: [Anti-Aircraft Gun](https://game-icons.net/1x1/pierre-leducq/anti-aircraft-gun.html) by Pierre Leducq on Game-Icons.net
 - Knight: [Knight helmet](https://thenounproject.com/icon/knight-helmet-5567347/) by Singlar
 - Lawkeeper: [Police](https://thenounproject.com/icon/police-3395179/) by Nhor
 - The Last Minute: [nuclear missile](https://thenounproject.com/icon/nuclear-missile-5460126/) by Fran Couto
