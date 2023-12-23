@@ -804,6 +804,23 @@
 
 	//City-State units
 	{
+		"name": "Pre-War Turret",
+		"unitType": "Siege",
+		"range": 2,
+		"movement": 1,
+		"strength": 25,
+		"rangedStrength": 40,
+		"interceptRange": 2,
+		"cost": 50,
+		"uniques": ["Cannot move",
+			"Can only attack [Military] units", "Can only attack [Civilian] units",
+			"[+20]% Strength <when attacking>",
+			"Only available <for [City-States]>",
+			"Only available <with a garrison>",
+			"Limited to [3] per Civilization"],
+		"attackSound": "machinegun"
+	},
+	{
 		"name": "State Guard",
 		"unitType": "Scrapper",
 		"movement": 2,
@@ -814,7 +831,8 @@
 		"hurryCostModifier": 20,
 		"uniques": ["Personnel", "[+25]% Strength <when fighting in [Friendly Land] tiles>",
 			"Only available <for [City-States]>",
-			"Never appears as a Barbarian unit"],
+			"Never appears as a Barbarian unit",
+			"Limited to [3] per Civilization"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -823,7 +841,7 @@
 		"uniqueTo": "Almaty",
 		"replaces": "State Guard",
 		"movement": 2,
-		"strength": 45,
+		"strength": 40,
 		"interceptRange": 1,
 		"cost": 55,
 		"upgradesTo": "Exo-Trooper",
@@ -891,7 +909,7 @@
 		"upgradesTo": "Rifleman",
 		"hurryCostModifier": 20,
 		"uniques": ["Low Tech",
-			"Can instantly construct a [Tree plantation] improvement <[2] times> <after which this unit is consumed>",
+			"Can build [Natural tile] improvements on tiles",
 			"Invisible to others <in [Tree plantation] tiles>"],
 		"attackSound": "nonmetalhit"
 	},
@@ -934,7 +952,7 @@
 		"uniqueTo": "Defiance",
 		"replaces": "State Guard",
 		"movement": 2,
-		"strength": 40,
+		"strength": 38,
 		"interceptRange": 1,
 		"cost": 55,
 		"upgradesTo": "Exo-Trooper",
@@ -1062,15 +1080,15 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Hexlock",
 		"requiredTech": "Writing",
-		"cost": 120,
+		"cost": 70,
 		"movement": 2,
 		"hurryCostModifier": 20,
 		"uniques": [
-			"Can instantly construct a [C1F3 Refinery] improvement <[2] times> <after which this unit is consumed>",
-			"Can instantly construct a [C2N14 Refinery] improvement <[2] times> <after which this unit is consumed>",
-			"Can instantly construct a [C8H17 Refinery] improvement <[2] times> <after which this unit is consumed>",
-			"Can instantly construct a [SbF5 Refinery] improvement <[2] times> <after which this unit is consumed>",
-			"Can instantly construct a [VX Refinery] improvement <[2] times> <after which this unit is consumed>",
+			"Can instantly construct a [C1F3 Refinery] improvement <by consuming this unit>",
+			"Can instantly construct a [C2N14 Refinery] improvement <by consuming this unit>",
+			"Can instantly construct a [C8H17 Refinery] improvement <by consuming this unit>",
+			"Can instantly construct a [SbF5 Refinery] improvement <by consuming this unit>",
+			"Can instantly construct a [VX Refinery] improvement <by consuming this unit>",
 			"Automation is a primary action"
 		]
 	},

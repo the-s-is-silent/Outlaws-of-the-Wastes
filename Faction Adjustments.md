@@ -18,10 +18,9 @@
 - Resource Management Servers have a harsher limit (2 vs. base scenario's 5, but all Monopoly policy buildings have this limit now) and no longer boost city growth or provide Slaves, but to compensate, they give +10% Water to the two cities that can own one.
 
 #### Children of Rust
-- The Longhouse wonder is replaced with First Kiva, which retains the Longhouse's effects and also buffs the wonder by adding +40 extra City HP (at the cost of losing the measly +1 to City Strength), +1 Faith and a bonus Pantheon belief upon founding their religion.
-- Bike Paths are now standalone buildings boosting Culture instead of improved Transport Networks: they add +1 Culture to Road and Railroad tiles, initially only those adjacent to the city, but expanding the range to 2 tiles with Incentivization. It is available much earlier, at Railroads.
+- The Longhouse wonder is replaced with First Kiva, which retains the Longhouse's effects and also buffs the wonder by adding +40 extra City HP (at the cost of losing the measly +1 to City Strength) and a bonus Pantheon belief upon founding their religion.
+- Bike Paths are now standalone buildings boosting Culture instead of improved Transport Networks: they add +1 Culture to Road and Railroad tiles within 2 tiles of the city center. They are available much earlier, at Railroads.
 - Citizens' Assembly now increases Production instead of Science.
-- TODO: Add the following UBs: Pithouse (undecided what it replaces yet, but would add +50 City HP), Kiva (replaces Shrine, added effects TBD)
 
 #### Commonwealth
 - Embassy no longer increases GP generation. It now increases influence gain from Water gifts to City-States and receives the +10% growth and +5% Production bonuses of the standard Council.
@@ -30,7 +29,7 @@
 - New UBs:
   - Sharecropper Farm (replaces Greenhouse, adds +1 Food to worked Cattle/Goats tiles, adds +1 Water to active Farmers after discovering Hydroponics)
   - Commonwealth Reserve (replaces Water Storage, adds +20% to the city's total Water yields instead of 10%, adds +1 Water to active Merchants)
-  - OSI (replaces Research Lab, reduces construction time of Food/Production buildings by 1/3, adds +2 Science to Food buildings)
+  - OSI (replaces Research Lab, reduces construction time of Food/Production buildings by 1/3, adds +2 Science to Food buildings present in the city)
 
 #### Crimson Legion
 - Their favored Religion is changed to Imperial Cult, and they are now forbidden from building Drones and Purge Robots (in accordance with the source material, where robotics are the only technology Caesar completely opposes).
@@ -58,16 +57,20 @@
 - Oracles start at +6 Faith, +1 Culture and increase to +8 Faith, +2 Culture with Chemistry, but no longer provide Happiness.
 - The Temple is nerfed to remove both the bonus to Local Happiness and the instant Pantheon (which was formerly a guaranteed Turn 1 Religion via free Great Prophet prior to them being nerfed in the base scenario).
 - Fuel Depots are also nerfed: they only add +1 Culture to Oil tiles.
+- Plantations have been taken from them and given to Deadrock Clan as a Greenhouse replacement (and are nerfed).
 - Sanctums are buffed: they add +1 Faith while the faction has Power and don't have as much of a reduction in Science gain compared to standard Libraries.
 - College of Mystics is buffed: it no longer has reduced Science gain compared to standard Universities, adds an unconditional +2 Culture, and adds +1 Faith while the faction has Power. However, it no longer adds Great Scientist Points.
 - Initiate Schools are nerfed: they lose the added Science yields to Rubble/Ruins and the extra starting XP to new units is only granted to Armor units. However, they add +1 Culture/Faith while the faction has Power.
 - War Council's Production boost only applies to Armor units. It now adds a 5% Unhappiness reduction in all cities, but the faction has to be at war for it to apply.
 - Seer Council's old effect has been thrown out. It now adds +2 Culture to every owned Fuel Depot and College of Mystics, a +25% Production boost towards Faith buildings, and most importantly of all, allows the faction to convert Production into Faith.
+- New UB: Ignitor's Tower (new Town Hall replacement, retains the 75% boost to Worker training speed but adds 80 City HP instead of 20% total Food, +2 Production with extra Slaves instead of +2 Food, and +1 Culture/Faith with Books access)
 
 ### Deadrock Clan
 - Narcotics farms are buffed to start at +4 Culture, +2 Water, and gain an additional +4 Culture at Social Engineering.
 - Clan Hideout buffed to +2 Water and +100 City HP.
+- Shake Down Survivors now costs 30 Production, provides 4 Slaves, and awards a free Gangboss.
 - Clansmen no longer require Clubhouses to be built.
+- As mentioned above, Plantations now belong to them instead of Ignis. They lose the 20% total Food bonus and regain the standard Greenhouse boosts to Food (+2 to the city itself, +1 to Grain/Tubers, +1 Farmer slot), and only give a 50% boost to Worker training speed. They also add +1 Food to active Farmers in the city and +1 Culture to worked Narcotics farm tiles.
 - Information Markets add +1 Water while the faction has Power and no longer have reduced Science gain compared to standard Libraries, but also no longer give Great Scientist Points.
 - Clubhouses are pushed back to Civil Service where they should be, instead of being available at Secrets of the Past. They also lose the -1 Food penalty, add +2 Water by default instead of needing to own Slaves, and no longer cost maintenance.
 - Trade Colleges no longer have reduced Science gain compared to standard Universities and generate +2 Water per turn instead of costing maintenance. They no longer add Culture or Great Administrator Points.
@@ -80,9 +83,9 @@
 #### Hexlock
 - They start with fewer free techs now: knowledge of Chemistry is gained, but knowledge of Construction, Machinery and Engineering is lost. The malus on GP generation is removed, and Encrypted Data resources are doubled by their UA.
 - Chemicals are now properly Strategic Resources instead of Luxury Resources.
-- Field Scientists are now standalone units, cost 120 Production, and have 2 charges.
-- Purge Robot Proto's base Strength increased from 25 to 40, in order to give them a fighting chance. But their Production cost is increased from 50 to 65.
-- Hex Corporation only creates one free Purge Robot Proto now, but it also gives a 10% Production bonus towards the construction of all Promotion Nullifier units after Engineering is researched.
+- Field Scientists and Purge Robots are now standalone units.
+- Purge Robot Proto's base Strength increased from 25 to 40, in order to give Hexlock a fighting chance. But its Production cost is increased from 50 to 70.
+- Hex Corporation only creates one Purge Robot Proto now, but it also gives a 10% Production bonus towards the construction of all Promotion Nullifier units after Engineering is researched.
 - Standard Refineries have base yields 1 higher than the base scenario, and also gain adjacency bonuses (+2 Production when next to strategic resources, +2 of the respective yield when adjacent to their corresponding GI).
 - Crystal Refineries have their base yields doubled to +4 Science, +2 Water, but have their adjacency bonuses reduced to +2 Science, +1 Water with 3 or less adjacent Refineries, +4 Science, +2 Water with 4 or more. They gain +2 Production if built atop Coal or Oil resources.
 - The Heat Plant building is no longer one of their unique components and can be built by everyone.
@@ -93,12 +96,12 @@
 - New UBs:
   - Hexlock Chemical Company (replaces Food Processing Plant, adds Production/Gold yields to Refinery improvements instead of boosting Food and grants the unique Self-Repair promotion to Purge Robots instead of granting Resupply to Personnel units)
   - Chemfuel Generator (standalone, requires a worked Refinery of any type and a Research Lab, boosts city Production by 5% and provides 2 units of Power, will be destroyed if the city is captured)
-  - Advanced Chemical Refinery (standalone, requires Supremacy, boosts Refinery yields by 50% in that city and gives Purge Robots access to Chemical Weapons, but costs Coal and Power to build)
+  - Advanced Chemical Refinery (standalone, requires the Chemical Weapons Laboratory, boosts Refinery yields by 50% in that city and gives Purge Robots access to Chemical Weapons, but costs Coal and Power to build)
 - TODO: Port over the entire gimmick rework from a certain other rebalance mod once it's finished, and until the base scenario itself reworks the gimmick
 
 #### The Mariners
 - They now start with Rediscovery adopted, and upon adopting Advanced Piracy *all* of their Water units along with their Personnel units gain the policy's Sea Raider promotion.
-- The Great Lighthouse buffed to add +2 Food to the capital provided it's actually founded on the coast.
+- The Great Lighthouse buffed to add +2 Food to the capital provided it's actually founded on the coast. It no longer generates Faith, however.
 - Trader's Congress no longer increases the effectivess of Water gifts to City-States, but generates Culture equal to 10% of the total output from allied City-States, and adds +1 Water per 4 population to all cities along with +1 Water to city connections.
 - Raider's Council now grants a +10% growth boost in coastal cities and a +20% Production bonus towards Water units.
 - New UUs:
@@ -110,9 +113,12 @@
 - The +20% combat bonus against larger factions no longer has a policy requirement.
 - The "Great Wall" effect in their UA now expires at Railroads.
 - They no longer start with Redomestication.
-- Great Mosque's minor city defense bonuses are doubled.
+- Great Mosque, along with the standard Mosque, have been temporarily removed from the game and replaced with UBs which are more accurate to their religion.
 - Survival Program now adds +1 Culture per 4 population instead of a flat +2 Culture to all cities.
 - Revolutionary Council now adds a +15% Production bonus towards Personnel units for all cities.
+- New UBs:
+  - Mansion of Our Father (new identity wonder, +2 Food/Culture, keeps the sole Weapons resource copy and free Panther unit from the old Great Mosque effect but awards a Food Store instead of a Monument)
+  - Afrikan Reformed Church (replaces Monastery, adds +2 Food)
 
 #### New Star
 - They are no longer allowed to employ prison labor.

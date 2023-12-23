@@ -346,11 +346,11 @@ Changes since the Harbinger update
 		- New Afrika's Revolutionary Council now gives a +15% Production boost towards Personnel units.
 		- Proklyatyye's Politburo no longer adds Culture/Happiness to Gulags; it instead adds +3 Production to them, and the Production bonus to Corrective Colonies and Listening Posts is increased to +3.
 - Industry:
-	- Bio Synthesizer moved to Materials Reprocessing and now provides 2 copies of Oil, but no Aluminum or Uranium. You can now have up to 5 instead of 3.
+	- Bio Synthesizer moved to Plastics Recycling and now provides 2 copies of Oil, but no Aluminum or Uranium. You can now have up to 5 instead of 3.
 	- Carbon Capture nerfed; it no longer provides Food at all (I thought I'd made this change earlier, but apparently not) and costs 3 maintenance instead of 2.
 	- Composite Materials Plant has been deleted on account of it becoming redundant after reworks to other buildings.
 	- Heat Plant moved to Synthetic Materials and now provides 4 units of Power.
-	- Metal Reprocessor moved to Materials Reprocessing and now provides 2 copies of Aluminum.
+	- Metal Reprocessor's Production cost increased to 1000, but it now provides 2 copies of Aluminum.
 	- Nuclear Plant now provides 16 units of Power but cannot be built if the city owns an Oil Plant. Deseret and Proklyatyye's versions have been adjusted accordingly.
 		- Proklyatyye's Atomic Pile starts at 8 units of Power and scales to 16 with techs.
 	- Oil Plant now provides up to 8 units of Power, scaling with techs + resource availability. However, it no longer increases Production.
@@ -359,11 +359,17 @@ Changes since the Harbinger update
 	- Recycling Plant is now a Production building instead of a Power building, adding +1 Production to Scrap/Metal/Plastic and Strategic resource tiles, +15% to the city's total Production output, but does not provide resources.
 	- Transport Network *severely* nerfed; it now only adds +1 Production to Boroughs and no other stats.
 		- Childen of Rust's Bike Path is now a standalone Culture building instead of a Production building and is available at Railroads; it adds +1 Culture to Rubble/Ruins tiles that are up to 2 tiles away from the city center.
-	- Uranium Centrifuge's restrictions are tightened; you can now only have 3 and they must be in cities with a Nuclear Plant.
+	- Uranium Centrifuge's Production cost increased to 1000 and its restrictions are tightened; you can now only have 3 and they must be in cities with a Nuclear Plant.
 - Military:
 	- Armament/Armor Production Lines and Aerospace Facilities no longer have negative modifiers to the owning city's Production. However, they now have a maintenance cost of 3 Water.
 	- Armor Production Line is overall nerfed; its Production bonus towards Armor units is reduced to 33% (and turns off when Power is lost) and it no longer awards a free Tank. To compensate, building it unlocks access to a new promotion for Armor units, which is given for free to newly-trained Armor units in that city.
-	- Defense Directorate and its variants are now exclusive to the city-states' original city, just in case issues crop up in the rare case where a city-state captures another city-state or a faction's capital.
+	- Defense Directorate and its variants have been adjusted quite a bit:
+		- They are now exclusive to the city-states' original city, just in case issues crop up in the (not as rare as it should be) case where a city-state captures another city-state or a faction's capital or holy city.
+		- They no longer increase the City-State's unit supply.
+		- They only allow 3 units to be maintenance free (down from 5).
+		- They no longer increase the City-State's city strength (except for Almaty).
+		- They no longer award free units each time they go to war.
+		- They only award one free State Guard, along with two free copies of a new and purely defensive unit (except for Issaquah which keeps the Hawkman Braves).
 - Science and Culture:
 	- University slightly buffed; it now adds an extra +2 Science instead of +1 when the owner has access to Power.
 	- The three base game faction variants no longer senselessly have reduced Science compared to the standard University, but also no longer give Great Person Points. They are further adjusted as follows:
@@ -372,6 +378,9 @@ Changes since the Harbinger update
 		- Deadrock Clan: Trade College now adds +2 Water and no longer has a maintenance cost, but does not add Culture.
 	- Media Center can now be built with worked Books tiles and adds +2 Culture to those tiles. It also now adds 1 Administrator slot to the city instead of 2 Great Administrator points.
 - Other faction-specific buildings:
+	- Almaty CS:
+		- Alma Air Base only gives one free Salvaged Helicopter again and no longer increases city HP.
+		- Alma Tank Depot no longer increases city strength.
     - Atlas:
         - Kruger Line now adds +3 Culture to the capital, but has the added Production to tiles with Railroads and Water per city connection reduced to +1. Its cost is greatly reduced, to 150 + 30 per owned city (was originally 625).
 	- Blackwarden:
@@ -398,6 +407,8 @@ Changes since the Harbinger update
 		- Record Grids are now unsellable.
 		- Gas Field's stats adjusted to +2 Science, +1 Production, -1 Food for Tree plantations (was +4 Science, -1 Food/Water) and +2 Science, +1 Production in the city with access to Exotic Seeds (was +1 Science/Production).
 		- Advanced Chemical Refinery is much harder to unlock: you have to build the Chemical Weapons Laboratory first.
+	- Hockeytown CS:
+		- Ice Hockey Rink no longer provides the Alcohol luxury.
 	- New Afrika:
 		- Mosque has been temporarily removed from the game on account of it being inaccurate to their religion. When the building is reintroduced, it will be given to a new faction.
 
@@ -429,16 +440,21 @@ Changes since the Harbinger update
 **Unit Adjustments**
 - All three non-drone Bomber units have had their ranged strength reduced by 5 (and in the case of Stealth Bombers, their strength reduced by 15).
 - Bartertown Security Force renamed (or rather, had its name corrected) to Bartertown Imperial Guard.
+- Battleaxe of the Lord now has 28 strength (was previously 27).
 - Brownsteel Knight's Production cost reduced by 10; the initial cost increase of 20 from standard Hussars was too high considering the difference in strength between the two isn't that great.
 - Clansmen no longer require Clubhouses to be built, due to the building being available two tech eras later.
 - Commandos now obsolete at Energy Weapons (since unlike normal Black Ops who consume 2 Weapons, Camelot SAS only consumes 1 so there's no point in letting Commandos remain trainable in the endgame).
 - Destroying Angel no longer obsoletes.
+- Field Scientists reverted to 70 production cost, 1 charge, but remain standalone units.
 - Forward Observers now play the "shot" attack sound in combat.
 - Machine Guns now start with Logistics and gain a bonus when attacking Scrapper and Shooter units.
 - Persevering Pax Researchers are no longer Great People.
 - Purge Robot Proto and MKI are now Armor units. The former's Production cost is increased to 70.
 - Rubble Gunmen now replace Crossbowmen, correcting the major error in the base game where Deadrock Clan had two unique units replacing Archers.
 - Seastead Vessel now uses a single unique for all Water improvements that are not specifically for improving Water resources, in the event that more such improvements are added in the future.
+- State Guards are now limited to 3 per City-State.
+	- Alma State Guard's strength reduced to 40.
+	- Pale Veteran's strength reduced to 38.
 - Technopaths now actually get their intended endgame buff of a 30% Strength bonus at Artificial Intelligence.
 - Tree Lovers now cost 50 Production instead of 70, but only Natural tiles benefit from reduced construction time.
 
@@ -464,6 +480,8 @@ Changes since the Harbinger update
 - Rationalism:
 	- Technocracy no longer adds Science to the Council.
 	- Skepticism renamed to New Pioneers. (Educated Elite will be renamed later.)
+- Constitution:
+	- Civil Society's strength bonus to cities reduced to 25%.
 - Supremacy:
 	- The finisher bonus is reduced to a 15% combat bonus, but remains in effect for the entire game once adopted. With the adjustments to Crystal Refinery yields, it now adds +4 Science to them instead of +2 Water/Science.
 - Monopoly:
@@ -511,9 +529,11 @@ Changes since the Harbinger update
 - Prison farms gain an additional +4 Production with Social Engineering.
 - Seminaries now start at +4 Faith, increasing to +6 with Education, but no longer provide any Culture on their own.
 - Settlements now gain an additional +2 Water/Science from tech progression.
-- Wasteland Stations now start at +2 Food/Water instead of the original +1 Food/Water, +1 from Currency, given that the Harbingers start with that tech so that particular bit of stat scaling is pointless. The +2 Production from building atop any Strategic resource was changed to be limited to Weapons tiles (since the former unique was non-functional and Weapons are one of the few that won't end up with wasted stats).
+- Wasteland Stations now start at +2 Food/Water instead of the original +1 Food/Water, +1 from Currency, given that the Harbingers start with that tech so that particular bit of stat scaling is pointless.
 
 **New Units**
+- City-States:
+	- Pre-War Gatling Turret, standalone siege unit, 25 strength, 40 ranged strength, 2 range, cannot move, cannot attack cities, cannot be trained unless the CS has a garrison, +20% strength when attacking, each CS can only have up to 3
 - Commonwealth:
 	- Field Preparations Squad, replacing the Forward Observer, can build Roads, Railroads, Forts and Trenches and do so faster than any other unit
 - Issaquah Nation:
