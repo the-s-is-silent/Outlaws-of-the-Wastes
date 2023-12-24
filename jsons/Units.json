@@ -817,6 +817,7 @@
 			"[+20]% Strength <when attacking>",
 			"Only available <for [City-States]>",
 			"Only available <with a garrison>",
+			"Never appears as a Barbarian unit",
 			"Limited to [3] per Civilization"],
 		"attackSound": "machinegun"
 	},
