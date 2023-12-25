@@ -17,16 +17,18 @@ A major expansion + rebalance mod for DeCiv Redux.
 
 - Two new victory conditions, restoring the "proper" Domination and Science victories.
 
-- Two new factions:
+- Three new factions:
   - Camelot Foundation, a constitutional republic arising from what's left of Wales, England and Brittany.
+  - Crimson Line, a faction of hardliner Communists who took shelter from the Cataclysm inside the Moscow Metro and now seek to reunite the Soviet Union by force.
   - The Harbingers, the remnants of an evil Mega-Corp who are now trying to atone for their previous practices...or are they?
 
-- Seven new city-states: Calico (Labor), Carbon (Farming), Defiance (Weapons), Hockeytown (Culture), Issaquah Nation (Prayer, replacing Deseret in that slot), The Pax (Research), and Venice Beach (Trading).
+- Eight new city-states: Calico (Labor), Carbon (Farming), Defiance (Weapons), Hockeytown (Culture), Issaquah Nation (Prayer, replacing Deseret in that slot), Izumrydniy Gorod (Research), The Pax (Research), and Venice Beach (Trading).
 
 - New units:
   - Barbarian: Suicider + Killdozer
   - City-States: State Guard
   - Civilian: Great Admiral (Rekmod implementation) + Seastead Vessel
+  - Collectivism policy: Stalker (yes, the very same Stalker from Roadside Picnic and everything it inspired)
   - Military support: Wandering Doctor + Mobile Clinic
   - Naturalism policy: Eco-Terrorist
   - Scouting: Wasteland Patrol, Border Patrol, Expeditionary Force

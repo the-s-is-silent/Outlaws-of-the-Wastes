@@ -123,6 +123,40 @@
 			}
 		]
 	},
+	{
+		"name": "Crimson Line",
+		"leaderName": "Aleksei Moskvin",
+		"adjective": "Soviet",
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Stalinism",
+
+		// "startIntroPart1": "TBA",
+		// "startIntroPart2": "TBA",
+		"declaringWar": "It's time to liberate your stations and integrate them into the Line!",
+		"attacked": "Only a fool with a death wish would jump into the path of a train.",
+		"defeated": "It looks like the end of the line...",
+		"introduction": "I am General Secretary Moskvin of the Crimson Line, and I'm overjoyed to meet a fellow survivor of the Cataclysm. I believe there is much we have to offer one another.",
+		"neutralHello": "Welcome to the Line.",
+		"hateHello": "Save your words. You are but another ghost who doesn't realize he is dead.",
+		"afterPeace": "It was a fight over nothing. Let's settle it with a drink.",
+		"tradeRequest": "Shall we come to an arrangement in the pursuit of solidarity?",
+
+		"outerColor": [100, 0, 0],
+		"innerColor": [200, 200, 200],
+		"style": "Military",
+		"uniqueName": "One Party, One Leader, One Ideology",
+		"uniques": ["[-50]% construction time for [All Road] improvements",
+			"Each city founded increases the culture cost of policies [17]% less than normal",
+			"[+15]% [Production] [in all cities] <for [10] turns> <upon declaring war with a major Civilization>",
+			"Starts with [Machinery]",
+			"Starts with [Collectivism] adopted"],
+		"cities": ["Semyonovskaya", "Chistye Prudy", "Okhotny Ryad", "D-6", "Lubyanka", "Sportivnaya", "Kuznetsky Most", "Dinamo",
+			"Tverskaya", "Park Pobedy", "Kommunarka", "Potapovo", "Arbatskaya", "Kievskaya", "Teatralnaya", "Taganskaya",
+			"Alekseyevskaya", "Sukharevskaya", "Shabolovskaya", "Pushkinskaya", "Taganskaya", "Marksistskaya", "Aviamotornaya", "Timiryazevskaya",
+			"Chekhovskaya", "Okhruznaya", "Maryina Roscha", "Dubrovka", "Savyolovskaya"],
+		"spyNames": ["Korbut", "Lesnitsky", "Nastya", "Pavel", "Dmitri", "Anatoly", "Irina", "Ramilya", "Grigory", "Igor"]
+	},
 
 	//Adjusted factions
 	{
@@ -698,6 +732,23 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [51, 102, 0],
 		"cities": ["Hockeytown"]
+	},
+	{
+		"name": "Izumrydniy Gorod",
+		"adjective": "Emerald",
+		"cityStateType": "Research",
+		"startBias": ["Tundra"],
+		"style": "Corporate",
+		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Science]",
+			"Starts with [Secrets of the Past]",
+			"Starts with [Writing]",
+			"Starts with [Education]"],
+		"declaringWar": "Rumors of our continued existence shall be discredited - by destroying their source.",
+		"attacked": "This trespass against us will not be forgotten nor forgiven.",
+		"defeated": "We should have doubled our efforts to stay hidden from the outside world.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [66, 189, 74],
+		"cities": ["Izumrydniy Gorod"]
 	},
 
 	//Barbarian

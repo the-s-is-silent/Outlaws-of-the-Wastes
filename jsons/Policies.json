@@ -455,6 +455,7 @@
 			"Scientific": 20
 		},
 		"uniques": ["[Great Merchant] is earned [20]% faster",
+			"[+1 Culture] from every [Market]",
 			"Only available <before adopting [Collectivism]>"],
 		"policies": [
 			{
@@ -514,6 +515,7 @@
 					"[+2 Gold, +2 Culture, +2 Science] from every [Settlement]",
 					"[+2 Gold, +2 Culture, +2 Science] from every [Narcotics farm]",
 					"[+2 Gold, +2 Food, +2 Production] from every [Wasteland Station]",
+					"Free [Great Merchant] appears",
 					"May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
 			}
 		]
@@ -529,6 +531,7 @@
 			"Scientific": 20
 		},
 		"uniques": ["[Great Engineer] is earned [20]% faster",
+			"May buy [Stalker] units with [Gold] for [3] times their normal Production cost",
 			"Only available <before adopting [Monopoly]>"],
 		"policies": [
 			{
@@ -573,6 +576,7 @@
 			{
 				"name": "Collectivism Complete",
 				"uniques": ["[+2 Food, +2 Production, +2 Gold, +2 Science] [in all cities]",
+					"Free [Great Engineer] appears",
 					"May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
 			}
 		]
@@ -772,7 +776,8 @@
 			},
 			{
 				"name": "Mechanization Complete",
-				"uniques": ["Free [Purge Robot] appears",
+				"uniques": ["Free [Great Engineer] appears",
+					"Free [Great Scientist] appears",
 					"Quantity of strategic resources produced by the empire +[25]%",
 					"[+25]% Production towards any buildings that already exist in the Capital <while the empire is happy>",
 					"[+25]% Production when constructing [All] units [in all cities] <while the empire is happy>"]
@@ -816,7 +821,7 @@
 				"requires": ["Mutagens"],
 				"uniques": ["[+25]% Strength <for [Personnel] units>",
 					"New [Personnel] units start with [25] Experience [in all cities]",
-					"[+2 Faith] <in cities with at least [2] [Specialists]>"],
+					"[+2 Happiness] <in cities with at least [2] [Specialists]>"],
 				"row": 2,
 				"column": 2
 			},

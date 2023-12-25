@@ -17,6 +17,7 @@ Items still missing an icon (not necessarily a complete list): Arsenal of Libert
 - Advanced Chemical Refinery: [smart factory](https://thenounproject.com/icon/smart-factory-2260365/) by ProSymbols, US
 - Afrikan Reformed Church: [Church](https://thenounproject.com/icon/church-1786868/) by SANTRI ICON, ID
 - Alternet Cafe: [internet cafe](https://thenounproject.com/icon/internet-cafe-4624824/) by Eucalyp
+- Armory Station: [Metro Station](https://thenounproject.com/icon/metro-station-5108900/) by Singlar
 - Atomgrad Project: [Nuclear](https://thenounproject.com/icon/nuclear-2661706/) by emkamal kamaluddin, ID
 - Atomic Diner: [atom](https://thenounproject.com/icon/atom-1081009/) by ProSymbols, US
 - Austere Processing Hub: [database](https://thenounproject.com/icon/database-5276636/) by iconfield, ID
@@ -25,6 +26,7 @@ Items still missing an icon (not necessarily a complete list): Arsenal of Libert
 - Caesareum: [temple](https://thenounproject.com/icon/temple-3636159/) by Rock Zombie
 - Cathedral School: [temple](https://thenounproject.com/icon/temple-2072915/) by Nick Bluth, US
 - Census Chamber: [Neural Processor](https://thenounproject.com/icon/neural-processor-1870013/) by ProSymbols, US
+- Central Command: [Bunker](https://thenounproject.com/icon/bunker-4477229/) by Doodle Icons
 - Coastal Defenses: [seawall](https://thenounproject.com/icon/seawall-5503652/) by Luis Prado, US
 - Coastal Longhouse: [longhouse](https://thenounproject.com/icon/longhouse-5058241/) by Flowicon, TH
 - Commonwealth Reserve: [aquifer](https://thenounproject.com/icon/aquifer-5399259/) by M. Oki Orlando, ID
@@ -64,9 +66,11 @@ Items still missing an icon (not necessarily a complete list): Arsenal of Libert
 - OSI: [Research](https://thenounproject.com/icon/research-2280921/) by Petai Jantrapoon, TH
 - Parish School: [School](https://thenounproject.com/icon/school-3758946/) by iconcheese
 - PINDAR Station: [London Underground](https://thenounproject.com/icon/london-underground-26183/) by Daniel Turner, GB
+- Pioneers Station: [Train Station](https://thenounproject.com/icon/train-station-4521738/) by Eucalyp
 - [Printing Press](https://thenounproject.com/icon/printing-press/11880/) by Mike Wirth (same icon used for Printing Press tech in base Unciv)
 - Quorum of the Twelve: [city Council](https://thenounproject.com/icon/city-council-3566027/) by Thomas Deckert, US
 - Raider Suppression Initiative: [Soldier Attack with Machine Gun](https://thenounproject.com/icon/soldier-attack-with-machine-gun-659094/) by Gan Khoon Lay
+- [Red Square](https://thenounproject.com/icon/red-square-4944120/) by Amethyst Studio, TH
 - Refurbished Textile Mill: [Textile industry](https://thenounproject.com/icon/textile-industry-5649184/) by Studio 365
 - Remedial School (currently unused): [educational school building](https://thenounproject.com/icon/educational-school-building-3017500/) by Vectors Point
 - Restored Temple of Zion: [Salt Lake Temple](https://thenounproject.com/icon/salt-lake-temple-219294/) by Nick Bluth, US
@@ -74,6 +78,7 @@ Items still missing an icon (not necessarily a complete list): Arsenal of Libert
 - The Round Table: [round table](https://thenounproject.com/icon/round-table-4817059/) by Musmellow
 - Sacred Cave: [cave](https://thenounproject.com/icon/cave-5590220/) by Ardhian Rama
 - Sangreal Vault: [holy grail](https://thenounproject.com/icon/holy-grail-2256337/) by Arunika
+- Sealed Facility: [Bunker](https://thenounproject.com/icon/bunker-2972283/) by IcoLabs, BR
 - Sharecropper Farm: [out building](https://thenounproject.com/icon/out-building-1848316/) by Smashicons, GB
 - Sociopolitical Institute: [Campus](https://thenounproject.com/icon/campus-3884267/) by Adrien Coquet, FR
 - Soup Kitchen: [Soup](https://thenounproject.com/icon/soup-1182528/) by Peter Emil van den Berg, NL
@@ -100,6 +105,7 @@ Items still missing an icon (not necessarily a complete list): Arsenal of Libert
 
 ### Nation Icons
 - Camelot Foundation: [Wales](https://thenounproject.com/icon/wales-4282300/) by Lars Meiertoberens, DE
+- Crimson Line: [Hammer and Sickle](https://thenounproject.com/icon/hammer-and-sickle-52420/) by Yohann Berger, FR
 - Deseret Nation: [Beehive](https://thenounproject.com/icon/beehive-106249/) by Cléa Lautrey
 - The Harbingers: [Water](https://thenounproject.com/icon/water-3064516/) by brian saptura
 
@@ -128,6 +134,9 @@ Items still missing an icon (not necessarily a complete list): Arsenal of Libert
 - Self-Repair: [Hammer](https://thenounproject.com/icon/hammer-854936/) by Thengaloka (same icon used for Air Repair in base Unciv)
 - Zeal: [zeal of the convert](https://thenounproject.com/icon/zeal-of-the-convert-4708155/) by Saneseed
 
+### Religion Icons
+- Stalinism: [stalin](https://thenounproject.com/icon/stalin-3370715/) by Simon Child, GB
+
 ### Resource Icons
 - Advanced Fabrics: [nanotech shirt](https://thenounproject.com/icon/nanotech-shirt-4817171/) by supalerk laipawat, TH
 - [Newspaper](https://thenounproject.com/icon/newspaper-5525221/) by ermachello
@@ -136,12 +145,14 @@ Items still missing an icon (not necessarily a complete list): Arsenal of Libert
 ### Unit Icons
 - Alma Honor Guard: Derived from [Kazakhstan](https://thenounproject.com/icon/kazakhstan-2624175/) by Xinh Studio
 - Ark Hunter: [rail gun](https://thenounproject.com/icon/rail-gun-3448479/) by Smalllike
+- Armored Train: [Train](https://thenounproject.com/icon/train-58877/) by Cédric Villain, FR
 - Battleaxe of the Lord: [ax hammer](https://thenounproject.com/icon/ax-hammer-3635247/) by Eucalyp
 - Blueliner: [hockey](https://thenounproject.com/icon/hockey-2744255/) by Gan Khoon Lay
 - Border Patrol: [patrol](https://thenounproject.com/icon/patrol-3048375/) by Eucalyp
 - Brownsteel Knight: [Knight](https://thenounproject.com/icon/knight-4110910/) by Robert Bjurshagen, SE
 - Camelot SAS: [Gun](https://thenounproject.com/icon/gun-154282/) by Alberto Venegas, US
 - Commando: [soldier](https://thenounproject.com/icon/soldier-642197/) by Gan Khoon Lay
+- Crimson Sniper: [sniper](https://thenounproject.com/icon/sniper-5218615/) by Amethyst Studio, TH
 - Dendro Mutant: [vines](https://thenounproject.com/icon/vines-4169419/) by Zulfa Mahendra, ID
 - Deseret Missionary: [Religion](https://thenounproject.com/icon/religion-53064/) by Bruno Gätjens González (same source as Missionary icon in base Unciv except *not* adapted)
 - Destroying Angel: [Angel](https://thenounproject.com/icon/angel-354209/) by william dayabaran
@@ -155,6 +166,7 @@ Items still missing an icon (not necessarily a complete list): Arsenal of Libert
 - Hero of the Wastes: [Shield](https://thenounproject.com/icon/shield-49999/) by Jonathan Li
 - Key to the City: [Anti-Aircraft Gun](https://game-icons.net/1x1/pierre-leducq/anti-aircraft-gun.html) by Pierre Leducq on Game-Icons.net
 - Knight: [Knight helmet](https://thenounproject.com/icon/knight-helmet-5567347/) by Singlar
+- Kommissar: [hat](https://thenounproject.com/icon/hat-5052310/) by Maxicons, TH
 - Lawkeeper: [Police](https://thenounproject.com/icon/police-3395179/) by Nhor
 - The Last Minute: [nuclear missile](https://thenounproject.com/icon/nuclear-missile-5460126/) by Fran Couto
 - Legate: [Legion](https://thenounproject.com/icon/legion-814530/) by Aldric Rodríguez
@@ -165,7 +177,10 @@ Items still missing an icon (not necessarily a complete list): Arsenal of Libert
 - Opolcheniye: [Ak-47](https://thenounproject.com/icon/ak-47-1745454/) by Nico Ilk, CH
 - Seastead Vessel: [Ship](https://thenounproject.com/icon/ship-4767613/) by Singlar
 - Speculatores: [bloody knife](https://thenounproject.com/icon/bloody-knife-2109678/) by Vectors Market
+- State Guard: [Civil defense](https://thenounproject.com/icon/civil-defense-454060/) by Yuri Martins, ES
 - Technopath: [mind ability](https://thenounproject.com/icon/mind-ability-3216421/) by Vectors Point, PK
+- Volt Driver: [railgun](https://thenounproject.com/icon/railgun-3873813/) by Ian Rahmadi Kurniawan, ID
 - Wandering Doctor: [caduceus](https://thenounproject.com/icon/caduceus-211045/) by icon 54
+- War Tram: [Tram](https://thenounproject.com/icon/tram-19213/) by Carter Green, US
 - Wasteland Patrol: [Binoculars](https://thenounproject.com/icon/binoculars-4069422/) by iconixar
 - Wayfarer: [Fleur de Lis](https://thenounproject.com/icon/fleur-de-lis-1383646/) by prasong tadoungsorn

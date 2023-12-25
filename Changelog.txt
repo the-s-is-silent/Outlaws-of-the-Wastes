@@ -469,7 +469,7 @@ Changes since the Harbinger update
 
 **Policy Adjustments**
 - Adaptation:
-	- Castle Doctrine buffed to +1 Happiness per 10 population (but still requires a garrison).
+	- Castle Doctrine buffed to +1 Happiness per 10 population, and no longer requires a garrison.
 - Sovereignty:
 	- Military Tradition no longer grants its XP bonus to Aircraft.
 - Theocracy:
@@ -486,11 +486,14 @@ Changes since the Harbinger update
 	- The finisher bonus is reduced to a 15% combat bonus, but remains in effect for the entire game once adopted. With the adjustments to Crystal Refinery yields, it now adds +4 Science to them instead of +2 Water/Science.
 - Monopoly:
 	- Increased priority for AI factions that prefer Diplomatic Victory.
-	- The finisher bonus now boosts the yields of Narcotics farms (+2 Water/Science/Culture).
+	- The opener now adds +1 Culture to Markets.
+	- The finisher bonus now boosts the yields of Narcotics farms (+2 Water/Science/Culture). Also, it awards a free Great Merchant.
 - Collectivism:
+	- The opener now unlocks access to a new unit.
 	- Political Officers no longer boosts the production speed of Aircraft.
 	- Shared Vision's Production bonus to the Council reduced to 15%, but it now adds an additional +10% Production bonus to Factories.
 	- Workers' Union no longer adds flat Production to your cities.
+	- The finisher bonus now awards a free Great Engineer.
 - Rediscovery:
 	- The finisher bonus no longer adds Global Happiness.
 - Naturalism:
@@ -498,9 +501,10 @@ Changes since the Harbinger update
 	- Ecodefense reverted to a 10% Strength bonus. However, it now unlocks access to a new unit and awards three of them for free.
 - Mechanization:
 	- Increased priority for AI factions that prefer Domination Victory.
+	- The finisher no longer gives a free Purge Robot (this was very...unbalanced) and now gives two free Great People like the other ideologies, in this case 1 Engineer and 1 Scientist.
 - Bionics:
 	- Increased priority for AI factions that prefer Science Victory.
-	- Eugenics now only grants extra starting XP to Personnel units, but it grants them 25 XP (when combined with Total War, this allows Personnel trained in the city that owns the Military Academy for every faction that isn't locked out of Supremacy, sans Enclavers, to start with a minimum of 4 promotions).
+	- Eugenics now only grants extra starting XP to Personnel units, but it grants them 25 XP (when combined with Total War, this allows Personnel trained in the city that owns the Military Academy for every faction that isn't locked out of Supremacy, sans Enclavers, to start with a minimum of 4 promotions). Additionally, the +2 Faith from having 2 active specialists is now +2 Happiness.
 
 **Promotion Adjustments**
 - Forage has been nerfed again, this time to remove the unit healing on killing enemy units.
@@ -531,9 +535,17 @@ Changes since the Harbinger update
 - Settlements now gain an additional +2 Water/Science from tech progression.
 - Wasteland Stations now start at +2 Food/Water instead of the original +1 Food/Water, +1 from Currency, given that the Harbingers start with that tech so that particular bit of stat scaling is pointless.
 
+**New Faction**
+- Crimson Line (Russian, Neo-Stalinist, Domination focused; Source material: *Metro 2033* universe)
+
+**New City-State**
+- Izumrydniy Gorod, the "Emerald City" (Research-type; Source material: *Metro 2033* universe)
+
 **New Units**
 - City-States:
 	- Pre-War Gatling Turret, standalone siege unit, 25 strength, 40 ranged strength, 2 range, cannot move, cannot attack cities, cannot be trained unless the CS has a garrison, +20% strength when attacking, each CS can only have up to 3
+- Collectivism policy:
+	- Stalker, same combat strength as Militia, but starts with Gas Mask and Forage and can build Salvage sites
 - Commonwealth:
 	- Field Preparations Squad, replacing the Forward Observer, can build Roads, Railroads, Forts and Trenches and do so faster than any other unit
 - Issaquah Nation:
@@ -572,4 +584,4 @@ Changes since the Harbinger update
 - Active Protection System, only available to Armor units (sans those with Promotion Nullifier) and only if Armor Production Line is built, granting a 33% defense bonus against Air/Helicopter/Siege units. I may add a Hexlock specific version for Purge Robots later
 
 **New Beliefs**
-- Weapon Rituals, adding +2 Culture/Faith to Weapons tiles
+- Patron Saint of Scavengers, adding +1 Production/Faith to five separate resources: Electronics, Machine Parts, Plastics, Scrap, and Weapons
