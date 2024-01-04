@@ -6,7 +6,7 @@
 - Survey Center now adds +3 Science, +1 Culture, and increases to +8 Science, +3 Culture at Flight.
 - Think Tank is buffed to give a +25% Production boost towards Science buildings, along with a 15% Production boost to cities constructing buildings which are owned in the capital.
 - New UBs:
-  - Kruger Line (standalone national wonder, unlocks at Railroads, requires Factories in every city, consumes Power, adds +2 Production to tiles with Railroads and +2 Water per Trade Route)
+  - Kruger Line (standalone national wonder, unlocks at Railroads, requires Factories in every city, consumes Power, adds +3 Culture to the capital, +1 Production to tiles with Railroads and +1 Water per Trade Route)
   - Miracle Metal Mill (replaces Plastics Factory, requires the city to own a Factory and Electrostatic Generator and be working a Metal or Aluminum tile, adds +1 Production to Metal tiles, +2 to Aluminum tiles, and +10% to the city's total Production yields)
 - TODO: Add at least one new UU and one more UB based on the source material
 
@@ -145,7 +145,7 @@
 - Politburo no longer adds Culture/Happiness; it instead adds +3 Production to their Prison Camp/Work Camp replacements and Listening Posts.
 - New UU: Super Mutant (replaces Exo-Trooper, available earlier at Nuclear Fission but requires Atomgrad Project, consumes 2 Uranium + 1 Weapons, loses paradrop)
 - New UBs:
-  - Zemlyanka (replaces Food Store, adds +50 City HP)
+  - Zemlyanka (replaces Food Store, adds +50 City HP and +1 Food to Camps on Tundra terrain)
   - Kolkhoz (replaces Greenhouse, higher maintenance cost, adds 2 Production along with an extra Farmer slot and 1 Production to each Farmer in the city)
   - Corrective Colony (replaces Prison Camp, harsher Food penalties but provides 2 extra Slaves, and the penalties are negated by Politburo)
   - Gulag (now replaces Work Camp, lower baseline Production bonuses but adds 1 Production to Food source tiles)

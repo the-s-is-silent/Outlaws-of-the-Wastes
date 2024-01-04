@@ -275,7 +275,7 @@ Changes since the Harbinger update
 - Spiritual Research, adding +1 Culture/Faith to Artifacts, Books, Data and Encrypted Data (swiped from the current Rekmod maintainer's DeCiv rebalance mod)
 - Unity of the Sages, adding 50% to the total yields of Seminaries, Oracles and Endowment Houses, and +2 Faith to all Faith buildings in cities with 10+ followers
 - Veneration of the Elders, with the same effect as Devoted Elite in Rekmod
-- Worship Music, adding +1 Culture/Faith to Broadcast Towers and Television Studios
+- Worship Music, adding +1 Culture/Faith to Broadcast Towers and Television Studios (note: this belief no longer exists as of the January 2024 pre-Rebirth updates)
 
 **New Resources**
 - Advanced Fabrics, exclusive to the Calico CS and unlocked late in the game
@@ -284,7 +284,7 @@ Changes since the Harbinger update
 **New Tile Improvements**
 - Preservator, borrowed from Bamboolord's expansion mod with his permission, adjusted, and granted to The Pax CS. This GI gains yields from the finisher bonuses of Rationalism and Constitution (+4 Culture/Science during Golden Ages from the former, +2 Culture/Science from the latter)
 
-2) November - December 2023
+2) November 2023 - January 2024
 
 **Mod Options**
 - The increase to the XP cap from combat with Barbarians has been removed.
@@ -304,6 +304,11 @@ Changes since the Harbinger update
 	- Prospector promotions now have a higher weight and are buffed to grant the unit +10 XP.
 	- Combat Armor promotions now have a higher weight and are buffed to grant the unit +10 XP, but are only available for Personnel units.
     - The healing bonus has been removed partly for being relatively lackluster compared to other bonuses, partly because it doesn't seem to function at all.
+
+**Quest Adjustments**
+- Clear Barbarian Camp has been made unavailable by increasing the minimum civ number past what is possible, addressing a known issue also present in "The Barbarians" mod where allowing barb camps to award ruins bonuses prevents completion of the quest. (Part of this is also due to the City-States themselves being fully capable of clearing the quest before you can even if it wasn't bugged.)
+- Contest Culture, Faith, and Technologies' duration reduced by 20%, now lasting 24 turns on Standard speed.
+- All available quests are now weighted.
 
 **Tech Adjustments**
 - Radar now has Electronics as an additional prerequisite tech, preventing players from skipping an entire technological era.
@@ -345,8 +350,10 @@ Changes since the Harbinger update
 		- The Mariners' Raider's Council now gives a +20% Production boost towards naval units and the standard Council +10% growth boost, but only to coastal cities.
 		- New Afrika's Revolutionary Council now gives a +15% Production boost towards Personnel units.
 		- Proklyatyye's Politburo no longer adds Culture/Happiness to Gulags; it instead adds +3 Production to them, and the Production bonus to Corrective Colonies and Listening Posts is increased to +3.
+- Food:
+	- Ranch now adds a Farmer slot.
 - Industry:
-	- Bio Synthesizer moved to Plastics Recycling and now provides 2 copies of Oil, but no Aluminum or Uranium. You can now have up to 5 instead of 3.
+	- Bio Synthesizer has been moved to Plastics Recycling and now provides 2 copies of Oil, but no Aluminum or Uranium. You can now have up to 5 instead of 3.
 	- Carbon Capture nerfed; it no longer provides Food at all (I thought I'd made this change earlier, but apparently not) and costs 3 maintenance instead of 2.
 	- Composite Materials Plant has been deleted on account of it becoming redundant after reworks to other buildings.
 	- Heat Plant moved to Synthetic Materials and now provides 4 units of Power.
@@ -366,10 +373,10 @@ Changes since the Harbinger update
 	- Defense Directorate and its variants have been adjusted quite a bit:
 		- They are now exclusive to the city-states' original city, just in case issues crop up in the (not as rare as it should be) case where a city-state captures another city-state or a faction's capital or holy city.
 		- They no longer increase the City-State's unit supply.
-		- They only allow 3 units to be maintenance free (down from 5).
+		- They only allow 3 units to be maintenance free (down from 5; Almaty and Tellus retain the original amount).
 		- They no longer increase the City-State's city strength (except for Almaty).
-		- They no longer award free units each time they go to war.
-		- They only award one free State Guard, along with two free copies of a new and purely defensive unit (except for Issaquah which keeps the Hawkman Braves).
+		- They no longer provide free units each time the City-State goes to war.
+		- They only provide one free State Guard, along with two free copies of a new and purely defensive unit (except for Issaquah which keeps the Hawkman Braves).
 - Science and Culture:
 	- University slightly buffed; it now adds an extra +2 Science instead of +1 when the owner has access to Power.
 	- The three base game faction variants no longer senselessly have reduced Science compared to the standard University, but also no longer give Great Person Points. They are further adjusted as follows:
@@ -377,12 +384,12 @@ Changes since the Harbinger update
 		- Cult of Ignis: College of Mystics now adds an unconditional +2 Culture, along with +1 Faith when they have access to Power.
 		- Deadrock Clan: Trade College now adds +2 Water and no longer has a maintenance cost, but does not add Culture.
 	- Media Center can now be built with worked Books tiles and adds +2 Culture to those tiles. It also now adds 1 Administrator slot to the city instead of 2 Great Administrator points.
-- Other faction-specific buildings:
-	- Almaty CS:
+- Other faction/CS-specific buildings:
+	- Almaty:
 		- Alma Air Base only gives one free Salvaged Helicopter again and no longer increases city HP.
 		- Alma Tank Depot no longer increases city strength.
     - Atlas:
-        - Kruger Line now adds +3 Culture to the capital, but has the added Production to tiles with Railroads and Water per city connection reduced to +1. Its cost is greatly reduced, to 150 + 30 per owned city (was originally 625).
+        - Kruger Line now adds +3 Culture to the capital, but only adds +1 Production to Railroads and +1 Water per Trade Route. Its cost is greatly reduced, to 150 + 30 per owned city (was originally 625).
 	- Blackwarden:
 		- Personnel Office regains its commented out Merchant slot, gains an Administrator slot, and adds a +10% Production bonus towards Personnel units along with a 25% cost reduction in tile purchases. However, its Production cost is increased to 160 and it no longer gains bonuses from having Slaves.
 		- Resource Management Server no longer provides Slaves.
@@ -398,7 +405,7 @@ Changes since the Harbinger update
 	- Cult of Ignis:
 		- Plantation now belongs to Deadrock Clan as a Greenhouse replacement.
 	- Deadrock Clan:
-		- Plantation no longer boosts total Food yields. Instead, it adds +1 Food to active Farmers in the city and +1 Culture to Narcotics farms (along with the standard Greenhouse effect).
+		- Plantation no longer adds a percentage boost to total Food yields. Instead, it adds +1 Food to active Farmers in the city and +1 Culture to Narcotics farms (along with the standard Greenhouse effect).
 		- Clubhouse now generates 2 Water per turn and no longer costs maintenance.
 	- Deseret Nation:
         - Bishop's Storehouse no longer adds extra Culture/Faith from having access to Books.
@@ -407,10 +414,12 @@ Changes since the Harbinger update
 		- Record Grids are now unsellable.
 		- Gas Field's stats adjusted to +2 Science, +1 Production, -1 Food for Tree plantations (was +4 Science, -1 Food/Water) and +2 Science, +1 Production in the city with access to Exotic Seeds (was +1 Science/Production).
 		- Advanced Chemical Refinery is much harder to unlock: you have to build the Chemical Weapons Laboratory first.
-	- Hockeytown CS:
+	- Hockeytown:
 		- Ice Hockey Rink no longer provides the Alcohol luxury.
 	- New Afrika:
 		- Mosque has been temporarily removed from the game on account of it being inaccurate to their religion. When the building is reintroduced, it will be given to a new faction.
+	- Proklyatyye:
+		- Zemlyanka now adds +1 Food to Tundra Camps to help offset the double whammy of their growth penalties and Tundra start bias.
 
 **Wonder Adjustments**
 - All of the base scenario factions' starting wonders now have a base production cost of 0. Several of these "faction identity wonders" are further adjusted as follows:
@@ -433,7 +442,7 @@ Changes since the Harbinger update
 	- Blackwarden (Operations Center): 150 base Production
 	- Deseret (Deseret Data Center): 250 base Production, gains bonus for Automated units
 	- The Patriots (Tactics Center): 100 base Production, moved to Munitions
-- International Trade Center buffed to +5 base Water, +50% total Water yields for the owning city, and +3 Water from Trade Routes, adding more incentive to build it in the endgame.
+- International Trade Center buffed to +5 base Water, +50% total Water yields for the owning city, and +3 Water from Trade Routes, adding more incentive to build it in the endgame. It also triggers an additional alert upon completion.
 - Shake Down Survivors now costs 30 Production, but awards 4 Slaves and a Gangboss.
 - Statue of Remembrance now has its flavor text/quote.
 
@@ -448,20 +457,22 @@ Changes since the Harbinger update
 - Field Scientists reverted to 70 production cost, 1 charge, but remain standalone units.
 - Forward Observers now play the "shot" attack sound in combat.
 - Machine Guns now start with Logistics and gain a bonus when attacking Scrapper and Shooter units.
-- Persevering Pax Researchers are no longer Great People.
+- Mormon Battalions now cost 230 Production, matching the cost of the NBC Infantry unit which they are superior to despite replacing normal Infantry and unlocking earlier.
+- Persevering Pax Researchers are no longer Great People. No more will City-State quests ask you to somehow acquire them.
 - Purge Robot Proto and MKI are now Armor units. The former's Production cost is increased to 70.
 - Rubble Gunmen now replace Crossbowmen, correcting the major error in the base game where Deadrock Clan had two unique units replacing Archers.
-- Seastead Vessel now uses a single unique for all Water improvements that are not specifically for improving Water resources, in the event that more such improvements are added in the future.
+- Seastead Vessel now uses a single unique for all Water improvements that are not specifically for improving Water resources, in the event that more such improvements are added in the future. Also, it can now enter and remove ice tiles.
 - State Guards are now limited to 3 per City-State.
 	- Alma State Guard's strength reduced to 40.
 	- Pale Veteran's strength reduced to 38.
-- Technopaths now actually get their intended endgame buff of a 30% Strength bonus at Artificial Intelligence.
+- Technopaths now actually get their intended endgame buff of a 30% Strength bonus at Artificial Intelligence. However, they now also consume Weapons and unlock later at Networking.
 - Tree Lovers now cost 50 Production instead of 70, but only Natural tiles benefit from reduced construction time.
 
 **Belief Adjustments**
 - Acolytes of a New God now awards +100 Faith (modified by game speed) for each city conquered.
+- Feast of Flesh now adds +2 Food, +1 Happiness to Ranches.
 - God of Beasts is now limited to the actual beast resources (Horses, Cattle, Goats, Deer). No more late-game Culture boosts from bug or water tiles.
-- Isolationism has been deleted.
+- Isolationism and Worship Music have been deleted.
 - New Zion nerfed to restrict its stat yields to Seminaries + replacements and no longer spawn a free Great Sage for the first adopter.
 - Religious Troubadours nerfed to reduce the Faith yields from city connections to +2.
 - Strength of the Earth no longer adds Production to anything except the Mining Pit ancient wonder.
@@ -501,10 +512,12 @@ Changes since the Harbinger update
 	- Ecodefense reverted to a 10% Strength bonus. However, it now unlocks access to a new unit and awards three of them for free.
 - Mechanization:
 	- Increased priority for AI factions that prefer Domination Victory.
-	- The finisher no longer gives a free Purge Robot (this was very...unbalanced) and now gives two free Great People like the other ideologies, in this case 1 Engineer and 1 Scientist.
+	- Digitization adjusted to +2 Culture/Happiness and no Faith for Data/Decryption Centers.
+	- The finisher no longer gives a free Purge Robot (this was very...unbalanced) and now gives two free Great People like the other ideologies, in this case 1 Engineer and 1 Scientist. The extra strategic resources is increased to 50% to match the base scenario.
 - Bionics:
-	- Increased priority for AI factions that prefer Science Victory.
-	- Eugenics now only grants extra starting XP to Personnel units, but it grants them 25 XP (when combined with Total War, this allows Personnel trained in the city that owns the Military Academy for every faction that isn't locked out of Supremacy, sans Enclavers, to start with a minimum of 4 promotions). Additionally, the +2 Faith from having 2 active specialists is now +2 Happiness.
+	- Increased priority for AI factions that prefer Science Victory. Priority for AI factions that prefer Culture Victory reduced to 0.
+	- Eugenics now only grants extra starting XP to Personnel units, but it grants them 25 XP. (When combined with Total War, this allows Personnel trained in the city that owns the Military Academy for every faction that isn't locked out of Supremacy, sans Enclavers, to start with a minimum of 4 promotions.) Additionally, the +2 Faith from having 2 active specialists is now +2 Happiness.
+	- The bonus to Utopia Project construction speed has been moved to Naturalism's finisher. It now gives a bonus towards the Biosphere and Colony Ship projects.
 
 **Promotion Adjustments**
 - Forage has been nerfed again, this time to remove the unit healing on killing enemy units.
@@ -514,6 +527,7 @@ Changes since the Harbinger update
 	- Level 3 is now just +1 movement.
 - Shock, Pursuit, and Loose Formation are no longer available for Scrapper units. Pursuit is now available for Armor units, but it is nerfed to remove the unit healing on killing units.
 - Prospector slightly buffed to increase the possible Water yield from ending the unit's turn atop Rubble/Ruins and increase the Strength bonus from escorting Civilians to 15%.
+- AI Implant nerfed to remove the Strength bonus when attacking.
 
 **Resource Adjustments**
 - Hexlock's Chemicals are now Strategic Resources as they should be according to Hexlock's UA instead of Luxury Resources. Hexlock now actually suffers from early-game Happiness issues as intended.
@@ -543,9 +557,9 @@ Changes since the Harbinger update
 
 **New Units**
 - City-States:
-	- Pre-War Gatling Turret, standalone siege unit, 25 strength, 40 ranged strength, 2 range, cannot move, cannot attack cities, cannot be trained unless the CS has a garrison, +20% strength when attacking, each CS can only have up to 3
+	- Pre-War Turret, standalone siege unit, 25 strength, 40 ranged strength, 2 range, cannot move, cannot attack cities, cannot be trained unless the CS has a garrison, +20% strength when attacking, each CS can only have up to 3
 - Collectivism policy:
-	- Stalker, same combat strength as Militia, but starts with Gas Mask and Forage and can build Salvage sites
+	- Stalker, same combat strength as Militia, but starts with Gas Mask and Forage and can build Salvage sites, and gains 15% Strength at Rifling
 - Commonwealth:
 	- Field Preparations Squad, replacing the Forward Observer, can build Roads, Railroads, Forts and Trenches and do so faster than any other unit
 - Issaquah Nation:
@@ -570,7 +584,7 @@ Changes since the Harbinger update
 - Hexlock:
 	- Chemfuel Generator, a standalone building providing 2 units of Power and +5% total Production that's only available with a Research Lab and a worked Refinery of any type in the city, and will be destroyed if the city is captured
 - Issaquah Nation:
-	- Issaquah Tribal Council, replacing the Defense Directorate, adding a +25% Production bonus towards Military units (free units are: 2x Hawkman Brave on construction, 2x Issaquah Mystic on war declaration)
+	- Issaquah Tribal Council, replacing the Defense Directorate, adding a +25% Production bonus towards Military units (free units are: 1x Issaquah Mystic, 2x Hawkman Brave)
 - New Afrika:
 	- Mansion of Our Father (new identity wonder, +2 Food/Culture, keeps the free Weapons, Panther unit, bonus belief and quote of the Great Mosque, but awards a Food Store)
 	- Afrikan Reformed Church (replaces Monastery, adds +2 Food)
@@ -584,4 +598,5 @@ Changes since the Harbinger update
 - Active Protection System, only available to Armor units (sans those with Promotion Nullifier) and only if Armor Production Line is built, granting a 33% defense bonus against Air/Helicopter/Siege units. I may add a Hexlock specific version for Purge Robots later
 
 **New Beliefs**
-- Patron Saint of Scavengers, adding +1 Production/Faith to five separate resources: Electronics, Machine Parts, Plastics, Scrap, and Weapons
+- Patron Saint of Scavengers (Pantheon), adding +1 Production/Faith to five separate resources: Electronics, Machine Parts, Plastics, Scrap, and Weapons
+- Zen Meditation (Follower), adding +2 Culture and +1 Happiness to cities with at least 2 active Specialists

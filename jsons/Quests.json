@@ -1,0 +1,192 @@
+[
+	{
+		"name": "Route",
+		"description": "Build a road to connect your capital to our city.",
+		"influence": 50,
+		"weightForCityStateType": {
+			"Friendly": 2,
+			"Hostile": 0.2,
+			"Farming": 1.2,
+			"Trading": 1.5
+		}
+	},
+	{
+		"name": "Clear Barbarian Camp",
+		"description": "We feel threatened by a Barbarian Camp near our city. Please take care of it.",
+		"type": "Global",
+		"influence": 50,
+		"minimumCivs": 1000
+	},
+	{
+		"name": "Connect Resource",
+		"description": "In order to make our civilizations stronger, connect [tileResource] to your trade network.",
+		"weightForCityStateType": {
+			"Trading": 3
+		}
+	},
+	/*
+	{
+    	"name": "Construct Wonder",
+    	"description": "We recommend you to start building [wonder] to show the whole world your civilization strength."
+	},
+	*/
+	{
+		"name": "Acquire Great Person",
+		"description": "Great People can change the course of a Civilization! You will be rewarded for acquiring a new [greatPerson].",
+		"weightForCityStateType": {
+			"Culture": 3
+		}
+	},
+	{
+		"name": "Conquer City State",
+		"description": "It's time to erase the City State of [cityState] from the map. You will be greatly rewarded for conquering them!",
+		"influence": 80,
+		"weightForCityStateType": {
+			"Hostile": 2,
+			"Friendly": 0.2,
+			"Weapons": 2
+		}
+	},
+	{
+		"name": "Find Player",
+		"description": "You have yet to discover where [civName] set up their cities. You will be rewarded for finding their territories.",
+		"influence": 35,
+		"weightForCityStateType": {
+			"Trading": 3
+		}
+	},
+	{
+		"name": "Find Natural Wonder",
+		"description": "Send your best explorers on a quest to discover the Wonders of the past. Nobody knows the location of [naturalWonder] yet.",
+		"weightForCityStateType": {
+			"Hostile": 0.3,
+			"Weapons": 0.5
+		}
+	},
+	/* G&K */
+	{
+		"name": "Give Gold",
+		"description": "We are suffering great poverty after being robbed by [civName], and unless we receive a sum of Water, it's only a matter of time before we collapse.",
+		"influence": 20,
+		"duration": 30,
+		"weightForCityStateType": {
+			"Culture": 3,
+			"Farming": 3.5,
+			"Labor": 3,
+			"Prayer": 3.5,
+			"Research": 2.5,
+			"Trading": 3.5,
+			"Weapons": 2
+		}
+	},
+	{
+		"name": "Pledge to Protect",
+		"description": "We need your protection to stop the aggressions of [civName]. By signing a Pledge of Protection, you'll confirm the bond that ties us.",
+		"influence": 20,
+		"duration": 30,
+		"weightForCityStateType": {
+			"Culture": 3,
+			"Farming": 3.5,
+			"Labor": 3,
+			"Prayer": 3.5,
+			"Research": 2.5,
+			"Trading": 3.5,
+			"Weapons": 2
+		}
+	},
+	{
+		"name": "Contest Culture",
+		"description": "The civilization with the largest Culture growth will gain a reward.",
+		"type": "Global",
+		"duration": 24,
+		"minimumCivs": 3,
+		"weightForCityStateType": {
+			"Culture": 2,
+			"Farming": 0.5,
+			"Labor": 0.5,
+			"Prayer": 1,
+			"Research": 0.5,
+			"Trading": 0.5,
+			"Weapons": 0.5
+		}
+	},
+	{
+		"name": "Contest Faith",
+		"description": "The civilization with the largest Faith growth will gain a reward.",
+		"type": "Global",
+		"duration": 24,
+		"minimumCivs": 3,
+		"weightForCityStateType": {
+			"Culture": 0.5,
+			"Farming": 0.5,
+			"Labor": 0.5,
+			"Prayer": 2,
+			"Research": 0.5,
+			"Trading": 0.5,
+			"Weapons": 0.5
+		}
+	},
+	{
+		"name": "Contest Technologies",
+		"description": "The civilization with the largest number of new Technologies researched will gain a reward.",
+		"type": "Global",
+		"duration": 24,
+		"minimumCivs": 3,
+		"weightForCityStateType": {
+			"Prayer": 0.5,
+			"Research": 2
+		}
+	},
+	{
+		"name": "Invest",
+		"description": "Our people are prospering. For a certain amount of time, any Water donation will yield [50]% extra Influence.",
+		"type": "Global",
+		"influence": 0,
+		"duration": 30,
+		"minimumCivs": 2,
+		"weightForCityStateType": {
+			"Farming": 1.5,
+			"Labor": 1.5,
+			"Research": 1.5,
+			"Trading": 1.5
+		}
+	},
+	{
+		"name": "Bully City State",
+		"description": "We are tired of the pretensions of [cityState]. If someone were to put them in their place by Demanding Tribute from them, they would be rewarded.",
+		"duration": 30,
+		"weightForCityStateType": {
+			"Hostile": 2,
+			"Irrational": 1.5,
+			"Friendly": 0.3
+		}
+	},
+	{
+		"name": "Denounce Civilization",
+		"description": "We have been forced to pay tribute to [civName]! We need you to tell the world of their ill deeds.",
+		"duration": 30,
+		"weightForCityStateType": {
+			"Culture": 1.5,
+			"Farming": 2,
+			"Labor": 2,
+			"Prayer": 2.5,
+			"Research": 2.5,
+			"Trading": 1.5,
+			"Weapons": 1.5
+		}
+	},
+	{
+		"name": "Spread Religion",
+		"description": "We have heard the tenets of [religionName] and are most curious. Will you send missionaries to teach us about your religion?",
+		"weightForCityStateType": {
+			"Prayer": 3
+		}
+	}
+	/* BNW */
+	/*
+  {
+    "name": "Trade Route",
+    "description": ""
+  }
+  */
+]

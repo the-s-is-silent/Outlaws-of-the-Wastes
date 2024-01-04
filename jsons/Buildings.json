@@ -1718,6 +1718,7 @@
 			"[+3 Gold] from each Trade Route",
 			"Influence of all other civilizations with all city-states degrades [33]% faster",
 			"Triggers a global alert upon build start",
+			"Triggers the following global alert: [Our influence with City-States has started dropping faster!]",
 			"Cannot be hurried"
 		],
 		"quote": "By pursuing our own interest we frequently promote that of the society more effectually than when we really intend to promote it."
@@ -2190,6 +2191,7 @@
 	{
 		"name": "Ranch",
 		"requiredNearbyImprovedResources": ["Cattle", "Goats", "Furs", "Hogs", "Horses"],
+		"specialistSlots": {"Farmer": 1},
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -3479,6 +3481,7 @@
 		"cost": 10,
 		"hurryCostModifier": -25,
 		"uniques": ["[20]% Food is carried over after population increases [in this city]",
+			"[+1 Food] from [Camp] tiles [in this city] <in [Tundra] tiles>",
 			"[+1 Food] [in this city] <with [Salt]>",
 			"[-1 Production, +1 Gold] [in this city] <with [Alcohol]>",
 			"[-1 Production, +1 Gold] [in this city] <with [Narcotics]>",
@@ -3550,7 +3553,7 @@
 		"cityHealth": 80,
 		"cost": 0,
 		"uniques": ["City Defense",
-			"[5] units cost no maintenance",
+			"[3] units cost no maintenance",
 			"Free [State Guard] appears",
 			"[2] free [Pre-War Turret] units appear",
 			"Automatically built in all cities where it is buildable",

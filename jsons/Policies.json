@@ -591,7 +591,8 @@
 			"Domination": 20,
 			"Scientific": 20
 		},
-		"uniques": ["[+1] Movement <for [{Military} {Water}] units>", "[+1] Sight <for [{Military} {Water}] units>",
+		"uniques": ["[+1] Movement <for [{Military} {Water}] units>",
+			"[+1] Sight <for [{Military} {Water}] units>",
 			"[+50]% Production when constructing [Naval War College] wonders [in all cities]"],
 		"policies": [
 			{
@@ -714,7 +715,8 @@
 				"name": "Naturalism Complete",
 				"uniques": ["[2] free [Great Farmer] units appear",
 					"Empire enters golden age",
-					"[+50]% Golden Age length"]
+					"[+50]% Golden Age length",
+					"[+10]% Production when constructing [Utopia Project] wonders [in all cities]"]
 			}
 		]
 	},
@@ -760,8 +762,8 @@
 			{
 				"name": "Digitization",
 				"requires": ["Integrated Attack Logistics"],
-				"uniques": ["[+1 Happiness, +1 Culture, +1 Faith] from every [Data Center]",
-					"[+1 Happiness, +1 Culture, +1 Faith] from every [Decryption Center]",
+				"uniques": ["[+2 Happiness, +2 Culture] from every [Data Center]",
+					"[+2 Happiness, +2 Culture] from every [Decryption Center]",
 					"Double quantity of [Encrypted Data] produced"],
 				"row": 3,
 				"column": 2
@@ -778,7 +780,7 @@
 				"name": "Mechanization Complete",
 				"uniques": ["Free [Great Engineer] appears",
 					"Free [Great Scientist] appears",
-					"Quantity of strategic resources produced by the empire +[25]%",
+					"Quantity of strategic resources produced by the empire +[50]%",
 					"[+25]% Production towards any buildings that already exist in the Capital <while the empire is happy>",
 					"[+25]% Production when constructing [All] units [in all cities] <while the empire is happy>"]
 			}
@@ -789,7 +791,7 @@
 		"era": "Industrial era",
 		"priorities": {
 			"Neutral": 20,
-			"Cultural": 20,
+			"Cultural": 0,
 			"Diplomatic": 20,
 			"Domination": 30,
 			"Scientific": 40
@@ -847,7 +849,8 @@
 				"name": "Bionics Complete",
 				"uniques": ["Free [Great General] appears",
 					"Free [Great Scientist] appears",
-					"[+10]% Production when constructing [Utopia Project] wonders [in all cities]",
+					"[+10]% Production when constructing [Biosphere Project] wonders [in all cities]",
+					"[+10]% Production when constructing [Colony Ship Project] wonders [in all cities]",
 					"[+15]% Production when constructing [Terraformer Part] units [in all cities]",
 					"[+15]% Production when constructing [Colony Ship Part] units [in all cities]"]
 			}
