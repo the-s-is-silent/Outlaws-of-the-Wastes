@@ -328,9 +328,8 @@ Changes since the Harbinger update
 		- Camelot Foundation's Round Table is adjusted as follows:
 			- Gaining the standard Council +10% growth bonus.
 			- Removing the policy requirement on the Production bonus.
-			- Removing the scaling Science yield.
+			- Removing the percentage Science yield in the capital after completing Rationalism.
 			- Changing the percentage Water yield from +33% in the capital after completing Monopoly to +10% in all cities connected to the capital without a policy requirement.
-			- Changing the percentage Science yield from +25% in the capital after completing Rationalism to +5% in all cities connected to the capital without a policy requirement.
 		- Children of Rust's Citizens' Assembly now adds scaling Production yields instead of scaling Science yields.
 		- Commonwealth's Parliament now cuts CS influence degradation in half and adds scaling Water yields instead of scaling Science yields.
 		- Crimson Legion's Senate now gives a +15% Production boost to cities other than the capital when they construct buildings owned by the capital.
@@ -342,6 +341,7 @@ Changes since the Harbinger update
 	- Council variants:
 		- Atlas's Think Tank buffed to give a +25% Production boost towards Science buildings and a +15% Production boost to cities other than the capital when they construct buildings owned by the capital.
 		- Blackwarden's Board of Directors now adds +2 Water/Science to Personnel Offices and allows Military units to farm Water in combat equal to 10% of the damage they deal to enemy Military units.
+		- Children of Rust's Defense Committee nerfed to reduce the Production bonus towards Military units to 10% and restrict it to Land units. However, it does gain the standard 10% Council growth boost.
 		- Commonwealth's Embassy no longer boosts GP generation, but instead makes Water gifts to City-States yield 25% more influence, and it gains the standard Council bonuses.
 		- Crimson Legion's Consulate now doubles the recovery rate of lost CS influence. This is a placeholder buff until Gunboat Diplomacy is added to Unciv.
 		- Cult of Ignis's Seer Council's old effects have been thrown out; it now adds +2 Culture to every Fuel Depot and College of Mystics along with a +25% Production bonus towards Faith buildings and the standard 10% city growth boost.
@@ -559,7 +559,7 @@ Changes since the Harbinger update
 - City-States:
 	- Pre-War Turret, standalone siege unit, 25 strength, 40 ranged strength, 2 range, cannot move, cannot attack cities, cannot be trained unless the CS has a garrison, +20% strength when attacking, each CS can only have up to 3
 - Collectivism policy:
-	- Stalker, same combat strength as Militia, but starts with Gas Mask and Forage and can build Salvage sites, and gains 15% Strength at Rifling
+	- Stalker, same combat strength as Militia, but starts with Gas Mask and Forage and can build Salvage sites, gains 15% Strength at Rifling, and must be purchased
 - Commonwealth:
 	- Field Preparations Squad, replacing the Forward Observer, can build Roads, Railroads, Forts and Trenches and do so faster than any other unit
 - Issaquah Nation:
@@ -569,29 +569,31 @@ Changes since the Harbinger update
 
 **New Buildings**
 - Atlas:
-	- Miracle Metal Mill, replacing the Plastics Factory, adding Production to Metal/Aluminum instead of Plastics/Oil and +10% total Production to the city, but requiring a Factory and Electrostatic Generator present in the city
+	- Miracle Metal Mill (replaces Plastics Factory, adds Production to Metal/Aluminum instead of Plastics/Oil and +10% total Production to the city, but requires a Factory and Electrostatic Generator present in the city)
 - Commonwealth:
-	- Sharecropper Farm, replacing the Greenhouse, adding +1 Food to worked Cattle/Goats tiles and +1 Water to active Farmers in the city after discovering Hydroponics
-	- Commonwealth Reserve, replacing the Water Storage, adding an extra 10% to the city's total Water yields along with +1 Water to worked Groundwater tiles and +1 Water to active Merchants in the city
-	- OSI, replacing the Research Lab, reducing construction time of Food/Production buildings in the city by 1/3 and adding +2 Science to Food providing buildings owned by the city
+	- Sharecropper Farm (replaces Greenhouse, adds +1 Food to worked Cattle/Goats tiles and +1 Water to active Farmers in the city after discovering Hydroponics)
+	- Commonwealth Reserve (replaces Water Storage, adds an extra 10% to the city's total Water yields along with +1 Water to worked Groundwater tiles and +1 Water to active Merchants in the city)
+	- OSI (replaces Research Lab, reducing construction time of Food/Production buildings in the city by 1/3 and adds +2 Science to Food providing buildings owned by the city)
 - Cult of Ignis:
-	- Ignitor's Tower (new Town Hall replacement, +80 City HP, retains the Slave consumption requirement and 75% boost to Worker training speed, +2 Food/Production with a Slave surplus, +1 Culture/Faith with access to Books)
+	- Ignitor's Tower (new Town Hall replacement, +80 City HP, "City Defense" modifier, retains the Slave consumption requirement and 75% boost to Worker training speed, +2 Food/Production with a Slave surplus, +1 Culture/Faith with access to Books)
+	- Fortified Aquifer (replaces Water Storage, adds +5 City Strength and +50 City HP and qualifies for the "City Defense" modifier)
 - Deseret Nation:
-	- Grand Tabernacle, replacing the Grand Monastery, creating an Endowment House on completion and boosting the yields of Endowment Houses by +1 Food, +2 Water/Culture
+	- Grand Tabernacle (replaces Grand Monastery, creates an Endowment House on completion and boosts the yields of Endowment Houses by +1 Food, +2 Water/Culture)
 - The Harbingers:
-	- Austere Processing Hub, replacing the Ground Control Center, doubling Encrypted Data resources and adding Science yields to the owning city (+5 base, +15% total) but is more expensive (400 base vs. original's rebalanced 300, increasing by 30 per owned city) and requires every non-puppeted city to own a Census Chamber
-	- Interstice, replacing the Transport Network, adding +1 Production to tiles with Railroads
+	- Austere Processing Hub (replaces Ground Control Center, doubles Encrypted Data resources and adds Science yields to the owning city (+5 base, +15% total) but is more expensive (400 base vs. original's rebalanced 300, increasing by 30 per owned city) and requires every non-puppeted city to own a Census Chamber)
+	- Interstice (replaces Transport Network, adds +1 Production to tiles with Railroads)
 - Hexlock:
-	- Chemfuel Generator, a standalone building providing 2 units of Power and +5% total Production that's only available with a Research Lab and a worked Refinery of any type in the city, and will be destroyed if the city is captured
+	- Chemfuel Generator (standalone, provides 2 units of Power and +5% total Production, requires an Experimental Lab and a worked Refinery of any type in the city, and will be destroyed if the city is captured)
 - Issaquah Nation:
-	- Issaquah Tribal Council, replacing the Defense Directorate, adding a +25% Production bonus towards Military units (free units are: 1x Issaquah Mystic, 2x Hawkman Brave)
+	- Issaquah Tribal Council (replaces Defense Directorate, adds a +25% Production bonus towards Military units (free units are: 1x Issaquah Mystic, 2x Hawkman Brave))
 - New Afrika:
 	- Mansion of Our Father (new identity wonder, +2 Food/Culture, keeps the free Weapons, Panther unit, bonus belief and quote of the Great Mosque, but awards a Food Store)
 	- Afrikan Reformed Church (replaces Monastery, adds +2 Food)
 - The Patriots:
-	- Arsenal of Liberty, replacing the Armaments Production Line, much cheaper to build (100 vs. 250) but requires a Power surplus for both the provided Weapons and Production boost towards Military units
+	- Arsenal of Liberty (replaces Armaments Production Line, much cheaper to build (100 vs. 250) but requires a Power surplus for both the provided Weapons and Production boost towards Military units)
 
 **New National Wonders**
+- National Reservoir System, available at Currency, provides +4 Water in the city it's built in and adds +1 Water to Groundwater, Lakes and Spring tiles along with +1 Water to city connections, but requires every city to own a Water Storage and its Production cost scales upward (125 base + 30 per owned city)
 - Microwave Power Satellite, available at Incentivization, must be in a desert city, provides significant late-game boosts to Solar collectors (+4 Production each) along with 8 units of Power, and adds +1 Production to all desert tiles in the city, +5 Production to the city itself, and +2 Local Happiness
 
 **New Promotions**

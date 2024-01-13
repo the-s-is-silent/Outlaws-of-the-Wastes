@@ -40,6 +40,7 @@ A major expansion + rebalance mod for DeCiv Redux.
 
 - New national wonders:
   - Homeland Defense / Wasteland Surveillance / Raider Suppression Initiatives, each locked behind a starting policy and designed to help each faction survive the early-game.
+  - National Reservoir System, the mod's equivalent to BNW's East India Company.
   - Oceanological Center, boosting the Science output and Happiness of coastal cities for factions that have adopted the new Rediscovery policy.
   - Naval War College, the naval counterpart to the Military Academy, but cannot exist in the same city as the Military Academy.
   - Earthscraper Project, unlocking a powerful late-game building for Collectivist factions.

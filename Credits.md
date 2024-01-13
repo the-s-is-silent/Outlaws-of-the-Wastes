@@ -10,7 +10,7 @@ The icons for Alma Frontier Guard and Alma State Guard are of my own creation.
 
 Unless otherwise specified, all of the following are from the Noun Project, licensed under Creative Commons or Public Domain. Also, if anyone feels like there is a better/more fitting icon out there for any particular building/unit/etc. than the one that is used, I am open to suggestions for replacement icons.
 
-Items still missing an icon (not necessarily a complete list): Arsenal of Liberty, Condenser Cooler, Defense Directorate (and its replacements), Eco-Terrorist, Exploratores, Field Preparations Squad, Ignitor's Tower, Issaquah Mystic, Mounted Railgun, Preservator (icon also missing from TCC-beta), Pridwen-class, Rapid Response Squad, Research and Preservation Institute, SS Casing, SS Life Support, State Guard, Super Mutant, Zemlyanka
+Items still missing an icon (not necessarily a complete list): Arsenal of Liberty, Condenser Cooler, Defense Directorate (and its replacements), Exploratores, Field Preparations Squad, Ignitor's Tower, Issaquah Mystic, Mounted Railgun, Preservator (icon also missing from TCC-beta), Pridwen-class, Rapid Response Squad, Research and Preservation Institute, SS Casing, SS Life Support, State Guard, Super Mutant, Zemlyanka
 
 ### Building Icons
 - Abbey: [Westminster Abbey](https://thenounproject.com/icon/westminster-abbey-5459042/) by Brickclay, PK
@@ -43,6 +43,8 @@ Items still missing an icon (not necessarily a complete list): Arsenal of Libert
 - Ethanol Station: [Corn energy](https://thenounproject.com/icon/corn-energy-1580160/) by dDara, TH
 - First Kiva: [Kiva](https://thenounproject.com/icon/kiva-84834/) by Alex Fuller, US
 - [Food Processing Plant](https://thenounproject.com/icon/food-processing-plant-1877253/) by ProSymbols, US
+- Fortified Aquifer: [three sisters](https://thenounproject.com/icon/three-sisters-5539994/) by Ary Prasetyo, ID
+- Fortified Museum: [metro](https://thenounproject.com/icon/metro-3339860/) by N.Style, RU
 - Gostiny Dvor: [castle](https://thenounproject.com/icon/castle-1502/) by Iconic, CY
 - Grand Tabernacle: [Mormon Temple](https://thenounproject.com/icon/mormon-temple-91138/) by Jason Dilworth
 - Gulag: [star](https://thenounproject.com/icon/star-3086974/) by Dmitry Vasiliev
@@ -60,6 +62,7 @@ Items still missing an icon (not necessarily a complete list): Arsenal of Libert
 - Microwave Power Satellite: [space station](https://thenounproject.com/icon/space-station-3312581/) by Vectors Point, PK
 - Miracle Metal Mill: [smart industry](https://thenounproject.com/icon/smart-industry-3191201/) by WiStudio, TH
 - Nanomaterial Factory: [nanofabrication](https://thenounproject.com/icon/nanofabrication-4331493/) by Loritas Medina, PH
+- National Reservoir System: [Reservoir](https://thenounproject.com/icon/reservoir-3918342/) by Adrien Coquet, FR
 - Navy Shipyard: [shipyard](https://thenounproject.com/icon/shipyard-5848043/) by Andi Nur Abdullah, ID
 - Naval War College: [navy pier](https://thenounproject.com/icon/navy-pier-3925133/) by Lars Meiertoberens, DE
 - Oceanological Center: [national maritime museum](https://thenounproject.com/icon/national-maritime-museum-3348038/) by Justicon, TH
@@ -157,6 +160,7 @@ Items still missing an icon (not necessarily a complete list): Arsenal of Libert
 - Deseret Missionary: [Religion](https://thenounproject.com/icon/religion-53064/) by Bruno Gätjens González (same source as Missionary icon in base Unciv except *not* adapted)
 - Destroying Angel: [Angel](https://thenounproject.com/icon/angel-354209/) by william dayabaran
 - Drifter: [driftwood](https://thenounproject.com/icon/driftwood-374954/) by BK
+- Eco-Terrorist: [terrorism](https://thenounproject.com/icon/terrorism-653187/) by Alina Oleynik
 - Educational Officer: [Government Officer](https://thenounproject.com/icon/government-officer-2003970/) by Made x Made, AU
 - Excalibur Knight: [Sword](https://thenounproject.com/icon/sword-2239554/) by Smalllike
 - Expeditionary Force: [mission](https://thenounproject.com/icon/mission-3048372/) by Eucalyp
@@ -176,6 +180,7 @@ Items still missing an icon (not necessarily a complete list): Arsenal of Libert
 - Neutron Bomb: [Nuclear](https://thenounproject.com/icon/nuclear-2169503/) by ahmad, ID
 - Opolcheniye: [Ak-47](https://thenounproject.com/icon/ak-47-1745454/) by Nico Ilk, CH
 - Seastead Vessel: [Ship](https://thenounproject.com/icon/ship-4767613/) by Singlar
+- Shock Worker: [Sickle](https://thenounproject.com/icon/sickle-5130144/) by Luis Prado, US
 - Speculatores: [bloody knife](https://thenounproject.com/icon/bloody-knife-2109678/) by Vectors Market
 - State Guard: [Civil defense](https://thenounproject.com/icon/civil-defense-454060/) by Yuri Martins, ES
 - Technopath: [mind ability](https://thenounproject.com/icon/mind-ability-3216421/) by Vectors Point, PK
