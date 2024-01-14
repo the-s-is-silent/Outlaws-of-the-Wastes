@@ -812,7 +812,6 @@
 		"uniqueTo": "Crimson Line",
 		"cityStrength": 5,
 		"cityHealth": 50,
-		"specialistSlots": {"Merchant": 1},
 		"uniques": ["City Defense", "Provides [1] [Weapons]",
 			"New [Military] units start with [15] Experience [in this city]",
 			"[+1 Production] from [Weapons] tiles [in this city]",
@@ -834,22 +833,6 @@
 			"Only available <in cities without a [Listening Post]>",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Construction"
-	},
-	{
-		"name": "Sealed Facility",
-		"uniqueTo": "Crimson Line",
-		"cityHealth": 100,
-		"food": 2,
-		"maintenance": 1,
-		"hurryCostModifier": 0,
-		"uniques": ["City Defense",
-			"Population loss from nuclear attacks [-75]% [in this city]",
-			"Damage to garrison from nuclear attacks [-75]% [in this city]",
-			"New [Military] units start with [15] Experience [in this city]",
-			"[+2 Production] from [Mountain] tiles [in this city]",
-			"Must have an owned [Mountain] within [2] tiles",
-			"Destroyed when the city is captured"],
-		"requiredTech": "Engineering"
 	},
 	{
 		"name": "Pioneers Station",
@@ -883,6 +866,23 @@
 		"replaces": "Congress",
 		"uniqueTo": "Crimson Line",
 		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Sealed Facility",
+		"replaces": "Bunker",
+		"uniqueTo": "Crimson Line",
+		"cityHealth": 250,
+		"food": 5,
+		"maintenance": 1,
+		"hurryCostModifier": 50,
+		"requiredBuilding": "Hardened Defenses",
+		"uniques": ["City Defense",
+			"Population loss from nuclear attacks [-75]% [in this city]",
+			"Damage to garrison from nuclear attacks [-75]% [in this city]",
+			"New [Military] units start with [15] Experience [in this city]",
+			"[+4 Production] from [Mountain] tiles [in this city]",
+			"Destroyed when the city is captured"],
+		"requiredTech": "Munitions"
 	},
 
 	//Adjusted buildings and wonders
