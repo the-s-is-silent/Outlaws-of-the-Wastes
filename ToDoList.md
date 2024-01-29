@@ -1,7 +1,7 @@
 # TODO
 
 ## The main list:
-- Add more new factions and City-States (still need a Cultured CS and another Religious one), along with more new unique units and buildings for the existing factions (making sure all existing factions get at least 2 new unique components), and adjust the unique abilities of some of the existing factions.
+- Add more new factions and City-States, along with more new unique units and buildings for the existing factions (making sure all existing factions get at least 2 new unique components), and adjust the unique abilities of some of the existing factions.
 - Add some sort of analogue to the Archaeologist unit of BNW and a reasonable way to generate them. Their unique improvement should guarantee access to the Artifacts luxury resource.
 - The bane of all ambitious modders who have no artistic talent: adding custom sprites for everything.
 

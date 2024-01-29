@@ -10,7 +10,7 @@ The icons for Alma Frontier Guard and Alma State Guard are of my own creation.
 
 Unless otherwise specified, all of the following are from the Noun Project, licensed under Creative Commons or Public Domain. Also, if anyone feels like there is a better/more fitting icon out there for any particular building/unit/etc. than the one that is used, I am open to suggestions for replacement icons.
 
-Items still missing an icon (not necessarily a complete list): Arsenal of Liberty, Condenser Cooler, Defense Directorate (and its replacements), Exploratores, Field Preparations Squad, Ignitor's Tower, Issaquah Mystic, Mounted Railgun, Pax Observer, Pax Surveyor, Preservator (icon also missing from TCC-beta), Pridwen-class, Rapid Response Squad, Research and Preservation Institute, SS Casing, SS Life Support, State Guard, Super Mutant, Zemlyanka
+Items still missing an icon (not necessarily a complete list): Arsenal of Liberty, Condenser Cooler, Defense Directorate (and its replacements), Exploratores, Field Preparations Squad, Ignitor's Tower, Issaquah Mystic, Mounted Railgun, Pax Observer, Pax Surveyor, Preservator (icon also missing from TCC-beta), Pridwen-class, Rapid Response Squad, Research and Preservation Institute, Sharashka, SS Casing, SS Life Support, State Guard, Super Mutant, Zemlyanka
 
 ### Building Icons
 - Abbey: [Westminster Abbey](https://thenounproject.com/icon/westminster-abbey-5459042/) by Brickclay, PK
