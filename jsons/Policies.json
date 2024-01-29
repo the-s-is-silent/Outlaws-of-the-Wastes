@@ -29,15 +29,18 @@
 			},
 			{
 				"name": "Centralization",
-				"uniques": ["[+10]% Production when constructing [All] buildings [in capital]",
+				"uniques": ["[+15]% Production when constructing [All] buildings [in capital]",
 					"[+1 Culture] from every specialist [in capital]"],
 				"requires": ["Castle Doctrine"],
 				"row": 2,
 				"column": 4
 			},
 			{
-				"name": "Planned Economy",
-				"uniques": ["[+33]% [Gold] from every [Council]"],
+				"name": "Endurance Programme",
+				"uniques": ["[+25]% [Gold] from every [Council]",
+					"[+1 Gold] from every [Merchant]",
+					"[+1 Food] from every [Farmer]",
+					"[+1 Production] from every [Engineer]"],
 				"requires": ["Centralization"],
 				"row": 3,
 				"column": 2
@@ -51,8 +54,8 @@
 			},
 			{
 				"name": "Adaptation Complete",
-				"uniques": ["[+15]% growth [in all cities with a garrison]",
-					"[+2 Food] [in all cities with a garrison]",
+				"uniques": ["[+15]% growth [in all cities]",
+					"[+2 Food] [in all cities]",
 					"Provides a [Defensive Emplacements] in your first [4] cities for free",
 					"May buy [Great Farmer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
 			}
@@ -144,7 +147,7 @@
 			{
 				"name": "Doctrine",
 				"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Gold]",
-					"[+2 Production, +2 Culture] from every [Barracks]"],
+					"[+2 Production, +2 Gold, +2 Culture] from every [Barracks]"],
 				"row": 1,
 				"column": 3
 			},
@@ -736,7 +739,7 @@
 		"policies": [
 			{
 				"name": "Urbanization",
-				"uniques": ["[+1 Production, +1 Science] per [5] population [in all cities]",
+				"uniques": ["[+1 Production] per [5] population [in all cities]",
 					"[+1 Production] from every [Borough]"],
 				"row": 1,
 				"column": 2
@@ -840,8 +843,7 @@
 				"requires": ["Eugenics", "Cybernetics"],
 				"uniques": ["[-33]% Unhappiness from [Population] [in capital]",
 					"[+25]% Great Person generation [in all cities]",
-					"[Great General] is earned [25]% faster",
-					"[Faith] cost of purchasing items in cities [-10]%"],
+					"[Great General] is earned [25]% faster"],
 				"row": 3,
 				"column": 3
 			},

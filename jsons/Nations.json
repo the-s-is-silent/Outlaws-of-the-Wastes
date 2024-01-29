@@ -112,7 +112,7 @@
 			"[-67]% Gold from Great Merchant trade missions",
 			"[+100]% unhappiness from the number of cities"],
 		"cities": ["Vodagrad", "Prava", "Nevesk", "Kyovashad", "Snezhnaya", "Prekrasnaya", "Zapolyarny", "Ubezhishche", "Nostrava",
-			"Grad Sysevich", "Mirny", "Margrave", "Yelesna", "Menestad"],
+			"Grad Sysevich", "Istochnik", "Mirny", "Margrave", "Yelesna", "Menestad"],
 		"spyNames": ["Sergey", "Iosef", "Leonid", "Mikhail", "Tatiana", "Veronika", "Alexei", "Anastasia", "Nikita", "Fyodor"],
 		"civilopediaText": [
 			{
@@ -126,7 +126,7 @@
 	{
 		"name": "Crimson Line",
 		"leaderName": "Aleksei Moskvin",
-		"adjective": "Soviet",
+		"adjective": ["Soviet"],
 		"startBias": ["Tundra"],
 		"preferredVictoryType": "Domination",
 		"favoredReligion": "Stalinism",
@@ -735,7 +735,7 @@
 	},
 	{
 		"name": "Izumrydniy Gorod",
-		"adjective": "Emerald",
+		"adjective": ["Emerald"],
 		"cityStateType": "Research",
 		"startBias": ["Tundra"],
 		"style": "Corporate",

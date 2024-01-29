@@ -10,7 +10,7 @@ The icons for Alma Frontier Guard and Alma State Guard are of my own creation.
 
 Unless otherwise specified, all of the following are from the Noun Project, licensed under Creative Commons or Public Domain. Also, if anyone feels like there is a better/more fitting icon out there for any particular building/unit/etc. than the one that is used, I am open to suggestions for replacement icons.
 
-Items still missing an icon (not necessarily a complete list): Arsenal of Liberty, Condenser Cooler, Defense Directorate (and its replacements), Exploratores, Field Preparations Squad, Ignitor's Tower, Issaquah Mystic, Mounted Railgun, Preservator (icon also missing from TCC-beta), Pridwen-class, Rapid Response Squad, Research and Preservation Institute, SS Casing, SS Life Support, State Guard, Super Mutant, Zemlyanka
+Items still missing an icon (not necessarily a complete list): Arsenal of Liberty, Condenser Cooler, Defense Directorate (and its replacements), Exploratores, Field Preparations Squad, Ignitor's Tower, Issaquah Mystic, Mounted Railgun, Pax Observer, Pax Surveyor, Preservator (icon also missing from TCC-beta), Pridwen-class, Rapid Response Squad, Research and Preservation Institute, SS Casing, SS Life Support, State Guard, Super Mutant, Zemlyanka
 
 ### Building Icons
 - Abbey: [Westminster Abbey](https://thenounproject.com/icon/westminster-abbey-5459042/) by Brickclay, PK
@@ -26,14 +26,13 @@ Items still missing an icon (not necessarily a complete list): Arsenal of Libert
 - Caesareum: [temple](https://thenounproject.com/icon/temple-3636159/) by Rock Zombie
 - Cathedral School: [temple](https://thenounproject.com/icon/temple-2072915/) by Nick Bluth, US
 - Census Chamber: [Neural Processor](https://thenounproject.com/icon/neural-processor-1870013/) by ProSymbols, US
-- Central Command: [Bunker](https://thenounproject.com/icon/bunker-4477229/) by Doodle Icons
+- Central Metro Command: [Bunker](https://thenounproject.com/icon/bunker-4477229/) by Doodle Icons
 - Coastal Defenses: [seawall](https://thenounproject.com/icon/seawall-5503652/) by Luis Prado, US
 - Coastal Longhouse: [longhouse](https://thenounproject.com/icon/longhouse-5058241/) by Flowicon, TH
 - Commonwealth Reserve: [aquifer](https://thenounproject.com/icon/aquifer-5399259/) by M. Oki Orlando, ID
 - Constabulary: [jail](https://thenounproject.com/icon/jail-2577140/) by Made by Made, AU
 - Contraband Disposal Site: [prohibited](https://thenounproject.com/icon/prohibited-209190/) by Andrea Mazzini, IT
 - Contract with Survivors: [contract](https://thenounproject.com/icon/contract-4139832/) by Design Circle, PK
-- Convert Survivors: [missionary](https://thenounproject.com/icon/missionary-5143972/) by jonata hangga, ID
 - Deseret Data Center: [data warehouse](https://thenounproject.com/icon/data-warehouse-5615005/) by Nikita Kozin, RU
 - Disciplinary Council: [court](https://thenounproject.com/icon/court-4428402/) by Eko Purnomo, ID
 - Earth Clinic: [herbal remedy](https://thenounproject.com/icon/herbal-remedy-842292/) by Ker'is, TH
@@ -48,6 +47,7 @@ Items still missing an icon (not necessarily a complete list): Arsenal of Libert
 - Gostiny Dvor: [castle](https://thenounproject.com/icon/castle-1502/) by Iconic, CY
 - Grand Tabernacle: [Mormon Temple](https://thenounproject.com/icon/mormon-temple-91138/) by Jason Dilworth
 - Gulag: [star](https://thenounproject.com/icon/star-3086974/) by Dmitry Vasiliev
+- Gupvi: Same icon as above
 - Harbinger Manege: [greek temple](https://thenounproject.com/icon/greek-temple-915585/) by Blair Adams, US
 - Hexlock Chemical Company: [chemical industry](https://thenounproject.com/icon/chemical-industry-4762097/) by Azam Ishaq, PK
 - Homeland Defense Initiative: [national defense](https://thenounproject.com/icon/national-defense-4363309/) by Yusuf Solihudin, ID
@@ -83,6 +83,7 @@ Items still missing an icon (not necessarily a complete list): Arsenal of Libert
 - Sangreal Vault: [holy grail](https://thenounproject.com/icon/holy-grail-2256337/) by Arunika
 - Sealed Facility: [Bunker](https://thenounproject.com/icon/bunker-2972283/) by IcoLabs, BR
 - Sharecropper Farm: [out building](https://thenounproject.com/icon/out-building-1848316/) by Smashicons, GB
+- Slave Quarters: [shack](https://thenounproject.com/icon/shack-2837993/) by ciciliakwo, FI
 - Sociopolitical Institute: [Campus](https://thenounproject.com/icon/campus-3884267/) by Adrien Coquet, FR
 - Soup Kitchen: [Soup](https://thenounproject.com/icon/soup-1182528/) by Peter Emil van den Berg, NL
 - State Dacha: [cabin](https://thenounproject.com/icon/cabin-3306863/) by PenSmasher, TH
