@@ -152,7 +152,7 @@
 				"column": 3
 			},
 			{
-				"name": "Autocracy",
+				"name": "Security Forces",
 				"uniques": ["[+2 Culture, +3 Happiness] [in all cities with a garrison]"],
 				"row": 1,
 				"column": 5

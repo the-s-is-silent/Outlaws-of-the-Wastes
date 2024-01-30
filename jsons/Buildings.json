@@ -3729,9 +3729,7 @@
 		"cost": 0,
 		"science": 1,
 		"production": 3,
-		"uniques": ["Provides [2] [Weapons]",
-			"Provides [2] [Oil]",
-			"[+100]% Production when constructing [Helicopter] units [in this city]",
+		"uniques": ["[+50]% Production when constructing [Helicopter] units [in this city]",
 			"Free [Salvaged Helicopter] appears",
 			"Must not be on [Hill]",
 			"Only available <in cities without a [Alma Tank Depot]>",
@@ -3744,9 +3742,7 @@
 		"cost": 0,
 		"science": 1,
 		"production": 3,
-		"uniques": ["Provides [2] [Weapons]",
-			"Provides [2] [Oil]",
-			"[+100]% Production when constructing [Armor] units [in this city]",
+		"uniques": ["[+50]% Production when constructing [Armor] units [in this city]",
 			"Free [Ancient Armor] appears",
 			"Only available <in cities without a [Alma Air Base]>",
 			"Never destroyed when the city is captured"]
@@ -3983,7 +3979,6 @@
 	},
 	{
 		"name": "Pre-War Cryo Sanctum",
-		"replaces": "Cryo Sanctum",
 		"uniqueTo": "The Pax",
 		"isWonder": true,
 		"cost": 0,
@@ -3994,10 +3989,7 @@
 		"percentStatBonus": {"science": 10},
 		"specialistSlots": {"Scientist": 1},
 		"requiredTech": "Human Genome",
-		"uniques": [
-			"Free [Persevering Pax Researcher] appears <every [25] turns>",
-			"Will not be displayed in Civilopedia"
-		]
+		"uniques": ["Free [Persevering Pax Researcher] appears <every [25] turns>"]
 	},
 	{
 		"name": "Research and Preservation Institute",
@@ -4023,8 +4015,9 @@
 		"percentStatBonus": {"science": 25},
 		"cost": 0,
 		"uniques": ["[+2] population [in this city]",
-			"Only available <in cities with a [Cryo Sanctum]>",
+			"Only available <in cities with a [Pre-War Cryo Sanctum]>",
 			"Unsellable",
+			"Never destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"],
 		"requiredTech": "Refrigeration"
 	},

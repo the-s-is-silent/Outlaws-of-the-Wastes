@@ -147,7 +147,10 @@
 	{
 		"name": "Feast of Flesh",
 		"type": "Follower",
-		"uniques": ["[+2 Food, +1 Happiness] from every [Ranch]"]
+		"uniques": ["[+2 Food, +1 Happiness] from every [Ranch]",
+			"Only available <before adopting [Feed the Faithful]>",
+			"Only available <before adopting [Mandatory Rationing]>",
+			"Only available <before adopting [Obey the Elders]>"]
 	},
 	{
 		"name": "Feed the Faithful",
@@ -156,7 +159,8 @@
 			"[+1 Food] from every [Monastery]",
 			"[+1 Food] from every [Megachurch]",
 			"Only available <before adopting [Obey the Elders]>",
-			"Only available <before adopting [Mandatory Rationing]>"]
+			"Only available <before adopting [Mandatory Rationing]>",
+			"Only available <before adopting [Feast of Flesh]>"]
 	},
 	{
 		"name": "Followers of Old World Crafts",
@@ -184,6 +188,7 @@
 		"name": "Mandatory Rationing",
 		"type": "Follower",
 		"uniques": ["[+2 Food, +2 Gold, -1 Happiness] [in cities following this religion]",
+			"Only available <before adopting [Feast of Flesh]>",
 			"Only available <before adopting [Feed the Faithful]>",
 			"Only available <before adopting [Obey the Elders]>"]
 	},
@@ -191,6 +196,7 @@
 		"name": "Obey the Elders",
 		"type": "Follower",
 		"uniques": ["[+2 Food, +2 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>",
+			"Only available <before adopting [Feast of Flesh]>",
 			"Only available <before adopting [Feed the Faithful]>",
 			"Only available <before adopting [Mandatory Rationing]>"]
 	},

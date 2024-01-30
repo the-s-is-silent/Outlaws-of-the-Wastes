@@ -392,6 +392,7 @@ Changes since the Harbinger update
 	- Almaty:
 		- Alma Air Base only gives one free Salvaged Helicopter again and no longer increases city HP.
 		- Alma Tank Depot no longer increases city strength.
+		- Neither of the above buildings provide any resources anymore. Also, the production bonus to their respective units is reduced to 50%.
     - Atlas:
         - Kruger Line now adds +3 Culture to the capital, but only adds +1 Production to Railroads and +1 Water per Trade Route. Its cost is greatly reduced, to 150 + 30 per owned city (was originally 625).
 	- Blackwarden:
@@ -470,6 +471,7 @@ Changes since the Harbinger update
 - Persevering Pax Researchers are no longer Great People. No more will City-State quests ask you to somehow acquire them.
 - Purge Robot Proto and MKI are now Armor units. The former's Production cost is increased to 70.
 - Rubble Gunmen now replace Crossbowmen, correcting the major error in the base game where Deadrock Clan had two unique units replacing Archers.
+- Salvaged Helicopter's movement points reduced by 1 and ranged strength reduced by 10. However, its Production cost is reduced by 50.
 - Seastead Vessel now uses a single unique for all Water improvements that are not specifically for improving Water resources, in the event that more such improvements are added in the future. Also, it can now enter and remove ice tiles.
 - State Guards are now limited to 3 per City-State.
 	- Alma State Guard's strength reduced to 40.
@@ -479,7 +481,7 @@ Changes since the Harbinger update
 
 **Belief Adjustments**
 - Acolytes of a New God now awards +100 Faith (modified by game speed) for each city conquered.
-- Feast of Flesh now adds +2 Food, +1 Happiness to Ranches.
+- Feast of Flesh now adds +2 Food, +1 Happiness to Ranches, and cannot be taken alongside the other Follower Beliefs that add Food yields of +2 or higher (not counting Gardens).
 - God of Beasts is now limited to the actual beast resources (Horses, Cattle, Goats, Deer). No more late-game Culture boosts from bug or water tiles.
 - Isolationism and Worship Music have been deleted.
 - New Zion nerfed to restrict its stat yields to Seminaries + replacements and no longer spawn a free Great Sage for the first adopter.
@@ -495,6 +497,7 @@ Changes since the Harbinger update
 	- The finisher bonus no longer requires a garrison for the bonus Food/Growth.
 - Sovereignty:
 	- Doctrine buffed to add +2 Water to Barracks, fully matching Rekmod's buff. Because yes, war economy is best economy.
+	- Autocracy renamed to Security Forces.
 	- Military Tradition no longer grants its XP bonus to Aircraft.
 - Theocracy:
 	- Divine Mandate now lowers the Faith cost of unit/building purchase (instead of waiting until the finisher bonus).
@@ -613,7 +616,7 @@ Changes since the Harbinger update
 - The Patriots:
 	- Arsenal of Liberty (replaces Armaments Production Line, much cheaper to build (100 vs. 250) but requires a Power surplus for both the provided Weapons and Production boost towards Military units)
 - The Pax:
-	- Pre-War Cryo Sanctum (replaces Cryo Sanctum)
+	- Pre-War Cryo Sanctum (standalone; they no longer steal the regular Cryo Sanctum from everyone else)
 		- Differences from regular Cryo Sanctum:
 		- 5 Science vs. 2
 		- 2 Culture vs. 10

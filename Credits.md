@@ -70,6 +70,7 @@ Items still missing an icon (not necessarily a complete list): Arsenal of Libert
 - Parish School: [School](https://thenounproject.com/icon/school-3758946/) by iconcheese
 - PINDAR Station: [London Underground](https://thenounproject.com/icon/london-underground-26183/) by Daniel Turner, GB
 - Pioneers Station: [Train Station](https://thenounproject.com/icon/train-station-4521738/) by Eucalyp
+- Pre-War Cryo Sanctum: [cryogenic](https://thenounproject.com/icon/cryogenic-5753249/) by Rolas Design, ID
 - [Printing Press](https://thenounproject.com/icon/printing-press/11880/) by Mike Wirth (same icon used for Printing Press tech in base Unciv)
 - Quorum of the Twelve: [city Council](https://thenounproject.com/icon/city-council-3566027/) by Thomas Deckert, US
 - Raider Suppression Initiative: [Soldier Attack with Machine Gun](https://thenounproject.com/icon/soldier-attack-with-machine-gun-659094/) by Gan Khoon Lay
@@ -114,6 +115,8 @@ Items still missing an icon (not necessarily a complete list): Arsenal of Libert
 - The Harbingers: [Water](https://thenounproject.com/icon/water-3064516/) by brian saptura
 
 ### Policy Icons
+- Sovereignty tree
+  - Security Forces: [Riot Police](https://thenounproject.com/icon/riot-police-47583/) by Jakob Vogel, AT
 - Rediscovery tree: [Explorer Hat](https://thenounproject.com/icon/explorer-hat-3416864/) by b farias, CL
   - Advanced Piracy: [Skull and Crossbones](https://thenounproject.com/icon/skull-and-crossbones-15526/) by Anton Outkine, RU
   - Aquaculture: [aquaculture system](https://thenounproject.com/icon/aquaculture-system-4974970/) by Eucalyp

@@ -401,7 +401,7 @@
 
 	//Deseret Nation unique units
 	{
-		"name": "Battleaxe of the Lord",
+		"name": "Battle-axe of the Lord",
 		"unitType": "Scrapper",
 		"replaces": "Machete",
 		"uniqueTo": "Deseret2",
@@ -1676,10 +1676,10 @@
 		"unitType": "Helicopter",
 		"uniqueTo": "Almaty",
 		"range": 1,
-		"movement": 6,
+		"movement": 5,
 		"strength": 15,
-		"rangedStrength": 50,
-		"cost": 200,
+		"rangedStrength": 40,
+		"cost": 150,
 		"requiredTech": "Steel",
 		"upgradesTo": "Helicopter",
 		"uniques": [
