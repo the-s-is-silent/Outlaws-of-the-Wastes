@@ -1,4 +1,4 @@
-Here is a comprehensive list of every change that was made to a unit, building, wonder, policy, belief, etc. in the base scenario (excluding faction unique components and Great Improvements only created by faction unique components, but including one city-state unique component):
+Here is a comprehensive list of every change that was made to a unit, building, wonder, policy, belief, etc. in the base scenario (excluding faction unique components and Great Improvements only created by faction unique components, but including city-state unique components):
 
 Tech Changes:
 - Electronics is now required for both Computers and Radar; the latter adjustment prevents players from skipping the Rebuilding era.
@@ -21,8 +21,10 @@ Ruins Changes:
 Unit Changes:
 - Nuclear weapons can no longer be purchased.
 - Terraformer Part production cost is doubled.
-- Ancient Armor is now a standalone UU for Almaty, and its strength has been reduced to 50. This gives players a chance to fight back in the early-game against enemy factions who either allied with or conquered Almaty or have the Army Depot in their possession.
-- Ancient Armor also gains some buffs, however: base movement increased to 5 with another point added when starting its turn in friendly territory, and no combat penalty for attacking across rivers. Also, its Production cost is reduced from 200 to 150.
+- Almaty's unique units are now standalone units, and the CS is blocked from building Low Tech units in its UA.
+	- Ancient Armor's strength has been reduced to 50. This gives players a chance to fight back in the early-game against enemy factions who either allied with or conquered Almaty or have the Army Depot in their possession.
+	- Ancient Armor also gains some buffs, however: movement points increased to 5 with another point added when starting its turn in friendly territory, and no combat penalty for attacking across rivers. Also, its Production cost is reduced from 200 to 150.
+	- Salvaged Helicopter's movement points are reduced to 5, its ranged strength is reduced to 40, but its Production cost is reduced from 200 to 150.
 - Attack Boats (and the Mariners' replacement) no longer require Factories to build, so they're now properly available at Steam Power instead of being forced to wait until Manufacturing. They can now also spawn as Barbarian units.
 - Machine Guns are now Shooter units with the Personnel modifier, and start with Logistics.
 - Scouts (and New Star's replacement) now upgrade to Forward Observers instead of Gunmen. Also, Forward Observers cannot be used to capture cities.
@@ -44,6 +46,7 @@ Building Changes:
 	- All Congress variants that reduce Unhappiness have their potency reduced by half.
 	- All Council variants are increased to a minimum production cost of 100.
 - Industry building adjustments:
+	- Alma Air Base/Tank Depot no longer provide resources. However, they give a +50% Production bonus towards their respective unit and spawn a free unit for Almaty. 
 	- Aluminum Smelter no longer adds a Food/Water penalty to Aluminum tiles and restores the commented out +3 Production to the city, and also adds an Engineer slot.
 	- Armament Production Line, Armor Production Line, and Aerospace Facility no longer reduce the city's Production when not building their specific units. However, they now each have a maintenance cost of 3 Water per turn.
 		- Armor Production Line now only adds a 33% Production bonus towards Armor units (that will shut off if the faction runs out of Power) and no longer awards a free Tank upon acquisition; however, building it gives Armor units access to a new promotion improving their defensive abilities.
