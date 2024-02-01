@@ -342,7 +342,7 @@
 		"happiness": 1,
 		"uniques": ["[+25]% Natural religion spread [in all cities]",
 			"Provides [2] [Weapons]",
-			"[2] free [Battleaxe of the Lord] units appear",
+			"[2] free [Battle-axe of the Lord] units appear",
 			"Can only be built [in capital]",
 			"Gain a free [Bishop's Storehouse] [in this city]"],
 		"quote": "Zion is a place, and a state of being, that has been lost to us several times in the past. Each loss is a new fall of man. And after each fall, we weep in strange new lands and dream of Zion, dream of visiting vengeance upon those who took it from us.",
@@ -3061,7 +3061,6 @@
 	{
 		"name": "Prison Camp",
 		"hurryCostModifier": 25,
-		"cost": 20,
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
 			"Can only be built [in annexed cities]",
