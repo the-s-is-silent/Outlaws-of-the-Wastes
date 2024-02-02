@@ -671,7 +671,7 @@
 				"uniques": ["[+10]% [Food] from every [Coal Plant]",
 					"[+2 Production] from every [Solar collector]",
 					"[+2 Production] from every [Wind farm]",
-					"Solar collectors and Wind farms provide 1 extra unit of Power",
+					"Comment [Solar collectors and Wind farms provide 1 extra unit of Power]",
 					"[+2 Happiness, +1 Culture] from every [Recycling Plant]",
 					"[+2 Happiness, +1 Culture] from every [Carbon Capture]"],
 				"row": 1,
@@ -809,7 +809,7 @@
 					"[+2 Gold] from every [Moisture trap]",
 					"[+2 Production] from every [Solar collector]",
 					"[+2 Production] from every [Wind farm]",
-					"Solar collectors and Wind farms provide 1 extra unit of Power",
+					"Comment [Solar collectors and Wind farms provide 1 extra unit of Power]",
 					"[+10]% growth [in all cities] <during a Golden Age>"],
 				"row": 1,
 				"column": 1

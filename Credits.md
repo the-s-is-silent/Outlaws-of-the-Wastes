@@ -10,7 +10,7 @@ The icons for Alma Frontier Guard and Alma State Guard are of my own creation.
 
 Unless otherwise specified, all of the following are from the Noun Project, licensed under Creative Commons or Public Domain. Also, if anyone feels like there is a better/more fitting icon out there for any particular building/unit/etc. than the one that is used, I am open to suggestions for replacement icons.
 
-Items still missing an icon (not necessarily a complete list): Arsenal of Liberty, Condenser Cooler, Defense Directorate (and its replacements), Exploratores, Field Preparations Squad, Ignitor's Tower, Issaquah Mystic, Mounted Railgun, Pax Observer, Pax Surveyor, Preservator (icon also missing from TCC-beta), Pridwen-class, Rapid Response Squad, Research and Preservation Institute, Sharashka, SS Casing, SS Life Support, State Guard, Super Mutant, Zemlyanka
+Items still missing an icon (not necessarily a complete list): Condenser Cooler, Defense Directorate (and its replacements), Field Preparations Squad, Mounted Railgun, Pax Observer, Pax Researcher, Pax Surveyor, Persevering Pax Researcher, Preservator (icon also missing from TCC-beta), Pridwen-class, Rapid Response Squad, SS Casing, SS Life Support, Super Mutant
 
 ### Building Icons
 - Abbey: [Westminster Abbey](https://thenounproject.com/icon/westminster-abbey-5459042/) by Brickclay, PK
@@ -18,6 +18,7 @@ Items still missing an icon (not necessarily a complete list): Arsenal of Libert
 - Afrikan Reformed Church: [Church](https://thenounproject.com/icon/church-1786868/) by SANTRI ICON, ID
 - Alternet Cafe: [internet cafe](https://thenounproject.com/icon/internet-cafe-4624824/) by Eucalyp
 - Armory Station: [Metro Station](https://thenounproject.com/icon/metro-station-5108900/) by Singlar
+- Arsenal of Liberty: [ammunition](https://thenounproject.com/icon/ammunition-2423453/) by Template, TH
 - Atomgrad Project: [Nuclear](https://thenounproject.com/icon/nuclear-2661706/) by emkamal kamaluddin, ID
 - Atomic Diner: [atom](https://thenounproject.com/icon/atom-1081009/) by ProSymbols, US
 - Austere Processing Hub: [database](https://thenounproject.com/icon/database-5276636/) by iconfield, ID
@@ -52,6 +53,7 @@ Items still missing an icon (not necessarily a complete list): Arsenal of Libert
 - Hexlock Chemical Company: [chemical industry](https://thenounproject.com/icon/chemical-industry-4762097/) by Azam Ishaq, PK
 - Homeland Defense Initiative: [national defense](https://thenounproject.com/icon/national-defense-4363309/) by Yusuf Solihudin, ID
 - Ice Hockey Rink: [hockey](https://thenounproject.com/icon/hockey-3509449/) by nareerat jaikaew, TH
+- Ignitor's Tower: [Brick Tower](https://thenounproject.com/icon/brick-tower-384759/) by Creative Stall, PK
 - Interpretative Center: [translate](https://thenounproject.com/icon/translate-3624415/) by sripfoto, TH
 - Interstice: [hyperloop train](https://thenounproject.com/icon/hyperloop-train-5736270/) by Delwar Hossain, BD
 - Jeweler: [jeweler](https://thenounproject.com/icon/jeweler-207094/) by Hans Paul Mösl Junior, BR
@@ -77,12 +79,14 @@ Items still missing an icon (not necessarily a complete list): Arsenal of Libert
 - [Red Square](https://thenounproject.com/icon/red-square-4944120/) by Amethyst Studio, TH
 - Refurbished Textile Mill: [Textile industry](https://thenounproject.com/icon/textile-industry-5649184/) by Studio 365
 - Remedial School (currently unused): [educational school building](https://thenounproject.com/icon/educational-school-building-3017500/) by Vectors Point
+- Research and Preservation Institute: [institute](https://thenounproject.com/icon/institute-5137615/) by lastspark, RU
 - Restored Temple of Zion: [Salt Lake Temple](https://thenounproject.com/icon/salt-lake-temple-219294/) by Nick Bluth, US
 - Riding Arena: [stadium](https://thenounproject.com/icon/stadium-4477576/) by Doodle Icons
 - The Round Table: [round table](https://thenounproject.com/icon/round-table-4817059/) by Musmellow
 - Sacred Cave: [cave](https://thenounproject.com/icon/cave-5590220/) by Ardhian Rama
 - Sangreal Vault: [holy grail](https://thenounproject.com/icon/holy-grail-2256337/) by Arunika
 - Sealed Facility: [Bunker](https://thenounproject.com/icon/bunker-2972283/) by IcoLabs, BR
+- Sharashka: [Prison](https://thenounproject.com/icon/prison-3373255/) by Start Up Graphic Design, TH
 - Sharecropper Farm: [out building](https://thenounproject.com/icon/out-building-1848316/) by Smashicons, GB
 - Slave Quarters: [shack](https://thenounproject.com/icon/shack-2837993/) by ciciliakwo, FI
 - Sociopolitical Institute: [Campus](https://thenounproject.com/icon/campus-3884267/) by Adrien Coquet, FR
@@ -100,6 +104,7 @@ Items still missing an icon (not necessarily a complete list): Arsenal of Libert
 - [Victory Column](https://thenounproject.com/icon/victory-column-4202773/) by tezar tantular, ID
 - Wasteland Surveillance Initiative: [Security](https://thenounproject.com/icon/security-123950/) by Aaron K. Kim, US
 - Workers' Facility: [facility](https://thenounproject.com/icon/facility-2815116/) by WEBTECHOPS LLP, IN
+- Zemlyanka: [refuge](https://thenounproject.com/icon/refuge-4122612/) by Robin Lopez, FR
 
 ### Improvement Icons
 - Artificial atoll: [island](https://thenounproject.com/icon/island-1546376/) by Chanut is Industries, TH (same icon used for Atoll in base Unciv)
@@ -168,10 +173,12 @@ Items still missing an icon (not necessarily a complete list): Arsenal of Libert
 - Educational Officer: [Government Officer](https://thenounproject.com/icon/government-officer-2003970/) by Made x Made, AU
 - Excalibur Knight: [Sword](https://thenounproject.com/icon/sword-2239554/) by Smalllike
 - Expeditionary Force: [mission](https://thenounproject.com/icon/mission-3048372/) by Eucalyp
+- Exploratores: Merger of [Laurel Wreath](https://thenounproject.com/icon/laurel-wreath-275974/) by Christopher T. Howlett, CA and [Gladius Sword](https://thenounproject.com/icon/gladius-sword-114601/) by Alex Firo, RO
 - Goon: [Hockey Mask](https://thenounproject.com/icon/hockey-mask-225297/) by P Thanga Vignesh
 - Great Caravan: [caravan](https://thenounproject.com/icon/caravan-4604787/) by Eucalyp
 - Hawkman Brave: [tomahawk](https://thenounproject.com/icon/tomahawk-4130106/) by Amethyst Studio
 - Hero of the Wastes: [Shield](https://thenounproject.com/icon/shield-49999/) by Jonathan Li
+- Issaquah Mystic: [shaman](https://thenounproject.com/icon/shaman-1629068/) by Daniel Schott, DE
 - Key to the City: [Anti-Aircraft Gun](https://game-icons.net/1x1/pierre-leducq/anti-aircraft-gun.html) by Pierre Leducq on Game-Icons.net
 - Knight: [Knight helmet](https://thenounproject.com/icon/knight-helmet-5567347/) by Singlar
 - Kommissar: [hat](https://thenounproject.com/icon/hat-5052310/) by Maxicons, TH
