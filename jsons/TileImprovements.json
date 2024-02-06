@@ -204,7 +204,7 @@
 		"uniques": ["Great Improvement",
 			"Gives a defensive bonus of [10]%",
 			"Removes removable features when built",
-			"[+3 Science] <after discovering [Electronics]>",
+			"[+3 Science] <after discovering [Laboratory]>",
 			"[+3 Science] <after discovering [Decryption]>",
 			"Pillaging this improvement yields approximately [+20 Gold]"]
 	},
@@ -235,8 +235,8 @@
 			"Gives a defensive bonus of [10]%",
 			"[+2 Production, +1 Food] <after discovering [Steam Power]>",
 			"[+2 Production, +1 Food] <after discovering [Railroads]>",
-			"[+2 Production, +1 Science] <after discovering [Electronics]>",
 			"[+2 Production, +1 Science] <after discovering [Robotics]>",
+			"[+2 Production, +1 Science] <after discovering [Advanced Materials]>",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]"]
 	},
@@ -416,71 +416,81 @@
 	},
 	{
 		"name": "C1F3 Refinery",
-		"production": 2,
+		"production": 1,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniqueTo": "Hexlock",
 		"uniques": [
 			"Refinery",
 			"Provides [1] [C1F3]",
 			"Gives a defensive bonus of [10]%",
-			"[+2 Production] <with [1] to [6] neighboring [Strategic resource] tiles>",
-			"[+2 Production] <with [1] to [6] neighboring [Manufactory] tiles>",
+			"[+1 Production] <with [1] to [6] neighboring [Strategic resource] tiles>",
+			"[+1 Production] <with [1] to [6] neighboring [Manufactory] tiles>",
+			"[+1 Production] <after discovering [Laboratory]>",
+			"[+1 Production] <after discovering [Advanced Materials]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		]
     },
 	{
 		"name": "C2N14 Refinery",
-		"gold": 3,
+		"gold": 2,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniqueTo": "Hexlock",
 		"uniques": [
 			"Refinery",
 			"Provides [1] [C2N14]",
 			"Gives a defensive bonus of [10]%",
-			"[+2 Production] <with [1] to [6] neighboring [Strategic resource] tiles>",
-			"[+2 Gold] <with [1] to [6] neighboring [Settlement] tiles>",
+			"[+1 Production] <with [1] to [6] neighboring [Strategic resource] tiles>",
+			"[+1 Gold] <with [1] to [6] neighboring [Settlement] tiles>",
+			"[+1 Gold] <after discovering [Laboratory]>",
+			"[+1 Gold] <after discovering [Advanced Materials]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		]
     },
 	{
 		"name": "C8H17 Refinery",
-		"culture": 2,
+		"culture": 1,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniqueTo": "Hexlock",
 		"uniques": [
 			"Refinery",
 			"Provides [1] [C8H17]",
 			"Gives a defensive bonus of [10]%",
-			"[+2 Production] <with [1] to [6] neighboring [Strategic resource] tiles>",
-			"[+2 Culture] <with [1] to [6] neighboring [Settlement] tiles>",
+			"[+1 Production] <with [1] to [6] neighboring [Strategic resource] tiles>",
+			"[+1 Culture] <with [1] to [6] neighboring [Settlement] tiles>",
+			"[+1 Culture] <after discovering [Laboratory]>",
+			"[+1 Culture] <after discovering [Advanced Materials]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		]
     },
 	{
 		"name": "SbF5 Refinery",
-		"science": 2,
+		"science": 1,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniqueTo": "Hexlock",
 		"uniques": [
 			"Refinery",
 			"Provides [1] [SbF5]",
 			"Gives a defensive bonus of [10]%",
-			"[+2 Production] <with [1] to [6] neighboring [Strategic resource] tiles>",
-			"[+2 Science] <with [1] to [6] neighboring [Academy] tiles>",
+			"[+1 Production] <with [1] to [6] neighboring [Strategic resource] tiles>",
+			"[+1 Science] <with [1] to [6] neighboring [Academy] tiles>",
+			"[+1 Science] <after discovering [Laboratory]>",
+			"[+1 Science] <after discovering [Advanced Materials]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		]
     },
 	{
 		"name": "VX Refinery",
-		"faith": 2,
+		"food": 1,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniqueTo": "Hexlock",
 		"uniques": [
 			"Refinery",
 			"Provides [1] [VX]",
 			"Gives a defensive bonus of [10]%",
-			"[+2 Production] <with [1] to [6] neighboring [Strategic resource] tiles>",
-			"[+2 Faith] <with [1] to [6] neighboring [Seminary] tiles>",
+			"[+1 Production] <with [1] to [6] neighboring [Strategic resource] tiles>",
+			"[+1 Food] <with [1] to [6] neighboring [Factory farm] tiles>",
+			"[+1 Food] <after discovering [Laboratory]>",
+			"[+1 Food] <after discovering [Advanced Materials]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		]
     },

@@ -10,7 +10,7 @@ The icons for Alma Frontier Guard and Alma State Guard are of my own creation.
 
 Unless otherwise specified, all of the following are from the Noun Project, licensed under Creative Commons or Public Domain. Also, if anyone feels like there is a better/more fitting icon out there for any particular building/unit/etc. than the one that is used, I am open to suggestions for replacement icons.
 
-Items still missing an icon (not necessarily a complete list): Condenser Cooler, Defense Directorate (and its replacements), Field Preparations Squad, Mounted Railgun, Pax Observer, Pax Researcher, Pax Surveyor, Persevering Pax Researcher, Preservator (icon also missing from TCC-beta), Pridwen-class, Rapid Response Squad, SS Casing, SS Life Support, Super Mutant
+Items still missing an icon (not necessarily a complete list): Condenser Cooler, Defense Directorate (and its replacements), Field Preparations Squad, Mounted Railgun, Pax Observer, Pax Researcher, Pax Surveyor, Persevering Pax Researcher, Pithouse, Preservator (icon also missing from TCC-beta), Pridwen-class, Rapid Response Squad, SS Casing, SS Life Support, Super Mutant
 
 ### Building Icons
 - Abbey: [Westminster Abbey](https://thenounproject.com/icon/westminster-abbey-5459042/) by Brickclay, PK
@@ -67,6 +67,7 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 - National Reservoir System: [Reservoir](https://thenounproject.com/icon/reservoir-3918342/) by Adrien Coquet, FR
 - Navy Shipyard: [shipyard](https://thenounproject.com/icon/shipyard-5848043/) by Andi Nur Abdullah, ID
 - Naval War College: [navy pier](https://thenounproject.com/icon/navy-pier-3925133/) by Lars Meiertoberens, DE
+- Nutri-Paste Dispenser: [Dispenser](https://thenounproject.com/icon/dispenser-4565083/) by Gustyne Pissesa Ardhaneswari, ID
 - Oceanological Center: [national maritime museum](https://thenounproject.com/icon/national-maritime-museum-3348038/) by Justicon, TH
 - OSI: [Research](https://thenounproject.com/icon/research-2280921/) by Petai Jantrapoon, TH
 - Parish School: [School](https://thenounproject.com/icon/school-3758946/) by iconcheese

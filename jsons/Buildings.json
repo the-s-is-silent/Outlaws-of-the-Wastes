@@ -198,7 +198,8 @@
 	{
 		"name": "Jeweler",
 		"requiredNearbyImprovedResources": ["Gems", "Silver"],
-		"specialistSlots": {"Merchant": 1},
+		"gold": 2,
+		"culture": 2,
 		"maintenance": 0,
 		"hurryCostModifier": 15,
 		"uniques": ["[+1 Production, +2 Gold, +1 Culture] from [Gems] tiles [in this city]",
@@ -287,13 +288,11 @@
 	{
 		"name": "Interpretative Center",
 		"culture": 3,
-		"specialistSlots": {"Administrator": 1},
 		"cost": 300,
 		"maintenance": 0,
 		"hurryCostModifier": 15,
 		"uniques": ["[+1 Culture] from [Great Improvement] tiles [in this city]",
 			"Must have an owned [Settlement] within [3] tiles",
-			"Only available <in cities with a [National Wonder]>",
 			"Consumes [1] [Power]"],
 		"requiredTech": "Flight"
 	},
@@ -405,7 +404,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": ["[+1] population [in this city]",
-			"[+1 Science, +1 Faith] [in this city] <with [Power]>",
+			"[+1 Science, +1 Faith] [in this city] <when above [0] [Power]>",
 			"[+1 Happiness] [in this city] <after adopting [Voting Rights]>",
 			"Consumes [1] [Slaves]", "Only available <with [Slaves]>", "Unsellable"],
 		"requiredTech": "Education"
@@ -698,7 +697,7 @@
 		"replaces": "Town Hall",
 		"uniqueTo": "The Harbingers",
 		"gold": 2,
-		"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Administrator": 1},
 		"uniques": ["[+1 Gold] from each Trade Route",
 			"[+2 Gold] from [Wasteland Station] tiles [in this city]",
 			"[-25]% Culture cost of natural border growth [in this city]",
@@ -710,7 +709,7 @@
 		"name": "Census Chamber",
 		"replaces": "Listening Post",
 		"uniqueTo": "The Harbingers",
-		"specialistSlots": {"Administrator": 1},
+		"happiness": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["Remove extra unhappiness from annexed cities",
@@ -754,7 +753,7 @@
 		"cityStrength": 10,
 		"science": 5,
 		"culture": 3,
-		"percentStatBonus": {"science": 15},
+		"percentStatBonus": {"science": 10},
 		"cost": 400,
 		"uniques": ["[Personnel] units gain the [Drone Recon] promotion",
 			"[+10]% Strength <for [Automated] units>",
@@ -937,16 +936,15 @@
 		"name": "Hex Corporation",
 		"isWonder": true,
 		"uniqueTo": "Hexlock",
-		"science": 1,
 		"production": 1,
-		"cityHealth": 20,
+		"science": 1,
 		"cost": 0,
 		"uniques": ["[+10]% Production when constructing [Promotion Nullifier] units [in all cities] <after discovering [Replaceable Parts]>",
 			"Provides [1] [Power]",
 			"Provides [2] [Encrypted Data]",
 			"Free [Purge Robot Proto] appears",
 			"Can only be built [in capital]",
-			"Gain a free [Compound Mixer] [in this city]"],
+			"Gain a free [Food Store] [in this city]"],
 		"quote": "'I will tell you a secret. Truth is, I'm not human. Not fully, at least. For some reason, Hexlock decided that it would be best having a computer lead them, instead of a person. And so their president decided to alter the head of his own daugther. Maybe the fact that I killed him as soon as I came out meant that I was now different. But to be honest? I feel the same. Just get bored of things much faster.'",
 		"civilopediaText": [
 			{
@@ -982,9 +980,9 @@
 		"name": "Atlas Refuge",
 		"isWonder": true,
 		"uniqueTo": "Atlas",
-		"specialistSlots": {"Scientist": 1},
 		"gold": 1,
-		"cityHealth": 40,
+		"science": 1,
+		"cityHealth": 80,
 		"cost": 0,
 		"uniques": [
 			"Provides [1] [Power]",
@@ -1003,7 +1001,7 @@
 		"name": "Eagle Rock Complex",
 		"isWonder": true,
 		"uniqueTo": "The Patriots",
-		"specialistSlots": {"Engineer": 1},
+		"production": 1,
 		"gold": 1,
 		"cityStrength": 20,
 		"cityHealth": 80,
@@ -1047,11 +1045,10 @@
 		"name": "Temple",
 		"isWonder": true,
 		"uniqueTo": "Cult of Ignis",
-		"specialistSlots": {"Administrator": 1},
+		"culture": 1,
 		"cost": 0,
 		"uniques": [
-			"[+2 Culture, +1 Faith] [in this city] <after discovering [Iron Working]>",
-			"[+2 Faith] from every [Administrator] <after discovering [Chemistry]>",
+			"[+1 Culture, +1 Faith] from every [Administrator] <after discovering [Engineering]>",
 			"Provides [2] [Oil]",
 			"Free [War Buggy] appears",
 			"Can only be built [in capital]",
@@ -1096,7 +1093,7 @@
 			"May choose [1] additional [Pantheon] beliefs when [founding] a religion",
 			"[2] free [Scavenger] units appear",
 			"Can only be built [in capital]",
-			"Gain a free [Salvage Yard] [in this city]"]
+			"Gain a free [Pithouse] [in this city]"]
 		//Quote TBD
 	},
 	{
@@ -1172,7 +1169,7 @@
 			"[+2 Culture, +1 Happiness] [in this city] <after discovering [Decontamination]>",
 			"Free [Mutant] appears",
 			"Can only be built [in capital]",
-			"Gain a free [Food Store] [in this city]"
+			"Gain a free [Zemlyanka] [in this city]"
 		],
 		"quote": "There is a sickness in the earth. You can feel it in the air we breathe and the water we drink. We have poisoned our mother. All we can do now is try to make things right.",
 		"civilopediaText": [
@@ -2225,7 +2222,6 @@
 		"name": "Media Center", //no longer a wonder
 		"happiness": 3,
 		"culture": 2,
-		"specialistSlots": {"Administrator": 1},
 		"requiredNearbyImprovedResources": ["Books", "Data"],
 		"uniques": ["[+2 Culture] from [Books] tiles [in this city]",
 			"[+2 Culture] from [Data] tiles [in this city]",
@@ -2235,7 +2231,6 @@
 	{
 		"name": "Ranch",
 		"requiredNearbyImprovedResources": ["Cattle", "Goats", "Furs", "Hogs", "Horses"],
-		"specialistSlots": {"Farmer": 1},
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -2331,6 +2326,76 @@
 		"requiredTech": "Redomestication"
 	},
 	{
+		"name": "Forge",
+		"production": 1,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"requiredTech": "Iron Working",
+		"uniques": [
+			"[+15]% Production when constructing [Land] units [in this city]",
+			"[+1 Production] [in this city] <when above [0] [Power]>"
+		]
+	},
+	{
+		"name": "Salvage Yard",
+		"replaces": "Forge",
+		"uniqueTo": "Children of Rust",
+		"production": 1,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"requiredTech": "Iron Working",
+		"uniques": [
+			"[+15]% Production when constructing [Land] units [in this city]",
+			"[+1 Production] from [Forest] tiles [in this city]",
+			"[+1 Production] from [Jungle] tiles [in this city]",
+			"[+1 Production] from [Sunken Ruins] tiles [in this city]",
+			"[+1 Production] [in this city] <when above [0] [Power]>"
+		]
+	},
+	{
+		"name": "Chop Shop",
+		"replaces": "Forge",
+		"uniqueTo": "Cult of Ignis",
+		"production": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Iron Working",
+		"uniques": [
+			"[+3 Production] from [Scrap] tiles [in this city]",
+			"[+25]% Production when constructing [Armor] units [in this city]",
+			"[+1 Production] [in this city] <when above [0] [Power]>"
+		]
+	},
+	{
+		"name": "Scrounged Armory",
+		"replaces": "Forge",
+		"uniqueTo": "Enclavers",
+		"cityStrength": 5,
+		"production": 1,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"requiredTech": "Iron Working",
+		"uniques": [
+			"Provides [1] [Weapons]",
+			"[+15]% Production when constructing [Land] units [in this city]",
+			"[+1 Production] [in this city] <when above [0] [Power]>"
+		]
+	},
+	{
+		"name": "Calutron",
+		"uniqueTo": "Proklyatyye",
+		"replaces": "Forge",
+		"production": 1,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"requiredTech": "Iron Working",
+		"uniques": [
+			"Provides [1] [Uranium]",
+			"[+1 Production, +1 Culture] from [Uranium] tiles [in this city]",
+			"[+1 Production] [in this city] <when above [0] [Power]>",
+			"[+1 Production] [in this city] <with [Machine Parts]>"
+		]
+	},
+	{
 		"name": "Blast Furnace",
 		"maintenance": 1,
 		"hurryCostModifier": 25,
@@ -2343,7 +2408,6 @@
 		"name": "Aluminum Smelter",
 		"maintenance": 1,
 		"production": 3,
-		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"requiredNearbyImprovedResources": ["Aluminum"],
 		"uniques": ["[+2 Production] from [Aluminum] tiles [in this city]",
@@ -2356,7 +2420,6 @@
 		"requiredNearbyImprovedResources": ["Oil"],
 		"maintenance": 1,
 		"cost": 150,
-		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"uniques": ["Provides [1] [Oil]",
 			"Provides [1] [Oil] <after discovering [Advanced Materials]>",
@@ -2373,12 +2436,11 @@
 		"production": 2,
 		"maintenance": 1,
 		"cost": 150,
-		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"uniques": ["[+2 Production, +1 Culture] from [Oil] tiles [in this city]",
 			"Provides [1] [Oil]",
 			"Provides [1] [Oil] <after discovering [Advanced Materials]>",
-			"[+1 Production] [in this city] <with [Power]>",
+			"[+1 Production] [in this city] <when above [0] [Power]>",
 			"[+1 Production] [in this city] <with [Machine Parts]>",
 			"Only available <in cities without a [Oil Plant]>"]
 	},
@@ -2413,7 +2475,7 @@
 	{
 		"name": "Plastics Factory",
 		"production": 2,
-		"specialistSlots": {"Engineer": 1},
+		"percentStatBonus": {"production": 5},
 		"maintenance": 2,
 		"hurryCostModifier": 0,
 		"requiredNearbyImprovedResources": ["Oil"],
@@ -2476,15 +2538,34 @@
 		"cost": 750,
 		"hurryCostModifier": 33,
 		"percentStatBonus": {"production": 15},
-		"specialistSlots": {"Engineer": 1},
+		"specialistSlots": {"Engineer": 2},
 		"uniques": [
 			"[+1 Production] from [Scrap] tiles [in this city]",
 			"[+1 Production] from [Metal] tiles [in this city]",
 			"[+1 Production] from [Plastics] tiles [in this city]",
 			"[+1 Production] from [Strategic resource] tiles [in this city]",
-			"Only available <in cities with a [Factory]>"
+			"Only available <in cities with a [Factory]>",
+			"Consumes [1] [Power]"
 		],
 		"requiredTech": "Plastics Recycling"
+	},
+	{
+		"name": "Automated Factory",
+		"percentStatBonus": {"production": 25},
+		"production": 5,
+		"maintenance": 3,
+		"uniques": [
+			"[+1 Production] [in this city] <when above [0] [Power]>",
+			"Only available <in cities with a [Factory]>",
+			"Consumes [1] [Power]",
+			"Consumes [1] [Aluminum]"
+		],
+		"requiredTech": "Robotics",
+		"civilopediaText": [
+			{
+				"text": "This building enables the construction of advanced energy units."
+			}
+		]
 	},
 	{
 		"name": "Bio Synthetizer",
@@ -2674,7 +2755,6 @@
 		"name": "Rainwater Purifier",
 		"gold": 2,
 		"percentStatBonus": {"gold": 15},
-		"specialistSlots": {"Merchant": 1},
 		"requiredTech": "Atmosphere Remediation",
 		"uniques": ["[+1 Gold] from [Moisture trap] tiles [in this city]"]
 	},
@@ -2761,7 +2841,7 @@
 		"maintenance": 0,
 		"hurryCostModifier": 33,
 		"percentStatBonus": {"science": 33},
-		"specialistSlots": {"Scientist": 1, "Merchant": 1},
+		"specialistSlots": {"Scientist": 1},
 		"uniques": [
 			"[+1 Science] from [Jungle] tiles [in this city]",
 			"[+1 Science] from [Forest] tiles [in this city]",
@@ -3034,11 +3114,12 @@
 		"name": "Arena",
 		"replaces": "Listening Post",
 		"uniqueTo": "Cult of Ignis",
-		"specialistSlots": {"Administrator": 1},
+		"happiness": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["New [Military] units start with [15] Experience [in this city]",
 			"Remove extra unhappiness from annexed cities",
+			"[+1 Happiness] [in this city] <when at war>",
 			"[+1 Happiness, +1 Culture] [in this city] <with [Slaves]>",
 			"Only available <in cities without a [Prison Camp]>",
 			"Destroyed when the city is captured"],
@@ -3248,7 +3329,6 @@
 		"replaces": "Plastics Factory",
 		"uniqueTo": "Atlas",
 		"percentStatBonus": {"production": 10},
-		"specialistSlots": {"Engineer": 1},
 		"maintenance": 2,
 		"hurryCostModifier": 0,
 		"requiredNearbyImprovedResources": ["Metal", "Aluminum"],
@@ -3275,7 +3355,7 @@
 		"name": "Personnel Office",
 		"replaces": "Town Hall",
 		"uniqueTo": "Blackwarden",
-		"specialistSlots": {"Administrator": 1, "Merchant": 1},
+		"specialistSlots": {"Administrator": 1},
 		"maintenance": 1,
 		"uniques": ["[-25]% Gold cost of acquiring tiles [in this city]",
 			"[+10]% Production when constructing [Personnel] units [in this city]",
@@ -3283,6 +3363,34 @@
 			"[+1 Happiness, +1 Culture] [in this city] <when above [0] [Power]>"],
 		"cost": 160,
 		"hurryCostModifier": 25
+	},
+	{
+		"name": "Pithouse",
+		"replaces": "Food Store",
+		"uniqueTo": "Children of Rust",
+		"cityHealth": 50,
+		"food": 1,
+		"culture": 1,
+		"cost": 10,
+		"hurryCostModifier": -25,
+		"uniques": ["[+20]% Food is carried over after population increases [in this city]",
+			"[+1 Food] [in this city] <with [Salt]>",
+			"[-1 Production, +1 Gold] [in this city] <with [Alcohol]>",
+			"[-1 Production, +1 Gold] [in this city] <with [Narcotics]>",
+			"[-1 Production, -1 Food, +1 Gold] [in this city] <with [Refined Narcotics]>"]
+	},
+	{
+		"name": "Commune",
+		"replaces": "Town Hall",
+		"uniqueTo": "Children of Rust",
+		"maintenance": 1,
+		"cost": 120,
+		"uniques": ["[-25]% Culture cost of natural border growth [in this city]",
+			"[+1 Happiness, +1 Culture, +2 Food] [in this city] <when above [0] [Power]>",
+			"[+1] population [in this city]",
+			"Unsellable"],
+		"hurryCostModifier": 40,
+		"requiredTech": "Civil Service"
 	},
 	{
 		"name": "Bike Path",
@@ -3382,7 +3490,7 @@
 		"uniqueTo": "Cult of Ignis",
 		"specialistSlots": {"Administrator": 1},
 		"cityHealth": 80,
-		"cost": 40,
+		"cost": 120,
 		"hurryCostModifier": 25,
 		"uniques": ["City Defense",
 			"[+75]% Production when constructing [Worker] units [in this city]",
@@ -3454,6 +3562,31 @@
 			"Can only be built [in capital]"]
 	},
 	{
+		"name": "Nutri-Paste Dispenser",
+		"replaces": "Food Store",
+		"uniqueTo": "Hexlock",
+		"food": 1,
+		"happiness": -1,
+		"cost": 10,
+		"hurryCostModifier": -25,
+		"uniques": ["[+20]% Food is carried over after population increases [in this city]",
+			"[+1 Food] [in this city] <with [Salt]>",
+			"[+1 Food] [in this city] <when above [0] [VX]>",
+			"[-1 Production, +1 Gold] [in this city] <with [Alcohol]>",
+			"[-1 Production, +1 Gold] [in this city] <with [Narcotics]>",
+			"[-1 Production, -1 Food, +1 Gold] [in this city] <with [Refined Narcotics]>"]
+	},
+	{
+		"name": "Chemical Extractor",
+		"uniqueTo": "Hexlock",
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"maintenance": 1,
+		"uniques": ["[+1 Production] from [Refinery] tiles [in this city]"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Chemistry"
+	},
+	{
 		"name": "Chemfuel Generator",
 		"uniqueTo": "Hexlock",
 		"percentStatBonus": {"production": 5},
@@ -3472,7 +3605,7 @@
 		"uniques": ["All newly-trained [Purge Robot] units [in this city] receive the [Chemical Weapons] promotion",
 			"[+50]% Yield from every [Refinery] <in this city>",
 			"Consumes [1] [Coal]", "Consumes [1] [Power]",
-			"Only available <after adopting [Supremacy]>"]
+			"Only available <if [Chemical Weapons Laboratory] is constructed>"]
 	},
 	{
 		"name": "Gas Field",
@@ -3486,6 +3619,35 @@
 			"[+2 Science, +1 Production] [in this city] <with [Exotic Seeds]>"
 		],
 		"requiredTech": "Hydroponics"
+	},
+	{
+		"name": "Compound Mixer",
+		"uniqueTo": "Hexlock",
+		"replaces": "Distillery",
+		"cost": 120,
+		"hurryCostModifier": 25,
+		"happiness": 2,
+		"civilopediaText": [
+			{
+				"text": "Enables the construction of Compound Mix buildings."
+			}
+		]
+	},
+	{
+		"name": "Compound Mix GF",
+		"uniqueTo": "Hexlock",
+		"cost": 70,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Free [Great Farmer] appears",
+			"Only available <in cities with a [Compound Mixer]>",
+			"Consumes [1] [VX]",
+			"Consumes [1] [C2N14]",
+			"Unsellable",
+			"Never destroyed when the city is captured",
+			"Hidden when religion is disabled",
+			"Limited to [3] per Civilization"
+		]
 	},
 	{
 		"name": "Afrikan Reformed Church",
@@ -3511,7 +3673,6 @@
 		"science": 3,
 		"gold": 1,
 		"culture": 1,
-		"specialistSlots": {"Administrator": 1},
 		"cost": 200,
 		"requiredTech": "Munitions",
 		"uniques": ["Indicates the capital city", "Provides [2] [Weapons]", "Limited to [2] per Civilization"]
@@ -3546,7 +3707,7 @@
 		"name": "Emergency Response Network",
 		"replaces": "Listening Post",
 		"uniqueTo": "New Star",
-		"specialistSlots": {"Administrator": 1},
+		"happiness": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["[+25]% Great Person generation [in this city]",
@@ -3651,6 +3812,7 @@
 		"hurryCostModifier": 0,
 		"uniques": ["[+1 Science] from every [Scientist] <in this city> <when above [0] [Power]>",
 			"[+1 Science] from every [Engineer] <in this city> <when above [0] [Power]>",
+			"[+1 Production, +1 Science] <after adopting [Re-Education]>",
 			"Consumes [1] [Slaves]",
 			"Only available <with [Slaves]>",
 			"Only available <in cities without a [Gulag]>",

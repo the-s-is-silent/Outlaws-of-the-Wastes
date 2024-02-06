@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Administrator",
-		"culture": 2,
+		"culture": 3,
 		"greatPersonPoints": {"Great Administrator": 3},
 		"color": [160, 32, 240]
 	}

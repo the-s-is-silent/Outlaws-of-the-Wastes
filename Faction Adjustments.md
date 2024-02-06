@@ -2,7 +2,9 @@
 
 #### Atlas
 - They are given a Mountain start bias and are now forbidden from building Enslaved units, Prison Camps and Work Camps.
-- They no longer start with Electronics and no longer have the double Production speed towards Electrostatic Generators.
+- They no longer start with any free techs and no longer have the double Production speed towards Electrostatic Generators.
+- Additionally, the free Great Scientist from their UA has been pushed back from Secrets of the Past to Education. Though they no longer have a starting Science penalty.
+- Atlas Refuge no longer has a Scientist slot, but adds 80 City HP (up from 40) and 1 base point of Science.
 - Survey Center now adds +3 Science, +1 Culture, and increases to +8 Science, +3 Culture at Flight.
 - Think Tank is buffed to give a +25% Production boost towards Science buildings, along with a 15% Production boost to cities constructing buildings which are owned in the capital.
 - New UBs:
@@ -18,9 +20,14 @@
 - Resource Management Servers have a harsher limit (2 vs. base scenario's 5, but all Monopoly policy buildings have this limit now) and no longer boost city growth or provide Slaves, but to compensate, they give +10% Water to the two cities that can own one.
 
 #### Children of Rust
-- The Longhouse wonder is replaced with First Kiva, which retains the Longhouse's effects and also buffs the wonder by adding +40 extra City HP (at the cost of losing the measly +1 to City Strength) and a bonus Pantheon belief upon founding their religion. However, it does not generate any Faith on its own until a Pantheon has been founded.
+- They no longer start with Redomestication, and the Faith bonus only applies with *unimproved* Ruins tiles.
+- The Longhouse wonder is replaced with First Kiva, which adds +40 more City HP (at the cost of losing the measly +1 to City Strength) and a bonus Pantheon belief upon founding their religion. However, it does not generate any Faith on its own until a Pantheon has been founded, and it gives their new Food Store replacement instead of a Salvage Yard.
+- Salvage Yards no longer add Production to Scrap resources; they regain the normal Forge's Production bonus towards Land units.
+- Communes are no longer available at the start of the game and no longer reduce tile cost purchase or have any base yields without access to Power. Also, they cost 120 Production (up from 40). However, they add +2 Food with access to Power.
 - Bike Paths are now standalone buildings boosting Culture instead of improved Transport Networks: they add +1 Culture to Road and Railroad tiles within 2 tiles of the city center. They are available much earlier, at Railroads.
 - Citizens' Assembly now increases Production instead of Science.
+- Defense Committee only adds a 10% unit production bonus (down from 20%).
+- New UB: Pithouse (replaces Food Store, adds +50 City HP and +1 Food/Culture)
 
 #### Commonwealth
 - Peace Memorial no longer generates Faith. Instead, it adds +1 Local Happiness to every owned city during peacetime.
@@ -77,6 +84,7 @@
 - Shake Down Survivors now costs 30 Production, provides 4 Slaves, and awards a free Gangboss.
 - Clansmen no longer require Clubhouses to be built.
 - As mentioned above, Plantations now belong to them instead of Ignis. They now unlock at Botany instead of being available at the start of the game, lose the 20% total Food bonus, regain the standard Greenhouse boosts to Food (+2 to the city itself, +1 to Grain/Tubers, +1 Farmer slot), and only give a 50% boost to Worker training speed. They also add +1 Food to active Farmers in the city and +1 Culture to worked Narcotics farm tiles. Because of the Slave consumption requirement, they're 30% cheaper to build than standard Greenhouses.
+- Salvage Exchange has been removed from the game on account of being too similar to Children of Rust's Salvage Yard with no feasible way to differentiate the two.
 - Information Markets add +1 Water while the faction has Power and no longer have reduced Science gain compared to standard Libraries, but also no longer give Great Scientist Points.
 - Clubhouses are pushed back to Civil Service where they should be, instead of being available at Secrets of the Past. They also lose the -1 Food penalty, add +2 Water by default instead of needing to own Slaves, and no longer cost maintenance.
 - Trade Colleges no longer have reduced Science gain compared to standard Universities and generate +2 Water per turn instead of costing maintenance. They no longer add Culture or Great Administrator Points.
@@ -91,16 +99,18 @@
 - They start with fewer free techs now: knowledge of Chemistry is gained, but knowledge of Construction, Machinery and Engineering is lost. The malus on GP generation is removed, and Encrypted Data resources are doubled by their UA.
 - Chemicals are now properly Strategic Resources instead of Luxury Resources.
 - Field Scientists and Purge Robots are now standalone units.
-- Purge Robot Proto's base Strength increased from 25 to 40, in order to give Hexlock a fighting chance. But its Production cost is increased from 50 to 70.
-- Hex Corporation only adds +1 Science to the capital and only creates one Purge Robot Proto, but it also gives a 10% Production bonus towards the construction of all Promotion Nullifier units after Replaceable Parts is researched.
-- Standard Refineries have base yields 1 higher than the base scenario, and also gain adjacency bonuses (+2 Production when next to strategic resources, +2 of the respective yield when adjacent to their corresponding GI).
+- Purge Robot Proto's base Strength increased from 25 to 40, in order to give Hexlock a fighting chance. But its Production cost is increased from 50 to 75.
+- Hex Corporation only creates one Purge Robot Proto, but it also gives a 10% Production bonus towards the construction of all Promotion Nullifier units after Replaceable Parts is researched. Also, it no longer gives a free Compound Mixer to the capital and gives their new Food Store replacement instead.
+- Standard Refineries gain adjacency bonuses (+1 Production when next to strategic resources, +1 of the respective yield when next to their corresponding GI) and scaling yields, receiving +1 of their respective base yield at Laboratory and another +1 at Advanced Materials. VX Refinery now provides Food instead of Faith, but is not considered a Food source improvement.
 - Crystal Refineries have their base yields doubled to +4 Science, +2 Water, but have their adjacency bonuses reduced to +2 Science, +1 Water with 3 or less adjacent Refineries, +4 Science, +2 Water with 4 or more. They gain +2 Production if built atop Coal or Oil resources.
+- Compound Mix GP replaced with Compound Mix GF, generating Great Farmers instead of Great Sages (but with the same resource requirement as GP).
 - The Heat Plant building is no longer one of their unique components and can be built by everyone.
 - Pre-Med Labs have been buffed to carry over the same amount of Food on population increase as the Hospitals they replace.
 - Experiment on Survivors now awards a Field Scientist instead of a Great Scientist, gives +2 pop in the capital instead of +1 in all cities, and can only be built in the capital.
 - Record Grids have been buffed to give +1 Local Happiness while the faction has Power and remove both the increase to Production cost and reduced Science per pop compared to the Library it replaces.
 - Stormfront Center and Overcouncil now cost 150 Production each. The latter now provides 2 of each of their unique resources.
 - New UBs:
+  - Nutri-Paste Dispenser (replaces Food Store, reduces Happiness by 1 but adds +1 Food as a base yield and another +1 with the VX chemical)
   - Hexlock Chemical Company (replaces Food Processing Plant, adds Production/Gold yields to Refinery improvements instead of boosting Food and grants the unique Self-Repair promotion to Purge Robots instead of granting Resupply to Personnel units)
   - Chemfuel Generator (standalone, requires a worked Refinery of any type and a Research Lab, boosts city Production by 5% and provides 2 units of Power, will be destroyed if the city is captured)
   - Advanced Chemical Refinery (standalone, requires the Chemical Weapons Laboratory, boosts Refinery yields by 50% in that city and gives Purge Robots access to Chemical Weapons, but costs Coal and Power to build)
@@ -153,7 +163,7 @@
 - New UU: Super Mutant (replaces Exo-Trooper, available earlier at Nuclear Fission but requires Atomgrad Project, consumes 2 Uranium + 1 Weapons, loses paradrop)
 - New UBs:
   - Zemlyanka (replaces Food Store, adds +50 City HP and +1 Food to Camp improvements and Tuber resources on Tundra terrain)
-  - Kolkhoz (replaces Greenhouse, higher maintenance cost, adds 2 Production along with an extra Farmer slot and 1 Production to each Farmer in the city)
+  - Kolkhoz (replaces Greenhouse, higher maintenance cost, adds 2 Production along with an extra Farmer slot and +1 Production to each Farmer in the city)
   - Corrective Colony (replaces Prison Camp, harsher Food penalties but provides 2 extra Slaves, and the penalties are negated by Politburo)
   - Gulag (now replaces Work Camp, lower baseline Production bonuses but adds 1 Production to Food source tiles, cannot exist alongside a Sharashka)
   - Sharashka (standalone, +3 Science, +10% Science, +1 Scientist slot, +1 Science from active Scientists and Engineers in the city, consumes Slaves, cannot exist alongside a Gulag, can only build 3)

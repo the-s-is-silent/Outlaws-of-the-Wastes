@@ -53,12 +53,13 @@ Building Changes:
 	- Bio Synthesizer is available earlier (at Plastics Recycling instead of Atmosphere Remediation) and provides 2 Oil, but no Aluminum or Uranium. You can have up to 5 now instead of 3, but it costs 1000 Production to build.
 	- Blast Furnace nerfed to +1 Production on Scrap/Metal tiles, but no longer adds Food/Water penalties to them.
 	- Carbon Capture *severely* nerfed; instead of adding Food/Happiness to Grasslands, it adds +1 Production to Tree plantations. Additionally, its maintenance cost is increased by 1 and it consumes Power.
+	- Forge (and replacements) no longer adds Production with Machine Parts access, but gains an Engineer slot and doesn't require worked Scrap/Metal tiles.
 	- Heat Plant is now available later at Plastics, but is buffed to provide 4 Power.
 	- Metal Reprocessor now provides 2 Aluminum.
 	- Nuclear Plant (and replacements) buffed to provide 16 Power.
-	- Oil Plant buffed to provide 8 Power (2 by default, 2 if the owner still has spare Oil, 4 from tech progression) and remove the Food/Water penalty, and it gains an Engineer slot. However, it no longer adds yields to Oil tiles and cannot exist in the same city as a Nuclear Plant.
-	- Oil Refinery no longer adds a Food/Water penalty to Oil tiles and gains an Engineer slot, and provides an additional copy of Oil upon researching Advanced Materials. However, it only adds +2 Production instead of +3 to Oil tiles.
-	- Plastics Factory buffed to add +1 Production to Plastics tiles and +2 Production to Oil tiles worked by the city.
+	- Oil Plant buffed to provide 8 Power (2 by default, 2 if the owner still has spare Oil, 4 from tech progression) and remove the Food/Water penalty. However, it no longer adds yields to Oil tiles and cannot exist in the same city as a Nuclear Plant.
+	- Oil Refinery no longer adds a Food/Water penalty to Oil tiles, and provides an additional copy of Oil upon researching Advanced Materials. However, it only adds +2 Production instead of +3 to Oil tiles.
+	- Plastics Factory buffed to add +1 Production to Plastics tiles and +2 Production to Oil tiles worked by the city, along with 5% total Production. However, it no longer has an Engineer slot.
 	- Plastics Reprocessor has been removed from the game.
 	- Prison Camp (and replacements) now costs 60 Production (previously 20) and is additionally more expensive to purchase with Water. However, the standard Camps no longer have a Food penalty.
 	- Recycling Plant is now a Production building instead of a Power Plant building. It adds +4 base Production, +15% to the city's total Production yields, +1 Production to worked Scrap, Metal, Plastics, and Strategic resource tiles, and 1 Engineer slot, and consumes Power to build. This coupled with the Plastics Reprocessor deletion is because it made absolutely no sense for the Recycling Plant to be a Power Plant.
@@ -66,13 +67,13 @@ Building Changes:
 	- Transport Network *severely* nerfed; it now only adds +1 Production to Borough tiles and no additional stats.
 	- Uranium Centrifuge nerfed: you can only have 3 instead of 5 and they have to be in cities with a Nuclear Plant.
 - Food/Growth building adjustments:
-	- Ranches can now be built with improved Horses tiles in the city radius and they add +1 Food to those tiles along with +1 Farmer slot.
+	- Ranches can now be built with improved Horses tiles in the city radius and they add +1 Food to those tiles.
 	- Hospitals (and relevant replacements), Medical Labs, and Organ Labs have had their minor Science penalty removed (a penalty they shouldn't have had in the first place). Hospitals also *ignore* the difficulty update that shuts down their food preservation effect when the faction falls into negative Power.
 - Water building adjustments:
 	- Market (and replacements) have a Merchant slot moved to Water Storage, but those that didn't have a base Water yield on the building itself gain 1 Water in compensation.
 	- Water Plant gains a Merchant slot and +2 Water.
 	- Greywater Treatment Plant loses the Production penalties, but also loses its single point of Food yield and one point of base Water yield.
-	- Rainwater Purifier adds an additional +15% to the city's total Water yields, making it more useful than it originally was.
+	- Rainwater Purifier adds an additional +15% to the city's total Water yields, making it more useful than it originally was. However, it no longer has a Merchant slot.
 - Science building adjustments:
 	- Library (and replacements) add +2 Science to Books tiles instead of +1 Science, +1 Culture.
 	- University (and replacements) add +2 Science instead of +1 while the faction has access to Power.

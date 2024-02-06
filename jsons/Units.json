@@ -365,7 +365,7 @@
 		"replaces": "Forward Observer",
 		"uniqueTo": "Commonwealth",
 		"unitType": "Scrapper",
-		"movement": 4,
+		"movement": 5,
 		"strength": 20,
 		"interceptRange": 1,
 		"cost": 85,
@@ -1376,7 +1376,7 @@
 		"obsoleteTech": "Combined Arms",
 		"movement": 2,
 		"strength": 40,
-		"cost": 65,
+		"cost": 75,
 		"requiredTech": "Machinery",
 		"uniques": [
 			"Promotion Nullifier",
@@ -1952,6 +1952,15 @@
 			"Triggers a global alert upon completion",
 			"Hidden when [Scientific] Victory is disabled"
 		]
+	},
+	{
+		"name": "Great Farmer",
+		"unitType": "Civilian",
+		"uniques": ["[+2] population in a random city <by consuming this unit>",
+			"Can instantly construct a [Factory farm] improvement <by consuming this unit>",
+			"Great Person - [Food]",
+			"Uncapturable", "Unbuildable"],
+		"movement": 2
 	},
 
 	//Barbarian units
