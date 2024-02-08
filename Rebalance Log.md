@@ -68,7 +68,7 @@ Building Changes:
 	- Uranium Centrifuge nerfed: you can only have 3 instead of 5 and they have to be in cities with a Nuclear Plant.
 - Food/Growth building adjustments:
 	- Ranches can now be built with improved Horses tiles in the city radius and they add +1 Food to those tiles.
-	- Hospitals (and relevant replacements), Medical Labs, and Organ Labs have had their minor Science penalty removed (a penalty they shouldn't have had in the first place). Hospitals also *ignore* the difficulty update that shuts down their food preservation effect when the faction falls into negative Power.
+	- Hospitals (and relevant replacements), Medical Labs, and Organ Labs have had their minor Science penalty removed (a penalty they shouldn't have had in the first place), but also no longer gain stats from having Harvested Organs. The replacements for the evil factions no longer have reduced food preservation effects. Hospitals also *ignore* the difficulty update that shuts down their food preservation effect when the faction falls into negative Power.
 - Water building adjustments:
 	- Market (and replacements) have a Merchant slot moved to Water Storage, but those that didn't have a base Water yield on the building itself gain 1 Water in compensation.
 	- Water Plant gains a Merchant slot and +2 Water.
@@ -114,6 +114,7 @@ Wonder Changes
 - Public Works Administration only awards one Golden Age now instead of a potential permanent Golden Age. It also loses its one measly Science point, but adds an extra Production point to all cities that are connected to the capital. Prior to this nerf, it was inarguably the most overpowered wonder in the base scenario. However, like many other National Wonders its Production cost has been reduced, to 150 base + 30 per owned city. (Note: The base scenario has since implemented a much more severe nerf that makes it effectively worthless: a mere +20 Culture per friendship declaration/defensive pact signing - so the PWA is actually *stronger* now in this mod than in the base scenario.)
 - Ground Control Center now costs 300 Production (was originally 920). It along with all faction specific replacements now add Culture instead of Happiness.
 - Media Center is now a normal building instead of a National Wonder and can also be built in cities with worked Books tiles, adding +2 Culture to those tiles. It also adds an Administrator slot instead of Great Administrator Points.
+- Organ Lab no longer provides Harvested Organs (which effectively makes that luxury exclusive to Deadrock Clan). Instead it adds +2 Food, +1 Happiness to every Hospital.
 - Fusion Reactor's cost has been reduced and its effects are drastically buffed: it now doubles the owning faction's Power supply and adds +8 Production, +25% Production to all cities. However, the capital must own a Nuclear Plant.
 
 Policy Changes:
@@ -154,7 +155,7 @@ Policy Changes:
         - The opener bonus loses the extra Science from Research Agreements.
         - Technocracy is now an entry level policy for the tree and is nerfed to remove the Science bonus to the Council.
 		- Skepticism renamed to New Pioneers and buffed to remove the Faith penalty from Science buildings and add +1 Science to those buildings, but it now requires Technocracy.
-		- Sample Analysis now requires Equipment Upgrades.
+		- Sample Analysis now requires Equipment Upgrades and adds +1 Science to Hexlock's Refineries.
 		- Equipment Upgrades loses its old effects and boosts Science building production, making the policy less warlike. This policy will be renamed later to reflect its new effect.
 		- Educated Elite now requires New Pioneers.
 		- Finisher bonus nerfed to lose 1 free tech and disallow purchasing Great Scientists with Faith. However, it also now adds +4 Science and Production to Academies during Golden Ages.
@@ -175,7 +176,7 @@ Policy Changes:
 	- Monopoly
 		- The opener bonus now adds +1 Culture to Markets instead of +33% Water to the Council.
 		- The tree no longer adds extra Water to Factories or Work Camps aside from Privatization retaining its +2 to the former.
-		- Mass Consumption's old effect has been thrown out; it instead adds +1 Water to Moisture traps/Water pumps and +25% more gifted resources from City-States.
+		- Mass Consumption's old effect has been thrown out; it instead adds +1 Water to Moisture traps, Water pumps, and Hexlock's Refineries, and +25% more gifted resources from City-States.
 		- Venture Capital adds +2 Water to the four main Water buildings instead of reducing item purchase cost (this was moved to Privatization).
 		- Privatization's stat penalties were removed. It is no longer a game-breaking policy thanks to the Hazard Pay nerf.
 		- Entrepreneurship loses the extra GM generation and receives the reduced road maintenance which was part of Privatization + a buffed building maintenance cost reduction moved from the finisher bonus, and adds +2 Science to the main four Water buildings.
@@ -200,7 +201,8 @@ Policy Changes:
 	- Mechanization
 		- All of the Food/Growth maluses and population cullings have been removed.
 		- The opener is adjusted to add 5% Production in all cities and lose the Science boost/Culture penalty.
-		- Automation loses the Science boost and now adds +2 Production/Happiness to Factories and Automated Factories.
+		- Urbanization loses the scaling Science yields.
+		- Automation now adds +2 each of Production, Science and Happiness to Factories and Automated Factories.
 		- Logistics renamed to Integrated Attack Logistics and loses the minor healing bonus and Unit Supply bonus, but adds 50% Production to Automated units.
 		- Digitization no longer adds Faith to Data/Decryption Centers. It now adds +2 Culture/Happiness to those buildings.
 		- The finisher awards a free Great Engineer and Scientist and increases the Production bonuses to 25%.
@@ -241,11 +243,10 @@ Belief Changes:
 - Enhancer
 	- Illuminated Order's Faith discount on religious units moved to Philosophic Debates/Thought Control in a reduced amount (-25% vs. original -30%); it is now a Founder Belief that awards +50 Culture whenever a city converts to your religion for the first time.
 	- Itinerant Preachers and Religious Texts have been made **inaccessible.**
-- Misc.
-	- Missionary Zeal renamed to Philosophic Debates.
+	- Missionary Zeal renamed to Philosophic Debates. Both it and Path of the Sage give their respective unit access to a promotion that gives an extra spread religion charge and lets them ignore terrain cost.
 
 Specialist Changes:
-- Administrators are adjusted to +2 Culture while active and no longer give Happiness.
+- Administrators are adjusted to +3 Culture while active and no longer give Happiness.
 
 Promotion Changes:
 - Forage was the second worst offender of OP promotions, and the nerfs are appropriately severe: it awards 67% less Science per kill and no longer gives extra XP or unit healing on kill. Instead it adds minor healing bonuses in Rubble/Ruins tiles.
@@ -270,6 +271,8 @@ Promotion Changes:
 
 Tile Improvement Changes:
 - Artificial oases are now available at Land Remediation and can be built on Desert Swamps (gaining an additional +1 Food, +3 Water if built on those tiles). However, the Water they award enemy factions for pillaging them is doubled.
+- Barbarian camps award ruins bonuses. This one is what gives the mod its name.
+- City centers will now always have a minimum of +2 Production regardless of what terrain/resources they're built on.
 - Grasslands is severely nerfed to curtail its absurd adjacency bonuses; it only gains yields once with the appropriate tile adjacency instead of stacking, and no longer increases Happiness at all. However, it no longer drains Water from fresh water tiles, and gains +1 Food at Atmosphere Remediation.
 - Moisture traps gain +1 Water at Atmosphere Remediation.
 - Solar collectors take less time to build (10 turns on Standard speed) and gain +1 Production at Atmosphere Remediation.

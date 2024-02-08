@@ -276,6 +276,7 @@
 			{
 				"name": "Sample Analysis",
 				"uniques": ["[+1 Science] from every [Moisture trap]",
+					"[+1 Science] from every [Refinery]",
 					"[+17]% [Science] from every [University]"],
 				"requires": ["Equipment Upgrades"],
 				"row": 2,
@@ -409,7 +410,9 @@
 			},
 			{
 				"name": "Police State",
-				"uniques": ["[+100]% Production when constructing [Listening Post] buildings [in all cities]",
+				"uniques": ["[+100]% Production when constructing [Prison Camp] buildings [in all cities]",
+					"[+100]% Production when constructing [Work Camp] buildings [in all cities]",
+					"[+100]% Production when constructing [Listening Post] buildings [in all cities]",
 					"[+3 Happiness] from every [Listening Post]",
 					"[+3 Production] from every [Prison Camp]",
 					"[+3 Production] from every [Work Camp]"],
@@ -457,7 +460,7 @@
 			"Domination": 20,
 			"Scientific": 20
 		},
-		"uniques": ["[Great Merchant] is earned [20]% faster",
+		"uniques": ["[Great Merchant] is earned [33]% faster",
 			"[+1 Culture] from every [Market]",
 			"Only available <before adopting [Collectivism]>"],
 		"policies": [
@@ -465,7 +468,8 @@
 				"name": "Mass Consumption",
 				"uniques": ["[+25]% resources gifted by City-States",
 					"[+1 Gold] from every [Moisture trap]",
-					"[+1 Gold] from every [Water pump]"],
+					"[+1 Gold] from every [Water pump]",
+					"[+1 Gold] from every [Refinery]"],
 				"row": 1,
 				"column": 1
 			},
@@ -533,7 +537,7 @@
 			"Domination": 20,
 			"Scientific": 20
 		},
-		"uniques": ["[Great Engineer] is earned [20]% faster",
+		"uniques": ["[Great Engineer] is earned [33]% faster",
 			"May buy [Stalker] units with [Gold] for [3] times their normal Production cost",
 			"Only available <before adopting [Monopoly]>"],
 		"policies": [
@@ -563,7 +567,7 @@
 				"name": "Shared Vision",
 				"requires": ["Re-Education", "Expropriation"],
 				"uniques": ["[+15]% [Production] from every [Council]",
-					"[+10]% [Production] from every [Factory]"],
+					"[+5]% [Production] from every [Factory]"],
 				"row": 2,
 				"column": 3
 			},

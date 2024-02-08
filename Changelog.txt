@@ -320,7 +320,7 @@ Changes since the Harbinger update
 - Nuclear Fission renamed to Nuclear Power.
 
 **Faction Adjustments**
-- Atlas heavily nerfed; they now have to wait until Education to get their free Great Scientist, no longer receive a bonus towards generating GP types other than Scientists, no longer start with any free techs, and no longer have a nonsensical (and frankly unnecessary) double Production speed bonus towards their unique Electrostatic Generators. However, the early-game Science penalty has also been removed.
+- Atlas heavily nerfed; they now have to wait until Education to get their free Great Scientist, no longer receive a bonus towards generating GP types other than Scientists, no longer start with any free techs aside from Electronics, and no longer have a nonsensical (and frankly unnecessary) double Production speed bonus towards their unique Electrostatic Generators. However, the early-game Science penalty has also been removed.
 - Children of Rust nerfed; the Faith bonus only applies as long as the Ruins tiles are unimproved, and they no longer start with Redomestication.
 - Crimson Legion now starts with Iron Working instead of Redomestication.
 - Cult of Ignis nerfed again; they no longer get extra Faith from strategic resource tiles.
@@ -355,13 +355,16 @@ Changes since the Harbinger update
 		- The Mariners' Raider's Council now gives a +20% Production boost towards naval units and the standard Council +10% growth boost, but only to coastal cities.
 		- New Afrika's Revolutionary Council now gives a +15% Production boost towards Personnel units.
 		- Proklyatyye's Politburo no longer adds Culture/Happiness to Gulags; it instead adds +3 Production to them, and the Production bonus to Corrective Colonies and Listening Posts is increased to +3.
+- Food/Growth:
+	- Hospitals (and replacements) no longer gain +1 Food from having Harvested Organs.
+		- The remaining "evil" faction replacements no longer have reduced food preservation compared to the standard Hospital.
 - Industry:
 	- Buildings that require specific non-Power resources (aside from the Work Camp) no longer add Engineer slots.
 	- Bio Synthesizer has been moved to Plastics Recycling and now provides 2 copies of Oil, but no Aluminum or Uranium. You can now have up to 5 instead of 3.
 	- Carbon Capture nerfed; it no longer provides Food at all (I thought I'd made this change earlier, but apparently not) and costs 3 maintenance instead of 2.
 	- Composite Materials Plant has been deleted on account of it becoming redundant after reworks to other buildings.
 	- Forge (and its replacements) no longer has a resource requirement and gains an Engineer slot, but no longer gains benefits from having Machine Parts.
-		- Children of Rust's version also no longer adds Production to Scrap resources.
+		- Children of Rust's version also no longer adds Production to Scrap resources, though it regains the normal Forge's bonus to Land unit production.
 		- Deadrock Clan's version has been removed from the game.
 		- Proklyatyye's version no longer makes worked Uranium tiles have negative Water yields.
 	- Heat Plant moved to Synthetic Materials and now provides 4 units of Power.
@@ -416,7 +419,6 @@ Changes since the Harbinger update
 		- Constabulary's maintenance cost reduced to 1.
 		- Parish School now adds +2 Science/Faith.
 	- Children of Rust:
-		- Salvage Yard no longer adds Production to Scrap tiles and regains the standard Forge's 15% Production bonus towards Land units.
 		- Commune now adds +2 Food with access to Power and regains the standard Town Hall's Administrator slot, but no longer has any base yields and no longer reduces tile purchase costs. It now unlocks at Civil Service and costs 120 Production.
 	- Crimson Legion:
 		- Crucifixion Fields no longer reduce Food (I thought I'd made this adjustment earlier, but apparently not). They will be destroyed if another faction takes the city.
@@ -427,6 +429,7 @@ Changes since the Harbinger update
 	- Deadrock Clan:
 		- Plantation now unlocks at Botany like standard Greenhouses, costs 70 Production, and no longer adds a percentage boost to total Food yields. Instead, it adds +1 Food to active Farmers in the city and +1 Culture to Narcotics farms (along with the standard Greenhouse effect).
 		- Clubhouse now generates 2 Water per turn and no longer costs maintenance.
+		- Organ Farm now consumes Power in addition to consuming Slaves.
 	- Deseret Nation:
 		- Bishop's Storehouse no longer adds extra Culture/Faith from having access to Books.
 		- Disciplinary Council's maintenance cost reduced to 1.
@@ -435,8 +438,9 @@ Changes since the Harbinger update
 		- Census Chamber loses its Administrator slot and regains the normal Listening Post's +1 Happiness.
 	- Hexlock:
 		- Compound Mixers now replace Distilleries, while Chemical Extractors are standalone buildings. The latter receives the Engineer slot that was on the former, loses the Culture penalty, and gains +2 Production.
-		- Record Grids are now unsellable.
-		- Hexlock Chemical Company's Production/Water bonuses to worked Refineries reduced to +1.
+		- Record Grids are now unsellable and add +1 Science to worked SbF5 Refineries.
+		- Private Labels are nerfed to only boost C2N14 Refineries, adding +2 Water (but no Science) to them. However, the base Water yield on the building itself is increased to +2.
+		- Pre-Med Labs now add +1 Food to worked VX Refineries.
 		- Gas Field's stats adjusted to +2 Science, +1 Production, -1 Food for Tree plantations (was +4 Science, -1 Food/Water) and +2 Science, +1 Production in the city with access to Exotic Seeds (was +1 Science/Production).
 		- Advanced Chemical Refinery is much harder to unlock: you have to build the Chemical Weapons Laboratory first.
 	- Hockeytown:
@@ -458,13 +462,13 @@ Changes since the Harbinger update
 	- Forum corrected to a 5% Unhappiness reduction (was still 10%) and no longer increases City HP, but it now adds +1 Water and awards 2 free Swordsmen instead of 1.
 	- The Great Lighthouse now gives The Mariners's capital +2 Food if it's founded on a coastline, but no longer gives Faith.
 	- Great Mosque has been temporarily removed from the game for the same reason as the normal Mosque.
-	- Hex Corporation only awards 1 free Purge Robot Proto instead of 2. To compensate, it also gives a 10% Production bonus towards all Promotion Nullifier units after researching Replaceable Parts. Additionally, its Science yield and boost to City HP are removed and it no longer gives a free Compound Mixer (it now gives a free Food Store, which is a huge nerf in more ways than one).
+	- Hex Corporation only awards 1 free Purge Robot Proto instead of 2. To compensate, it also gives a 10% Production bonus towards all Promotion Nullifier units after researching Replaceable Parts. Additionally, its boost to City HP is removed it no longer gives a free Compound Mixer (it now gives a free Food Store, which is a huge nerf in more ways than one).
 	- Peace Memorial no longer gives Faith. Instead, the +1 Local Happiness is given to all cities during peacetime.
 	- Restored Temple of Zion now spawns the 2 free Battleaxe of the Lord units, at the cost of losing the late-game Culture boost. This was because the previous setup put Deseret at a significant early-game disadvantage and made them the undisputed worst faction on Marathon speed. Also, the amount of Faith generated by the wonder per turn is reduced to 1.
 	- Sarcophagus buffed to +2 Production.
 	- State Dacha no longer gives a free Food Store.
 	- Stockpile slightly buffed, adding +2 Food instead of +1.
-	- Stone of Ages now has its quote, but this is more than likely a placeholder.
+	- Stone of Ages now has its quote.
 	- Temple nerfed further to remove its base Faith yields and Administrator slot. To compensate, it adds +1 Culture/Faith to all active Administrators, but requires Engineering to unlock this boost.
 - Annex Isolationists now adds +5 Production instead of +5 Water to the Isolated Island.
 - Convert Survivors and Resettlement Bureau have been deleted.
@@ -476,6 +480,7 @@ Changes since the Harbinger update
 	- Deseret (Deseret Data Center): 250 base Production, gains bonus for Automated units
 	- The Patriots (Tactics Center): 100 base Production, moved to Munitions
 - International Trade Center buffed to +5 base Water, +50% total Water yields for the owning city, and +3 Water from Trade Routes, adding more incentive to build it in the endgame. It also triggers an additional alert upon completion.
+- Organ Lab no longer provides Harvested Organs, and instead adds +2 Food, +1 Happiness to every Hospital. This effectively means Harvested Organs become exclusive to Deadrock Clan, at least for the time being.
 - Shake Down Survivors now costs 30 Production, but awards 4 Slaves and a Gangboss.
 - Statue of Remembrance now has its flavor text/quote.
 
@@ -533,19 +538,22 @@ Changes since the Harbinger update
 	- The finisher bonus no longer adds Faith yields to Seminaries and their replacements. The added Culture has been increased to +3.
 - Rationalism:
 	- Technocracy no longer adds Science to the Council.
+	- Sample Analysis now adds +1 Science to all Refineries.
 	- Skepticism renamed to New Pioneers. (Educated Elite will be renamed later.)
 - Constitution:
 	- Civil Society's strength bonus to cities reduced to 25%.
 - Supremacy:
+	- Police State now cuts the construction time of Prison Camps and Work Camps in half.
 	- The finisher bonus is reduced to a 15% combat bonus, but remains in effect for the entire game once adopted. With the adjustments to Crystal Refinery yields, it now adds +4 Science to them instead of +2 Water/Science.
 - Monopoly:
 	- Increased priority for AI factions that prefer Diplomatic Victory.
-	- The opener now adds +1 Culture to Markets.
+	- The opener now adds +1 Culture to Markets and increases the bonus to Great Merchant generation by 33%.
+	- Mass Consumption now adds +1 Gold to all Refineries.
 	- The finisher bonus now boosts the yields of Narcotics farms (+2 Water/Science/Culture). Also, it awards a free Great Merchant.
 - Collectivism:
-	- The opener now unlocks access to a new unit.
+	- The opener now increases the bonus to Great Engineer generation by 33% and unlocks access to a new unit.
 	- Political Officers no longer boosts the production speed of Aircraft.
-	- Shared Vision's Production bonus to the Council reduced to 15%, but it now adds an additional +10% Production bonus to Factories.
+	- Shared Vision's Production bonus to the Council reduced to 15%, but it now adds an additional +5% Production bonus to Factories.
 	- Workers' Union no longer adds flat Production to your cities.
 	- The finisher bonus now awards a free Great Engineer.
 - Rediscovery:
@@ -585,7 +593,7 @@ Changes since the Harbinger update
 - Crystal Refineries now start at +4 Science but their adjacency bonuses are nerfed; they now gain +2 Science, +1 Water with 3 or less adjacent Refineries, increasing to +4 Science, +2 Water with 4 or more. Their Production gains are also reduced, only gaining +2 from Coal or Oil tiles.
 - Drydocks now start at +4 Production and gain a total of +6 Production/Science from tech progression.
 - Endowment Houses are adjusted as follows: Start at +6 Faith, gain an additional +1 Water/Culture/Faith from tech progression, but only gain +1 Food from having adjacent food sources (instead of +1 Food for each adjacent food source).
-- Hexlock's standard Refineries have had their base yields and adjacency bonuses reduced by 1, but gain +1 to their respective yield at Laboratory and at Advanced Materials.
+- Hexlock's standard Refineries have had their adjacency bonuses reduced by 1, but gain +1 to their respective yield at Laboratory and at Advanced Materials.
 	- VX Refinery now adds Food instead of Faith.
 - Manufactories now start at +4 Production and scale to +12 from tech progression, along with +2 Food/Science. However, the stat buff at Electronics has been pushed back to Advanced Materials.
 - Narcotics farms now start at +2 Water, +4 Culture and gain an additional +4 Culture with Social Engineering.

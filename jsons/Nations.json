@@ -350,6 +350,7 @@
 		"uniqueName": "Creative Leadership",
 		"uniques": ["Free [Great Scientist] appears <upon discovering [Education]>",
 			"[Great Scientist] is earned [30]% faster",
+			"Starts with [Electronics]",
 			"Starts with [Rationalism] adopted",
 			"Cannot build [Enslaved] units",
 			"Comment [Cannot build Prison Camp buildings]",

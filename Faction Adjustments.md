@@ -2,7 +2,7 @@
 
 #### Atlas
 - They are given a Mountain start bias and are now forbidden from building Enslaved units, Prison Camps and Work Camps.
-- They no longer start with any free techs and no longer have the double Production speed towards Electrostatic Generators.
+- Their number of starting techs is reduced to one - Electronics - and they no longer have the nonsensical and unnecessary double Production speed towards Electrostatic Generators.
 - Additionally, the free Great Scientist from their UA has been pushed back from Secrets of the Past to Education. Though they no longer have a starting Science penalty.
 - Atlas Refuge no longer has a Scientist slot, but adds 80 City HP (up from 40) and 1 base point of Science.
 - Survey Center now adds +3 Science, +1 Culture, and increases to +8 Science, +3 Culture at Flight.
@@ -34,7 +34,7 @@
 - Black Site no longer has a minor Food penalty.
 - Embassy no longer increases GP generation. It now increases influence gain from Water gifts to City-States and receives the +10% growth and +5% Production bonuses of the standard Council.
 - Parliament now adds scaling Water yields instead of scaling Science yields and cuts CS influence degradation in half.
-- New UU: Field Preparations Squad (replaces Forward Observer, can build Roads, Railroads, Forts and Trenches and does so in half the time of standard Workers)
+- New UU: Field Preparations Squad (replaces Forward Observer, has an extra movement point and can build Roads, Railroads, Forts and Trenches in half as much time as standard Workers)
 - New UBs:
   - Sharecropper Farm (replaces Greenhouse, adds +1 Food to worked Cattle/Goats tiles, adds +1 Water to active Farmers after discovering Hydroponics)
   - Commonwealth Reserve (replaces Water Storage, adds +20% to the city's total Water yields instead of 10%, adds +1 Water to active Merchants)
@@ -79,6 +79,7 @@
   - Fortified Aquifer (replaces Water Storage, +5 City Strength, +50 City HP, +1 Food/Water to worked Mountain tiles)
 
 ### Deadrock Clan
+- The adjustments to Hospitals and Organ Labs for other factions have effectively turned Harvested Organs into a third exclusive luxury for this faction.
 - Narcotics farms are buffed to start at +4 Culture, +2 Water, and gain an additional +4 Culture at Social Engineering.
 - Clan Hideout buffed to +2 Water and +100 City HP.
 - Shake Down Survivors now costs 30 Production, provides 4 Slaves, and awards a free Gangboss.
@@ -101,19 +102,20 @@
 - Field Scientists and Purge Robots are now standalone units.
 - Purge Robot Proto's base Strength increased from 25 to 40, in order to give Hexlock a fighting chance. But its Production cost is increased from 50 to 75.
 - Hex Corporation only creates one Purge Robot Proto, but it also gives a 10% Production bonus towards the construction of all Promotion Nullifier units after Replaceable Parts is researched. Also, it no longer gives a free Compound Mixer to the capital and gives their new Food Store replacement instead.
-- Standard Refineries gain adjacency bonuses (+1 Production when next to strategic resources, +1 of the respective yield when next to their corresponding GI) and scaling yields, receiving +1 of their respective base yield at Laboratory and another +1 at Advanced Materials. VX Refinery now provides Food instead of Faith, but is not considered a Food source improvement.
+- Standard Refineries gain +1 to their respective yields compared to the base scenario, adjacency bonuses (+1 Production when next to strategic resources, +1 of the respective yield when next to their corresponding GI), and scaling yields, receiving +1 of their respective base yield at Laboratory and another +1 at Advanced Materials. VX Refinery now provides Food instead of Faith, but is not considered a Food source improvement.
 - Crystal Refineries have their base yields doubled to +4 Science, +2 Water, but have their adjacency bonuses reduced to +2 Science, +1 Water with 3 or less adjacent Refineries, +4 Science, +2 Water with 4 or more. They gain +2 Production if built atop Coal or Oil resources.
 - Compound Mix GP replaced with Compound Mix GF, generating Great Farmers instead of Great Sages (but with the same resource requirement as GP).
 - The Heat Plant building is no longer one of their unique components and can be built by everyone.
-- Pre-Med Labs have been buffed to carry over the same amount of Food on population increase as the Hospitals they replace.
+- Pre-Med Labs have been buffed to carry over the same amount of Food on population increase as the Hospitals they replace and add +1 Food to VX Refineries.
 - Experiment on Survivors now awards a Field Scientist instead of a Great Scientist, gives +2 pop in the capital instead of +1 in all cities, and can only be built in the capital.
-- Record Grids have been buffed to give +1 Local Happiness while the faction has Power and remove both the increase to Production cost and reduced Science per pop compared to the Library it replaces.
+- Private Labels add +2 Water to the C2N14 Refinery and do not boost other Refineries.
+- Record Grids have been buffed to give +1 Science to SbF5 Refineries, +1 Local Happiness while the faction has Power, and remove both the increase to Production cost and reduced Science per pop compared to the Library it replaces.
 - Stormfront Center and Overcouncil now cost 150 Production each. The latter now provides 2 of each of their unique resources.
 - New UBs:
   - Nutri-Paste Dispenser (replaces Food Store, reduces Happiness by 1 but adds +1 Food as a base yield and another +1 with the VX chemical)
-  - Hexlock Chemical Company (replaces Food Processing Plant, adds Production/Gold yields to Refinery improvements instead of boosting Food and grants the unique Self-Repair promotion to Purge Robots instead of granting Resupply to Personnel units)
+  - Hexlock Chemical Company (replaces Food Processing Plant, adds +2 Production/Water to all Refinery improvements and +2 Production to worked Salt tiles instead of boosting Food yields, and grants the unique Self-Repair promotion to Purge Robots instead of granting Resupply to Personnel units)
   - Chemfuel Generator (standalone, requires a worked Refinery of any type and a Research Lab, boosts city Production by 5% and provides 2 units of Power, will be destroyed if the city is captured)
-  - Advanced Chemical Refinery (standalone, requires the Chemical Weapons Laboratory, boosts Refinery yields by 50% in that city and gives Purge Robots access to Chemical Weapons, but costs Coal and Power to build)
+  - Advanced Chemical Refinery (standalone, boosts Refinery yields by 50% in that city and gives Purge Robots access to Chemical Weapons, but requires building the Chemical Weapons Laboratory and consumes both Coal and Power)
 - TODO: Port over the entire gimmick rework from a certain other rebalance mod once it's finished, and until the base scenario itself reworks the gimmick
 
 #### The Mariners
