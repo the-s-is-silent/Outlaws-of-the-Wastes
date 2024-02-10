@@ -10,7 +10,8 @@
 			"Scientific": 30
 		},
 		"uniques": ["[+3 Culture] [in capital]",
-			"[-25]% Culture cost of natural border growth [in all cities]"],
+			"[-25]% Culture cost of natural border growth [in all cities]",
+			"Comment [Unlocks [Homeland Defense Initiative]]"],
 		"policies": [
 			{
 				"name": "Differential Rationing",
@@ -72,7 +73,8 @@
 			"Scientific": 0
 		},
 		"uniques": ["[+1 Culture] [in all cities]",
-			"[-25]% Gold cost of acquiring tiles [in all cities]"],
+			"[-25]% Gold cost of acquiring tiles [in all cities]",
+			"Comment [Unlocks [Wasteland Surveillance Initiative]]"],
 		"policies": [
 			{
 				"name": "Restorers",
@@ -136,7 +138,8 @@
 		},
 		"uniques": ["[+33]% Strength <vs [Barbarian] units>",
 			"Earn [50]% of killed [Military] unit's [Strength] as [Culture]",
-			"Notified of new Barbarian encampments"],
+			"Notified of new Barbarian encampments",
+			"Comment [Unlocks [Tribal Suppression Initiative]]"],
 		"policies": [
 			{
 				"name": "Discipline",
@@ -193,7 +196,8 @@
 			"Scientific": 0
 		},
 		"uniques": ["[+100]% Production when constructing [Faith] buildings [in all cities]",
-			"[+1 Culture, +1 Faith] [in capital]"],
+			"[+1 Culture, +1 Faith] [in capital]",
+			"Comment [Unlocks [Grand Monastery]]"],
 		"policies": [
 			{
 				"name": "Organized Religion",
@@ -259,7 +263,8 @@
 			"Domination": 20,
 			"Scientific": 50
 		},
-		"uniques": ["[Great Scientist] is earned [20]% faster"],
+		"uniques": ["[Great Scientist] is earned [20]% faster",
+			"Comment [Unlocks [Medical Network]]"],
 		"policies": [
 			{
 				"name": "Equipment Upgrades",
@@ -319,6 +324,7 @@
 			"Scientific": 20
 		},
 		"uniques": ["[+25]% Great Person generation [in all cities]",
+			"Comment [Unlocks [Public Works Administration]]",
 			"Only available <before adopting [Supremacy]>"],
 		"policies": [
 			{
@@ -368,8 +374,9 @@
 					"[+4 Production] from every [Drydock]",
 					"[+4 Science] from every [Academy]",
 					"[+2 Culture, +2 Science] from every [Preservator]",
-					"[+2 Gold, +2 Culture] from every [Settlement]",
-					"[+2 Food, +2 Production, +2 Gold] from every [Wasteland Station]",
+					"[+4 Culture] from every [Settlement]",
+					"[+4 Gold] from every [Supply Complex]",
+					"[+1 Food, +1 Production, +2 Gold] from every [Wasteland Station]",
 					"[+4 Faith] from every [Seminary]",
 					"[+4 Faith] from every [Endowment House]",
 					"[+2 Gold, +2 Science] from every [Citadel]",
@@ -391,6 +398,7 @@
 		"uniques": ["[+50]% Production when constructing [Barracks] buildings [in all cities]",
 			"[+50]% Production when constructing [Military Academy] wonders [in all cities]",
 			"Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
+			"Comment [Unlocks [Chemical Weapons Laboratory]]",
 			"Only available <before adopting [Constitution]>"],
 		"policies": [
 			{
@@ -462,6 +470,10 @@
 		},
 		"uniques": ["[Great Merchant] is earned [33]% faster",
 			"[+1 Culture] from every [Market]",
+			"Comment [Unlocks [Data Center]]",
+			"Comment [Unlocks [Electronics Production Line]]",
+			"Comment [Unlocks [Machinery Production Line]]",
+			"Comment [Unlocks [Publishing House]]",
 			"Only available <before adopting [Collectivism]>"],
 		"policies": [
 			{
@@ -497,8 +509,8 @@
 			},
 			{
 				"name": "Entrepreneurship",
-				"uniques": ["[-50]% maintenance on road & railroads",
-					"[-33]% maintenance cost for buildings [in all cities]",
+				"uniques": ["[-25]% maintenance on road & railroads",
+					"[-25]% maintenance cost for buildings [in all cities]",
 					"[+2 Science] from every [Market]",
 					"[+2 Science] from every [Water Storage]",
 					"[+2 Science] from every [Water Plant]",
@@ -519,9 +531,9 @@
 				"name": "Monopoly Complete",
 				"uniques": ["[+1 Gold, +1 Food] from every [Moisture trap]",
 					"[+1 Gold, +1 Food] from every [Water pump]",
-					"[+2 Gold, +2 Culture, +2 Science] from every [Settlement]",
-					"[+2 Gold, +2 Culture, +2 Science] from every [Narcotics farm]",
-					"[+2 Gold, +2 Food, +2 Production] from every [Wasteland Station]",
+					"[+2 Gold, +2 Food] from every [Supply Complex]",
+					"[+2 Gold, +2 Culture] from every [Narcotics farm]",
+					"[+2 Gold, +1 Food, +1 Production] from every [Wasteland Station]",
 					"Free [Great Merchant] appears",
 					"May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
 			}
@@ -539,6 +551,8 @@
 		},
 		"uniques": ["[Great Engineer] is earned [33]% faster",
 			"May buy [Stalker] units with [Gold] for [3] times their normal Production cost",
+			"Comment [Unlocks [Workers' Facility]]",
+			"Comment [Unlocks [Earthscraper Project]]",
 			"Only available <before adopting [Monopoly]>"],
 		"policies": [
 			{
@@ -600,7 +614,8 @@
 		},
 		"uniques": ["[+1] Movement <for [{Military} {Water}] units>",
 			"[+1] Sight <for [{Military} {Water}] units>",
-			"[+50]% Production when constructing [Naval War College] wonders [in all cities]"],
+			"[+50]% Production when constructing [Naval War College] wonders [in all cities]",
+			"Comment [Unlocks [Oceanological Center]]"],
 		"policies": [
 			{
 				"name": "Maritime Industries",
@@ -651,6 +666,7 @@
 				"name": "Rediscovery Complete",
 				"uniques": ["[+1] population [in all coastal cities]",
 					"Free [Great Admiral] appears",
+					"Comment [Unlocks [Navy Shipyard]]",
 					"May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
 			}
 		]
@@ -667,6 +683,7 @@
 		},
 		"uniques": ["[+2 Food, +2 Culture] [in all cities]",
 			"[Great Farmer] is earned [20]% faster",
+			"Comment [Unlocks [Earth Clinic]]",
 			"Only available <before adopting [Mechanization]>",
 			"Only available <before adopting [Bionics]>"],
 		"policies": [
@@ -694,7 +711,11 @@
 			{
 				"name": "Ecodefense",
 				"requires": ["Emissions Standards"],
-				"uniques": ["[+10]% Strength <for [All] units> <within [2] tiles of a [Natural tile]>",
+				"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Tree plantation] tiles>",
+					"[+15]% Strength <for [All] units> <when fighting in [Nature preserve] tiles>",
+					"[+15]% Strength <for [All] units> <when fighting in [Artificial oasis] tiles>",
+					"[+15]% Strength <for [All] units> <when fighting in [Artificial glacier] tiles>",
+					"[+15]% Strength <for [All] units> <when fighting in [Grassland] tiles>",
 					"[3] free [Eco-Terrorist] units appear"],
 				"row": 2,
 				"column": 4
@@ -714,7 +735,7 @@
 				"requires": ["Physiolatry"],
 				"uniques": ["[+2 Gold] from every [Farmer]",
 					"[+1 Gold] from [Fresh water] tiles [in all cities]",
-					"[+2 Gold] from every [Rainwater Purifier]"],
+					"[+10]% [Gold] from every [Rainwater Purifier]"],
 				"row": 3,
 				"column": 3
 			},

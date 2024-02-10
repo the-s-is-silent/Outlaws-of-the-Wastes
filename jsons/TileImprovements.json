@@ -1,21 +1,33 @@
 [
 	{
+		"name": "Farm",
+		"terrainsCanBeBuiltOn": ["Badlands", "Desert", "Swamp"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"uniques": [
+			"Food source",
+			"Can also be built on tiles adjacent to fresh water",
+			"[+1 Food] <after discovering [Land Remediation]>",
+			"Cannot be built on [Fissure] tiles",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "F"
+	},
+	{
 		"name": "Tree plantation",
 		"terrainsCanBeBuiltOn": ["Wasteland", "Tundra", "Badlands", "Hill", "Swamp"],
 		"production": 1,
 		"turnsToBuild": 8,
 		"techRequired": "Ecology",
 		"uniques": ["Food source",
-			"Natural tile",
 			"Gives a defensive bonus of [10]%",
 			"Cannot be built on [Desert] tiles",
 			"Cannot be built on [Permafrost] tiles",
 			"Cannot be built on [Badlands] tiles <before discovering [Hydroponics]>",
 			"Cannot be built on [Hill] tiles <before discovering [Land Remediation]>",
 			"Cannot be built on [Swamp] tiles <before discovering [Land Remediation]>",
-			"[+1 Food, -1 Gold] from [Fresh water] tiles",
 			"[+1 Food, +1 Production] <after discovering [Land Remediation]>",
-			"[+1 Food, +1 Production] <after discovering [Geo Engineering]>",
+			"[+1 Food, +1 Production] <after discovering [Atmosphere Remediation]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "T"
 	},
@@ -76,15 +88,12 @@
 		"food": 3,
 		"techRequired": "Land Remediation",
 		"uniques": ["Food source",
-			"Natural tile",
 			"Can also be built on tiles adjacent to fresh water",
-			"[+1 Food, -1 Gold] from [Fresh water] tiles",
 			"Cannot be built on [Permafrost] tiles",
 			"Cannot be built on [Desert] tiles <before discovering [Geo Engineering]>",
-			"[+1 Food] <with [1] to [6] neighboring [Tree plantation] tiles>",
 			"[+1 Culture] <with [1] to [6] neighboring [Nature preserve] tiles>",
-			"[+1 Gold] <with [1] to [6] neighboring [Artificial oasis] tiles>",
 			"[+1 Production] <with [1] to [6] neighboring [Terrace farm] tiles>",
+			"[+1 Food] <after discovering [Atmosphere Remediation]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "G"
 	},
@@ -96,12 +105,11 @@
 		"food": 3,
 		"gold": 1,
 		"uniques": ["Food source",
-			"Natural tile",
 			"Can only be built on [Desert] tiles",
 			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
-			"[+1 Food, +3 Gold] from [Fresh water] tiles",
+			"[+1 Food, +1 Gold] from [Fresh water] tiles",
 			"Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "A"
 	},
@@ -115,9 +123,10 @@
 		"uniques": ["Food source",
 			"Cannot be built on [Fissure] tiles",
 			"Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
 			"[+1 Food] for each adjacent [Mountain]",
 			"[+1 Food, +1 Production] <with [1] to [6] neighboring [Grassland] tiles>",
-			"[+1 Food, -1 Gold] from [Fresh water] tiles",
 			"[+1 Food, +1 Production] <after discovering [Geo Engineering]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "T"
@@ -149,7 +158,6 @@
 		"production": 2,
 		"techRequired": "Ocean Remediation",
 		"uniques": ["Food source",
-			"Natural tile",
 			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -185,6 +193,18 @@
 			"Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "H"
 	},
+	{
+		"name": "Water pump",
+		"terrainsCanBeBuiltOn": ["Spring"],
+		"gold": 4,
+		"turnsToBuild": 7,
+		"techRequired": "Iron Working",
+		"uniques": [
+			"[+2 Gold] <after discovering [Decontamination]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "W"
+	},
 
 	//Removals
 	{
@@ -210,20 +230,24 @@
 	},
 	{
 		"name": "Settlement",
-		"gold": 1,
-		"culture": 1,
+		"culture": 4,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Great Improvement",
 			"Gives a defensive bonus of [10]%",
-			"[+1 Science] for each adjacent [Forest]",
-			"[+1 Science] for each adjacent [Jungle]",
-			"[+1 Food] for each adjacent [Food source]",
-			"[+1 Gold] <after discovering [Currency]>",
-			"[+1 Culture] <after discovering [Civil Service]>",
-			"[+1 Gold] <after discovering [Radar]>",
-			"[+1 Culture] <after discovering [Avionics]>",
-			"[+1 Gold] <after discovering [Robotics]>",
-			"[+1 Culture] <after discovering [Incentivization]>",
+			"[+2 Culture] <after discovering [Radio]>",
+			"[+2 Culture] <after discovering [Social Engineering]>",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Supply Complex",
+		"gold": 4,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"[+2 Gold] <after discovering [Currency]>",
+			"[+2 Gold] <after discovering [Decontamination]>",
+			"[+2 Gold] <after discovering [Incentivization]>",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]"]
 	},
@@ -262,8 +286,6 @@
 			"Gives a defensive bonus of [10]%",
 			"Provides [2] [Slaves]",
 			"[+1 Production] for each adjacent [Farm]",
-			"[+1 Food] from [Fresh water] tiles",
-			"[+1 Food] <after discovering [Land Remediation]>",
 			"[+4 Production] <after discovering [Social Engineering]>",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]"]
@@ -275,8 +297,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Great Improvement",
 			"Gives a defensive bonus of [10]%",
-			"[+1 Food] from [Fresh water] tiles",
-			"[+1 Food, +1 Culture] <after discovering [Hydroponics]>",
+			"[+2 Gold] <after discovering [Hydroponics]>",
 			"[+4 Culture] <after discovering [Social Engineering]>",
 			"Provides [1] [Narcotics]",
 			"Removes removable features when built",
@@ -345,9 +366,10 @@
 			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 			"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Wasteland Station] tiles>",
-			"[+1 Food] <with [1] to [6] neighboring [Food source] tiles>",
 			"[+2 Production] <in [Strategic resource] tiles>",
+			"[+1 Food, +1 Gold] <after discovering [Decontamination]>",
 			"[+1 Production, +1 Gold] <after discovering [Railroads]>",
+			"[+1 Production, +1 Gold] <after discovering [Radar]>",
 			"[+1 Production, +1 Gold] <after discovering [Incentivization]>",
 			"[+2 Gold] <after discovering [Globalization]>",
 			"Removes removable features when built",
@@ -496,6 +518,24 @@
     },
 
 	//Unbuildable improvements
+	{
+		"name": "City center",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Unpillagable",
+			"Irremovable",
+			"Unbuildable",
+			"Ensures a minimum tile yield of [+2 Food, +2 Production]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Marks the center of a city"
+			},
+			{
+				"text": "Appearance changes with the technological era of the owning civilization"
+			}
+		]
+	},
 	{
 		"name": "Barbarian encampment",
 		"terrainsCanBeBuiltOn": ["Land"],

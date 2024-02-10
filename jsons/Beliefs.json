@@ -17,8 +17,7 @@
 	{
 		"name": "Fertility Rites",
 		"type": "Pantheon",
-		"uniques": ["[+25]% Production when constructing [Civilian] units [in this city]",
-			"[+10]% growth [in this city]",
+		"uniques": ["[+10]% growth [in this city]",
 			"[+1 Food, +1 Faith] from every [Food Store]"]
 	},
 	{
@@ -26,7 +25,9 @@
 		"type": "Pantheon",
 		"uniques": ["[+1 Culture] from every [Horses]",
 			"[+1 Culture] from every [Cattle]",
-			"[+1 Culture] from every [Goats]"]
+			"[+1 Culture] from every [Goats]",
+			"[+1 Culture] from every [Deer]",
+			"[+1 Culture] from every [Hogs]"]
 	},
 	{
 		"name": "God of Commerce",
@@ -54,7 +55,7 @@
 	{
 		"name": "Hymns of Praise",
 		"type": "Pantheon",
-		"uniques": ["[+1 Gold, +1 Happiness] from every [Shrine]"]
+		"uniques": ["[+2 Gold, +1 Happiness] from every [Shrine]"]
 	},
 	{
 		"name": "Old World Idols",
@@ -81,7 +82,7 @@
 		"type": "Pantheon",
 		"uniques": ["[-25]% Culture cost of natural border growth [in this city]",
 			"[-25]% Gold cost of acquiring tiles [in this city]",
-			"[+1 Culture, +2 Faith] from every [National Wonder]"]
+			"[+25]% Production when constructing [Civilian] units [in this city]"]
 	},
 	{
 		"name": "Respect the Wind",
@@ -213,6 +214,11 @@
 			"[+1 Gold, +1 Faith] from every [Greywater Treatment Plant]"]
 	},
 	{
+		"name": "Sanctified Innovations",
+		"type": "Follower",
+		"uniques": ["[+1 Production, +1 Science, +1 Faith] from every [National Wonder]"]
+	},
+	{
 		"name": "Trust the Science",
 		"type": "Follower",
 		"uniques": ["[+1 Science, +1 Faith] from every [University] <in cities with at least [5] [Followers of this Religion]>",
@@ -235,6 +241,11 @@
 		"type": "Founder",
 		"uniques": ["Gain [100] [Faith] (modified by game speed) <upon conquering a city>"]
 	},
+	{
+		"name": "Church Property",
+		"type": "Founder",
+		"uniques": ["[+3 Gold] for each global city following this religion"]
+	}
 	{
 		"name": "Cross-Cultural Dialogue",
 		"type": "Founder",
@@ -310,9 +321,9 @@
 	{
 		"name": "Unity of the Sages",
 		"type": "Enhancer",
-		"uniques": ["[+6 Faith, +2 Production] from every [Seminary]",
-			"[+6 Faith, +2 Production] from every [Oracle]",
-			"[+6 Faith, +2 Production] from every [Endowment House]"]
+		"uniques": ["[+4 Faith, +2 Production] from every [Seminary]",
+			"[+4 Faith, +2 Production] from every [Oracle]",
+			"[+4 Faith, +2 Production] from every [Endowment House]"]
 		// TODO: Should also have the Unity of the Prophets effect of Censors/Sages only reducing foreign religion followers by half once BNW content is implemented
 	},
 
@@ -346,13 +357,19 @@
 	{
 		"name": "Hopeful Habitability",
 		"type": "Enhancer",
-		"uniques": ["[+1 Food, +1 Faith] from every [Natural tile]",
+		"uniques": ["[+1 Food, +1 Faith] from every [Artificial atoll]",
+			"[+1 Food, +1 Faith] from every [Artificial glacier]",
+			"[+1 Food, +1 Faith] from every [Artificial oasis]",
+			"[+1 Food, +1 Faith] from every [Grassland]",
+			"[+1 Food, +1 Faith] from every [Nature preserve]",
+			"[+1 Food, +1 Faith] from every [Tree plantation]",
 			"Only available <after adopting [Exodus of the Evangelists]>"]
 	},
 	{
 		"name": "Jesuit Education",
 		"type": "Enhancer",
-		"uniques": ["May buy [University] buildings for [220] [Faith] [in cities following this religion]",
+		"uniques": ["May buy [Library] buildings for [140] [Faith] [in cities following this religion]",
+			"May buy [University] buildings for [220] [Faith] [in cities following this religion]",
 			"May buy [Public School] buildings for [260] [Faith] [in cities following this religion]",
 			"May buy [Research Lab] buildings for [380] [Faith] [in cities following this religion]",
 			"Only available <after adopting [Exodus of the Evangelists]>"]
@@ -368,9 +385,9 @@
 	{
 		"name": "Sacred Sites",
 		"type": "Enhancer",
-		"replacementTextForUniques": "Cities which own a World Wonder receive +4 Water and Culture. Religious buildings purchased with Faith receive +2 Water and Culture.",
+		"replacementTextForUniques": "Cities which own a World Wonder receive +4 Water and Culture. Religious buildings purchased with Faith receive +2 Water, Culture and Faith.",
 		"uniques": ["[+4 Gold, +4 Culture] [in cities following this religion] <in cities with a [World Wonder]>",
-			"[+2 Gold, +2 Culture] from every [Worship Center]",
+			"[+2 Gold, +2 Culture, +2 Faith] from every [Worship Center]",
 			"Only available <after adopting [Exodus of the Evangelists]>"]
 	},
 

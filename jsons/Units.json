@@ -170,7 +170,7 @@
 		"requiredTech": "Nuclear Fission",
 		"uniques": ["May Paradrop up to [10] tiles from inside friendly territory",
 			"May enter foreign tiles without open borders",
-			"Destroys tile improvements when attacking <in tiles without [Natural tile]>",
+			"Destroys tile improvements when attacking",
 			"Self-destructs when attacking",
 			"[-75]% Strength <when defending>",
 			"Nuclear weapon of Strength [2]",
@@ -190,15 +190,30 @@
 		"name": "Wandering Doctor",
 		"unitType": "Scrapper",
 		"movement": 2,
-		"strength": 20,
+		"strength": 24,
 		"cost": 50,
 		"hurryCostModifier": 20,
 		"requiredTech": "Biology",
 		"upgradesTo": "Mobile Clinic",
-		"promotions": ["Medic II"],
+		"promotions": ["Medic I", "Medic II"],
 		"uniques": ["Personnel", "Support",
 			"All adjacent units heal [+10] HP when healing", "[-1] Sight",
 			"Only available <in cities with a [Hospital]>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Combat Medic",
+		"replaces": "Wandering Doctor",
+		"uniqueTo": "New Star",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 24,
+		"cost": 50,
+		"hurryCostModifier": 20,
+		"upgradesTo": "Mobile Clinic",
+		"promotions": ["Medic I", "Medic II"],
+		"uniques": ["Personnel", "Support",
+			"All adjacent units heal [+5] HP when healing"],
 		"attackSound": "shot"
 	},
 	{
@@ -1126,6 +1141,24 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Weaponized Yacht",
+		"replaces": "Dinghy",
+		"uniqueTo": "Venice Beach",
+		"unitType": "Melee Water",
+		"requiredTech": "Sailing",
+		"movement": 4,
+		"strength": 24,
+		"cost": 50,
+		"obsoleteTech": "Steam Power",
+		"upgradesTo": "Patrol Boat",
+		"uniques": [
+			"Double movement in [Coast]",
+			"Cannot enter ocean tiles",
+			"May withdraw before melee ([33]%)"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Hawkman Brave",
 		"unitType": "Scrapper",
 		"replaces": "Machete",
@@ -1333,26 +1366,10 @@
 		"upgradesTo": "Mechanized Worker",
 		"uniques": [
 			"Can build [Land] improvements on tiles",
-			"[-25]% construction time for [Natural tile] improvements",
+			"[-25]% construction time for [Tree plantation] improvements",
 			"Automation is a primary action"
 		],
 		"cost": 50
-	},
-	{
-		"name": "Mechanized Worker",
-		"unitType": "Civilian",
-		"requiredTech": "Replaceable Parts",
-		"movement": 4,
-		"cost": 200,
-		"hurryCostModifier": 20,
-		"uniques": [
-			"Consumes [1] [Oil]",
-			"Only available <if [Factory] is constructed>",
-			"May withdraw before melee ([50]%)",
-			"Can build [Land] improvements on tiles",
-			"[-25]% construction time for [All] improvements",
-			"Automation is a primary action"
-		]
 	},
 	{
 		"name": "Clansman",
@@ -1439,54 +1456,6 @@
 		"attackSound": "tankshot"
 	},
 	{
-		"name": "Conscript",
-		"unitType": "Scrapper",
-		"movement": 2,
-		"strength": 36,
-		"interceptRange": 1,
-		"cost": 60,
-		"upgradesTo": "NBC Conscript",
-		"hurryCostModifier": 20,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Combined Arms",
-		"uniques": [
-			"Personnel",
-			"Enslaved",
-			"[-25]% construction time for [All] improvements",
-			"Can build [All Road] improvements on tiles",
-			"Can build [Fort] improvements on tiles",
-			"Can build [Trench] improvements on tiles",
-			"Only available <with [Slaves]>",
-			"Consumes [1] [Slaves]",
-			"Never appears as a Barbarian unit"
-		],
-		"attackSound": "machinegun"
-	},
-	{
-		"name": "Rubble Militia",
-		"unitType": "Scrapper",
-		"uniqueTo": "Deadrock Clan",
-		"replaces": "Conscript",
-		"movement": 2,
-		"strength": 36,
-		"cost": 60,
-		"upgradesTo": "NBC Conscript",
-		"hurryCostModifier": 20,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Combined Arms",
-		"uniques": [
-			"Low Tech",
-			"Enslaved",
-			"[-25]% construction time for [All] improvements",
-			"Can build [All Road] improvements on tiles",
-			"Can build [Fort] improvements on tiles",
-			"Can build [Trench] improvements on tiles",
-			"Only available <with [Slaves]>",
-			"Consumes [1] [Slaves]"
-		],
-		"attackSound": "machinegun"
-	},
-	{
 		"name": "Rubble Gunman",
 		"unitType": "Shooter",
 		"uniqueTo": "Deadrock Clan",
@@ -1531,55 +1500,6 @@
 			"Never appears as a Barbarian unit"],
 		"promotions": ["Logistics"],
 		"hurryCostModifier": 20,
-		"attackSound": "machinegun"
-	},
-	{
-		"name": "NBC Conscript",
-		"unitType": "Scrapper",
-		"movement": 2,
-		"strength": 36,
-		"interceptRange": 1,
-		"cost": 125,
-		"requiredTech": "Plastics",
-		"hurryCostModifier": 20,
-		"uniques": [
-			"Personnel",
-			"Enslaved",
-			"Only available <if [Factory] is constructed>",
-			"[-25]% construction time for [All] improvements",
-			"Can build [All Road] improvements on tiles",
-			"Can build [Fort] improvements on tiles",
-			"Can build [Trench] improvements on tiles",
-			"Only available <with [Slaves]>",
-			"Consumes [1] [Slaves]",
-			"Never appears as a Barbarian unit"
-		],
-		"promotions": ["Gas Mask"],
-		"attackSound": "machinegun"
-	},
-	{
-		"name": "Henchman",
-		"unitType": "Scrapper",
-		"uniqueTo": "Deadrock Clan",
-		"replaces": "NBC Conscript",
-		"movement": 2,
-		"strength": 36,
-		"interceptRange": 1,
-		"cost": 125,
-		"requiredTech": "Plastics",
-		"hurryCostModifier": 20,
-		"uniques": [
-			"Personnel",
-			"Enslaved",
-			"Only available <if [Factory] is constructed>",
-			"[-25]% construction time for [All] improvements",
-			"Can build [All Road] improvements on tiles",
-			"Can build [Fort] improvements on tiles",
-			"Can build [Trench] improvements on tiles",
-			"Only available <with [Slaves]>",
-			"Consumes [1] [Slaves]"
-		],
-		"promotions": ["Gas Mask"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1952,6 +1872,15 @@
 			"Triggers a global alert upon completion",
 			"Hidden when [Scientific] Victory is disabled"
 		]
+	},
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Can instantly construct a [Supply Complex] improvement <by consuming this unit>",
+			"Great Person - [Gold]",
+			"Unbuildable", "Uncapturable"],
+		"movement": 2
 	},
 	{
 		"name": "Great Farmer",

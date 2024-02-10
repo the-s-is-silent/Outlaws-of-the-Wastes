@@ -2,7 +2,7 @@
 
 Like the status of the mod as a whole as well as DeCiv Redux's credit list, this is incomplete.<br>
 Pixel art will most likely reuse other sources (several of them from DeCiv, Drydock from Rekmod) for the initial upload.<br>
-Floating Settlements and Wasteland Stations borrow the Biodome City and Mining Camp images from Alpha Frontier, with permission from [Indonesian Gentleman](https://github.com/carriontrooper).<br>
+Floating Settlement, Supply Complex, and Wasteland Station borrow tile images from Alpha Frontier, with permission from [Indonesian Gentleman](https://github.com/carriontrooper).<br>
 Preservator is borrowed from [Bamboolord](https://github.com/RealBamboolord) with his permission.<br>
 Several icons reuse images used in either Unciv or DeCiv Redux, with some of the latter remaining unsourced.<br>
 The Religion Icons for Anglicanism, Imperial Cult and Mormonism were created by Tomatekh on CivFanatics and can be found [at the Civ 5 Customization Wiki's entry on the Tomatekh's Historical Religions mod](https://civilization-v-customisation.fandom.com/wiki/Tomatekh%27s_Historical_Religions).<br>
@@ -10,7 +10,7 @@ The icons for Alma Frontier Guard and Alma State Guard are of my own creation.
 
 Unless otherwise specified, all of the following are from the Noun Project, licensed under Creative Commons or Public Domain. Also, if anyone feels like there is a better/more fitting icon out there for any particular building/unit/etc. than the one that is used, I am open to suggestions for replacement icons.
 
-Items still missing an icon (not necessarily a complete list): Condenser Cooler, Defense Directorate (and its replacements), Field Preparations Squad, Mounted Railgun, Pax Observer, Pax Researcher, Pax Surveyor, Persevering Pax Researcher, Pithouse, Preservator (icon also missing from TCC-beta), Pridwen-class, Rapid Response Squad, SS Casing, SS Life Support, Super Mutant
+Items still missing an icon (not necessarily a complete list): Condenser Cooler, Defense Directorate (and its replacements), Field Preparations Squad, Mounted Railgun, Pax Observer, Pax Researcher, Pax Surveyor, Persevering Pax Researcher, Pithouse, Preservator (icon also missing from TCC-beta), Pridwen-class, Rapid Response Squad, SS Casing, SS Life Support, Super Mutant, Weaponized Yacht
 
 ### Building Icons
 - Abbey: [Westminster Abbey](https://thenounproject.com/icon/westminster-abbey-5459042/) by Brickclay, PK
@@ -79,6 +79,7 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 - Raider Suppression Initiative: [Soldier Attack with Machine Gun](https://thenounproject.com/icon/soldier-attack-with-machine-gun-659094/) by Gan Khoon Lay
 - [Red Square](https://thenounproject.com/icon/red-square-4944120/) by Amethyst Studio, TH
 - Refurbished Textile Mill: [Textile industry](https://thenounproject.com/icon/textile-industry-5649184/) by Studio 365
+- Rehabilitation Center: [Hospital](https://thenounproject.com/icon/hospital-2453105/) by Vectors Point, PK
 - Remedial School (currently unused): [educational school building](https://thenounproject.com/icon/educational-school-building-3017500/) by Vectors Point
 - Research and Preservation Institute: [institute](https://thenounproject.com/icon/institute-5137615/) by lastspark, RU
 - Restored Temple of Zion: [Salt Lake Temple](https://thenounproject.com/icon/salt-lake-temple-219294/) by Nick Bluth, US
@@ -105,6 +106,7 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 - [Victory Column](https://thenounproject.com/icon/victory-column-4202773/) by tezar tantular, ID
 - Wasteland Surveillance Initiative: [Security](https://thenounproject.com/icon/security-123950/) by Aaron K. Kim, US
 - Workers' Facility: [facility](https://thenounproject.com/icon/facility-2815116/) by WEBTECHOPS LLP, IN
+- Yacht Club: [yacht](https://thenounproject.com/icon/yacht-1324236/) by ProSymbols, US
 - Zemlyanka: [refuge](https://thenounproject.com/icon/refuge-4122612/) by Robin Lopez, FR
 
 ### Improvement Icons

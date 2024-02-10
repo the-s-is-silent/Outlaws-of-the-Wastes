@@ -926,7 +926,7 @@
 		"culture": 1,
 		"cost": 0,
 		"uniques": [
-			"Free [Militia] appears",
+			"[2] free [Combat Medic] units appear",
 			"Can only be built [in capital]",
 			"Gain a free [Food Store] [in this city]"
 		],
@@ -2269,6 +2269,7 @@
 			"All newly-trained [Personnel] units [in this city] receive the [Medic I] promotion",
 			"All newly-trained [Promotion Nullifier] units [in this city] receive the [Medic I] promotion",
 			"[+1 Food] from [VX Refinery] tiles [in this city]",
+			"[+1 Food] from [VX Refinery] tiles [in this city] <after discovering [Pharmaceuticals]>",
 			"Consumes [1] [Power]"
 		]
 	},
@@ -2725,7 +2726,7 @@
 		"gold": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Trade",
-		"uniques": ["[+2 Gold] from [C2N14 Refinery] tiles [in this city]"]
+		"uniques": ["[+1 Gold] from [Refinery] tiles [in this city]"]
 	},
 	{
 		"name": "Caravan Office",
@@ -2796,6 +2797,7 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Science, +1 Happiness] [in this city] <when above [0] [Power]>",
 			"[+1 Science] per [2] population [in this city]",
+			"[+1 Science] from [Refinery] tiles [in this city]",
 			"[+2 Science] from [Books] tiles [in this city]",
 			"Free [Field Scientist] appears",
 			"Unsellable"],
@@ -3720,6 +3722,19 @@
 			"Destroyed when the city is captured"]
 	},
 	{
+		"name": "Rehabilitation Center",
+		"uniqueTo": "New Star",
+		"happiness": 2,
+		"cost": 60,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1] population [in this city]",
+			"[+2 Happiness] [in this city] <after adopting [Voting Rights]>",
+			"Consumes [1] [Slaves]",
+			"Only available <with [Slaves]>",
+			"Unsellable"]
+	},
+	{
 		"name": "Emergency Response Network",
 		"replaces": "Listening Post",
 		"uniqueTo": "New Star",
@@ -3980,6 +3995,31 @@
 			"[+1 Production] from [Bioculture] tiles [in this city]",
 			"[+2 Production] [in this city] <with [Hogs]>",
 			"Provides [2] [Power]",
+			"Never destroyed when the city is captured"]
+	},
+	{
+		"name": "Ritz-Carlton Resort",
+		"replaces": "Monument",
+		"uniqueTo": "Venice Beach",
+		"food": 2,
+		"gold": 2,
+		"culture": 2,
+		"cost": 0,
+		"uniques": ["Reveals the entire map",
+			"Provides 1 extra copy of each improved luxury resource near this City",
+			"[+1] population [in this city]",
+			"Free [Spearman] appears",
+			"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Yacht Club",
+		"uniqueTo": "Venice Beach",
+		"culture": 2,
+		"happiness": 2,
+		"cost": 0,
+		"uniques": ["Must be next to [Coast]",
+			"[+1 Culture] from [Water resource] tiles [in this city]",
+			"[2] free [Weaponized Yacht] units appear",
 			"Never destroyed when the city is captured"]
 	},
 	{

@@ -363,7 +363,7 @@
 	},
 	{
 		"name": "Self-Repair",
-		"uniques": ["[+10] HP when healing"]
+		"uniques": ["Unit will heal every turn, even if it performs an action"]
 	},
 	{
 		"name": "Prospector",
@@ -394,7 +394,9 @@
 	},
 	{
 		"name": "Sea Raider",
-		"uniques": ["Earn [25]% of the damage done to [All] units as [Gold]"]
+		"uniques": ["Earn [25]% of the damage done to [All] units as [Gold]",
+			"[+25]% Strength <vs [Wounded] units>",
+			"Heals [25] damage if it kills a unit"]
 	},
 	{
 		"name": "Reinforced Hull",
