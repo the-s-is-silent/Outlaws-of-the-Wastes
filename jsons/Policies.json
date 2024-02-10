@@ -771,7 +771,7 @@
 			},
 			{
 				"name": "Automation",
-				"uniques": ["[-25]% tile improvement construction time",
+				"uniques": ["[-25]% construction time for [All] improvements",
 					"[+100]% Production when constructing [Automated Factory] buildings [in all cities]",
 					"[+2 Science, +2 Production, +2 Happiness] from every [Factory]",
 					"[+2 Science, +2 Production, +2 Happiness] from every [Automated Factory]"],

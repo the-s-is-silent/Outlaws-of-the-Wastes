@@ -1287,7 +1287,7 @@
 	{
 		"name": "Pax Observer",
 		"replaces": "Forward Observer",
-		"uniqueTo": "New Star",
+		"uniqueTo": "The Pax",
 		"unitType": "Scrapper",
 		"movement": 4,
 		"strength": 30,

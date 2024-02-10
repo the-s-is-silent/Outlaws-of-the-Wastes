@@ -10,7 +10,7 @@ The icons for Alma Frontier Guard and Alma State Guard are of my own creation.
 
 Unless otherwise specified, all of the following are from the Noun Project, licensed under Creative Commons or Public Domain. Also, if anyone feels like there is a better/more fitting icon out there for any particular building/unit/etc. than the one that is used, I am open to suggestions for replacement icons.
 
-Items still missing an icon (not necessarily a complete list): Condenser Cooler, Defense Directorate (and its replacements), Field Preparations Squad, Mounted Railgun, Pax Observer, Pax Researcher, Pax Surveyor, Persevering Pax Researcher, Pithouse, Preservator (icon also missing from TCC-beta), Pridwen-class, Rapid Response Squad, SS Casing, SS Life Support, Super Mutant, Weaponized Yacht
+Items still missing an icon (not necessarily a complete list): Condenser Cooler, Defense Directorate (and its replacements), Mounted Railgun, Pax Observer, Pax Researcher, Pax Surveyor, Persevering Pax Researcher, Pithouse, Preservator (icon also missing from TCC-beta), Pridwen-class, SS Casing, SS Life Support, Super Mutant, Weaponized Yacht
 
 ### Building Icons
 - Abbey: [Westminster Abbey](https://thenounproject.com/icon/westminster-abbey-5459042/) by Brickclay, PK
@@ -166,6 +166,7 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 - Border Patrol: [patrol](https://thenounproject.com/icon/patrol-3048375/) by Eucalyp
 - Brownsteel Knight: [Knight](https://thenounproject.com/icon/knight-4110910/) by Robert Bjurshagen, SE
 - Camelot SAS: [Gun](https://thenounproject.com/icon/gun-154282/) by Alberto Venegas, US
+- [Combat Medic](https://thenounproject.com/icon/combat-medic-1587125/) by Gan Khoon Lay
 - Commando: [soldier](https://thenounproject.com/icon/soldier-642197/) by Gan Khoon Lay
 - Crimson Sniper: [sniper](https://thenounproject.com/icon/sniper-5218615/) by Amethyst Studio, TH
 - Dendro Mutant: [vines](https://thenounproject.com/icon/vines-4169419/) by Zulfa Mahendra, ID
@@ -177,6 +178,7 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 - Excalibur Knight: [Sword](https://thenounproject.com/icon/sword-2239554/) by Smalllike
 - Expeditionary Force: [mission](https://thenounproject.com/icon/mission-3048372/) by Eucalyp
 - Exploratores: Merger of [Laurel Wreath](https://thenounproject.com/icon/laurel-wreath-275974/) by Christopher T. Howlett, CA and [Gladius Sword](https://thenounproject.com/icon/gladius-sword-114601/) by Alex Firo, RO
+- Field Preparations Squad: [military engineering](https://thenounproject.com/icon/military-engineering-5268736/) by M. Oki Orlando, ID
 - Goon: [Hockey Mask](https://thenounproject.com/icon/hockey-mask-225297/) by P Thanga Vignesh
 - Great Caravan: [caravan](https://thenounproject.com/icon/caravan-4604787/) by Eucalyp
 - Hawkman Brave: [tomahawk](https://thenounproject.com/icon/tomahawk-4130106/) by Amethyst Studio
@@ -193,6 +195,7 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 - Mormon Battalion: [flag of utah](https://thenounproject.com/icon/flag-of-utah-5740272/) by Zach Bogart
 - Neutron Bomb: [Nuclear](https://thenounproject.com/icon/nuclear-2169503/) by ahmad, ID
 - Opolcheniye: [Ak-47](https://thenounproject.com/icon/ak-47-1745454/) by Nico Ilk, CH
+- Rapid Response Squad: [shield medic](https://thenounproject.com/icon/shield-medic-5192820/) by Rahmat Sigit Prasetyo, ID
 - Seastead Vessel: [Ship](https://thenounproject.com/icon/ship-4767613/) by Singlar
 - Shock Worker: [Sickle](https://thenounproject.com/icon/sickle-5130144/) by Luis Prado, US
 - Speculatores: [bloody knife](https://thenounproject.com/icon/bloody-knife-2109678/) by Vectors Market
