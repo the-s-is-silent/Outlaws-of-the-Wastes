@@ -3,7 +3,7 @@
 #### Atlas
 - They are given a Mountain start bias and are now forbidden from building Enslaved units, Prison Camps and Work Camps.
 - Their number of starting techs is reduced to one - Electronics - and they no longer have the nonsensical and unnecessary double Production speed towards Electrostatic Generators.
-- Additionally, the free Great Scientist from their UA has been pushed back from Secrets of the Past to Education. Though they no longer have a starting Science penalty.
+- Additionally, the free Great Scientist from their UA has been pushed back from Secrets of the Past to Education, and the only Great People they generate faster due to their UA are Great Scientists. Though they no longer have a starting Science penalty.
 - Atlas Refuge no longer has a Scientist slot, but adds 80 City HP (up from 40) and 1 base point of Science.
 - Survey Center now adds +3 Science, +1 Culture, and increases to +8 Science, +3 Culture at Flight.
 - Think Tank is buffed to give a +25% Production boost towards Science buildings, along with a 15% Production boost to cities constructing buildings which are owned in the capital.
@@ -16,7 +16,7 @@
 - They now start with Trade and Currency instead of Construction and Machinery, and are no longer a Slaver faction.
 - Board of Directors adds +2 Water/Science to Personnel Offices (was previously just +1 Water) and enables units to farm Water in combat equal to 10% of the damage they deal to enemy units.
 - Operations Center now costs 150 Production.
-- Personnel Offices now cost 160 Production and no longer gain bonuses from owning Slaves. However, they gain an Administrator and Merchant slot, reduce tile purchase costs by 25%, and add a +10% Production boost for Personnel units.
+- Personnel Offices now cost 160 Production and no longer gain bonuses from owning Slaves. However, they regain the standard Town Hall's Administrator slot, reduce tile purchase costs by 25%, and add a +10% Production boost for Personnel units.
 - Resource Management Servers have a harsher limit (2 vs. base scenario's 5, but all Monopoly policy buildings have this limit now) and no longer boost city growth or provide Slaves, but to compensate, they give +10% Water to the two cities that can own one.
 
 #### Children of Rust
@@ -64,8 +64,9 @@
 #### Cult of Ignis
 - Armor units gain +1 Movement from their UA.
 - Coal Plants no longer boost Culture.
+- Strategic resources no longer have added Faith yields.
 - Oracles start at +6 Faith, +1 Culture and increase to +8 Faith, +2 Culture with Chemistry, but no longer provide Happiness.
-- The Temple is *severely* nerfed; it no longer generates Faith on Turn 1, no longer provides Local Happiness, and no longer grants an instant Pantheon (which was formerly a guaranteed Turn 1 Religion via free Great Prophet prior to them being nerfed in the base scenario). To compensate, it adds +2 Faith to active Administrators after the player has researched Chemistry.
+- The Temple is *severely* nerfed; it no longer generates Faith on Turn 1, no longer provides Local Happiness, no longer adds an Administrator slot, and no longer grants an instant Pantheon (which was formerly a guaranteed Turn 1 Religion via free Great Prophet prior to them being nerfed in the base scenario). To compensate, it adds +1 Culture/Faith to active Administrators after the player has researched Engineering.
 - Fuel Depots are also nerfed: they only add +1 Culture to Oil tiles.
 - Plantations have been taken from them and given to Deadrock Clan as a Greenhouse replacement (and are nerfed).
 - Processing Centers only inflict a 10% Food penalty (previously 25%) on annexed cities.
@@ -98,7 +99,7 @@
 
 #### Hexlock
 - They start with fewer free techs now: knowledge of Chemistry is gained, but knowledge of Construction, Machinery and Engineering is lost. The malus on GP generation is removed, and Encrypted Data resources are doubled by their UA.
-- Chemicals are now properly Strategic Resources instead of Luxury Resources.
+- Chemicals are now properly Strategic Resources instead of Luxury Resources, so now Hexlock actually has Happiness issues.
 - Field Scientists and Purge Robots are now standalone units.
 - Purge Robot Proto's base Strength increased from 25 to 40, in order to give Hexlock a fighting chance. But its Production cost is increased from 50 to 75.
 - Hex Corporation only creates one Purge Robot Proto, but it also gives a 10% Production bonus towards the construction of all Promotion Nullifier units after Replaceable Parts is researched. Also, it no longer gives a free Compound Mixer to the capital and gives their new Food Store replacement instead.
@@ -106,10 +107,10 @@
 - Crystal Refineries have their base yields doubled to +4 Science, +2 Water, but have their adjacency bonuses reduced to +2 Science, +1 Water with 3 or less adjacent Refineries, +4 Science, +2 Water with 4 or more. They gain +2 Production if built atop Coal or Oil resources.
 - Compound Mix GP replaced with Compound Mix GF, generating Great Farmers instead of Great Sages (but with the same resource requirement as GP).
 - The Heat Plant building is no longer one of their unique components and can be built by everyone.
-- Pre-Med Labs have been buffed to carry over the same amount of Food on population increase as the Hospitals they replace and add +1 Food to VX Refineries.
+- Pre-Med Labs have been buffed to carry over the same amount of Food on population increase as the Hospitals they replace and add +1 Food to VX Refineries, increasing to +2 in the late game.
 - Experiment on Survivors now awards a Field Scientist instead of a Great Scientist, gives +2 pop in the capital instead of +1 in all cities, and can only be built in the capital.
-- Private Labels add +2 Water to the C2N14 Refinery and do not boost other Refineries.
-- Record Grids have been buffed to give +1 Science to SbF5 Refineries, +1 Local Happiness while the faction has Power, and remove both the increase to Production cost and reduced Science per pop compared to the Library it replaces.
+- Private Labels no longer add Science to Refineries, but have a base yield of +2 Water.
+- Record Grids now add +1 Science to Refineries, +1 Local Happiness while the faction has Power, and lose both the increase to Production cost and reduced Science per pop compared to the Libraries they replace.
 - Stormfront Center and Overcouncil now cost 150 Production each. The latter now provides 2 of each of their unique resources.
 - New UBs:
   - Nutri-Paste Dispenser (replaces Food Store, reduces Happiness by 1 but adds +1 Food as a base yield and another +1 with the VX chemical)
@@ -142,14 +143,17 @@
 #### New Star
 - They are no longer allowed to employ prison labor.
 - Mobile Encampment provides more Weapons (2 vs. 1) and can be built in a second city after discovering Munitions, allowing them to move the capital if necessary.
+- On the run now gives two Wandering Doctor replacements instead of a Militia.
 - Gideon Scanner and Rally Station still cannot exist at the same time, nor exist in more than one city, and they are more expensive, costing 150 Production each. They also cannot be purchased.
-- New UU: Rapid Response Squad (replaces Forward Observer, starts with Gas Mask and Medic I/II, 75% strength on defense, can sacrifice itself to clear Fallout or Toxic Waste, more expensive to build)
+- New UUs:
+  - Combat Medic (replaces Wandering Doctor, no Sight penalty or tech/infrastructure requirement but is slightly less effective at healing)
+  - Rapid Response Squad (replaces Forward Observer, starts with Gas Mask and Medic I/II, 75% strength on defense, can sacrifice itself to clear Fallout or Toxic Waste, more expensive to build)
 - New UBs:
   - Soup Kitchen (replaces Prison Camp, +2 Food, +1 Local Happiness, removes extra unhappiness from annexed cities, does not provide Slaves, no restrictions on building)
   - Triage (replaces Work Camp, +10 unit healing for units adjacent to the city, +15% Production towards "support" units, +1 Local Happiness restored at Voting Rights, does not consume Slaves)
-  - Emergency Response Network (replaces Listening Post, adds 1 Administrator slot instead of +1 Local Happiness, adds protection from nukes, does not remove extra unhappiness from annexed cities since unlike Prison Camps/Listening Posts + all other replacements, it can exist alongside a Soup Kitchen)
+  - Rehabilitation Center (standalone, +2 Local Happiness increasing to +4 upon adopting Voting Rights, liberates an acquired Slave to add +1 population to the city)
+  - Emergency Response Network (replaces Listening Post, adds protection from nukes, does not remove extra unhappiness from annexed cities since unlike Prison Camps/Listening Posts + all other replacements, it can exist alongside a Soup Kitchen)
   - Medical School (replaces Public School, requires a Hospital instead of a Library, awards Medic II to new units and adds +1 Local Happiness while the faction has Power)
-- TODO: Add some way for them to liberate Slaves provided by City-States/Great Improvements
 
 #### The Patriots
 - They now start with only one free tech - Munitions, instead of any of their original four - and no longer have an early-game Science penalty. Citadels receive an extra +2 Production/Science, increasing to +4 in the Industrial era.
@@ -168,5 +172,5 @@
   - Kolkhoz (replaces Greenhouse, higher maintenance cost, adds 2 Production along with an extra Farmer slot and +1 Production to each Farmer in the city)
   - Corrective Colony (replaces Prison Camp, harsher Food penalties but provides 2 extra Slaves, and the penalties are negated by Politburo)
   - Gulag (now replaces Work Camp, lower baseline Production bonuses but adds 1 Production to Food source tiles, cannot exist alongside a Sharashka)
-  - Sharashka (standalone, +3 Science, +10% Science, +1 Scientist slot, +1 Science from active Scientists and Engineers in the city, consumes Slaves, cannot exist alongside a Gulag, can only build 3)
+  - Sharashka (standalone, +3 Science, +10% Science, +1 Scientist slot, +1 Science from active Scientists and Engineers in the city, consumes Slaves, cannot exist alongside a Gulag, can only have up to 3)
   - Atomgrad Project (replaces Manhattan Project, enables Super Mutants and doubles Uranium resources)
