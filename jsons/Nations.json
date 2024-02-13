@@ -446,6 +446,7 @@
 		"uniques": [
 			"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>",
 			"[-33]% maintenance costs <for [Land] units>",
+			"[+20]% Strength <for [Low Tech] units> <when attacking>",
 			"Starts with [Iron Working]",
 			"Starts with [Supremacy] adopted",
 			"Empire enters golden age <upon conquering a city> <after adopting [Supremacy Complete]>",

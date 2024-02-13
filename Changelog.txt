@@ -327,7 +327,7 @@ Changes since the Harbinger update
 	- They no longer have a nonsensical (and frankly unnecessary) double Production speed bonus towards their unique Electrostatic Generators.
 	- However, the early-game Science penalty has also been removed.
 - Children of Rust nerfed; the Faith bonus only applies as long as the Ruins tiles are unimproved, and they no longer start with Redomestication.
-- Crimson Legion now starts with Iron Working instead of Redomestication.
+- Crimson Legion now starts with Iron Working instead of Redomestication. They are buffed to have Low Tech units receive a 20% strength bonus when attacking.
 - Cult of Ignis nerfed again; they no longer get extra Faith from strategic resource tiles.
 - New Afrika nerfed; the Great Wall effect in their UA now has an expiration date, and they no longer start with Redomestication. However, their combat bonus against larger civs no longer has a policy requirement.
 - The Patriots now start with only one free tech - Munitions, instead of any of their original four - and no longer have an early-game Science penalty. Additionally, Citadels gain +2 Production/Science, increasing to +4 (along with an extra +2 Water) after entering the Industrial era.
@@ -429,7 +429,9 @@ Changes since the Harbinger update
 	- Children of Rust:
 		- Commune now adds +2 Food with access to Power and regains the standard Town Hall's Administrator slot, but no longer has any base yields and no longer reduces tile purchase costs. It now unlocks at Civil Service and costs 120 Production.
 	- Crimson Legion:
-		- Crucifixion Fields no longer reduce Food (I thought I'd made this adjustment earlier, but apparently not). They will be destroyed if another faction takes the city.
+		- Legion Camp now replaces Barracks and no longer inflict a Food penalty, but also no longer strengthens the city's defenses or spawns free units.
+		- Victory Column buffed to gain +1 base Local Happiness (so it now provides +2 during wartime).
+		- Crucifixion Fields no longer inflict a Food penalty (I thought I'd made this adjustment earlier, but apparently not). They will be destroyed if another faction takes the city.
 		- Caesareum buffed to +2 Production.
 	- Cult of Ignis:
 		- Plantation now belongs to Deadrock Clan as a Greenhouse replacement.
@@ -496,11 +498,17 @@ Changes since the Harbinger update
 **Unit Adjustments**
 - All three non-drone Bomber units have had their ranged strength reduced by 5 (and in the case of Stealth Bombers, their strength reduced by 15).
 - Ancient Armor's strength further reduced to 50 and its Production cost increased to 150.
+- Auxiliary is now a Crimson Legion UU, replacing the Militia as a weaker Low Tech version that retains infrastructure building abilities and gets a combat bonus when adjacent to other Melee units instead of against Mounted units. Also, it's no longer an Enslaved unit.
+	- Consequently, Rubble Gangs are now a standalone unit for Deadrock Clan.
 - Bartertown Security Force renamed (or rather, had its name corrected) to Bartertown Imperial Guard.
 - Battleaxe of the Lord now has 28 strength (was previously 27).
 - Brownsteel Knight's Production cost reduced by 10; the initial cost increase of 20 from standard Hussars was too high considering the difference in strength between the two isn't that great.
 - Clansmen no longer require Clubhouses to be built, due to the building being available two tech eras later.
 - Commandos now obsolete at Energy Weapons (since unlike normal Black Ops who consume 2 Weapons, Camelot SAS only consumes 1 so there's no point in letting Commandos remain trainable in the endgame).
+- Crimson Legion UUs:
+	- Swordsmen buffed to 24 combat strength and receive bonuses against Barbarians and when defending from Ranged units.
+	- Legions buffed to 36 combat strength but no longer receive bonuses against cities.
+	- Both upgrade to Riflemen instead of Militia.
 - Destroying Angel no longer obsoletes.
 - Field Scientists reverted to 70 production cost, 1 charge, but remain standalone units.
 - Forward Observers and their replacements (with the exception of the Legion's Speculatores) can no longer capture cities. They now play the "shot" attack sound in combat.

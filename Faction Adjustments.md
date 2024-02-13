@@ -43,23 +43,28 @@
 #### Crimson Legion
 - Their favored Religion is changed to Imperial Cult, and they are now forbidden from building Drones and Purge Robots (in accordance with the source material, where robotics are the only technology Caesar completely opposes).
 - They start with Iron Working instead of Redomestication.
+- Low Tech units receive a 20% combat strength bonus while attacking from their UA.
+- Swordsmen buffed to 24 combat strength and receive bonuses against Barbarian units (25%) and on defense against Ranged units (33%).
+- Auxiliaries, which were previously early-game Enslaved units available to every faction except Commonwealth and New Star, are now Legion exclusive, no longer Enslaved units, and replace Militia, lacking the Weapons requirement but taking a hit in combat strength. Instead of a 50% combat bonus against Mounted units, they gain a 15% combat bonus while adjacent to another Melee unit.
+- Legions now have the same combat strength as standard Militia, but lose their combat bonus against cities.
+- All three of the above units now upgrade to Riflemen.
 - Forum now only gives a 5% faction-wide reduction to Unhappiness and no longer increases city health. However, it receives +1 Water and lets them start with a second free Swordsman.
 - Studies no longer have reduced Science gain compared to standard Libraries, but also no longer give Great Scientist Points.
 - College of Rhetoric no longer has reduced Science gain compared to standard Universities, but also no longer gives Great Person Points. Additionally, it adds +2 Happiness instead of adding Culture, and adds a Scientist slot instead of an Administrator slot.
 - The Senate now adds a +15% Production boost to cities constructing buildings which are owned in the capital.
 - The Consulate now doubles the recovery rate of lost CS influence - this is a placeholder buff until BNW content is implemented in Unciv and Gunboat Diplomacy becomes a thing. However, the Production bonus towards Military units now only applies to Land units.
 - Military Schools now add +1 Production instead of coming with a -1 Food penalty.
-- Legion Camps' Food penalty reduced from 25% to 10%, but City Strength is reduced from +10 to +5. Also, they are 4x more expensive to build now.
+- Legion Camps now replace Barracks, no longer have a Food penalty, but also no longer spawn a free unit or bolster the city's defenses - they are allowed to retain the Production bonus towards Melee units.
 - New UUs:
   - Exploratores (replaces Scout, stronger, starts with Sentry, but has higher production cost)
   - Speculatores (replaces Forward Observer, starts with both tiers of Urban Warfare, double strength when attacking cities, can enter foreign borders without Open Borders treaties, but has higher production cost)
   - Legate (replaces Great General, loses instant Golden Age, builds Outposts + can go on trade missions)
 - New UBs:
   - Tribal Unification Initiative (replaces Raider Suppression Initiative, no free Weapons but gives faster Great Generals, added Barbarian recruitment and improved unit training speed)
-  - Victory Column (replaces Monument, +15 EXP to new units, +1 Local Happiness during wartime)
+  - Victory Column (replaces Monument, +15 EXP to new units, +1 Local Happiness increasing to +2 during wartime)
   - Crucifixion Fields (standalone, built automatically in annexed cities and unsellable, kills 1 pop, adds +2 Culture but also adds +2 Unhappiness, awards free Legate)
   - Caesareum (replaces Monastery, +2 Production, +5% Production boost towards building construction)
-- TODO: Add a Distillery replacement that does not provide the Alcohol luxury (drugs/alcohol should be banned in Legion territory in accordance with the source material) along with a high-tech Praetorian Guard unit
+- TODO: Add a Distillery replacement that does not provide the Alcohol luxury (drugs/alcohol should be banned in Legion territory in accordance with the source material) along with at least 3 more UUs and possibly new Prison/Work Camp replacements
 
 #### Cult of Ignis
 - Armor units gain +1 Movement from their UA.

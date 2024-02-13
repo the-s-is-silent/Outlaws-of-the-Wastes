@@ -959,7 +959,7 @@
 
 	//Missile units
 	{
-		"name": "The Last Minute",
+		"name": "Sentinel Missile",
 		"unitType": "Missile",
 		"replaces": "Nuclear Missile",
 		"uniqueTo": "The Patriots",
@@ -1119,7 +1119,7 @@
 		"upgradesTo": "Rifleman",
 		"hurryCostModifier": 20,
 		"uniques": ["Low Tech",
-			"Can build [Natural tile] improvements on tiles",
+			"Can build [Tree plantation] improvements on tiles",
 			"Invisible to others <in [Tree plantation] tiles>"],
 		"attackSound": "nonmetalhit"
 	},
@@ -1372,6 +1372,64 @@
 		"cost": 50
 	},
 	{
+		"name": "Swordsman",
+		"unitType": "Scrapper",
+		"uniqueTo": "Crimson Legion",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 24,
+		"cost": 40,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Rifleman",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Low Tech",
+			"[+25]% Strength <vs cities>",
+			"[+25]% Strength <vs [Low Tech] units>",
+			"[+25]% Strength <vs [Barbarian] units>",
+			"[+33]% Strength <vs [Ranged] units> <when defending>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Auxiliary",
+		"unitType": "Scrapper",
+		"replaces": "Militia",
+		"uniqueTo": "Crimson Legion",
+		"movement": 2,
+		"strength": 28,
+		"cost": 50,
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Rifleman",
+		"uniques": [
+			"Low Tech",
+			"[+15]% Strength <when adjacent to a [Melee] unit>",
+			"Can build [All Road] improvements on tiles",
+			"Can build [Fort] improvements on tiles",
+			"Can build [Trench] improvements on tiles"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Legion",
+		"unitType": "Scrapper",
+		"uniqueTo": "Crimson Legion",
+		"replaces": "Machete",
+		"movement": 2,
+		"strength": 36,
+		"cost": 60,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Rifleman",
+		"uniques": [
+			"Low Tech",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"Only available <if [Forge] is constructed>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Clansman",
 		"unitType": "Scrapper",
 		"uniqueTo": "Deadrock Clan",
@@ -1384,6 +1442,51 @@
 		"uniques": ["Low Tech", "[+50]% Strength <vs [Mounted] units>"],
 		"promotions": ["Clansman"],
 		"attackSound": "metalhit"
+	},
+	{
+		"name": "Rubble Gang",
+		"unitType": "Scrapper",
+		"uniqueTo": "Deadrock Clan",
+		"movement": 2,
+		"strength": 18,
+		"cost": 15,
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Conscript",
+		"uniques": [
+			"Low Tech",
+			"Enslaved",
+			"Consumes [1] [Slaves]",
+			"Only available <with [Slaves]>"
+		],
+		"promotions": ["Forage", "Urban Warfare I"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Rubble Gunman",
+		"unitType": "Shooter",
+		"uniqueTo": "Deadrock Clan",
+		"replaces": "Crossbowman",
+		"range": 1,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 24,
+		"interceptRange": 1,
+		"cost": 90,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Combined Arms",
+		"upgradesTo": "Machine Gun",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Low Tech",
+			"Enslaved",
+			"Can build [All Road] improvements on tiles",
+			"Can build [Fort] improvements on tiles",
+			"Can build [Trench] improvements on tiles",
+			"Only available <with [Slaves]>",
+			"Consumes [1] [Slaves]"
+		],
+		"promotions": ["Urban Warfare I"],
+		"attackSound": "shot"
 	},
 	{
 		"name": "Purge Robot Proto",
@@ -1454,33 +1557,6 @@
 		],
 		"promotions": ["Promotion Nullifier","Portable Power Cell"],
 		"attackSound": "tankshot"
-	},
-	{
-		"name": "Rubble Gunman",
-		"unitType": "Shooter",
-		"uniqueTo": "Deadrock Clan",
-		"replaces": "Crossbowman",
-		"range": 1,
-		"movement": 2,
-		"strength": 30,
-		"rangedStrength": 24,
-		"interceptRange": 1,
-		"cost": 90,
-		"requiredTech": "Steel",
-		"obsoleteTech": "Combined Arms",
-		"upgradesTo": "Machine Gun",
-		"hurryCostModifier": 20,
-		"uniques": [
-			"Low Tech",
-			"Enslaved",
-			"Can build [All Road] improvements on tiles",
-			"Can build [Fort] improvements on tiles",
-			"Can build [Trench] improvements on tiles",
-			"Only available <with [Slaves]>",
-			"Consumes [1] [Slaves]"
-		],
-		"promotions": ["Urban Warfare I"],
-		"attackSound": "shot"
 	},
 	{
 		"name": "Machine Gun",

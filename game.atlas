@@ -1404,7 +1404,7 @@ UnitIcons/Technopath
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/The Last Minute
+UnitIcons/Sentinel Missile
   rotate: false
   xy: 896, 1296
   size: 100, 100
