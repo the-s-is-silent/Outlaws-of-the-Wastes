@@ -1381,7 +1381,7 @@
 		"cost": 40,
 		"requiredTech": "The Wheel",
 		"obsoleteTech": "Rifling",
-		"upgradesTo": "Rifleman",
+		"upgradesTo": "Soldier",
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Low Tech",
@@ -1401,7 +1401,7 @@
 		"strength": 28,
 		"cost": 50,
 		"obsoleteTech": "Rifling",
-		"upgradesTo": "Rifleman",
+		"upgradesTo": "Soldier",
 		"uniques": [
 			"Low Tech",
 			"[+15]% Strength <when adjacent to a [Melee] unit>",
@@ -1421,7 +1421,7 @@
 		"cost": 60,
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Rifleman",
+		"upgradesTo": "Soldier",
 		"uniques": [
 			"Low Tech",
 			"[+50]% Strength <vs [Low Tech] units>",
