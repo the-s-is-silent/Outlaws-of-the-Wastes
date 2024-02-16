@@ -66,6 +66,7 @@ Building Changes:
 	- Stable nerfed to +1 Production on Horses tiles, but no longer adds a Food penalty to them.
 	- Transport Network *severely* nerfed; it now only adds +1 Production to Borough tiles and no additional stats.
 	- Uranium Centrifuge nerfed: you can only have 3 instead of 5 and they have to be in cities with a Nuclear Plant.
+	- Work Camp (and Slaver faction replacements) also nerfed: percentage boost to Production reduced by 5%, Engineer slot removed, extra Production from having surplus Slaves removed, *and* it also reduces Local Happiness by 2.
 - Food/Growth building adjustments:
 	- Ranches can now be built with improved Horses tiles in the city radius and they add +1 Food to those tiles.
 	- Hospitals (and relevant replacements), Medical Labs, and Organ Labs have had their minor Science penalty removed (a penalty they shouldn't have had in the first place), but also no longer gain stats from having Harvested Organs. The replacements for the evil factions no longer have reduced food preservation effects. Hospitals also *ignore* the difficulty update that shuts down their food preservation effect when the faction falls into negative Power.

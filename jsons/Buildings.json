@@ -32,19 +32,6 @@
 		"requiredTech": "Iron Working"
 	},
 	{
-		"name": "Tribal Unification Initiative",
-		"replaces": "Raider Suppression Initiative",
-		"uniqueTo": "Crimson Legion",
-		"cost": 50,
-		"isNationalWonder": true,
-		"uniques": ["Can only be built [in capital]",
-			"[Great General] is earned [33]% faster",
-			"When defeating a [Barbarian] unit, earn [25] Gold and recruit it <with [67]% chance>",
-			"[+15]% Production when constructing [{Military} {Land}] units [in all cities]",
-			"Only available <after adopting [Sovereignty]>"],
-		"requiredTech": "Iron Working"
-	},
-	{
 		"name": "Earthscraper Project",
 		"cost": 2000,
 		"isNationalWonder": true,
@@ -790,6 +777,7 @@
 			"Free [Shock Worker] appears",
 			"Free [Kommissar] appears",
 			"Can only be built [in capital]",
+			"Gain a free [Food Store] [in this city]",
 			"Gain a free [Armory Station] [in this city]"],
 		"quote": "Once, these mighty cultural monuments stood as a symbol of our power. Now their ruins remain only to serve as a reminder of our decay."
 	},
@@ -825,13 +813,13 @@
 		"name": "Gupvi",
 		"replaces": "Prison Camp",
 		"uniqueTo": "Crimson Line",
-		"hurryCostModifier": -25,
+		"hurryCostModifier": 25,
 		"production": 2,
 		"happiness": -2,
 		"uniques": ["Remove extra unhappiness from annexed cities",
 			"Can only be built [in annexed cities]",
 			"Provides [2] [Slaves]",
-			"Provides [1] [Slaves] <after adopting [Collectivism Complete]>",
+			"Provides [2] [Slaves] <after adopting [Collectivism Complete]>",
 			"Only available <in cities without a [Listening Post]>",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Construction"
@@ -840,9 +828,9 @@
 		"name": "Katorga Labor Camp",
 		"replaces": "Work Camp",
 		"uniqueTo": "Crimson Line",
-		"production": 3,
-		"percentStatBonus": {"production": 15},
-		"specialistSlots": {"Engineer": 1},
+		"production": 2,
+		"happiness": -2,
+		"percentStatBonus": {"production": 10},
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": ["[+2 Production] [in this city] <when above [0] [Power]>",
@@ -1416,8 +1404,9 @@
 		"uniqueTo": "Crimson Legion",
 		"cost": 100,
 		"requiredTech": "Civil Service",
-		"uniques": ["Great General provides double combat bonus",
-			"[+20]% Production when constructing [{Military} {Land}] units [in all cities]",
+		"uniques": ["[+10]% growth [in all cities]",
+			"[+15]% Production when constructing [{Military} {Land}] units [in all cities]",
+			"Great General provides double combat bonus",
 			"City-State Influence recovers at twice the normal rate",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Senate]>",
@@ -1445,7 +1434,7 @@
 		"uniques": ["[+10]% growth [in all cities]",
 			"[+2 Culture] from every [Fuel Depot]",
 			"[+2 Culture] from every [College of Mystics]",
-			"[+25]% Production when constructing [Faith] buildings [in all cities]",
+			"[+50]% Production when constructing [Faith] buildings [in all cities]",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [War Council]>",
 			"Destroyed when the city is captured"]
@@ -1499,9 +1488,9 @@
 		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": ["[+10]% growth [in all coastal cities]",
-			"+30% Strength when fighting City-State units and cities",
+			"[+30]% Strength <vs [City-States]>",
 			"Receive triple Gold from Barbarian encampments and pillaging Cities",
-			"[+20]% Production when constructing [Water] units [in all cities]",
+			"[+15]% Production when constructing [Water] units [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Trader's Congress]>",
@@ -2741,6 +2730,28 @@
 		"requiredTech": "Trade"
 	},
 	{
+		"name": "Slave Market",
+		"replaces": "Market",
+		"uniqueTo": "Crimson Legion",
+		"specialistSlots": {"Merchant": 1},
+		"gold": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+25]% Production when constructing [Civilian] units [in this city]",
+			"[+1 Gold, +1 Production] [in this city] <when above [0] [Slaves]>",
+			"Only available <with [Slaves]>",
+			"Consumes [1] [Slaves]"
+		],
+		"requiredTech": "Trade"
+	},
+	{
+		"name": "Water Storage",
+		"percentStatBonus": {"gold": 10},
+		"specialistSlots": {"Merchant": 1},
+		"requiredTech": "Currency",
+		"uniques": ["Doubles Gold given to enemy if city is captured"]
+	},
+	{
 		"name": "Water Plant",
 		"specialistSlots": {"Merchant": 1},
 		"percentStatBonus": {"gold": 20},
@@ -2749,13 +2760,6 @@
 		"uniques": ["[+1 Gold] from [Groundwater] tiles [in this city]", "Consumes [1] [Power]"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Decontamination"
-	},
-	{
-		"name": "Water Storage",
-		"percentStatBonus": {"gold": 10},
-		"specialistSlots": {"Merchant": 1},
-		"requiredTech": "Currency",
-		"uniques": ["Doubles Gold given to enemy if city is captured"]
 	},
 	{
 		"name": "Greywater Treatment Plant",
@@ -2931,12 +2935,11 @@
 		"name": "Military School",
 		"replaces": "Public School",
 		"uniqueTo": "Crimson Legion",
-		"production": 1,
 		"science": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Science] per [2] population [in this city]",
-			"[+15]% Production when constructing [Military] units [in this city]",
+			"[+10]% Production when constructing [{Military} {Land}] units [in this city]",
 			"New [Military] units start with [15] Experience [in this city]",
 			"Only available <in cities with a [Barracks]>"],
 		"requiredTech": "Civil Service"
@@ -3135,10 +3138,9 @@
 		"happiness": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["New [Military] units start with [15] Experience [in this city]",
+		"uniques": ["New [Armor] units start with [15] Experience [in this city]",
 			"Remove extra unhappiness from annexed cities",
 			"[+1 Happiness] [in this city] <when at war>",
-			"[+1 Happiness, +1 Culture] [in this city] <with [Slaves]>",
 			"Only available <in cities without a [Prison Camp]>",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Machinery"
@@ -3152,8 +3154,9 @@
 		"hurryCostModifier": 25,
 		"uniques": ["New [Military] units start with [15] Experience [in this city]",
 			"Remove extra unhappiness from annexed cities",
-			"[+1 Happiness, +1 Culture] [in this city] <with [Slaves]>",
+			"Free [Swordsman] appears",
 			"Only available <in cities without a [Prison Camp]>",
+			"Unsellable",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Engineering"
 	},
@@ -3203,9 +3206,22 @@
 		"uniqueTo": "Crimson Legion",
 		"cost": 50,
 		"maintenance": 1,
-		"uniques": ["[+15]% Production when constructing [Melee] units [in this city]",
+		"uniques": ["[+10]% Production when constructing [Melee] units [in this city]",
 			"New [Military] units start with [15] Experience [in this city]",
 			"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Work Camp",
+		"percentStatBonus": {"production": 10},
+		"production": 2,
+		"happiness": -2,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Consumes [1] [Slaves]",
+			"Only available <with [Slaves]>"
+		],
+		"requiredTech": "Construction"
 	},
 	{
 		"name": "Armory",
@@ -3459,6 +3475,16 @@
 		"requiredTech": "Laboratory"
 	},
 	{
+		"name": "Subjugate Survivors",
+		"replaces": "Search for Survivors",
+		"uniqueTo": "Crimson Legion",
+		"cost": 30,
+		"uniques": ["[+1] population [in this city]",
+			"[+1 Production] per [4] population [in this city]",
+			"Provides [4] [Slaves]",
+			"Free [Worker] appears"]
+	},
+	{
 		"name": "Victory Column",
 		"uniqueTo": "Crimson Legion",
 		"replaces": "Monument",
@@ -3466,19 +3492,17 @@
 		"happiness": 1,
 		"cost": 40,
 		"hurryCostModifier": 40,
-		"uniques": ["New [Military] units start with [15] Experience [in this city]",
-			"[+1 Happiness] [in this city] <when at war>"]
+		"uniques": ["[+1 Happiness] [in this city] <when at war>"]
 	},
 	{
 		"name": "Crucifixion Fields",
 		"uniqueTo": "Crimson Legion",
 		"culture": 2,
 		"happiness": -2,
-		"cost": 20,
 		"uniques": ["[-1] population [in this city]", 
 			"Free [Legate] appears",
-			"Automatically built in all cities where it is buildable",
 			"Can only be built [in annexed cities]",
+			"Only available <in cities without a [Colosseum]>",
 			"Unsellable",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Construction"
@@ -3487,14 +3511,13 @@
 		"name": "Caesareum",
 		"replaces": "Monastery",
 		"uniqueTo": "Crimson Legion",
-		"production": 2,
 		"faith": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Shrine",
 		"requiredTech": "Education",
 		"uniques": ["Hidden when religion is disabled",
-			"[+5]% Production when constructing [All] buildings [in this city]"]
+			"[+10]% Production when constructing [All] buildings [in this city]"]
 	},
 	{
 		"name": "Ignitor's Tower",
@@ -3719,14 +3742,14 @@
 		"name": "Rehabilitation Center",
 		"uniqueTo": "New Star",
 		"happiness": 2,
-		"cost": 60,
-		"maintenance": 1,
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1] population [in this city]",
 			"[+2 Happiness] [in this city] <after adopting [Voting Rights]>",
 			"Consumes [1] [Slaves]",
 			"Only available <with [Slaves]>",
-			"Unsellable"]
+			"Unsellable"],
+		"requiredTech": "Biology"
 	},
 	{
 		"name": "Emergency Response Network",
@@ -3754,6 +3777,14 @@
 			"Only available <in cities with a [Library]>",
 			"Only available <in cities with a [Hospital]>"],
 		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Electing Leaders",
+		"replaces": "Search for Survivors",
+		"uniqueTo": "The Patriots",
+		"cost": 30,
+		"isNationalWonder": true,
+		"uniques": ["Free [Great General] appears", "Free [Civilian Convoy] appears"]
 	},
 	{
 		"name": "Arsenal of Liberty",
@@ -3802,8 +3833,7 @@
 		"name": "Gulag",
 		"replaces": "Work Camp",
 		"uniqueTo": "Proklyatyye",
-		"percentStatBonus": {"production": 5},
-		"specialistSlots": {"Engineer": 1},
+		"happiness": -2,
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": ["[+1 Production] from [Food source] tiles [in this city]",
@@ -3832,7 +3862,6 @@
 		"uniqueTo": "Proklyatyye",
 		"science": 3,
 		"percentStatBonus": {"science": 10},
-		"specialistSlots": {"Scientist": 1},
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": ["[+1 Science] from every [Scientist] <in this city> <when above [0] [Power]>",

@@ -45,26 +45,28 @@
 - They start with Iron Working instead of Redomestication.
 - Low Tech units receive a 20% combat strength bonus while attacking from their UA.
 - Swordsmen buffed to 24 combat strength and receive bonuses against Barbarian units (25%) and on defense against Ranged units (33%).
-- Auxiliaries, which were previously early-game Enslaved units available to every faction except Commonwealth and New Star, are now Legion exclusive, no longer Enslaved units, and replace Militia, lacking the Weapons requirement but taking a hit in combat strength. Instead of a 50% combat bonus against Mounted units, they gain a 15% combat bonus while adjacent to another Melee unit.
+- Auxiliaries, which were previously early-game Enslaved units available to every faction except Commonwealth and New Star, are now Legion exclusive, no longer Enslaved units, and replace Militia, lacking the Weapons requirement and retaining the infrastructure building properties but taking a hit in combat strength. Instead of a 50% combat bonus against Mounted units, they gain a 15% combat bonus while adjacent to another Melee unit.
 - Legions now have the same combat strength as standard Militia, but lose their combat bonus against cities.
-- All three of the above units now upgrade to Riflemen.
+- All three of the above units now upgrade to Soldiers.
 - Forum now only gives a 5% faction-wide reduction to Unhappiness and no longer increases city health. However, it receives +1 Water and lets them start with a second free Swordsman.
+- Slave Markets now replace standard Markets and no longer provide Food, Culture or Happiness.
+- Slaver Guild has been removed from the game.
 - Studies no longer have reduced Science gain compared to standard Libraries, but also no longer give Great Scientist Points.
 - College of Rhetoric no longer has reduced Science gain compared to standard Universities, but also no longer gives Great Person Points. Additionally, it adds +2 Happiness instead of adding Culture, and adds a Scientist slot instead of an Administrator slot.
 - The Senate now adds a +15% Production boost to cities constructing buildings which are owned in the capital.
-- The Consulate now doubles the recovery rate of lost CS influence - this is a placeholder buff until BNW content is implemented in Unciv and Gunboat Diplomacy becomes a thing. However, the Production bonus towards Military units now only applies to Land units.
-- Military Schools now add +1 Production instead of coming with a -1 Food penalty.
+- The Consulate now doubles the recovery rate of lost CS influence - this is a placeholder buff until BNW content is implemented in Unciv and Gunboat Diplomacy becomes a thing. However, the Production bonus towards Military units now only applies to Land units and is reduced to 15%.
+- Military Schools no longer inflict a Food penalty. However, the Production bonus towards Military units now only applies to Land units and is reduced to 10%.
 - Legion Camps now replace Barracks, no longer have a Food penalty, but also no longer spawn a free unit or bolster the city's defenses - they are allowed to retain the Production bonus towards Melee units.
+- Colosseums start at +2 base Local Happiness, but do not gain bonuses from having extra Slaves. They now spawn a free Swordsman upon completion and are consequently unsellable once built.
 - New UUs:
   - Exploratores (replaces Scout, stronger, starts with Sentry, but has higher production cost)
   - Speculatores (replaces Forward Observer, starts with both tiers of Urban Warfare, double strength when attacking cities, can enter foreign borders without Open Borders treaties, but has higher production cost)
   - Legate (replaces Great General, loses instant Golden Age, builds Outposts + can go on trade missions)
 - New UBs:
-  - Tribal Unification Initiative (replaces Raider Suppression Initiative, no free Weapons but gives faster Great Generals, added Barbarian recruitment and improved unit training speed)
+  - Subjugate Survivors (new Search for Survivors replacement, no Happiness bonuses but adds +1 population and +1 Production per 4 population in the city that builds it, and exchanges the free Auxiliary for a free Servus)
   - Victory Column (replaces Monument, +15 EXP to new units, +1 Local Happiness increasing to +2 during wartime)
-  - Crucifixion Fields (standalone, built automatically in annexed cities and unsellable, kills 1 pop, adds +2 Culture but also adds +2 Unhappiness, awards free Legate)
-  - Caesareum (replaces Monastery, +2 Production, +5% Production boost towards building construction)
-- TODO: Add a Distillery replacement that does not provide the Alcohol luxury (drugs/alcohol should be banned in Legion territory in accordance with the source material) along with at least 3 more UUs and possibly new Prison/Work Camp replacements
+  - Crucifixion Fields (standalone, unsellable, kills 1 pop, adds +2 Culture but also adds +2 Unhappiness, awards free Legate, only available in annexed cities and prohibits building Colosseums in those cities)
+- TODO: Add a Distillery replacement that does not provide the Alcohol luxury (drugs/alcohol should be banned in Legion territory in accordance with the source material) along with at least 2 more UUs and possibly new Prison/Work Camp replacements
 
 #### Cult of Ignis
 - Armor units gain +1 Movement from their UA.
@@ -78,8 +80,9 @@
 - Sanctums are buffed: they add +1 Faith while the faction has Power and don't have as much of a reduction in Science gain compared to standard Libraries.
 - College of Mystics is buffed: it no longer has reduced Science gain compared to standard Universities, adds an unconditional +2 Culture, and adds +1 Faith while the faction has Power. However, it no longer adds Great Scientist Points.
 - Initiate Schools are nerfed: they lose the added Science yields to Rubble/Ruins and the extra starting XP to new units is only granted to Armor units. However, they add +1 Culture/Faith while the faction has Power.
+- Arena nerfed to remove the extra point of Culture/Happiness while the player possesses extra Slaves and to restrict the starting XP bonus to Armor units. It can still conditionally provide +2 Local Happiness, but the condition is changed to being at war.
 - War Council's Production boost only applies to Armor units. It now adds a 5% Unhappiness reduction in all cities, but the player has to be at war for it to apply.
-- Seer Council's old effect has been thrown out. It now gains the standard 10% Council growth bonus, and adds +2 Culture to every owned Fuel Depot and College of Mystics and a +25% Production boost towards Faith buildings.
+- Seer Council's old effect has been thrown out. It now gains the standard 10% Council growth bonus, and adds +2 Culture to every owned Fuel Depot and College of Mystics and a +50% Production boost towards Faith buildings.
 - New UBs:
   - Ignitor's Tower (new Town Hall replacement, retains the 75% boost to Worker training speed but adds 80 City HP instead of 20% total Food, +2 Production with extra Slaves instead of +2 Food, and +1 Culture/Faith with Books access)
   - Fortified Aquifer (replaces Water Storage, +5 City Strength, +50 City HP, +1 Food/Water to worked Mountain tiles)
@@ -128,7 +131,7 @@
 - They now start with Rediscovery adopted, and upon adopting Advanced Piracy *all* of their Water units along with their Personnel units gain the policy's Sea Raider promotion.
 - The Great Lighthouse buffed to add +2 Food to the capital provided it's actually founded on the coast. It no longer generates Faith, however.
 - Trader's Congress no longer increases the effectivess of Water gifts to City-States, but generates Culture equal to 10% of the total output from allied City-States, and adds +1 Water per 4 population to all cities along with +1 Water to city connections.
-- Raider's Council now grants a +10% growth boost in coastal cities and a +20% Production bonus towards Water units.
+- Raider's Council now grants a +10% growth boost in coastal cities and a +15% Production bonus towards Water units.
 - New UUs:
   - Drifter (replaces Worker, doesn't need to embark, can build water improvements, ~31% cheaper to build)
   - Key to the City (replaces Anti-Aircraft Gun, doesn't need to embark, +100% Strength vs cities)
@@ -149,6 +152,7 @@
 - They are no longer allowed to employ prison labor.
 - Mobile Encampment provides more Weapons (2 vs. 1) and can be built in a second city after discovering Munitions, allowing them to move the capital if necessary.
 - On the run now gives two Wandering Doctor replacements instead of a Militia.
+- Electing Leaders has been taken away from them and given to The Patriots.
 - Gideon Scanner and Rally Station still cannot exist at the same time, nor exist in more than one city, and they are more expensive, costing 150 Production each. They also cannot be purchased.
 - New UUs:
   - Combat Medic (replaces Wandering Doctor, no Sight penalty or tech/infrastructure requirement but is slightly less effective at healing)
@@ -162,6 +166,7 @@
 
 #### The Patriots
 - They now start with only one free tech - Munitions, instead of any of their original four - and no longer have an early-game Science penalty. Citadels receive an extra +2 Production/Science, increasing to +4 in the Industrial era.
+- As mentioned above, Electing Leaders now belongs to this faction. However, its Production cost has been doubled.
 - Tactics Center is moved to Munitions so it remains available to them at the start of the game, and it now costs 100 Production.
 - New UU: The Last Minute (replaces Nuclear Missile, 15% cheaper to build; need to rename this UU later)
 - New UB: Arsenal of Liberty (replaces Armaments Production Line, 60% cheaper to build, adds an extra +1 Unit Supply, but requires a Power surplus for both the provided Weapons and the extra Production speed towards Personnel units, and still consumes Power to build)

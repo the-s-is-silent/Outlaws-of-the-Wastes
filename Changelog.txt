@@ -327,7 +327,9 @@ Changes since the Harbinger update
 	- They no longer have a nonsensical (and frankly unnecessary) double Production speed bonus towards their unique Electrostatic Generators.
 	- However, the early-game Science penalty has also been removed.
 - Children of Rust nerfed; the Faith bonus only applies as long as the Ruins tiles are unimproved, and they no longer start with Redomestication.
-- Crimson Legion now starts with Iron Working instead of Redomestication. They are buffed to have Low Tech units receive a 20% strength bonus when attacking.
+- Crimson Legion buffed:
+	- They now start with Iron Working instead of Redomestication.
+	- Low Tech units receive a 20% strength bonus when attacking.
 - Cult of Ignis nerfed again; they no longer get extra Faith from strategic resource tiles.
 - New Afrika nerfed; the Great Wall effect in their UA now has an expiration date, and they no longer start with Redomestication. However, their combat bonus against larger civs no longer has a policy requirement.
 - The Patriots now start with only one free tech - Munitions, instead of any of their original four - and no longer have an early-game Science penalty. Additionally, Citadels gain +2 Production/Science, increasing to +4 (along with an extra +2 Water) after entering the Industrial era.
@@ -360,7 +362,7 @@ Changes since the Harbinger update
 		- Cult of Ignis's Seer Council's old effects have been thrown out; it now adds +2 Culture to every Fuel Depot and College of Mystics along with a +25% Production bonus towards Faith buildings and the standard 10% city growth boost.
 		- Deadrock Clan's Grand Clan Manor now costs 100 Production (down from 200) but only gives 15 XP to newly trained units. However, it grants a +10% Production boost towards Personnel units and boosts city growth by 10% like most Council variants.
 		- Deseret Nation's Quorum of the Twelve now adds +2 Science/Culture to all worked Great Improvements and excludes itself from its Production bonus (it's now applied to the three regular Faith buildings + Worship Belief buildings). It no longer allows Production to Faith conversion, and receives the standard 10% city growth boost.
-		- The Mariners' Raider's Council now gives a +20% Production boost towards naval units and the standard Council +10% growth boost, but only to coastal cities.
+		- The Mariners' Raider's Council now gives a +15% Production boost towards naval units and the standard Council +10% growth boost, but only to coastal cities.
 		- New Afrika's Revolutionary Council now gives a +15% Production boost towards Personnel units.
 		- Proklyatyye's Politburo no longer adds Culture/Happiness to Gulags; it instead adds +3 Production to them, and the Production bonus to Corrective Colonies and Listening Posts is increased to +3.
 - Food/Growth:
@@ -391,6 +393,8 @@ Changes since the Harbinger update
 	- Transport Network *severely* nerfed; it now only adds +1 Production to Boroughs and no other stats.
 		- Childen of Rust's Bike Path is now a standalone Culture building instead of a Production building and is available at Railroads; it adds +1 Culture to Rubble/Ruins tiles that are up to 2 tiles away from the city center.
 	- Uranium Centrifuge's Production cost increased to 1000 and its restrictions are tightened; you can now only have 3 and they must be in cities with a Nuclear Plant.
+	- Work Camp nerfed; the percentage Production bonus is reduced to 10%, the Engineer slot and extra Production bonuses with surplus Slaves are removed, and it inflicts +2 Unhappiness on cities that build it. This also applies to the two Russian faction replacements.
+		- Gulag (Proklyatyye) no longer has a percentage Production bonus at all.
 - Military:
 	- Armament/Armor Production Lines and Aerospace Facilities no longer have negative modifiers to the owning city's Production. However, they now have a maintenance cost of 3 Water.
 	- Armor Production Line is overall nerfed; its Production bonus towards Armor units is reduced to 33% (and turns off when Power is lost) and it no longer awards a free Tank. To compensate, building it unlocks access to a new promotion for Armor units, which is given for free to newly-trained Armor units in that city.
@@ -429,13 +433,16 @@ Changes since the Harbinger update
 	- Children of Rust:
 		- Commune now adds +2 Food with access to Power and regains the standard Town Hall's Administrator slot, but no longer has any base yields and no longer reduces tile purchase costs. It now unlocks at Civil Service and costs 120 Production.
 	- Crimson Legion:
-		- Legion Camp now replaces Barracks and no longer inflict a Food penalty, but also no longer strengthens the city's defenses or spawns free units.
+		- Two UBs have been eliminated: the Slaver Guild and Tribal Unification Initiative.
+		- Legion Camp now replaces Barracks and no longer inflicts a Food penalty, but also no longer strengthens the city's defenses or spawns free units.
 		- Victory Column buffed to gain +1 base Local Happiness (so it now provides +2 during wartime).
 		- Crucifixion Fields no longer inflict a Food penalty (I thought I'd made this adjustment earlier, but apparently not). They will be destroyed if another faction takes the city.
-		- Caesareum buffed to +2 Production.
+		- Slave Markets no longer add a Food bonus.
+		- Colosseums no longer add an extra point of Culture or Happiness from having excess Slaves.
+		- Caesareums no longer add base Production yields, but in exchange have the Production bonus towards buildings increased to 10%.
 	- Cult of Ignis:
 		- Plantation now belongs to Deadrock Clan as a Greenhouse replacement.
-		- Arena no longer adds an Administrator slot; instead it adds +1 Happiness while at war.
+		- Arena no longer adds an Administrator slot or extra Culture/Happiness with surplus Slaves; instead it adds +1 Happiness while at war. Also, the extra starting XP is now restricted to Armor units.
 	- Deadrock Clan:
 		- Plantation now unlocks at Botany like standard Greenhouses, costs 70 Production, and no longer adds a percentage boost to total Food yields. Instead, it adds +1 Food to active Farmers in the city and +1 Culture to Narcotics farms (along with the standard Greenhouse effect).
 		- Clubhouse now generates 2 Water per turn and no longer costs maintenance.
@@ -508,7 +515,7 @@ Changes since the Harbinger update
 - Crimson Legion UUs:
 	- Swordsmen buffed to 24 combat strength and receive bonuses against Barbarians and when defending from Ranged units.
 	- Legions buffed to 36 combat strength but no longer receive bonuses against cities.
-	- Both upgrade to Riflemen instead of Militia.
+	- Both upgrade to Soldiers instead of Militia.
 - Destroying Angel no longer obsoletes.
 - Field Scientists reverted to 70 production cost, 1 charge, but remain standalone units.
 - Forward Observers and their replacements (with the exception of the Legion's Speculatores) can no longer capture cities. They now play the "shot" attack sound in combat.
@@ -649,7 +656,7 @@ Changes since the Harbinger update
 - Commonwealth:
 	- Field Preparations Squad, replacing the Forward Observer, 5 movement vs. 4, can build Roads, Railroads, Forts and Trenches and do so faster than any other unit
 - Issaquah Nation:
-	- Issaquah Mystic, replacing the State Guard, Low Tech modifier and ranged unit with the same strength as Gunmen, awards Culture per kill (100% of unit's Strength) and has a 1-in-3 chance of withdrawing from melee
+	- Issaquah Mystic (replaces State Guard, Low Tech ranged unit with the same strength as Gunmen, generates Culture per kill (100% of unit's Strength) and has a 1-in-3 chance of withdrawing from melee)
 - Naturalism policy:
 	- Eco-Terrorist, unlocked by adopting Ecodefense - its sole purpose is to commit atrocities
 - New Star:
@@ -669,6 +676,8 @@ Changes since the Harbinger update
 	- OSI (replaces Research Lab, reducing construction time of Food/Production buildings in the city by 1/3 and adds +2 Science to Food providing buildings owned by the city)
 - Children of Rust:
 	- Pithouse (replaces Food Store, +50 City HP, +1 Food/Culture)
+- Crimson Legion:
+	- Subjugate Survivors (new Search for Survivors replacement, +1 pop and +1 Production per 4 pop in the city that builds it, +4 Slaves, spawns a Worker)
 - Cult of Ignis:
 	- Ignitor's Tower (new Town Hall replacement, +80 City HP, "City Defense" modifier, retains the Slave consumption requirement and 75% boost to Worker training speed, +2 Food/Production with a Slave surplus, +1 Culture/Faith with access to Books)
 	- Fortified Aquifer (replaces Water Storage, adds +5 City Strength and +50 City HP and qualifies for the "City Defense" modifier, along with +1 Food/Water to worked Mountain tiles)
@@ -689,7 +698,7 @@ Changes since the Harbinger update
 	- Mansion of Our Father (new identity wonder, +2 Food/Culture, keeps the free Weapons, Panther unit, bonus belief and quote of the Great Mosque, but awards a Food Store)
 	- Afrikan Reformed Church (replaces Monastery, adds +2 Food)
 - New Star:
-	- Rehabilitation Center (standalone, 60 Production cost, 1 maintenance cost, no tech requirement, +1 pop, +2 Happiness, another +2 Happiness at Voting Rights, "liberates" 1 Slave)
+	- Rehabilitation Center (standalone, unlocks at Biology, +1 pop, +2 Happiness, another +2 Happiness at Voting Rights, 2 maintenance cost, "liberates" 1 Slave)
 - The Patriots:
 	- Arsenal of Liberty (replaces Armaments Production Line, much cheaper to build (100 vs. 250) but requires a Power surplus for both the provided Weapons and Production boost towards Military units)
 - The Pax:
