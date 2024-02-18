@@ -3154,7 +3154,6 @@
 		"hurryCostModifier": 25,
 		"uniques": ["New [Military] units start with [15] Experience [in this city]",
 			"Remove extra unhappiness from annexed cities",
-			"Free [Swordsman] appears",
 			"Only available <in cities without a [Prison Camp]>",
 			"Unsellable",
 			"Destroyed when the city is captured"],
@@ -3206,7 +3205,7 @@
 		"uniqueTo": "Crimson Legion",
 		"cost": 50,
 		"maintenance": 1,
-		"uniques": ["[+10]% Production when constructing [Melee] units [in this city]",
+		"uniques": ["[+15]% Production when constructing [Melee] units [in this city]",
 			"New [Military] units start with [15] Experience [in this city]",
 			"Destroyed when the city is captured"]
 	},
@@ -3496,6 +3495,7 @@
 	},
 	{
 		"name": "Crucifixion Fields",
+		"replaces": "Prison Camp",
 		"uniqueTo": "Crimson Legion",
 		"culture": 2,
 		"happiness": -2,
@@ -3518,6 +3518,21 @@
 		"requiredTech": "Education",
 		"uniques": ["Hidden when religion is disabled",
 			"[+10]% Production when constructing [All] buildings [in this city]"]
+	},
+	{
+		"name": "Praetorium",
+		"replaces": "Town Hall",
+		"uniqueTo": "Crimson Legion",
+		"specialistSlots": {"Administrator": 1},
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"culture": 1,
+		"happiness": 1,
+		"maintenance": 1,
+		"uniques": ["City Defense",
+			"[-25]% Culture cost of natural border growth [in this city]",
+			"[-25]% Gold cost of acquiring tiles [in this city]"],
+		"requiredTech": "Civil Service"
 	},
 	{
 		"name": "Ignitor's Tower",
@@ -3600,8 +3615,6 @@
 		"name": "Nutri-Paste Dispenser",
 		"replaces": "Food Store",
 		"uniqueTo": "Hexlock",
-		"food": 1,
-		"happiness": -1,
 		"cost": 10,
 		"hurryCostModifier": -25,
 		"uniques": ["[+20]% Food is carried over after population increases [in this city]",
@@ -3609,7 +3622,7 @@
 			"[+1 Food] [in this city] <when above [0] [VX]>",
 			"[-1 Production, +1 Gold] [in this city] <with [Alcohol]>",
 			"[-1 Production, +1 Gold] [in this city] <with [Narcotics]>",
-			"[-1 Production, -1 Food, +1 Gold] [in this city] <with [Refined Narcotics]>"]
+			"[-1 Production, +1 Gold] [in this city] <with [Refined Narcotics]>"]
 	},
 	{
 		"name": "Chemical Extractor",
@@ -3680,7 +3693,6 @@
 			"Consumes [1] [C2N14]",
 			"Unsellable",
 			"Never destroyed when the city is captured",
-			"Hidden when religion is disabled",
 			"Limited to [3] per Civilization"
 		]
 	},

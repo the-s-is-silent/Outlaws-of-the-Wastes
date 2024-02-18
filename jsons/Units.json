@@ -259,7 +259,6 @@
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Replaceable Parts",
 		"uniques": ["Low Tech", "Support",
-			"May capture killed [Barbarian] units <with [33]% chance>",
 			"[-50]% Strength <vs cities>",
 			"Unable to capture cities"],
 		"promotions": ["Reconnaissance I", "Medic I", "Skirmish"],
@@ -1388,7 +1387,8 @@
 			"[+25]% Strength <vs cities>",
 			"[+25]% Strength <vs [Low Tech] units>",
 			"[+25]% Strength <vs [Barbarian] units>",
-			"[+33]% Strength <vs [Ranged] units> <when defending>"
+			"[+33]% Strength <vs [Ranged] units> <when defending>",
+			"Gain [1] [Culture] <upon ending a turn in a [City center] tile> <if [Colosseum] is constructed>"
 		],
 		"attackSound": "metalhit"
 	},
@@ -1399,7 +1399,7 @@
 		"uniqueTo": "Crimson Legion",
 		"movement": 2,
 		"strength": 28,
-		"cost": 50,
+		"cost": 45,
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Soldier",
 		"uniques": [

@@ -436,10 +436,11 @@ Changes since the Harbinger update
 		- Two UBs have been eliminated: the Slaver Guild and Tribal Unification Initiative.
 		- Legion Camp now replaces Barracks and no longer inflicts a Food penalty, but also no longer strengthens the city's defenses or spawns free units.
 		- Victory Column buffed to gain +1 base Local Happiness (so it now provides +2 during wartime).
-		- Crucifixion Fields no longer inflict a Food penalty (I thought I'd made this adjustment earlier, but apparently not). They will be destroyed if another faction takes the city.
+		- Crucifixion Fields now replace Prison Camps and are no longer built automatically. They no longer inflict a Food penalty (I thought I'd made this adjustment earlier, but apparently not) and like standard Prison Camps will be destroyed if the city is captured. They remain unsellable, however.
 		- Slave Markets no longer add a Food bonus.
-		- Colosseums no longer add an extra point of Culture or Happiness from having excess Slaves.
+		- Colosseums no longer add an extra point of Culture or Happiness from having excess Slaves. Also, they are now unsellable.
 		- Caesareums no longer add base Production yields, but in exchange have the Production bonus towards buildings increased to 10%.
+		- Military Schools no longer add base Production yields, and the bonus to unit production is reduced to 10% and restricted to Land units.
 	- Cult of Ignis:
 		- Plantation now belongs to Deadrock Clan as a Greenhouse replacement.
 		- Arena no longer adds an Administrator slot or extra Culture/Happiness with surplus Slaves; instead it adds +1 Happiness while at war. Also, the extra starting XP is now restricted to Armor units.
@@ -513,11 +514,12 @@ Changes since the Harbinger update
 - Clansmen no longer require Clubhouses to be built, due to the building being available two tech eras later.
 - Commandos now obsolete at Energy Weapons (since unlike normal Black Ops who consume 2 Weapons, Camelot SAS only consumes 1 so there's no point in letting Commandos remain trainable in the endgame).
 - Crimson Legion UUs:
-	- Swordsmen buffed to 24 combat strength and receive bonuses against Barbarians and when defending from Ranged units.
+	- Swordsmen buffed to 24 combat strength and receive bonuses against Barbarians and when defending from Ranged units. They also generate 1 Culture per turn while garrisoned after the first Colosseum is built.
 	- Legions buffed to 36 combat strength but no longer receive bonuses against cities.
 	- Both upgrade to Soldiers instead of Militia.
 - Destroying Angel no longer obsoletes.
 - Field Scientists reverted to 70 production cost, 1 charge, but remain standalone units.
+- First Aid units no longer have a 1-in-3 chance to capture Barbarians.
 - Forward Observers and their replacements (with the exception of the Legion's Speculatores) can no longer capture cities. They now play the "shot" attack sound in combat.
 - Great Farmers now add +2 population to a random city instead of +1 to all cities with their secondary ability.
 - Great Merchants no longer create Settlements, but an entirely new Great Improvement.
@@ -534,6 +536,7 @@ Changes since the Harbinger update
 	- Alma State Guard's strength reduced to 40 and it now upgrades to Infantry instead of Exo-Troopers.
 	- Pale Veteran's strength reduced to 38.
 - Technopaths now actually get their intended endgame buff of a 30% Strength bonus at Artificial Intelligence. However, they now also consume Weapons and unlock later at Networking.
+- The Last Minute renamed to Sentinel Missile.
 - Tree Lovers now cost 50 Production instead of 70, but only Tree plantations benefit from reduced construction time.
 - Wandering Doctors buffed to 24 combat strength.
 
@@ -678,6 +681,7 @@ Changes since the Harbinger update
 	- Pithouse (replaces Food Store, +50 City HP, +1 Food/Culture)
 - Crimson Legion:
 	- Subjugate Survivors (new Search for Survivors replacement, +1 pop and +1 Production per 4 pop in the city that builds it, +4 Slaves, spawns a Worker)
+	- Praetorium (new Town Hall replacement, +5 City Strength, +50 City HP, "City Defense" modifier, Culture/Happiness are base yields and don't require Power)
 - Cult of Ignis:
 	- Ignitor's Tower (new Town Hall replacement, +80 City HP, "City Defense" modifier, retains the Slave consumption requirement and 75% boost to Worker training speed, +2 Food/Production with a Slave surplus, +1 Culture/Faith with access to Books)
 	- Fortified Aquifer (replaces Water Storage, adds +5 City Strength and +50 City HP and qualifies for the "City Defense" modifier, along with +1 Food/Water to worked Mountain tiles)
@@ -688,8 +692,8 @@ Changes since the Harbinger update
 - The Harbingers:
 	- Austere Processing Hub (replaces Ground Control Center, doubles Encrypted Data resources and adds Science yields to the owning city (+5 base, +10% total) but is more expensive (400 base vs. original's rebalanced 300, increasing by 30 per owned city) and requires every non-puppeted city to own a Census Chamber)
 	- Interstice (replaces Transport Network, adds +1 Production to tiles with Railroads)
-- Hexlock:
-	- Nutri-Paste Dispenser (replaces Food Store, +1 Food, another +1 Food with surplus VX chemicals, but -1 Happiness)
+- Hexlock: (let's bring on the Rimworld references)
+	- Nutri-Paste Dispenser (replaces Food Store, +1 Food with surplus VX chemicals)
 	- Chemfuel Generator (standalone, provides 2 units of Power and +5% total Production, requires an Experimental Lab and a worked Refinery of any type in the city, and will be destroyed if the city is captured)
 - Issaquah Nation:
 	- Issaquah Tribal Council (replaces Defense Directorate, adds a +25% Production bonus towards Military units (free units are: 1x Issaquah Mystic, 2x Hawkman Brave))

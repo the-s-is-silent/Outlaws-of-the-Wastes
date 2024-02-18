@@ -121,7 +121,7 @@
 - Record Grids now add +1 Science to Refineries, +1 Local Happiness while the faction has Power, and lose both the increase to Production cost and reduced Science per pop compared to the Libraries they replace.
 - Stormfront Center and Overcouncil now cost 150 Production each. The latter now provides 2 of each of their unique resources.
 - New UBs:
-  - Nutri-Paste Dispenser (replaces Food Store, reduces Happiness by 1 but adds +1 Food as a base yield and another +1 with the VX chemical)
+  - Nutri-Paste Dispenser (replaces Food Store, adds +1 Food while possessing at least 1 copy of the VX chemical)
   - Hexlock Chemical Company (replaces Food Processing Plant, adds +2 Production/Water to all Refinery improvements and +2 Production to worked Salt tiles instead of boosting Food yields, and grants the unique Self-Repair promotion to Purge Robots instead of granting Resupply to Personnel units)
   - Chemfuel Generator (standalone, requires a worked Refinery of any type and a Research Lab, boosts city Production by 5% and provides 2 units of Power, will be destroyed if the city is captured)
   - Advanced Chemical Refinery (standalone, boosts Refinery yields by 50% in that city and gives Purge Robots access to Chemical Weapons, but requires building the Chemical Weapons Laboratory and consumes both Coal and Power)
@@ -154,6 +154,7 @@
 - On the run now gives two Wandering Doctor replacements instead of a Militia.
 - Electing Leaders has been taken away from them and given to The Patriots.
 - Gideon Scanner and Rally Station still cannot exist at the same time, nor exist in more than one city, and they are more expensive, costing 150 Production each. They also cannot be purchased.
+- First Aid units no longer have a chance to capture Barbarians.
 - New UUs:
   - Combat Medic (replaces Wandering Doctor, no Sight penalty or tech/infrastructure requirement but is slightly less effective at healing)
   - Rapid Response Squad (replaces Forward Observer, starts with Gas Mask and Medic I/II, 75% strength on defense, can sacrifice itself to clear Fallout or Toxic Waste, more expensive to build)
@@ -168,7 +169,7 @@
 - They now start with only one free tech - Munitions, instead of any of their original four - and no longer have an early-game Science penalty. Citadels receive an extra +2 Production/Science, increasing to +4 in the Industrial era.
 - As mentioned above, Electing Leaders now belongs to this faction. However, its Production cost has been doubled.
 - Tactics Center is moved to Munitions so it remains available to them at the start of the game, and it now costs 100 Production.
-- New UU: The Last Minute (replaces Nuclear Missile, 15% cheaper to build; need to rename this UU later)
+- New UU: Sentinel Missile (replaces Nuclear Missile, 15% cheaper to build, +2 Range)
 - New UB: Arsenal of Liberty (replaces Armaments Production Line, 60% cheaper to build, adds an extra +1 Unit Supply, but requires a Power surplus for both the provided Weapons and the extra Production speed towards Personnel units, and still consumes Power to build)
 
 #### Proklyatyye
@@ -181,6 +182,6 @@
   - Zemlyanka (replaces Food Store, adds +50 City HP and +1 Food to Camp improvements and Tuber resources on Tundra terrain)
   - Kolkhoz (replaces Greenhouse, higher maintenance cost, adds 2 Production along with an extra Farmer slot and +1 Production to each Farmer in the city)
   - Corrective Colony (replaces Prison Camp, harsher Food penalties but provides 2 extra Slaves, and the penalties are negated by Politburo)
-  - Gulag (now replaces Work Camp, lower baseline Production bonuses but adds 1 Production to Food source tiles, cannot exist alongside a Sharashka)
-  - Sharashka (standalone, +3 Science, +10% Science, +1 Scientist slot, +1 Science from active Scientists and Engineers in the city, consumes Slaves, cannot exist alongside a Gulag, can only have up to 3)
+  - Gulag (now replaces Work Camp, no percentage Production bonus but adds 1 Production to Food source tiles, cannot exist alongside a Sharashka)
+  - Sharashka (standalone, +3 Science, +10% Science, +1 Science from active Scientists and Engineers in the city, extra +1 Production/Science from Re-Education, consumes Slaves, cannot exist alongside a Gulag, can only have up to 3)
   - Atomgrad Project (replaces Manhattan Project, enables Super Mutants and doubles Uranium resources)

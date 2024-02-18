@@ -136,7 +136,7 @@ Policy Changes:
 		- The opener bonus loses the Culture from Barbarian kills and gains Doctrine's old Culture per kill bonus against all Military units.
         - Discipline loses its old effect completely and now boosts unit production by 20%.
         - Doctrine now starts the war economy earlier than before; the Culture per kill becomes Water per kill, and it adds yields to the Barracks (+2 Production/Water/Culture).
-        - Autocracy adjusted to award +2 Culture, +3 Happiness from garrisoned units and move the double Slaves bonus to Spoils of War.
+        - Autocracy replaced with Security Forces, which increases the Culture/Happiness added to cities from garrisons to +2/+3 respectively but no longer doubles the amount of Slaves possessed.
         - Military Tradition's bonus of double military unit gift rate from Military CS while allies at war is moved to the finisher bonus and it now gives a 10% Strength bonus to Land units.
         - Triumph receives the old finisher of reduced upgrade costs.
         - The finisher bonus now awards Science per kill (25% of unit's cost), the free Great General that was originally awarded by Discipline, the boosted unit gift rate that was originally provided by Military Tradition, and allows purchasing Great Generals with Faith (moved here from Supremacy's finisher).
