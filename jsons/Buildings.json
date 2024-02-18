@@ -3478,6 +3478,7 @@
 		"replaces": "Search for Survivors",
 		"uniqueTo": "Crimson Legion",
 		"cost": 30,
+		"isNationalWonder": true,
 		"uniques": ["[+1] population [in this city]",
 			"[+1 Production] per [4] population [in this city]",
 			"Provides [4] [Slaves]",
