@@ -1708,6 +1708,36 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Dinghy",
+		"unitType": "Melee Water",
+		"requiredTech": "Sailing",
+		"movement": 4,
+		"strength": 20,
+		"cost": 50,
+		"obsoleteTech": "Steam Power",
+		"upgradesTo": "Patrol Boat",
+		"uniques": [
+			"Cannot enter ocean tiles",
+			"May withdraw before melee ([33]%)"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Trimaran",
+		"unitType": "Melee Water",
+		"uniqueTo": "The Mariners",
+		"replaces": "Dinghy",
+		"requiredTech": "Sailing",
+		"movement": 4,
+		"strength": 20,
+		"cost": 50,
+		"obsoleteTech": "Steam Power",
+		"upgradesTo": "Patrol Boat",
+		"uniques": ["May withdraw before melee ([66]%)"],
+		"attackSound": "nonmetalhit",
+		"promotions": ["Littoral Warfare"]
+	},
+	{
 		"name": "Attack Boat",
 		"unitType": "Melee Water",
 		"movement": 4,
