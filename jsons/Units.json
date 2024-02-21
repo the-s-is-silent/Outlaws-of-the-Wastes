@@ -752,7 +752,7 @@
 			"Automation is a primary action"]
 	},
 	{
-		"name": "Kommissar",
+		"name": "Commissar",
 		"replaces": "Censor",
 		"uniqueTo": "Crimson Line",
 		"unitType": "Shooter",

@@ -1285,7 +1285,7 @@ UnitIcons/Knight
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Kommissar
+UnitIcons/Commissar
   rotate: false
   xy: 328, 960
   size: 100, 100
