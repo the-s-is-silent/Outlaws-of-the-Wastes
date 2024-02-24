@@ -490,6 +490,7 @@ Changes since the Harbinger update
 	- Stone of Ages now has its quote.
 	- Temple nerfed further to remove its base Faith yields and Administrator slot. To compensate, it adds +1 Culture/Faith to all active Administrators, but requires Engineering to unlock this boost.
 - Annex Isolationists now adds +5 Production instead of +5 Water to the Isolated Island.
+- Biosphere Project's Production cost reduced to 750 and it now unlocks terraforming abilities once the player builds it.
 - Convert Survivors and Resettlement Bureau have been deleted.
 - Domestic Electrification now adds +1 Culture/Happiness to all cities connected to the capital instead of a potential +8 Happiness in the capital. However, its Production cost no longer scales according to how many cities the faction owns.
 - Fusion Reactor now requires the capital to own a Nuclear Plant, but is buffed to add an additional +8 Production to the capital and all cities connected to it.
@@ -730,6 +731,7 @@ Changes since the Harbinger update
 
 **New Promotions**
 - Active Protection System, only available to Armor units (sans those with Promotion Nullifier) and only if Armor Production Line is built, granting a 33% defense bonus against Air/Helicopter/Siege units. I may add a Hexlock specific version for Purge Robots later
+- Terrascape, allowing Mechanized Workers to terraform tiles
 
 **New Beliefs**
 - Patron Saint of Scavengers (Pantheon), adding +1 Production/Faith to five separate resources: Electronics, Machine Parts, Plastics, Scrap, and Weapons

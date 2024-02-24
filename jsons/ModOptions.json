@@ -1,15 +1,6 @@
 {
 	"nationsToRemove": ["Deseret Nation"],
 	"buildingsToRemove": ["Compound Mix GP", "Distribute Soft Drinks", "Fist of God", "Five-Year Plan", "Grand Temple", "Great Mosque", "Longhouse", "Mormon Monument", "Mosque", "Plastics Reprocessor", "Salvage Army Depot", "Salvage Exchange", "Slaver Guild"],
-	"uniques": [
-		"Rebel units may spawn <upon declaring war with a major Civilization> <when below [0] Happiness> <with [67]% chance>",
-		"Rebel units may spawn <when at war> <when below [-10] Happiness> <with [100]% chance>",
-		"Rebel units may spawn <upon conquering a city> <with [100]% chance>",
-		"Rebel units may spawn <upon founding a city> <when below [-5] Happiness> <with [50]% chance>",
-		"Rebel units may spawn <upon gaining a [Military] unit> <when below [-10] Happiness> <with [50]% chance>",
-		"Rebel units may spawn <upon defeating a [Barbarian] unit> <when below [-10] Happiness> <with [50]% chance>",
-		"[-20]% Golden Age length <when below [0] Happiness>"
-	],
 	"constants": {
 		"minimalCityDistance": 4,
 		"minimalCityDistanceOnDifferentContinents": 4,
