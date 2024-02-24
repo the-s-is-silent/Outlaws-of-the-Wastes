@@ -1716,7 +1716,7 @@
 		"cost": 750,
 		"isNationalWonder": true,
 		"uniques": [
-			"[Mechanical Worker] units gain the [Terrascape] promotion",
+			"[Mechanized Worker] units gain the [Terrascape] promotion",
 			"Triggers a global alert upon completion",
 			"Hidden when [Scientific] Victory is disabled",
 			"Cannot be hurried"
