@@ -425,14 +425,14 @@
 	},
 	{
 		"name": "Terrascape II",
-		"uniques": ["Turn this tile into a [Badlands] tile <[2] additional times>",
-			"Turn this tile into a [Wasteland] tile <[2] additional times>",
-			"Turn this tile into a [Desert] tile <[2] additional times>",
-			"Turn this tile into a [Tundra] tile <[2] additional times>",
-			"Turn this tile into a [Hill] tile <[2] additional times>",
-			"Turn this tile into a [Coast] tile <[2] additional times>",
-			"Turn this tile into a [Ocean] tile <[2] additional times>",
-			"Turn this tile into a [Lakes] tile <[2] additional times>"]
+		"uniques": ["Turn this tile into a [Badlands] tile <[2] additional time(s)>",
+			"Turn this tile into a [Wasteland] tile <[2] additional time(s)>",
+			"Turn this tile into a [Desert] tile <[2] additional time(s)>",
+			"Turn this tile into a [Tundra] tile <[2] additional time(s)>",
+			"Turn this tile into a [Hill] tile <[2] additional time(s)>",
+			"Turn this tile into a [Coast] tile <[2] additional time(s)>",
+			"Turn this tile into a [Ocean] tile <[2] additional time(s)>",
+			"Turn this tile into a [Lakes] tile <[2] additional time(s)>"]
 	},
 	{
 		"name": "[Wayfarer] ability",
