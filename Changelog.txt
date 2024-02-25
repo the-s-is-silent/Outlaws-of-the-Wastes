@@ -490,7 +490,7 @@ Changes since the Harbinger update
 	- Stone of Ages now has its quote.
 	- Temple nerfed further to remove its base Faith yields and Administrator slot. To compensate, it adds +1 Culture/Faith to all active Administrators, but requires Engineering to unlock this boost.
 - Annex Isolationists now adds +5 Production instead of +5 Water to the Isolated Island.
-- Biosphere Project's Production cost reduced to 750 and it now unlocks terraforming abilities once the player builds it.
+- Biosphere Project's Production cost reduced to 750 and it now upgrades the terraforming abilities of Mechanized Workers once the player builds it.
 - Convert Survivors and Resettlement Bureau have been deleted.
 - Domestic Electrification now adds +1 Culture/Happiness to all cities connected to the capital instead of a potential +8 Happiness in the capital. However, its Production cost no longer scales according to how many cities the faction owns.
 - Fusion Reactor now requires the capital to own a Nuclear Plant, but is buffed to add an additional +8 Production to the capital and all cities connected to it.
@@ -528,6 +528,7 @@ Changes since the Harbinger update
 	- Proto and MKI are now Armor units. The former's Production cost is increased to 75.
 	- MKI and MKII require Aluminum instead of their previous secondary strategic resource (Weapons for MKI, Oil for MKII).
 - Machine Guns now start with Logistics and gain a bonus when attacking Scrapper and Shooter units.
+- Mechanized Workers can now terraform tiles, starting with 2 charges (increasing to 4 with the Biosphere Project).
 - Mormon Battalions now cost 230 Production, matching the cost of the NBC Infantry unit which they are superior to despite replacing normal Infantry and unlocking earlier.
 - Persevering Pax Researchers are no longer Great People. No more will City-State quests ask you to somehow acquire them.
 - Rubble Gunmen now replace Crossbowmen, correcting the major error in the base game where Deadrock Clan had two unique units replacing Archers.
@@ -731,7 +732,9 @@ Changes since the Harbinger update
 
 **New Promotions**
 - Active Protection System, only available to Armor units (sans those with Promotion Nullifier) and only if Armor Production Line is built, granting a 33% defense bonus against Air/Helicopter/Siege units. I may add a Hexlock specific version for Purge Robots later
-- Terrascape, allowing Mechanized Workers to terraform tiles
+- Augmented Vision, a Sentry clone that is currently unused but meant to be exclusive to Purge Robots
+- Overcome Obstructions, currently unused but meant to be exclusive to Purge Robots, enabling them to ignore terrain costs and ZoC
+- Terrascape, allowing Mechanized Workers to terraform tiles, has two levels
 
 **New Beliefs**
 - Patron Saint of Scavengers (Pantheon), adding +1 Production/Faith to five separate resources: Electronics, Machine Parts, Plastics, Scrap, and Weapons

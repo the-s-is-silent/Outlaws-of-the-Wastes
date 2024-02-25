@@ -1371,6 +1371,23 @@
 		"cost": 50
 	},
 	{
+		"name": "Mechanized Worker",
+		"unitType": "Civilian",
+		"requiredTech": "Replaceable Parts",
+		"movement": 4,
+		"cost": 200,
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Consumes [1] [Oil]",
+			"Only available <if [Factory] is constructed>",
+			"May withdraw before melee ([50]%)",
+			"Can build [Land] improvements on tiles",
+			"[-25]% construction time for [All] improvements",
+			"Automation is a primary action"
+		],
+		"promotions": ["Terrascape I"]
+	},
+	{
 		"name": "Swordsman",
 		"unitType": "Scrapper",
 		"uniqueTo": "Crimson Legion",

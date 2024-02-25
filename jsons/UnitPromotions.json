@@ -351,7 +351,21 @@
 		"row": 3
 	},
 
-	//Special promotions ('abilities' or otherwise 'exclusive to one UU', granted by beliefs/ruins/policies/etc., and so on)
+	//Purge Robots
+	{
+		"name": "Augmented Vision",
+		"uniques": ["[+1] Sight]"]
+	},
+	{
+		"name": "Overcome Obstructions",
+		"uniques": ["Ignores terrain cost", "Ignores Zone of Control"]
+	},
+	{
+		"name": "Self-Repair",
+		"uniques": ["Unit will heal every turn, even if it performs an action"]
+	},
+
+	//Other special promotions ('abilities' or otherwise 'exclusive to one UU', granted by beliefs/ruins/policies/etc., and so on)
 	{
 		"name": "Healing Hands",
 		"uniques": ["All adjacent units heal [+10] HP when healing"]
@@ -360,10 +374,6 @@
 		"name": "Zeal",
 		"uniques": ["Can Spread Religion <[1] additional time(s)>",
 			"Ignores terrain cost"]
-	},
-	{
-		"name": "Self-Repair",
-		"uniques": ["Unit will heal every turn, even if it performs an action"]
 	},
 	{
 		"name": "Prospector",
@@ -403,7 +413,7 @@
 		"uniques": ["[+20]% Strength <when defending>"]
 	},
 	{
-		"name": "Terrascape",
+		"name": "Terrascape I",
 		"uniques": ["Turn this tile into a [Badlands] tile <[2] times> <after which this unit is consumed>",
 			"Turn this tile into a [Wasteland] tile <[2] times> <after which this unit is consumed>",
 			"Turn this tile into a [Desert] tile <[2] times> <after which this unit is consumed>",
@@ -412,6 +422,17 @@
 			"Turn this tile into a [Coast] tile <[2] times> <after which this unit is consumed>",
 			"Turn this tile into a [Ocean] tile <[2] times> <after which this unit is consumed>",
 			"Turn this tile into a [Lakes] tile <[2] times> <after which this unit is consumed>"]
+	},
+	{
+		"name": "Terrascape II",
+		"uniques": ["Turn this tile into a [Badlands] tile <[2] additional times>",
+			"Turn this tile into a [Wasteland] tile <[2] additional times>",
+			"Turn this tile into a [Desert] tile <[2] additional times>",
+			"Turn this tile into a [Tundra] tile <[2] additional times>",
+			"Turn this tile into a [Hill] tile <[2] additional times>",
+			"Turn this tile into a [Coast] tile <[2] additional times>",
+			"Turn this tile into a [Ocean] tile <[2] additional times>",
+			"Turn this tile into a [Lakes] tile <[2] additional times>"]
 	},
 	{
 		"name": "[Wayfarer] ability",

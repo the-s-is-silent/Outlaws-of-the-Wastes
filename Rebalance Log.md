@@ -27,6 +27,7 @@ Unit Changes:
 	- Salvaged Helicopter's movement points are reduced to 5, its ranged strength is reduced to 40, but its Production cost is reduced from 200 to 150.
 - Attack Boats (and the Mariners' replacement) no longer require Factories to build, so they're now properly available at Steam Power instead of being forced to wait until Manufacturing. They can now also spawn as Barbarian units.
 - Machine Guns are now Shooter units with the Personnel modifier, and start with Logistics.
+- Mechanized Workers can now terraform tiles and start with 2 charges. Terrains excluded: Mountain, Permafrost, Swamp, Spring, Rubble, Ruins, Ice.
 - Scouts (and New Star's replacement) now upgrade to Forward Observers instead of Gunmen. Also, Forward Observers cannot be used to capture cities.
 - Tanks can now appear as Barbarian units (the Barbarian version is the Killdozer which is available earlier for them and doesn't spend movement points to pillage).
 
@@ -88,7 +89,7 @@ Wonder Changes
 (Several of these are mostly due to Wonders not obeying their proper behavior - in Unciv, they *can* be rebuilt after razing the city they're in, which should not be possible. However, it is unlikely I will revert most of the nerfs to wonders that were made because of this bug enabling exploits with the old effects.)
 - Wincon wonders, International Trade Center, and Manhattan Project can no longer have their production hurried.
 	- International Trade Center is buffed, however: it adds +5 Water, +50% to the owning city's total Water yields, and +3 Water to city connections.
-	- Biosphere Project also buffed: its production cost is cut in half and building it allows Mechanized Workers to terraform tiles.
+	- Biosphere Project also buffed: its production cost is cut in half and building it doubles the number of terraform charges granted to Mechanized Workers built after its completion.
 - Salvage Tank Depot now awards an Ancient Armor instead of a Tank (it originally awarded a Modern Armor in the base scenario prior to an "increased difficulty" update).
 - Salvage Army Depot replaced with Restore Army Depot, which costs 5x more Production (era-based 250 vs. 50), awards an Ancient Armor instead of a Tank (Modern Armor prior to the "increased difficulty" update), adds +25% Production towards Armor units in the owning city, and adds an extra +3 Production to the Army Depot tile.
 - Salvage Space Station nerfed to remove its free Technology, due to the above exploit, which would have allowed players to gain several free Technologies by razing and rebuilding non-capital cities next to its ancient wonder. Instead it adds +4 extra Science, +2 Culture and +2 Production to that wonder's tile along with 20% more Science and 2 Great Scientist Points in the city that owns it.

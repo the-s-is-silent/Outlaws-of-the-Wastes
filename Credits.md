@@ -137,6 +137,7 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 ### Promotion Icons
 - Active Protection System: [Radar](https://thenounproject.com/icon/radar-1427289/) by Mohamed Mb, IT
 - AI Implant: [Artificial Intelligence](https://thenounproject.com/icon/artificial-intelligence-5689657/) by Anwar Hossain
+- Augmented Vision: [3D Visor](https://thenounproject.com/icon/3d-visor-898328/) by Musavvir Ahmed
 - Ballistic Weave: [graphene technology](https://thenounproject.com/icon/graphene-technology-1870120/) by ProSymbols, US
 - Combat Armor: [armor](https://thenounproject.com/icon/armor-4069582/) by iconixar
 - Conquer Terrain: [atv tire](https://thenounproject.com/icon/atv-tire-378331/) by Martin Hofmann
@@ -144,6 +145,7 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 - Heroic Resolve: [hero shield](https://thenounproject.com/icon/hero-shield-4533534/) by Made x Made, AU
 - Line Brawl: [fighting](https://thenounproject.com/icon/fighting-2717946/) by Vectors Point, PK
 - Oath of Vengeance: [Swear On Bible](https://thenounproject.com/icon/swear-on-bible-158489/) by Wolf Böse
+- Overcome Obstructions: [break](https://thenounproject.com/icon/break-3968745/) by Adrien Coquet, FR
 - Prospector: [prospector hat](https://thenounproject.com/icon/prospector-hat-1105355/) by Clément Branger
 - Sea Raider: Same icon as Advanced Piracy
 - Self-Repair: [Hammer](https://thenounproject.com/icon/hammer-854936/) by Thengaloka (same icon used for Air Repair in base Unciv)
