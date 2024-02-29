@@ -1,0 +1,16 @@
+[
+	{
+		"name": "Tunneled Mountain",
+		"type": "Land",
+		"impassable": false,
+		"movementCost": 2,
+		"defenceBonus": 0.25,
+		"RGB": [120, 120, 120],
+		"uniques": [
+			"Rough terrain",
+			"Doesn't generate naturally",
+			"Has an elevation of [4] for visibility calculations",
+			"Only [Artificial glacier] improvements may be built on this tile"
+		]
+	}
+]

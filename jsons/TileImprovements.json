@@ -114,6 +114,23 @@
 		"shortcutKey": "A"
 	},
 	{
+		"name": "Artificial glacier",
+		"terrainsCanBeBuiltOn": ["Permafrost", "Mountain", "Tunneled Mountain"],
+		"gold": 3,
+		"production": 1,
+		"food": 1,
+		"turnsToBuild": 10,
+		"techRequired": "Geo Engineering",
+		"uniques": [
+			"Food source",
+			"Gives a defensive bonus of [10]%",
+			"[+1 Gold] from [Fresh water] tiles",
+			"Cannot be built on [resource] tiles",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "G"
+	},
+	{
 		"name": "Terrace farm",
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"turnsToBuild": 10,
@@ -213,6 +230,14 @@
 		"terrainsCanBeBuiltOn": ["Ice"],
 		"techRequired": "Ocean Remediation",
 		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Sunken Ruins",
+		"turnsToBuild": 14,
+		"terrainsCanBeBuiltOn": ["Sunken Ruins"],
+		"techRequired": "Ocean Remediation",
+		"uniques": ["Can be built outside your borders", "Cannot be built on [Resource] tiles"],
 		"shortcutKey": "X"
 	},
 
@@ -378,48 +403,6 @@
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]"]
 	},
-	{
-		"name": "Preservator",
-		"culture": 1,
-		"science": 1,
-		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": [
-			"Great Improvement",
-			"Tile provides yield without assigned population",
-			"Ensures a minimum tile yield of [+1 Production]",
-			"[+2 Food, +2 Gold] <in [Fallout] tiles>",
-			"[+2 Food, +2 Gold] <in [Toxic Waste] tiles>",
-			"[+1 Culture, +1 Science] <after discovering [Education]>",
-			"[+1 Production] <after discovering [Laboratory]>",
-			"[+2 Science] <after discovering [Decryption]>",
-			"Does not need removal of [Forest]",
-			"Does not need removal of [Jungle]",
-			"Does not need removal of [Toxic Waste]",
-			"Does not need removal of [Fallout]",
-			"Provides [1] [Coal] <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fallout]>",
-			"Provides [1] [Artifacts] <in [Jungle] tiles> <in [Wasteland] tiles>",
-			"Provides [1] [Electronics] <in [Jungle] tiles> <in [Badlands] tiles>",
-			"Provides [1] [Machine Parts] <in [Jungle] tiles> <in [Tundra] tiles>",
-			"Provides [1] [Artifacts] <in [Jungle] tiles> <in [Desert] tiles>",
-			"Provides [1] [Machine Parts] <in [Jungle] tiles> <in [Permafrost] tiles>",
-			"Provides [1] [Aluminum] <in [Featureless] [Permafrost] tiles>",
-			"Provides [1] [Oil] <in [Featureless] [Tundra] tiles>",
-			"Cannot be built on [Water] tiles",
-			"Cannot be built on [Grain] tiles",
-			"Cannot be built on [Tubers] tiles",
-			"Cannot be built on [Metal] tiles",
-			"Cannot be built on [Insects] tiles",
-			"Cannot be built on [Horses] tiles",
-			"Cannot be built on [Strategic resource] tiles",
-			"Cannot be built on [Cattle] tiles",
-			"Cannot be built on [Goats] tiles",
-			"Cannot be built on [Deer] tiles",
-			"Cannot be built on [Furs] tiles",
-			"Cannot be built on [Hostile Fauna] tiles",
-			"Cannot be built on [Hogs] tiles",
-			"Pillaging this improvement yields approximately [+20 Gold]"
-		]
-	},
 
 	//Hexlock Refineries
 	{
@@ -519,6 +502,83 @@
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		]
     },
+
+	//Bamboolord's mods (for compatibility purposes)
+	{
+		"name": "Jungle Replanting Zone",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Cyberapes",
+		"culture": 1,
+		"turnsToBuild": 10,
+		"uniques": [
+			"[+1 Culture, +1 Production] <with [1] to [6] neighboring [City center] tiles>",
+			"[+1 Food] <after discovering [Land Remediation]>",
+			"[+1 Production] <after discovering [Genetics]>",
+			"[+1 Food] <after discovering [Geo Engineering]>",
+			"Gives a defensive bonus of [10]%",
+			"Pillaging this improvement yields approximately [+20 Culture]",
+			"Only available <if [Rainforest Restoration Project] is constructed>"
+		]
+	},
+	{
+		"name": "Banana Business Area",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 4,
+		"uniques": [
+			"Great Improvement",
+			"[+1 Gold] <with [1] to [6] neighboring [Jungle Replanting Zone] tiles>",
+			"[+2 Gold] <after discovering [Plastics]>",
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Provides [1] [Bananas]"
+		]
+	},
+	{
+		"name": "Landmark",
+		"culture": 4,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"[+1 Culture] <after discovering [Currency]>",
+			"[+1 Culture] <after discovering [Railroads]>",
+			"[+1 Culture] <after discovering [Flight]>",
+			"[+1 Culture] <after discovering [Incentivization]>",
+			"[+2 Culture] <after discovering [Globalization]>",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+	{
+		"name": "Preservator",
+		"culture": 1,
+		"science": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Tile provides yield without assigned population",
+			"Ensures a minimum tile yield of [+1 Production]",
+			"[+2 Food, +2 Gold] <in [Fallout] tiles>",
+			"[+2 Food, +2 Gold] <in [Toxic Waste] tiles>",
+			"[+1 Culture, +1 Science] <after discovering [Education]>",
+			"[+1 Production] <after discovering [Laboratory]>",
+			"[+2 Science] <after discovering [Decryption]>",
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"Does not need removal of [Toxic Waste]",
+			"Does not need removal of [Fallout]",
+			"Provides [1] [Coal] <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fallout]>",
+			"Provides [1] [Artifacts] <in [Jungle] tiles> <in [Wasteland] tiles>",
+			"Provides [1] [Electronics] <in [Jungle] tiles> <in [Badlands] tiles>",
+			"Provides [1] [Machine Parts] <in [Jungle] tiles> <in [Tundra] tiles>",
+			"Provides [1] [Artifacts] <in [Jungle] tiles> <in [Desert] tiles>",
+			"Provides [1] [Machine Parts] <in [Jungle] tiles> <in [Permafrost] tiles>",
+			"Provides [1] [Aluminum] <in [Featureless] [Permafrost] tiles>",
+			"Provides [1] [Oil] <in [Featureless] [Tundra] tiles>",
+			"Cannot be built on [Water] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Can only be built to improve a resource <in [Bonus resource] tiles>",
+			"Can only be built to improve a resource <in [Luxury resource] tiles>",
+			"Pillaging this improvement yields approximately [+20 Science]"
+		]
+	},
 
 	//Unbuildable improvements
 	{

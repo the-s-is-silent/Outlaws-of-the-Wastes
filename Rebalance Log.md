@@ -33,6 +33,13 @@ Unit Changes:
 
 Building Changes:
 - Defensive buildings are no longer all automatically unlocked by building Walls and must now be built in order: Hardened Defenses requires Defensive Emplacements, Battery and Bunker require Hardened Defenses, and Active Denial System requires Battery.
+	- Several of them have also been nerfed:
+		- Walls: +50 HP (down from 80)
+		- Armory: Is no longer a defensive building at all
+		- Choke Points: +50 HP (down from 80)
+		- Hardened Defenses: +80 HP (down from 120), but also adds +5 City Strength
+		- Bunker: +100 HP (down from 200)
+		- Arcology Dome: +150 HP (down from 250)
 - Ally with Isolationists is now a National Wonder, addressing an issue where it could still be purchased if Annex Isolationists was built first. Its added yields to the Isolated Island are increased to +3 Water/Science and +2 Culture, and it adds +2 Happiness to the owning city.
 - Nuclear Waste Museum is now a National Wonder, addressing an issue where it could still be purchased if Excavate Nuclear Waste was built first. It also adds 10% Science and Culture to its city, adding incentive to build it, along with an additional +3 Science and +1 Culture to the ancient wonder tile.
 - Listening Post (and relevant replacements) nerfed to 25% GP generation with no extra bonus for Constitution factions.

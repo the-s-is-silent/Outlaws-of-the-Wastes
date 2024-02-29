@@ -15,6 +15,8 @@ A major expansion + rebalance mod for DeCiv Redux.
 
 ## Other features
 
+- Terraforming is present, with the feature delegated to Mechanized Workers until such time as it is either implemented (or not implemented) in base DeCiv.
+
 - Two new victory conditions, restoring the "proper" Domination and Science victories.
 
 - Three new factions:
@@ -27,7 +29,7 @@ A major expansion + rebalance mod for DeCiv Redux.
 - New units:
   - Barbarian: Suicider + Killdozer
   - City-States: State Guard
-  - Civilian: Great Admiral (Rekmod implementation) + Seastead Vessel
+  - Civilian: Great Admiral (Rekmod implementation) + Military Engineer (Approximation of Civ 6 unit) + Seastead Vessel
   - Collectivism policy: Stalker (yes, the very same Stalker from Roadside Picnic and everything it inspired)
   - Military support: Wandering Doctor + Mobile Clinic
   - Naturalism policy: Eco-Terrorist

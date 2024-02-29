@@ -164,9 +164,9 @@
 	},
 	{
 		"name": "VX",
-		"faith": 1,
+		"food": 1,
 		"resourceType": "Strategic",
-		"improvementStats": {"faith": 1},
+		"improvementStats": {"food": 1},
 		"uniques": ["Not shown on world screen"]
 	}
 ]

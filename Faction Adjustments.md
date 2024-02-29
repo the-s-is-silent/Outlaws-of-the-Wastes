@@ -3,8 +3,8 @@
 #### Atlas
 - They are given a Mountain start bias and are now forbidden from building Enslaved units, Prison Camps and Work Camps.
 - Their number of starting techs is reduced to one - Electronics - and they no longer have the nonsensical and unnecessary double Production speed towards Electrostatic Generators.
-- Additionally, the free Great Scientist from their UA has been pushed back from Secrets of the Past to Education, and the only Great People they generate faster due to their UA are Great Scientists. Though they no longer have a starting Science penalty.
-- Atlas Refuge no longer has a Scientist slot, but adds 80 City HP (up from 40) and 1 base point of Science.
+- Additionally, the free Great Scientist from their UA has been pushed back from Secrets of the Past to Education, and the only Great People they generate faster with their UA are Great Scientists. Though they no longer have a starting Science penalty.
+- Atlas Refuge no longer has a Scientist slot, but adds 60 City HP (up from 40), 5 City Strength and 1 base point of Science.
 - Survey Center now adds +3 Science, +1 Culture, and increases to +8 Science, +3 Culture at Flight.
 - Think Tank is buffed to give a +25% Production boost towards Science buildings, along with a 15% Production boost to cities constructing buildings which are owned in the capital.
 - New UBs:
@@ -14,6 +14,7 @@
 
 #### Blackwarden
 - They now start with Trade and Currency instead of Construction and Machinery, and are no longer a Slaver faction.
+- Ark One only adds 5 City Strength (down from 10).
 - Board of Directors adds +2 Water/Science to Personnel Offices (was previously just +1 Water) and enables units to farm Water in combat equal to 10% of the damage they deal to enemy units.
 - Operations Center now costs 150 Production.
 - Personnel Offices now cost 160 Production and no longer gain bonuses from owning Slaves. However, they regain the standard Town Hall's Administrator slot, reduce tile purchase costs by 25%, and add a +10% Production boost for Personnel units.
@@ -27,14 +28,15 @@
 - Bike Paths are now standalone buildings boosting Culture instead of improved Transport Networks: they add +1 Culture to Road and Railroad tiles within 2 tiles of the city center. They are available much earlier, at Railroads.
 - Citizens' Assembly now increases Production instead of Science.
 - Defense Committee only adds a 10% unit production bonus (down from 20%).
-- New UB: Pithouse (replaces Food Store, adds +50 City HP and +1 Food/Culture)
+- New UB: Pithouse (replaces Food Store, adds +20 City HP and +1 Food/Culture)
 
 #### Commonwealth
 - Peace Memorial no longer generates Faith. Instead, it adds +1 Local Happiness to every owned city during peacetime.
+- Caravan Office buffed to +3 base Water.
 - Black Site no longer has a minor Food penalty.
 - Embassy no longer increases GP generation. It now increases influence gain from Water gifts to City-States and receives the +10% growth and +5% Production bonuses of the standard Council.
 - Parliament now adds scaling Water yields instead of scaling Science yields and cuts CS influence degradation in half.
-- New UU: Field Preparations Squad (replaces Forward Observer, has an extra movement point and can build Roads, Railroads, Forts and Trenches in half as much time as standard Workers)
+- New UU: Field Preparations Squad (replaces Forward Observer, has an extra movement point and can build Roads, Railroads, Forts and Trenches in half the time of standard Workers)
 - New UBs:
   - Sharecropper Farm (replaces Greenhouse, adds +1 Food to worked Cattle/Goats tiles, adds +1 Water to active Farmers after discovering Hydroponics)
   - Commonwealth Reserve (replaces Water Storage, adds +20% to the city's total Water yields instead of 10%, adds +1 Water to active Merchants)
@@ -44,8 +46,8 @@
 - Their favored Religion is changed to Imperial Cult, and they are now forbidden from building Drones and Purge Robots (in accordance with the source material, where robotics are the only technology Caesar completely opposes).
 - They start with Iron Working instead of Redomestication.
 - Low Tech units receive a 20% combat strength bonus while attacking from their UA.
-- Swordsmen buffed to 24 combat strength and receive bonuses against Barbarian units (25%) and on defense against Ranged units (33%).
-- Auxiliaries, which were previously early-game Enslaved units available to every faction except Commonwealth and New Star, are now Legion exclusive, no longer Enslaved units, and replace Militia, lacking the Weapons requirement and retaining the infrastructure building properties but taking a hit in combat strength. Instead of a 50% combat bonus against Mounted units, they gain a 15% combat bonus while adjacent to another Melee unit.
+- Swordsmen buffed to 24 combat strength and receive bonuses against Barbarian units (25%) and on defense against Ranged units (33%). They also generate 1 Culture per turn while garrisoned after the first Colosseum is constructed.
+- Auxiliaries, which were previously early-game Enslaved units available to every faction except Commonwealth and New Star, are now Legion exclusive, no longer Enslaved units, and replace Militia, lacking the Weapons requirement and retaining the infrastructure building properties but taking a hit in combat strength compared to standard Militia (28 vs. 36). Instead of a 50% combat bonus against Mounted units, they gain a 15% combat bonus while adjacent to another Melee unit.
 - Legions now have the same combat strength as standard Militia, but lose their combat bonus against cities.
 - All three of the above units now upgrade to Soldiers.
 - Forum now only gives a 5% faction-wide reduction to Unhappiness and no longer increases city health. However, it receives +1 Water and lets them start with a second free Swordsman.
@@ -57,7 +59,7 @@
 - The Consulate now doubles the recovery rate of lost CS influence - this is a placeholder buff until BNW content is implemented in Unciv and Gunboat Diplomacy becomes a thing. However, the Production bonus towards Military units now only applies to Land units and is reduced to 15%.
 - Military Schools no longer inflict a Food penalty. However, the Production bonus towards Military units now only applies to Land units and is reduced to 10%.
 - Legion Camps now replace Barracks, no longer have a Food penalty, but also no longer spawn a free unit or bolster the city's defenses - they are allowed to retain the Production bonus towards Melee units.
-- Colosseums start at +2 base Local Happiness, but do not gain bonuses from having extra Slaves. They now spawn a free Swordsman upon completion and are consequently unsellable once built.
+- Colosseums start at +2 base Local Happiness, but do not gain bonuses from having extra Slaves and are unsellable once built.
 - New UUs:
   - Exploratores (replaces Scout, stronger, starts with Sentry, but has higher production cost)
   - Speculatores (replaces Forward Observer, starts with both tiers of Urban Warfare, double strength when attacking cities, can enter foreign borders without Open Borders treaties, but has higher production cost)
@@ -65,14 +67,14 @@
 - New UBs:
   - Subjugate Survivors (new Search for Survivors replacement, no Happiness bonuses but adds +1 population and +1 Production per 4 population in the city that builds it, and exchanges the free Auxiliary for a free Servus)
   - Victory Column (replaces Monument, +15 EXP to new units, +1 Local Happiness increasing to +2 during wartime)
-  - Crucifixion Fields (standalone, unsellable, kills 1 pop, adds +2 Culture but also adds +2 Unhappiness, awards free Legate, only available in annexed cities and prohibits building Colosseums in those cities)
+  - Crucifixion Fields (new Prison Camp replacement, unsellable, kills 1 pop, adds +2 Culture but also adds +2 Unhappiness, awards free Legate)
 - TODO: Add a Distillery replacement that does not provide the Alcohol luxury (drugs/alcohol should be banned in Legion territory in accordance with the source material) along with at least 2 more UUs and possibly new Prison/Work Camp replacements
 
 #### Cult of Ignis
 - Armor units gain +1 Movement from their UA.
 - Coal Plants no longer boost Culture.
 - Strategic resources no longer have added Faith yields.
-- Oracles start at +6 Faith, +1 Culture and increase to +8 Faith, +2 Culture with Chemistry, but no longer provide Happiness.
+- Oracles start at +6 Faith, gain +2 Culture after researching Chemistry, and no longer provide Happiness.
 - The Temple is *severely* nerfed; it no longer generates Faith on Turn 1, no longer provides Local Happiness, no longer adds an Administrator slot, and no longer grants an instant Pantheon (which was formerly a guaranteed Turn 1 Religion via free Great Prophet prior to them being nerfed in the base scenario). To compensate, it adds +1 Culture/Faith to active Administrators after the player has researched Engineering.
 - Fuel Depots are also nerfed: they only add +1 Culture to Oil tiles.
 - Plantations have been taken from them and given to Deadrock Clan as a Greenhouse replacement (and are nerfed).
@@ -84,8 +86,8 @@
 - War Council's Production boost only applies to Armor units. It now adds a 5% Unhappiness reduction in all cities, but the player has to be at war for it to apply.
 - Seer Council's old effect has been thrown out. It now gains the standard 10% Council growth bonus, and adds +2 Culture to every owned Fuel Depot and College of Mystics and a +50% Production boost towards Faith buildings.
 - New UBs:
-  - Ignitor's Tower (new Town Hall replacement, retains the 75% boost to Worker training speed but adds 80 City HP instead of 20% total Food, +2 Production with extra Slaves instead of +2 Food, and +1 Culture/Faith with Books access)
-  - Fortified Aquifer (replaces Water Storage, +5 City Strength, +50 City HP, +1 Food/Water to worked Mountain tiles)
+  - Ignitor's Tower (new Town Hall replacement, retains the 75% boost to Worker training speed but adds 50 City HP instead of 20% total Food, +2 Production with extra Slaves instead of +2 Food, and +1 Culture/Faith with Books access)
+  - Fortified Aquifer (replaces Water Storage, +2 City Strength, +50 City HP, +1 Food/Water to worked Mountain tiles)
 
 ### Deadrock Clan
 - The adjustments to Hospitals and Organ Labs for other factions have effectively turned Harvested Organs into a third exclusive luxury for this faction.
@@ -111,15 +113,16 @@
 - Field Scientists and Purge Robots are now standalone units.
 - Purge Robot Proto's base Strength increased from 25 to 40, in order to give Hexlock a fighting chance. But its Production cost is increased from 50 to 75.
 - Hex Corporation only creates one Purge Robot Proto, but it also gives a 10% Production bonus towards the construction of all Promotion Nullifier units after Replaceable Parts is researched. Also, it no longer gives a free Compound Mixer to the capital and gives their new Food Store replacement instead.
-- Standard Refineries gain +1 to their respective yields compared to the base scenario, adjacency bonuses (+1 Production when next to strategic resources, +1 of the respective yield when next to their corresponding GI), and scaling yields, receiving +1 of their respective base yield at Laboratory and another +1 at Advanced Materials. VX Refinery now provides Food instead of Faith, but is not considered a Food source improvement.
+- Standard Refineries gain +1 to their respective yields compared to the base scenario, adjacency bonuses (+1 Production when next to strategic resources, +1 of the respective yield when next to their corresponding GI), and scaling yields, receiving +1 of their respective base yield at Laboratory and another +1 at Advanced Materials. The VX chemical and its Refinery now provide Food instead of Faith, but the Refinery is not considered a Food source improvement.
 - Crystal Refineries have their base yields doubled to +4 Science, +2 Water, but have their adjacency bonuses reduced to +2 Science, +1 Water with 3 or less adjacent Refineries, +4 Science, +2 Water with 4 or more. They gain +2 Production if built atop Coal or Oil resources.
 - Compound Mix GP replaced with Compound Mix GF, generating Great Farmers instead of Great Sages (but with the same resource requirement as GP).
 - The Heat Plant building is no longer one of their unique components and can be built by everyone.
 - Pre-Med Labs have been buffed to carry over the same amount of Food on population increase as the Hospitals they replace and add +1 Food to VX Refineries, increasing to +2 in the late game.
 - Experiment on Survivors now awards a Field Scientist instead of a Great Scientist, gives +2 pop in the capital instead of +1 in all cities, and can only be built in the capital.
-- Private Labels no longer add Science to Refineries, but have a base yield of +2 Water.
+- Private Labels no longer add Science to Refineries, but have a base yield of +3 Water.
 - Record Grids now add +1 Science to Refineries, +1 Local Happiness while the faction has Power, and lose both the increase to Production cost and reduced Science per pop compared to the Libraries they replace.
 - Stormfront Center and Overcouncil now cost 150 Production each. The latter now provides 2 of each of their unique resources.
+- Field Turrets are nerfed, reducing the increase in City Strength from 25 to 10.
 - New UBs:
   - Nutri-Paste Dispenser (replaces Food Store, adds +1 Food while possessing at least 1 copy of the VX chemical)
   - Hexlock Chemical Company (replaces Food Processing Plant, adds +2 Production/Water to all Refinery improvements and +2 Production to worked Salt tiles instead of boosting Food yields, and grants the unique Self-Repair promotion to Purge Robots instead of granting Resupply to Personnel units)
@@ -156,7 +159,7 @@
 - Gideon Scanner and Rally Station still cannot exist at the same time, nor exist in more than one city, and they are more expensive, costing 150 Production each. They also cannot be purchased.
 - First Aid units no longer have a chance to capture Barbarians.
 - New UUs:
-  - Combat Medic (replaces Wandering Doctor, no Sight penalty or tech/infrastructure requirement but is slightly less effective at healing)
+  - Combat Medic (replaces Wandering Doctor, no Sight penalty or tech/infrastructure requirement but is slightly less effective at healing. They still upgrade to the endgame Mobile Clinic unit like standard Wandering Doctors, forcing New Star to actually spend turns training Militia.)
   - Rapid Response Squad (replaces Forward Observer, starts with Gas Mask and Medic I/II, 75% strength on defense, can sacrifice itself to clear Fallout or Toxic Waste, more expensive to build)
 - New UBs:
   - Soup Kitchen (replaces Prison Camp, +2 Food, +1 Local Happiness, removes extra unhappiness from annexed cities, does not provide Slaves, no restrictions on building)
@@ -167,6 +170,7 @@
 
 #### The Patriots
 - They now start with only one free tech - Munitions, instead of any of their original four - and no longer have an early-game Science penalty. Citadels receive an extra +2 Production/Science, increasing to +4 in the Industrial era.
+- Eagle Rock Complex is nerfed: while it gains +1 Production, it loses its Engineer slot and the increase in City Strength is reduced from 20 to 5.
 - As mentioned above, Electing Leaders now belongs to this faction. However, its Production cost has been doubled.
 - Tactics Center is moved to Munitions so it remains available to them at the start of the game, and it now costs 100 Production.
 - New UU: Sentinel Missile (replaces Nuclear Missile, 15% cheaper to build, +2 Range)
@@ -177,10 +181,10 @@
 - Five-Year Plan and Gulag have been renamed to State Assembly and Politburo.
 - State Assembly now adds scaling Production yields (in addition to the scaling Culture yields) and counts every 4 population in cities instead of every 5. However, it costs 150 Production.
 - Politburo no longer adds Culture/Happiness; it instead adds +3 Production to their Prison Camp/Work Camp replacements and Listening Posts.
-- New UU: Super Mutant (replaces Exo-Trooper, available earlier at Nuclear Fission but requires Atomgrad Project, consumes 2 Uranium + 1 Weapons, loses paradrop)
+- New UU: Super Mutant (replaces Exo-Trooper, available earlier at Nuclear Fission but requires Atomgrad Project, consumes 2 Uranium + 1 Weapons, cannot paradrop)
 - New UBs:
-  - Zemlyanka (replaces Food Store, adds +50 City HP and +1 Food to Camp improvements and Tuber resources on Tundra terrain)
-  - Kolkhoz (replaces Greenhouse, higher maintenance cost, adds 2 Production along with an extra Farmer slot and +1 Production to each Farmer in the city)
+  - Zemlyanka (replaces Food Store, adds +1 City Strength, +20 City HP, and +1 Food to Camp improvements and Tuber resources on Tundra terrain)
+  - Kolkhoz (replaces Greenhouse, adds +2 Production along with an extra Farmer slot and +1 Production to each Farmer in the city, but its maintenance cost is increased by 1)
   - Corrective Colony (replaces Prison Camp, harsher Food penalties but provides 2 extra Slaves, and the penalties are negated by Politburo)
   - Gulag (now replaces Work Camp, no percentage Production bonus but adds 1 Production to Food source tiles, cannot exist alongside a Sharashka)
   - Sharashka (standalone, +3 Science, +10% Science, +1 Science from active Scientists and Engineers in the city, extra +1 Production/Science from Re-Education, consumes Slaves, cannot exist alongside a Gulag, can only have up to 3)
