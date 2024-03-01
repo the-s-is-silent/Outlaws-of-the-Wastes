@@ -182,6 +182,7 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 - Educational Officer: [Government Officer](https://thenounproject.com/icon/government-officer-2003970/) by Made x Made, AU
 - Excalibur Knight: [Sword](https://thenounproject.com/icon/sword-2239554/) by Smalllike
 - Expeditionary Force: [mission](https://thenounproject.com/icon/mission-3048372/) by Eucalyp
+- Exploding Boat: [fire boat](https://thenounproject.com/icon/fire-boat-3372596/) by Start Up Graphic Design, TH
 - Exploratores: Merger of [Laurel Wreath](https://thenounproject.com/icon/laurel-wreath-275974/) by Christopher T. Howlett, CA and [Gladius Sword](https://thenounproject.com/icon/gladius-sword-114601/) by Alex Firo, RO
 - Field Preparations Squad: [military engineering](https://thenounproject.com/icon/military-engineering-5268736/) by M. Oki Orlando, ID
 - Goon: [Hockey Mask](https://thenounproject.com/icon/hockey-mask-225297/) by P Thanga Vignesh

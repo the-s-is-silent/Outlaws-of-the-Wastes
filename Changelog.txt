@@ -693,8 +693,9 @@ Changes since the Harbinger update
 
 **New Units**
 - Everyone:
-	- Gunboat, unlocks at Navigation, 90 production cost, 4 movement, 1 range, 20 melee strength, 30 ranged strength, 1-in-3 chance of withdrawing from melee, cannot attack land tiles, moves twice as fast in Coast and can move after attacking, *will* spawn for Barbarians
-	- Drone Ship, unlocks at Electronics, 200 production cost, 5 movement, 50 melee strength, can carry 1 Drone, 50% chance to avoid melee combat, +33% defense against ranged water units, moves twice as fast in Coast and can move after attacking, requires at least 1 Factory built, consumes Power, will never spawn for Barbarians
+	- Gunboat, unlocks at Navigation, upgrades to Torpedo Boat, 90 production cost, 4 movement, 1 range, 20 melee strength, 30 ranged strength, 1-in-3 chance of withdrawing from melee, cannot attack land tiles, moves twice as fast in Coast and can move after attacking, *will* spawn for Barbarians
+	- Exploding Boat, unlocks at Chemistry, obsoletes at Radar without an upgrade, 90 production cost, 4 movement, 25 melee strength, triple strength when attacking but blows itself up, half strength when defending, cannot attack land tiles, moves twice as fast in Coast
+	- Drone Ship, unlocks at Robotics, upgrades from Assault Ship, 400 production cost, 6 movement, 70 melee strength, can carry 2 Drones, 50% chance to avoid melee combat, +33% defense against ranged water units, moves twice as fast in Coast and can move after attacking, requires at least 1 Automated Factory built, consumes Power, will never spawn for Barbarians
 	- Military Engineer, unlocks at Engineering, 120 production cost, 2 movement, builds roads, forts and trenches, can be consumed to instantly clear Fallout/Toxic Waste or build tunnels inside a Mountain tile
 - All City-States:
 	- Pre-War Turret, standalone siege unit, 25 strength, 40 ranged strength, 2 range, cannot move, cannot attack cities, cannot be trained unless the CS has a garrison, +20% strength when attacking, each CS can only have up to 3

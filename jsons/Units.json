@@ -472,20 +472,38 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Exploding Boat",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 25,
+		"cost": 90,
+		"requiredTech": "Chemistry",
+		"obsoleteTech": "Radar",
+		"uniques": [
+			"Double movement in [Coast]",
+			"Can only attack [Water] tiles",
+			"Self-destructs when attacking",
+			"[+200]% Strength <when attacking>",
+			"[-50]% Strength <when defending>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "nuke"
+	},
+	{
 		"name": "Drone Ship",
 		"unitType": "Melee Water",
-		"movement": 5,
-		"strength": 50,
-		"cost": 200,
-		"requiredTech": "Electronics",
+		"movement": 6,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Robotics",
 		"uniques": [
 			"Automated",
-			"Can carry [1] [{Automated} {Aircraft}] units",
+			"Can carry [2] [{Automated} {Aircraft}] units",
 			"Double movement in [Coast]",
 			"Can move after attacking",
 			"[+33]% Strength <vs [Ranged Water] units> <when defending>",
 			"May withdraw before melee ([50]%)",
-			"Only available <if [Factory] is constructed>",
+			"Only available <if [Automated Factory] is constructed>",
 			"Consumes [1] [Power]",
 			"Never appears as a Barbarian unit"
 		],
@@ -1884,6 +1902,26 @@
 			"Double movement in [Coast]",
 			"May withdraw before melee ([66]%)",
 			"[+25]% Strength <when defending>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Assault Ship",
+		"unitType": "Melee Water",
+		"movement": 6,
+		"strength": 60,
+		"cost": 300,
+		"requiredTech": "Plastics",
+		"obsoleteTech": "Robotics",
+		"upgradesTo": "Drone Ship",
+		"uniques": [
+		    "Can move after attacking",
+			"Consumes [1] [Oil]",
+			"Double movement in [Coast]",
+			"May withdraw before melee ([33]%)",
+			"Only available <if [Factory] is constructed>",
+			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
