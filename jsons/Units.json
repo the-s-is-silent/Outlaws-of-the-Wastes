@@ -428,6 +428,72 @@
 		"attackSound": "machinegun"
 	},
 
+	//Naval units
+	{
+		"name": "Gunboat",
+		"unitType": "Ranged Water",
+		"movement": 4,
+		"strength": 20,
+		"rangedStrength": 30,
+		"range": 1,
+		"cost": 90,
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Torpedo Boat",
+		"uniques": [
+			"Can only attack [Water] tiles",
+			"Can move after attacking",
+			"Double movement in [Coast]",
+			"May withdraw before melee ([33]%)"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
+		"name": "Lagoon",
+		"replaces": "Gunboat",
+		"uniqueTo": "The Mariners",
+		"unitType": "Ranged Water",
+		"movement": 4,
+		"strength": 20,
+		"rangedStrength": 30,
+		"range": 1,
+		"cost": 90,
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Torpedo Boat",
+		"uniques": [
+			"Can only attack [Water] tiles",
+			"Can move after attacking",
+			"Double movement in [Coast]",
+			"May withdraw before melee ([66]%)"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
+		"name": "Drone Ship",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 50,
+		"cost": 200,
+		"requiredTech": "Electronics",
+		"uniques": [
+			"Automated",
+			"Can carry [1] [{Automated} {Aircraft}] units",
+			"Double movement in [Coast]",
+			"Can move after attacking",
+			"[+33]% Strength <vs [Ranged Water] units> <when defending>",
+			"May withdraw before melee ([50]%)",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Power]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Automated"],
+		"hurryCostModifier": 20,
+		"attackSound": "shipguns"
+	},
+
 	//Deseret Nation unique units
 	{
 		"name": "Battle-axe of the Lord",
@@ -1821,6 +1887,47 @@
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
+	},
+	{
+		"name": "Torpedo Boat",
+		"unitType": "Ranged Water",
+		"strength": 30,
+		"rangedStrength": 40,
+		"range": 1,
+		"movement": 6,
+		"cost": 100,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Submarine",
+		"obsoleteTech": "Particle Physics",
+		"uniques": [
+			"Double movement in [Coast]",
+			"May withdraw before melee ([33]%)",
+			"Can only attack [Water] tiles",
+			"Can move after attacking"
+		],
+		"hurryCostModifier": 25,
+		"attackSound": "shot"
+	},
+	{
+		"name": "Jet Boat",
+		"uniqueTo": "The Mariners",
+		"replaces": "Torpedo Boat",
+		"unitType": "Ranged Water",
+		"strength": 25,
+		"rangedStrength": 45,
+		"range": 1,
+		"movement": 6,
+		"cost": 100,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Submarine",
+		"obsoleteTech": "Particle Physics",
+		"uniques": [
+			"Double movement in [Coast]",
+			"May withdraw before melee ([66]%)",
+			"Can move after attacking"
+		],
+		"hurryCostModifier": 25,
+		"attackSound": "shot"
 	},
 	{
 		"name": "Bomber",

@@ -106,6 +106,7 @@
 
 #### Enclavers
 - Stockpile buffed to +2 Food.
+- Scrounged Armory and Guerilla Camp no longer provide defensive boosts to cities.
 
 #### Hexlock
 - They start with fewer free techs now: knowledge of Chemistry is gained, but knowledge of Construction, Machinery and Engineering is lost. The malus on GP generation is removed, and Encrypted Data resources are doubled by their UA.
@@ -135,8 +136,10 @@
 - The Great Lighthouse buffed to add +2 Food to the capital provided it's actually founded on the coast. It no longer generates Faith, however.
 - Trader's Congress no longer increases the effectivess of Water gifts to City-States, but generates Culture equal to 10% of the total output from allied City-States, and adds +1 Water per 4 population to all cities along with +1 Water to city connections.
 - Raider's Council now grants a +10% growth boost in coastal cities and a +15% Production bonus towards Water units.
+- Jet Boat buffed to 25 melee strength, 45 ranged strength.
 - New UUs:
   - Drifter (replaces Worker, doesn't need to embark, can build water improvements, ~31% cheaper to build)
+  - Lagoon (replaces Gunboat, 2-in-3 chance to withdraw from melee units)
   - Key to the City (replaces Anti-Aircraft Gun, doesn't need to embark, +100% Strength vs cities)
 - TODO: Add a Great Admiral and Naval War College replacement
 

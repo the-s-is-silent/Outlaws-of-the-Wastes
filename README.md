@@ -29,10 +29,11 @@ A major expansion + rebalance mod for DeCiv Redux.
 - New units:
   - Barbarian: Suicider + Killdozer
   - City-States: State Guard
-  - Civilian: Great Admiral (Rekmod implementation) + Military Engineer (Approximation of Civ 6 unit) + Seastead Vessel
+  - Civilian: Great Admiral (Rekmod implementation), Military Engineer (Approximation of Civ 6 unit), Seastead Vessel
   - Collectivism policy: Stalker (yes, the very same Stalker from Roadside Picnic and everything it inspired)
   - Military support: Wandering Doctor + Mobile Clinic
   - Naturalism policy: Eco-Terrorist
+  - Naval warfare: Gunboat + Drone Ship
   - Scouting: Wasteland Patrol, Border Patrol, Expeditionary Force
   - Hero units (only 1 allowed per Civ): Hero of the Wastes, only available as a random camp reward
 

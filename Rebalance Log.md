@@ -8,9 +8,7 @@ Tech Changes:
 
 City-State Quest Changes:
 - All available quests are now weighted with certain CS type being less or more likely to give certain quests.
-- Clear Barbarian Camp can no longer be given. This is for two reasons:
-	1) A bug that is also present in official Civ 5 where using a mod to enable Barbarian Camps to award ruins bonuses prevents this quest from being completed.
-	2) Even without that bug, the City-States in DeCiv are powerful enough to be capable of clearing the camp they ask the player to clear before the player can do so.
+- Clear Barbarian Camp can no longer be given. While the bug that prevented quest completion has been fixed, the City-States in DeCiv remain powerful enough to be capable of clearing the camp they ask the player to clear before the player can do so.
 - The duration of Contest Culture/Faith/Technologies is reduced by 20%.
 
 Ruins Changes:
@@ -30,6 +28,7 @@ Unit Changes:
 - Mechanized Workers can now terraform tiles and start with 2 charges. Terrains excluded: Mountain, Permafrost, Swamp, Spring, Rubble, Ruins, Ice.
 - Scouts (and New Star's replacement) now upgrade to Forward Observers instead of Gunmen. Also, Forward Observers cannot be used to capture cities.
 - Tanks can now appear as Barbarian units (the Barbarian version is the Killdozer which is available earlier for them and doesn't spend movement points to pillage).
+- Torpedo Boats' melee and ranged strength have been increased by 10 each due to the addition of a new early-game Ranged Water unit.
 
 Building Changes:
 - Defensive buildings are no longer all automatically unlocked by building Walls and must now be built in order: Hardened Defenses requires Defensive Emplacements, Battery and Bunker require Hardened Defenses, and Active Denial System requires Battery.

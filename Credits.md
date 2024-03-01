@@ -171,11 +171,13 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 - Camelot SAS: [Gun](https://thenounproject.com/icon/gun-154282/) by Alberto Venegas, US
 - [Combat Medic](https://thenounproject.com/icon/combat-medic-1587125/) by Gan Khoon Lay
 - Commando: [soldier](https://thenounproject.com/icon/soldier-642197/) by Gan Khoon Lay
+- Commissar: [hat](https://thenounproject.com/icon/hat-5052310/) by Maxicons, TH
 - Crimson Sniper: [sniper](https://thenounproject.com/icon/sniper-5218615/) by Amethyst Studio, TH
 - Dendro Mutant: [vines](https://thenounproject.com/icon/vines-4169419/) by Zulfa Mahendra, ID
 - Deseret Missionary: [Religion](https://thenounproject.com/icon/religion-53064/) by Bruno Gätjens González (same source as Missionary icon in base Unciv except *not* adapted)
 - Destroying Angel: [Angel](https://thenounproject.com/icon/angel-354209/) by william dayabaran
 - Drifter: [driftwood](https://thenounproject.com/icon/driftwood-374954/) by BK
+- Drone Ship: [autonomous ship](https://thenounproject.com/icon/autonomous-ship-5912595/) by Todak Todak, KR
 - Eco-Terrorist: [terrorism](https://thenounproject.com/icon/terrorism-653187/) by Alina Oleynik
 - Educational Officer: [Government Officer](https://thenounproject.com/icon/government-officer-2003970/) by Made x Made, AU
 - Excalibur Knight: [Sword](https://thenounproject.com/icon/sword-2239554/) by Smalllike
@@ -184,16 +186,18 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 - Field Preparations Squad: [military engineering](https://thenounproject.com/icon/military-engineering-5268736/) by M. Oki Orlando, ID
 - Goon: [Hockey Mask](https://thenounproject.com/icon/hockey-mask-225297/) by P Thanga Vignesh
 - Great Caravan: [caravan](https://thenounproject.com/icon/caravan-4604787/) by Eucalyp
+- Gunboat: [warship](https://thenounproject.com/icon/warship-2948183/) by Muhammad Tajudin, ID
 - Hawkman Brave: [tomahawk](https://thenounproject.com/icon/tomahawk-4130106/) by Amethyst Studio
 - Hero of the Wastes: [Shield](https://thenounproject.com/icon/shield-49999/) by Jonathan Li
 - Issaquah Mystic: [shaman](https://thenounproject.com/icon/shaman-1629068/) by Daniel Schott, DE
 - Key to the City: [Anti-Aircraft Gun](https://game-icons.net/1x1/pierre-leducq/anti-aircraft-gun.html) by Pierre Leducq on Game-Icons.net
 - Knight: [Knight helmet](https://thenounproject.com/icon/knight-helmet-5567347/) by Singlar
-- Kommissar: [hat](https://thenounproject.com/icon/hat-5052310/) by Maxicons, TH
+- Lagoon: [catamaran](https://thenounproject.com/icon/catamaran-4103568/) by nareerat jaikaew, TH
 - Lawkeeper: [Police](https://thenounproject.com/icon/police-3395179/) by Nhor
 - The Last Minute: [nuclear missile](https://thenounproject.com/icon/nuclear-missile-5460126/) by Fran Couto
 - Legate: [Legion](https://thenounproject.com/icon/legion-814530/) by Aldric Rodríguez
 - Living Prophet: [Mormonism](https://thenounproject.com/icon/mormonism-200426/) by Dabid J. Pascual
+- Military Engineer: [Engineering](https://thenounproject.com/icon/engineering-2491577/) by Icon Market, PK
 - Mobile Clinic: [Ambulance](https://thenounproject.com/icon/ambulance-1262538/) by Ralf Schmitzer
 - Mormon Battalion: [flag of utah](https://thenounproject.com/icon/flag-of-utah-5740272/) by Zach Bogart
 - Neutron Bomb: [Nuclear](https://thenounproject.com/icon/nuclear-2169503/) by ahmad, ID
