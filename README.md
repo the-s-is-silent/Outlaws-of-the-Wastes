@@ -33,7 +33,7 @@ A major expansion + rebalance mod for DeCiv Redux.
   - Collectivism policy: Stalker (yes, the very same Stalker from Roadside Picnic and everything it inspired)
   - Military support: Wandering Doctor + Mobile Clinic
   - Naturalism policy: Eco-Terrorist
-  - Naval warfare: Gunboat, Exploding Boat, Scout Cruiser, Drone Ship
+  - Naval warfare: Raiding Craft, Gunboat, Exploding Boat, Scout Cruiser, Drone Ship
   - Scouting: Wasteland Patrol, Border Patrol, Expeditionary Force
   - Hero units (only 1 allowed per Civ): Hero of the Wastes, only available as a random camp reward
 

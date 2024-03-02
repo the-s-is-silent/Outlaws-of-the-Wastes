@@ -446,8 +446,8 @@ Changes since the Harbinger update
 		- Alma Air Base only gives one free Salvaged Helicopter again and no longer increases city HP.
 		- Alma Tank Depot no longer increases city strength and its increase to city HP is reduced to 50.
 		- Neither of the above buildings provide any resources anymore. Also, the production bonus to their respective units is reduced to 50%.
-    - Atlas:
-        - Kruger Line now adds +3 Culture to the capital, but only adds +1 Production to Railroads and +1 Water per Trade Route. Its cost is greatly reduced, to 150 + 30 per owned city (was originally 625).
+	- Atlas:
+		- Kruger Line now adds +3 Culture to the capital, but only adds +1 Production to Railroads and +1 Water per Trade Route. Its cost is greatly reduced, to 150 + 30 per owned city (was originally 625).
 	- Blackwarden:
 		- Personnel Office regains its commented out Merchant slot, gains an Administrator slot, and adds a +10% Production bonus towards Personnel units along with a 25% cost reduction in tile purchases. However, its Production cost is increased to 160 and it no longer gains bonuses from having Slaves.
 		- Resource Management Server no longer provides Slaves.
@@ -570,7 +570,7 @@ Changes since the Harbinger update
 	- Pale Veteran's strength reduced to 38.
 - Technopaths now actually get their intended endgame buff of a 30% Strength bonus at Artificial Intelligence. However, they now also consume Weapons and unlock later at Networking.
 - The Last Minute renamed to Sentinel Missile.
-- Torpedo Boat buffed to 30 melee strength, 40 ranged strength.
+- Torpedo Boat buffed to 30 melee strength, 40 ranged strength. However, it now consumes Oil.
 	- The Mariners' Jet Boat buffed to 25 melee strength, 45 ranged strength.
 - Tree Lovers now cost 50 Production instead of 70, but only Tree plantations benefit from reduced construction time.
 - Wandering Doctors buffed to 24 combat strength.
@@ -693,8 +693,9 @@ Changes since the Harbinger update
 
 **New Units**
 - Everyone:
-	- Gunboat, unlocks at Navigation, upgrades to either Scout Cruiser or Torpedo Boat, 90 production cost, 4 movement, 1 range, 20 melee strength, 30 ranged strength, 1-in-3 chance of withdrawing from melee, cannot attack land tiles, moves twice as fast in Coast and can move after attacking, *will* spawn for Barbarians
-	- Exploding Boat, unlocks at Chemistry, obsoletes at Radar without an upgrade, 90 production cost, 4 movement, 25 melee strength, triple strength when attacking but blows itself up, half strength when defending, cannot attack land tiles, moves twice as fast in Coast, *will* spawn for Barbarians
+	- Raiding Craft, unlocks at Sailing, "low tech" ranged water unit, upgrades to Gunboat, 70 production cost, 4 movement, 1 range, 18 melee strength, 15 ranged strength, cannot enter Ocean tiles or attack Land tiles, 1-in-3 chance of withdrawing from melee, can move after attacking, will spawn for Barbarians
+	- Gunboat, unlocks at Navigation, upgrades to either Scout Cruiser or Torpedo Boat, 90 production cost, 4 movement, 1 range, 20 melee strength, 30 ranged strength, 1-in-3 chance of withdrawing from melee, cannot attack land tiles, moves twice as fast in Coast and can move after attacking, will spawn for Barbarians
+	- Exploding Boat, unlocks at Chemistry, obsoletes at Radar without an upgrade, 90 production cost, 4 movement, 25 melee strength, triple strength when attacking but blows itself up, half strength when defending, cannot attack land tiles, moves twice as fast in Coast, will spawn for Barbarians
 	- Scout Cruiser, unlocks at Steam Power, upgrades to Destroyer, 150 production cost, 5 movement, 2 range, 25 melee strength, 45 ranged strength, +1 Sight, 1-in-3 chance of withdrawing from melee, will never spawn for Barbarians
 	- Drone Ship, unlocks at Robotics, upgrades from Assault Ship, 400 production cost, 6 movement, 70 melee strength, can carry 2 Drones, can detect Submarines, 50% chance to avoid melee combat, +33% defense against ranged water units, moves twice as fast in Coast and can move after attacking, requires at least 1 Automated Factory built, consumes Aluminum and Power, will never spawn for Barbarians
 	- Military Engineer, unlocks at Engineering, 120 production cost, 2 movement, builds roads, forts and trenches, can be consumed to instantly clear Fallout/Toxic Waste or build tunnels inside a Mountain tile
@@ -712,7 +713,8 @@ Changes since the Harbinger update
 - Issaquah Nation:
 	- Issaquah Mystic (replaces State Guard, Low Tech ranged unit with the same strength as Gunmen, generates Culture per kill (100% of unit's Strength) and has a 1-in-3 chance of withdrawing from melee)
 - The Mariners:
-	- Lagoon (replaces Gunboat, evasion chance increased to 66% for consistency with other naval UUs)
+	- Cutter Boat (replaces Raiding Craft, can enter Ocean tiles, evasion chance increased to 66% for consistency with other naval UUs)
+	- Lagoon (replaces Gunboat, evasion chance increased to 66% for consistency with other naval UUs, cannot optionally upgrade to Scout Cruiser)
 - Naturalism policy:
 	- Eco-Terrorist, unlocked by adopting Ecodefense - its sole purpose is to commit atrocities
 - New Star:

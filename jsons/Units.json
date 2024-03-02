@@ -430,6 +430,45 @@
 
 	//Naval units
 	{
+		"name": "Raiding Craft",
+		"unitType": "Ranged Water",
+		"requiredTech": "Sailing",
+		"movement": 4,
+		"strength": 18,
+		"rangedStrength": 15,
+		"range": 1,
+		"cost": 70,
+		"obsoleteTech": "Steam Power",
+		"upgradesTo": "Gunboat",
+		"uniques": [
+			"Cannot enter ocean tiles",
+			"Can only attack [Water] tiles",
+			"Can move after attacking",
+			"May withdraw before melee ([33]%)"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Cutter Boat",
+		"replaces": "Raiding Craft",
+		"uniqueTo": "The Mariners",
+		"unitType": "Ranged Water",
+		"requiredTech": "Sailing",
+		"movement": 4,
+		"strength": 18,
+		"rangedStrength": 15,
+		"range": 1,
+		"cost": 70,
+		"obsoleteTech": "Steam Power",
+		"upgradesTo": "Gunboat",
+		"uniques": [
+			"Can only attack [Water] tiles",
+			"Can move after attacking",
+			"May withdraw before melee ([66]%)"
+		],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Gunboat",
 		"unitType": "Ranged Water",
 		"movement": 4,
@@ -445,7 +484,8 @@
 			"Double movement in [Coast]",
 			"May withdraw before melee ([33]%)",
 			"Can upgrade to [Scout Cruiser]",
-			"Can upgrade to [Torpedo Boat]"
+			"Can upgrade to [Torpedo Boat]",
+			"Consumes [1] [Oil]"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
@@ -1854,6 +1894,7 @@
 			"Cannot enter ocean tiles",
 			"May withdraw before melee ([33]%)"
 		],
+		//removed Low Tech modifier due to bugs locking Patriots/Almaty out of building any water units
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1944,7 +1985,8 @@
 			"Double movement in [Coast]",
 			"May withdraw before melee ([33]%)",
 			"Can only attack [Water] tiles",
-			"Can move after attacking"
+			"Can move after attacking",
+			"Consumes [1] [Oil]"
 		],
 		"hurryCostModifier": 25,
 		"attackSound": "shot"
@@ -1965,7 +2007,8 @@
 		"uniques": [
 			"Double movement in [Coast]",
 			"May withdraw before melee ([66]%)",
-			"Can move after attacking"
+			"Can move after attacking",
+			"Consumes [1] [Oil]"
 		],
 		"hurryCostModifier": 25,
 		"attackSound": "shot"

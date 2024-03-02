@@ -205,6 +205,7 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 - Neutron Bomb: [Nuclear](https://thenounproject.com/icon/nuclear-2169503/) by ahmad, ID
 - Ocean Robber: [pirate ship](https://thenounproject.com/icon/pirate-ship-1295820/) by Fahmihorizon, ID
 - Opolcheniye: [Ak-47](https://thenounproject.com/icon/ak-47-1745454/) by Nico Ilk, CH
+- Raiding Craft: [Rubber Boat](https://thenounproject.com/icon/rubber-boat-3575176/) by Hey Rabbit, TH
 - Rapid Response Squad: [shield medic](https://thenounproject.com/icon/shield-medic-5192820/) by Rahmat Sigit Prasetyo, ID
 - Scout Cruiser: [cruiser](https://thenounproject.com/icon/cruiser-4833538/) by Andi Nur Abdillah, ID
 - Seastead Vessel: [Ship](https://thenounproject.com/icon/ship-4767613/) by Singlar
