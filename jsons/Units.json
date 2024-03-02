@@ -531,6 +531,26 @@
 		"attackSound": "nuke"
 	},
 	{
+		"name": "Scout Cruiser",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 25,
+		"rangedStrength": 45,
+		"range": 2,
+		"cost": 150,
+		"requiredTech": "Steam Power",
+		"obsoleteTech": "Radar",
+		"upgradesTo": "Destroyer",
+		"uniques": [
+			"[+1] Sight",
+			"May withdraw before melee ([33]%)",
+			"Consumes [1] [Oil]",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shipguns"
+	},
+	{
 		"name": "Drone Ship",
 		"unitType": "Melee Water",
 		"movement": 6,
