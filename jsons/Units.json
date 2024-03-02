@@ -439,12 +439,13 @@
 		"cost": 90,
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Torpedo Boat",
 		"uniques": [
 			"Can only attack [Water] tiles",
 			"Can move after attacking",
 			"Double movement in [Coast]",
-			"May withdraw before melee ([33]%)"
+			"May withdraw before melee ([33]%)",
+			"Can upgrade to [Scout Cruiser]",
+			"Can upgrade to [Torpedo Boat]"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
@@ -501,9 +502,11 @@
 			"Can carry [2] [{Automated} {Aircraft}] units",
 			"Double movement in [Coast]",
 			"Can move after attacking",
+			"Can see invisible [Submarine] units",
 			"[+33]% Strength <vs [Ranged Water] units> <when defending>",
 			"May withdraw before melee ([50]%)",
 			"Only available <if [Automated Factory] is constructed>",
+			"Consumes [1] [Aluminum]",
 			"Consumes [1] [Power]",
 			"Never appears as a Barbarian unit"
 		],
@@ -2225,6 +2228,67 @@
 		"promotions": ["Raider", "Shock", "Awe"],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
+	},
+	{
+		"name": "Dhow",
+		"replaces": "Dinghy",
+		"uniqueTo": "Barbarians",
+		"unitType": "Melee Water",
+		"requiredTech": "Sailing",
+		"movement": 4,
+		"strength": 20,
+		"cost": 50,
+		"obsoleteTech": "Steam Power",
+		"upgradesTo": "Patrol Boat",
+		"uniques": [
+			"Cannot enter ocean tiles",
+			"[+15]% Strength when adjacent to a [Melee Water] unit",
+			"May withdraw before melee ([33]%)"
+		],
+		"promotions": ["Raider", "Sea Raider"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Skiff",
+		"replaces": "Patrol Boat",
+		"uniqueTo": "Barbarians",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 30,
+		"cost": 90,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Attack Boat",
+		"obsoleteTech": "Steam Power",
+		"uniques": [
+			"Double movement in [Coast]",
+			"[+20]% Strength <when adjacent to a [Melee Water] unit>",
+			"May withdraw before melee ([33]%)",
+			"May capture killed [Water] units"
+		],
+		"promotions": ["Raider", "Sea Raider"],
+		"hurryCostModifier": 20,
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Ocean Robber",
+		"replaces": "Attack Boat",
+		"uniqueTo": "Barbarians",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 40,
+		"cost": 100,
+		"requiredTech": "Steam Power",
+		"obsoleteTech": "Plastics",
+		"upgradesTo": "Assault Ship",
+		"uniques": [
+			"Double movement in [Coast]",
+			"[+25]% Strength <when adjacent to a [Melee Water] unit>",
+			"May withdraw before melee ([33]%)",
+			"May capture killed [Water] units"
+		],
+		"promotions": ["Raider", "Sea Raider"],
+		"hurryCostModifier": 20,
+		"attackSound": "shipguns"
 	},
 
 	//Hero units

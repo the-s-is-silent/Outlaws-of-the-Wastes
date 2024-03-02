@@ -176,6 +176,7 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 - Dendro Mutant: [vines](https://thenounproject.com/icon/vines-4169419/) by Zulfa Mahendra, ID
 - Deseret Missionary: [Religion](https://thenounproject.com/icon/religion-53064/) by Bruno Gätjens González (same source as Missionary icon in base Unciv except *not* adapted)
 - Destroying Angel: [Angel](https://thenounproject.com/icon/angel-354209/) by william dayabaran
+- Dhow: [sailboat](https://thenounproject.com/icon/sailboat-54530/) by Michael Thompson, US
 - Drifter: [driftwood](https://thenounproject.com/icon/driftwood-374954/) by BK
 - Drone Ship: [autonomous ship](https://thenounproject.com/icon/autonomous-ship-5912595/) by Todak Todak, KR
 - Eco-Terrorist: [terrorism](https://thenounproject.com/icon/terrorism-653187/) by Alina Oleynik
@@ -202,10 +203,13 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 - Mobile Clinic: [Ambulance](https://thenounproject.com/icon/ambulance-1262538/) by Ralf Schmitzer
 - Mormon Battalion: [flag of utah](https://thenounproject.com/icon/flag-of-utah-5740272/) by Zach Bogart
 - Neutron Bomb: [Nuclear](https://thenounproject.com/icon/nuclear-2169503/) by ahmad, ID
+- Ocean Robber: [pirate ship](https://thenounproject.com/icon/pirate-ship-1295820/) by Fahmihorizon, ID
 - Opolcheniye: [Ak-47](https://thenounproject.com/icon/ak-47-1745454/) by Nico Ilk, CH
 - Rapid Response Squad: [shield medic](https://thenounproject.com/icon/shield-medic-5192820/) by Rahmat Sigit Prasetyo, ID
+- Scout Cruiser: [cruiser](https://thenounproject.com/icon/cruiser-4833538/) by Andi Nur Abdillah, ID
 - Seastead Vessel: [Ship](https://thenounproject.com/icon/ship-4767613/) by Singlar
 - Shock Worker: [Sickle](https://thenounproject.com/icon/sickle-5130144/) by Luis Prado, US
+- Skiff: [skiff](https://thenounproject.com/icon/skiff-4687237/) by Eucalyp
 - Speculatores: [bloody knife](https://thenounproject.com/icon/bloody-knife-2109678/) by Vectors Market
 - State Guard: [Civil defense](https://thenounproject.com/icon/civil-defense-454060/) by Yuri Martins, ES
 - Technopath: [mind ability](https://thenounproject.com/icon/mind-ability-3216421/) by Vectors Point, PK

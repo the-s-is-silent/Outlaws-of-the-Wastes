@@ -27,13 +27,13 @@ A major expansion + rebalance mod for DeCiv Redux.
 - Eight new city-states: Calico (Labor), Carbon (Farming), Defiance (Weapons), Hockeytown (Culture), Issaquah Nation (Prayer, replacing Deseret in that slot), Izumrydniy Gorod (Research), The Pax (Research), and Venice Beach (Trading).
 
 - New units:
-  - Barbarian: Suicider + Killdozer
-  - City-States: State Guard
+  - Barbarian: Suicider, Killdozer, Dhow, Skiff, Ocean Robber
+  - City-States: State Guard + Pre-War Turret
   - Civilian: Great Admiral (Rekmod implementation), Military Engineer (Approximation of Civ 6 unit), Seastead Vessel
   - Collectivism policy: Stalker (yes, the very same Stalker from Roadside Picnic and everything it inspired)
   - Military support: Wandering Doctor + Mobile Clinic
   - Naturalism policy: Eco-Terrorist
-  - Naval warfare: Gunboat + Drone Ship
+  - Naval warfare: Gunboat, Exploding Boat, Scout Cruiser, Drone Ship
   - Scouting: Wasteland Patrol, Border Patrol, Expeditionary Force
   - Hero units (only 1 allowed per Civ): Hero of the Wastes, only available as a random camp reward
 
