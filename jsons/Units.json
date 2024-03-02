@@ -2305,7 +2305,7 @@
 		"upgradesTo": "Patrol Boat",
 		"uniques": [
 			"Cannot enter ocean tiles",
-			"[+15]% Strength when adjacent to a [Melee Water] unit",
+			"[+15]% Strength <when adjacent to a [Melee Water] unit>",
 			"May withdraw before melee ([33]%)"
 		],
 		"promotions": ["Raider", "Sea Raider"],
