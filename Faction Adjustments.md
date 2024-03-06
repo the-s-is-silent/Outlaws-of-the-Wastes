@@ -139,6 +139,7 @@
 - Jet Boat buffed to 25 melee strength, 45 ranged strength.
 - New UUs:
   - Drifter (replaces Worker, doesn't need to embark, can build water improvements, ~31% cheaper to build)
+  - Cutter Boat (replaces Raiding Craft, allowed to enter Ocean tiles, 2-in-3 chance to withdraw from melee units)
   - Lagoon (replaces Gunboat, 2-in-3 chance to withdraw from melee units)
   - Key to the City (replaces Anti-Aircraft Gun, doesn't need to embark, +100% Strength vs cities)
 - TODO: Add a Great Admiral and Naval War College replacement

@@ -23,7 +23,7 @@
 				"name": "Castle Doctrine",
 				"uniques": ["Units in cities cost no Maintenance",
 					"[+50]% Strength for cities <with a garrison> <when attacking>",
-					"[+1 Happiness] per [10] population [in all cities with a garrison]",
+					"[+1 Happiness] per [10] population [in all cities]",
 					"Provides a [Walls] in your first [4] cities for free"],
 				"row": 1,
 				"column": 4
@@ -136,10 +136,11 @@
 			"Domination": 10,
 			"Scientific": 10
 		},
-		"uniques": ["[+33]% Strength <vs [Barbarian] units>",
+		"uniques": ["[4] units cost no maintenance",
+			"[+33]% Strength <vs [Barbarian] units>",
 			"Earn [50]% of killed [Military] unit's [Strength] as [Culture]",
 			"Notified of new Barbarian encampments",
-			"Comment [Unlocks [Tribal Suppression Initiative]]"],
+			"Comment [Unlocks [Raider Suppression Initiative]]"],
 		"policies": [
 			{
 				"name": "Discipline",
@@ -156,7 +157,8 @@
 			},
 			{
 				"name": "Security Forces",
-				"uniques": ["[+2 Culture, +3 Happiness] [in all cities with a garrison]"],
+				"uniques": ["Units in cities cost no Maintenance",
+					"[+2 Culture, +3 Happiness] [in all cities with a garrison]"],
 				"row": 1,
 				"column": 5
 			},
@@ -398,6 +400,7 @@
 			"Scientific": 0
 		},
 		"uniques": ["[+50]% Production when constructing [Barracks] buildings [in all cities]",
+			"[+50]% Production when constructing [Armory] buildings [in all cities]",
 			"[+50]% Production when constructing [Military Academy] wonders [in all cities]",
 			"Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
 			"Comment [Unlocks [Chemical Weapons Laboratory]]",

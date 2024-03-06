@@ -8,7 +8,7 @@ Several icons reuse images used in either Unciv or DeCiv Redux, with some of the
 The Religion Icons for Anglicanism, Imperial Cult and Mormonism were created by Tomatekh on CivFanatics and can be found [at the Civ 5 Customization Wiki's entry on the Tomatekh's Historical Religions mod](https://civilization-v-customisation.fandom.com/wiki/Tomatekh%27s_Historical_Religions).<br>
 The icons for Alma Frontier Guard and Alma State Guard are of my own creation.
 
-Unless otherwise specified, all of the following are from the Noun Project, licensed under Creative Commons or Public Domain. Also, if anyone feels like there is a better/more fitting icon out there for any particular building/unit/etc. than the one that is used, I am open to suggestions for replacement icons.
+Unless otherwise specified, all of the following icons are from the Noun Project, licensed under Creative Commons or Public Domain. Also, if anyone feels like there is a better/more fitting icon out there for any particular building/unit/etc. than the one that is used, I am open to suggestions for replacement icons.
 
 Items still missing an icon (not necessarily a complete list): Condenser Cooler, Defense Directorate (and its replacements), Mounted Railgun, Pax Observer, Pax Researcher, Pax Surveyor, Persevering Pax Researcher, Pithouse, Preservator (icon also missing from TCC-beta), Pridwen-class, SS Casing, SS Life Support, Super Mutant, Weaponized Yacht
 
@@ -153,6 +153,7 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 - Zeal: [zeal of the convert](https://thenounproject.com/icon/zeal-of-the-convert-4708155/) by Saneseed
 
 ### Religion Icons
+- Rodnovery: [Red Rodnover kolovrat](https://commons.wikimedia.org/wiki/File:Red_Rodnover_kolovrat.svg) by Eckhardt Etheling on Wikimedia Commons
 - Stalinism: [stalin](https://thenounproject.com/icon/stalin-3370715/) by Simon Child, GB
 
 ### Resource Icons

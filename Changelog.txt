@@ -431,7 +431,6 @@ Changes since the Harbinger update
 		- Arcology Dome provides +150 HP (down from 250).
 		- Enclavers' Scrounged Armory and Guerrilla Camp are no longer defensive buildings.
 		- Hexlock's Field Turret provides +10 City Strength (down from +25).
-
 - Science and Culture:
 	- Jeweler no longer adds a Merchant slot (it adds +2 Water/Culture instead).
 	- University slightly buffed; it now adds an extra +2 Science instead of +1 when the owner has access to Power.
@@ -577,26 +576,28 @@ Changes since the Harbinger update
 
 **Belief Adjustments**
 - Acolytes of a New God now awards +100 Faith (modified by game speed) for each city conquered.
+- Ancestor Worship now adds +2 Culture to Shrines, does not add Faith to Monuments (matching Lekmod's adjustment), and no longer adds any stats to the Vault of Records.
 - Church Property buffed to +3 Water for each city following the religion.
 - Feast of Flesh now adds +2 Food, +1 Happiness to Ranches, and cannot be taken alongside the other Follower Beliefs that add Food yields of +2 or higher (not counting Gardens).
-- God of Beasts is now limited to the actual beast resources (Horses, Cattle, Goats, Deer). No more late-game Culture boosts from bug or water tiles.
+- God of Beasts now affects beast resources (Horses, Cattle, Goats, Deer, Hogs) instead of improvements. No more late-game Culture boosts from bug or water tiles.
 - Isolationism and Worship Music have been deleted.
 - Jesuit Education now allows purchasing Libraries.
 - New Zion nerfed to restrict its stat yields to Seminaries + replacements and no longer spawn a free Great Sage for the first adopter.
-- Religious Troubadours nerfed to reduce the Faith yields from city connections to +2.
+- Religious Troubadours, Religious Unity, and The Radiant City are now inaccessible if the player adopts Exodus of the Evangelists before enhancing their religion, putting a stop to players abusing the bonus belief to take two of the three at the same time. Troubadours is also nerfed slightly, reducing the added Faith yields to city connections to +2.
 - Sacred Sites now adds +2 Faith to Worship Centers (Cathedral, Divinity School, Dojo, Garden, Holy Fortress, Pyramid).
-- Strength of the Earth no longer adds Production to anything except the Mining Pit ancient wonder.
+- Strength of the Earth no longer adds Production, the added Faith to Manufactories is reverted to its original +1, and the Mining Pit is no longer affected by this belief at all.
 - Unity of the Sages' old effect has been thrown out; it's now Rekmod's Unity of the Prophets (+4 Faith, +2 Production to Seminaries + replacements) instead of Simultaneum from Civ 6.
 
 **Policy Adjustments**
 - Adaptation:
-	- Castle Doctrine buffed to +1 Happiness per 10 population, though it still requires a garrison.
+	- Castle Doctrine buffed to +1 Happiness per 10 population and no longer requires a garrison.
 	- Centralization's Production bonus to building construction in the capital buffed to 15%.
 	- Planned Economy renamed to Endurance Programme and reduced to a 25% Water bonus, but it also adds +1 of the respective yield to active Farmers, Engineers and Merchants.
 	- The finisher bonus no longer requires a garrison for the bonus Food/Growth.
 - Sovereignty:
+	- The opener bonus now allows an additional 4 units to be maintenance free.
 	- Doctrine buffed to add +2 Water to Barracks, fully matching Rekmod's buff. Because yes, war economy is best economy.
-	- Autocracy renamed to Security Forces.
+	- Autocracy renamed to Security Forces and it now removes the maintenance cost of garrisoned units.
 	- Military Tradition no longer grants its XP bonus to Aircraft.
 - Theocracy:
 	- Divine Mandate now lowers the Faith cost of unit/building purchase (instead of waiting until the finisher bonus).
@@ -611,6 +612,7 @@ Changes since the Harbinger update
 	- Civil Society's strength bonus to cities reduced to 25%.
 	- With the Settlement GI split, the finisher bonus adds +4 Culture to Settlements and +4 Water to its Merchant counterpart. Also, it now only adds +1 Food/Production instead of +2 to Wasteland Stations.
 - Supremacy:
+	- The opener bonus now extends its Production bonus to Armories.
 	- Police State now cuts the construction time of Prison Camps and Work Camps in half.
 	- The finisher bonus is reduced to a 15% combat bonus, but remains in effect for the entire game once adopted. With the adjustments to Crystal Refinery yields, it now adds +4 Science to them instead of +2 Water/Science.
 - Monopoly:
@@ -790,9 +792,11 @@ Changes since the Harbinger update
 - Terrascape, allowing Mechanized Workers to terraform tiles
 
 **New Terrain**
-- Tunneled Mountains, created by Military Engineers and Mechanized Workers. Cities cannot be founded inside these mountains, and only roads/railroads and Artificial glaciers may be built on/in these tiles.
+- Tunneled Mountains, created from normal Mountains by Military Engineers and Mechanized Workers. Cities cannot be founded inside these mountains, and only roads/railroads and Artificial glaciers may be built on/in these tiles.
 
 **New Beliefs**
+- Divine Judgment (Pantheon), adding +2 Faith to Barracks and +2 Happiness to the Bomb Shelter (Lekmod import, but no boost to Courthouse equivalent)
 - Patron Saint of Scavengers (Pantheon), adding +1 Production/Faith to five separate resources: Electronics, Machine Parts, Plastics, Scrap, and Weapons
+- Puritan Ethic (Pseudo-Reformation), enabling Faith purchases of most Production buildings
 - Sanctified Innovations (Follower), adding +1 each of Production, Science and Faith to National Wonders (this is Enhancer in Lek/Rekmod but to me didn't feel right putting it there)
 - Zen Meditation (Follower), adding +2 Culture and +1 Happiness to cities with at least 2 active Specialists
