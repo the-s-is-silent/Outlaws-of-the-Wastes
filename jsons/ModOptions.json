@@ -1,6 +1,8 @@
 {
 	"nationsToRemove": ["Deseret Nation"],
-	"buildingsToRemove": ["Compound Mix GP", "Distribute Soft Drinks", "Fist of God", "Five-Year Plan", "Grand Temple", "Great Mosque", "Longhouse", "Mormon Monument", "Mosque", "Plastics Reprocessor", "Salvage Army Depot", "Salvage Exchange", "Slaver Guild"],
+	"buildingsToRemove": ["Arroyo", "Compound Mix GP", "Distribute Soft Drinks", "Fist of God", "Five-Year Plan",
+		"Fo Guang Library", "Ghost Mountain", "Grand Temple", "Great Mosque", "Hub Work Camp", "Longhouse", "Mormon Monument",
+		"Mosque", "Plastics Reprocessor", "Salvage Army Depot", "Salvage Exchange", "Slaver Guild"],
 	"constants": {
 		"minimalCityDistance": 4,
 		"minimalCityDistanceOnDifferentContinents": 4,

@@ -10,7 +10,7 @@ The icons for Alma Frontier Guard and Alma State Guard are of my own creation.
 
 Unless otherwise specified, all of the following icons are from the Noun Project, licensed under Creative Commons or Public Domain. Also, if anyone feels like there is a better/more fitting icon out there for any particular building/unit/etc. than the one that is used, I am open to suggestions for replacement icons.
 
-Items still missing an icon (not necessarily a complete list): Condenser Cooler, Defense Directorate (and its replacements), Mounted Railgun, Pax Observer, Pax Researcher, Pax Surveyor, Persevering Pax Researcher, Pithouse, Preservator (icon also missing from TCC-beta), Pridwen-class, SS Casing, SS Life Support, Super Mutant, Weaponized Yacht
+Items still missing an icon (not necessarily a complete list): Condenser Cooler, Defense Directorate (and its replacements), Defiant Guardian, Defiant Scout, Mounted Railgun, Pale Veteran, Pax Observer, Pax Researcher, Pax Surveyor, Persevering Pax Researcher, Pithouse, Preservator (icon also missing from TCC-beta), Pridwen-class, Roller, SS Casing, SS Life Support, Super Mutant, Weaponized Yacht
 
 ### Building Icons
 - Abbey: [Westminster Abbey](https://thenounproject.com/icon/westminster-abbey-5459042/) by Brickclay, PK
@@ -150,6 +150,7 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 - Sea Raider: Same icon as Advanced Piracy
 - Self-Repair: [Hammer](https://thenounproject.com/icon/hammer-854936/) by Thengaloka (same icon used for Air Repair in base Unciv)
 - Terrascape: [terraform planet](https://thenounproject.com/icon/terraform-planet-4940216/) by Juicy Fish, GB
+- Will of Tellus: [Tree](https://thenounproject.com/icon/tree-6482946/) by ayadeya, ID
 - Zeal: [zeal of the convert](https://thenounproject.com/icon/zeal-of-the-convert-4708155/) by Saneseed
 
 ### Religion Icons
@@ -200,6 +201,7 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 - The Last Minute: [nuclear missile](https://thenounproject.com/icon/nuclear-missile-5460126/) by Fran Couto
 - Legate: [Legion](https://thenounproject.com/icon/legion-814530/) by Aldric Rodríguez
 - Living Prophet: [Mormonism](https://thenounproject.com/icon/mormonism-200426/) by Dabid J. Pascual
+- Martial Monk: [monk](https://thenounproject.com/icon/monk-3631410/) by Eucalyp
 - Military Engineer: [Engineering](https://thenounproject.com/icon/engineering-2491577/) by Icon Market, PK
 - Mobile Clinic: [Ambulance](https://thenounproject.com/icon/ambulance-1262538/) by Ralf Schmitzer
 - Mormon Battalion: [flag of utah](https://thenounproject.com/icon/flag-of-utah-5740272/) by Zach Bogart

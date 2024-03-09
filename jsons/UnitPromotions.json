@@ -444,6 +444,11 @@
 			"Uncapturable"]
 	},
 	{
+		"name": "Will of Tellus",
+		"uniques": ["[+20]% Strength <within [2] tiles of a [Tree plantation] tile>",
+			"[+10] HP when healing <within [2] tiles of a [Tree plantation] tile>"]
+	},
+	{
 		"name": "Line Brawl",
 		"uniques": ["Double movement in [Tundra]", "Double movement in [Permafrost]",
 			"Earn [100]% of killed [Military] unit's [Strength] as [Culture]"]

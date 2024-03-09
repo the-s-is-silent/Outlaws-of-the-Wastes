@@ -284,7 +284,7 @@ Changes since the Harbinger update
 **New Tile Improvements**
 - Preservator, borrowed from Bamboolord's expansion mod with his permission, adjusted, and granted to The Pax CS. This GI gains yields from the finisher bonuses of Rationalism and Constitution (+4 Culture/Science during Golden Ages from the former, +2 Culture/Science from the latter)
 
-2) November 2023 - February 2024
+2) November 2023 - March 2024
 
 **Mod Compatibility**
 - A few adjustments have been made for the sake of maintaining compatibility with Bamboolord's expansion mods, with further adjustments likely in the near future:
@@ -304,7 +304,7 @@ Changes since the Harbinger update
 **Ruins Adjustments**
 - Units can no longer receive free upgrades from clearing a survivor or barbarian camp.
 - The availability and strength of several bonuses have been adjusted:
-	- Water bonuses have been reduced (100-150 on Standard speed for first tier, 400-600 for the second).
+	- Water bonuses have been reduced (100-150 on Standard speed for the first tier, 400-600 for the second).
 	- The first tier Culture and Faith bonuses can no longer be obtained during the first 15 turns.
 	- The second tier Faith bonus has been reduced back to 33% of the amount needed for a Great Sage.
 	- The window to acquire a rare bonus Pantheon has been narrowed: it can no longer be obtained during the first 30 turns, and now exits the pool after 80 turns.
@@ -333,7 +333,7 @@ Changes since the Harbinger update
 **Faction Adjustments**
 - Atlas heavily nerfed:
 	- They now have to wait until Education to get their free Great Scientist.
-	- They no longer receive a bonus towards generating GP types other than Scientists.
+	- They no longer receive a bonus towards generating GP types other than Scientists, which is set at 30% due to being allowed to keep Rationalism adopted at the start.
 	- They no longer start with any free techs aside from Electronics.
 	- They no longer have a nonsensical (and frankly unnecessary) double Production speed bonus towards their unique Electrostatic Generators.
 	- However, the early-game Science penalty has also been removed.
@@ -349,6 +349,17 @@ Changes since the Harbinger update
 	- Citadels gain +2 Production/Science, increasing to +4 after entering the Industrial era.
 
 **City-State Adjustments**
+- Almaty's "declaring war" line has been edited again. The CS itself might get a rename in the future, with more dialogue changes to accompany it.
+- Defiance, which was intentionally overpowered on introduction, has been harshly nerfed:
+	- The number of free techs is reduced to two - Mining and Machinery, instead of any of their original five.
+	- They are still locked out of Low Tech units like Almaty.
+	- The Production bonus towards Personnel units in the UA is reduced from 66% to 25%.
+	- The free AI Implant promotion for all Personnel units has been moved to the Von Bach Industries UB.
+	- However, they also produce 25% more strategic resources.
+- Devil's Canyon now starts with Electronics instead of Rifling.
+- Issaquah Nation buffed; they now also start with Iron Working.
+- Order of Jerome starts with Secrets of the Past and Education instead of Electronics.
+- Tellus now has a Wasteland start bias and has been nerfed: the absurd combat bonuses when fighting on or near Tree plantations have been severely reduced (and condensed into a new unique promotion).
 - Venice Beach's attacked/defeated dialogue was altered so it's no longer copied verbatim from Civ 5 Venice.
 
 **Building Adjustments**
@@ -390,10 +401,10 @@ Changes since the Harbinger update
 	- Forge (and its replacements) no longer has a resource requirement and gains an Engineer slot, but no longer gains benefits from having Machine Parts.
 		- Children of Rust's version also no longer adds Production to Scrap resources, though it regains the normal Forge's bonus to Land unit production.
 		- Deadrock Clan's version has been removed from the game.
-		- Proklyatyye's version no longer makes worked Uranium tiles have negative Water yields.
-	- Heat Plant moved to Synthetic Materials and now provides 4 units of Power.
+		- Proklyatyye's version no longer adds Water penalties to worked Uranium tiles.
+	- Heat Plant moved to Plastics and now provides 4 units of Power.
 	- Metal Reprocessor's Production cost increased to 1000, but it now provides 2 copies of Aluminum.
-	- Nuclear Plant now provides 16 units of Power but cannot be built if the city owns an Oil Plant. Deseret and Proklyatyye's versions have been adjusted accordingly.
+	- Nuclear Plant now provides 16 units of Power but cannot be built if the city owns an Oil Plant. Deseret, Devil's Canyon and Proklyatyye's versions have been adjusted accordingly.
 		- Proklyatyye's Atomic Pile starts at 8 units of Power and scales to 16 with techs.
 	- Oil Plant now provides up to 8 units of Power, scaling with techs + resource availability. However, it no longer increases Production.
 	- Oil Refinery now provides a second copy of Oil after researching Advanced Materials.
@@ -401,7 +412,7 @@ Changes since the Harbinger update
 	- Plastics Reprocessor has been removed from the game.
 	- Prison Camps and their replacements are now 3x more expensive to build. The cost of purchase is increased further (except for factions that outlaw slavery).
 		- The standard camps and Commonwealth's Black Site no longer penalize the annexed city's Food supply.
-		- Legion Camps and Processing Centers have their Food penalty reduced from 25% to 10%. However, the former only adds +5 City Strength.
+		- Processing Centers have their Food penalty reduced from 25% to 10%.
 		- Corrective Colonies lose the flat -2 Food penalty (but keep the percentage Food penalty).
 	- Recycling Plant is now a Production building instead of a Power building, adding +1 Production to Scrap/Metal/Plastic and Strategic resource tiles, +15% to the city's total Production output, and 1 Engineer slot, but does not provide resources and consumes Power to build.
 	- Transport Network *severely* nerfed; it now only adds +1 Production to Boroughs and no other stats.
@@ -432,6 +443,7 @@ Changes since the Harbinger update
 		- Enclavers' Scrounged Armory and Guerrilla Camp are no longer defensive buildings.
 		- Hexlock's Field Turret provides +10 City Strength (down from +25).
 - Science and Culture:
+	- Museum no longer adds Faith, but adds +1 Culture/Science to worked Artifacts tiles and +10% to the city's total Culture output.
 	- Jeweler no longer adds a Merchant slot (it adds +2 Water/Culture instead).
 	- University slightly buffed; it now adds an extra +2 Science instead of +1 when the owner has access to Power.
 	- The three base game faction variants no longer senselessly have reduced Science compared to the standard University, but also no longer give Great Person Points. They are further adjusted as follows:
@@ -440,11 +452,26 @@ Changes since the Harbinger update
 		- Deadrock Clan: Trade College now adds +2 Water and no longer has a maintenance cost, but does not add Culture or a Merchant slot.
 	- Interpretative Center no longer adds an Administrator slot, but also loses the National Wonder requirement.
 	- Media Center can now be built with worked Books tiles and adds +2 Culture to those tiles, but no longer adds Great Administrator points.
+	- Decryption Center now consumes Power in addition to Encrypted Data and adds +2 Science instead of +1 Culture.
 - Other faction/CS-specific buildings:
+	- All City-States:
+		- Their Monument replacements are now standalone buildings, no longer provide extra Food/population/units (with a few exceptions for the Food/units), but are still destroyed when the CS is captured.
 	- Almaty:
-		- Alma Air Base only gives one free Salvaged Helicopter again and no longer increases city HP.
-		- Alma Tank Depot no longer increases city strength and its increase to city HP is reduced to 50.
-		- Neither of the above buildings provide any resources anymore. Also, the production bonus to their respective units is reduced to 50%.
+		- Alma Air Base only gives one free Salvaged Helicopter again and no longer increases city HP. But it also gives a free Salvaged Bomber.
+		- Alma Tank Depot no longer increases city strength and the free Ancient Armor is now awarded at Machinery.
+			- Neither of the above buildings provide any resources or flat Production/Science yields anymore.
+			- The production bonus to their respective units is reduced to 20%.
+			- However, they are also no longer mutually exclusive (unless, of course, Almaty is settled on a Hill).
+			- Also, the Air Base will give Almaty a free Salvaged Bomber once they discover Steel along with extending its production bonus to aircraft.
+		- Alma Base no longer increases the city's defenses on its own, but it makes Almaty's other defensive buildings 25% more effective and adds +3 Production, +2 Science.
+		- Alma Oil Depot is now a standalone building (so there is a chance of keeping it intact on capture), adds +3 Production, but does not add Culture, Happiness or Engineer slots.
+		- Alma Strategic Reserve is now restricted to Almaty's original city and cannot be built in any other CS or capitals they capture.
+		- Central Press Service now adds +2 Local Happiness.
+	- The Archive:
+		- Archive of the Arts gives 2 less Culture and 1 less Great Administrator point.
+		- Encyclopedia now gives +2 Culture/Science (formerly +3 Culture).
+	- Arroyo:
+		- Their identity building is now named "Arroyo Ritual Grounds" and the Culture it provides is reduced from 10 to 3. It now gives a +25% Production bonus towards Low Tech units.
 	- Atlas:
 		- Kruger Line now adds +3 Culture to the capital, but only adds +1 Production to Railroads and +1 Water per Trade Route. Its cost is greatly reduced, to 150 + 30 per owned city (was originally 625).
 	- Blackwarden:
@@ -474,10 +501,18 @@ Changes since the Harbinger update
 		- Plantation now unlocks at Botany like standard Greenhouses, costs 70 Production, and no longer adds a percentage boost to total Food yields. Instead, it adds +1 Food to active Farmers in the city and +1 Culture to Narcotics farms (along with the standard Greenhouse effect).
 		- Clubhouse now generates 2 Water per turn and no longer costs maintenance.
 		- Organ Farm now consumes Power in addition to consuming Slaves.
+	- Defiance:
+		- Terra-Spire renamed to Gateway Arch (as in the St. Louis Gateway Arch).
+		- Lawkeeper Office's bonus to Personnel unit training speed removed.
+		- Von Bach Industries no longer gives a free Armory (this is now unnecessary thanks to other adjustments).
 	- Deseret Nation:
 		- Bishop's Storehouse no longer adds extra Culture/Faith from having access to Books.
 		- Sacred Cave now has the City Defense modifier.
 		- Disciplinary Council's maintenance cost reduced to 1.
+	- Fo Guang:
+		- Fo Guang Library has been removed from the game. Considering the actual Fo Guang Shan IRL has established and continues to operate libraries, universities (secular ones, even) and public schools, it made absolutely ZERO sense for them to be unable to build a library post-Cataclysm and thus be locked out of the other science buildings.
+	- Ghost Mountain:
+		- Their identity building is now named "Ghost Mountain Reserve," the amount of Culture it provides is reduced from 10 to 2, and it no longer gives Happiness. It now adds +1 Food to every Food source worked by the city.
 	- The Harbingers:
 		- Gostiny Dvor now has the City Defense modifier.
 		- Pogost swaps its Merchant slot for an Administrator slot.
@@ -491,11 +526,20 @@ Changes since the Harbinger update
 		- Advanced Chemical Refinery is much harder to unlock: you have to build the Chemical Weapons Laboratory first.
 	- Hockeytown:
 		- Ice Hockey Rink no longer provides the Alcohol luxury.
+	- The Hub:
+		- Hub Monument is now Hub Trading Company, adding +5 Water to the city's base yields and +2 to each worked Moisture trap and Water pump.
+		- Trader's Hub is now Hub Downtown but is otherwise unaltered.
+		- Hub Work Camp is now Hub Underground, nerfed to match the standard Work Camp's nerfs, and will now be destroyed when the city is captured.
+	- Jericho:
+		- Homestead now only gives +2 Culture (was originally +5), but also gives +2 Water.
 	- New Afrika:
 		- Mosque has been temporarily removed from the game on account of it being inaccurate to their religion. When the building is reintroduced, it will be given to a new faction.
 	- New Star:
 		- Triage now costs 40 Production.
 		- Emergency Response Network no longer adds an Administrator slot.
+	- Order of Jerome:
+		- The Abbey now gives 2 less Faith, no Culture, 1 less Science, and 1 less Great Scientist point.
+		- Divine Knowledge now gives a free State Guard (or their new replacement for it, rather).
 	- Proklyatyye:
 		- Zemlyanka is now a City Defense building and it adds +1 City Strength and +1 Food to Tundra Camps and Tundra Tubers to help offset the double whammy of their growth penalties and Tundra start bias. However, its increase to City HP is reduced from 50 to 20.
 
@@ -530,12 +574,14 @@ Changes since the Harbinger update
 	- The Patriots (Tactics Center): 100 base Production, moved to Munitions
 - International Trade Center buffed to +5 base Water, +50% total Water yields for the owning city, and +3 Water from Trade Routes, adding more incentive to build it in the endgame. It also triggers an additional alert upon completion.
 - Organ Lab no longer provides Harvested Organs, and instead adds +2 Food, +1 Happiness to every Hospital. This effectively means Harvested Organs become exclusive to Deadrock Clan, at least for the time being.
+- Salvage Bomber/Helicopter/Tank Depot now cost 125 Production (up from 75, or 60 in Bomber's case). The latter two now add +3 Production to the city instead of reducing Production by that amount.
 - Shake Down Survivors now costs 30 Production, but awards 4 Slaves and a Gangboss.
 - Statue of Remembrance now has its flavor text/quote.
 
 **Unit Adjustments**
 - All three non-drone Bomber units have had their ranged strength reduced by 5 (and in the case of Stealth Bombers, their strength reduced by 15).
 - Ancient Armor's strength further reduced to 50 and its Production cost increased to 150.
+- Ark Hunter and Mounted Railgun's Production costs increased to 150 each.
 - Auxiliary is now a Crimson Legion UU, replacing the Militia as a weaker Low Tech version that retains infrastructure building abilities and gets a combat bonus when adjacent to other Melee units instead of against Mounted units. Also, it's no longer an Enslaved unit.
 	- Consequently, Rubble Gangs are now a standalone unit for Deadrock Clan.
 - Bartertown Security Force renamed (or rather, had its name corrected) to Bartertown Imperial Guard.
@@ -552,7 +598,7 @@ Changes since the Harbinger update
 - Field Scientists reverted to 70 production cost, 1 charge, but remain standalone units.
 - First Aid units no longer have a 1-in-3 chance to capture Barbarians.
 - Forward Observers and their replacements (with the exception of the Legion's Speculatores) can no longer capture cities. They now play the "shot" attack sound in combat.
-- Great Farmers now add +2 population to a random city instead of +1 to all cities with their secondary ability.
+- Great Farmers now add +2 population to the city they're in instead of +1 to all cities with their secondary ability (and they must be inside a city to activate that ability).
 - Great Merchants no longer create Settlements, but an entirely new Great Improvement.
 - Hexlock's Purge Robots are now standalone units.
 	- Proto and MKI are now Armor units. The former's Production cost is increased to 75.
@@ -561,12 +607,14 @@ Changes since the Harbinger update
 - Mechanized Workers can now enter impassable tiles and terraform tiles, receiving 2 charges.
 - Mormon Battalions now cost 230 Production, matching the cost of the NBC Infantry unit which they are superior to despite replacing normal Infantry and unlocking earlier.
 - Persevering Pax Researchers are no longer Great People. No more will City-State quests ask you to somehow acquire them.
+- Philosophers and Censors (and their replacements) are now uncapturable.
 - Rubble Gunmen now replace Crossbowmen, correcting the major error in the base game where Deadrock Clan had two unique units replacing Archers.
-- Salvaged Helicopter's movement points reduced by 1 and ranged strength reduced by 10. However, its Production cost is reduced by 50.
-- Seastead Vessel now uses a single unique for all Water improvements that are not specifically for improving Water resources, in the event that more such improvements are added in the future. Also, it can now enter and remove ice tiles.
+- Salvaged Bomber's ranged strength reduced by 10.
+- Salvaged Helicopter's movement points reduced by 1 and ranged strength reduced by 15. However, its Production cost is reduced by 50.
+- Seastead Vessel now uses a single unique for all Water improvements that are not specifically for improving Water resources, in the event that more such improvements are added in the future. Also, it can now enter and remove ice and sunken ruins tiles.
 - State Guards are now limited to 3 per City-State.
 	- Alma State Guard's strength reduced to 40 and it now upgrades to Infantry instead of Exo-Troopers.
-	- Pale Veteran's strength reduced to 38.
+	- Pale Veteran's strength reduced to 38 and it now upgrades to Infantry (Ark Hunters) instead of NBC Infantry. Also, it now obsoletes at Replaceable Parts.
 - Technopaths now actually get their intended endgame buff of a 30% Strength bonus at Artificial Intelligence. However, they now also consume Weapons and unlock later at Networking.
 - The Last Minute renamed to Sentinel Missile.
 - Torpedo Boat buffed to 30 melee strength, 40 ranged strength. However, it now consumes Oil.
@@ -583,7 +631,7 @@ Changes since the Harbinger update
 - Isolationism and Worship Music have been deleted.
 - Jesuit Education now allows purchasing Libraries.
 - New Zion nerfed to restrict its stat yields to Seminaries + replacements and no longer spawn a free Great Sage for the first adopter.
-- Religious Troubadours, Religious Unity, and The Radiant City are now inaccessible if the player adopts Exodus of the Evangelists before enhancing their religion, putting a stop to players abusing the bonus belief to take two of the three at the same time. Troubadours is also nerfed slightly, reducing the added Faith yields to city connections to +2.
+- Religious Troubadours, Religious Unity, and The Radiant City are now inaccessible if the player adopts Exodus of the Evangelists before enhancing their religion, putting a stop to players abusing the bonus belief to take two of the three at the same time. This was the only way to do so until Reformation Beliefs are a proper belief type. Troubadours is also nerfed slightly, reducing the added Faith yields to city connections to +2.
 - Sacred Sites now adds +2 Faith to Worship Centers (Cathedral, Divinity School, Dojo, Garden, Holy Fortress, Pyramid).
 - Strength of the Earth no longer adds Production, the added Faith to Manufactories is reverted to its original +1, and the Mining Pit is no longer affected by this belief at all.
 - Unity of the Sages' old effect has been thrown out; it's now Rekmod's Unity of the Prophets (+4 Faith, +2 Production to Seminaries + replacements) instead of Simultaneum from Civ 6.
@@ -711,7 +759,11 @@ Changes since the Harbinger update
 - Collectivism policy:
 	- Stalker, same combat strength as Militia, but starts with Gas Mask and Forage and can build Salvage sites, gains 15% Strength at Rifling, and must be purchased
 - Commonwealth:
-	- Field Preparations Squad, replacing the Forward Observer, 5 movement vs. 4, can build Roads, Railroads, Forts and Trenches and do so faster than any other unit
+	- Field Preparations Squad (replaces Forward Observer, 5 movement vs. 4, can build Roads, Railroads, Forts and Trenches and do so faster than any other unit)
+- Defiance:
+	- Defiant Scout (replaces Scout, Personnel modifier, 20 combat strength, bonus against Low Tech/Barb units instead of penalty against cities (but still cannot capture cities))
+	- Defiant Guardian (replaces Spearman, Personnel modifier, 24 combat strength, 25% strength when defending, starts with Medic I)
+	- Roller (replaces Attack Vehicle, doesn't need Oil, starts with Conquer Terrain, but has 1 less movement point and a limit of 5)
 - Issaquah Nation:
 	- Issaquah Mystic (replaces State Guard, Low Tech ranged unit with the same strength as Gunmen, generates Culture per kill (100% of unit's Strength) and has a 1-in-3 chance of withdrawing from melee)
 - The Mariners:
@@ -721,6 +773,8 @@ Changes since the Harbinger update
 	- Eco-Terrorist, unlocked by adopting Ecodefense - its sole purpose is to commit atrocities
 - New Star:
 	- Combat Medic (replaces Wandering Doctor, no tech/infrastructure requirement or sight penalty, but additional healing bonus to adjacent units is halved)
+- Order of Jerome:
+	- Martial Monk (replaces State Guard, Low Tech modifier, generates Culture per kill equal to 50% of dead unit's Strength, limit of 5)
 - The Pax:
 	- Pax Surveyor (replaces Scout, Personnel modifier, 20 combat strength, double strength vs. Low Tech and Barbarian units, starts with Forage, but 2x more expensive to build)
 	- Pax Observer (replaces Forward Observer, 30 combat strength, 33% strength when defending, starts with Gas Mask and Drone Recon, more expensive to build)
@@ -744,6 +798,8 @@ Changes since the Harbinger update
 	- Fortified Aquifer (replaces Water Storage, +2 City Strength, +50 City HP, "City Defense" modifier, adds +1 Food/Water to worked Mountain and Tunneled Mountain tiles)
 - Deadrock Clan:
 	- Slave Quarters (replaces Prison Camp, provides 2 extra Slaves and a +25% Production bonus towards Enslaved units in the annexed city)
+- Defiance:
+	- Defiance Armory (replaces standard Armory, no resource requirement or added yields, provides 2 Weapons, will be destroyed if the CS is captured)
 - Deseret Nation:
 	- Grand Tabernacle (replaces Grand Monastery, creates an Endowment House on completion and boosts the yields of Endowment Houses by +1 Food, +2 Water/Culture)
 - The Harbingers:
@@ -752,8 +808,10 @@ Changes since the Harbinger update
 - Hexlock: (let's bring on the Rimworld references)
 	- Nutri-Paste Dispenser (replaces Food Store, +1 Food with surplus VX chemicals)
 	- Chemfuel Generator (standalone, provides 2 units of Power and +5% total Production, requires an Experimental Lab and a worked Refinery of any type in the city, and will be destroyed if the city is captured)
+- The Hub:
+	- Hub Water Tower (replaces Water Storage, higher Water yields, +1 Water to active Merchants)
 - Issaquah Nation:
-	- Issaquah Tribal Council (replaces Defense Directorate, adds a +25% Production bonus towards Military units (free units are: 1x Issaquah Mystic, 2x Hawkman Brave))
+	- Issaquah Tribal Council (replaces Defense Directorate, adds a +25% Production bonus towards Military units (free units are: 1x Issaquah Mystic, 2x Hawkman Brave), doubles as their "identity" building)
 	- Potlatch House (replaces Market, +2 Food/Happiness but no base Water)
 - New Afrika:
 	- Mansion of Our Father (new identity wonder, +2 Food/Culture, keeps the free Weapons, Panther unit, bonus belief and quote of the Great Mosque, but awards a Food Store)
@@ -775,7 +833,7 @@ Changes since the Harbinger update
 - Proklyatyye:
 	- Sharashka (standalone, +10% Science, +1 Science to active Scientists/Engineers in the city, consumes a Slave, cannot exist in the same city as a Gulag, can only own 3, will be destroyed if the city is captured)
 - Venice Beach:
-	- Ritz-Carlton Resort ("standardized" CS Monument replacement, +2 Food/Water/Culture, +1 extra copy of each worked luxury)
+	- Ritz-Carlton Resort (standardized CS "identity" building, +2 Water/Culture, +1 extra copy of each worked luxury)
 	- Yacht Club (standalone, +2 Culture/Happiness, +1 Culture from Water resources worked by the city, gives two free units, remains intact if the CS is captured, but the CS must actually be founded on the coast)
 
 **New National Wonders**

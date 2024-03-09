@@ -6,6 +6,10 @@ Tech Changes:
 - Computers no longer boosts Production or Science.
 - Nuclear Fission has been renamed to Nuclear Power.
 
+City-State General Changes:
+- The identity buildings for the base scenario's City-States (along with the mod's extra City-States that have them) are now standalone buildings instead of Monument replacements and no longer give a free pop. Most of them also no longer provide Food or free units and have had additional stat adjustments.
+- Some of the other unique components for some of the base scenario's City-States have been nerfed with the objective of making those City-States less appealing to conquer.
+
 City-State Quest Changes:
 - All available quests are now weighted with certain CS type being less or more likely to give certain quests.
 - Clear Barbarian Camp can no longer be given. While the bug that prevented quest completion has been fixed, the City-States in DeCiv remain powerful enough to be capable of clearing the camp they ask the player to clear before the player can do so.
@@ -19,9 +23,11 @@ Ruins Changes:
 Unit Changes:
 - Nuclear weapons can no longer be purchased.
 - Terraformer Part production cost is doubled.
+- Philosophers and Censors (along with their replacements) will now be killed instead of captured if an enemy unit moves onto their tile.
 - Almaty's unique units are now standalone units, and the CS is blocked from building Low Tech units in its UA.
 	- Ancient Armor's strength has been reduced to 50. This gives players a chance to fight back in the early-game against enemy factions who either allied with or conquered Almaty or have the Army Depot in their possession.
 	- Ancient Armor also gains some buffs, however: movement points increased to 5 with another point added when starting its turn in friendly territory, and no combat penalty for attacking across rivers. Also, its Production cost is reduced from 200 to 150.
+	- Salvaged Bomber's ranged strength is reduced to 40.
 	- Salvaged Helicopter's movement points are reduced to 5, its ranged strength is reduced to 40, but its Production cost is reduced from 200 to 150.
 - Attack Boats (and the Mariners' replacement) no longer require Factories to build, so they're now properly available at Steam Power instead of being forced to wait until Manufacturing. They can now also spawn as Barbarian units.
 - Machine Guns are now Shooter units with the Personnel modifier, and start with Logistics.
@@ -86,8 +92,10 @@ Building Changes:
 	- Library (and replacements) add +2 Science to Books tiles instead of +1 Science, +1 Culture.
 	- University (and replacements) add +2 Science instead of +1 while the faction has access to Power.
 	- Public School (and replacements) no longer add Culture and count every 2 population instead of every 3 for their scaling Science boost.
-	- Data Center severely nerfed; it only adds +5 Science instead of +50% to the city's total Science yields (Hexlock's replacement adds +8 base instead of +65% total), and no longer adds Culture to Data and Encrypted Data tiles, adding +2 Science instead of +1 to those tiles.
+	- Data Center severely nerfed; it only adds +5 Science instead of +50% to the city's total Science yields (Hexlock's replacement adds +8 base instead of +65% total), and no longer adds Culture to Data and Encrypted Data tiles, adding +4 Science instead of +1 to those tiles.
+	- Decryption Center consumes Power in addition to Encrypted Data and adds +2 Science (or +4 as long as the player doesn't run out of Power) instead of +1 Culture.
 - Culture building adjustments:
+	- Museum no longer gives Faith, but adds +1 Culture/Science to worked Artifacts tiles along with +10% total Culture output in the city.
 	- Broadcast Tower now gives +2 Culture, no Happiness, and costs 3 Water per turn in maintenance.
 	- Television Studio now gives +2 Culture/Happiness and costs 2 Water per turn in maintenance.
 
@@ -96,7 +104,7 @@ Wonder Changes
 - Wincon wonders, International Trade Center, and Manhattan Project can no longer have their production hurried.
 	- International Trade Center is buffed, however: it adds +5 Water, +50% to the owning city's total Water yields, and +3 Water to city connections.
 	- Biosphere Project also buffed: its production cost is cut in half and building it doubles the number of terraform charges granted to Mechanized Workers built after its completion.
-- Salvage Tank Depot now awards an Ancient Armor instead of a Tank (it originally awarded a Modern Armor in the base scenario prior to an "increased difficulty" update).
+- The three "conquer Almaty" wonders (Salvage Bomber, Salvage Helicopter, Salvage Tank Depot) are now more expensive to build, but they add +3 Production instead of reducing the city's Production by that amount.
 - Salvage Army Depot replaced with Restore Army Depot, which costs 5x more Production (era-based 250 vs. 50), awards an Ancient Armor instead of a Tank (Modern Armor prior to the "increased difficulty" update), adds +25% Production towards Armor units in the owning city, and adds an extra +3 Production to the Army Depot tile.
 - Salvage Space Station nerfed to remove its free Technology, due to the above exploit, which would have allowed players to gain several free Technologies by razing and rebuilding non-capital cities next to its ancient wonder. Instead it adds +4 extra Science, +2 Culture and +2 Production to that wonder's tile along with 20% more Science and 2 Great Scientist Points in the city that owns it.
 - Faust Project adjusted in almost the exact same way due to that same exploit, but without the added Culture points to its ancient wonder; instead it provides 3 additional copies of Uranium. Its Production cost is also increased to the era-default 185 (Standard speed).

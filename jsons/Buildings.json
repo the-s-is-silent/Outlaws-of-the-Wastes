@@ -789,13 +789,15 @@
 		"uniqueTo": "Crimson Line",
 		"culture": 1,
 		"science": 1,
-		"faith": 1,
+		"percentStatBonus": {"culture": 10},
 		"cityHealth": 50,
 		"cost": 40,
 		"requiredNearbyImprovedResources": ["Artifacts", "Electronics"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Secrets of the Past",
 		"uniques": ["City Defense",
+			"[+1 Culture, +1 Science] from [Artifacts] tiles [in this city]",
+			"[+1 Culture, +1 Science] from [Electronics] tiles [in this city]",
 			"[+2 Culture] [in this city] <after discovering [Railroads]>"]
 	},
 	{
@@ -1397,7 +1399,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": ["[+1 Culture, +1 Gold] per [4] population [in all cities]",
 			"[-5]% Unhappiness from [Population] [in all cities]",
-			"[+15]% Production towards any buildings that already exist in the Capital",
+			"[+25]% Production towards any buildings that already exist in the Capital",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Consulate]>",
 			"Destroyed when the city is captured"]
@@ -1796,7 +1798,7 @@
 		"happiness": 2,
 		"culture": 2,
 		"cost": 400,
-		"uniques": ["[+1 Happiness] per [4] social policies adopted",
+		"uniques": ["[+1 Happiness] per [2] social policies adopted",
 			"Requires a [Television Studio] in all cities",
 			"Cost increases by [30] per owned city"],
 		"isNationalWonder": true,
@@ -1824,6 +1826,44 @@
 			"Only available <in cities with a [Alma Tank Depot]>"],
 		"quote": "To a man with a hammer, everything looks like a nail.",
 		"civilopediaText": [{ "text": "To a man with a hammer, everything looks like a nail." }]
+	},
+	{
+		"name": "Salvage Bomber",
+		"requiredTech": "Manufacturing",
+		"isWonder": true,
+		"cost": 125,
+		"science": 1,
+		"production": 3,
+		"uniques": [
+			"Free [Bomber] appears",
+			"Only available <in cities with a [Alma Air Base]>",
+			"Only available <in cities without a [Salvage Helicopter]>"
+		],
+		"quote": "For once you have tasted flight, you will forever walk the earth with your eyes turned skyward. For there you have been, and there you will always long to return.",
+		"civilopediaText": [
+			{
+				"text": "For once you have tasted flight, you will forever walk the earth with your eyes turned skyward. For there you have been, and there you will always long to return."
+			}
+		]
+	},
+	{
+		"name": "Salvage Helicopter",
+		"requiredTech": "Engineering",
+		"isWonder": true,
+		"cost": 125,
+		"science": 1,
+		"production": 3,
+		"uniques": [
+			"Free [Helicopter] appears",
+			"Only available <in cities with a [Alma Air Base]>",
+			"Only available <in cities without a [Salvage Bomber]>"
+		],
+		"quote": "Helicopters don't fly, they vibrate so badly the ground rejects them.",
+		"civilopediaText": [
+			{
+				"text": "Helicopters don't fly, they vibrate so badly the ground rejects them."
+			}
+		]
 	},
 	{
 		"name": "Ally with Isolationists",
@@ -2684,6 +2724,17 @@
 		]
 	},
 	{
+		"name": "Museum",
+		"culture": 1,
+		"science": 1,
+		"percentStatBonus": {"culture": 10},
+		"cost": 40,
+		"requiredNearbyImprovedResources": ["Artifacts"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Secrets of the Past",
+		"uniques": ["[+1 Culture, +1 Science] from [Artifacts] tiles [in this city]"]
+	},
+	{
 		"name": "Broadcast Tower",
 		"requiredResource": "Power",
 		"culture": 2,
@@ -2967,8 +3018,8 @@
 		"science": 5,
 		"specialistSlots": {"Scientist": 1},
 		"requiredTech": "Networking",
-		"uniques": ["[+2 Science] from [Data] tiles [in this city]",
-			"[+2 Science] from [Encrypted Data] tiles [in this city]",
+		"uniques": ["[+4 Science] from [Data] tiles [in this city]",
+			"[+4 Science] from [Encrypted Data] tiles [in this city]",
 			"Consumes [1] [Power]"]
 	},
 	{
@@ -2981,10 +3032,23 @@
 		"science": 8,
 		"specialistSlots": {"Scientist": 1},
 		"requiredTech": "Networking",
-		"uniques": ["[+2 Science] from [Data] tiles [in this city]",
-			"[+2 Science] from [Encrypted Data] tiles [in this city]",
+		"uniques": ["[+4 Science] from [Data] tiles [in this city]",
+			"[+4 Science] from [Encrypted Data] tiles [in this city]",
 			"Provides [1] [Encrypted Data]",
 			"Consumes [1] [Power]"]
+	},
+	{
+		"name": "Decryption Center",
+		"science": 2,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"uniques": [
+			"Consumes [1] [Encrypted Data]",
+			"Consumes [1] [Power]",
+			"[+2 Science] [in this city] <when above [0] [Power]>",
+			"Only available <in cities with a [Data Center]>"
+		],
+		"percentStatBonus": {"science": 25},
+		"requiredTech": "Decryption"
 	},
 	{
 		"name": "Ground Control Center",
@@ -3898,7 +3962,339 @@
 		]
 	},
 
-	//City-State buildings
+	//Adjusted City-State buildings
+	{
+		"name": "Archive of the Arts",
+		"uniqueTo": "The Archive",
+		"cost": 0,
+		"culture": 3,
+		"science": 1,
+		"happiness": 1,
+		"greatPersonPoints": {"Great Administrator": 1},
+		"uniques": [
+			"[+50]% Golden Age length",
+			"Provides [1] [Power]",
+			"Never destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Encyclopedia",
+		"uniqueTo": "The Archive",
+		"cost": 0,
+		"culture": 2,
+		"science": 2,
+		"uniques": [
+			"Reveals the entire map",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built [in capital]",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Homestead",
+		"uniqueTo": "Jericho",
+		"cost": 0,
+		"culture": 2,
+		"gold": 2,
+		"food": 2,
+		"uniques": [
+			"Provides [1] [Oil]",
+			"Provides [1] [Power]",
+			"Provides [1] [Weapons]",
+			"Reveals the entire map",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built [in capital]",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Devil's Monument",
+		"uniqueTo": "Devil's Canyon",
+		"gold": 5,
+		"culture": 1,
+		"cost": 0,
+		"uniques": [
+			"Reveals the entire map",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built [in capital]",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Nuclear Storage",
+		"uniqueTo": "Devil's Canyon",
+		"cost": 0,
+		"uniques": [
+			"Provides [2] [Uranium]",
+			"Never destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Devil's Nuclear Plant",
+		"uniqueTo": "Devil's Canyon",
+		"replaces": "Nuclear Plant",
+		"cost": 0,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Provides [4] [Power]",
+			"Provides [12] [Power] <after discovering [Nuclear Fission]>",
+			"[+33]% Production when constructing [Nuclear Weapon] units [in this city]",
+			"Only available <in cities without a [Coal Plant]>",
+			"Only available <in cities without a [Oil Plant]>",
+			"Never destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Silk Road",
+		"uniqueTo": "Bartertown",
+		"cost": 0,
+		"culture": 1,
+		"uniques": [
+			"Provides [1] [Weapons]",
+			"Provides [1] [Oil]",
+			"Reveals the entire map",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built [in capital]",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Paradise Alley",
+		"uniqueTo": "Bartertown",
+		"cost": 0,
+		"culture": 1,
+		"uniques": [
+			"Provides [2] [Soft Drinks]",
+			"Never destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "The Abbey",
+		"uniqueTo": "Order of Jerome",
+		"cost": 0,
+		"faith": 3,
+		"science": 2,
+		"happiness": 2,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"uniques": ["Never destroyed when the city is captured"]
+	},
+	{
+		"name": "Divine Knowledge",
+		"uniqueTo": "Order of Jerome",
+		"cost": 0,
+		"culture": 2,
+		"science": 2,
+		"uniques": [
+			"Provides [1] [Power]",
+			"Reveals the entire map",
+			"Free [Martial Monk] appears",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built [in capital]",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Arroyo Ritual Grounds",
+		"uniqueTo": "Arroyo",
+		"cost": 0,
+		"culture": 3,
+		"happiness": 2,
+		"uniques": [
+			"[+25]% Production when constructing [Low Tech] units [in this city]",
+			"Reveals the entire map",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built [in capital]",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Ghost Mountain Reserve",
+		"uniqueTo": "Ghost Mountain",
+		"cost": 0,
+		"food": 2,
+		"culture": 2,
+		"uniques": [
+			"[+1 Food] from [Food source] tiles [in this city]",
+			"Reveals the entire map",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built [in capital]",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Alma Air Base",
+		"uniqueTo": "Almaty",
+		"cityStrength": 10,
+		"cost": 0,
+		"uniques": ["[+20]% Production when constructing [Helicopter] units [in this city]",
+			"[+20]% Production when constructing [Aircraft] units [in this city]",
+			"Free [Salvaged Helicopter] appears",
+			"Free [Salvaged Bomber] appears <upon discovering [Steel]>",
+			"Must not be on [Hill]",
+			"Only available <in cities with a [Alma Base]>",
+			"Never destroyed when the city is captured"]
+	},
+	{
+		"name": "Alma Tank Depot",
+		"uniqueTo": "Almaty",
+		"cityHealth": 100,
+		"cost": 0,
+		"uniques": ["[+20]% Production when constructing [Armor] units [in this city]",
+			"Free [Ancient Armor] appears <upon discovering [Machinery]>",
+			"Only available <in cities with a [Alma Base]>",
+			"Never destroyed when the city is captured"]
+	},
+	{
+		"name": "Alma Base",
+		"uniqueTo": "Almaty",
+		"cost": 0,
+		"production": 3,
+		"science": 2,
+		"uniques": [
+			"[+25]% City Strength from defensive buildings",
+			"Reveals the entire map",
+			"Free [Howitzer] appears",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built [in capital]",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Alma Oil Depot",
+		"production": 3,
+		"maintenance": 1,
+		"uniques": [
+			"Provides [2] [Oil]",
+			"Provides [1] [Power]",
+			"Will not be displayed in Civilopedia"
+		],
+		"cost": 40,
+		"uniqueTo": "Almaty",
+		"requiredTech": "Manufacturing"
+	},
+	{
+		"name": "Hub Trading Company",
+		"uniqueTo": "The Hub",
+		"cost": 0,
+		"gold": 5,
+		"culture": 2,
+		"uniques": [
+			"[+2 Gold] from every [Moisture trap]",
+			"[+2 Gold] from every [Water pump]",
+			"Reveals the entire map",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built [in capital]",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Hub Underground",
+		"uniqueTo": "The Hub",
+		"replaces": "Work Camp",
+		"percentStatBonus": {"production": 10},
+		"production": 2,
+		"happiness": -2,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Provides [1] [Slaves]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Iron Rod Monument",
+		"uniqueTo": "Church of the Iron Rod",
+		"cost": 0,
+		"culture": 2,
+		"uniques": [
+			"Reveals the entire map",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built [in capital]",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Iron Rod Stockpile",
+		"uniqueTo": "Church of the Iron Rod",
+		"production": 1,
+		"cost": 0,
+		"uniques": [
+			"Provides [4] [Weapons]",
+			"Never destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Land Value Tax",
+		"uniqueTo": "Arden Club",
+		"cost": 0,
+		"culture": 2,
+		"gold": 2,
+		"uniques": [
+			"[+1 Gold] from [Land] tiles [in this city]",
+			"Reveals the entire map",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built [in capital]",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Great Mountain Shrine",
+		"uniqueTo": "Fo Guang",
+		"cost": 0,
+		"culture": 2,
+		"gold": 2,
+		"uniques": [
+			"Reveals the entire map",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built [in capital]",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Tellus Forest",
+		"uniqueTo": "Tellus",
+		"cost": 0,
+		"food": 2,
+		"happiness": 2,
+		"uniques": [
+			"Reveals the entire map",
+			"Free [Tree Lover] appears",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built [in capital]",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Royal Court",
+		"uniqueTo": "Dahomey",
+		"cost": 0,
+		"culture": 2,
+		"gold": 2,
+		"uniques": [
+			"Reveals the entire map",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built [in capital]",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+
+	//New City-State buildings
 	{
 		"name": "Defense Directorate",
 		"cityHealth": 50,
@@ -3944,35 +4340,12 @@
 			"Will not be displayed in Civilopedia"]
 	},
 	{
-		"name": "Alma Air Base",
-		"uniqueTo": "Almaty",
-		"cityStrength": 10,
-		"cost": 0,
-		"science": 1,
-		"production": 3,
-		"uniques": ["[+50]% Production when constructing [Helicopter] units [in this city]",
-			"Free [Salvaged Helicopter] appears",
-			"Must not be on [Hill]",
-			"Only available <in cities without a [Alma Tank Depot]>",
-			"Never destroyed when the city is captured"]
-	},
-	{
-		"name": "Alma Tank Depot",
-		"uniqueTo": "Almaty",
-		"cityHealth": 50,
-		"cost": 0,
-		"science": 1,
-		"production": 3,
-		"uniques": ["[+50]% Production when constructing [Armor] units [in this city]",
-			"Free [Ancient Armor] appears",
-			"Only available <in cities without a [Alma Air Base]>",
-			"Never destroyed when the city is captured"]
-	},
-	{
 		"name": "Alma Strategic Reserve",
 		"uniqueTo": "Almaty",
-		"cost": 0,
+		"cost": 80,
 		"uniques": ["Provides [4] [Oil]",
+			"Only available <if [Alma Oil Depot] is constructed>",
+			"Can only be built [in capital]",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"],
 		"requiredTech": "Manufacturing"
@@ -3981,6 +4354,7 @@
 		"name": "Central Press Service",
 		"uniqueTo": "Almaty",
 		"requiredBuilding": "Defense Directorate",
+		"happiness": 2,
 		"cost": 0,
 		"uniques": ["Provides [1] [Newspaper]",
 			"Destroyed when the city is captured",
@@ -4027,18 +4401,32 @@
 			"Never destroyed when the city is captured"]
 	},
 	{
+		"name": "Hub Water Tower",
+		"replaces": "Water Storage",
+		"uniqueTo": "The Hub",
+		"gold": 3,
+		"percentStatBonus": {"gold": 20},
+		"specialistSlots": {"Merchant": 1},
+		"cost": 0,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Gold] from every [Merchant] <in this city>",
+			"Doubles Gold given to enemy if city is captured",
+			"Will not be displayed in Civilopedia"]
+	},
+	{
 		"name": "Ritz-Carlton Resort",
-		"replaces": "Monument",
 		"uniqueTo": "Venice Beach",
-		"food": 2,
 		"gold": 2,
 		"culture": 2,
 		"cost": 0,
-		"uniques": ["Reveals the entire map",
+		"uniques": [
+			"Reveals the entire map",
 			"Provides 1 extra copy of each improved luxury resource near this City",
-			"[+1] population [in this city]",
-			"Free [Spearman] appears",
-			"Will not be displayed in Civilopedia"]
+			"Automatically built in all cities where it is buildable",
+			"Can only be built [in capital]",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Yacht Club",
@@ -4083,7 +4471,7 @@
 		"cost": 0,
 		"uniques": ["Must be next to [Coast]",
 			"[+1 Food] from [Fishing Boats] tiles [in this city]",
-			"[+1 Food] from [Bioculture] tiles [in this city]",
+			"[+1 Food] from [{Water} {Bioculture}] tiles [in this city]",
 			"[+10]% Production when constructing [Water] units [in this city]",
 			"Free [Dinghy] appears",
 			"Free [Work Boats] appears",
@@ -4115,15 +4503,18 @@
 			"Will not be displayed in Civilopedia"]
 	},
 	{
-		"name": "Terra-Spire",
+		"name": "Gateway Arch",
 		"uniqueTo": "Defiance",
-		"replaces": "Monument",
 		"culture": 2,
 		"cost": 0,
-		"uniques": ["Reveals the entire map",
+		"uniques": [
+			"Reveals the entire map",
 			"Free [Pale Veteran] appears",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built [in capital]",
 			"Destroyed when the city is captured",
-			"Will not be displayed in Civilopedia"]
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Exotic Reactor",
@@ -4134,14 +4525,23 @@
 			"Will not be displayed in Civilopedia"]
 	},
 	{
+		"name": "Defiance Armory",
+		"replaces": "Armory",
+		"uniqueTo": "Defiance",
+		"cost": 0,
+		"uniques": ["Provides [2] [Weapons]",
+			"New [Military] units start with [15] Experience [in this city]",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"]
+	},
+	{
 		"name": "Lawkeeper Office",
 		"uniqueTo": "Defiance",
 		"replaces": "Town Hall",
 		"specialistSlots": {"Administrator": 2},
 		"happiness": 3,
 		"cost": 0,
-		"uniques": ["[+33]% Production when constructing [Personnel] units [in this city]",
-			"[+1 Culture, +1 Happiness] [in this city] <when above [0] [Power]>",
+		"uniques": ["[+1 Culture, +1 Happiness] [in this city] <when above [0] [Power]>",
 			"Free [Lawkeeper] appears",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"],
@@ -4156,9 +4556,9 @@
 		"uniques": ["Provides [1] [Oil]", "Provides [4] [Weapons]",
 			"[4] units cost no maintenance", "[+4] Unit Supply",
 			"[Personnel] units gain the [Infantry Weapons] promotion",
+			"[Personnel] units gain the [AI Implant] promotion",
 			"[2] free [Ark Hunter] units appear",
 			"Free [Mechanized Worker] appears",
-			"Gain a free [Armory] [in this city]",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"],
 		"requiredTech": "Replaceable Parts"
@@ -4219,7 +4619,7 @@
 		"maintenance": 3,
 		"specialistSlots": {"Engineer": 2},
 		"uniques": ["[Personnel] units gain the [Ballistic Weave] promotion",
-			"[+3 Production] [in this city] <with [Power]>",
+			"[+5 Production] [in this city] <with [Power]>",
 			"Only available <in cities with a [Refurbished Textile Mill]>",
 			"Provides [1] [Advanced Fabrics]",
 			"Consumes [1] [Power]"],
@@ -4244,7 +4644,7 @@
 	{
 		"name": "Research and Preservation Institute",
 		"uniqueTo": "The Pax",
-		"percentStatBonus": {"science": 33},
+		"percentStatBonus": {"science": 15},
 		"cost": 0,
 		"replacementTextForUniques": "Receive a free Persevering Pax Researcher upon construction, and again each time you advance to a new technological era starting at the Industrial era. Preservators provide +1 Science and Culture, increasing to +2 upon reaching the Industrial era.",
 		"uniques": ["Free [Persevering Pax Researcher] appears",
@@ -4262,7 +4662,6 @@
 		"uniqueTo": "The Pax",
 		"food": 5,
 		"science": 5,
-		"percentStatBonus": {"science": 25},
 		"cost": 0,
 		"uniques": ["[+2] population [in this city]",
 			"Only available <in cities with a [Pre-War Cryo Sanctum]>",
@@ -4304,21 +4703,37 @@
 		"requiredTech": "Social Engineering"
 	},
 	{
-		"name": "Emerald City Library",
-		"replaces": "Library",
+		"name": "Gate to the Emerald City",
 		"uniqueTo": "Izumrydniy Gorod",
+		"cityHealth": 50,
 		"culture": 2,
 		"science": 2,
 		"cost": 0,
-		"requiredTech": "Writing",
 		"uniques": [
-			"[+1 Science] per [2] population [in this city]",
 			"Reveals the entire map",
 			"Provides [1] [Weapons]",
 			"Free [Militia] appears",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built [in capital]",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"
 		]
+	},
+	{
+		"name": "Emerald City Library",
+		"replaces": "Library",
+		"uniqueTo": "Izumrydniy Gorod",
+		"science": 2,
+		"cost": 0,
+		"maintenanceCost": 0,
+		"uniques": [
+			"[+1 Science] per [2] population [in this city]",
+			"[+1 Science] [in this city] <when above [0] [Power]>",
+			"[+15]% Production when constructing [Personnel] units [in this city]",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		],
+		"requiredTech": "Writing"
 	},
 	{
 		"name": "Emerald City University",

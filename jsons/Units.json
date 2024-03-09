@@ -636,7 +636,7 @@
 			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
 			"May enter foreign tiles without open borders, but loses [100] religious strength each turn it ends there",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
-			"Unbuildable", "Religious Unit", "Hidden when religion is disabled"],
+			"Unbuildable", "Uncapturable", "Religious Unit", "Hidden when religion is disabled"],
 		"movement": 4,
 		"religiousStrength": 1000
 	},
@@ -836,7 +836,7 @@
 			"[-33]% Strength <vs cities> <when attacking>",
 			"Prevents spreading of religion to the city it is next to",
 			"Can remove other religions from cities <in [Friendly] tiles> <[2] times> <after which this unit is consumed>",
-			"[+1] Sight", "Unbuildable", "Religious Unit", "Hidden when religion is disabled"],
+			"[+1] Sight", "Unbuildable", "Uncapturable", "Religious Unit", "Hidden when religion is disabled"],
 		"attackSound": "shot"
 	},
 	{
@@ -933,6 +933,7 @@
 			"Can remove other religions from cities <in [Friendly] tiles> <[2] times> <after which this unit is consumed>",
 			"[+1] Sight",
 			"Unbuildable",
+			"Uncapturable",
 			"Religious Unit",
 			"Hidden when religion is disabled"],
 		"attackSound": "shot"
@@ -1268,6 +1269,22 @@
 		"attackSound": "machinegun"
 	},
 	{
+		"name": "Martial Monk",
+		"replaces": "State Guard",
+		"uniqueTo": "Order of Jerome",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 36,
+		"interceptRange": 1,
+		"cost": 50,
+		"upgradesTo": "Soldier",
+		"hurryCostModifier": 20,
+		"uniques": ["Low Tech", "[+25]% Strength <when fighting in [Friendly Land] tiles>",
+			"Earn [50]% of killed [Military] unit's [Strength] as [Culture]",
+			"Limited to [5] per Civilization"],
+		"attackSound": "machinegun"
+	},
+	{
 		"name": "Dendro Mutant",
 		"unitType": "Shooter",
 		"uniqueTo": "Tellus",
@@ -1282,23 +1299,6 @@
 		"uniques": ["Low Tech",
 			"Can build [Tree plantation] improvements on tiles",
 			"Invisible to others <in [Tree plantation] tiles>"],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Issaquah Mystic",
-		"unitType": "Shooter",
-		"uniqueTo": "Issaquah Nation",
-		"replaces": "State Guard",
-		"movement": 2,
-		"strength": 30,
-		"rangedStrength": 24,
-		"range": 1,
-		"cost": 50,
-		"upgradesTo": "Rifleman",
-		"hurryCostModifier": 20,
-		"uniques": ["Low Tech",
-			"May withdraw before melee ([33]%)",
-			"Earn [100]% of killed [Military] unit's [Strength] as [Culture]"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1320,6 +1320,23 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Issaquah Mystic",
+		"unitType": "Shooter",
+		"uniqueTo": "Issaquah Nation",
+		"replaces": "State Guard",
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 24,
+		"range": 1,
+		"cost": 50,
+		"upgradesTo": "Rifleman",
+		"hurryCostModifier": 20,
+		"uniques": ["Low Tech",
+			"May withdraw before melee ([33]%)",
+			"Earn [100]% of killed [Military] unit's [Strength] as [Culture]"],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Hawkman Brave",
 		"unitType": "Scrapper",
 		"replaces": "Machete",
@@ -1336,6 +1353,39 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Defiant Scout",
+		"replaces": "Scout",
+		"uniqueTo": "Defiance",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 20,
+		"cost": 25,
+		"upgradesTo": "Forward Observer",
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Replaceable Parts",
+		"uniques": ["Personnel",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"[+50]% Strength <vs [Barbarian] units>",
+			"Unable to capture cities"],
+		"promotions": ["Reconnaissance I", "Skirmish"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Defiant Guardian",
+		"unitType": "Scrapper",
+		"uniqueTo": "Defiance",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 24,
+		"interceptRange": 1,
+		"cost": 50,
+		"upgradesTo": "Militia",
+		"hurryCostModifier": 20,
+		"promotions": ["Medic I"],
+		"uniques": ["Personnel", "[+25]% Strength <when defending>"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Pale Veteran",
 		"unitType": "Scrapper",
 		"uniqueTo": "Defiance",
@@ -1344,7 +1394,8 @@
 		"strength": 38,
 		"interceptRange": 1,
 		"cost": 55,
-		"upgradesTo": "NBC Infantry",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
 		"hurryCostModifier": 20,
 		"promotions": ["Gas Mask", "Drone Recon"],
 		"uniques": ["Personnel", "Consumes [1] [Weapons]", "[+25]% Strength <when fighting in [Friendly Land] tiles>"],
@@ -1358,7 +1409,7 @@
 		"movement": 2,
 		"strength": 45,
 		"interceptRange": 1,
-		"cost": 100,
+		"cost": 150,
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Exo-Trooper",
 		"hurryCostModifier": 20,
@@ -1367,13 +1418,35 @@
 		"attackSound": "phasers"
 	},
 	{
+		"name": "Roller",
+		"replaces": "Attack Vehicle",
+		"uniqueTo": "Defiance",
+		"unitType": "Armor",
+		"movement": 3,
+		"strength": 30,
+		"cost": 70,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Armored Car",
+		"obsoleteTech": "Replaceable Parts",
+		"uniques": [
+			"[+20]% Strength <vs [Low Tech] units>",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Limited to [5] per Civilization"
+		],
+		"promotions": ["Conquer Terrain"],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+	{
 		"name": "Mounted Railgun",
 		"unitType": "Armor",
 		"uniqueTo": "Defiance",
 		"replaces": "Armored Car",
 		"movement": 4,
 		"strength": 45,
-		"cost": 100,
+		"cost": 150,
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Tank",
 		"uniques": ["[+33]% Strength <vs [Low Tech] units> <when attacking>",
@@ -1848,7 +1921,7 @@
 		"movement": 5,
 		"strength": 50,
 		"cost": 150,
-		"requiredTech": "The Wheel",
+		"requiredTech": "Steel",
 		"upgradesTo": "Modern Armor",
 		"uniques": [
 			"Eliminates combat penalty for attacking over a river",
@@ -1868,7 +1941,7 @@
 		"range": 1,
 		"movement": 5,
 		"strength": 15,
-		"rangedStrength": 40,
+		"rangedStrength": 35,
 		"cost": 150,
 		"requiredTech": "Steel",
 		"upgradesTo": "Helicopter",
@@ -1889,17 +1962,17 @@
 		"uniqueTo": "Almaty",
 		"movement": 1,
 		"strength": 25,
-		"rangedStrength": 50,
+		"rangedStrength": 40,
 		"range": 7,
 		"cost": 185,
-		"requiredTech": "The Wheel",
+		"requiredTech": "Steel",
 		"upgradesTo": "Bomber",
 		"uniques": [
 			"Only available <if [Alma Air Base] is constructed>",
 			"Consumes [1] [Oil]"
 		],
 		"hurryCostModifier": 20,
-		"attackSound": "shot"
+		"attackSound": "bombing"
 	},
 	{
 		"name": "Dinghy",
@@ -2236,6 +2309,37 @@
 			"Triggers a global alert upon completion",
 			"Hidden when [Scientific] Victory is disabled"
 		]
+	},
+	{
+		"name": "Philosopher",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+			"May enter foreign tiles without open borders, but loses [100] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[-1] Sight",
+			"Unbuildable",
+			"Uncapturable",
+			"Religious Unit",
+			"Hidden when religion is disabled"
+		],
+		"movement": 4,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Censor",
+		"unitType": "Civilian",
+		"uniques": [
+			"Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <[2] times> <after which this unit is consumed>",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
+			"[+1] Sight",
+			"Unbuildable",
+			"Uncapturable",
+			"Religious Unit",
+			"Hidden when religion is disabled"
+		],
+		"movement": 3
 	},
 	{
 		"name": "Great Merchant",
