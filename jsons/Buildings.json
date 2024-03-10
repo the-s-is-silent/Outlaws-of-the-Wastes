@@ -2505,7 +2505,8 @@
 			"Consumes [1] [Oil]",
 			"Only available <in cities without a [Oil Refinery]>",
 			"Only available <in cities without a [Nuclear Plant]>",
-			"Only available <in cities with a [Library]>"],
+			"Only available <in cities with a [Library]>",
+			"Unavailable <for [City-States]> <hidden from users>"],
 		"requiredTech": "Chemistry"
 	},
 	{
@@ -2518,7 +2519,8 @@
 			"Provides [2] [Power] <when above [-2] [Coal]>",
 			"Consumes [1] [Coal]",
 			"Only available <in cities without a [Nuclear Plant]>",
-			"Only available <in cities with a [Library]>"],
+			"Only available <in cities with a [Library]>",
+			"Unavailable <for [City-States]> <hidden from users>"],
 		"requiredTech": "Steam Power"
 	},
 	{
@@ -2555,7 +2557,8 @@
 			"[+33]% Production when constructing [Nuclear Weapon] units [in this city]",
 			"Only available <in cities without a [Coal Plant]>",
 			"Only available <in cities without a [Oil Plant]>",
-			"Only available <in cities with a [Library]>"
+			"Only available <in cities with a [Library]>",
+			"Unavailable <for [City-States]> <hidden from users>"
 		],
 		"requiredTech": "Nuclear Fission"
 	},
@@ -4306,6 +4309,16 @@
 			"Automatically built in all cities where it is buildable",
 			"Can only be built [in capital]",
 			"Only available <for [City-States]>",
+			"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Storage Plant",
+		"maintenance": 1,
+		"requiredTech": "Electronics",
+		"uniques": ["Will not be displayed in Civilopedia",
+			"Provides [4] [Power]",
+			"Only available <for [City-States]>",
+			"Only available <in cities with a [Library]>",
 			"Destroyed when the city is captured"]
 	},
 	{

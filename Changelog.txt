@@ -394,6 +394,7 @@ Changes since the Harbinger update
 	- Hospitals (and replacements) no longer gain +1 Food from having Harvested Organs.
 		- The remaining "evil" faction replacements no longer have reduced food preservation compared to the standard Hospital.
 - Industry:
+	- For balance reasons, the three main Power Plants (Coal, Oil, Nuclear) are no longer accessible to City-States (aside from the unique Nuclear Plant for Devil's Canyon).
 	- Buildings that require specific non-Power resources (aside from the Work Camp) no longer add Engineer slots.
 	- Bio Synthesizer has been moved to Plastics Recycling and now provides 2 copies of Oil, but no Aluminum or Uranium. You can now have up to 5 instead of 3.
 	- Carbon Capture nerfed; it no longer provides Food at all (I thought I'd made this change earlier, but apparently not) and costs 3 maintenance instead of 2.
@@ -782,6 +783,8 @@ Changes since the Harbinger update
 	- Weaponized Yacht (replaces Dinghy, double movement in Coast, 20% stronger)
 
 **New Buildings**
+- All City-States (except Arroyo and Ghost Mountain):
+	- Storage Plant, unlocking at Electronics and providing 4 units of Power, will be destroyed if the city is captured
 - Atlas:
 	- Miracle Metal Mill (replaces Plastics Factory, adds Production to Metal/Aluminum instead of Plastics/Oil and +10% total Production to the city, but requires a Factory and Electrostatic Generator present in the city)
 - Commonwealth:
