@@ -445,8 +445,8 @@
 	},
 	{
 		"name": "Will of Tellus",
-		"uniques": ["[+20]% Strength <within [2] tiles of a [Tree plantation] tile>",
-			"[+10] HP when healing <within [2] tiles of a [Tree plantation] tile>"]
+		"uniques": ["[+20]% Strength <within [2] tiles of a [Tree plantation]>",
+			"[+10] HP when healing <within [2] tiles of a [Tree plantation]>"]
 	},
 	{
 		"name": "Line Brawl",

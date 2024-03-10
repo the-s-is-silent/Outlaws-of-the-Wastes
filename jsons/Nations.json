@@ -777,7 +777,7 @@
 		"cityStateType": "Weapons",
 		"startBias": ["Jungle"],
 		"style": "Military",
-		"uniques": ["Quantity of strategic resources produced by the empire [+25]%",
+		"uniques": ["Quantity of strategic resources produced by the empire +[25]%",
 			"[+25]% Production when constructing [Personnel] units [in all cities]",
 			"Cannot build [Low Tech] units",
 			"Starts with [Mining]", "Starts with [Machinery]"],
