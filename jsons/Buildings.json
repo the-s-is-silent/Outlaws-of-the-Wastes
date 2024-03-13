@@ -122,7 +122,7 @@
 			"[+1 Gold] from [Groundwater] tiles [in all cities]",
 			"[+1 Gold] from [Spring] tiles [in all cities]",
 			"[+1 Gold] from [Lakes] tiles [in all cities]",
-			"Requires a [Water Storage] in all cities",
+			"Only available <if [Water Storage] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city"],
 		"requiredTech": "Currency"
 	},
@@ -429,7 +429,7 @@
 		"faith": 8,
 		"cost": 125,
 		"requiredTech": "Civil Service",
-		"uniques": ["Requires a [Tabernacle] in all cities",
+		"uniques": ["Only available <if [Tabernacle] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
 			"Can only be built [in holy cities]",
 			"Only available <after adopting [Theocracy]>",
@@ -753,7 +753,7 @@
 			"[+10]% Strength <for [Automated] units>",
 			"Double quantity of [Encrypted Data] produced",
 			"Consumes [1] [Power]",
-			"Requires a [Census Chamber] in all cities",
+			"Only available <if [Census Chamber] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city"],
 		"requiredTech": "Networking"
 	},
@@ -1784,7 +1784,7 @@
 		"uniques": [
 			"[+1] population [in all cities]",
 			"Free Great Person",
-			"Requires a [Broadcast Tower] in all cities"
+			"Only available <if [Broadcast Tower] is constructed in all [non-[Puppeted]] cities>"
 		],
 		"quote": "When the immediate danger has passed the sirens will sound a steady note. The all clear message will also be given on this wavelength.",
 		"civilopediaText": [
@@ -1799,7 +1799,7 @@
 		"culture": 2,
 		"cost": 400,
 		"uniques": ["[+1 Happiness] per [2] social policies adopted",
-			"Requires a [Television Studio] in all cities",
+			"Only available <if [Television Studio] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city"],
 		"isNationalWonder": true,
 		"requiredTech": "Social Engineering"
@@ -2087,7 +2087,8 @@
 		"percentStatBonus": {"science": 33},
 		"cost": 125,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Library] in all cities", "Cost increases by [30] per owned city"],
+		"uniques": ["Only available <if [Library] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city"],
 		"requiredTech": "Education"
 	},
 	{
@@ -2097,7 +2098,7 @@
 		"faith": 8,
 		"cost": 125,
 		"requiredTech": "Civil Service",
-		"uniques": ["Requires a [Monastery] in all cities",
+		"uniques": ["Only available <if [Monastery] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
 			"Can only be built [in holy cities]",
 			"Only available <after adopting [Theocracy]>",
@@ -2114,7 +2115,7 @@
 		"requiredTech": "Civil Service",
 		"uniqueTo": "Cult of Ignis",
 		"replaces": "Grand Monastery",
-		"uniques": ["Requires a [Altar of Ignis] in all cities",
+		"uniques": ["Only available <if [Altar of Ignis] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
 			"Can only be built [in holy cities]",
 			"Only available <after adopting [Theocracy]>",
@@ -2130,7 +2131,7 @@
 		"science": 3,
 		"cost": 150,
 		"requiredTech": "Biology",
-		"uniques": ["Requires a [Hospital] in all cities",
+		"uniques": ["Only available <if [Hospital] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
 			"Only available <after adopting [Rationalism]>",
 			"[5]% Food is carried over after population increases [in all cities]",
@@ -2148,7 +2149,7 @@
 			"[+2 Production] [in all cities connected to capital]",
 			"[+50]% Golden Age length",
 			"Empire enters golden age",
-			"Requires a [Town Hall] in all cities",
+			"Only available <if [Town Hall] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city"]
 	},
 	{
@@ -3404,7 +3405,7 @@
 			"[+1 Production] from [Railroad] tiles [in all cities]",
 			"[+1 Gold] from each Trade Route",
 			"Consumes [1] [Power]",
-			"Requires a [Factory] in all cities",
+			"Only available <if [Factory] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city"],
 		"requiredTech": "Railroads"
 	},
