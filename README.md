@@ -17,7 +17,7 @@ A major expansion + rebalance mod for DeCiv Redux.
 
 - Terraforming is present, with the feature delegated to Mechanized Workers until such time as it is either implemented (or not implemented) in base DeCiv.
 
-- Two new victory conditions, restoring the "proper" Domination and Science victories.
+- Two new victory conditions, restoring the "proper" Domination and Science victories. (Warning: do not enable these without disabling the standard Domination and Science victories. Having both DeCiv's Science Victory (Terraform Earth) and Colonization Victory (launch the spaceship) enabled will currently make those victory conditions impossible to achieve.)
 
 - Three new factions:
   - Camelot Foundation, a constitutional republic arising from what's left of Wales, England and Brittany.
