@@ -114,6 +114,7 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 - Drydock: [Dock Lifter](https://thenounproject.com/icon/dock-lifter-906357/) by Smashicons, GB
 - Endowment House: [charity box](https://thenounproject.com/icon/charity-box-4091320/) by Nattapol Seengern
 - Floating Settlement: [houseboat](https://thenounproject.com/icon/houseboat-4260799/) by Luis Prado, US
+- Powership: [barge](https://thenounproject.com/icon/barge-4131218/) by Amethyst Studio, TH
 - Wasteland Station: [station terminal](https://thenounproject.com/icon/station-terminal-2260974/) by Eucalyp
 
 ### Nation Icons

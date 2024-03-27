@@ -82,6 +82,19 @@
 		"shortcutKey": "W"
 	},
 	{
+		"name": "Powership",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"production": 1,
+		"turnsToBuild": 10,
+		"techRequired": "Electronics",
+		"uniques": ["Provides [1] [Power]",
+			"Cannot be built on [Water resource] tiles",
+			"Cannot be built on [Water] tiles <with [1] to [6] adjacent [Powership] tiles>",
+			"[+1 Production] <after discovering [Advanced Materials]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "P"
+	},
+	{
 		"name": "Grassland",
 		"terrainsCanBeBuiltOn": ["Badlands", "Swamp"],
 		"turnsToBuild": 10,

@@ -1,6 +1,6 @@
-Changes since the Harbinger update
+## A comprehensive list of changes in the mod since the Harbinger update
 
-1) August - October 2023
+#### August - October 2023
 
 **Mod Options and Game Speed Adjustments**
 - The survivor camp spawn rate has been drastically reduced (but is still significantly higher than base level) after determining that the previous rate was very much overpowered.
@@ -74,7 +74,7 @@ Changes since the Harbinger update
     - Annex Isolationists buffed to provide an extra copy of Weapons and Slaves and +1 population to the owning city. The -1 Culture penalty to the Isolated Island was moved to the world wonder itself and increased to -2.
     - Distribute Soft Drinks and Fist of God have been removed from the game.
     - Open the Vault loses the free Great Sage due to the wonder bug; however, it adds +2 Science and an extra +1 Culture/Faith to the Vault of Records. The free Sage will be restored once the bug is fixed.
-    - Produce Soft Drinks buffed to add +2 extra Culture to the Soft Drinks Factory.
+    - Produce Soft Drinks buffed to add +2 extra Culture/Happiness to the Soft Drinks Factory.
     - Salvage Graveyard buffed to +2 Production/Science to the Ship Graveyard tiles, 2 Oil and 2 free Patrol Boats.
     - The Last Paradise buffed to add +2 extra Culture and Happiness to the Oasis and +15% Water to the owning city, along with +1 each of Food, Water, Culture and Happiness to Artificial oases.
     - Turbine Hall buffed to add +2 Production/Water and +1 Science to the Hydroelectric Dam and +20% Production to the city that owns it.
@@ -284,7 +284,7 @@ Changes since the Harbinger update
 **New Tile Improvements**
 - Preservator, borrowed from Bamboolord's expansion mod with his permission, adjusted, and granted to The Pax CS. This GI gains yields from the finisher bonuses of Rationalism and Constitution (+4 Culture/Science during Golden Ages from the former, +2 Culture/Science from the latter)
 
-2) November 2023 - March 2024
+#### November 2023 - March 2024
 
 **Mod Compatibility**
 - A few adjustments have been made for the sake of maintaining compatibility with Bamboolord's expansion mods, with further adjustments likely in the near future:
@@ -391,11 +391,12 @@ Changes since the Harbinger update
 		- New Afrika's Revolutionary Council now gives a +15% Production boost towards Personnel units.
 		- Proklyatyye's Politburo no longer adds Culture/Happiness to Gulags; it instead adds +3 Production to them, and the Production bonus to Corrective Colonies and Listening Posts is increased to +3.
 - Food/Growth:
+	- Greenhouse (and replacements) and Hydroponic Farming buildings now gain +1 Food if the player gets access to Exotic Seeds.
 	- Hospitals (and replacements) no longer gain +1 Food from having Harvested Organs.
 		- The remaining "evil" faction replacements no longer have reduced food preservation compared to the standard Hospital.
 - Industry:
 	- For balance reasons, the three main Power Plants (Coal, Oil, Nuclear) are no longer accessible to City-States (aside from the unique Nuclear Plant for Devil's Canyon).
-	- Buildings that require specific non-Power resources (aside from the Work Camp) no longer add Engineer slots.
+	- Buildings that require specific non-Power resources no longer add Engineer slots.
 	- Bio Synthesizer has been moved to Plastics Recycling and now provides 2 copies of Oil, but no Aluminum or Uranium. You can now have up to 5 instead of 3.
 	- Carbon Capture nerfed; it no longer provides Food at all (I thought I'd made this change earlier, but apparently not) and costs 3 maintenance instead of 2.
 	- Composite Materials Plant has been deleted on account of it becoming redundant after reworks to other buildings.
@@ -545,7 +546,7 @@ Changes since the Harbinger update
 		- Zemlyanka is now a City Defense building and it adds +1 City Strength and +1 Food to Tundra Camps and Tundra Tubers to help offset the double whammy of their growth penalties and Tundra start bias. However, its increase to City HP is reduced from 50 to 20.
 
 **Wonder Adjustments**
-- All of the base scenario factions' starting wonders now have a base production cost of 0. The majority have also received further adjustments as detailed below:
+- All of the base scenario factions' starting wonders now have a base production cost of 0. They have also received further adjustments as detailed below:
 	- Ark One's increase to City Strength reduced from 10 to 5.
 	- Atlas Refuge nerfed to remove the Scientist slot; it receives +1 base Science, +5 City Strength and an additional +20 City HP in compensation.
 	- Clan Hideout now gives Deadrock Clan's capital +2 Water and +50 HP.
@@ -574,7 +575,10 @@ Changes since the Harbinger update
 	- Deseret (Deseret Data Center): 250 base Production, gains bonus for Automated units
 	- The Patriots (Tactics Center): 100 base Production, moved to Munitions
 - International Trade Center buffed to +5 base Water, +50% total Water yields for the owning city, and +3 Water from Trade Routes, adding more incentive to build it in the endgame. It also triggers an additional alert upon completion.
+- Nuclear Waste Museum slightly buffed, increasing the added Culture to the Nuclear Waste Storage tile to +3.
 - Organ Lab no longer provides Harvested Organs, and instead adds +2 Food, +1 Happiness to every Hospital. This effectively means Harvested Organs become exclusive to Deadrock Clan, at least for the time being.
+- Produce Soft Drinks nerfed slightly, removing the additional +2 Happiness added to the Soft Drinks Factory.
+- Propagate Seeds now costs 250 Production (up from 50) but boosts growth in all cities by 10% and adds +1 each of Food/Science/Culture to the Seed Vault.
 - Salvage Bomber/Helicopter/Tank Depot now cost 125 Production (up from 75, or 60 in Bomber's case). The latter two now add +3 Production to the city instead of reducing Production by that amount.
 - Shake Down Survivors now costs 30 Production, but awards 4 Slaves and a Gangboss.
 - Statue of Remembrance now has its flavor text/quote.
@@ -844,6 +848,7 @@ Changes since the Harbinger update
 - Microwave Power Satellite, available at Incentivization, must be in a desert city, provides significant late-game boosts to Solar collectors (+4 Production each) along with 8 units of Power, and adds +1 Production to all desert tiles in the city, +5 Production to the city itself, and +2 Local Happiness
 
 **New Improvements**
+- Powership, unlocked at Electronics and built on resource-less Coast tiles, adding another minor source of Power along with minor Production yields (+1, increasing to +2 at Advanced Materials)
 - Supply Complex, created by Great Merchants, starting at +4 Water and increasing by +6 from tech scaling
 
 **New Promotions**

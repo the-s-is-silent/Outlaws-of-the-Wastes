@@ -1588,6 +1588,21 @@
 		"hurryCostModifier": 20
 	},
 	{
+		"name": "Work Boats",
+		"unitType": "Civilian Water",
+		"movement": 4,
+		"cost": 30,
+		"requiredTech": "Sailing",
+		"uniques": [
+			"Cannot enter ocean tiles <before discovering [Navigation]>",
+			"Uncapturable",
+			"May create improvements on water resources",
+			"Can instantly construct a [Powership] improvement <by consuming this unit> <for [AI player]> <hidden from users>",
+			"Automation is a primary action"
+		],
+		"hurryCostModifier": 20
+	},
+	{
 		"name": "Field Scientist",
 		"unitType": "Civilian",
 		"uniqueTo": "Hexlock",
