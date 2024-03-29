@@ -2806,6 +2806,18 @@
 		"requiredTech": "Electronics"
 	},
 	{
+		"name": "Protected Area",
+		"food": 1,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Food, +1 Culture] from [Tree plantation] tiles [in this city]",
+			"[+1 Food, +1 Culture] [in this city] <with [Exotic Seeds]>",
+			"Must have an owned [Tree plantation] within [3] tiles"
+		],
+		"requiredTech": "Hydroponics"
+	},
+	{
 		"name": "Market",
 		"specialistSlots": {"Merchant": 1},
 		"gold": 2,
@@ -3776,7 +3788,8 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"[+2 Science, +1 Production, -1 Food] from [Tree plantation] tiles [in this city]",
-			"[+2 Science, +1 Production] [in this city] <with [Exotic Seeds]>"
+			"[+2 Science, +1 Production] [in this city] <with [Exotic Seeds]>",
+			"Must have an owned [Tree plantation] within [3] tiles"
 		],
 		"requiredTech": "Hydroponics"
 	},

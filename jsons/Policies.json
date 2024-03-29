@@ -276,7 +276,7 @@
 			},
 			{
 				"name": "Technocracy",
-				"uniques": ["[+1 Gold] from all [Science] buildings"],
+				"uniques": ["[+1 Gold] from all [{non-[Wonder]} {Science}] buildings"],
 				"row": 1,
 				"column": 4
 			},
@@ -325,20 +325,24 @@
 			"Domination": 0,
 			"Scientific": 20
 		},
-		"uniques": ["[+25]% Great Person generation [in all cities]",
+		"uniques": ["[Great Administrator] is earned [33]% faster",
 			"Comment [Unlocks [Public Works Administration]]",
 			"Only available <before adopting [Supremacy]>"],
 		"policies": [
 			{
 				"name": "Civil Society",
-				"uniques": ["[+25]% Strength for cities"],
+				"uniques": ["[+100]% Production when constructing [Culture] buildings [in all cities]",
+					"[+25]% Strength for cities"],
 				"row": 1,
 				"column": 2
 			},
 			{
 				"name": "Protected Speech",
-				"uniques": ["[+100]% Production when constructing [Culture] buildings [in all cities]",
-					"[+2 Culture] from every [Town Hall]"],
+				"uniques": ["[+1 Culture] from every [Sociopolitical Institute]",
+					"[+1 Culture] from every [Town Hall]",
+					"[+1 Culture] from every [Broadcast Tower]",
+					"[+1 Culture] from every [Television Studio]",
+					"[+1 Culture] from every [Alternet Cafe]"],
 				"row": 1,
 				"column": 5
 			},
@@ -355,8 +359,7 @@
 			{
 				"name": "Legislative Process",
 				"uniques": ["[+33]% [Culture] from every [Congress]",
-					"Free [Great Administrator] appears",
-					"[Great Administrator] is earned [20]% faster"],
+					"Free [Great Administrator] appears"],
 				"requires": ["Civil Society", "Protected Speech"],
 				"row": 2,
 				"column": 3
@@ -371,19 +374,7 @@
 			},
 			{
 				"name": "Constitution Complete",
-				"uniques": ["[+4 Food] from every [Factory farm]",
-					"[+4 Production] from every [Manufactory]",
-					"[+4 Production] from every [Drydock]",
-					"[+4 Science] from every [Academy]",
-					"[+2 Culture, +2 Science] from every [Preservator]",
-					"[+4 Culture] from every [Settlement]",
-					"[+4 Culture] from every [Landmark]",
-					"[+4 Gold] from every [Supply Complex]",
-					"[+4 Gold] from every [Banana Business Area]",
-					"[+1 Food, +1 Production, +2 Gold] from every [Wasteland Station]",
-					"[+4 Faith] from every [Seminary]",
-					"[+4 Faith] from every [Endowment House]",
-					"[+2 Gold, +2 Science] from every [Citadel]",
+				"uniques": ["[+2 Science, +2 Culture] from every [Great Improvement]",
 					"Free Social Policy",
 					"May buy [Great Administrator] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
 			}
@@ -459,7 +450,7 @@
 					"[+4 Culture] from every [Narcotics farm]",
 					"[+4 Faith] from every [Oracle]",
 					"[+4 Science] from every [Crystal Refinery]",
-					"[+2 Food, +2 Production, +2 Gold] [in all cities] <with [Slaves]>"]
+					"[+2 Production, +2 Gold, +1 Culture] [in all cities] <with [Slaves]>"]
 			}
 		]
 	},
@@ -536,10 +527,10 @@
 				"name": "Monopoly Complete",
 				"uniques": ["[+1 Gold, +1 Food] from every [Moisture trap]",
 					"[+1 Gold, +1 Food] from every [Water pump]",
-					"[+2 Gold, +2 Food] from every [Supply Complex]",
-					"[+2 Gold, +2 Food] from every [Banana Business Area]",
-					"[+2 Gold, +2 Culture] from every [Narcotics farm]",
-					"[+2 Gold, +1 Food, +1 Production] from every [Wasteland Station]",
+					"[+4 Gold, +2 Food] from every [Supply Complex]",
+					"[+4 Gold, +2 Food] from every [Banana Business Area]",
+					"[+4 Gold, +2 Culture] from every [Narcotics farm]",
+					"[+2 Gold, +2 Food, +2 Production] from every [Wasteland Station]",
 					"Free [Great Merchant] appears",
 					"May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
 			}
@@ -602,7 +593,7 @@
 			},
 			{
 				"name": "Collectivism Complete",
-				"uniques": ["[+2 Food, +2 Production, +2 Gold, +2 Science] [in all cities]",
+				"uniques": ["[+2 Food, +2 Production, +2 Science] [in all cities]",
 					"Free [Great Engineer] appears",
 					"May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
 			}
@@ -683,7 +674,7 @@
 		"priorities": {
 			"Neutral": 0,
 			"Cultural": 40,
-			"Diplomatic": 30,
+			"Diplomatic": 20,
 			"Domination": 20,
 			"Scientific": 0
 		},
@@ -691,26 +682,26 @@
 			"[Great Farmer] is earned [20]% faster",
 			"Comment [Unlocks [Earth Clinic]]",
 			"Only available <before adopting [Mechanization]>",
-			"Only available <before adopting [Bionics]>"],
+			"Only available <before adopting [Bionics]>",
+			"Only available <before adopting [Legacy]>"],
 		"policies": [
 			{
 				"name": "Emissions Standards",
 				"uniques": ["[+10]% [Food] from every [Coal Plant]",
+					"[+2 Production] from every [Carbon Capture]",
+					"[+2 Production] from every [Smart Grid]",
 					"[+2 Production] from every [Solar collector]",
-					"[+2 Production] from every [Wind farm]",
-					"Comment [Solar collectors and Wind farms provide 1 extra unit of Power]",
-					"[+2 Happiness, +1 Culture] from every [Recycling Plant]",
-					"[+2 Happiness, +1 Culture] from every [Carbon Capture]"],
+					"[+2 Production] from every [Wind farm]"],
 				"row": 1,
 				"column": 3
 			},
 			{
 				"name": "Physiolatry",
 				"requires": ["Emissions Standards"],
-				"uniques": ["[+2 Food, +2 Production, +1 Faith, +1 Culture] from every [Greenhouse]",
-					"[+2 Food, +2 Production, +1 Faith, +1 Culture] from every [Protected Area]",
-					"[+2 Food, +2 Production, +1 Faith, +1 Culture] from every [Arcology Dome]",
-					"[+2 Food, +2 Production, +1 Faith, +1 Culture] from every [Sanctuary]"],
+				"uniques": ["[+1 Faith, +1 Culture, +1 Happiness] from every [Greenhouse]",
+					"[+1 Faith, +1 Culture, +1 Happiness] from every [Protected Area]",
+					"[+1 Faith, +1 Culture, +1 Happiness] from every [Arcology Dome]",
+					"[+1 Faith, +1 Culture, +1 Happiness] from every [Sanctuary]"],
 				"row": 2,
 				"column": 2
 			},
@@ -730,10 +721,9 @@
 			{
 				"name": "Harmony",
 				"requires": ["Physiolatry"],
-				"uniques": ["[-50]% Food consumption by specialists [in all cities]",
-					"[-50]% Unhappiness from [Specialists] [in all cities]",
-					"Resting point for Influence with City-States is increased by [+15]",
-					"[-25]% City-State Influence degradation"],
+				"uniques": ["[Faith] cost of purchasing items in cities [-20]%",
+					"[+2 Culture, +2 Faith] <in cities with at least [2] [Specialists]>",
+					"[+25]% [Culture] from every [Protected Area]"],
 				"row": 3,
 				"column": 1
 			},
@@ -765,9 +755,10 @@
 			"Domination": 40,
 			"Scientific": 30
 		},
-		"uniques": ["[+5]% [Production] [in all cities]",
+		"uniques": ["[+2 Production, +2 Happiness] [in all cities]",
 			"Only available <before adopting [Naturalism]>",
-			"Only available <before adopting [Bionics]>"],
+			"Only available <before adopting [Bionics]>",
+			"Only available <before adopting [Legacy]>"],
 		"policies": [
 			{
 				"name": "Urbanization",
@@ -780,8 +771,8 @@
 				"name": "Automation",
 				"uniques": ["[-25]% construction time for [All] improvements",
 					"[+100]% Production when constructing [Automated Factory] buildings [in all cities]",
-					"[+2 Science, +2 Production, +2 Happiness] from every [Factory]",
-					"[+2 Science, +2 Production, +2 Happiness] from every [Automated Factory]"],
+					"[+2 Science, +2 Production] from every [Factory]",
+					"[+2 Science, +2 Production] from every [Automated Factory]"],
 				"row": 1,
 				"column": 4
 			},
@@ -797,8 +788,8 @@
 			{
 				"name": "Digitization",
 				"requires": ["Integrated Attack Logistics"],
-				"uniques": ["[+2 Happiness, +2 Culture] from every [Data Center]",
-					"[+2 Happiness, +2 Culture] from every [Decryption Center]",
+				"uniques": ["[+2 Culture, +2 Happiness] from every [Data Center]",
+					"[+2 Culture, +2 Happiness] from every [Decryption Center]",
 					"Double quantity of [Encrypted Data] produced"],
 				"row": 3,
 				"column": 2
@@ -807,7 +798,8 @@
 				"name": "Deregulation",
 				"requires": ["Integrated Attack Logistics"],
 				"uniques": ["[Gold] cost of purchasing items in cities [-20]%",
-					"[-33]% maintenance on road & railroads"],
+					"[-33]% maintenance on road & railroads",
+					"[-33]% maintenance cost for buildings [in all cities]"],
 				"row": 3,
 				"column": 4
 			},
@@ -833,7 +825,8 @@
 		},
 		"uniques": ["[+1 Science] per [4] population [in all cities]",
 			"Only available <before adopting [Naturalism]>",
-			"Only available <before adopting [Mechanization]>"],
+			"Only available <before adopting [Mechanization]>",
+			"Only available <before adopting [Legacy]>"],
 		"policies": [
 			{
 				"name": "Weather Engineering",
@@ -841,15 +834,16 @@
 					"[+2 Gold] from every [Moisture trap]",
 					"[+2 Production] from every [Solar collector]",
 					"[+2 Production] from every [Wind farm]",
-					"Comment [Solar collectors and Wind farms provide 1 extra unit of Power]",
 					"[+10]% growth [in all cities] <during a Golden Age>"],
 				"row": 1,
 				"column": 1
 			},
 			{
 				"name": "Mutagens",
-				"uniques": ["[+2 Culture, +2 Food, +2 Science] from every [Hospital]",
-					"[+2 Culture, +2 Food, +2 Science] from every [Medical Lab]"],
+				"uniques": ["[+100]% Production when constructing [Hospital] buildings [in all cities]",
+					"[+100]% Production when constructing [Medical Lab] buildings [in all cities]",
+					"[+2 Food, +2 Science] from every [Hospital]",
+					"[+2 Food, +2 Science] from every [Medical Lab]"],
 				"row": 1,
 				"column": 3
 			},
@@ -887,6 +881,83 @@
 					"[+10]% Production when constructing [Colony Ship Project] wonders [in all cities]",
 					"[+15]% Production when constructing [Terraformer Part] units [in all cities]",
 					"[+15]% Production when constructing [Colony Ship Part] units [in all cities]"]
+			}
+		]
+	},
+	{
+		"name": "Legacy",
+		"era": "Industrial era",
+		"priorities": {
+			"Neutral": 20,
+			"Cultural": 20,
+			"Diplomatic": 30,
+			"Domination": 0,
+			"Scientific": 30
+		},
+		"uniques": [
+			"[+25]% Great Person generation [in all cities]",
+			"Only available <before adopting [Naturalism]>",
+			"Only available <before adopting [Mechanization]>",
+			"Only available <before adopting [Bionics]>"
+		],
+		"policies": [
+			{
+				"name": "Special Projects",
+				"uniques": ["[+2 Gold, +2 Culture, +1 Happiness] from every [World Wonder]",
+					"[+2 Gold, +2 Culture, +1 Happiness] from every [National Wonder]"],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Unifying Vision",
+				"uniques": ["[+250 Science, +100 Culture] whenever a Great Person is expended",
+					"[+50]% Golden Age length"],
+				"row": 1,
+				"column": 4
+			},
+			{
+				"name": "Eudaimonia",
+				"uniques": ["[-50]% Food consumption by specialists [in all cities]",
+					"[-50]% Unhappiness from [Specialists] [in all cities]"],
+				"requires": ["Special Projects", "Unifying Vision"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Hegemony",
+				"uniques": ["Resting point for influence with City-States is increased by [20]",
+					"[-25]% City-State Influence degradation"],
+				"requires": ["Unifying Vision"],
+				"row": 2,
+				"column": 5
+			},		
+			{
+				"name": "National Champions",
+				"uniques": ["[+1 Production, +1 Gold] from every specialist [in all cities]"],
+				"requires": ["Eudaimonia"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Legacy Complete",
+				"uniques": ["Free Great Person",
+					"[+5 Food] from every [Factory farm]",
+					"[+5 Production] from every [Manufactory]",
+					"[+5 Production] from every [Outpost]",
+					"[+5 Production] from every [Prison farm]",
+					"[+5 Culture] from every [Settlement]",
+					"[+5 Culture] from every [Landmark]",
+					"[+5 Gold] from every [Supply Complex]",
+					"[+5 Gold] from every [Banana Business Area]",
+					"[+2 Gold, +2 Food, +2 Production] from every [Wasteland Station]",
+					"[+3 Gold, +3 Science] from every [Citadel]",
+					"[+5 Science] from every [Crystal Refinery]",
+					"[+5 Culture] from every [Narcotics farm]",
+					"[+5 Faith] from every [Oracle]",
+					"[+5 Faith] from every [Endowment House]",
+					"[+5 Faith] from every [Seminary]",
+					"[+5 Science] from every [Academy]",
+					"[+3 Science, +1 Culture, +1 Production] from every [Preservator]"]
 			}
 		]
 	}

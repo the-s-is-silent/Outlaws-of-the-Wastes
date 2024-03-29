@@ -317,7 +317,7 @@
 	- The healing bonus has been removed partly for being relatively lackluster compared to other bonuses, partly because it doesn't seem to function at all.
 
 **Quest Adjustments**
-- Clear Barbarian Camp has been made unavailable by increasing the minimum civ number past what is possible, addressing a known issue also present in "The Barbarians" mod where allowing barb camps to award ruins bonuses prevents completion of the quest. (Part of this is also due to the City-States themselves being fully capable of clearing the quest before you can even if it wasn't bugged.)
+- Clear Barbarian Camp has been made unavailable by increasing the minimum civ number past what is possible. (While this was mostly due to a bug where allowing barb camps to award ruins bonuses preventing everything else involving barb camps from triggering that has since been fixed, there was a second reason that's still somewhat valid, the City-States themselves being fully capable of clearing the quest before you can.)
 - Contest Culture, Faith, and Technologies' duration reduced by 20%, now lasting 24 turns on Standard speed.
 - All available quests are now weighted.
 
@@ -391,7 +391,8 @@
 		- New Afrika's Revolutionary Council now gives a +15% Production boost towards Personnel units.
 		- Proklyatyye's Politburo no longer adds Culture/Happiness to Gulags; it instead adds +3 Production to them, and the Production bonus to Corrective Colonies and Listening Posts is increased to +3.
 - Food/Growth:
-	- Greenhouse (and replacements) and Hydroponic Farming buildings now gain +1 Food if the player gets access to Exotic Seeds.
+	- Greenhouse (and replacements) and Hydroponic Farming buildings now gain +1 Food if the player gets access to Exotic Seeds. The latter building now adds +2 Food to Lakes.
+	- Protected Area now requires the city to be working a Tree plantation improvement, but no longer adds Water penalties to Tree plantations.
 	- Hospitals (and replacements) no longer gain +1 Food from having Harvested Organs.
 		- The remaining "evil" faction replacements no longer have reduced food preservation compared to the standard Hospital.
 - Industry:
@@ -658,42 +659,52 @@
 	- Exodus of the Evangelists' added Faith yields to the Grand Monastery reduced to a fixed +4. The bonus belief from the finisher bonus has been moved here. Additionally, it no longer requires Indulgences, but still requires Organized Religion.
 	- The finisher bonus no longer adds Faith yields to Seminaries and their replacements. The added Culture has been increased to +3.
 - Rationalism:
-	- Technocracy no longer adds Science to the Council.
+	- Technocracy no longer adds Water to Wonders or Science to the Council.
 	- Sample Analysis now adds +1 Science to all Refineries.
-	- Skepticism renamed to New Pioneers. (Educated Elite will be renamed later.)
+	- Skepticism renamed to New Pioneers.
 - Constitution:
+	- The opener bonus is now restricted to Great Administrators (and set at 33%).
 	- Civil Society's strength bonus to cities reduced to 25%.
-	- With the Settlement GI split, the finisher bonus adds +4 Culture to Settlements and +4 Water to its Merchant counterpart. Also, it now only adds +1 Food/Production instead of +2 to Wasteland Stations.
+	- Protected Speech's bonus to Culture building construction moved to Civil Society. Now it adds +1 Culture to each of the main Culture buildings except for the Monument (Sociopolitical Institute, Town Hall, Broadcast Tower, Television Studio, Alternet Cafe).
+	- Legislative Process no longer adds any boosts to GP generation.
+	- The finisher bonus has been nerfed again, now adding +2 Culture/Science to every Great Improvement.
 - Supremacy:
 	- The opener bonus now extends its Production bonus to Armories.
 	- Police State now cuts the construction time of Prison Camps and Work Camps in half.
-	- The finisher bonus is reduced to a 15% combat bonus, but remains in effect for the entire game once adopted. With the adjustments to Crystal Refinery yields, it now adds +4 Science to them instead of +2 Water/Science.
+	- The finisher bonus is reduced to a 15% combat bonus, but remains in effect for the entire game once adopted. The +2 Food bonus to all cities from possessing Slaves is removed and replaced with +1 Culture with the same condition. With the adjustments to Crystal Refinery yields, it now adds +4 Science to them instead of +2 Water/Science.
 - Monopoly:
 	- Increased priority for AI factions that prefer Diplomatic Victory.
 	- The opener now adds +1 Culture to Markets and increases the bonus to Great Merchant generation by 33%.
 	- Mass Consumption now adds +1 Gold to all Refineries.
 	- Enterpreneurship nerfed to 25% maintenance cost reduction on infrastructure.
-	- The finisher bonus now boosts the yields of Narcotics farms (+2 Water/Culture), but no longer adds yields to Settlements (since Great Merchants no longer create them) and only adds +1 Food/Production to Wasteland Stations. Also, it awards a free Great Merchant.
+	- The finisher bonus now adds +2 Culture to Narcotics farms and +4 Water instead of +2 to each boosted Great Improvement except for Wasteland Stations, but no longer adds yields to Settlements (since Great Merchants no longer create them). Also, it awards a free Great Merchant.
 - Collectivism:
 	- The opener now increases the bonus to Great Engineer generation by 33% and unlocks access to a new unit.
 	- Political Officers no longer boosts the production speed of Aircraft.
 	- Shared Vision's Production bonus to the Council reduced to 15%, but it now adds an additional +5% Production bonus to Factories.
 	- Workers' Union no longer adds flat Production to your cities.
-	- The finisher bonus now awards a free Great Engineer.
+	- The finisher bonus now awards a free Great Engineer, but no longer provides Water.
 - Rediscovery:
 	- The finisher bonus no longer adds Global Happiness.
 - Naturalism:
-	- Emissions Standards now boosts the yields of Solar collectors and Wind farms the same way Weather Engineering does (+2 Production, +1 Power).
-	- Ecodefense reverted to a 10% Strength bonus. However, it now unlocks access to a new unit and awards three of them for free.
+	- Reduced priority for AI factions that prefer Diplomatic Victory.
+	- Other than the +10% Food to Coal Plants, Emissions Standards' effect has been thrown out. It now adds +2 Production to Smart Grid and Carbon Capture buildings and to Solar collector and Wind farm improvements.
+	- Physiolatry no longer adds Food/Production to its four buildings. It adds +1 Happiness instead.
+	- Ecodefense now unlocks access to a new unit and awards three of them for free.
+	- Harmony's effects have been moved to a new ideology. It now receives the Faith bonuses that were removed from the Bionics ideology (Discount on Faith purchases, +2 Faith in cities with 2 or more specialists) along with +25% Culture in cities with a Protected Area.
 	- Conservation now adds 10% to the total Water yields of cities with a Rainwater Purifier instead of a flat +2 to that building.
 - Mechanization:
 	- Increased priority for AI factions that prefer Domination Victory.
+	- The opener is nerfed to a flat +2 Production, but also adds +2 Happiness to all cities.
 	- Urbanization no longer increases Science.
+	- Automation no longer gives Happiness.
 	- Digitization adjusted to +2 Culture/Happiness and no Faith for Data/Decryption Centers.
 	- The finisher no longer gives a free Purge Robot (this was very...unbalanced) and now gives two free Great People like the other ideologies, in this case 1 Engineer and 1 Scientist. The extra strategic resources is increased to 50% to match the base scenario.
 - Bionics:
 	- Increased priority for AI factions that prefer Science Victory. Priority for AI factions that prefer Culture Victory reduced to 0.
-	- Eugenics now only grants extra starting XP to Personnel units, but it grants them 25 XP. (When combined with Total War, this allows Personnel trained in the city that owns the Military Academy for every faction that isn't locked out of Supremacy, sans Enclavers, to start with a minimum of 4 promotions.) Additionally, the +2 Faith from having 2 active specialists is now +2 Happiness.
+	- Weather Engineering no longer doubles the Power output of Solar collectors and Wind farms.
+	- Mutagens no longer adds Culture to Hospitals and Medical Labs, but it allows them to be constructed twice as fast.
+	- Eugenics now only grants extra starting XP to Personnel units, but it grants them 25 XP. (When combined with Total War, this allows Personnel trained in the city that owns the Military Academy for every faction that isn't locked out of Supremacy, sans Enclavers, to start with a minimum of 4 promotions. It also lets Camelot's Excalibur Knights choose 4 promotions if the city with the Military Academy has a Riding Arena.) Additionally, the +2 Faith from having 2 active specialists is now +2 Happiness.
 	- Transhumanism no longer reduces the cost of Faith purchases.
 	- The bonus to Utopia Project construction speed has been moved to Naturalism's finisher. It now gives a bonus towards the Biosphere and Colony Ship projects.
 
@@ -707,7 +718,6 @@
 - Self-Repair now gives the March effect (unit heals every turn) to Purge Robots.
 - Prospector slightly buffed to increase the possible Water yield from ending the unit's turn atop Rubble/Ruins and increase the Strength bonus from escorting Civilians to 15%.
 - Sea Raider buffed to grant a combat bonus against wounded units and allow the ship to heal 25 HP for each kill.
-- AI Implant nerfed to remove the Strength bonus when attacking.
 
 **Resource Adjustments**
 - Hexlock's Chemicals are now Strategic Resources as they should be according to Hexlock's UA instead of Luxury Resources. Hexlock now actually suffers from early-game Happiness issues as intended.
@@ -846,6 +856,9 @@
 **New National Wonders**
 - National Reservoir System, available at Currency, provides +4 Water in the city it's built in and adds +1 Water to Groundwater, Lakes and Spring tiles along with +1 Water to city connections, but requires every city to own a Water Storage and its Production cost scales upward (125 base + 30 per owned city)
 - Microwave Power Satellite, available at Incentivization, must be in a desert city, provides significant late-game boosts to Solar collectors (+4 Production each) along with 8 units of Power, and adds +1 Production to all desert tiles in the city, +5 Production to the city itself, and +2 Local Happiness
+
+**New Social Policy**
+- Legacy ideology, imported from "DeCiv 1", adjusted, and available at the Industrial era like all the others
 
 **New Improvements**
 - Powership, unlocked at Electronics and built on resource-less Coast tiles, adding another minor source of Power along with minor Production yields (+1, increasing to +2 at Advanced Materials)

@@ -134,6 +134,8 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
   - Maritime Law: [maritime laws](https://thenounproject.com/icon/maritime-laws-4452379/) by madness stock, ID
 - Collectivism tree
   - Expropriation: [appropriation](https://thenounproject.com/icon/appropriation-3057089/) by Ninejipjip
+- Legacy ideology
+  - Hegemony: [leadership](https://thenounproject.com/icon/leadership-2877055/) by WEBTECHOPS LLP, IN
 
 ### Promotion Icons
 - Active Protection System: [Radar](https://thenounproject.com/icon/radar-1427289/) by Mohamed Mb, IT

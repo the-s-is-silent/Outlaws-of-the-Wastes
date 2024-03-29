@@ -400,6 +400,7 @@
 	{
 		"name": "AI Implant",
 		"uniques": ["[+10] HP when healing",
+			"[+10]% Strength <when attacking>",
 			"Damage is ignored when determining unit Strength"]
 	},
 	{
