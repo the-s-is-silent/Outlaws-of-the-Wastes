@@ -12,5 +12,29 @@
 			"Has an elevation of [4] for visibility calculations",
 			"Only [Artificial glacier] improvements may be built on this tile"
 		]
+	},
+	{
+		"name": "Fissure",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"production": 1,
+		"defenceBonus": -0.3,
+		"overrideStats": true,
+		"impassable": true,
+		"unbuildable": true,
+		"occursOn": [
+			"Wasteland",
+			"Badlands",
+			"Desert",
+			"Tundra",
+			"Permafrost"
+		],
+		"uniques": [
+			"Rare feature",
+			"Rough terrain",
+			"Every [7] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"Units ending their turn on this terrain take [5] damage",
+			"Only [Borehole] improvements may be built on this tile"
+		]
 	}
 ]
