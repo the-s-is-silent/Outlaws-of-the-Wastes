@@ -925,7 +925,7 @@
 			},
 			{
 				"name": "Hegemony",
-				"uniques": ["Resting point for influence with City-States is increased by [20]",
+				"uniques": ["Resting point for Influence with City-States is increased by [20]",
 					"[-25]% City-State Influence degradation"],
 				"requires": ["Unifying Vision"],
 				"row": 2,
