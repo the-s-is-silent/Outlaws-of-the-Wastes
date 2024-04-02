@@ -237,7 +237,8 @@
 			"[+1 Culture] [in this city] <after adopting [Rediscovery Complete]>",
 			"[+1 Culture] [in this city] <after adopting [Naturalism Complete]>",
 			"[+1 Culture] [in this city] <after adopting [Mechanization Complete]>",
-			"[+1 Culture] [in this city] <after adopting [Bionics Complete]>"],
+			"[+1 Culture] [in this city] <after adopting [Bionics Complete]>",
+			"[+1 Culture] [in this city] <after adopting [Legacy Complete]>"],
 		"requiredTech": "Civil Service"
 	},
 	{
@@ -691,12 +692,13 @@
 		"replaces": "Town Hall",
 		"uniqueTo": "The Harbingers",
 		"gold": 2,
+		"culture": 2,
 		"specialistSlots": {"Administrator": 1},
 		"uniques": ["[+1 Gold] from each Trade Route",
 			"[+2 Gold] from [Wasteland Station] tiles [in this city]",
 			"[-25]% Culture cost of natural border growth [in this city]",
 			"[-25]% Gold cost of acquiring tiles [in this city]",
-			"[+1 Happiness, +1 Culture, +1 Gold, +1 Faith] [in this city] <when above [0] [Power]>"],
+			"[+1 Happiness, +1 Gold, +1 Faith] [in this city] <when above [0] [Power]>"],
 		"requiredTech": "Civil Service"
 	},
 	{
@@ -1902,7 +1904,7 @@
 		"name": "Faust Project",
 		"percentStatBonus": {"science": 20},
 		"isWonder": true,
-		"uniques": ["Must have an owned [Missile Complex] within [3] tiles",
+		"uniques": ["Must have an owned [Missile Complex] within [5] tiles",
 			"[+20]% Production when constructing [Manhattan Project] wonders [in all cities]",
 			"[+20]% Production when constructing [Nuclear Weapon] units [in all cities]",
 			"[+2 Production, +4 Science] from [Missile Complex] tiles [in all cities]",
@@ -1930,7 +1932,7 @@
 		"happiness": -1,
 		"percentStatBonus": {"food": -10},
 		"requiredTech": "Mining",
-		"uniques": ["Must have an owned [Nuclear Waste Storage] within [3] tiles",
+		"uniques": ["Must have an owned [Nuclear Waste Storage] within [5] tiles",
 			"[+3 Production, +4 Science] from [Nuclear Waste Storage] tiles [in all cities]",
 			"Provides [5] [Uranium]",
 			"Unbuildable <if [Nuclear Waste Museum] is constructed>"],
@@ -1949,7 +1951,7 @@
 		"uniques": [
 			"[+10]% growth [in all cities]",
 			"[+1 Food, +1 Science, +1 Culture] from [Seed Vault] tiles [in all cities]",
-			"Must have an owned [Seed Vault] within [3] tiles",
+			"Must have an owned [Seed Vault] within [5] tiles",
 			"Provides [3] [Exotic Seeds]"
 		],
 		"quote": "What about us? What about all the plans that ended in disaster?",
@@ -1963,7 +1965,7 @@
 		"name": "Produce Soft Drinks",
 		"isNationalWonder": true,
 		"requiredTech": "Steam Power",
-		"uniques": ["Must have an owned [Soft Drinks Factory] within [3] tiles",
+		"uniques": ["Must have an owned [Soft Drinks Factory] within [5] tiles",
 			"Provides [3] [Soft Drinks]",
 			"[+1 Gold, +3 Culture, +1 Happiness] from [Soft Drinks Factory] tiles [in all cities]",
 			"Empire enters golden age",
@@ -1991,7 +1993,7 @@
 		"requiredTech": "Sailing",
 		"isWonder": true,
 		"cost": 50,
-		"uniques": ["Must have an owned [Ship Graveyard] within [3] tiles",
+		"uniques": ["Must have an owned [Ship Graveyard] within [5] tiles",
 			"[+2 Science, +2 Production] from [Ship Graveyard] tiles [in all cities]",
 			"Provides [2] [Oil]",
 			"[2] free [Patrol Boat] units appear"],
@@ -2007,7 +2009,7 @@
 		"isWonder": true,
 		"requiredTech": "Steel",
 		"percentStatBonus": {"production": 20},
-		"uniques": ["Must have an owned [Hydroelectric Dam] within [3] tiles",
+		"uniques": ["Must have an owned [Hydroelectric Dam] within [5] tiles",
 			"[+2 Production, +2 Gold, +1 Science] from [Hydroelectric Dam] tiles [in all cities]",
 			"Provides [8] [Power]",
 			"Provides [4] [Power] <after discovering [Computers]>"],
@@ -2023,7 +2025,7 @@
 		"isWonder": true,
 		"requiredTech": "Secrets of the Past",
 		"uniques": ["[+2 Science, +2 Culture, +2 Faith] from [Vault of Records] tiles [in all cities]",
-			"Must have an owned [Vault of Records] within [3] tiles",
+			"Must have an owned [Vault of Records] within [5] tiles",
 			"Provides [2] [Books]",
 			"Hidden when religion is disabled"],
 		"quote": "And I seal up these records, after I have spoken a few words by way of exhortation unto you.",
@@ -2039,8 +2041,8 @@
 		"percentStatBonus": {"science": 20},
 		"requiredTech": "Writing",
 		"uniques": [
-			"Must have an owned [Space Station Wreckage] within [3] tiles",
-			"[+4 Science, +2 Culture, +2 Production] from [Space Station Wreckage] tiles [in all cities]"
+			"Must have an owned [Space Station Wreckage] within [5] tiles",
+			"[+2 Science, +2 Culture, +2 Production] from [Space Station Wreckage] tiles [in all cities]"
 		],
 		"quote": "Everything in space obeys the laws of physics. If you know these laws, and obey them, space will treat you kindly. And don't tell me that man doesn't belong out there. Man belongs wherever he wants to go - and he'll do plenty well when he gets there.",
 		"civilopediaText": [
@@ -2056,7 +2058,7 @@
 		"requiredTech": "Mining",
 		"uniques": [
 			"[+5 Production, +1 Science] from [Mining Pit] tiles [in all cities]",
-			"Must have an owned [Mining Pit] within [3] tiles",
+			"Must have an owned [Mining Pit] within [5] tiles",
 			"Unbuildable <if [Pit of Sacrifice] is constructed>"
 		],
 		"quote": "There is, of course, a gold mine or a buried treasure on every mortgaged homestead. Whether the farmer ever digs for it or not, it is there, haunting his daydreams when the burden of debt is most unbearable.",
@@ -2073,7 +2075,7 @@
 		"requiredTech": "Secrets of the Past",
 		"uniques": [
 			"[-1 Food, +4 Faith] from [Mining Pit] tiles [in all cities]",
-			"Must have an owned [Mining Pit] within [3] tiles",
+			"Must have an owned [Mining Pit] within [5] tiles",
 			"Unbuildable <if [Mining Operation] is constructed>"
 		],
 		"quote": "'The earth itself is hungry! See, its mouth wide open before us! It must be fed!'",
@@ -2091,9 +2093,9 @@
 		"percentStatBonus": {"gold": 10},
 		"greatPersonPoints": {"Great Merchant": 2},
 		"uniques": [
-			"[+3 Culture, +3 Happiness] from [Oasis] tiles [in all cities]",
-			"[+1 Food, +1 Gold, +1 Culture, +1 Happiness] from [Artificial oasis] tiles [in all cities]",
-			"Must have an owned [Oasis] within [3] tiles"
+			"[+3 Culture] from [Oasis] tiles [in all cities]",
+			"[+1 Food, +1 Gold, +1 Culture] from [Artificial oasis] tiles [in all cities]",
+			"Must have an owned [Oasis] within [5] tiles"
 		],
 		"quote": "The Lord God made all kinds of trees grow out of the ground - trees that were pleasing to the eye and good for food.",
 		"civilopediaText": [
@@ -2785,6 +2787,63 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Secrets of the Past",
 		"uniques": ["[+1 Culture, +1 Science] from [Artifacts] tiles [in this city]"]
+	},
+	{
+		"name": "Town Hall",
+		"culture": 2,
+		"specialistSlots": {"Administrator": 1},
+		"maintenance": 1,
+		"uniques": [
+			"[-25]% Culture cost of natural border growth [in this city]",
+			"[-25]% Gold cost of acquiring tiles [in this city]",
+			"[+1 Happiness] [in this city] <when above [0] [Power]>"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Personnel Office",
+		"replaces": "Town Hall",
+		"uniqueTo": "Blackwarden",
+		"culture": 2,
+		"specialistSlots": {"Administrator": 1},
+		"maintenance": 1,
+		"uniques": ["[-25]% Gold cost of acquiring tiles [in this city]",
+			"[+10]% Production when constructing [Personnel] units [in this city]",
+			"[+33]% Production when constructing [Worker] units [in this city]",
+			"[+1 Happiness, +1 Gold] [in this city] <when above [0] [Power]>"],
+		"cost": 160,
+		"hurryCostModifier": 25
+	},
+	{
+		"name": "Commune",
+		"replaces": "Town Hall",
+		"uniqueTo": "Children of Rust",
+		"culture": 3,
+		"maintenance": 1,
+		"cost": 120,
+		"uniques": ["[-25]% Culture cost of natural border growth [in this city]",
+			"[+2 Food, +1 Happiness] [in this city] <when above [0] [Power]>",
+			"[+1] population [in this city]",
+			"Unsellable"],
+		"hurryCostModifier": 40,
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Casino",
+		"replaces": "Town Hall",
+		"uniqueTo": "Deadrock Clan",
+		"culture": 2,
+		"happiness": 2,
+		"specialistSlots": {"Administrator": 1},
+		"uniques": [
+			"[+1 Gold] per [3] population [in this city] <when above [0] [Power]>",
+			"[+1 Gold] [in this city] <when above [0] [Slaves]>",
+			"[+1 Gold] [in this city] <with [Alcohol]>",
+			"[+1 Gold] [in this city] <with [Narcotics]>",
+			"[+1 Gold] [in this city] <with [Refined Narcotics]>"
+		],
+		"requiredTech": "Currency"
 	},
 	{
 		"name": "Broadcast Tower",
@@ -3497,19 +3556,6 @@
 		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
 	},
 	{
-		"name": "Personnel Office",
-		"replaces": "Town Hall",
-		"uniqueTo": "Blackwarden",
-		"specialistSlots": {"Administrator": 1},
-		"maintenance": 1,
-		"uniques": ["[-25]% Gold cost of acquiring tiles [in this city]",
-			"[+10]% Production when constructing [Personnel] units [in this city]",
-			"[+33]% Production when constructing [Worker] units [in this city]",
-			"[+1 Happiness, +1 Culture] [in this city] <when above [0] [Power]>"],
-		"cost": 160,
-		"hurryCostModifier": 25
-	},
-	{
 		"name": "Pithouse",
 		"replaces": "Food Store",
 		"uniqueTo": "Children of Rust",
@@ -3523,19 +3569,6 @@
 			"[-1 Production, +1 Gold] [in this city] <with [Alcohol]>",
 			"[-1 Production, +1 Gold] [in this city] <with [Narcotics]>",
 			"[-1 Production, -1 Food, +1 Gold] [in this city] <with [Refined Narcotics]>"]
-	},
-	{
-		"name": "Commune",
-		"replaces": "Town Hall",
-		"uniqueTo": "Children of Rust",
-		"maintenance": 1,
-		"cost": 120,
-		"uniques": ["[-25]% Culture cost of natural border growth [in this city]",
-			"[+1 Happiness, +1 Culture, +2 Food] [in this city] <when above [0] [Power]>",
-			"[+1] population [in this city]",
-			"Unsellable"],
-		"hurryCostModifier": 40,
-		"requiredTech": "Civil Service"
 	},
 	{
 		"name": "Bike Path",
@@ -3647,7 +3680,7 @@
 		"uniqueTo": "Crimson Legion",
 		"specialistSlots": {"Administrator": 1},
 		"cityHealth": 50,
-		"culture": 1,
+		"culture": 2,
 		"happiness": 1,
 		"maintenance": 1,
 		"uniques": ["City Defense",
@@ -4617,6 +4650,7 @@
 		"uniqueTo": "Defiance",
 		"replaces": "Town Hall",
 		"specialistSlots": {"Administrator": 2},
+		"culture": 3,
 		"happiness": 3,
 		"cost": 0,
 		"uniques": ["[+1 Culture, +1 Happiness] [in this city] <when above [0] [Power]>",

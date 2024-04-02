@@ -565,6 +565,7 @@
 	- Stockpile slightly buffed, adding +2 Food instead of +1.
 	- Stone of Ages now has its quote.
 	- Temple nerfed further to remove its base Faith yields and Administrator slot. To compensate, it adds +1 Culture/Faith to all active Administrators, but requires Engineering to unlock this boost.
+- Many of the world and national wonders that require specific ancient wonders have been extended to a 5 tile range, though there are several that still need the ancient wonder to be within 3 tiles.
 - Annex Isolationists now adds +5 Production instead of +5 Water to the Isolated Island.
 - Biosphere Project's Production cost reduced to 750.
 - Convert Survivors and Resettlement Bureau have been deleted.
@@ -601,6 +602,7 @@
 	- Legions buffed to 36 combat strength but no longer receive bonuses against cities.
 	- Both upgrade to Soldiers instead of Militia.
 - Destroying Angel no longer obsoletes.
+- Drifter now has to embark and disembark as normal but gets double movement in Coast and Ocean tiles, and gets the same AI-only ability to construct non-instant water tile improvements as Work Boats.
 - Field Scientists reverted to 70 production cost, 1 charge, but remain standalone units.
 - First Aid units no longer have a 1-in-3 chance to capture Barbarians.
 - Forward Observers and their replacements (with the exception of the Legion's Speculatores) can no longer capture cities. They now play the "shot" attack sound in combat.
@@ -609,6 +611,7 @@
 - Hexlock's Purge Robots are now standalone units.
 	- Proto and MKI are now Armor units. The former's Production cost is increased to 75.
 	- MKI and MKII require Aluminum instead of their previous secondary strategic resource (Weapons for MKI, Oil for MKII).
+- Key to the City is no longer able to fortify, but now gets a +4 Movement bonus when starting its turn on Coast or Ocean tiles.
 - Machine Guns now start with Logistics and gain a bonus when attacking Scrapper and Shooter units.
 - Mechanized Workers can now enter impassable tiles and terraform tiles, receiving 2 charges.
 - Mormon Battalions now cost 230 Production, matching the cost of the NBC Infantry unit which they are superior to despite replacing normal Infantry and unlocking earlier.
@@ -617,7 +620,7 @@
 - Rubble Gunmen now replace Crossbowmen, correcting the major error in the base game where Deadrock Clan had two unique units replacing Archers.
 - Salvaged Bomber's ranged strength reduced by 10.
 - Salvaged Helicopter's movement points reduced by 1 and ranged strength reduced by 15. However, its Production cost is reduced by 50.
-- Seastead Vessel now uses a single unique for all Water improvements that are not specifically for improving Water resources, in the event that more such improvements are added in the future. Also, it can now enter and remove ice and sunken ruins tiles.
+- Seastead Vessel now uses a single unique for all Water improvements that are not specifically for improving Water resources. Also, it is now available at Electronics (previously Ocean Remediation, though there's currently only one new improvement available at that tech) and can enter and remove ice and sunken ruins tiles.
 - State Guards are now limited to 3 per City-State.
 	- Alma State Guard's strength reduced to 40 and it now upgrades to Infantry instead of Exo-Troopers.
 	- Pale Veteran's strength reduced to 38 and it now upgrades to Infantry (Ark Hunters) instead of NBC Infantry. Also, it now obsoletes at Replaceable Parts.
@@ -627,6 +630,7 @@
 	- The Mariners' Jet Boat buffed to 25 melee strength, 45 ranged strength.
 - Tree Lovers now cost 50 Production instead of 70, but only Tree plantations benefit from reduced construction time.
 - Wandering Doctors buffed to 24 combat strength.
+- Work Boats now have the ability to build all of the additional ocean tile improvements, but *only* for AI players. Human players still have to use Seastead Vessels for this.
 
 **Belief Adjustments**
 - Acolytes of a New God now awards +100 Faith (modified by game speed) for each city conquered.
@@ -646,7 +650,7 @@
 - Adaptation:
 	- Castle Doctrine buffed to +1 Happiness per 10 population and no longer requires a garrison.
 	- Centralization's Production bonus to building construction in the capital buffed to 15%.
-	- Planned Economy renamed to Endurance Programme and reduced to a 25% Water bonus, but it also adds +1 of the respective yield to active Farmers, Engineers and Merchants.
+	- Planned Economy renamed to Endurance Programme and reduced to a 25% Water bonus, but it no longer requires the Council, and it also adds +1 of the respective yield to active Farmers, Engineers and Merchants.
 	- The finisher bonus no longer requires a garrison for the bonus Food/Growth.
 - Sovereignty:
 	- The opener bonus now allows an additional 4 units to be maintenance free.
@@ -657,7 +661,7 @@
 	- Divine Mandate now lowers the Faith cost of unit/building purchase (instead of waiting until the finisher bonus).
 	- The free Great Sage from Apotheosis has been moved to the finisher bonus after testing demonstrated that placing it here made it available much too early (allowing factions to consistently found a religion in the first 20 turns of the game). Apotheosis instead awards a free Golden Age and keeps the policy cost reduction effect.
 	- Exodus of the Evangelists' added Faith yields to the Grand Monastery reduced to a fixed +4. The bonus belief from the finisher bonus has been moved here. Additionally, it no longer requires Indulgences, but still requires Organized Religion.
-	- The finisher bonus no longer adds Faith yields to Seminaries and their replacements. The added Culture has been increased to +3.
+	- The finisher bonus reduces the added Faith yields to Seminaries and their replacements to +1, and increases the added Culture yields to +3.
 - Rationalism:
 	- Technocracy no longer adds Water to Wonders or Science to the Council.
 	- Sample Analysis now adds +1 Science to all Refineries.
@@ -666,8 +670,8 @@
 	- The opener bonus is now restricted to Great Administrators (and set at 33%).
 	- Civil Society's strength bonus to cities reduced to 25%.
 	- Protected Speech's bonus to Culture building construction moved to Civil Society. Now it adds +1 Culture to each of the main Culture buildings except for the Monument (Sociopolitical Institute, Town Hall, Broadcast Tower, Television Studio, Alternet Cafe).
-	- Legislative Process no longer adds any boosts to GP generation.
-	- The finisher bonus has been nerfed again, now adding +2 Culture/Science to every Great Improvement.
+	- Legislative Process no longer adds any boosts to GP generation. However, it now also adds Culture to the Council.
+	- The finisher bonus has been moved to the new Legacy ideology. Constitution Complete now adds +2 Science/Culture to all Great Improvements.
 - Supremacy:
 	- The opener bonus now extends its Production bonus to Armories.
 	- Police State now cuts the construction time of Prison Camps and Work Camps in half.
@@ -758,7 +762,7 @@
 
 **New Units**
 - Everyone:
-	- Raiding Craft, unlocks at Sailing, "low tech" ranged water unit, upgrades to Gunboat, 70 production cost, 4 movement, 1 range, 18 melee strength, 15 ranged strength, cannot enter Ocean tiles or attack Land tiles, 1-in-3 chance of withdrawing from melee, can move after attacking, will spawn for Barbarians
+	- Raiding Craft, unlocks at Sailing, "low tech" ranged water unit, upgrades to Gunboat, 60 production cost, 4 movement, 1 range, 18 melee strength, 15 ranged strength, cannot enter Ocean tiles or attack Land tiles, 1-in-3 chance of withdrawing from melee, can move after attacking, will spawn for Barbarians
 	- Gunboat, unlocks at Navigation, upgrades to either Scout Cruiser or Torpedo Boat, 90 production cost, 4 movement, 1 range, 20 melee strength, 30 ranged strength, 1-in-3 chance of withdrawing from melee, cannot attack land tiles, moves twice as fast in Coast and can move after attacking, will spawn for Barbarians
 	- Exploding Boat, unlocks at Chemistry, obsoletes at Radar without an upgrade, 90 production cost, 4 movement, 25 melee strength, triple strength when attacking but blows itself up, half strength when defending, cannot attack land tiles, moves twice as fast in Coast, will spawn for Barbarians
 	- Scout Cruiser, unlocks at Steam Power, upgrades to Destroyer, 150 production cost, 5 movement, 2 range, 25 melee strength, 45 ranged strength, +1 Sight, 1-in-3 chance of withdrawing from melee, will never spawn for Barbarians

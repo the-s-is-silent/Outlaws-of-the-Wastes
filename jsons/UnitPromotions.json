@@ -420,10 +420,11 @@
 			"Turn this tile into a [Desert] tile <in [{non-[Natural Wonder]} {non-[Desert]} {Land}] tiles> <[2] times> <after which this unit is consumed>",
 			"Turn this tile into a [Tundra] tile <in [{non-[Natural Wonder]} {non-[Tundra]} {Land}] tiles> <[2] times> <after which this unit is consumed>",
 			"Turn this tile into a [Hill] tile <in [{non-[Natural Wonder]} {non-[Hill]} {Land}] tiles> <[2] times> <after which this unit is consumed>",
-			"Turn this tile into a [Tunneled Mountain] tile <in [{non-[Natural Wonder]} {Mountain}] tiles> <[2] times> <after which this unit is consumed>",
+			"Turn this tile into a [Tunneled Mountain] tile <in [{non-[Natural Wonder]} {Mountain}] tiles> <within [4] tiles of a [City center]> <[2] times> <after which this unit is consumed>",
 			"Turn this tile into a [Coast] tile <in [{non-[Natural Wonder]} {Ocean}] tiles> <[2] times> <after which this unit is consumed>",
 			"Turn this tile into a [Ocean] tile <in [{non-[Natural Wonder]} {Coast}] tiles> <[2] times> <after which this unit is consumed>",
 			"Turn this tile into a [Desert] tile <in [{non-[Natural Wonder]} {non-[resource]} {Coast}] tiles> <[2] times> <after which this unit is consumed>",
+			"Turn this tile into a [Desert] tile <in [{non-[Natural Wonder]} {Lakes}] tiles> <[2] times> <after which this unit is consumed>",
 			"Turn this tile into a [Lakes] tile <in [{non-[Natural Wonder]} {non-[resource]} {Land}] tiles> <[2] times> <after which this unit is consumed>",
 			"Turn this tile into a [Coast] tile <in [{non-[Natural Wonder]} {non-[resource]} {Land}] tiles> <[2] times> <after which this unit is consumed>"]
 	},

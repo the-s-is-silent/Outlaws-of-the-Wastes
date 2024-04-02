@@ -38,7 +38,7 @@
 			},
 			{
 				"name": "Endurance Programme",
-				"uniques": ["[+25]% [Gold] from every [Council]",
+				"uniques": ["[+25]% [Gold] [in capital]",
 					"[+1 Gold] from every [Merchant]",
 					"[+1 Food] from every [Farmer]",
 					"[+1 Production] from every [Engineer]"],
@@ -249,9 +249,9 @@
 			{
 				"name": "Theocracy Complete",
 				"uniques": ["Free [Great Sage] appears",
-					"[+1 Food, +3 Culture] from every [Seminary]",
-					"[+1 Food, +3 Culture] from every [Oracle]",
-					"[+1 Food, +3 Culture] from every [Endowment House]"]
+					"[+1 Food, +1 Faith, +3 Culture] from every [Seminary]",
+					"[+1 Food, +1 Faith, +3 Culture] from every [Oracle]",
+					"[+1 Food, +1 Faith, +3 Culture] from every [Endowment House]"]
 			}
 		]
 	},
@@ -359,6 +359,7 @@
 			{
 				"name": "Legislative Process",
 				"uniques": ["[+33]% [Culture] from every [Congress]",
+					"[+33]% [Culture] from every [Council]",
 					"Free [Great Administrator] appears"],
 				"requires": ["Civil Society", "Protected Speech"],
 				"row": 2,
