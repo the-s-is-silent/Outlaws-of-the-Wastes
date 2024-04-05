@@ -593,6 +593,8 @@
 	- Consequently, Rubble Gangs are now a standalone unit for Deadrock Clan.
 - Bartertown Security Force renamed (or rather, had its name corrected) to Bartertown Imperial Guard.
 - Battle-axe of the Lord now has 28 strength (was previously 27).
+- Biker (Barbarian unit) now replaces Horseman instead of Scout and is no longer considered a Mounted unit.
+- Black Ops (and Camelot SAS) have had their ranged and defense strength increased by 20, but their Production cost was also increased by 50.
 - Brownsteel Knight's Production cost reduced by 10; the initial cost increase of 20 from standard Hussars was too high considering the difference in strength between the two isn't that great.
 - Civilian Convoys (and TCC's replacement) can no longer found cities on Fissures.
 - Clansmen no longer require Clubhouses to be built, due to the building being available two tech eras later.
@@ -601,8 +603,10 @@
 	- Swordsmen buffed to 24 combat strength and receive bonuses against Barbarians and when defending from Ranged units. They also generate 1 Culture per turn while garrisoned after the first Colosseum is built.
 	- Legions buffed to 36 combat strength but no longer receive bonuses against cities.
 	- Both upgrade to Soldiers instead of Militia.
-- Destroying Angel no longer obsoletes.
+- Destroying Angel no longer obsoletes and gets the same +5 defense/ranged strength buff as NBC Infantry.
 - Drifter now has to embark and disembark as normal but gets double movement in Coast and Ocean tiles, and gets the same AI-only ability to construct non-instant water tile improvements as Work Boats.
+- Drop Troops buffed to 55 strength.
+- Exo-Troopers (and Proklyatyye's Super Mutants) have had their strength increased by 20 and gain a 25% bonus against Armor units, but their Production cost was also increased by 50.
 - Field Scientists reverted to 70 production cost, 1 charge, but remain standalone units.
 - First Aid units no longer have a 1-in-3 chance to capture Barbarians.
 - Forward Observers and their replacements (with the exception of the Legion's Speculatores) can no longer capture cities. They now play the "shot" attack sound in combat.
@@ -611,10 +615,13 @@
 - Hexlock's Purge Robots are now standalone units.
 	- Proto and MKI are now Armor units. The former's Production cost is increased to 75.
 	- MKI and MKII require Aluminum instead of their previous secondary strategic resource (Weapons for MKI, Oil for MKII).
+- Jetsuit buffed to 45 strength (New Star's Special Forces to 48).
 - Key to the City is no longer able to fortify, but now gets a +4 Movement bonus when starting its turn on Coast or Ocean tiles.
 - Machine Guns now start with Logistics and gain a bonus when attacking Scrapper and Shooter units.
 - Mechanized Workers can now enter impassable tiles and terraform tiles, receiving 2 charges.
-- Mormon Battalions now cost 230 Production, matching the cost of the NBC Infantry unit which they are superior to despite replacing normal Infantry and unlocking earlier.
+- Mormon Battalions now cost 230 Production, matching the cost of the NBC Infantry unit which they are superior to despite replacing normal Infantry and unlocking earlier. (Yes, they also get the same +5 strength buff as the NBC Infantry.)
+- Mounted Scrapper units are now *actually* Mounted units instead of using a fake unique. Mounted Shooter units will receive the same treatment later.
+- NBC Infantry/Marksman (and their replacements) have had their strength (and ranged strength for Marksman) increased by 5.
 - Persevering Pax Researchers are no longer Great People. No more will City-State quests ask you to somehow acquire them.
 - Philosophers and Censors (and their replacements) are now uncapturable.
 - Rubble Gunmen now replace Crossbowmen, correcting the major error in the base game where Deadrock Clan had two unique units replacing Archers.
@@ -624,7 +631,7 @@
 - State Guards are now limited to 3 per City-State.
 	- Alma State Guard's strength reduced to 40 and it now upgrades to Infantry instead of Exo-Troopers.
 	- Pale Veteran's strength reduced to 38 and it now upgrades to Infantry (Ark Hunters) instead of NBC Infantry. Also, it now obsoletes at Replaceable Parts.
-- Technopaths now actually get their intended endgame buff of a 30% Strength bonus at Artificial Intelligence. However, they now also consume Weapons and unlock later at Networking.
+- Technopaths buffed to 60 strength and they now actually get their intended endgame buff of a 30% Strength bonus at Artificial Intelligence. However, they now also consume Weapons and unlock later at Networking.
 - The Last Minute renamed to Sentinel Missile.
 - Torpedo Boat buffed to 30 melee strength, 40 ranged strength. However, it now consumes Oil.
 	- The Mariners' Jet Boat buffed to 25 melee strength, 45 ranged strength.
@@ -724,6 +731,7 @@
 - Sea Raider buffed to grant a combat bonus against wounded units and allow the ship to heal 25 HP for each kill.
 
 **Resource Adjustments**
+- Aluminum now spawns on Tundra tiles.
 - Hexlock's Chemicals are now Strategic Resources as they should be according to Hexlock's UA instead of Luxury Resources. Hexlock now actually suffers from early-game Happiness issues as intended.
 - Scriptures no longer have any stat yields on their own.
 

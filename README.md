@@ -52,6 +52,7 @@ A major expansion + rebalance mod for DeCiv Redux.
 - New tile improvements:
   - Artificial atoll and Floating Settlement, unlocked at Ocean Remediation and built exclusively by the Seastead Vessel.
   - Drydock, the Great Admiral's Great Improvement.
+  - Powership, unlocked at Electronics and built exclusively by the Seastead Vessel.
   - Preservator, borrowed from Bamboolord's expansion mods, currently exclusive to The Pax.
   - Supply Complex, the Great Merchant's new Great Improvement. No longer do Great Administrators and Great Merchants share a Great Improvement.
 

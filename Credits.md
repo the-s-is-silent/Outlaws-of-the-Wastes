@@ -1,7 +1,7 @@
 # Credits
 
 Like the status of the mod as a whole as well as DeCiv Redux's credit list, this is incomplete.<br>
-Pixel art will most likely reuse other sources (several of them from DeCiv, Drydock from Rekmod) for the initial upload.<br>
+Pixel art will most likely reuse other sources (several of them from DeCiv, Drydock from Rekmod, Barbarian Scout and Suicider from The Barbarians) for the initial upload.<br>
 Floating Settlement, Supply Complex, and Wasteland Station borrow tile images from Alpha Frontier, with permission from [Indonesian Gentleman](https://github.com/carriontrooper).<br>
 Preservator is borrowed from [Bamboolord](https://github.com/RealBamboolord) with his permission.<br>
 Several icons reuse images used in either Unciv or DeCiv Redux, with some of the latter remaining unsourced.<br>
@@ -219,6 +219,7 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 - Skiff: [skiff](https://thenounproject.com/icon/skiff-4687237/) by Eucalyp
 - Speculatores: [bloody knife](https://thenounproject.com/icon/bloody-knife-2109678/) by Vectors Market
 - State Guard: [Civil defense](https://thenounproject.com/icon/civil-defense-454060/) by Yuri Martins, ES
+- Suicider: [Suicide Bomber](https://thenounproject.com/icon/suicide-bomber-2409625/) by Gan Khoon Lay
 - Technopath: [mind ability](https://thenounproject.com/icon/mind-ability-3216421/) by Vectors Point, PK
 - Volt Driver: [railgun](https://thenounproject.com/icon/railgun-3873813/) by Ian Rahmadi Kurniawan, ID
 - Wandering Doctor: [caduceus](https://thenounproject.com/icon/caduceus-211045/) by icon 54

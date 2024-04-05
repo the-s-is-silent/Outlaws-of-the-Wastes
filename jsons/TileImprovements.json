@@ -9,6 +9,7 @@
 			"Can also be built on tiles adjacent to fresh water",
 			"[+1 Food] <after discovering [Land Remediation]>",
 			"Cannot be built on [Fissure] tiles",
+			"Can only be built to improve a resource <in [resource] tiles>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "F"
@@ -21,6 +22,7 @@
 		"techRequired": "Ecology",
 		"uniques": ["Food source",
 			"Gives a defensive bonus of [10]%",
+			"Cannot be built on [resource] tiles",
 			"Cannot be built on [Desert] tiles",
 			"Cannot be built on [Permafrost] tiles",
 			"Cannot be built on [Badlands] tiles <before discovering [Hydroponics]>",
@@ -103,6 +105,7 @@
 			"[+1 Culture] <with [1] to [6] neighboring [Nature preserve] tiles>",
 			"[+1 Production] <with [1] to [6] neighboring [Terrace farm] tiles>",
 			"[+1 Food] <after discovering [Atmosphere Remediation]>",
+			"Can only be built to improve a resource <in [resource] tiles>",
 			"Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "G"
 	},
@@ -115,9 +118,7 @@
 		"gold": 1,
 		"uniques": ["Food source",
 			"Can only be built on [Desert] tiles",
-			"Cannot be built on [Bonus resource] tiles",
-			"Cannot be built on [Strategic resource] tiles",
-			"Cannot be built on [Luxury resource] tiles",
+			"Cannot be built on [resource] tiles",
 			"[+1 Food, +1 Gold] from [Fresh water] tiles",
 			"Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "A"
@@ -148,9 +149,7 @@
 		"techRequired": "Land Remediation",
 		"uniques": ["Food source",
 			"Cannot be built on [Fissure] tiles",
-			"Cannot be built on [Bonus resource] tiles",
-			"Cannot be built on [Strategic resource] tiles",
-			"Cannot be built on [Luxury resource] tiles",
+			"Cannot be built on [resource] tiles",
 			"[+1 Food] for each adjacent [Mountain]",
 			"[+1 Food] for each adjacent [Tunneled Mountain]",
 			"[+1 Food, +1 Production] <with [1] to [6] neighboring [Grassland] tiles>",
@@ -185,9 +184,7 @@
 		"production": 2,
 		"techRequired": "Ocean Remediation",
 		"uniques": ["Food source",
-			"Cannot be built on [Bonus resource] tiles",
-			"Cannot be built on [Strategic resource] tiles",
-			"Cannot be built on [Luxury resource] tiles",
+			"Cannot be built on [resource] tiles",
 			"Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "A"
 	},
@@ -197,9 +194,7 @@
 		"turnsToBuild": 14,
 		"food": 2,
 		"techRequired": "Ocean Remediation",
-		"uniques": ["Cannot be built on [Bonus resource] tiles",
-			"Cannot be built on [Strategic resource] tiles",
-			"Cannot be built on [Luxury resource] tiles",
+		"uniques": ["Cannot be built on [resource] tiles",
 			"Cannot be built on [Water] tiles <with [1] to [6] neighboring [Floating Settlement] tiles>",
 			"[+1 Production] for each adjacent [Bioculture]",
 			"[+1 Production] for each adjacent [Modular island]",
@@ -247,7 +242,7 @@
 		"turnsToBuild": 14,
 		"terrainsCanBeBuiltOn": ["Sunken Ruins"],
 		"techRequired": "Ocean Remediation",
-		"uniques": ["Can be built outside your borders", "Cannot be built on [Resource] tiles"],
+		"uniques": ["Can be built outside your borders", "Cannot be built on [resource] tiles"],
 		"shortcutKey": "X"
 	},
 
