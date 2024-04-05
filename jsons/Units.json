@@ -1588,7 +1588,7 @@
 			"Cannot enter ocean tiles <before discovering [Navigation]>",
 			"Uncapturable",
 			"May create improvements on water resources",
-			"Can built [Water] improvements on tiles <for [AI player]> <hidden from users>",
+			"Can build [Water] improvements on tiles <for [AI player]> <hidden from users>",
 			"Automation is a primary action"
 		],
 		"hurryCostModifier": 20
