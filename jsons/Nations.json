@@ -349,7 +349,7 @@
 		"innerColor": [45, 60, 120],
 		"style": "Corporate",
 		"uniqueName": "Creative Leadership",
-		"uniques": ["Free [Great Scientist] appears <upon discovering [Education]>",
+		"uniques": ["Free [Great Scientist] appears <upon discovering [Education] technology>",
 			"[Great Scientist] is earned [30]% faster",
 			"Starts with [Electronics]",
 			"Starts with [Rationalism] adopted",
