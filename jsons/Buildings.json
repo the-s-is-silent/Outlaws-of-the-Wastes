@@ -925,7 +925,6 @@
 		"cost": 0,
 		"uniques": [
 			"[2] free [Combat Medic] units appear",
-			"Moves to new capital if capital changes",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Food Store] [in this city]"
 		],
