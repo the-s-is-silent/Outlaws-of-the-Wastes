@@ -237,8 +237,8 @@
 			"[Low Tech] units gain the [Urban Warfare I] promotion",
 			"[Personnel] units gain the [Urban Warfare I] promotion",
 			"Starts with [Collectivism] adopted",
-			"[+1 Faith] [in all cities] <with [1] to [2] neighboring [unimproved] [Jungle] tiles>",
-			"[+2 Faith] [in all cities] <with [3] to [6] neighboring [unimproved] [Jungle] tiles>",
+			"[+1 Faith] [in all cities] <with [1] to [2] neighboring [{unimproved} {Jungle}] tiles>",
+			"[+2 Faith] [in all cities] <with [3] to [6] neighboring [{unimproved} {Jungle}] tiles>",
 			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."
 		],
 		"cities": [
