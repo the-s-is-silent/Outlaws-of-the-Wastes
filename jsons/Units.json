@@ -158,7 +158,7 @@
 			"Hidden when [Colonization] Victory is disabled"]
 	},
 
-	//Collectivism ideology
+	//Collectivism policy
 	{
 		"name": "Stalker",
 		"unitType": "Scrapper",
@@ -182,7 +182,7 @@
 		"name": "Eco-Terrorist",
 		"unitType": "Scrapper",
 		"movement": 2,
-		"strength": 60,
+		"strength": 90,
 		"cost": 500,
 		"requiredTech": "Nuclear Fission",
 		"uniques": ["May Paradrop up to [10] tiles from inside friendly territory",
@@ -563,7 +563,7 @@
 		"requiredTech": "Robotics",
 		"uniques": [
 			"Automated",
-			"Can carry [2] [{Automated} {Aircraft}] units",
+			"Can carry [2] [{Automated} {Air}] units",
 			"Double movement in [Coast]",
 			"Can move after attacking",
 			"Can see invisible [Submarine] units",
@@ -836,11 +836,16 @@
 		"upgradesTo": "Rifleman",
 		"uniques": ["Personnel",
 			"Can be purchased for [200] [Gold] [in all non-occupied cities]",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion] <for [AI player]> <hidden from users>",
 			"[+10]% Strength bonus for [Military] units within [1] tiles",
 			"[-33]% Strength <vs cities> <when attacking>",
 			"Prevents spreading of religion to the city it is next to",
 			"Can remove other religions from cities <in [Friendly] tiles> <[2] times> <after which this unit is consumed>",
-			"[+1] Sight", "Unbuildable", "Uncapturable", "Religious Unit", "Hidden when religion is disabled"],
+			"[+1] Sight",
+			"Unbuildable",
+			"Uncapturable",
+			"Religious Unit",
+			"Hidden when religion is disabled"],
 		"attackSound": "shot"
 	},
 	{
@@ -927,10 +932,11 @@
 		"strength": 30,
 		"rangedStrength": 24,
 		"interceptRange": 1,
-		"cost": 50,
+		"cost": 60,
 		"upgradesTo": "Rifleman",
 		"uniques": ["Personnel",
 			"Can be purchased for [200] [Gold] [in all non-occupied cities]",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion] <for [AI player]> <hidden from users>",
 			"[+10]% Strength bonus for [Military] units within [2] tiles",
 			"[-33]% Strength <vs cities>",
 			"Prevents spreading of religion to the city it is next to",

@@ -8,43 +8,63 @@
 	{
 		"name": "Atomic Children",
 		"type": "Pantheon",
-		"uniques": ["[+2 Culture, +2 Faith] from every [Fallout]",
+		"uniques": [
+			"[+2 Culture, +2 Faith] from every [Fallout]",
 			"[+2 Culture, +2 Faith] from every [Toxic Waste]",
-			"[+2 Culture, +2 Faith] from every [Uranium]"]
+			"[+2 Culture, +2 Faith] from every [Uranium]"
+		]
+	},
+	{
+		"name": "Blessed Steel",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Culture, +1 Faith] from every [{Metal} {resource}]",
+			"[+1 Culture, +1 Faith] from every [{Scrap} {resource}]"
+		]
 	},
 	{
 		"name": "Divine Judgment",
 		"type": "Pantheon",
-		"uniques": ["[+2 Faith] from every [Barracks]",
-			"[+2 Happiness] from every [Bomb Shelter]"]
+		"uniques": [
+			"[+2 Faith] from every [Barracks]",
+			"[+2 Happiness] from every [Bomb Shelter]"
+		]
 	},
 	{
 		"name": "Domain of the Old Gods",
 		"type": "Pantheon",
-		"uniques": ["[+1 Faith] from every [Forest] <within [2] tiles of a [City center]>",
+		"uniques": [
+			"[+1 Faith] from every [Forest] <within [2] tiles of a [City center]>",
 			"[+1 Faith] from every [Jungle] <within [2] tiles of a [City center]>",
-			"[+1 Faith] from every [Sunken Ruins]"]
+			"[+1 Faith] from every [Sunken Ruins]"
+		]
 	},
 	{
 		"name": "Fertility Rites",
 		"type": "Pantheon",
-		"uniques": ["[+10]% growth [in this city]",
-			"[+1 Food, +1 Faith] from every [Food Store]"]
+		"uniques": [
+			"[+10]% growth [in this city]",
+			"[+1 Food, +1 Faith] from every [Food Store]"
+		]
 	},
 	{
 		"name": "God of Beasts",
 		"type": "Pantheon",
-		"uniques": ["[+1 Culture] from every [Horses]",
-			"[+1 Culture] from every [Cattle]",
-			"[+1 Culture] from every [Goats]",
-			"[+1 Culture] from every [Deer]",
-			"[+1 Culture] from every [Hogs]"]
+		"uniques": [
+			"[+1 Culture] from every [{Horses} {resource}]",
+			"[+1 Culture] from every [{Cattle} {resource}]",
+			"[+1 Culture] from every [{Goats} {resource}]",
+			"[+1 Culture] from every [{Deer} {resource}]",
+			"[+1 Culture] from every [{Hogs} {resource}]"
+		]
 	},
 	{
 		"name": "God of Commerce",
 		"type": "Pantheon",
-		"uniques": ["[+2 Gold, +1 Faith] from each Trade Route",
-			"[+1 Faith] from every [Market]"]
+		"uniques": [
+			"[+2 Gold, +1 Faith] from each Trade Route",
+			"[+1 Faith] from every [Market]"
+		]
 	},
 	{
 		"name": "God of Love",
@@ -54,19 +74,26 @@
 	{
 		"name": "God of Winter",
 		"type": "Pantheon",
-		"uniques": ["[+1 Faith] from every [Tundra] <within [2] tiles of a [City center]>",
-			"[+1 Faith] from every [Permafrost] <within [2] tiles of a [City center]>"]
+		"uniques": [
+			"[+1 Faith] from every [Tundra] <within [2] tiles of a [City center]>",
+			"[+1 Faith] from every [Permafrost] <within [2] tiles of a [City center]>"
+		]
 	},
 	{
 		"name": "Harvest Festival",
 		"type": "Pantheon",
-		"uniques": ["[+1 Faith] from every [Grain]", "[+1 Faith] from every [Tubers]"]
+		"uniques": [
+			"[+1 Faith] from every [{Grain} {resource}]",
+			"[+1 Faith] from every [{Tubers} {resource}]"
+		]
 	},
 	{
 		"name": "Home and Hearth",
 		"type": "Pantheon",
-		"uniques": ["[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith, +1 Happiness] from every [Bomb Shelter]",
-			"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith, +1 Happiness] per [5] population [in capital]"]
+		"uniques": [
+			"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith, +1 Happiness] from every [Bomb Shelter]",
+			"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith, +1 Happiness] per [5] population [in capital]"
+		]
 	},
 	{
 		"name": "Hymns of Praise",
@@ -74,19 +101,31 @@
 		"uniques": ["[+2 Gold, +1 Happiness] from every [Shrine]"]
 	},
 	{
+		"name": "Lord of the Flies",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Culture, +1 Faith] from every [{Insects} {resource}]",
+			"[+1 Culture, +1 Faith] from every [{Hostile Fauna} {resource}]"
+		]
+	},
+	{
 		"name": "Old World Idols",
 		"type": "Pantheon",
-		"uniques": ["[+1 Culture, +1 Faith] from every [Gems]",
-			"[+1 Culture, +1 Faith] from every [Silver]"]
+		"uniques": [
+			"[+1 Culture, +1 Faith] from every [{Gems} {resource}]",
+			"[+1 Culture, +1 Faith] from every [{Silver} {resource}]"
+		]
 	},
 	{
 		"name": "Patron Saint of Scavengers",
 		"type": "Pantheon",
-		"uniques": ["[+1 Production, +1 Faith] from every [Electronics]",
-			"[+1 Production, +1 Faith] from every [Machine Parts]",
-			"[+1 Production, +1 Faith] from every [Plastics]",
-			"[+1 Production, +1 Faith] from every [Scrap]",
-			"[+1 Production, +1 Faith] from every [Weapons]"]
+		"uniques": [
+			"[+1 Production, +1 Faith] from every [{Electronics} {resource}]",
+			"[+1 Production, +1 Faith] from every [{Machine Parts} {resource}]",
+			"[+1 Production, +1 Faith] from every [{Plastics} {resource}]",
+			"[+1 Production, +1 Faith] from every [{Scrap} {resource}]",
+			"[+1 Production, +1 Faith] from every [{Weapons} {resource}]"
+		]
 	},
 	{
 		"name": "Pray for Water",
@@ -96,15 +135,19 @@
 	{
 		"name": "Religious Settlements",
 		"type": "Pantheon",
-		"uniques": ["[-25]% Culture cost of natural border growth [in this city]",
+		"uniques": [
+			"[-25]% Culture cost of natural border growth [in this city]",
 			"[-25]% Gold cost of acquiring tiles [in this city]",
-			"[+25]% Production when constructing [Civilian] units [in this city]"]
+			"[+25]% Production when constructing [Civilian] units [in this city]"
+		]
 	},
 	{
 		"name": "Respect the Wind",
 		"type": "Pantheon",
-		"uniques": ["[+1 Faith] from every [Hill] <in tiles without [Forest]> <in tiles without [Jungle]> <within [2] tiles of a [City center]>",
-			"[+2 Production, +1 Faith] from every [Wind farm]"]
+		"uniques": [
+			"[+1 Faith] from every [Hill] <in tiles without [Forest]> <in tiles without [Jungle]> <within [2] tiles of a [City center]>",
+			"[+2 Production, +1 Faith] from every [Wind farm]"
+		]
 	},
 	{
 		"name": "Sacred Bog",
@@ -114,36 +157,46 @@
 	{
 		"name": "Sacred Ruins",
 		"type": "Pantheon",
-		"uniques": ["[+1 Culture] from every [Forest] <within [2] tiles of a [City center]>",
+		"uniques": [
+			"[+1 Culture] from every [Forest] <within [2] tiles of a [City center]>",
 			"[+1 Culture] from every [Jungle] <within [2] tiles of a [City center]>",
-			"[+1 Culture] from every [Sunken Ruins]"]
+			"[+1 Culture] from every [Sunken Ruins]"
+		]
 	},
 	{
 		"name": "Sacrificial Fire",
 		"type": "Pantheon",
-		"uniques": ["[+10]% Production when constructing [{Military} {Land}] units [in this city]",
-			"Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
+		"uniques": [
+			"[+10]% Production when constructing [{Military} {Land}] units [in this city]",
+			"Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"
+		]
 	},
 	{
 		"name": "Spiritual Research",
 		"type": "Pantheon",
-		"uniques": ["[+1 Culture, +1 Faith] from every [Artifacts]",
-			"[+1 Culture, +1 Faith] from every [Books]",
-			"[+1 Culture, +1 Faith] from every [Data]",
-			"[+1 Culture, +1 Faith] from every [Encrypted Data]"]
+		"uniques": [
+			"[+1 Culture, +1 Faith] from every [{Artifacts} {resource}]",
+			"[+1 Culture, +1 Faith] from every [{Books} {resource}]",
+			"[+1 Culture, +1 Faith] from every [{Data} {resource}]",
+			"[+1 Culture, +1 Faith] from every [{Encrypted Data} {resource}]"
+		]
 	},
 	{
 		"name": "Strength of the Earth",
 		"type": "Pantheon",
-		"uniques": ["[+1 Faith] from every [Mine] <within [2] tiles of a [City center]>",
+		"uniques": [
+			"[+1 Faith] from every [Mine] <within [2] tiles of a [City center]>",
 			"[+1 Faith] from every [Borehole] <within [2] tiles of a [City center]>",
-			"[+1 Faith] from every [Manufactory]"]
+			"[+1 Faith] from every [Manufactory]"
+		]
 	},
 	{
 		"name": "Works of Genius",
 		"type": "Pantheon",
-		"uniques": ["[+2 Faith] from every [Great Improvement]",
-			"[+2 Science, +1 Faith] [in cities following this religion] <in cities with at least [1] [Specialists]>"]
+		"uniques": [
+			"[+2 Faith] from every [Great Improvement]",
+			"[+2 Science, +1 Faith] [in cities following this religion] <in cities with at least [1] [Specialists]>"
+		]
 	},
 
 //Follower

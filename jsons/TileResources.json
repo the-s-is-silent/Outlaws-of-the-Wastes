@@ -18,10 +18,10 @@
 		"improvementStats": {"production": 1},
 		"uniques": [
 			"Generated on every [12] tiles <in [{Featureless} {Tundra}] tiles>",
-			"Generated on every [25] tiles <in [Badlands] tiles> <in tiles without [Hill]>",
-			"Generated on every [25] tiles <in [Wasteland] tiles> <in tiles without [Hill]>",
-			"Generated on every [16] tiles <in [Tundra] tiles> <in tiles without [Hill]>",
-			"Generated on every [16] tiles <in [Permafrost] tiles> <in tiles without [Hill]>"
+			"Generated on every [25] tiles <in [{non-[Hill]} {Badlands}] tiles>",
+			"Generated on every [25] tiles <in [{non-[Hill]} {Wasteland}] tiles>",
+			"Generated on every [16] tiles <in [{non-[Hill]} {Tundra}] tiles>",
+			"Generated on every [16] tiles <in [{non-[Hill]} {Permafrost}] tiles>"
 		]
 	},
 	{
@@ -81,6 +81,24 @@
 		],
 		"majorDepositAmount": { "sparse": 2, "default": 3, "abundant": 4 },
 		"minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 }
+	},
+	{
+		"name": "Encrypted Data",
+		"resourceType": "Strategic",
+		"revealedBy": "Electronics",
+		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
+		"improvedBy": ["Borough"],
+		"improvementStats": { "science": 2 },
+		"majorDepositAmount": { "sparse": 2, "default": 3, "abundant": 4 },
+		"minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 },
+		"uniques": [
+			"Guaranteed with Strategic Balance resource option",
+			"[+15]% Production when constructing [All] wonders [in all cities]",
+			"Generated with weight [70] <in [Jungle] tiles>",
+			"Generated with weight [70] <in [Forest] tiles>",
+			"Minor deposits generated with weight [10] <in [Forest] tiles>",
+			"Minor deposits generated with weight [10] <in [Jungle] tiles>"
+		]
 	},
 	{
 		"name": "Books",
@@ -174,34 +192,34 @@
 		"production": 1,
 		"resourceType": "Strategic",
 		"improvementStats": {"production": 1},
-		"uniques": ["Not shown on world screen"]
+		"uniques": ["Not shown on world screen <for [non-[Hexlock]]>"]
 	},
 	{
 		"name": "C2N14",
 		"gold": 2,
 		"resourceType": "Strategic",
 		"improvementStats": {"gold": 2},
-		"uniques": ["Not shown on world screen"]
+		"uniques": ["Not shown on world screen <for [non-[Hexlock]]>"]
 	},
 	{
 		"name": "C8H17",
 		"culture": 1,
 		"resourceType": "Strategic",
 		"improvementStats": {"culture": 1},
-		"uniques": ["Not shown on world screen"]
+		"uniques": ["Not shown on world screen <for [non-[Hexlock]]>"]
 	},
 	{
 		"name": "SbF5",
 		"science": 1,
 		"resourceType": "Strategic",
 		"improvementStats": {"science": 1},
-		"uniques": ["Not shown on world screen"]
+		"uniques": ["Not shown on world screen <for [non-[Hexlock]]>"]
 	},
 	{
 		"name": "VX",
 		"food": 1,
 		"resourceType": "Strategic",
 		"improvementStats": {"food": 1},
-		"uniques": ["Not shown on world screen"]
+		"uniques": ["Not shown on world screen <for [non-[Hexlock]]>"]
 	}
 ]
