@@ -551,7 +551,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniqueTo": "Venice Beach",
 		"uniques": [
-			"[+1 Gold] <after discovering [Oceanography]",
+			"[+1 Gold] <after discovering [Oceanography]>",
 			"[+1 Culture] <after discovering [Radio]>",
 			"[+1 Happiness] <after discovering [Social Engineering]>",
 			"[+1 Gold, +1 Culture] <after discovering [Globalization]>",
