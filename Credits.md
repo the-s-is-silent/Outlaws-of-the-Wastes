@@ -4,7 +4,7 @@ Like the status of the mod as a whole as well as DeCiv Redux's credit list, this
 Pixel art will most likely reuse other sources (several of them from DeCiv, Drydock from Rekmod, Barbarian Scout and Suicider from The Barbarians) for the initial upload.<br>
 Floating Settlement, Supply Complex, and Wasteland Station borrow tile images from Alpha Frontier, with permission from [Indonesian Gentleman](https://github.com/carriontrooper).<br>
 Preservator is borrowed from [Bamboolord](https://github.com/RealBamboolord) with his permission.<br>
-Several icons reuse images used in either Unciv or DeCiv Redux, with some of the latter remaining unsourced.<br>
+Several icons reuse images used in Unciv, DeCiv Redux, Civ 6 mod, and Rekmod, with some of the latter three remaining unsourced.<br>
 The Religion Icons for Anglicanism, Imperial Cult and Mormonism were created by Tomatekh on CivFanatics and can be found [at the Civ 5 Customization Wiki's entry on the Tomatekh's Historical Religions mod](https://civilization-v-customisation.fandom.com/wiki/Tomatekh%27s_Historical_Religions).<br>
 The icons for Alma Frontier Guard and Alma State Guard are of my own creation.
 

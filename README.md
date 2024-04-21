@@ -13,6 +13,8 @@ A major expansion + rebalance mod for DeCiv Redux.
 
 - Many units, buildings, wonders, promotions, beliefs, tile improvements, and ruins bonuses from the base scenario have been either buffed or nerfed, or in the worst-case scenario removed outright. In addition, the social policies have been overhauled. Check the Rebalance Log.md file for a comprehensive list of adjustments.
 
+- All 14 factions in the base scenario have had their unique ability and/or one or more of their unique components adjusted. Check the Faction Adjustments.md file for more details.
+
 ## Other features
 
 - Terraforming is present, with the feature delegated to Mechanized Workers until such time as it is either implemented (or not implemented) in base DeCiv.
@@ -51,15 +53,18 @@ A major expansion + rebalance mod for DeCiv Redux.
 
 - New tile improvements:
   - Artificial atoll and Floating Settlement, unlocked at Ocean Remediation and built exclusively by the Seastead Vessel.
-  - Drydock, the Great Admiral's Great Improvement.
+  - Caer, imported from Rekmod, exclusive to Camelot Foundation.
+  - Drydock, imported from Rekmod, the Great Admiral's Great Improvement.
+  - Polder, unlocked at Engineering and can be built on Swamps, Coasts and Lakes, though the latter two require at least 3 adjacent Land tiles.
   - Powership, unlocked at Electronics and built exclusively by the Seastead Vessel.
   - Preservator, borrowed from Bamboolord's expansion mods, currently exclusive to The Pax.
+  - Seaside Resort, exclusive to Venice Beach.
   - Supply Complex, the Great Merchant's new Great Improvement. No longer do Great Administrators and Great Merchants share a Great Improvement.
-
-- All 14 factions in the base scenario have had their unique ability and/or one or more of their unique components adjusted. Several of those factions have received at least one new unique component. Check the Faction Adjustments.md file for more details.
 
 - Several new beliefs for more diverse religion customization.
 
 - Several new ruins bonuses with each ruins effect now being weighted, along with buffs to some of the base scenario's bonuses.
+
+- Several of the 14 factions in the base scenario have received at least 1 new unit and/or building. Again, check the Faction Adjustments.md file for more details.
 
 - And more is planned for the future; check the ToDoList.md file for some of these things.
