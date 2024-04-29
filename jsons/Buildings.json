@@ -129,6 +129,15 @@
 		"requiredTech": "Currency"
 	},
 	{
+		"name": "Renovate Metal Pyramid",
+		"happiness": 4,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": ["[+6 Culture] from [Metal Pyramid] tiles [in all cities]",
+			"[+2 Gold, +2 Culture] from each Trade Route",
+			"Must have an owned [Metal Pyramid] within [5] tiles"],
+		"requiredTech": "Steam Power"
+	},
+	{
 		"name": "Naval War College",
 		"greatPersonPoints": {"Great Admiral": 4},
 		"isNationalWonder": true,
@@ -3760,6 +3769,26 @@
 		"cost": 70,
 		"hurryCostModifier": 25,
 		"requiredTech": "Botany"
+	},
+	{
+		"name": "Hidesite",
+		"replaces": "Ranch",
+		"uniqueTo": "Enclavers",
+		"cityHealth": 50,
+		"food": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Food] from [Cattle] tiles [in this city]",
+			"[+1 Food] from [Insects] tiles [in this city]",
+			"[+1 Food] from [Fungus] tiles [in this city]",
+			"[+1 Food] from [Goats] tiles [in this city]",
+			"[+1 Food] from [Furs] tiles [in this city]",
+			"[+1 Food] from [Hogs] tiles [in this city]",
+			"[+1 Food] from [Horses] tiles [in this city]",
+			"[+1 Food] from [Deer] tiles [in this city]"
+		],
+		"requiredTech": "Redomestication"
 	},
 	{
 		"name": "Experiment on Survivors",

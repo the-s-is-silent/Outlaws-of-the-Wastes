@@ -1,5 +1,34 @@
 [
 	{
+		"name": "Grain",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Badlands", "Swamp", "Desert"],
+		"food": 1,
+		"improvedBy": ["Farm", "Fortified Farm", "Grassland"],
+		"improvementStats": { "food": 1 },
+		"uniques": [
+			"Generated on every [27] tiles <in [Badlands] tiles>",
+			"Generated on every [10] tiles <in [Desert] tiles> <in tiles without [Hill]>",
+			"Generated on every [20] tiles <in [Badlands] tiles> <in [Hill] Regions>",
+			"Generated on every [20] tiles <in [Desert] tiles> <in tiles without [Hill]> <in [Hill] Regions>"
+		]
+	},
+	{
+		"name": "Tubers",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Badlands", "Tundra", "Wasteland"],
+		"food": 1,
+		"revealedBy": "Botany",
+		"improvedBy": ["Farm", "Fortified Farm", "Grassland"],
+		"improvementStats": { "food": 1 },
+		"uniques": [
+			"Generated on every [12] tiles <in [{Featureless} {Tundra}] tiles>",
+			"Generated on every [25] tiles <in [{Featureless} {Badlands}] tiles> <in tiles without [Hill]>",
+			"Generated on every [25] tiles <in [{Featureless} {Wasteland}] tiles> <in tiles without [Hill]>",
+			"Generated on every [16] tiles <in [{Featureless} {Tundra}] tiles> <in [Hill] Regions>"
+		]
+	},
+	{
 		"name": "Scrap",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": [

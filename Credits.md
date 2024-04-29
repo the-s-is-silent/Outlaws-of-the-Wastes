@@ -2,7 +2,7 @@
 
 Like the status of the mod as a whole as well as DeCiv Redux's credit list, this is incomplete.<br>
 Pixel art will most likely reuse other sources (several of them from DeCiv, Drydock from Rekmod, Barbarian Scout and Suicider from The Barbarians) for the initial upload.<br>
-Floating Settlement, Supply Complex, and Wasteland Station borrow tile images from Alpha Frontier, with permission from [Indonesian Gentleman](https://github.com/carriontrooper).<br>
+Floating Settlement, Fortified Farm, Supply Complex, and Wasteland Station borrow tile images from Alpha Frontier, with permission from [Indonesian Gentleman](https://github.com/carriontrooper).<br>
 Preservator is borrowed from [Bamboolord](https://github.com/RealBamboolord) with his permission.<br>
 Several icons reuse images used in Unciv, DeCiv Redux, Civ 6 mod, and Rekmod, with some of the latter three remaining unsourced.<br>
 The Religion Icons for Anglicanism, Imperial Cult and Mormonism were created by Tomatekh on CivFanatics and can be found [at the Civ 5 Customization Wiki's entry on the Tomatekh's Historical Religions mod](https://civilization-v-customisation.fandom.com/wiki/Tomatekh%27s_Historical_Religions).<br>
@@ -51,6 +51,7 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 - Gupvi: Same icon as above
 - Harbinger Manege: [greek temple](https://thenounproject.com/icon/greek-temple-915585/) by Blair Adams, US
 - Hexlock Chemical Company: [chemical industry](https://thenounproject.com/icon/chemical-industry-4762097/) by Azam Ishaq, PK
+- Hidesite: [Blockhouse](https://thenounproject.com/icon/blockhouse-4020245/) by Philine Klingel, DE
 - Homeland Defense Initiative: [national defense](https://thenounproject.com/icon/national-defense-4363309/) by Yusuf Solihudin, ID
 - Ice Hockey Rink: [hockey](https://thenounproject.com/icon/hockey-3509449/) by nareerat jaikaew, TH
 - Ignitor's Tower: [Brick Tower](https://thenounproject.com/icon/brick-tower-384759/) by Creative Stall, PK
@@ -81,6 +82,7 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 - Refurbished Textile Mill: [Textile industry](https://thenounproject.com/icon/textile-industry-5649184/) by Studio 365
 - Rehabilitation Center: [Hospital](https://thenounproject.com/icon/hospital-2453105/) by Vectors Point, PK
 - Remedial School (currently unused): [educational school building](https://thenounproject.com/icon/educational-school-building-3017500/) by Vectors Point
+- Renovate Metal Pyramid: [Pyramid](https://thenounproject.com/icon/pyramid-957412/) by Lluisa Iborra, ES
 - Research and Preservation Institute: [institute](https://thenounproject.com/icon/institute-5137615/) by lastspark, RU
 - Restored Temple of Zion: [Salt Lake Temple](https://thenounproject.com/icon/salt-lake-temple-219294/) by Nick Bluth, US
 - Riding Arena: [stadium](https://thenounproject.com/icon/stadium-4477576/) by Doodle Icons
@@ -114,6 +116,7 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 - Drydock: [Dock Lifter](https://thenounproject.com/icon/dock-lifter-906357/) by Smashicons, GB
 - Endowment House: [charity box](https://thenounproject.com/icon/charity-box-4091320/) by Nattapol Seengern
 - Floating Settlement: [houseboat](https://thenounproject.com/icon/houseboat-4260799/) by Luis Prado, US
+- Fortified Farm: Merger of [barbed](https://thenounproject.com/icon/barbed-4600063/) by Icons Cart, PK and [Farm](https://thenounproject.com/icon/farm-6714843/) by Sahruddin, ID
 - Powership: [barge](https://thenounproject.com/icon/barge-4131218/) by Amethyst Studio, TH
 - Wasteland Station: [station terminal](https://thenounproject.com/icon/station-terminal-2260974/) by Eucalyp
 

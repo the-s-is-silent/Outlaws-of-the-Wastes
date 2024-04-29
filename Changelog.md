@@ -337,6 +337,7 @@
 	- They no longer start with any free techs aside from Electronics.
 	- They no longer have a nonsensical (and frankly unnecessary) double Production speed bonus towards their unique Electrostatic Generators.
 	- However, the early-game Science penalty has also been removed.
+	- They also receive one buff: all of their non-Mounted, non-Ranged Personnel units inherit the Surveyor's ability to build tile improvements regardless of whether or not they upgraded from a Surveyor.
 - Children of Rust nerfed; the Faith bonus only applies as long as the Ruins tiles are unimproved, and they no longer start with Redomestication.
 - Crimson Legion buffed:
 	- They now start with Iron Working instead of Redomestication.
@@ -831,6 +832,8 @@
 	- Defiance Armory (replaces standard Armory, no resource requirement or added yields, provides 2 Weapons, will be destroyed if the CS is captured)
 - Deseret Nation:
 	- Grand Tabernacle (replaces Grand Monastery, creates an Endowment House on completion and boosts the yields of Endowment Houses by +1 Food, +2 Water/Culture)
+- Enclavers:
+	- Hidesite (replaces Ranch, adds +50 City HP (but is not a City Defense building), +1 Food to Deer/Fungus tiles and +1 Food to the building itself, and has no resource requirements)
 - The Harbingers:
 	- Austere Processing Hub (replaces Ground Control Center, doubles Encrypted Data resources and adds Science yields to the owning city (+5 base, +10% total) but is more expensive (400 base vs. original's rebalanced 300, increasing by 30 per owned city) and requires every non-puppeted city to own a Census Chamber)
 	- Interstice (replaces Transport Network, adds +1 Production to tiles with Railroads)
@@ -867,13 +870,30 @@
 
 **New National Wonders**
 - National Reservoir System, available at Currency, provides +4 Water in the city it's built in and adds +1 Water to Groundwater, Lakes and Spring tiles along with +1 Water to city connections, but requires every city to own a Water Storage and its Production cost scales upward (125 base + 30 per owned city)
+- Renovate Metal Pyramid, available at Steam Power, +4 Local Happiness, adds +6 Culture to the new Metal Pyramid ancient wonder and +2 Water/Culture to city connections
 - Microwave Power Satellite, available at Incentivization, must be in a desert city, provides significant late-game boosts to Solar collectors (+4 Production each) along with 8 units of Power, and adds +1 Production to all desert tiles in the city, +5 Production to the city itself, and +2 Local Happiness
 
 **New Social Policy**
 - Legacy ideology, imported from "DeCiv 1", adjusted, and available at the Industrial era like all the others
 
 **New Improvements**
+- Caer, imported from Rekmod, exclusive to Camelot Foundation:
+	- Unlocked at Engineering
+	- Can only be built on resource-less Hills
+	- Starts at +3 Water, +1 Production/Culture
+	- Gains another +2 Culture from tech scaling
+	- Adds 50% defense to units stationed on the tile
+- Fortified Farm, exclusive to Enclavers:
+	- Unlocked at Engineering
+	- Same stats/placement requirements as basic Farm, but also:
+	- Starts at +1 Production (+2 if on a Hill)
+	- Gains +1 Production from finishing the Adaptation policy tree
+	- Gains +1 Food at Ecology (in addition to the +1 at Land Remediation)
+	- Adds 50% defense to units stationed on the tile
+	- Inflicts 10 damage to enemy units that end their turn next to the tile
+- Polder, unlocked at Engineering and built on resource-less Swamp/Coast/Lakes tiles (the latter two require 3+ adjacent Land tiles), starts at +1 Food (+2 if on Swamp) and gains +1 Food/Production and +2 Water at Decontamination
 - Powership, unlocked at Electronics and built on resource-less Coast tiles, adding another minor source of Power along with minor Production yields (+1, increasing to +2 at Advanced Materials)
+- Seaside Resort, exclusive to Venice Beach and built on resource-less coastal tiles, starts at 1/1/1 Water/Culture/Happiness and increases to 3/3/2 from tech scaling
 - Supply Complex, created by Great Merchants, starting at +4 Water and increasing by +6 from tech scaling
 
 **New Promotions**
@@ -884,6 +904,9 @@
 
 **New Terrain**
 - Tunneled Mountains, created from normal Mountains by Military Engineers and Mechanized Workers. Cities cannot be founded inside these mountains, and only roads/railroads and Artificial glaciers may be built on/in these tiles.
+
+**New Ancient Wonder**
+- Metal Pyramid (base stats: +2 Culture)
 
 **New Beliefs**
 - Divine Judgment (Pantheon), adding +2 Faith to Barracks and +2 Happiness to the Bomb Shelter (Lekmod import, but no boost to Courthouse equivalent)

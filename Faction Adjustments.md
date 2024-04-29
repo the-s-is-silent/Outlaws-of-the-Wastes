@@ -2,6 +2,7 @@
 
 #### Atlas
 - They are given a Mountain start bias and are now forbidden from building Enslaved units, Prison Camps and Work Camps.
+- All of their Melee Personnel units (except Mounted units) now inherit the Surveyor ability promotion regardless of whether or not they upgraded from a Surveyor.
 - Their number of starting techs is reduced to one - Electronics - and they no longer have the nonsensical and unnecessary double Production speed towards Electrostatic Generators.
 - Additionally, the free Great Scientist from their UA has been pushed back from Secrets of the Past to Education, and the only Great People they generate faster with their UA are Great Scientists. Though they no longer have a starting Science penalty.
 - Atlas Refuge no longer has a Scientist slot, but adds 60 City HP (up from 40), 5 City Strength and 1 base point of Science.
@@ -107,6 +108,8 @@
 #### Enclavers
 - Stockpile buffed to +2 Food.
 - Scrounged Armory and Guerilla Camp no longer provide defensive boosts to cities.
+- New UB: Hidesite (replaces Ranch, +1 Food, adds +1 Food to Deer/Fungus tiles and +50 City HP but is *not* considered a City Defense building, no resource requirements to build)
+- New UI: Fortified Farm (unlocks at Engineering, same placement restrictions as basic Farm, +1 Food/Production (+2 Production on Hills), +1 Food at Ecology, +1 Food at Land Remediation, +1 Production from completing Adaptation)
 
 #### Hexlock
 - They start with fewer free techs now: knowledge of Chemistry is gained, but knowledge of Construction, Machinery and Engineering is lost. The malus on GP generation is removed, and Encrypted Data resources are doubled by their UA.
@@ -141,14 +144,14 @@
   - Drifter (replaces Worker, doesn't need to embark, can build water improvements, ~31% cheaper to build)
   - Cutter Boat (replaces Raiding Craft, allowed to enter Ocean tiles, 2-in-3 chance to withdraw from melee units)
   - Lagoon (replaces Gunboat, 2-in-3 chance to withdraw from melee units)
-  - Key to the City (replaces Anti-Aircraft Gun, doesn't need to embark, +100% Strength vs cities)
+  - Key to the City (replaces Anti-Aircraft Gun, doesn't need to embark, +4 movement in water, +100% Strength vs cities, cannot fortify)
 - TODO: Add a Great Admiral and Naval War College replacement
 
 #### New Afrika
 - The +20% combat bonus against larger factions no longer has a policy requirement.
 - The "Great Wall" effect in their UA now expires at Railroads.
 - They no longer start with Redomestication.
-- Great Mosque, along with the standard Mosque, have been temporarily removed from the game and replaced with UBs which are more accurate to their religion.
+- Great Mosque, along with the standard Mosque, have been temporarily removed from the game and replaced with UBs which should be more accurate to their religion.
 - Survival Program now adds +1 Culture per 4 population instead of a flat +2 Culture to all cities.
 - Revolutionary Council now adds a +15% Production bonus towards Personnel units for all cities.
 - New UBs:

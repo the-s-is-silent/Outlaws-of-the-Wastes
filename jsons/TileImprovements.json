@@ -540,6 +540,28 @@
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		]
 	},
+	{
+		"name": "Fortified Farm",
+		"uniqueTo": "Enclavers",
+		"terrainsCanBeBuiltOn": ["Badlands", "Desert", "Swamp"],
+		"food": 1,
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Engineering",
+		"uniques": [
+			"Food source",
+			"Can also be built on tiles adjacent to fresh water",
+			"[+1 Production] <in [Hill] tiles>",
+			"[+1 Production] <after adopting [Adaptation Complete]>",
+			"[+1 Food] <after discovering [Ecology]>",
+			"[+1 Food] <after discovering [Land Remediation]>",
+			"Gives a defensive bonus of [50]%",
+			"Adjacent enemy units ending their turn take [10] damage",
+			"Cannot be built on [Fissure] tiles",
+			"Can only be built to improve a resource <in [resource] tiles>",
+			"Pillaging this improvement yields approximately [+10 Food, +10 Gold]"
+		]
+	},
 
 	//City-States
 	{
