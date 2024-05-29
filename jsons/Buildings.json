@@ -120,6 +120,7 @@
 		"isNationalWonder": true,
 		"cost": 125,
 		"gold": 4,
+		"percentStatBonus": {"gold": 10},
 		"uniques": ["[+1 Gold] from each Trade Route",
 			"[+1 Gold] from [Groundwater] tiles [in all cities]",
 			"[+1 Gold] from [Spring] tiles [in all cities]",
@@ -205,6 +206,15 @@
 		"requiredTech": "Machinery"
 	},
 	{
+		"name": "Community Garden",
+		"food": 2,
+		"specialistSlots": {"Farmer": 1},
+		"maintenance": 1,
+		"uniques": ["[+25]% Great Person generation [in this city]",
+			"[+1 Food] [in this city] <with [Exotic Seeds]>"],
+		"requiredTech": "Ecology"
+	},
+	{
 		"name": "Ethanol Station",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -226,7 +236,8 @@
 		"percentStatBonus": {"gold": 10},
 		"uniques": ["[+1 Gold] from [Moisture trap] tiles [in this city]",
 			"Consumes [1] [Coal]",
-			"Obsolete with [Atmosphere Remediation]"],
+			"Obsolete with [Atmosphere Remediation]",
+			"Remove [Condenser Cooler] [in this city] <after discovering [Atmosphere Remediation]> <hidden from users>"],
 		"requiredTech": "Steam Power"
 	},
 	{
@@ -235,7 +246,7 @@
 		"specialistSlots": {"Administrator": 1},
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"replacementTextForUniques": "Every completed social policy adds +1 Culture to this city.",
+		"replacementTextForUniques": "Each social policy tree completed adds +1 Culture to this city.",
 		"uniques": ["[+1 Culture] [in this city] <after adopting [Adaptation Complete]>",
 			"[+1 Culture] [in this city] <after adopting [Expansionism Complete]>",
 			"[+1 Culture] [in this city] <after adopting [Sovereignty Complete]>",
@@ -720,7 +731,6 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["Remove extra unhappiness from annexed cities",
-			"[+25]% Great Person generation [in this city]",
 			"Provides [1] [Encrypted Data]",
 			"Only available <in cities without a [Prison Camp]>",
 			"Destroyed when the city is captured"],
@@ -907,6 +917,213 @@
 			"[+4 Production] from [Tunneled Mountain] tiles [in this city]",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Munitions"
+	},
+
+	//Aztlán unique buildings
+	{
+		"name": "Plumed Serpent Pyramid",
+		"uniqueTo": "Aztlán",
+		"isWonder": true,
+		"culture": 1,
+		"cost": 0,
+		"uniques": [
+			"[2] free [Jaguar] units appear",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Calpulli] [in this city]"
+		]
+	},
+	{
+		"name": "Temalacatl",
+		"replaces": "Monument",
+		"uniqueTo": "Aztlán",
+		"culture": 2,
+		"cost": 40,
+		"maintenance": 0,
+		"uniques": ["New [Low Tech] units start with [15] Experience [in this city]",
+			"[+1 Happiness] [in this city] <when at war>"]
+	},
+	{
+		"name": "Calpulli",
+		"replaces": "Barracks",
+		"uniqueTo": "Aztlán",
+		"food": 1,
+		"production": 1,
+		"cost": 50,
+		"maintenance": 1,
+		"uniques": ["[+5]% growth [in this city]",
+			"New [Military] units start with [15] Experience [in this city]",
+			"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Amoxcalli",
+		"replaces": "Library",
+		"uniqueTo": "Aztlán",
+		"hurryCostModifier": 25,
+		"requiredTech": "Writing",
+		"uniques": ["[+1 Science] per [3] population [in this city]",
+			"[+2 Science] from [Books] tiles [in this city]",
+			"Gain [2]-[5] [Science] <upon gaining a [Low Tech] unit>",
+			"Only available <in cities with a [Calpulli]>"]
+	},
+	{
+		"name": "Chinampa",
+		"replaces": "Greenhouse",
+		"uniqueTo": "Aztlán",
+		"food": 2,
+		"specialistSlots": {"Farmer": 1},
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Botany",
+		"uniques": ["[+1 Food] from [Grain] tiles [in this city]",
+			"[+1 Food] from [Tubers] tiles [in this city]",
+			"[+1 Food] from [{Fresh water} {Farm}] tiles [in this city]",
+			"[+1 Food] [in this city] <with [Exotic Seeds]>",
+			"Only available <in cities with a [Calpulli]>",
+			"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Tiyanquitzli",
+		"replaces": "Market",
+		"uniqueTo": "Aztlán",
+		"gold": 1,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"requiredTech": "Trade",
+		"uniques": ["[+1 Gold] from [Luxury resource] tiles [in this city]",
+			"[+1 Gold] per [4] social policies adopted",
+			"Only available <in cities with a [Calpulli]>"]
+	},
+	{
+        "name": "Tlachtli",
+        "replaces": "Listening Post",
+        "uniqueTo": "Aztlán",
+        "culture": 2,
+        "happiness": 2,
+        "maintenance": 1,
+        "cost": 90,
+        "hurryCostModifier": 25,
+        "requiredTech": "Engineering",
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			"Only available <in cities without a [Prison Camp]>",
+			"Destroyed when the city is captured"]
+    },
+	{
+		"name": "Teocalli",
+		"replaces": "Monastery",
+		"uniqueTo": "Aztlán",
+		"faith": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Education",
+		"replacementTextForUniques": "Each social policy tree completed adds +1 Faith to this city.",
+		"uniques": ["Only available <in cities with a [Shrine]>",
+			"Hidden when religion is disabled",
+			"Destroyed when the city is captured",
+			"[+1 Faith] [in this city] <after adopting [Adaptation Complete]>",
+			"[+1 Faith] [in this city] <after adopting [Expansionism Complete]>",
+			"[+1 Faith] [in this city] <after adopting [Sovereignty Complete]>",
+			"[+1 Faith] [in this city] <after adopting [Theocracy Complete]>",
+			"[+1 Faith] [in this city] <after adopting [Rationalism Complete]>",
+			"[+1 Faith] [in this city] <after adopting [Constitution Complete]>",
+			"[+1 Faith] [in this city] <after adopting [Supremacy Complete]>",
+			"[+1 Faith] [in this city] <after adopting [Monopoly Complete]>",
+			"[+1 Faith] [in this city] <after adopting [Collectivism Complete]>",
+			"[+1 Faith] [in this city] <after adopting [Rediscovery Complete]>",
+			"[+1 Faith] [in this city] <after adopting [Naturalism Complete]>",
+			"[+1 Faith] [in this city] <after adopting [Mechanization Complete]>",
+			"[+1 Faith] [in this city] <after adopting [Bionics Complete]>",
+			"[+1 Faith] [in this city] <after adopting [Legacy Complete]>"]
+	},
+	{
+		"name": "Calmecac",
+		"replaces": "University",
+		"uniqueTo": "Aztlán",
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 1},
+		"uniques": ["[+1 Science] from [Jungle] tiles [in this city]",
+			"[+1 Science] from [Forest] tiles [in this city]",
+			"[+1 Science] from [Sunken Ruins] tiles [in this city]",
+			"[+25]% Great Person generation [in this city]",
+			"New [{Military} {Land}] units start with [15] Experience [in this city]",
+			"Only available <in cities with a [Amoxcalli]>"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Telpochcalli",
+		"replaces": "Public School",
+		"uniqueTo": "Aztlán",
+		"culture": 2,
+		"science": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Science] per [2] population [in this city] <after discovering [Networking]>",
+			"[+15]% Production when constructing [Land] units [in this city]",
+			"Only available <in cities with a [Amoxcalli]>"],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Cabildo",
+		"replaces": "Town Hall",
+		"uniqueTo": "Aztlán",
+		"culture": 2,
+		"specialistSlots": {"Administrator": 1},
+		"maintenance": 1,
+		"uniques": ["[-25]% Culture cost of natural border growth [in this city]",
+			"[-25]% Gold cost of acquiring tiles [in this city]",
+			"[+1 Culture] per [6] social policies adopted <when above [0] [Power]>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Nuevo Templo Mayor",
+		"replaces": "Grand Monastery",
+		"uniqueTo": "Aztlán",
+		"isNationalWonder": true,
+		"culture": 3,
+		"faith": 8,
+		"cost": 125,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"Only available <if [Teocalli] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city",
+			"Can only be built <in [Holy] cities>",
+			"Only available <after adopting [Theocracy]>",
+			"Hidden when religion is disabled",
+			"All newly-trained [Philosopher] units [in this city] receive the [Devout] promotion",
+			"All newly-trained [Great Sage] units [in this city] receive the [Devout] promotion",
+			"[+100 Culture] whenever a Great Person is expended"
+		]
+	},
+	{
+		"name": "Congress of the Alliance",
+		"replaces": "Congress",
+		"uniqueTo": "Aztlán",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+1 Culture] per [4] population [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
+			"Gifts of Gold to City-States generate [25]% more Influence",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Council of Four]>",
+			"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Council of Four",
+		"replaces": "Council",
+		"uniqueTo": "Aztlán",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+10]% growth [in all cities]",
+			"[+5]% Production when constructing [All] buildings [in this city]",
+			"[+15]% Strength <for [Land] units> <when fighting in [Enemy Land] tiles>",
+			"City-State Influence recovers at twice the normal rate",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Congress of the Alliance]>",
+			"Destroyed when the city is captured"]
 	},
 
 	//Adjusted buildings and wonders
@@ -1231,6 +1448,7 @@
 			"[-5]% Unhappiness from [Population] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
+			"Moves to new capital when capital changes",
 			"Unbuildable <if [Rally Station] is constructed>",
 			"Cannot be purchased",
 			"Destroyed when the city is captured"]
@@ -1248,6 +1466,7 @@
 			"[+5]% Production when constructing [All] buildings [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
+			"Moves to new capital when capital changes",
 			"Unbuildable <if [Gideon Scanner] is constructed>",
 			"Cannot be purchased",
 			"Destroyed when the city is captured"]
@@ -1259,7 +1478,8 @@
 		"cost": 150,
 		"requiredTech": "Civil Service",
 		"uniques": ["[Land] units gain the [Stormfront] promotion",
-			"[+100]% City Strength from defensive buildings",
+			"[+50]% City Strength from defensive buildings",
+			"[+25]% Great Person generation [in all cities]",
 			"[+1 Culture] per [4] population [in all cities]",
 			"[-5]% Unhappiness from [Population] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
@@ -1273,11 +1493,7 @@
 		"uniqueTo": "Hexlock",
 		"cost": 150,
 		"requiredTech": "Civil Service",
-		"uniques": ["Provides [2] [C1F3]",
-			"Provides [2] [C2N14]",
-			"Provides [2] [C8H17]",
-			"Provides [2] [SbF5]",
-			"Provides [2] [VX]",
+		"uniques": ["Instantly provides [6] [Experimental Chemicals]",
 			"[+100]% Yield from every [Crystal Refinery]",
 			"[+10]% growth [in all cities]",
 			"[+5]% Production when constructing [All] buildings [in all cities]",
@@ -1367,7 +1583,15 @@
 		"requiredTech": "Civil Service",
 		"uniques": ["Production to [Science] conversion in cities changed by [33]%",
 			"[+25]% Production when constructing [Science] buildings [in all cities]",
-			"[+15]% Production towards any buildings that already exist in the Capital",
+			"Comment [Non-Unique Great Improvements receive +2 to their respective primary yield (Citadels receive +1 Water, +1 Science)]",
+			"[+2 Food] from every [Factory farm] <hidden from users>",
+			"[+2 Production] from every [Manufactory] <hidden from users>",
+			"[+2 Production] from every [Drydock] <hidden from users>",
+			"[+2 Gold] from every [Supply Complex] <hidden from users>",
+			"[+2 Culture] from every [Settlement] <hidden from users>",
+			"[+2 Science] from every [Academy] <hidden from users>",
+			"[+2 Faith] from every [Seminary] <hidden from users>",
+			"[+1 Gold, +1 Science] from every [Citadel] <hidden from users>",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Freedom Foundation]>",
@@ -2322,7 +2546,7 @@
 	{
 		"name": "Greenhouse",
 		"food": 2,
-		"specialistSlots": { "Farmer": 1 },
+		"specialistSlots": {"Farmer": 1},
 		"uniques": [
 			"[+1 Food] from [Tubers] tiles [in this city]",
 			"[+1 Food] from [Grain] tiles [in this city]",
@@ -2335,12 +2559,12 @@
 	{
 		"name": "Hydroponic Farming",
 		"food": 2,
-		"specialistSlots": { "Farmer": 3 },
+		"specialistSlots": {"Farmer": 2},
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Consumes [1] [Power]",
-			"[+1 Food] from [Lakes] tiles [in this city]",
+			"[+2 Food] from [Lakes] tiles [in this city]",
 			"[+1 Food] [in this city] <with [Exotic Seeds]>"
 		],
 		"requiredTech": "Hydroponics"
@@ -3332,7 +3556,6 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["Remove extra unhappiness from annexed cities",
-			"[+25]% Great Person generation [in this city]",
 			"Only available <in cities without a [Prison Camp]>",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Civil Service"
@@ -3367,6 +3590,7 @@
 	},
 	{
 		"name": "Prison Camp",
+		"happiness": -2,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
@@ -3395,6 +3619,7 @@
 		"name": "Processing Center",
 		"replaces": "Prison Camp",
 		"uniqueTo": "Cult of Ignis",
+		"happiness": -2,
 		"percentStatBonus": {"food": -10},
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
@@ -3744,6 +3969,7 @@
 		"name": "Slave Quarters",
 		"replaces": "Prison Camp",
 		"uniqueTo": "Deadrock Clan",
+		"happiness": -2,
 		"hurryCostModifier": 25,
 		"uniques": ["Remove extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>",
@@ -3810,7 +4036,7 @@
 		"hurryCostModifier": -25,
 		"uniques": ["[20]% Food is carried over after population increases [in this city]",
 			"[+1 Food] [in this city] <with [Salt]>",
-			"[+1 Food] [in this city] <when above [0] [VX]>",
+			"[+1 Food] [in this city] <when above [0] [Experimental Chemicals]>",
 			"[-1 Production, +1 Gold] [in this city] <with [Alcohol]>",
 			"[-1 Production, +1 Gold] [in this city] <with [Narcotics]>",
 			"[-1 Production, +1 Gold] [in this city] <with [Refined Narcotics]>"]
@@ -3874,17 +4100,97 @@
 		]
 	},
 	{
+		"name": "Compound Mix GA",
+		"uniqueTo": "Hexlock",
+		"cost": 70,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Free [Great Administrator] appears",
+			"Must have an owned [C8H17 Refinery] within [3] tiles",
+			"Only available <in cities with a [Compound Mixer]>",
+			"Instantly consumes [2] [Experimental Chemicals]",
+			"Unsellable",
+			"Never destroyed when the city is captured",
+			"Limited to [3] per Civilization"
+		]
+	},
+	{
 		"name": "Compound Mix GF",
 		"uniqueTo": "Hexlock",
 		"cost": 70,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Free [Great Farmer] appears",
+			"Must have an owned [VX Refinery] within [3] tiles",
 			"Only available <in cities with a [Compound Mixer]>",
-			"Consumes [1] [VX]",
-			"Consumes [1] [C2N14]",
+			"Instantly consumes [2] [Experimental Chemicals]",
 			"Unsellable",
 			"Never destroyed when the city is captured",
+			"Requires at least [999] population <when below [2] [Experimental Chemicals]> <hidden from users>",
+			"Limited to [3] per Civilization"
+		]
+	},
+	{
+		"name": "Compound Mix GS",
+		"uniqueTo": "Hexlock",
+		"cost": 70,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Free [Great Scientist] appears",
+			"Must have an owned [SbF5 Refinery] within [3] tiles",
+			"Only available <in cities with a [Compound Mixer]>",
+			"Instantly consumes [2] [Experimental Chemicals]",
+			"Unsellable",
+			"Never destroyed when the city is captured",
+			"Requires at least [999] population <when below [2] [Experimental Chemicals]> <hidden from users>",
+			"Limited to [3] per Civilization"
+		]
+	},
+	{
+		"name": "Compound Mix GM",
+		"uniqueTo": "Hexlock",
+		"cost": 70,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Free [Great Merchant] appears",
+			"Must have an owned [C2N14 Refinery] within [3] tiles",
+			"Only available <in cities with a [Compound Mixer]>",
+			"Instantly consumes [2] [Experimental Chemicals]",
+			"Unsellable",
+			"Never destroyed when the city is captured",
+			"Requires at least [999] population <when below [2] [Experimental Chemicals]> <hidden from users>",
+			"Limited to [3] per Civilization"
+		]
+	},
+	{
+		"name": "Compound Mix GE",
+		"uniqueTo": "Hexlock",
+		"cost": 70,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Free [Great Engineer] appears",
+			"Must have an owned [C1F3 Refinery] within [3] tiles",
+			"Only available <in cities with a [Compound Mixer]>",
+			"Instantly consumes [2] [Experimental Chemicals]",
+			"Unsellable",
+			"Never destroyed when the city is captured",
+			"Requires at least [999] population <when below [2] [Experimental Chemicals]> <hidden from users>",
+			"Limited to [3] per Civilization"
+		]
+	},
+	{
+		"name": "Compound Mix Meltdown",
+		"uniqueTo": "Hexlock",
+		"cost": 140,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Instantly consumes [6] [Experimental Chemicals]",
+			"Free Great Person",
+			"Must have an owned [Crystal Refinery] within [3] tiles",
+			"Unsellable",
+			"Never destroyed when the city is captured",
+			"Only available <in cities with a [Compound Mixer]>",
+			"Requires at least [999] population <when below [6] [Experimental Chemicals]> <hidden from users>",
 			"Limited to [3] per Civilization"
 		]
 	},
@@ -3962,8 +4268,7 @@
 		"happiness": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+25]% Great Person generation [in this city]",
-			"Population loss from nuclear attacks [-25]% [in this city]",
+		"uniques": ["Population loss from nuclear attacks [-25]% [in this city]",
 			"Damage to garrison from nuclear attacks [-25]% [in this city]",
 			"Free [Rapid Response Squad] appears",
 			"Destroyed when the city is captured"],
@@ -4027,6 +4332,7 @@
 		"replaces": "Prison Camp",
 		"uniqueTo": "Proklyatyye",
 		"hurryCostModifier": 25,
+		"happiness": -2,
 		"percentStatBonus": {"food": -10},
 		"uniques": ["Remove extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>",
@@ -4270,7 +4576,7 @@
 		"cityStrength": 10,
 		"cost": 0,
 		"uniques": ["[+20]% Production when constructing [Helicopter] units [in this city]",
-			"[+20]% Production when constructing [Aircraft] units [in this city]",
+			"[+20]% Production when constructing [Air] units [in this city]",
 			"Free [Salvaged Helicopter] appears",
 			"Free [Salvaged Bomber] appears <upon discovering [Steel] technology>",
 			"Must not be on [Hill]",
@@ -4663,6 +4969,24 @@
 		]
 	},
 	{
+		"name": "Lawkeeper Office",
+		"uniqueTo": "Defiance",
+		"replaces": "Defense Directorate",
+		"cityHealth": 50,
+		"specialistSlots": {"Administrator": 2},
+		"culture": 3,
+		"happiness": 3,
+		"cost": 0,
+		"uniques": ["[5] units cost no maintenance",
+			"Free [Lawkeeper] appears",
+			"Free [Roller] appears",
+			"[2] free [Pre-War Turret] units appear",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built <in [Capital] cities>",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"]
+	},
+	{
 		"name": "Exotic Reactor",
 		"uniqueTo": "Defiance",
 		"cost": 0,
@@ -4679,20 +5003,6 @@
 			"New [Military] units start with [15] Experience [in this city]",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Lawkeeper Office",
-		"uniqueTo": "Defiance",
-		"replaces": "Town Hall",
-		"specialistSlots": {"Administrator": 2},
-		"culture": 3,
-		"happiness": 3,
-		"cost": 0,
-		"uniques": ["[+1 Culture, +1 Happiness] [in this city] <when above [0] [Power]>",
-			"Free [Lawkeeper] appears",
-			"Destroyed when the city is captured",
-			"Will not be displayed in Civilopedia"],
-		"requiredTech": "Civil Service"
 	},
 	{
 		"name": "Von Bach Industries",
@@ -4827,6 +5137,7 @@
 			"[3] units cost no maintenance",
 			"Free [Blueliner] appears",
 			"[2] free [Pre-War Turret] units appear",
+			"[2] free [Goon] units appear <upon declaring war with a major Civilization>",
 			"Reveals the entire map",
 			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",

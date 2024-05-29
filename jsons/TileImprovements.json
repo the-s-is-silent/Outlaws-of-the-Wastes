@@ -34,6 +34,33 @@
 		"shortcutKey": "T"
 	},
 	{
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 9,
+		"techRequired": "Mining",
+		"uniques": [
+			"[+1 Production] <after discovering [Steam Power]>",
+			"Can only be built to improve a resource <in [resource] tiles>",
+			"Obsolete with [Advanced Materials]",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Pasture",
+		"turnsToBuild": 7,
+		"techRequired": "Redomestication",
+		"uniques": [
+			"Food source",
+			"[+1 Food] <after discovering [Ecology]>",
+			"Obsolete with [Genetics]",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "P"
+	},
+	{
 		"name": "Moisture trap",
 		"terrainsCanBeBuiltOn": [
 			"Badlands",
@@ -63,6 +90,9 @@
 		"uniques": ["Provides [1] [Power]",
 			"[+1 Production] <after discovering [Plastics]>",
 			"[+1 Production] <after discovering [Atmosphere Remediation]>",
+			"Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
 			"Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "L"
 	},
@@ -118,7 +148,9 @@
 		"gold": 1,
 		"uniques": ["Food source",
 			"Can only be built on [Desert] tiles",
-			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
 			"[+1 Food, +1 Gold] from [Fresh water] tiles",
 			"Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "A"
@@ -127,6 +159,7 @@
 		"name": "Artificial glacier",
 		"terrainsCanBeBuiltOn": ["Permafrost", "Mountain", "Tunneled Mountain"],
 		"gold": 3,
+		"science": 2,
 		"production": 1,
 		"food": 1,
 		"turnsToBuild": 10,
@@ -135,7 +168,9 @@
 			"Food source",
 			"Gives a defensive bonus of [10]%",
 			"[+1 Gold] from [Fresh water] tiles",
-			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "G"
@@ -167,7 +202,9 @@
 			"[+1 Food] from [Swamp] tiles",
 			"[+1 Production, +2 Gold] <after discovering [Decontamination]>",
 			"Cannot be built on [Water] tiles <with [0] to [2] neighboring [Land] tiles>",
-			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		]
 	},
@@ -191,6 +228,25 @@
 		"shortcutKey": "H"
 	},
 	{
+		"name": "Borehole",
+		"techRequired": "Advanced Materials",
+		"terrainsCanBeBuiltOn": ["Hill", "Fissure"],
+		"turnsToBuild": 10,
+		"production": 3,
+		"science": 1,
+		"uniques": [
+			"[+1 Science, +1 Production] <after discovering [Geo Engineering]>",
+			"Provides [1] [Uranium] <in [Uranium] tiles>",
+			"Provides [1] [Coal] <in [Coal] tiles>",
+			"Provides [1] [Aluminum] <in [Aluminum] tiles>",
+			"Provides [1] [Silver] <in [Silver] tiles>",
+			"Provides [1] [Gems] <in [Gems] tiles>",
+			"Provides [1] [Salt] <in [Salt] tiles>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "B"
+	},
+	{
 		"name": "Artificial atoll",
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"turnsToBuild": 10,
@@ -198,7 +254,7 @@
 		"production": 2,
 		"techRequired": "Ocean Remediation",
 		"uniques": ["Food source",
-			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Water resource] tiles",
 			"Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "A"
 	},
@@ -208,7 +264,7 @@
 		"turnsToBuild": 14,
 		"food": 2,
 		"techRequired": "Ocean Remediation",
-		"uniques": ["Cannot be built on [resource] tiles",
+		"uniques": ["Cannot be built on [Water resource] tiles",
 			"Cannot be built on [Water] tiles <with [1] to [6] neighboring [Floating Settlement] tiles>",
 			"[+1 Production] for each adjacent [Bioculture]",
 			"[+1 Production] for each adjacent [Modular island]",
@@ -268,8 +324,9 @@
 		"uniques": ["Great Improvement",
 			"Gives a defensive bonus of [10]%",
 			"Removes removable features when built",
-			"[+3 Science] <after discovering [Laboratory]>",
-			"[+3 Science] <after discovering [Decryption]>",
+			"[+2 Science] <after discovering [Education]>",
+			"[+2 Science] <after discovering [Laboratory]>",
+			"[+2 Science] <after discovering [Decryption]>",
 			"Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
@@ -304,8 +361,8 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Great Improvement",
 			"Gives a defensive bonus of [10]%",
-			"[+2 Production, +1 Food] <after discovering [Steam Power]>",
-			"[+2 Production, +1 Food] <after discovering [Railroads]>",
+			"[+1 Production, +1 Food] <after discovering [Steam Power]>",
+			"[+1 Production, +1 Food] <after discovering [Railroads]>",
 			"[+2 Production, +1 Science] <after discovering [Robotics]>",
 			"[+2 Production, +1 Science] <after discovering [Advanced Materials]>",
 			"Removes removable features when built",
@@ -359,7 +416,7 @@
 			"[+1 Production, +1 Science] <after discovering [Radar]>",
 			"[+1 Production, +1 Science] <after discovering [Ocean Remediation]>",
 			"[+1 Production, +1 Science] <after discovering [Pharmaceuticals]>",
-			"[+2 Production, +2 Science] <after discovering [Satellites]>",
+			"[+1 Production, +1 Science] <after discovering [Satellites]>",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]"]
 	},
@@ -434,6 +491,9 @@
 			"[+4 Science, +2 Gold] <with [4] to [6] neighboring [Refinery] tiles>",
 			"[+2 Production] <in [Coal] tiles>",
 			"[+2 Production] <in [Oil] tiles>",
+			"Provides [1] [Coal] <in [Coal] tiles>",
+			"Provides [1] [Oil] <in [Oil] tiles>",
+			"Instantly provides [3] [Experimental Chemicals]",
 			"Gives a defensive bonus of [110]%",
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Can be built just outside your borders",
@@ -448,7 +508,7 @@
 		"uniqueTo": "Hexlock",
 		"uniques": [
 			"Refinery",
-			"Provides [1] [C1F3]",
+			"Instantly provides [1] [Experimental Chemicals]",
 			"Gives a defensive bonus of [10]%",
 			"[+1 Production] <with [1] to [6] neighboring [Strategic resource] tiles>",
 			"[+1 Production] <with [1] to [6] neighboring [Manufactory] tiles>",
@@ -464,10 +524,10 @@
 		"uniqueTo": "Hexlock",
 		"uniques": [
 			"Refinery",
-			"Provides [1] [C2N14]",
+			"Instantly provides [1] [Experimental Chemicals]",
 			"Gives a defensive bonus of [10]%",
 			"[+1 Production] <with [1] to [6] neighboring [Strategic resource] tiles>",
-			"[+1 Gold] <with [1] to [6] neighboring [Settlement] tiles>",
+			"[+1 Gold] <with [1] to [6] neighboring [Supply Complex] tiles>",
 			"[+1 Gold] <after discovering [Laboratory]>",
 			"[+1 Gold] <after discovering [Advanced Materials]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
@@ -480,7 +540,7 @@
 		"uniqueTo": "Hexlock",
 		"uniques": [
 			"Refinery",
-			"Provides [1] [C8H17]",
+			"Instantly provides [1] [Experimental Chemicals]",
 			"Gives a defensive bonus of [10]%",
 			"[+1 Production] <with [1] to [6] neighboring [Strategic resource] tiles>",
 			"[+1 Culture] <with [1] to [6] neighboring [Settlement] tiles>",
@@ -496,7 +556,7 @@
 		"uniqueTo": "Hexlock",
 		"uniques": [
 			"Refinery",
-			"Provides [1] [SbF5]",
+			"Instantly provides [1] [Experimental Chemicals]",
 			"Gives a defensive bonus of [10]%",
 			"[+1 Production] <with [1] to [6] neighboring [Strategic resource] tiles>",
 			"[+1 Science] <with [1] to [6] neighboring [Academy] tiles>",
@@ -512,7 +572,7 @@
 		"uniqueTo": "Hexlock",
 		"uniques": [
 			"Refinery",
-			"Provides [1] [VX]",
+			"Instantly provides [1] [Experimental Chemicals]",
 			"Gives a defensive bonus of [10]%",
 			"[+1 Production] <with [1] to [6] neighboring [Strategic resource] tiles>",
 			"[+1 Food] <with [1] to [6] neighboring [Factory farm] tiles>",
@@ -606,7 +666,8 @@
 		"gold": 4,
 		"uniques": [
 			"Great Improvement",
-			"[+1 Gold] <with [1] to [6] neighboring [Jungle Replanting Zone] tiles>",
+			"[+1 Gold] <with [1] to [3] neighboring [Jungle Replanting Zone] tiles>",
+			"[+2 Gold] <with [4] to [6] neighboring [Jungle Replanting Zone] tiles>",
 			"[+2 Gold] <after discovering [Plastics]>",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"Provides [1] [Bananas]"

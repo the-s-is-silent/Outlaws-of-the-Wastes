@@ -221,34 +221,39 @@
 		"production": 1,
 		"resourceType": "Strategic",
 		"improvementStats": {"production": 1},
-		"uniques": ["Not shown on world screen <for [non-[Hexlock]]>"]
+		"uniques": ["Not shown on world screen", "Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "C2N14",
 		"gold": 2,
 		"resourceType": "Strategic",
 		"improvementStats": {"gold": 2},
-		"uniques": ["Not shown on world screen <for [non-[Hexlock]]>"]
+		"uniques": ["Not shown on world screen", "Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "C8H17",
 		"culture": 1,
 		"resourceType": "Strategic",
 		"improvementStats": {"culture": 1},
-		"uniques": ["Not shown on world screen <for [non-[Hexlock]]>"]
+		"uniques": ["Not shown on world screen", "Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "SbF5",
 		"science": 1,
 		"resourceType": "Strategic",
 		"improvementStats": {"science": 1},
-		"uniques": ["Not shown on world screen <for [non-[Hexlock]]>"]
+		"uniques": ["Not shown on world screen", "Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "VX",
 		"food": 1,
 		"resourceType": "Strategic",
 		"improvementStats": {"food": 1},
-		"uniques": ["Not shown on world screen <for [non-[Hexlock]]>"]
+		"uniques": ["Not shown on world screen", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Experimental Chemicals",
+		"resourceType": "Strategic",
+		"uniques": ["Stockpiled", "Not shown on world screen <for [non-[Hexlock]]>"]
 	}
 ]

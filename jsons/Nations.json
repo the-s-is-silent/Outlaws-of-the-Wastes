@@ -30,9 +30,9 @@
 			"May choose [1] additional [Enhancer] beliefs when [founding] a religion",
 			"Cannot build [Enslaved] units"],
 		"cities": ["Zion Valley", "New Canaan", "Provorem", "Grand Staircase", "Cueva Guarache", "Fort Walker", "Dead Horse Point", "Angel's Landing",
-			"Traverse City", "New Tooele", "Patriarch's Court", "Urim and Thummim", "Malki Tzedek", "Maeserville", "Fort Browning", "Kobol", "Rainbow Bridge",
-			"Burham Springs", "Hovenweep", "Van Buren", "Nuevo Vicios"],
-		"spyNames": ["Daniel", "Mordecai", "Adama", "Jeremiah", "Judah", "Two-Bears-High-Fiving", "Marianne", "Clark", "Dancing Flame", "Quiet Shadow"],
+			"Traverse City", "New Tooele", "New Nephi", "Patriarchs' Court", "Urim and Thummim", "Malki Tzedek", "Maeserville", "Pine Creek",
+			"Fort Browning", "Kobol", "Anamani", "Rainbow Bridge", "Hovenweep", "Old Rockville", "Van Buren", "Burham Springs", "Nuevo Vicios"],
+		"spyNames": ["Daniel", "Mordecai", "Waking Cloud", "Jeremiah", "Judah", "Two-Bears-High-Fiving", "Marianne", "Clark", "Dancing Flame", "Quiet Shadow"],
 		"civilopediaText": [
 			{
 				"text": "Every day, we fall. Some days are harder than others. The day the nukes were launched... was the hardest fall yet for mankind. In the earliest days after the fallout settled, I tried to mete out vengeance against those responsible for the Cataclysm, unaware that I was setting myself up for my own great fall. I rallied many survivors, broken and disillusioned as I was, and set out on a brutal campaign, forgetting all I had been taught in the desire for revenge. The need to make my wrath into God's wrath. And sure enough, that disastrous journey led to my fall, and I found myself at Hell's gates."
@@ -73,9 +73,10 @@
 			"Starts with [Constitution] adopted",
 			"[-2 Science] [in all cities] <before discovering [Education]>",
 			"Cannot build [Enslaved] units"],
-		"cities": ["Avalon", "Caerleon", "New Troy", "Tristram", "Caer Danwyn", "Trevena", "Alderley", "Gwalchmai", "Laundsallyn", "Gyanhumara",
-			"Pellaeon", "Caerbannog", "Ambrose", "Cambria", "Sutcliff", "The Eildons", "Benwick", "Eletti", "Alba Sarum", "Carhaix",
-			"Carduel", "Joyeuse Garde", "Glatissante"],
+		"cities": ["Avalon", "Caerleon", "New Troy", "Tristram", "Caer Danwyn", "Trevena", "Alderley", "Gwalchmai",
+			"Laundsallyn", "Gyanhumara", "Pellaeon", "Caerbannog", "Ambrose", "Cambria", "Sutcliff", "The Eildons",
+			"Stirling", "Brodick", "Benwick", "Eletti", "Alba Sarum", "Carhaix", "Carduel", "Enez-Aval",
+			"Portwenn", "Montsegur", "Joyeuse Garde", "Glatisant"],
 		"spyNames": ["Merlin", "Elaine", "Vivian", "Randall", "Hector", "Owain", "Anna", "Lyonesse", "Tennyson", "Lockheed"]
 	},
 	{
@@ -112,7 +113,7 @@
 			"[-67]% Gold from Great Merchant trade missions",
 			"[+100]% unhappiness from the number of cities"],
 		"cities": ["Vodagrad", "Prava", "Nevesk", "Kyovashad", "Snezhnaya", "Prekrasnaya", "Zapolyarny", "Ubezhishche", "Nostrava",
-			"Grad Sysevich", "Istochnik", "Mirny", "Margrave", "Yelesna", "Menestad"],
+			"Grad Sysevich", "Istochnik", "Mirny", "Uspekh", "Khrabrost", "Margrave", "Yelesna", "Menestad"],
 		"spyNames": ["Sergey", "Iosef", "Leonid", "Mikhail", "Tatiana", "Veronika", "Alexei", "Anastasia", "Nikita", "Fyodor"],
 		"civilopediaText": [
 			{
@@ -160,8 +161,89 @@
 			"Timiryazevskaya", "Chekhovskaya", "Okhruznaya", "Maryina Roscha", "Dubrovka", "Savyolovskaya"],
 		"spyNames": ["Korbut", "Lesnitsky", "Nastya", "Pavel", "Dmitri", "Anatoly", "Irina", "Ramilya", "Grigory", "Igor"]
 	},
+	{
+		"name": "Aztlán",
+		"leaderName": "Yesenia Aztlánl",
+		"adjective": ["Aztláner"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Order of Tlaloc",
+
+		// "startIntroPart1": "",
+		// "startIntroPart2": "",
+		"declaringWar": "Let the red flood rise and spread, drowning everything in its path!",
+		"attacked": "You mean to subjugate us like the conquistadors, or worse. But I won't let that dark future come to pass. Now die!",
+		"defeated": "I only ever did what was necessary for my people to survive. But it wasn't enough...",
+		"introduction": "I am the Great Speaker Yesenia, descendant of the Lifebringer who reestablished the mighty nation of Aztlán, and the savior of its people. I wonder, will you sacrifice as much as I have...?",
+		"neutralHello": "Welcome.",
+		"hateHello": "What are you after now?",
+		"tradeRequest": "The consequences for refusing this deal will be quite severe.",
+
+		"outerColor": [0, 0, 0],
+		"innerColor": [255, 255, 255],
+		"style": "Tribal",
+		"uniqueName": "Resurgence Under the Sixth Sun",
+		"uniques": ["[+30]% Strength <vs [City-States]>",
+			"Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
+			"When defeating a [{Military} {Land}] unit, earn [25] Gold and recruit it <with [25]% chance>",
+			"Starts with [Iron Working]"],
+		"cities": ["Xochicalco", "Cuentepec", "Nueva Tula", "Tepic", "Tlahtoloyan", "Acapulco", "Xochimilco", "Huaxyacac",
+			"Ecatepec", "Mazatlán", "Sahuayo", "Xicotepec", "Colhuacán", "Nueva Cholula", "Ixtapan", "Otompan",
+			"Neza", "Tepeyac", "Xalixko", "Jilotzingo", "Xoconochco", "Coalcomán", "Yanhuitlán", "Cempoala"],
+		"spyNames": ["Armando", "Alejandro", "Rosado", "Yaretzi", "Luminosa", "Tlacotl", "Chimalma", "Cozamalotl", "Xochitl", "Xilonen"]
+	},
 
 	//Adjusted factions
+	{
+		"name": "New Star",
+		"leaderName": "Willand Keiji",
+		"adjective": ["Star"],
+		"startBias": ["Wasteland"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Humanism",
+
+		"startIntroPart1": "'When the Cataclysm happened, there were many that felt lost. Like the world was too far gone. I always had hope, but sometimes it's hard to keep it. Ever since we came out, the world has felt like a jungle. Ruled by wild beasts.'",
+		"startIntroPart2": "'But I got lucky. I found my platoon. My family. I think people seem to forget it, but fundamental rights? Democracy? Those were the result of natural progress. Of us seeing what worked, and what didn't. And as long as we keep marching backwards like this, we will never be better. The world had given me a second chance. And so I give you one as well. We go around the world gathering people like us. That see the world not for what it is now. But for what it can be. A New Star.'",
+		"declaringWar": "Let's go!",
+		"attacked": "Everyone! Defense Positions!",
+		"defeated": "This is... not the end.",
+		"introduction": "A dream. That's all it takes to keep going.",
+		"neutralHello": "Hello.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "We both stand to gain from this.",
+
+		"outerColor": [0, 0, 0],
+		"innerColor": [255, 165, 0],
+		"style": "",
+		"uniqueName": "Determination",
+		"uniques": [
+			"Gain [15] Influence with a [Civilian] gift to a City-State",
+			"Gain [15] Influence with a [Support] gift to a City-State",
+			"[Civilian] units gain the [Thermoptic Camouflage] promotion",
+			"[Support] units gain the [Thermoptic Camouflage] promotion",
+			"[+15]% Strength <for [Wounded] units>",
+			"[+1] Sight <for [{Wounded} {Support}] units>",
+			"Cannot build [Enslaved] units"
+		],
+		"cities": [
+			"Hope",
+			"Starling City",
+			"Newbay",
+			"Ballenderg",
+			"San Lourn",
+			"Drimere",
+			"Highnimon",
+			"Inford",
+			"Melderk",
+			"Thallas",
+			"Nedaleck",
+			"Douridas Pier",
+			"Silverman Port",
+			"Dalbete",
+			"Light Otis",
+			"Meckenberg"
+		],
+		"spyNames": ["Henry", "Jim", "Clarice", "Juliet", "Ashlee", "Robyn", "Ben", "Jodie", "Harvey", "Juno"]
+	},
 	{
 		"name": "Hexlock",
 		"leaderName": "Aura",
@@ -330,7 +412,7 @@
 	{
 		"name": "Atlas",
 		"leaderName": "John Kruger",
-		"adjective": ["Corporate"],
+		"adjective": ["Atlesian"],
 		"startBias": ["Mountain"],
 		"preferredVictoryType": "Scientific",
 		"favoredReligion": "Objectivism",
@@ -360,6 +442,7 @@
 		"cities": ["Atlas Canyon", "Praxis", "Opportunity", "Enterprise Gardens", "Pareto Estates", "Hanlon College", "The Reservation", "Zakharov Campus",
 			"Curiosity", "Progress Estates", "New Horizon", "Dunning Institute", "Kruger Laboratories", "Apogee", "Hypothesis", "Axiom",
 			"Euclid Center", "Prometheus Laboratories", "Zenith", "Von Neumann Institute"],
+			"spyNames": ["Dagny", "Rearden", "Wyatt", "Akston", "Danagger", "Midas", "Kay", "Quentin", "Halley", "Allen"],
 		"civilopediaText": [
 			{
 				"text": "At the Refuge, I am creating more than a town, more even than a polity; it is a new world, where individuals will be free to act without the burden of taxation or the specter of injustice. Here, I have created a truly voluntary society, where the citizens associate in rational self interest; from love, not from fear of punishment. I have sent you this invitation because you have greatness within you; think of all you have achieved in your life, and how much more you could do, if you were not held back."
@@ -484,6 +567,7 @@
 			"Canis Canem Edit",
 			"Ad Astra"
 		],
+		"spyNames": ["Lanius", "Caius", "Vulpes", "Ulysses", "Silus", "Picus", "Atticus", "Aurelius", "Severus", "Livius"],
 		"civilopediaText": [
 			{
 				"text": "Behold! The nations of the past have fallen, their once marvelous cities crumbled into dust. And why? Because they were weak! In their hour of necessity, they could not stand together! They turned on themselves and devoured themselves, and now they are dead. But we are alive, because we are strong! And what is the source of our strength? Our unity! Like the fasces, we are bound together, and with the strength of our bond, we shall rebuild civilization!"
@@ -875,6 +959,7 @@
 		"outerColor": [0,0,0],
 		"innerColor": [185,12,12],
 		"uniques": ["[-33]% Strength <vs cities> <before discovering [Steam Power]>",
+			"[Water] units gain the [Unable to pillage tiles] promotion",
 			"[+1] Sight <for [Scout] units>",
 			"[+1] Movement <for [Scout] units>",
 			"[+33]% Strength <vs [Military] units> <when attacking>",

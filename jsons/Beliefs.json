@@ -194,7 +194,7 @@
 		"name": "Works of Genius",
 		"type": "Pantheon",
 		"uniques": [
-			"[+2 Faith] from every [Great Improvement]",
+			"[+25]% Great Person generation [in cities following this religion]",
 			"[+2 Science, +1 Faith] [in cities following this religion] <in cities with at least [1] [Specialists]>"
 		]
 	},

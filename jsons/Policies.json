@@ -78,9 +78,8 @@
 		"policies": [
 			{
 				"name": "Restorers",
-				"uniques": ["[+50]% Production when constructing [Civilian Convoy] units [in capital]",
-					"Free [Civilian Convoy] appears",
-					"[+1] Movement <for [Civilian Convoy] units>"],
+				"uniques": ["[+2 Production] [in all cities]",
+					"[+5]% Production when constructing [All] buildings [in all cities]"],
 				"row": 1,
 				"column": 1
 			},
@@ -95,17 +94,15 @@
 				"name": "Citizen Militia",
 				"uniques": ["Free [Worker] appears",
 					"Units in cities cost no Maintenance",
-					"[+2 Production] [in all cities with a garrison]",
 					"[-33]% maintenance costs <for [Civilian] units>"],
 				"row": 1,
 				"column": 5
 			},
 			{
 				"name": "Reclaimers",
-				"uniques": ["Double quantity of [Coal] produced",
-					"Double quantity of [Oil] produced",
-					"Double quantity of [Aluminum] produced",
-					"Retain [50]% of the happiness from a luxury after the last copy has been traded away"],
+				"uniques": ["[+50]% Production when constructing [Civilian Convoy] units [in capital]",
+					"Free [Civilian Convoy] appears",
+					"[+1] Movement <for [Civilian Convoy] units>"],
 				"requires": ["Restorers"],
 				"row": 2,
 				"column": 1
@@ -113,8 +110,8 @@
 			{
 				"name": "Courier Service",
 				"uniques": ["[+1 Happiness] [in all cities connected to capital]",
-					"[-5]% Unhappiness from [Population] [in all cities]",
-					"[-25]% City-State Influence degradation"],
+					"[+15]% [Gold] [in all cities connected to capital]",
+					"[-5]% Unhappiness from [Population] [in all cities]"],
 				"requires": ["Representation", "Citizen Militia"],
 				"row": 2,
 				"column": 4
@@ -476,9 +473,7 @@
 			{
 				"name": "Mass Consumption",
 				"uniques": ["[+25]% resources gifted by City-States",
-					"[+1 Gold] from every [Moisture trap]",
-					"[+1 Gold] from every [Water pump]",
-					"[+1 Gold] from every [Refinery]"],
+					"Retain [50]% of the happiness from a luxury after the last copy has been traded away"],
 				"row": 1,
 				"column": 1
 			},
@@ -528,6 +523,7 @@
 				"name": "Monopoly Complete",
 				"uniques": ["[+1 Gold, +1 Food] from every [Moisture trap]",
 					"[+1 Gold, +1 Food] from every [Water pump]",
+					"[+1 Gold, +1 Production] from every [Refinery]",
 					"[+1 Gold, +1 Food] from every [Caer]",
 					"[+4 Gold, +2 Food] from every [Supply Complex]",
 					"[+4 Gold, +2 Food] from every [Banana Business Area]",
@@ -869,7 +865,7 @@
 			{
 				"name": "Transhumanism",
 				"requires": ["Eugenics", "Cybernetics"],
-				"uniques": ["[-33]% Unhappiness from [Population] [in capital]",
+				"uniques": ["[+12 Happiness]",
 					"[+25]% Great Person generation [in all cities]",
 					"[Great General] is earned [25]% faster"],
 				"row": 3,

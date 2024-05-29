@@ -284,7 +284,7 @@
 **New Tile Improvements**
 - Preservator, borrowed from Bamboolord's expansion mod with his permission, adjusted, and granted to The Pax CS. This GI gains yields from the finisher bonuses of Rationalism and Constitution (+4 Culture/Science during Golden Ages from the former, +2 Culture/Science from the latter)
 
-#### November 2023 - March 2024
+#### November 2023 - April 2024
 
 **Mod Compatibility**
 - A few adjustments have been made for the sake of maintaining compatibility with Bamboolord's expansion mods, with further adjustments likely in the near future:
@@ -392,7 +392,7 @@
 		- New Afrika's Revolutionary Council now gives a +15% Production boost towards Personnel units.
 		- Proklyatyye's Politburo no longer adds Culture/Happiness to Gulags; it instead adds +3 Production to them, and the Production bonus to Corrective Colonies and Listening Posts is increased to +3.
 - Food/Growth:
-	- Greenhouse (and replacements) and Hydroponic Farming buildings now gain +1 Food if the player gets access to Exotic Seeds. The latter building now adds +2 Food to Lakes.
+	- Greenhouse (and replacements) and Hydroponic Farming buildings now gain +1 Food if the player gets access to Exotic Seeds.
 	- Protected Area now requires the city to be working a Tree plantation improvement, but no longer adds Water penalties to Tree plantations.
 	- Hospitals (and replacements) no longer gain +1 Food from having Harvested Organs.
 		- The remaining "evil" faction replacements no longer have reduced food preservation compared to the standard Hospital.
@@ -545,7 +545,7 @@
 		- The Abbey now gives 2 less Faith, no Culture, 1 less Science, and 1 less Great Scientist point.
 		- Divine Knowledge now gives a free State Guard (or their new replacement for it, rather).
 	- Proklyatyye:
-		- Zemlyanka is now a City Defense building and it adds +1 City Strength and +1 Food to Tundra Camps and Tundra Tubers to help offset the double whammy of their growth penalties and Tundra start bias. However, its increase to City HP is reduced from 50 to 20.
+		- Zemlyanka now has the City Defense fake unique and it adds +1 City Strength and +1 Food to Tundra Camps and Tundra Tubers to help offset the double whammy of their growth penalties and Tundra start bias. However, its increase to City HP is reduced from 50 to 20.
 
 **Wonder Adjustments**
 - All of the base scenario factions' starting wonders now have a base production cost of 0. They have also received further adjustments as detailed below:
@@ -914,3 +914,72 @@
 - Puritan Ethic (Pseudo-Reformation), enabling Faith purchases of most Production buildings
 - Sanctified Innovations (Follower), adding +1 each of Production, Science and Faith to National Wonders (this is Enhancer in Lek/Rekmod but to me didn't feel right putting it there)
 - Zen Meditation (Follower), adding +2 Culture and +1 Happiness to cities with at least 2 active Specialists
+
+#### Pre-Rebirth: May - June 2024
+
+Several of the following adjustments are based on what is planned for the Rebirth Edition of base DeCiv should it ever be released.
+
+**Barbarian Adjustments**
+- Barbarian Water units are no longer allowed to pillage tiles.
+
+**Faction Adjustments**
+- Hexlock now only creates one unique strategic resource with its improvements (previously five in the pre-Rebirth versions). The Compound Mix buildings instead require the city to work the Refinery whose stat corresponds to the GP it provides. (Meltdown is nerfed somewhat in that it consumes 6 of the new chemical, but it can now be built in a third city.)
+- New Star's UA no longer increases the rate of generating Great People. Instead, it now gives their Civilian and Support units the Thermoptic Camouflage promotion for free, and allows them to gain 15 Influence with City-States for gifting these units.
+- Spy names have been added for Atlas, Crimson Legion, and New Star.
+	- Atlas spy names are taken from characters in *Atlas Shrugged.*
+	- Legion spy names are taken from members of Caesar's Legion in the *Fallout* series (be it *New Vegas*, the cancelled *Van Buren*, or the *Honest Hearts Reborn* game mod).
+	- New Star spy names, I decided to have a little fun here and take them from fictional characters whose last names are all Starling.
+
+**Building Adjustments**
+- Condenser Cooler now removes itself from the cities it's built in when it goes obsolete at Atmosphere Remediation. However, this is hidden from the player in-game.
+- Hydroponic Farming loses one Farmer slot, but now actually adds +2 Food to Lakes instead of +1 (this was supposed to have happened earlier).
+- Listening Post (and replacements) no longer boost GP generation at all. It will instead add protection from spies once Espionage is fully implemented.
+- Prison Camp (and slaver faction replacements) also nerfed to inflict a -2 Happiness penalty on annexed cities.
+- Public School now has a base yield of 2 Science, but the scaling Science yields from city population are now applied at Networking.
+- Faction/City-State UBs:
+	- Atlas:
+		- Think Tank no longer adds a Production bonus towards buildings owned in the capital. Instead, it adds +2 of the respective yield to non-unique Great Improvements (+1 Water/Science to Citadels).
+	- Defiance:
+		- Lawkeeper Office now replaces Defense Directorate instead of Town Hall, no longer has Administrator slots, gives a free Roller in addition to the Lawkeeper + Pre-War Turrets, and lets 5 units be maintenance free (instead of 3).
+	- Hexlock:
+		- Stormfront Center now adds a +25% boost to GP generation in all cities. However, the bonus to city strength from defensive buildings is reduced by 50%.
+		- With the consolidation of the chemicals into a single stockpiled resource, Overcouncil now provides 6 copies of Experimental Chemicals.
+	- New Star: Gideon Scanner and Rally Station will now relocate to the new capital when the capital changes.
+
+**Wonder Adjustments**
+- National Reservoir System now increases the owning city's total Water yields by 10%.
+
+**Unit Adjustments**
+- Advanced Armor buffed to 100 Strength and loses the penalty to attacking cities.
+- Seastead Vessel receives increased tile improvement construction speed after researching Advanced Materials.
+
+**Policy Adjustments**
+- Expansionism:
+	- Restorers' old effect moved to Reclaimers. It now adds a 5% Production bonus towards all buildings.
+	- Citizen Militia's Production bonus to all cities moved to Restorers and no longer requires a garrison.
+	- Reclaimers' old effect was thrown out entirely for giving way too many extra copies of strategic resources.
+	- Courier Service now adds +15% Water to cities connected to the capital instead of slowing CS influence degradation.
+- Monopoly:
+	- Mass Consumption no longer adds yields to improvements. Instead it gains Reclaimers' lost effect of preserving Happiness from trading away the last copy of owned luxuries.
+	- The finisher bonus now adds +1 Water/Production to Hexlock's Refineries.
+- Bionics:
+	- Transhumanism now adds a flat +12 Global Happiness instead of 33% reduction to Unhappiness in the capital.
+
+**Belief Adjustments**
+- Works of Genius now increases GP generation by 25% instead of adding Faith to Great Improvements.
+
+**Improvement Adjustments**
+- Academy adjusted to move +2 of its scaling Science yields earlier in the tech tree. It now goes to +6 at Education, +8 at Laboratory.
+- Artificial glacier, for all that this improvement matters given how late in the game it comes, is buffed to add +2 Science.
+- Borehole nerfed to +3 base Production.
+- Crystal Refinery provides 3 copies of the consolidated Experimental Chemicals, and if built on Coal or Oil tiles it provides an additional copy of those resources.
+- Drydock nerfed slightly to lose +1 of its scaling Production and Science yields.
+- Manufactory nerfed to lose +2 of its scaling Production yields.
+- Mine nerfed to lose the second +1 Production boost at Railroads. Also, it cannot be built on resources it doesn't improve.
+- Pasture buffed to move its +1 Food gain to Ecology, but it now properly obsoletes at Genetics.
+
+**New Faction**
+- Aztlán (Mexican, Aztec revivalist, Domination/Culture)
+
+**New Buildings**
+- Community Garden (+2 Food (increases to +3 with Exotic Seeds), +25% GP generation, 1 Farmer slot, unlocks at Ecology)

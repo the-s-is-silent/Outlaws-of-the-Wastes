@@ -10,7 +10,7 @@ The icons for Alma Frontier Guard and Alma State Guard are of my own creation.
 
 Unless otherwise specified, all of the following icons are from the Noun Project, licensed under Creative Commons or Public Domain. Also, if anyone feels like there is a better/more fitting icon out there for any particular building/unit/etc. than the one that is used, I am open to suggestions for replacement icons.
 
-Items still missing an icon (not necessarily a complete list): Condenser Cooler, Defense Directorate (and its replacements), Defiant Guardian, Defiant Scout, Mounted Railgun, Pale Veteran, Pax Observer, Pax Researcher, Pax Surveyor, Persevering Pax Researcher, Pithouse, Preservator (icon also missing from TCC-beta), Pridwen-class, Roller, SS Casing, SS Life Support, Super Mutant, Weaponized Yacht
+Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmecac, Calpulli, Condenser Cooler, Defense Directorate (and its replacements), Defiant Guardian, Defiant Scout, Mounted Railgun, Pale Veteran, Pax Observer, Pax Researcher, Pax Surveyor, Persevering Pax Researcher, Pithouse, Preservator (icon also missing from TCC-beta), Pridwen-class, Roller, SS Casing, SS Life Support, Super Mutant, Telpochcalli, Tiyanquitzli, Tlacotin, Weaponized Yacht
 
 ### Building Icons
 - Abbey: [Westminster Abbey](https://thenounproject.com/icon/westminster-abbey-5459042/) by Brickclay, PK
@@ -24,13 +24,16 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 - Austere Processing Hub: [database](https://thenounproject.com/icon/database-5276636/) by iconfield, ID
 - Bishop's Storehouse: [Storage Garage](https://thenounproject.com/icon/storage-garage-1371149/) by STBS, IN
 - Blue Castle Reactor: [atom](https://thenounproject.com/icon/atom-2606502/) by Icon Lauk, ID
+- [Cabildo](https://www.flaticon.com/free-icon/cabildo_4633718) by [Freepik](https://www.flaticon.com/authors/freepik) from [Flaticon](https://www.flaticon.com)
 - Caesareum: [temple](https://thenounproject.com/icon/temple-3636159/) by Rock Zombie
 - Cathedral School: [temple](https://thenounproject.com/icon/temple-2072915/) by Nick Bluth, US
 - Census Chamber: [Neural Processor](https://thenounproject.com/icon/neural-processor-1870013/) by ProSymbols, US
 - Central Metro Command: [Bunker](https://thenounproject.com/icon/bunker-4477229/) by Doodle Icons
+- Chinampa: [Canoe](https://thenounproject.com/icon/canoe-402285/) by Viktor Fediuk, UA (same icon as Floating Gardens in base Unciv)
 - Coastal Defenses: [seawall](https://thenounproject.com/icon/seawall-5503652/) by Luis Prado, US
 - Coastal Longhouse: [longhouse](https://thenounproject.com/icon/longhouse-5058241/) by Flowicon, TH
 - Commonwealth Reserve: [aquifer](https://thenounproject.com/icon/aquifer-5399259/) by M. Oki Orlando, ID
+- Community Garden: [Community](https://www.flaticon.com/free-icon/community_10632234) by [inipagistudio](https://www.flaticon.com/authors/inipagistudio) from Flaticon
 - Constabulary: [jail](https://thenounproject.com/icon/jail-2577140/) by Made by Made, AU
 - Contraband Disposal Site: [prohibited](https://thenounproject.com/icon/prohibited-209190/) by Andrea Mazzini, IT
 - Contract with Survivors: [contract](https://thenounproject.com/icon/contract-4139832/) by Design Circle, PK
@@ -68,12 +71,14 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 - National Reservoir System: [Reservoir](https://thenounproject.com/icon/reservoir-3918342/) by Adrien Coquet, FR
 - Navy Shipyard: [shipyard](https://thenounproject.com/icon/shipyard-5848043/) by Andi Nur Abdullah, ID
 - Naval War College: [navy pier](https://thenounproject.com/icon/navy-pier-3925133/) by Lars Meiertoberens, DE
+- Nuevo Templo Mayor: [tenochtitlan](https://www.flaticon.com/free-icon/tenochtitlan_4039722) by Freepik from Flaticon
 - Nutri-Paste Dispenser: [Dispenser](https://thenounproject.com/icon/dispenser-4565083/) by Gustyne Pissesa Ardhaneswari, ID
 - Oceanological Center: [national maritime museum](https://thenounproject.com/icon/national-maritime-museum-3348038/) by Justicon, TH
 - OSI: [Research](https://thenounproject.com/icon/research-2280921/) by Petai Jantrapoon, TH
 - Parish School: [School](https://thenounproject.com/icon/school-3758946/) by iconcheese
 - PINDAR Station: [London Underground](https://thenounproject.com/icon/london-underground-26183/) by Daniel Turner, GB
 - Pioneers Station: [Train Station](https://thenounproject.com/icon/train-station-4521738/) by Eucalyp
+- Plumed Serpent Pyramid: [Aztec Pyramid](https://www.flaticon.com/free-icon/aztec-pyramid_2828046) by Freepik from Flaticon
 - Pre-War Cryo Sanctum: [cryogenic](https://thenounproject.com/icon/cryogenic-5753249/) by Rolas Design, ID
 - [Printing Press](https://thenounproject.com/icon/printing-press/11880/) by Mike Wirth (same icon used for Printing Press tech in base Unciv)
 - Quorum of the Twelve: [city Council](https://thenounproject.com/icon/city-council-3566027/) by Thomas Deckert, US
@@ -99,8 +104,11 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 - Statue of Remembrance: [Justice](https://thenounproject.com/icon/justice-3872855/) by Eucalyp
 - Stone of Ages: [excalibur](https://thenounproject.com/icon/excalibur-2526433/) by Andrejs Kirma, LV
 - Tabernacle: [temple](https://thenounproject.com/icon/temple-22044/) by George Patterson, US
+- Temalacatl: [Aztec calendar](https://www.flaticon.com/free-icon/aztec-calendar_4693665) by Freepik from Flaticon
+- Teocalli: [Aztec Temple](https://thenounproject.com/icon/aztec-temple-6792250/) by Fath Yusuf Izkhaqy, ID
 - Thunderdome: [dome](https://thenounproject.com/icon/dome-4026886/) by Zaenal Abidin, ID
 - Tidal Array: [Tidal energy](https://thenounproject.com/icon/tidal-energy-4215014/) by Lucas Helle, CL
+- Tlachtli: [aztec stadium](https://thenounproject.com/icon/aztec-stadium-4282213/) by Lars Meiertoberens, DE
 - [Totem Pole](https://thenounproject.com/icon/totem-pole-20257/) by MaxineVSG, GB
 - Triage: [Medical cross](https://thenounproject.com/icon/medical-cross-267749/) by TMD
 - Tribal Unification Initiative: [roman law](https://thenounproject.com/icon/roman-law-1615859/) by sachin modgekar, IN
@@ -121,6 +129,7 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 - Wasteland Station: [station terminal](https://thenounproject.com/icon/station-terminal-2260974/) by Eucalyp
 
 ### Nation Icons
+- Aztlán: [Sun](https://www.flaticon.com/free-icon/sun_6912442) by Freepik from Flaticon
 - Camelot Foundation: [Wales](https://thenounproject.com/icon/wales-4282300/) by Lars Meiertoberens, DE
 - Crimson Line: [Hammer and Sickle](https://thenounproject.com/icon/hammer-and-sickle-52420/) by Yohann Berger, FR
 - Deseret Nation: [Beehive](https://thenounproject.com/icon/beehive-106249/) by Cléa Lautrey
@@ -147,6 +156,7 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 - Ballistic Weave: [graphene technology](https://thenounproject.com/icon/graphene-technology-1870120/) by ProSymbols, US
 - Combat Armor: [armor](https://thenounproject.com/icon/armor-4069582/) by iconixar
 - Conquer Terrain: [atv tire](https://thenounproject.com/icon/atv-tire-378331/) by Martin Hofmann
+- Fury of Aztlan: [Quetzalcoatl](https://www.flaticon.com/free-icon/quetzalcoatl_5169317) by Freepik from Flaticon
 - Healing Hands: [medical symbol](https://thenounproject.com/icon/medical-symbol-1017634/) by IconTrack
 - Heroic Resolve: [hero shield](https://thenounproject.com/icon/hero-shield-4533534/) by Made x Made, AU
 - Line Brawl: [fighting](https://thenounproject.com/icon/fighting-2717946/) by Vectors Point, PK
@@ -156,6 +166,7 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 - Sea Raider: Same icon as Advanced Piracy
 - Self-Repair: [Hammer](https://thenounproject.com/icon/hammer-854936/) by Thengaloka (same icon used for Air Repair in base Unciv)
 - Terrascape: [terraform planet](https://thenounproject.com/icon/terraform-planet-4940216/) by Juicy Fish, GB
+- Valor of Aztlán: [cuauhtli](https://www.flaticon.com/free-icon/cuauhtli_6727414) by Freepik from Flaticon
 - Will of Tellus: [Tree](https://thenounproject.com/icon/tree-6482946/) by ayadeya, ID
 - Zeal: [zeal of the convert](https://thenounproject.com/icon/zeal-of-the-convert-4708155/) by Saneseed
 
@@ -187,6 +198,7 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 - Dhow: [sailboat](https://thenounproject.com/icon/sailboat-54530/) by Michael Thompson, US
 - Drifter: [driftwood](https://thenounproject.com/icon/driftwood-374954/) by BK
 - Drone Ship: [autonomous ship](https://thenounproject.com/icon/autonomous-ship-5912595/) by Todak Todak, KR
+- [Eagle Warrior](https://thenounproject.com/icon/eagle-warrior-6792241/) by Fath Yusuf Iskhaqy, ID
 - Eco-Terrorist: [terrorism](https://thenounproject.com/icon/terrorism-653187/) by Alina Oleynik
 - Educational Officer: [Government Officer](https://thenounproject.com/icon/government-officer-2003970/) by Made x Made, AU
 - Excalibur Knight: [Sword](https://thenounproject.com/icon/sword-2239554/) by Smalllike
@@ -219,6 +231,7 @@ Items still missing an icon (not necessarily a complete list): Condenser Cooler,
 - Scout Cruiser: [cruiser](https://thenounproject.com/icon/cruiser-4833538/) by Andi Nur Abdillah, ID
 - Seastead Vessel: [Ship](https://thenounproject.com/icon/ship-4767613/) by Singlar
 - Shock Worker: [Sickle](https://thenounproject.com/icon/sickle-5130144/) by Luis Prado, US
+- Shorn One: [Chimalli](https://www.flaticon.com/free-icon/chimalli_4039772) by Freepik from Flaticon
 - Skiff: [skiff](https://thenounproject.com/icon/skiff-4687237/) by Eucalyp
 - Speculatores: [bloody knife](https://thenounproject.com/icon/bloody-knife-2109678/) by Vectors Market
 - State Guard: [Civil defense](https://thenounproject.com/icon/civil-defense-454060/) by Yuri Martins, ES

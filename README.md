@@ -21,7 +21,8 @@ A major expansion + rebalance mod for DeCiv Redux.
 
 - Two new victory conditions, restoring the "proper" Domination and Science victories. (Warning: do not enable these without disabling the standard Domination and Science victories. Having both DeCiv's Science Victory (Terraform Earth) and Colonization Victory (launch the spaceship) enabled will currently make those victory conditions impossible to achieve.)
 
-- Three new factions:
+- Four new factions:
+  - Aztlán, the expected post-Cataclysm nation of Aztec revivalists.
   - Camelot Foundation, a constitutional republic arising from what's left of Wales, England and Brittany.
   - Crimson Line, a faction of hardliner Communists who took shelter from the Cataclysm inside the Moscow Metro and now seek to reunite the Soviet Union by force.
   - The Harbingers, the remnants of an evil Mega-Corp who are now trying to atone for their previous practices...or are they?
@@ -39,7 +40,7 @@ A major expansion + rebalance mod for DeCiv Redux.
   - Scouting: Wasteland Patrol, Border Patrol, Expeditionary Force
   - Hero units (only 1 allowed per Civ): Hero of the Wastes, only available as a random camp reward
 
-- New buildings: Alternet Cafe, Coastal Defenses, Condenser Cooler, Contraband Disposal Site, Defense Directorate (City-States only), Earth Clinic (Naturalism only), Earthscraper (Collectivism only), Ethanol Station, Food Processing Plant, Interpretative Center, Jeweler, Navy Shipyard (Rediscovery only), Sanctuary, Sociopolitical Institute, Tidal Array, and Workers' Facility (Collectivism only).
+- New buildings: Alternet Cafe, Coastal Defenses, Community Garden, Condenser Cooler, Contraband Disposal Site, Defense Directorate (City-States only), Earth Clinic (Naturalism only), Earthscraper (Collectivism only), Ethanol Station, Food Processing Plant, Interpretative Center, Jeweler, Navy Shipyard (Rediscovery only), Sanctuary, Sociopolitical Institute, Tidal Array, and Workers' Facility (Collectivism only).
 
 - New world wonder: Statue of Remembrance.
 
