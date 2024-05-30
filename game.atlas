@@ -6,889 +6,1176 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Abbey
   rotate: false
-  xy: 628, 1944
+  xy: 212, 1320
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Advanced Chemical Refinery
   rotate: false
-  xy: 4, 1184
+  xy: 420, 1600
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Afrikan Reformed Church
   rotate: false
-  xy: 736, 1944
+  xy: 764, 1944
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Alternet Cafe
   rotate: false
-  xy: 952, 1944
+  xy: 4, 868
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Armory Station
   rotate: false
-  xy: 4, 752
+  xy: 1088, 1944
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Arsenal of Liberty
+  rotate: false
+  xy: 4, 652
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Atomgrad Project
   rotate: false
-  xy: 4, 644
+  xy: 4, 544
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Atomic Diner
   rotate: false
-  xy: 1276, 1944
+  xy: 1304, 1944
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Austere Processing Hub
   rotate: false
-  xy: 4, 536
+  xy: 4, 436
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Bishop's Storehouse
   rotate: false
-  xy: 1492, 1944
+  xy: 1628, 1944
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Blue Castle Reactor
   rotate: false
-  xy: 4, 320
+  xy: 4, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Cabildo
+  rotate: false
+  xy: 212, 1212
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Caesareum
   rotate: false
-  xy: 4, 104
+  xy: 320, 1320
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Cathedral School
   rotate: false
-  xy: 628, 1836
+  xy: 140, 1104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Census Chamber
   rotate: false
-  xy: 736, 1836
+  xy: 248, 1104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Central Metro Command
   rotate: false
-  xy: 844, 1836
+  xy: 356, 1104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Chinampa
+  rotate: false
+  xy: 428, 1384
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Coastal Defenses
   rotate: false
-  xy: 952, 1836
+  xy: 428, 1276
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Coastal Longhouse
   rotate: false
-  xy: 1060, 1836
+  xy: 764, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Commonwealth Reserve
   rotate: false
-  xy: 1276, 1836
+  xy: 1196, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Constabulary
+BuildingIcons/Community Garden
   rotate: false
-  xy: 1384, 1836
+  xy: 1304, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Contraband Disposal Site
+BuildingIcons/Compound Mix GF
   rotate: false
-  xy: 1492, 1836
+  xy: 1412, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Contract with Survivors
+BuildingIcons/Congress of the Alliance
   rotate: false
-  xy: 1600, 1836
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Corrective Colony
-  rotate: false
-  xy: 1816, 1836
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Katorga Labor Camp
-  rotate: false
-  xy: 1816, 1836
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Crucifixion Fields
-  rotate: false
-  xy: 348, 1528
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Deseret Data Center
-  rotate: false
-  xy: 772, 1728
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Disciplinary Council
-  rotate: false
-  xy: 1096, 1728
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Earth Clinic
-  rotate: false
-  xy: 1420, 1728
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Earthscraper
-  rotate: false
-  xy: 1528, 1728
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Earthscraper Project
-  rotate: false
-  xy: 1636, 1728
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Emergency Response Network
-  rotate: false
-  xy: 112, 1184
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Ethanol Station
-  rotate: false
-  xy: 112, 968
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/First Kiva
-  rotate: false
-  xy: 112, 644
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Food Processing Plant
-  rotate: false
-  xy: 112, 428
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Fortified Aquifer
-  rotate: false
-  xy: 112, 320
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Fortified Museum
-  rotate: false
-  xy: 112, 212
+  xy: 1520, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/General Conference
   rotate: false
-  xy: 112, 104
+  xy: 1520, 1836
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Investors' Chamber
+  rotate: false
+  xy: 1520, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/State Assembly
   rotate: false
-  xy: 112, 104
+  xy: 1520, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Gostiny Dvor
+BuildingIcons/Constabulary
   rotate: false
-  xy: 248, 1284
+  xy: 1628, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Grand Tabernacle
+BuildingIcons/Contraband Disposal Site
   rotate: false
-  xy: 220, 1176
+  xy: 1736, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Gulag
+BuildingIcons/Contract with Survivors
   rotate: false
-  xy: 220, 852
+  xy: 1844, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Gupvi
+BuildingIcons/Corrective Colony
   rotate: false
-  xy: 220, 852
+  xy: 112, 868
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Harbinger Manege
+BuildingIcons/Katorga Labor Camp
   rotate: false
-  xy: 220, 744
+  xy: 112, 868
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Hexlock Chemical Company
+BuildingIcons/Council of Four
   rotate: false
-  xy: 220, 420
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Homeland Defense Initiative
-  rotate: false
-  xy: 220, 312
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Ice Hockey Rink
-  rotate: false
-  xy: 220, 204
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Interpretative Center
-  rotate: false
-  xy: 220, 96
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Interstice
-  rotate: false
-  xy: 356, 1420
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Jeweler
-  rotate: false
-  xy: 356, 1312
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Kolkhoz
-  rotate: false
-  xy: 212, 1844
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-BuildingIcons/Kruger Line
-  rotate: false
-  xy: 328, 852
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Mansion of Our Father
-  rotate: false
-  xy: 328, 420
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Medical School
-  rotate: false
-  xy: 328, 312
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Microwave Power Satellite
-  rotate: false
-  xy: 4, 1428
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-BuildingIcons/Miracle Metal Mill
-  rotate: false
-  xy: 328, 204
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Nanomaterial Factory
-  rotate: false
-  xy: 564, 1620
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/National Reservoir System
-  rotate: false
-  xy: 672, 1620
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Navy Shipyard
-  rotate: false
-  xy: 780, 1620
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/OSI
-  rotate: false
-  xy: 996, 1620
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Oceanological Center
-  rotate: false
-  xy: 1104, 1620
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/PINDAR Station
-  rotate: false
-  xy: 1320, 1620
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Parish School
-  rotate: false
-  xy: 1428, 1620
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Pioneers Station
-  rotate: false
-  xy: 1536, 1620
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Pogost
-  rotate: false
-  xy: 1644, 1620
+  xy: 112, 760
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Politburo
   rotate: false
-  xy: 1752, 1620
+  xy: 112, 760
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Pre-War Cryo Sanctum
+BuildingIcons/Trustees' Committee
   rotate: false
-  xy: 1860, 1620
+  xy: 112, 760
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Printing Press
+BuildingIcons/Crucifixion Fields
   rotate: false
-  xy: 464, 1384
+  xy: 112, 436
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Quorum of the Twelve
+BuildingIcons/Deseret Data Center
   rotate: false
-  xy: 572, 1512
+  xy: 112, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Raider Suppression Initiative
+BuildingIcons/Disciplinary Council
   rotate: false
-  xy: 680, 1404
+  xy: 220, 780
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Red Square
+BuildingIcons/Earth Clinic
   rotate: false
-  xy: 788, 1512
+  xy: 328, 672
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Refurbished Textile Mill
+BuildingIcons/Earthscraper
   rotate: false
-  xy: 788, 1404
+  xy: 220, 456
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Remedial School
+BuildingIcons/Earthscraper Project
   rotate: false
-  xy: 896, 1512
+  xy: 328, 564
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Resettlement Bureau
+BuildingIcons/Emergency Response Network
   rotate: false
-  xy: 896, 1404
+  xy: 220, 240
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Restore Army Depot
+BuildingIcons/Ethanol Station
   rotate: false
-  xy: 1004, 1512
+  xy: 220, 132
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Restored Temple of Zion
+BuildingIcons/First Kiva
   rotate: false
-  xy: 1004, 1404
+  xy: 536, 1412
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Riding Arena
+BuildingIcons/Food Processing Plant
   rotate: false
-  xy: 1112, 1512
+  xy: 636, 1520
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Sacred Cave
+BuildingIcons/Fortified Aquifer
   rotate: false
-  xy: 1112, 1404
+  xy: 644, 1412
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Sanctuary
+BuildingIcons/Fortified Museum
   rotate: false
-  xy: 1220, 1512
+  xy: 644, 1304
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Sangreal Vault
+BuildingIcons/Gostiny Dvor
   rotate: false
-  xy: 1220, 1404
+  xy: 436, 888
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Sealed Facility
+BuildingIcons/Grand Tabernacle
   rotate: false
-  xy: 1328, 1512
+  xy: 436, 780
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Sharecropper Farm
+BuildingIcons/Gulag
   rotate: false
-  xy: 1436, 1512
+  xy: 436, 456
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Slave Quarters
+BuildingIcons/Gupvi
   rotate: false
-  xy: 1544, 1512
+  xy: 436, 456
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Sociopolitical Institute
+BuildingIcons/Harbinger Manege
   rotate: false
-  xy: 1544, 1404
+  xy: 436, 240
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Soup Kitchen
+BuildingIcons/Hexlock Chemical Company
   rotate: false
-  xy: 1652, 1512
+  xy: 536, 1196
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/State Dacha
+BuildingIcons/Hidesite
   rotate: false
-  xy: 1760, 1404
+  xy: 644, 1196
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Statue of Remembrance
+BuildingIcons/Homeland Defense Initiative
   rotate: false
-  xy: 1868, 1404
+  xy: 544, 1088
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Stone of Ages
+BuildingIcons/Ice Hockey Rink
   rotate: false
-  xy: 464, 1276
+  xy: 544, 980
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Tabernacle
+BuildingIcons/Ignitor's Tower
   rotate: false
-  xy: 572, 1296
+  xy: 544, 872
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/The Round Table
+BuildingIcons/Interpretative Center
   rotate: false
-  xy: 1004, 1296
+  xy: 544, 764
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Thunderdome
+BuildingIcons/Interstice
   rotate: false
-  xy: 1112, 1296
+  xy: 544, 656
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Tidal Array
+BuildingIcons/Jeweler
   rotate: false
-  xy: 1220, 1296
+  xy: 544, 440
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Totem Pole
+BuildingIcons/Kolkhoz
   rotate: false
-  xy: 1328, 1296
-  size: 100, 100
-  orig: 100, 100
+  xy: 212, 1636
+  size: 200, 200
+  orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Triage
+BuildingIcons/Kruger Line
   rotate: false
-  xy: 1436, 1296
+  xy: 652, 1088
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Tribal Unification Initiative
+BuildingIcons/Mansion of Our Father
   rotate: false
-  xy: 1544, 1296
+  xy: 652, 548
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Underworld
+BuildingIcons/Medical School
   rotate: false
-  xy: 1652, 1296
+  xy: 652, 332
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Victory Column
+BuildingIcons/Microwave Power Satellite
   rotate: false
-  xy: 1760, 1296
-  size: 100, 100
-  orig: 100, 100
+  xy: 420, 1844
+  size: 200, 200
+  orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Wasteland Surveillance Initiative
+BuildingIcons/Miracle Metal Mill
   rotate: false
-  xy: 436, 844
+  xy: 652, 116
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Workers' Facility
-  rotate: false
-  xy: 436, 628
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Artificial atoll
-  rotate: false
-  xy: 1168, 1944
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Drydock
-  rotate: false
-  xy: 1312, 1728
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Endowment House
-  rotate: false
-  xy: 112, 1076
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Floating Settlement
-  rotate: false
-  xy: 112, 536
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Wasteland Station
-  rotate: false
-  xy: 436, 952
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Camelot Foundation
-  rotate: false
-  xy: 1816, 1944
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Crimson Line
-  rotate: false
-  xy: 1924, 1836
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Deseret2
+BuildingIcons/Nanomaterial Factory
   rotate: false
   xy: 664, 1728
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Harbingers
+BuildingIcons/National Reservoir System
   rotate: false
-  xy: 788, 1296
+  xy: 772, 1728
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-OtherIcons/ConvertCulture
+BuildingIcons/Naval War College
   rotate: false
-  xy: 1708, 1836
+  xy: 880, 1728
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-OtherIcons/ConvertFaith
+BuildingIcons/Navy Shipyard
+  rotate: false
+  xy: 988, 1728
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Nuevo Templo Mayor
+  rotate: false
+  xy: 1204, 1728
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Nutri-Paste Dispenser
+  rotate: false
+  xy: 1312, 1728
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/OSI
+  rotate: false
+  xy: 1420, 1728
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Oceanological Center
+  rotate: false
+  xy: 1636, 1728
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/PINDAR Station
+  rotate: false
+  xy: 1852, 1728
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Parish School
+  rotate: false
+  xy: 744, 1620
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Pioneers Station
+  rotate: false
+  xy: 852, 1620
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Plumed Serpent Pyramid
+  rotate: false
+  xy: 960, 1620
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Pogost
+  rotate: false
+  xy: 1068, 1620
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Pre-War Cryo Sanctum
+  rotate: false
+  xy: 1392, 1620
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Printing Press
+  rotate: false
+  xy: 1608, 1620
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Quorum of the Twelve
+  rotate: false
+  xy: 1716, 1620
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Raider Suppression Initiative
+  rotate: false
+  xy: 752, 1512
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Red Square
+  rotate: false
+  xy: 752, 1296
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Refurbished Textile Mill
+  rotate: false
+  xy: 860, 1404
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Rehabilitation Center
+  rotate: false
+  xy: 968, 1512
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Remedial School
+  rotate: false
+  xy: 860, 1296
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Renovate Metal Pyramid
+  rotate: false
+  xy: 968, 1404
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Research and Preservation Institute
+  rotate: false
+  xy: 1076, 1512
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Resettlement Bureau
+  rotate: false
+  xy: 968, 1296
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Restore Army Depot
+  rotate: false
+  xy: 1076, 1404
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Restored Temple of Zion
+  rotate: false
+  xy: 1184, 1512
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Riding Arena
+  rotate: false
+  xy: 1076, 1296
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sacred Cave
+  rotate: false
+  xy: 1292, 1512
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sanctuary
+  rotate: false
+  xy: 1184, 1296
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sangreal Vault
+  rotate: false
+  xy: 1292, 1404
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sealed Facility
+  rotate: false
+  xy: 1292, 1296
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sharashka
+  rotate: false
+  xy: 1508, 1404
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sharecropper Farm
+  rotate: false
+  xy: 1616, 1512
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Slave Quarters
+  rotate: false
+  xy: 1616, 1296
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sociopolitical Institute
+  rotate: false
+  xy: 1724, 1404
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Soup Kitchen
+  rotate: false
+  xy: 1832, 1512
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/State Dacha
+  rotate: false
+  xy: 1832, 1296
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Statue of Remembrance
+  rotate: false
+  xy: 1940, 1404
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Stone of Ages
+  rotate: false
+  xy: 1940, 1296
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Subjugate Survivors
+  rotate: false
+  xy: 760, 1188
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Tabernacle
+  rotate: false
+  xy: 760, 972
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Temalacatl
+  rotate: false
+  xy: 976, 1188
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Teocalli
+  rotate: false
+  xy: 760, 864
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Round Table
+  rotate: false
+  xy: 976, 1080
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Thunderdome
+  rotate: false
+  xy: 1084, 1188
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Tidal Array
+  rotate: false
+  xy: 760, 756
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Tlachtli
+  rotate: false
+  xy: 868, 864
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Totem Pole
+  rotate: false
+  xy: 1084, 1080
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Triage
+  rotate: false
+  xy: 1192, 1188
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Tribal Unification Initiative
+  rotate: false
+  xy: 760, 648
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Underworld
+  rotate: false
+  xy: 868, 756
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Victory Column
+  rotate: false
+  xy: 976, 864
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Wasteland Surveillance Initiative
+  rotate: false
+  xy: 976, 756
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Workers' Facility
+  rotate: false
+  xy: 1192, 972
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Yacht Club
+  rotate: false
+  xy: 1300, 1080
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Zemlyanka
+  rotate: false
+  xy: 1408, 1188
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Artificial atoll
+  rotate: false
+  xy: 1196, 1944
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Banana Business Area
+  rotate: false
+  xy: 4, 328
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Caer
   rotate: false
   xy: 4, 1636
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+ImprovementIcons/Drydock
+  rotate: false
+  xy: 328, 780
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Endowment House
+  rotate: false
+  xy: 328, 348
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Floating Settlement
+  rotate: false
+  xy: 536, 1304
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Fortified Farm
+  rotate: false
+  xy: 4, 1428
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Jungle Replanting Zone
+  rotate: false
+  xy: 544, 332
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Polder
+  rotate: false
+  xy: 1176, 1620
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Powership
+  rotate: false
+  xy: 1284, 1620
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Seaside Resort
+  rotate: false
+  xy: 1400, 1404
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Supply Complex
+  rotate: false
+  xy: 868, 1188
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Wasteland Station
+  rotate: false
+  xy: 868, 648
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Aztlan
+  rotate: false
+  xy: 1412, 1944
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Camelot Foundation
+  rotate: false
+  xy: 320, 1212
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Crimson Line
+  rotate: false
+  xy: 112, 652
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Deseret2
+  rotate: false
+  xy: 112, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Harbingers
+  rotate: false
+  xy: 868, 972
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/ConvertCulture
+  rotate: false
+  xy: 112, 976
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/ConvertFaith
+  rotate: false
+  xy: 212, 1844
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Legacy
+  rotate: false
+  xy: 1748, 1238
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 PolicyBranchIcons/Rediscovery
   rotate: false
-  xy: 544, 1102
+  xy: 818, 424
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Advanced Piracy
   rotate: false
-  xy: 436, 570
+  xy: 664, 1670
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Sea Raider
   rotate: false
-  xy: 436, 570
+  xy: 664, 1670
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Apotheosis
   rotate: false
-  xy: 436, 512
+  xy: 868, 590
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Aquaculture
   rotate: false
-  xy: 120, 46
+  xy: 976, 698
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Divine Mandate
   rotate: false
-  xy: 436, 280
+  xy: 1516, 1238
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Endurance Programme
   rotate: false
-  xy: 436, 222
+  xy: 686, 1858
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Eudaimonia
+  rotate: false
+  xy: 1952, 1936
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Exclusive Zones
   rotate: false
-  xy: 436, 164
+  xy: 760, 424
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Exodus of the Evangelists
   rotate: false
-  xy: 436, 106
+  xy: 1574, 1238
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Expropriation
   rotate: false
-  xy: 494, 570
+  xy: 1952, 1878
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Hegemony
+  rotate: false
+  xy: 760, 308
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Integrated Attack Logistics
   rotate: false
-  xy: 494, 396
+  xy: 760, 250
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Maritime Industries
   rotate: false
-  xy: 494, 280
+  xy: 1806, 1238
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Maritime Law
   rotate: false
-  xy: 494, 222
+  xy: 760, 134
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Mobilization
   rotate: false
-  xy: 494, 164
+  xy: 1864, 1238
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/National Champions
+  rotate: false
+  xy: 760, 76
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/New Pioneers
   rotate: false
-  xy: 494, 106
+  xy: 1922, 1238
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Security Forces
   rotate: false
-  xy: 544, 986
+  xy: 818, 308
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Special Projects
+  rotate: false
+  xy: 818, 192
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Unifying Vision
+  rotate: false
+  xy: 818, 76
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ReligionIcons/Anglicanism
   rotate: false
-  xy: 4, 1292
+  xy: 420, 1708
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ReligionIcons/Imperial Cult
   rotate: false
-  xy: 212, 1500
+  xy: 628, 1916
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ReligionIcons/Mormonism
   rotate: false
-  xy: 420, 1708
+  xy: 4, 1084
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
+ReligionIcons/Rodnovery
+  rotate: false
+  xy: 1184, 1404
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ReligionIcons/Stalinism
   rotate: false
-  xy: 1760, 1512
+  xy: 1832, 1404
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -900,639 +1187,1087 @@ ResourceIcons/Advanced Fabrics
   orig: 200, 200
   offset: 0, 0
   index: -1
+ResourceIcons/Experimental Chemicals
+  rotate: false
+  xy: 328, 132
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ResourceIcons/Newspaper
   rotate: false
-  xy: 212, 1636
+  xy: 4, 1220
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Scriptures
   rotate: false
-  xy: 420, 1844
+  xy: 212, 1428
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Artificial atoll
   rotate: false
-  xy: 178, 68
+  xy: 1142, 828
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Artificial glacier-Mountain
+  rotate: false
+  xy: 1192, 870
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Artificial glacier-Tunneled Mountain
+  rotate: false
+  xy: 1250, 928
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Caer
+  rotate: false
+  xy: 1952, 1838
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Drydock
   rotate: false
-  xy: 4, 5
+  xy: 664, 1629
   size: 39, 33
   orig: 39, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Endowment House
   rotate: false
-  xy: 544, 719
+  xy: 2010, 1937
   size: 32, 35
   orig: 32, 35
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Floating Settlement
   rotate: false
-  xy: 544, 671
+  xy: 464, 1164
   size: 32, 40
   orig: 32, 40
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Preservator
+TileSets/FantasyHex/Tiles/Fortified Farm
   rotate: false
-  xy: 552, 595
+  xy: 464, 1124
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Metal Pyramid
+  rotate: false
+  xy: 1916, 1202
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Polder
+  rotate: false
+  xy: 1960, 1801
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Powership
+  rotate: false
+  xy: 1960, 1765
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Preservator
+  rotate: false
+  xy: 876, 514
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Seaside Resort
+  rotate: false
+  xy: 876, 444
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Supply Complex
+  rotate: false
+  xy: 876, 296
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Tunneled Mountain
+  rotate: false
+  xy: 916, 296
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Wasteland Station
   rotate: false
-  xy: 552, 377
+  xy: 876, 184
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ark Hunter
   rotate: false
-  xy: 1960, 1742
+  xy: 2010, 2016
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Bartertown Imperial Guard
   rotate: false
-  xy: 544, 834
+  xy: 1300, 986
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Battle-axe of the Lord
   rotate: false
-  xy: 51, 10
+  xy: 1358, 1044
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Blueliner
   rotate: false
-  xy: 544, 798
+  xy: 1408, 1094
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Border Patrol
   rotate: false
-  xy: 91, 10
+  xy: 1466, 1152
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Brownsteel Knight
+  rotate: false
+  xy: 1516, 1202
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Commissar
+  rotate: false
+  xy: 868, 554
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Dendro Mutant
   rotate: false
-  xy: 544, 762
+  xy: 976, 662
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Dhow
+  rotate: false
+  xy: 1084, 770
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Drone Ship
+  rotate: false
+  xy: 2010, 1980
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Eco-Terrorist
+  rotate: false
+  xy: 1556, 1202
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Educational Officer
+  rotate: false
+  xy: 908, 554
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Excalibur Knight
+  rotate: false
+  xy: 1016, 662
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Expeditionary Force
   rotate: false
-  xy: 131, 10
+  xy: 1596, 1202
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Exploding Boat
+  rotate: false
+  xy: 2010, 1901
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great Admiral
+  rotate: false
+  xy: 428, 1212
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Great Caravan
   rotate: false
-  xy: 171, 4
+  xy: 504, 1154
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Gunboat
+  rotate: false
+  xy: 504, 1118
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Hawkman Brave
   rotate: false
-  xy: 544, 635
+  xy: 1636, 1202
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Hero of the Wastes
   rotate: false
-  xy: 218, 60
+  xy: 1676, 1202
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Issaquah Mystic
   rotate: false
-  xy: 258, 60
+  xy: 1716, 1202
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Killdozer
+  rotate: false
+  xy: 1756, 1202
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lawkeeper
   rotate: false
-  xy: 298, 60
+  xy: 1796, 1202
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Legate
+  rotate: false
+  xy: 1836, 1202
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Martial Monk
+  rotate: false
+  xy: 1876, 1202
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Military Engineer
+  rotate: false
+  xy: 1956, 1202
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mobile Clinic
   rotate: false
-  xy: 338, 60
+  xy: 1996, 1202
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Ocean Robber
+  rotate: false
+  xy: 948, 554
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Persevering Pax Researcher
+  rotate: false
+  xy: 1056, 662
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pre-War Turret
   rotate: false
-  xy: 378, 60
+  xy: 1960, 1729
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Scout Cruiser
+  rotate: false
+  xy: 876, 480
+  size: 32, 26
+  orig: 32, 26
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Scout-Barbarians
+  rotate: false
+  xy: 916, 518
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Seastead Vessel
   rotate: false
-  xy: 552, 561
+  xy: 916, 484
   size: 32, 26
   orig: 32, 26
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Shorn One
+  rotate: false
+  xy: 876, 408
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Skiff
+  rotate: false
+  xy: 916, 448
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Stalker
   rotate: false
-  xy: 552, 525
+  xy: 876, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/State Guard
   rotate: false
-  xy: 552, 489
+  xy: 916, 412
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Suicider
+  rotate: false
+  xy: 876, 336
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Super Mutant
+  rotate: false
+  xy: 916, 376
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Technopath
+  rotate: false
+  xy: 916, 340
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Tlacotin
+  rotate: false
+  xy: 876, 260
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wandering Doctor
   rotate: false
-  xy: 552, 453
+  xy: 876, 224
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wasteland Patrol
   rotate: false
-  xy: 552, 417
+  xy: 916, 260
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Wayfarer
+  rotate: false
+  xy: 916, 224
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 UnitIcons/Alma Frontier Guard
   rotate: false
-  xy: 4, 1076
+  xy: 4, 976
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Alma Honor Guard
   rotate: false
-  xy: 844, 1944
+  xy: 420, 1492
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Alma State Guard
   rotate: false
-  xy: 4, 968
+  xy: 872, 1944
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Ark Hunter
   rotate: false
-  xy: 4, 860
+  xy: 980, 1944
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Armored Train
   rotate: false
-  xy: 1060, 1944
+  xy: 4, 760
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Bartertown Imperial Guard
   rotate: false
-  xy: 1384, 1944
+  xy: 1520, 1944
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Battle-axe of the Lord
   rotate: false
-  xy: 4, 428
+  xy: 4, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Blueliner
   rotate: false
-  xy: 1600, 1944
+  xy: 4, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Border Patrol
   rotate: false
-  xy: 4, 212
+  xy: 1736, 1944
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Brownsteel Knight
   rotate: false
-  xy: 1708, 1944
+  xy: 1844, 1944
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Camelot SAS
   rotate: false
-  xy: 1924, 1944
+  xy: 556, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Combat Medic
+  rotate: false
+  xy: 872, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Commando
   rotate: false
-  xy: 1168, 1836
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Crimson Sniper
-  rotate: false
-  xy: 140, 1320
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Dendro Mutant
-  rotate: false
-  xy: 556, 1728
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Deseret Missionary
-  rotate: false
-  xy: 880, 1728
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Destroying Angel
-  rotate: false
-  xy: 988, 1728
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Drifter
-  rotate: false
-  xy: 1204, 1728
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Eco-Terrorist
-  rotate: false
-  xy: 1744, 1728
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Educational Officer
-  rotate: false
-  xy: 1852, 1728
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Excalibur Knight
-  rotate: false
-  xy: 112, 860
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Expeditionary Force
-  rotate: false
-  xy: 112, 752
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Goon
-  rotate: false
-  xy: 248, 1392
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Great Admiral
-  rotate: false
-  xy: 220, 1068
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Great Caravan
-  rotate: false
-  xy: 220, 960
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Hawkman Brave
-  rotate: false
-  xy: 220, 636
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Hero of the Wastes
-  rotate: false
-  xy: 220, 528
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Key to the City
-  rotate: false
-  xy: 328, 1176
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Knight
-  rotate: false
-  xy: 328, 1068
+  xy: 980, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Commissar
   rotate: false
-  xy: 328, 960
+  xy: 1088, 1836
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Crimson Sniper
+  rotate: false
+  xy: 112, 544
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Cutter Boat
+  rotate: false
+  xy: 112, 328
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Dendro Mutant
+  rotate: false
+  xy: 112, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Deseret Missionary
+  rotate: false
+  xy: 220, 996
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Destroying Angel
+  rotate: false
+  xy: 220, 888
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Dhow
+  rotate: false
+  xy: 328, 996
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Drifter
+  rotate: false
+  xy: 328, 888
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Drone Ship
+  rotate: false
+  xy: 220, 672
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Eagle Warrior
+  rotate: false
+  xy: 220, 564
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Eco-Terrorist
+  rotate: false
+  xy: 220, 348
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Educational Officer
+  rotate: false
+  xy: 328, 456
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Excalibur Knight
+  rotate: false
+  xy: 328, 240
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Expeditionary Force
+  rotate: false
+  xy: 220, 24
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Exploding Boat
+  rotate: false
+  xy: 328, 24
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Exploratores
+  rotate: false
+  xy: 556, 1628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Field Preparations Squad
+  rotate: false
+  xy: 528, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Goon
+  rotate: false
+  xy: 436, 996
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Great Admiral
+  rotate: false
+  xy: 436, 672
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Great Caravan
+  rotate: false
+  xy: 436, 564
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Gunboat
+  rotate: false
+  xy: 436, 348
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Hawkman Brave
+  rotate: false
+  xy: 436, 132
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Hero of the Wastes
+  rotate: false
+  xy: 436, 24
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Issaquah Mystic
+  rotate: false
+  xy: 544, 548
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Key to the City
+  rotate: false
+  xy: 544, 224
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Knight
+  rotate: false
+  xy: 544, 116
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Lagoon
+  rotate: false
+  xy: 652, 980
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Lawbringer
   rotate: false
-  xy: 328, 744
+  xy: 652, 872
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Legate
   rotate: false
-  xy: 328, 636
+  xy: 652, 764
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Living Prophet
   rotate: false
-  xy: 328, 528
+  xy: 652, 656
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Martial Monk
+  rotate: false
+  xy: 652, 440
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Military Engineer
+  rotate: false
+  xy: 652, 224
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Mobile Clinic
   rotate: false
-  xy: 328, 96
+  xy: 544, 8
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Mormon Battalion
   rotate: false
-  xy: 456, 1600
+  xy: 652, 8
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Neutron Bomb
   rotate: false
-  xy: 888, 1620
+  xy: 1096, 1728
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Ocean Robber
+  rotate: false
+  xy: 1528, 1728
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Opolcheniye
   rotate: false
-  xy: 1212, 1620
+  xy: 1744, 1728
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Pre-War Turret
   rotate: false
-  xy: 464, 1492
+  xy: 1500, 1620
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/RCB Conscript
   rotate: false
-  xy: 572, 1404
+  xy: 1824, 1620
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Stalker
   rotate: false
-  xy: 572, 1404
+  xy: 1824, 1620
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/RCB Infantry
   rotate: false
-  xy: 680, 1512
+  xy: 1932, 1620
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Raiding Craft
+  rotate: false
+  xy: 752, 1404
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Rapid Response Squad
+  rotate: false
+  xy: 860, 1512
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Scout Cruiser
+  rotate: false
+  xy: 1400, 1512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Seastead Vessel
   rotate: false
-  xy: 1328, 1404
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Shock Worker
-  rotate: false
-  xy: 1436, 1404
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Speculatores
-  rotate: false
-  xy: 1652, 1404
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/State Guard
-  rotate: false
-  xy: 1868, 1512
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Technopath
-  rotate: false
-  xy: 680, 1296
+  xy: 1508, 1512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Sentinel Missile
   rotate: false
-  xy: 896, 1296
+  xy: 1400, 1296
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Shock Worker
+  rotate: false
+  xy: 1508, 1296
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Shorn One
+  rotate: false
+  xy: 1616, 1404
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Skiff
+  rotate: false
+  xy: 1724, 1512
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Speculatores
+  rotate: false
+  xy: 1724, 1296
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/State Guard
+  rotate: false
+  xy: 1940, 1512
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Suicider
+  rotate: false
+  xy: 760, 1080
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Technopath
+  rotate: false
+  xy: 868, 1080
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Tlacotin
+  rotate: false
+  xy: 976, 972
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Volt Driver
+  rotate: false
+  xy: 1084, 972
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Wandering Doctor
   rotate: false
-  xy: 1868, 1296
+  xy: 1192, 1080
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/War Tram
   rotate: false
-  xy: 436, 1168
+  xy: 1300, 1188
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Wasteland Patrol
   rotate: false
-  xy: 436, 1060
+  xy: 760, 540
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Wayfarer
   rotate: false
-  xy: 436, 736
+  xy: 1084, 864
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/AI Implant
   rotate: false
-  xy: 4, 46
+  xy: 628, 1858
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Active Protection System
   rotate: false
-  xy: 1960, 1778
+  xy: 1952, 1994
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Aerial Bombardment
   rotate: false
-  xy: 62, 46
+  xy: 760, 482
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Augmented Vision
+  rotate: false
+  xy: 1084, 806
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ballistic Weave
   rotate: false
-  xy: 436, 454
+  xy: 1192, 914
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Combat Armor
   rotate: false
-  xy: 436, 396
+  xy: 1300, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Conquer Terrain
   rotate: false
-  xy: 436, 338
+  xy: 1408, 1130
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Fury of Aztlan
+  rotate: false
+  xy: 760, 366
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Healing Hands
   rotate: false
-  xy: 494, 512
+  xy: 1632, 1238
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Heroic Resolve
   rotate: false
-  xy: 494, 454
+  xy: 1690, 1238
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Line Brawl
   rotate: false
-  xy: 494, 338
+  xy: 760, 192
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Oath of Vengeance
   rotate: false
-  xy: 544, 1218
+  xy: 760, 18
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Overcome Obstructions
+  rotate: false
+  xy: 1980, 1238
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Prospector
   rotate: false
-  xy: 544, 1160
+  xy: 818, 482
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Reinforced Hull
   rotate: false
-  xy: 544, 1044
+  xy: 818, 366
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Self-Repair
   rotate: false
-  xy: 544, 928
+  xy: 818, 250
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Terrascape
+  rotate: false
+  xy: 818, 134
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Valor of Aztlan
+  rotate: false
+  xy: 818, 18
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Will of Tellus
+  rotate: false
+  xy: 926, 590
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Zeal
   rotate: false
-  xy: 544, 870
+  xy: 1034, 698
   size: 50, 50
   orig: 50, 50
   offset: 0, 0

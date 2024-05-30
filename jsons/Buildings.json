@@ -597,7 +597,6 @@
 			"Can only be built <in [Annexed] cities>",
 			"Only available <in cities without a [Listening Post]>",
 			"Destroyed when the city is captured"],
-		//Should add defense against spies once Espionage is implemented
 		"requiredTech": "Construction",
 		"hurryCostModifier": -50
 	},
@@ -730,10 +729,12 @@
 		"happiness": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["Remove extra unhappiness from annexed cities",
+		"uniques": ["[-25]% enemy spy effectivess [in this city]",
+			"Remove extra unhappiness from annexed cities",
 			"Provides [1] [Encrypted Data]",
 			"Only available <in cities without a [Prison Camp]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured",
+			"Hidden when espionage is disabled"],
 		"requiredTech": "Civil Service"
 	},
 	{
@@ -777,7 +778,6 @@
 			"[+10]% Strength <for [Automated] units>",
 			"Double quantity of [Encrypted Data] produced",
 			"Consumes [1] [Power]",
-			"Only available <if [Census Chamber] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city"],
 		"requiredTech": "Networking"
 	},
@@ -919,10 +919,10 @@
 		"requiredTech": "Munitions"
 	},
 
-	//Aztlán unique buildings
+	//Aztlan unique buildings
 	{
 		"name": "Plumed Serpent Pyramid",
-		"uniqueTo": "Aztlán",
+		"uniqueTo": "Aztlan",
 		"isWonder": true,
 		"culture": 1,
 		"cost": 0,
@@ -935,7 +935,7 @@
 	{
 		"name": "Temalacatl",
 		"replaces": "Monument",
-		"uniqueTo": "Aztlán",
+		"uniqueTo": "Aztlan",
 		"culture": 2,
 		"cost": 40,
 		"maintenance": 0,
@@ -945,7 +945,7 @@
 	{
 		"name": "Calpulli",
 		"replaces": "Barracks",
-		"uniqueTo": "Aztlán",
+		"uniqueTo": "Aztlan",
 		"food": 1,
 		"production": 1,
 		"cost": 50,
@@ -957,7 +957,7 @@
 	{
 		"name": "Amoxcalli",
 		"replaces": "Library",
-		"uniqueTo": "Aztlán",
+		"uniqueTo": "Aztlan",
 		"hurryCostModifier": 25,
 		"requiredTech": "Writing",
 		"uniques": ["[+1 Science] per [3] population [in this city]",
@@ -968,7 +968,7 @@
 	{
 		"name": "Chinampa",
 		"replaces": "Greenhouse",
-		"uniqueTo": "Aztlán",
+		"uniqueTo": "Aztlan",
 		"food": 2,
 		"specialistSlots": {"Farmer": 1},
 		"maintenance": 1,
@@ -984,7 +984,7 @@
 	{
 		"name": "Tiyanquitzli",
 		"replaces": "Market",
-		"uniqueTo": "Aztlán",
+		"uniqueTo": "Aztlan",
 		"gold": 1,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
@@ -995,22 +995,21 @@
 	},
 	{
         "name": "Tlachtli",
-        "replaces": "Listening Post",
-        "uniqueTo": "Aztlán",
+        "replaces": "Stadium",
+        "uniqueTo": "Aztlan",
         "culture": 2,
         "happiness": 2,
         "maintenance": 1,
         "cost": 90,
         "hurryCostModifier": 25,
         "requiredTech": "Engineering",
-		"uniques": ["Remove extra unhappiness from annexed cities",
-			"Only available <in cities without a [Prison Camp]>",
+		"uniques": ["[+2 Culture, +2 Happiness] [in this city] <after discovering [Social Engineering]>",
 			"Destroyed when the city is captured"]
     },
 	{
 		"name": "Teocalli",
 		"replaces": "Monastery",
-		"uniqueTo": "Aztlán",
+		"uniqueTo": "Aztlan",
 		"faith": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
@@ -1037,7 +1036,7 @@
 	{
 		"name": "Calmecac",
 		"replaces": "University",
-		"uniqueTo": "Aztlán",
+		"uniqueTo": "Aztlan",
 		"maintenance": 1,
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"science": 33},
@@ -1053,7 +1052,7 @@
 	{
 		"name": "Telpochcalli",
 		"replaces": "Public School",
-		"uniqueTo": "Aztlán",
+		"uniqueTo": "Aztlan",
 		"culture": 2,
 		"science": 2,
 		"maintenance": 1,
@@ -1066,7 +1065,7 @@
 	{
 		"name": "Cabildo",
 		"replaces": "Town Hall",
-		"uniqueTo": "Aztlán",
+		"uniqueTo": "Aztlan",
 		"culture": 2,
 		"specialistSlots": {"Administrator": 1},
 		"maintenance": 1,
@@ -1079,7 +1078,7 @@
 	{
 		"name": "Nuevo Templo Mayor",
 		"replaces": "Grand Monastery",
-		"uniqueTo": "Aztlán",
+		"uniqueTo": "Aztlan",
 		"isNationalWonder": true,
 		"culture": 3,
 		"faith": 8,
@@ -1099,7 +1098,7 @@
 	{
 		"name": "Congress of the Alliance",
 		"replaces": "Congress",
-		"uniqueTo": "Aztlán",
+		"uniqueTo": "Aztlan",
 		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": ["[+1 Culture] per [4] population [in all cities]",
@@ -1113,7 +1112,7 @@
 	{
 		"name": "Council of Four",
 		"replaces": "Council",
-		"uniqueTo": "Aztlán",
+		"uniqueTo": "Aztlan",
 		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": ["[+10]% growth [in all cities]",
@@ -3555,36 +3554,36 @@
 		"happiness": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["Remove extra unhappiness from annexed cities",
+		"uniques": ["[-25]% enemy spy effectivess [in this city]",
+			"Remove extra unhappiness from annexed cities",
 			"Only available <in cities without a [Prison Camp]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured",
+			"Hidden when espionage is disabled"],
 		"requiredTech": "Civil Service"
 	},
 	{
 		"name": "Arena",
-		"replaces": "Listening Post",
+		"replaces": "Stadium",
 		"uniqueTo": "Cult of Ignis",
-		"happiness": 1,
-		"maintenance": 1,
+		"happiness": 2,
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["New [Armor] units start with [15] Experience [in this city]",
 			"Remove extra unhappiness from annexed cities",
-			"[+1 Happiness] [in this city] <when at war>",
+			"[+2 Happiness] [in this city] <when at war>",
 			"Only available <in cities without a [Prison Camp]>",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Machinery"
 	},
 	{
 		"name": "Colosseum",
-		"replaces": "Listening Post",
+		"replaces": "Stadium",
 		"uniqueTo": "Crimson Legion",
 		"happiness": 2,
-		"maintenance": 1,
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["New [Military] units start with [15] Experience [in this city]",
-			"Remove extra unhappiness from annexed cities",
-			"Only available <in cities without a [Prison Camp]>",
-			"Unsellable",
+			"[+2 Happiness] [in this city] <after discovering [Social Engineering]>",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Engineering"
 	},
@@ -3896,7 +3895,7 @@
 		"uniques": ["[-1] population [in this city]", 
 			"Free [Legate] appears",
 			"Can only be built <in [Annexed] cities>",
-			"Only available <in cities without a [Colosseum]>",
+			"Only available <in cities without a [Listening Post]>",
 			"Unsellable",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Construction"
@@ -3912,6 +3911,20 @@
 		"requiredTech": "Education",
 		"uniques": ["Hidden when religion is disabled",
 			"[+10]% Production when constructing [All] buildings [in this city]"]
+	},
+	{
+		"name": "Frumentarii Camp",
+		"replaces": "Listening Post",
+		"uniqueTo": "Crimson Legion",
+		"happiness": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[-33]% enemy spy effectiveness [in this city]",
+			"Remove extra unhappiness from annexed cities",
+			"Only available <in cities without a [Prison Camp]>",
+			"Destroyed when the city is captured",
+			"Hidden when espionage is disabled"],
+		"requiredTech": "Civil Service"
 	},
 	{
 		"name": "Praetorium",
@@ -4270,8 +4283,10 @@
 		"hurryCostModifier": 25,
 		"uniques": ["Population loss from nuclear attacks [-25]% [in this city]",
 			"Damage to garrison from nuclear attacks [-25]% [in this city]",
+			"[-25]% enemy spy effectivess [in this city]",
 			"Free [Rapid Response Squad] appears",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured",
+			"Hidden when espionage is disabled"],
 		"requiredTech": "Civil Service"
 	},
 	{

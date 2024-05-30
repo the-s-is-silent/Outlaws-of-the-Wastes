@@ -162,9 +162,9 @@
 		"spyNames": ["Korbut", "Lesnitsky", "Nastya", "Pavel", "Dmitri", "Anatoly", "Irina", "Ramilya", "Grigory", "Igor"]
 	},
 	{
-		"name": "Aztlán",
-		"leaderName": "Yesenia Aztlánl",
-		"adjective": ["Aztláner"],
+		"name": "Aztlan",
+		"leaderName": "Yesenia Aztlanl",
+		"adjective": ["Aztlaner"],
 		"preferredVictoryType": "Domination",
 		"favoredReligion": "Order of Tlaloc",
 
@@ -173,7 +173,7 @@
 		"declaringWar": "Let the red flood rise and spread, drowning everything in its path!",
 		"attacked": "You mean to subjugate us like the conquistadors, or worse. But I won't let that dark future come to pass. Now die!",
 		"defeated": "I only ever did what was necessary for my people to survive. But it wasn't enough...",
-		"introduction": "I am the Great Speaker Yesenia, descendant of the Lifebringer who reestablished the mighty nation of Aztlán, and the savior of its people. I wonder, will you sacrifice as much as I have...?",
+		"introduction": "I am the Great Speaker Yesenia, descendant of the Lifebringer who reestablished the mighty nation of Aztlan, and the savior of its people. I wonder, will you sacrifice as much as I have...?",
 		"neutralHello": "Welcome.",
 		"hateHello": "What are you after now?",
 		"tradeRequest": "The consequences for refusing this deal will be quite severe.",
@@ -567,7 +567,7 @@
 			"Canis Canem Edit",
 			"Ad Astra"
 		],
-		"spyNames": ["Lanius", "Caius", "Vulpes", "Ulysses", "Silus", "Picus", "Atticus", "Aurelius", "Severus", "Livius"],
+		"spyNames": ["Vulpes", "Cato", "Alerio", "Caius", "Ulysses", "Silus", "Picus", "Aurelius", "Severus", "Livius"],
 		"civilopediaText": [
 			{
 				"text": "Behold! The nations of the past have fallen, their once marvelous cities crumbled into dust. And why? Because they were weak! In their hour of necessity, they could not stand together! They turned on themselves and devoured themselves, and now they are dead. But we are alive, because we are strong! And what is the source of our strength? Our unity! Like the fasces, we are bound together, and with the strength of our bond, we shall rebuild civilization!"
@@ -608,6 +608,7 @@
 		"cities": ["Gastown", "Blood Farm", "Trial of Sand", "Prophecy", "Thousand Cuts", "The Harrowing", "Temple of Rage", "Immortal Highway",
 			"Tohuvabohu", "Forbidden Palace", "Hanging Gardens", "Megiddo", "The Cauldron", "Traitors' Gate", "Hell Patrol", "Steel Throne",
 			"The Warren", "Well of Souls", "Hermitage", "Ceremony", "Court of Dreams", "Perpetual Ascension", "Death Race", "God Box"],
+		"spyNames": ["Rictus", "Scabrous", "Rizzdale", "Fang", "Smeg", "Nux", "Slit", "Morsov", "Wez", "Zanetti"],
 		"civilopediaText": [
 			{
 				"text": "In the beginning, the earth was without form, cold and void. And the Divine Engine moved upon the face of the earth, and brought forth humans, to serve her. And she blessed the people upon the earth with steel and holy oil, to make engines of their own. But the people of the earth forgot the Divine Engine who had blessed them. So the Engine sent forth the Flame to destroy the people who had sinned, and the earth was cleansed. But the Flame had mercy upon the people, and spared the people who repented and swore to serve the Engine. And it came to pass that Divine Engine blessed the people once more, and gave them steel and holy oil, and commanded them to multiply and replenish the earth, for the engine's glory."
@@ -669,8 +670,16 @@
 			"Silverman Port",
 			"Giuntoli Bay",
 			"Whalen Cove",
-			"Arenberg Fjord"
-		]
+			"Arenberg Fjord",
+			"Preston Quay",
+			"Spinuzza Harbor",
+			"Livdahl Promontory",
+			"Toles-Bey Atoll",
+			"Cimino Cove",
+			"Tallent Point",
+			"Cape Costner"
+		],
+		"spyNames": ["Enola", "Gregor", "Sawzall", "Priam", "Bone", "Toby", "Smitty", "Djeng", "Truan", "Ledger"]
 	},
 	{
 		"name": "New Afrika",

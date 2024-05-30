@@ -925,15 +925,18 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **Faction Adjustments**
 - Hexlock now only creates one unique strategic resource with its improvements (previously five in the pre-Rebirth versions). The Compound Mix buildings instead require the city to work the Refinery whose stat corresponds to the GP it provides. (Meltdown is nerfed somewhat in that it consumes 6 of the new chemical, but it can now be built in a third city.)
 - New Star's UA no longer increases the rate of generating Great People. Instead, it now gives their Civilian and Support units the Thermoptic Camouflage promotion for free, and allows them to gain 15 Influence with City-States for gifting these units.
-- Spy names have been added for Atlas, Crimson Legion, and New Star.
+- Spy names have been added for several of the base scenario's factions.
 	- Atlas spy names are taken from characters in *Atlas Shrugged.*
+	- Ignis spy names are taken from villainous characters in the *Mad Max* franchise.
 	- Legion spy names are taken from members of Caesar's Legion in the *Fallout* series (be it *New Vegas*, the cancelled *Van Buren*, or the *Honest Hearts Reborn* game mod).
+	- Mariner spy names are taken from characters in *Waterworld.*
 	- New Star spy names, I decided to have a little fun here and take them from fictional characters whose last names are all Starling.
 
 **Building Adjustments**
 - Condenser Cooler now removes itself from the cities it's built in when it goes obsolete at Atmosphere Remediation. However, this is hidden from the player in-game.
 - Hydroponic Farming loses one Farmer slot, but now actually adds +2 Food to Lakes instead of +1 (this was supposed to have happened earlier).
-- Listening Post (and replacements) no longer boost GP generation at all. It will instead add protection from spies once Espionage is fully implemented.
+- Listening Post (and replacements) no longer boost GP generation at all. It is now the Tier 1 anti-spy building (a change that will also be implemented in the new "Deciv 2" fork).
+	- Crimson Legion's Colosseum and Cult of Ignis' Arena now replace the Stadium instead of the Listening Post and have their effects adjusted accordingly.
 - Prison Camp (and slaver faction replacements) also nerfed to inflict a -2 Happiness penalty on annexed cities.
 - Public School now has a base yield of 2 Science, but the scaling Science yields from city population are now applied at Networking.
 - Faction/City-State UBs:
@@ -941,6 +944,8 @@ Several of the following adjustments are based on what is planned for the Rebirt
 		- Think Tank no longer adds a Production bonus towards buildings owned in the capital. Instead, it adds +2 of the respective yield to non-unique Great Improvements (+1 Water/Science to Citadels).
 	- Defiance:
 		- Lawkeeper Office now replaces Defense Directorate instead of Town Hall, no longer has Administrator slots, gives a free Roller in addition to the Lawkeeper + Pre-War Turrets, and lets 5 units be maintenance free (instead of 3).
+	- The Harbingers:
+		- Austere Processing Hub no longer requires Census Chambers in every city, due to the espionage updates.
 	- Hexlock:
 		- Stormfront Center now adds a +25% boost to GP generation in all cities. However, the bonus to city strength from defensive buildings is reduced by 50%.
 		- With the consolidation of the chemicals into a single stockpiled resource, Overcouncil now provides 6 copies of Experimental Chemicals.
@@ -979,7 +984,8 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Pasture buffed to move its +1 Food gain to Ecology, but it now properly obsoletes at Genetics.
 
 **New Faction**
-- Aztlán (Mexican, Aztec revivalist, Domination/Culture)
+- Aztlan (Mexican, Aztec revivalist, Domination/Culture)
 
 **New Buildings**
 - Community Garden (+2 Food (increases to +3 with Exotic Seeds), +25% GP generation, 1 Farmer slot, unlocks at Ecology)
+- Frumentarii Camp (replaces Listening Post for Crimson Legion, -33% spy theft rate, will also be added to Deciv 2 fork)

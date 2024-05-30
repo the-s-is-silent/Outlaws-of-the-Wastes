@@ -60,7 +60,7 @@
 - The Consulate now doubles the recovery rate of lost CS influence - this is a placeholder buff until BNW content is implemented in Unciv and Gunboat Diplomacy becomes a thing. However, the Production bonus towards Military units now only applies to Land units and is reduced to 15%.
 - Military Schools no longer inflict a Food penalty. However, the Production bonus towards Military units now only applies to Land units and is reduced to 10%.
 - Legion Camps now replace Barracks, no longer have a Food penalty, but also no longer spawn a free unit or bolster the city's defenses - they are allowed to retain the Production bonus towards Melee units.
-- Colosseums start at +2 base Local Happiness, but do not gain bonuses from having extra Slaves and are unsellable once built.
+- Colosseums now replace Stadiums and do not gain bonuses from having extra Slaves. Instead they automatically go to +4 Local Happiness once Social Engineering is discovered.
 - New UUs:
   - Exploratores (replaces Scout, stronger, starts with Sentry, but has higher production cost)
   - Speculatores (replaces Forward Observer, starts with both tiers of Urban Warfare, double strength when attacking cities, can enter foreign borders without Open Borders treaties, but has higher production cost)
@@ -69,6 +69,7 @@
   - Subjugate Survivors (new Search for Survivors replacement, no Happiness bonuses but adds +1 population and +1 Production per 4 population in the city that builds it, and exchanges the free Auxiliary for a free Servus)
   - Victory Column (replaces Monument, +15 EXP to new units, +1 Local Happiness increasing to +2 during wartime)
   - Crucifixion Fields (new Prison Camp replacement, unsellable, kills 1 pop, adds +2 Culture but also adds +2 Unhappiness, awards free Legate)
+  - Frumentarii Camp (new Listening Post replacement, larger anti-spy bonus)
 - TODO: Add a Distillery replacement that does not provide the Alcohol luxury (drugs/alcohol should be banned in Legion territory in accordance with the source material) along with at least 2 more UUs and possibly new Prison/Work Camp replacements
 
 #### Cult of Ignis
@@ -83,7 +84,7 @@
 - Sanctums are buffed: they add +1 Faith while the faction has Power and don't have as much of a reduction in Science gain compared to standard Libraries.
 - College of Mystics is buffed: it no longer has reduced Science gain compared to standard Universities, adds an unconditional +2 Culture, and adds +1 Faith while the faction has Power. However, it no longer adds Great Scientist Points.
 - Initiate Schools are nerfed: they lose the added Science yields to Rubble/Ruins and the extra starting XP to new units is only granted to Armor units. However, they add +1 Culture/Faith while the faction has Power.
-- Arena nerfed to remove the extra point of Culture/Happiness while the player possesses extra Slaves and to restrict the starting XP bonus to Armor units. It can still conditionally provide +2 Local Happiness, but the condition is changed to being at war.
+- Arena now replaces Stadium and loses the extra point of Culture/Happiness while the player possesses extra Slaves. Additionally, the starting XP bonus is restricted to Armor units. The new condition for benefiting from additional Happiness past the base +2 is to be at war.
 - War Council's Production boost only applies to Armor units. It now adds a 5% Unhappiness reduction in all cities, but the player has to be at war for it to apply.
 - Seer Council's old effect has been thrown out. It now gains the standard 10% Council growth bonus, and adds +2 Culture to every owned Fuel Depot and College of Mystics and a +50% Production boost towards Faith buildings.
 - New UBs:
@@ -114,25 +115,26 @@
 #### Hexlock
 - They start with fewer free techs now: knowledge of Chemistry is gained, but knowledge of Construction, Machinery and Engineering is lost. The malus on GP generation is removed, and Encrypted Data resources are doubled by their UA.
 - Chemicals are now properly Strategic Resources instead of Luxury Resources, so now Hexlock actually has Happiness issues.
+- All five of the original chemicals from the base scenario have been condensed into a single resource.
 - Field Scientists and Purge Robots are now standalone units.
 - Purge Robot Proto's base Strength increased from 25 to 40, in order to give Hexlock a fighting chance. But its Production cost is increased from 50 to 75.
 - Hex Corporation only creates one Purge Robot Proto, but it also gives a 10% Production bonus towards the construction of all Promotion Nullifier units after Replaceable Parts is researched. Also, it no longer gives a free Compound Mixer to the capital and gives their new Food Store replacement instead.
-- Standard Refineries gain +1 to their respective yields compared to the base scenario, adjacency bonuses (+1 Production when next to strategic resources, +1 of the respective yield when next to their corresponding GI), and scaling yields, receiving +1 of their respective base yield at Laboratory and another +1 at Advanced Materials. The VX chemical and its Refinery now provide Food instead of Faith, but the Refinery is not considered a Food source improvement.
-- Crystal Refineries have their base yields doubled to +4 Science, +2 Water, but have their adjacency bonuses reduced to +2 Science, +1 Water with 3 or less adjacent Refineries, +4 Science, +2 Water with 4 or more. They gain +2 Production if built atop Coal or Oil resources.
+- Standard Refineries gain +1 to their respective yields compared to the base scenario, adjacency bonuses (+1 Production when next to strategic resources, +1 of the respective yield when next to their corresponding GI), and scaling yields, receiving +1 of their respective base yield at Laboratory and another +1 at Advanced Materials. The VX Refinery now provides Food instead of Faith, but is not considered a Food source improvement.
+- Crystal Refineries have their base yields doubled to +4 Science, +2 Water, but have their adjacency bonuses reduced to +2 Science, +1 Water with 3 or less adjacent Refineries, +4 Science, +2 Water with 4 or more. They now provide three copies of Hexlock's unique resource. Also, they gain +2 Production and provide an extra copy of Coal or Oil if built on the respective resource tile.
+- Compound Mixes now cost 2 of the consolidated unique resource (aside from Meltdown which now costs 6) and require the city to work the Refinery which corresponds with the chemical that Refinery originally produced.
 - Compound Mix GP replaced with Compound Mix GF, generating Great Farmers instead of Great Sages (but with the same resource requirement as GP).
 - The Heat Plant building is no longer one of their unique components and can be built by everyone.
 - Pre-Med Labs have been buffed to carry over the same amount of Food on population increase as the Hospitals they replace and add +1 Food to VX Refineries, increasing to +2 in the late game.
 - Experiment on Survivors now awards a Field Scientist instead of a Great Scientist, gives +2 pop in the capital instead of +1 in all cities, and can only be built in the capital.
 - Private Labels no longer add Science to Refineries, but have a base yield of +3 Water.
 - Record Grids now add +1 Science to Refineries, +1 Local Happiness while the faction has Power, and lose both the increase to Production cost and reduced Science per pop compared to the Libraries they replace.
-- Stormfront Center and Overcouncil now cost 150 Production each. The latter now provides 2 of each of their unique resources.
+- Stormfront Center and Overcouncil now cost 150 Production each. The former has been nerfed to cut the additional defensive bonus in half, but also buffed to add 25% faster GP generation to all cities, while the latter now provides 6 copies of their unique resource.
 - Field Turrets are nerfed, reducing the increase in City Strength from 25 to 10.
 - New UBs:
-  - Nutri-Paste Dispenser (replaces Food Store, adds +1 Food while possessing at least 1 copy of the VX chemical)
+  - Nutri-Paste Dispenser (replaces Food Store, adds +1 Food while possessing at least 1 copy of chemicals)
   - Hexlock Chemical Company (replaces Food Processing Plant, adds +2 Production/Water to all Refinery improvements and +2 Production to worked Salt tiles instead of boosting Food yields, and grants the unique Self-Repair promotion to Purge Robots instead of granting Resupply to Personnel units)
   - Chemfuel Generator (standalone, requires a worked Refinery of any type and a Research Lab, boosts city Production by 5% and provides 2 units of Power, will be destroyed if the city is captured)
   - Advanced Chemical Refinery (standalone, boosts Refinery yields by 50% in that city and gives Purge Robots access to Chemical Weapons, but requires building the Chemical Weapons Laboratory and consumes both Coal and Power)
-- TODO: Port over the entire gimmick rework from a certain other rebalance mod once it's finished, and until the base scenario itself reworks the gimmick
 
 #### The Mariners
 - They now start with Rediscovery adopted, and upon adopting Advanced Piracy *all* of their Water units along with their Personnel units gain the policy's Sea Raider promotion.
@@ -141,7 +143,7 @@
 - Raider's Council now grants a +10% growth boost in coastal cities and a +15% Production bonus towards Water units.
 - Jet Boat buffed to 25 melee strength, 45 ranged strength.
 - New UUs:
-  - Drifter (replaces Worker, doesn't need to embark, can build water improvements, ~31% cheaper to build)
+  - Drifter (replaces Worker, double speed in water, can build water improvements, ~31% cheaper to build)
   - Cutter Boat (replaces Raiding Craft, allowed to enter Ocean tiles, 2-in-3 chance to withdraw from melee units)
   - Lagoon (replaces Gunboat, 2-in-3 chance to withdraw from melee units)
   - Key to the City (replaces Anti-Aircraft Gun, doesn't need to embark, +4 movement in water, +100% Strength vs cities, cannot fortify)
@@ -159,11 +161,12 @@
   - Afrikan Reformed Church (replaces Monastery, adds +2 Food)
 
 #### New Star
+- They lose the absurd 50% boost to GP generation, but gain a form of their planned UA for the Rebirth Edition: Civilian and Support units gain Thermoptic Camouflage, and gifting these units to City-States nets 15 Influence with them. The Strength bonus for Wounded units now applies evenly, and the Sight bonus for Wounded units is extended to the other Support units.
 - They are no longer allowed to employ prison labor.
 - Mobile Encampment provides more Weapons (2 vs. 1) and can be built in a second city after discovering Munitions, allowing them to move the capital if necessary.
 - On the run now gives two Wandering Doctor replacements instead of a Militia.
 - Electing Leaders has been taken away from them and given to The Patriots.
-- Gideon Scanner and Rally Station still cannot exist at the same time, nor exist in more than one city, and they are more expensive, costing 150 Production each. They also cannot be purchased.
+- Gideon Scanner and Rally Station still cannot exist at the same time, nor exist in more than one city, and they are more expensive, costing 150 Production each. They also cannot be purchased, and will relocate to the new capital should the capital city change for any reason.
 - First Aid units no longer have a chance to capture Barbarians.
 - New UUs:
   - Combat Medic (replaces Wandering Doctor, no Sight penalty or tech/infrastructure requirement but is slightly less effective at healing. They still upgrade to the endgame Mobile Clinic unit like standard Wandering Doctors, forcing New Star to actually spend turns training Militia.)
@@ -172,7 +175,7 @@
   - Soup Kitchen (replaces Prison Camp, +2 Food, +1 Local Happiness, removes extra unhappiness from annexed cities, does not provide Slaves, no restrictions on building)
   - Triage (replaces Work Camp, +10 unit healing for units adjacent to the city, +15% Production towards "support" units, +1 Local Happiness restored at Voting Rights, does not consume Slaves)
   - Rehabilitation Center (standalone, +2 Local Happiness increasing to +4 upon adopting Voting Rights, liberates an acquired Slave to add +1 population to the city)
-  - Emergency Response Network (replaces Listening Post, adds protection from nukes, does not remove extra unhappiness from annexed cities since unlike Prison Camps/Listening Posts + all other replacements, it can exist alongside a Soup Kitchen)
+  - Emergency Response Network (replaces Listening Post, adds protection from nukes, spawns a free Rapid Response Squad, does not remove extra unhappiness from annexed cities since unlike Prison Camps/Listening Posts + all other replacements, it can exist alongside a Soup Kitchen)
   - Medical School (replaces Public School, requires a Hospital instead of a Library, awards Medic II to new units and adds +1 Local Happiness while the faction has Power)
 
 #### The Patriots

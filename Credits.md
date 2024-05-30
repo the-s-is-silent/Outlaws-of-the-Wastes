@@ -129,7 +129,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Wasteland Station: [station terminal](https://thenounproject.com/icon/station-terminal-2260974/) by Eucalyp
 
 ### Nation Icons
-- Aztlán: [Sun](https://www.flaticon.com/free-icon/sun_6912442) by Freepik from Flaticon
+- Aztlan: [Sun](https://www.flaticon.com/free-icon/sun_6912442) by Freepik from Flaticon
 - Camelot Foundation: [Wales](https://thenounproject.com/icon/wales-4282300/) by Lars Meiertoberens, DE
 - Crimson Line: [Hammer and Sickle](https://thenounproject.com/icon/hammer-and-sickle-52420/) by Yohann Berger, FR
 - Deseret Nation: [Beehive](https://thenounproject.com/icon/beehive-106249/) by Cléa Lautrey
@@ -166,11 +166,12 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Sea Raider: Same icon as Advanced Piracy
 - Self-Repair: [Hammer](https://thenounproject.com/icon/hammer-854936/) by Thengaloka (same icon used for Air Repair in base Unciv)
 - Terrascape: [terraform planet](https://thenounproject.com/icon/terraform-planet-4940216/) by Juicy Fish, GB
-- Valor of Aztlán: [cuauhtli](https://www.flaticon.com/free-icon/cuauhtli_6727414) by Freepik from Flaticon
+- Valor of Aztlan: [cuauhtli](https://www.flaticon.com/free-icon/cuauhtli_6727414) by Freepik from Flaticon
 - Will of Tellus: [Tree](https://thenounproject.com/icon/tree-6482946/) by ayadeya, ID
 - Zeal: [zeal of the convert](https://thenounproject.com/icon/zeal-of-the-convert-4708155/) by Saneseed
 
 ### Religion Icons
+- Order of Tlaloc: [tlaloc](https://thenounproject.com/icon/tlaloc-4640131/) by Eucalyp
 - Rodnovery: [Red Rodnover kolovrat](https://commons.wikimedia.org/wiki/File:Red_Rodnover_kolovrat.svg) by Eckhardt Etheling on Wikimedia Commons
 - Stalinism: [stalin](https://thenounproject.com/icon/stalin-3370715/) by Simon Child, GB
 
