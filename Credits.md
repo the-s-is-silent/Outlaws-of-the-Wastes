@@ -201,7 +201,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Drone Ship: [autonomous ship](https://thenounproject.com/icon/autonomous-ship-5912595/) by Todak Todak, KR
 - [Eagle Warrior](https://thenounproject.com/icon/eagle-warrior-6792241/) by Fath Yusuf Iskhaqy, ID
 - Eco-Terrorist: [terrorism](https://thenounproject.com/icon/terrorism-653187/) by Alina Oleynik
-- Educational Officer: [Government Officer](https://thenounproject.com/icon/government-officer-2003970/) by Made x Made, AU
+- Educator Officer: [Government Officer](https://thenounproject.com/icon/government-officer-2003970/) by Made x Made, AU
 - Excalibur Knight: [Sword](https://thenounproject.com/icon/sword-2239554/) by Smalllike
 - Expeditionary Force: [mission](https://thenounproject.com/icon/mission-3048372/) by Eucalyp
 - Exploding Boat: [fire boat](https://thenounproject.com/icon/fire-boat-3372596/) by Start Up Graphic Design, TH
@@ -226,7 +226,6 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Mormon Battalion: [flag of utah](https://thenounproject.com/icon/flag-of-utah-5740272/) by Zach Bogart
 - Neutron Bomb: [Nuclear](https://thenounproject.com/icon/nuclear-2169503/) by ahmad, ID
 - Ocean Robber: [pirate ship](https://thenounproject.com/icon/pirate-ship-1295820/) by Fahmihorizon, ID
-- Opolcheniye: [Ak-47](https://thenounproject.com/icon/ak-47-1745454/) by Nico Ilk, CH
 - Raiding Craft: [Rubber Boat](https://thenounproject.com/icon/rubber-boat-3575176/) by Hey Rabbit, TH
 - Rapid Response Squad: [shield medic](https://thenounproject.com/icon/shield-medic-5192820/) by Rahmat Sigit Prasetyo, ID
 - Scout Cruiser: [cruiser](https://thenounproject.com/icon/cruiser-4833538/) by Andi Nur Abdillah, ID
@@ -238,6 +237,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - State Guard: [Civil defense](https://thenounproject.com/icon/civil-defense-454060/) by Yuri Martins, ES
 - Suicider: [Suicide Bomber](https://thenounproject.com/icon/suicide-bomber-2409625/) by Gan Khoon Lay
 - Technopath: [mind ability](https://thenounproject.com/icon/mind-ability-3216421/) by Vectors Point, PK
+- Vengerovsky: [Ak-47](https://thenounproject.com/icon/ak-47-1745454/) by Nico Ilk, CH
 - Volt Driver: [railgun](https://thenounproject.com/icon/railgun-3873813/) by Ian Rahmadi Kurniawan, ID
 - Wandering Doctor: [caduceus](https://thenounproject.com/icon/caduceus-211045/) by icon 54
 - War Tram: [Tram](https://thenounproject.com/icon/tram-19213/) by Carter Green, US

@@ -1397,7 +1397,7 @@ TileSets/FantasyHex/Units/Eco-Terrorist
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Educational Officer
+TileSets/FantasyHex/Units/Educator Officer
   rotate: false
   xy: 908, 554
   size: 32, 28
@@ -1796,7 +1796,7 @@ UnitIcons/Eco-Terrorist
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Educational Officer
+UnitIcons/Educator Officer
   rotate: false
   xy: 328, 456
   size: 100, 100
@@ -1971,7 +1971,7 @@ UnitIcons/Ocean Robber
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Opolcheniye
+UnitIcons/Vengerovsky
   rotate: false
   xy: 1744, 1728
   size: 100, 100
