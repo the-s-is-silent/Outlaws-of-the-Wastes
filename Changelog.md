@@ -917,25 +917,31 @@
 
 #### Pre-Rebirth: May - June 2024
 
-Several of the following adjustments are based on what is planned for the Rebirth Edition of base DeCiv should it ever be released.
+Several of the following adjustments are based on what is planned for the Rebirth Edition of base DeCiv should it ever be released. Several others are also being included in the "DeCiv 2" fork that is the effective continuation of pre-Rebirth DeCiv.
 
 **Barbarian Adjustments**
 - Barbarian Water units are no longer allowed to pillage tiles.
 
 **Faction Adjustments**
-- Hexlock now only creates one unique strategic resource with its improvements (previously five in the pre-Rebirth versions). The Compound Mix buildings instead require the city to work the Refinery whose stat corresponds to the GP it provides. (Meltdown is nerfed somewhat in that it consumes 6 of the new chemical, but it can now be built in a third city.)
+- All factions that started in the Rebuilding era lose the relevant starting techs.
+- Blackwarden no longer loses its Strength bonus in foreign land while the faction is unhappy.
+- Hexlock now only creates one unique strategic resource with its improvements (previously five in the pre-Rebirth versions). The Compound Mix buildings instead require the city to work the Refinery whose stat corresponds to the GP it provides. Crystal Refineries provide a Refined version of the Experimental Chemicals, which regains its lost status as a Luxury Resource, but is consumed by the Meltdown building.
 - New Star's UA no longer increases the rate of generating Great People. Instead, it now gives their Civilian and Support units the Thermoptic Camouflage promotion for free, and allows them to gain 15 Influence with City-States for gifting these units.
-- Spy names have been added for several of the base scenario's factions.
+- The Patriots now receive +1 Production/Science to most defensive buildings.
+- Spy names have been added for the base scenario's factions.
 	- Atlas spy names are taken from characters in *Atlas Shrugged.*
+	- Hexlock spy names are taken from notable robots and AIs IRL.
 	- Ignis spy names are taken from villainous characters in the *Mad Max* franchise.
 	- Legion spy names are taken from members of Caesar's Legion in the *Fallout* series (be it *New Vegas*, the cancelled *Van Buren*, or the *Honest Hearts Reborn* game mod).
 	- Mariner spy names are taken from characters in *Waterworld.*
+	- New Afrika spy names are taken from notable IRL Black Panther Party members.
 	- New Star spy names, I decided to have a little fun here and take them from fictional characters whose last names are all Starling.
+	- Patriot spy names reference the novels of Tom Clancy and Clive Cussler.
 
 **Building Adjustments**
 - Condenser Cooler now removes itself from the cities it's built in when it goes obsolete at Atmosphere Remediation. However, this is hidden from the player in-game.
 - Hydroponic Farming loses one Farmer slot, but now actually adds +2 Food to Lakes instead of +1 (this was supposed to have happened earlier).
-- Listening Post (and replacements) no longer boost GP generation at all. It is now the Tier 1 anti-spy building (a change that will also be implemented in the new "Deciv 2" fork).
+- Listening Post (and replacements) no longer boost GP generation at all. It is now the Tier 1 anti-spy building (a change that was also implemented in the new "Deciv 2" fork).
 	- Crimson Legion's Colosseum and Cult of Ignis' Arena now replace the Stadium instead of the Listening Post and have their effects adjusted accordingly.
 - Prison Camp (and slaver faction replacements) also nerfed to inflict a -2 Happiness penalty on annexed cities.
 - Public School now has a base yield of 2 Science, but the scaling Science yields from city population are now applied at Networking.
@@ -949,7 +955,10 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- Hexlock:
 		- Stormfront Center now adds a +25% boost to GP generation in all cities. However, the bonus to city strength from defensive buildings is reduced by 50%.
 		- With the consolidation of the chemicals into a single stockpiled resource, Overcouncil now provides 6 copies of Experimental Chemicals.
-	- New Star: Gideon Scanner and Rally Station will now relocate to the new capital when the capital changes.
+	- New Star:
+		- Gideon Scanner and Rally Station will now relocate to the new capital when the capital changes.
+	- The Patriots:
+		- Arsenal of Liberty's cost reduction reduced from 60% to 30%. It no longer requires surprlus Power for the Weapon copies or unit training speed bonus.
 
 **Wonder Adjustments**
 - National Reservoir System now increases the owning city's total Water yields by 10%.
@@ -957,6 +966,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **Unit Adjustments**
 - Advanced Armor buffed to 100 Strength and loses the penalty to attacking cities.
 - Seastead Vessel receives increased tile improvement construction speed after researching Advanced Materials.
+- Harbinger UUs: Educational Officer and Opolcheniye renamed to Educator Officer and Vengerovsky.
 
 **Policy Adjustments**
 - Expansionism:
@@ -987,5 +997,5 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Aztlan (Mexican, Aztec revivalist, Domination/Culture)
 
 **New Buildings**
-- Community Garden (+2 Food (increases to +3 with Exotic Seeds), +25% GP generation, 1 Farmer slot, unlocks at Ecology)
-- Frumentarii Camp (replaces Listening Post for Crimson Legion, -33% spy theft rate, will also be added to Deciv 2 fork)
+- Community Garden (+2 Food (increases to +3 with Exotic Seeds), +25% GP generation, 1 Farmer slot, unlocks at Ecology, will also be added to Deciv 2 fork)
+- Frumentarii Camp (new Listening Post replacement for Crimson Legion, -33% spy theft rate, will also be added to Deciv 2 fork)

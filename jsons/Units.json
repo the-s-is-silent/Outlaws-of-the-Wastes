@@ -828,7 +828,7 @@
 			"Cannot be purchased"]
 	},
 	{
-		"name": "Educational Officer",
+		"name": "Educator Officer",
 		"replaces": "Censor",
 		"uniqueTo": "The Harbingers",
 		"unitType": "Shooter",
@@ -854,7 +854,7 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Opolcheniye",
+		"name": "Vengerovsky",
 		"unitType": "Scrapper",
 		"uniqueTo": "The Harbingers",
 		"replaces": "Militia",
@@ -884,7 +884,7 @@
 			"[67]% chance to intercept air attacks",
 			"[+200]% Strength <vs [Automated] units>",
 			"[+200]% Strength <vs [Purge Robot] units>",
-			"[+30]% Strength <after discovering [Artificial Intelligence]>",
+			"[+50]% Strength <after discovering [Artificial Intelligence]>",
 			"Consumes [1] [Encrypted Data]",
 			"Consumes [1] [Weapons]"],
 		"promotions": ["AI Implant", "Drone Recon", "Gas Mask"],

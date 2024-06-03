@@ -4118,12 +4118,13 @@
 		"cost": 70,
 		"hurryCostModifier": 25,
 		"uniques": [
+			"Instantly consumes [2] [Experimental Chemicals]",
 			"Free [Great Administrator] appears",
 			"Must have an owned [C8H17 Refinery] within [3] tiles",
 			"Only available <in cities with a [Compound Mixer]>",
-			"Instantly consumes [2] [Experimental Chemicals]",
 			"Unsellable",
 			"Never destroyed when the city is captured",
+			"Requires at least [999] population <when below [2] [Experimental Chemicals]>",
 			"Limited to [3] per Civilization"
 		]
 	},
@@ -4133,13 +4134,13 @@
 		"cost": 70,
 		"hurryCostModifier": 25,
 		"uniques": [
+			"Instantly consumes [2] [Experimental Chemicals]",
 			"Free [Great Farmer] appears",
 			"Must have an owned [VX Refinery] within [3] tiles",
 			"Only available <in cities with a [Compound Mixer]>",
-			"Instantly consumes [2] [Experimental Chemicals]",
 			"Unsellable",
 			"Never destroyed when the city is captured",
-			"Requires at least [999] population <when below [2] [Experimental Chemicals]> <hidden from users>",
+			"Requires at least [999] population <when below [2] [Experimental Chemicals]>",
 			"Limited to [3] per Civilization"
 		]
 	},
@@ -4149,13 +4150,13 @@
 		"cost": 70,
 		"hurryCostModifier": 25,
 		"uniques": [
+			"Instantly consumes [2] [Experimental Chemicals]",
 			"Free [Great Scientist] appears",
 			"Must have an owned [SbF5 Refinery] within [3] tiles",
 			"Only available <in cities with a [Compound Mixer]>",
-			"Instantly consumes [2] [Experimental Chemicals]",
 			"Unsellable",
 			"Never destroyed when the city is captured",
-			"Requires at least [999] population <when below [2] [Experimental Chemicals]> <hidden from users>",
+			"Requires at least [999] population <when below [2] [Experimental Chemicals]>",
 			"Limited to [3] per Civilization"
 		]
 	},
@@ -4165,13 +4166,13 @@
 		"cost": 70,
 		"hurryCostModifier": 25,
 		"uniques": [
+			"Instantly consumes [2] [Experimental Chemicals]",
 			"Free [Great Merchant] appears",
 			"Must have an owned [C2N14 Refinery] within [3] tiles",
 			"Only available <in cities with a [Compound Mixer]>",
-			"Instantly consumes [2] [Experimental Chemicals]",
 			"Unsellable",
 			"Never destroyed when the city is captured",
-			"Requires at least [999] population <when below [2] [Experimental Chemicals]> <hidden from users>",
+			"Requires at least [999] population <when below [2] [Experimental Chemicals]>",
 			"Limited to [3] per Civilization"
 		]
 	},
@@ -4181,13 +4182,13 @@
 		"cost": 70,
 		"hurryCostModifier": 25,
 		"uniques": [
+			"Instantly consumes [2] [Experimental Chemicals]",
 			"Free [Great Engineer] appears",
 			"Must have an owned [C1F3 Refinery] within [3] tiles",
 			"Only available <in cities with a [Compound Mixer]>",
-			"Instantly consumes [2] [Experimental Chemicals]",
 			"Unsellable",
 			"Never destroyed when the city is captured",
-			"Requires at least [999] population <when below [2] [Experimental Chemicals]> <hidden from users>",
+			"Requires at least [999] population <when below [2] [Experimental Chemicals]>",
 			"Limited to [3] per Civilization"
 		]
 	},
@@ -4197,13 +4198,12 @@
 		"cost": 140,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Instantly consumes [6] [Experimental Chemicals]",
+			"Consumes [1] [Refined Experimental Chemicals]",
 			"Free Great Person",
 			"Must have an owned [Crystal Refinery] within [3] tiles",
 			"Unsellable",
 			"Never destroyed when the city is captured",
 			"Only available <in cities with a [Compound Mixer]>",
-			"Requires at least [999] population <when below [6] [Experimental Chemicals]> <hidden from users>",
 			"Limited to [3] per Civilization"
 		]
 	},
@@ -4315,13 +4315,13 @@
 		"name": "Arsenal of Liberty",
 		"replaces": "Armaments Production Line",
 		"uniqueTo": "The Patriots",
-		"cost": 100,
+		"cost": 175,
 		"cityStrength": 5,
-		"uniques": ["Provides [2] [Weapons] <when above [0] [Power]>",
+		"uniques": ["Provides [2] [Weapons]",
 			"[+2] Unit Supply",
 			"Consumes [1] [Power]",
 			"[Personnel] units gain the [Infantry Weapons] promotion",
-			"[+10]% Production when constructing [Military] units [in this city] <when above [0] [Power]>",
+			"[+10]% Production when constructing [Military] units [in this city]",
 			"Gain a free [Armory] [in this city]"],
 		"requiredTech": "Munitions"
 	},

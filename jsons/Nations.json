@@ -224,24 +224,8 @@
 			"[+1] Sight <for [{Wounded} {Support}] units>",
 			"Cannot build [Enslaved] units"
 		],
-		"cities": [
-			"Hope",
-			"Starling City",
-			"Newbay",
-			"Ballenderg",
-			"San Lourn",
-			"Drimere",
-			"Highnimon",
-			"Inford",
-			"Melderk",
-			"Thallas",
-			"Nedaleck",
-			"Douridas Pier",
-			"Silverman Port",
-			"Dalbete",
-			"Light Otis",
-			"Meckenberg"
-		],
+		"cities": ["Hope", "Starling City", "Newbay", "Ballenderg", "San Lourn", "Drimere", "Highnimon", "Inford",
+			"Melderk", "Thallas", "Nedaleck", "Douridas Pier", "Silverman Port", "Dalbete", "Light Otis", "Meckenberg"],
 		"spyNames": ["Henry", "Jim", "Clarice", "Juliet", "Ashlee", "Robyn", "Ben", "Jodie", "Harvey", "Juno"]
 	},
 	{
@@ -270,7 +254,6 @@
 			"Double quantity of [Encrypted Data] produced",
 			"Starts with [Writing]",
 			"Starts with [Chemistry]",
-			"Starts with [Electronics]",
 			"[-2 Happiness] [in all cities]"],
 		"cities": [
 			"Halimax",
@@ -289,7 +272,8 @@
 			"Qrephel",
 			"Mabelcut",
 			"Prawrie"
-		]
+		],
+		"spyNames": ["Claude", "Eliza", "Watson", "Kismet", "Siri", "Asimo", "Bert", "Neil", "Alice", "Nadine"]
 	},
 	{
 		"name": "Children of Rust",
@@ -373,12 +357,11 @@
 		"style": "Corporate",
 		"uniqueName": "Limited Liability",
 		"uniques": [
-			"[+10]% Strength <for [All] units> <when fighting in [Foreign Land] tiles> <while the empire is happy>",
+			"[+10]% Strength <for [All] units> <when fighting in [Foreign Land] tiles>",
 			"City-State Influence recovers at twice the normal rate",
 			"Starts with [Writing]",
 			"Starts with [Trade]",
 			"Starts with [Currency]",
-			"Starts with [Electronics]",
 			"[-2 Science] [in all cities] <before discovering [Education]>",
 			"Starts with [Monopoly] adopted",
 			"Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns. <after adopting [Monopoly Complete]>"
@@ -404,6 +387,7 @@
 			"Forbes",
 			"Cornucopia"
 		],
+		"spyNames": ["Al", "Cofer", "Richer", "Ashcroft", "Quinn", "Bonfiglio", "Danielle", "Inman", "Robinson", "Folsom"],
 		"civilopediaText": [
 			{ "text": "With over 250,000 employees across 40 nations, Blackwarden Associates is the first choice for any situation requiring a professional and discreet security solution. Our friendly, highly trained personnel are always ready to help  - from your local bank or supermarket, to immigration processing centers and border defense at home, to fallout remediation and nuclear site security in the Indus Exclusion Zone." },
 			{ "text": "Blackwarden. Securing Your Future." }
@@ -434,7 +418,6 @@
 		"uniques": ["[{non-[Mounted]} {Melee} {Personnel}] units gain the [[Surveyor] ability] promotion",
 			"Free [Great Scientist] appears <upon discovering [Education] technology>",
 			"[Great Scientist] is earned [30]% faster",
-			"Starts with [Electronics]",
 			"Starts with [Rationalism] adopted",
 			"Cannot build [Enslaved] units",
 			"Comment [Cannot build Prison Camp buildings]",
@@ -477,10 +460,18 @@
 		"uniques": [
 			"Double quantity of [Encrypted Data] produced",
 			"Double quantity of [Weapons] produced",
+			"Comment [[+1 Production, +1 Science] from all defensive buildings]",
+			"[+1 Production, +1 Science] from every [Walls] <hidden from users>",
+			"[+1 Production, +1 Science] from every [Defensive Emplacements] <hidden from users>",
+			"[+1 Production, +1 Science] from every [Choke Points] <hidden from users>",
+			"[+1 Production, +1 Science] from every [Coastal Defenses] <hidden from users>",
+			"[+1 Production, +1 Science] from every [Hardened Defenses] <hidden from users>",
+			"[+1 Production, +1 Science] from every [Battery] <hidden from users>",
+			"[+1 Production, +1 Science] from every [Bunker] <hidden from users>",
+			"[+1 Production, +1 Science] from every [Active Denial System] <hidden from users>",
 			"[+2 Production, +2 Science] from every [Citadel] <before the [Industrial era]>",
 			"[+4 Production, +4 Science] from every [Citadel] <starting from the [Industrial era]>",
-			"Cannot build [Low Tech] units",
-			"Starts with [Munitions]"
+			"Cannot build [Low Tech] units"
 		],
 		"cities": [
 			"Eagle Rock",
@@ -505,7 +496,8 @@
 			"Fort Granite",
 			"Liberator Station",
 			"Camp Dawn"
-		]
+		],
+		"spyNames": ["Ryan", "Dirk", "Fisher", "Kurt", "Ding", "Isaac", "Hansen", "Dorn", "Briggs", "Remi"]
 	},
 	{
 		"name": "Crimson Legion",
@@ -647,7 +639,7 @@
 			"Defense bonus when embarked <for [All] units>",
 			"[+1] Sight <for [Embarked] units>",
 			"[+1] Movement <for [Water] units>",
-			"[{Land} {Low Tech}] units gain the [Amphibious] promotion",
+			"[Low Tech] units gain the [Amphibious] promotion",
 			"[Personnel] units gain the [Amphibious] promotion",
 			"[Personnel] units gain the [Sea Raider] promotion <after adopting [Advanced Piracy]>",
 			"[Ranged Water] units gain the [Sea Raider] promotion <after adopting [Advanced Piracy]>",
@@ -746,7 +738,8 @@
 			"Pi-Ramesses",
 			"Giza",
 			"Byblos"
-		]
+		],
+		"spyNames": ["Mumia", "Ashanti", "Sundiata", "Kuwasi", "Dhoruba", "Safiya", "Kwaku", "Kom'boa", "Bashir", "Jamal"]
 	},
 
 	//Adjusted CS

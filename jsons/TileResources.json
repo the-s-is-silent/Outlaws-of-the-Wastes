@@ -255,5 +255,9 @@
 		"name": "Experimental Chemicals",
 		"resourceType": "Strategic",
 		"uniques": ["Stockpiled", "Not shown on world screen <for [non-[Hexlock]]>"]
+	},
+	{
+		"name": "Refined Experimental Chemicals",
+		"resourceType": "Luxury"
 	}
 ]
