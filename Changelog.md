@@ -930,6 +930,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - The Patriots now receive +1 Production/Science to most defensive buildings.
 - Spy names have been added for the base scenario's factions.
 	- Atlas spy names are taken from characters in *Atlas Shrugged.*
+	- Children of Rust spy names use a stereotypical Native American naming theme.
 	- Hexlock spy names are taken from notable robots and AIs IRL.
 	- Ignis spy names are taken from villainous characters in the *Mad Max* franchise.
 	- Legion spy names are taken from members of Caesar's Legion in the *Fallout* series (be it *New Vegas*, the cancelled *Van Buren*, or the *Honest Hearts Reborn* game mod).
@@ -966,7 +967,9 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **Unit Adjustments**
 - Advanced Armor buffed to 100 Strength and loses the penalty to attacking cities.
 - Seastead Vessel receives increased tile improvement construction speed after researching Advanced Materials.
-- Harbinger UUs: Educational Officer and Opolcheniye renamed to Educator Officer and Vengerovsky.
+- Harbinger UUs:
+	- Educational Officer and Opolcheniye renamed to Educator Officer and Vengerovsky.
+	- Technopath's Strength buff at Artificial Intelligence increased to 50%.
 
 **Policy Adjustments**
 - Expansionism:
@@ -988,10 +991,16 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Artificial glacier, for all that this improvement matters given how late in the game it comes, is buffed to add +2 Science.
 - Borehole nerfed to +3 base Production.
 - Crystal Refinery provides 3 copies of the consolidated Experimental Chemicals, and if built on Coal or Oil tiles it provides an additional copy of those resources.
-- Drydock nerfed slightly to lose +1 of its scaling Production and Science yields.
+- Drydock nerfed slightly to lose +1 of its scaling Production and Science yields. Also, until such time as water improvements are no longer destroyed outright by pillaging, it is now unpillagable.
 - Manufactory nerfed to lose +2 of its scaling Production yields.
 - Mine nerfed to lose the second +1 Production boost at Railroads. Also, it cannot be built on resources it doesn't improve.
 - Pasture buffed to move its +1 Food gain to Ecology, but it now properly obsoletes at Genetics.
+
+**Terrain Adjustments**
+- Mountains can now only have Artificial glaciers built on them, putting a stop to one particular Enclavers hijink. This might be changed later if additional Mountain-specific improvements are created.
+
+**Resource Adjustments**
+- As in Deciv 2, Power can no longer be traded. City-States are once again allowed to build the main Power Plant buildings.
 
 **New Faction**
 - Aztlan (Mexican, Aztec revivalist, Domination/Culture)

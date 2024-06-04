@@ -3,8 +3,9 @@
 #### Atlas
 - They are given a Mountain start bias and are now forbidden from building Enslaved units, Prison Camps and Work Camps.
 - All of their Melee Personnel units (except Mounted units) now inherit the Surveyor ability promotion regardless of whether or not they upgraded from a Surveyor.
-- Their number of starting techs is reduced to one - Electronics - and they no longer have the nonsensical and unnecessary double Production speed towards Electrostatic Generators.
-- Additionally, the free Great Scientist from their UA has been pushed back from Secrets of the Past to Education, and the only Great People they generate faster with their UA are Great Scientists. Though they no longer have a starting Science penalty.
+- The unnecessary and nonsensical double production speed towards their unique Electrostatic Generators was removed.
+- They no longer have any starting techs or Science penalty.
+- The free Great Scientist from their UA has been pushed back from Secrets of the Past to Education, and the only Great People they generate faster with their UA are Great Scientists.
 - Atlas Refuge no longer has a Scientist slot, but adds 60 City HP (up from 40), 5 City Strength and 1 base point of Science.
 - Survey Center now adds +3 Science, +1 Culture, and increases to +8 Science, +3 Culture at Flight.
 - Think Tank is buffed to give a +25% Production boost towards Science buildings, along with a 15% Production boost to cities constructing buildings which are owned in the capital.
@@ -14,7 +15,7 @@
 - TODO: Add at least one new UU and one more UB based on the source material
 
 #### Blackwarden
-- They now start with Trade and Currency instead of Construction and Machinery, and are no longer a Slaver faction.
+- They now start with Trade and Currency instead of Construction and Machinery, and are no longer a Slaver faction. They also lose Electronics due to the addition of Espionage mechanics.
 - Ark One only adds 5 City Strength (down from 10).
 - Board of Directors adds +2 Water/Science to Personnel Offices (was previously just +1 Water) and enables units to farm Water in combat equal to 10% of the damage they deal to enemy units.
 - Operations Center now costs 150 Production.
@@ -69,7 +70,7 @@
   - Subjugate Survivors (new Search for Survivors replacement, no Happiness bonuses but adds +1 population and +1 Production per 4 population in the city that builds it, and exchanges the free Auxiliary for a free Servus)
   - Victory Column (replaces Monument, +15 EXP to new units, +1 Local Happiness increasing to +2 during wartime)
   - Crucifixion Fields (new Prison Camp replacement, unsellable, kills 1 pop, adds +2 Culture but also adds +2 Unhappiness, awards free Legate)
-  - Frumentarii Camp (new Listening Post replacement, larger anti-spy bonus)
+  - Frumentarii Camp (new Listening Post replacement, larger anti-spy bonus, also added to "Deciv 2" fork)
 - TODO: Add a Distillery replacement that does not provide the Alcohol luxury (drugs/alcohol should be banned in Legion territory in accordance with the source material) along with at least 2 more UUs and possibly new Prison/Work Camp replacements
 
 #### Cult of Ignis
@@ -113,17 +114,17 @@
 - New UI: Fortified Farm (unlocks at Engineering, same placement restrictions as basic Farm, +1 Food/Production (+2 Production on Hills), +1 Food at Ecology, +1 Food at Land Remediation, +1 Production from completing Adaptation)
 
 #### Hexlock
-- They start with fewer free techs now: knowledge of Chemistry is gained, but knowledge of Construction, Machinery and Engineering is lost. The malus on GP generation is removed, and Encrypted Data resources are doubled by their UA.
+- They start with fewer free techs now: knowledge of Chemistry is gained, but knowledge of all of their previous starting techs except for Writing is lost. The malus on GP generation is removed, and Encrypted Data resources are doubled by their UA.
 - Chemicals are now properly Strategic Resources instead of Luxury Resources, so now Hexlock actually has Happiness issues.
 - All five of the original chemicals from the base scenario have been condensed into a single resource.
 - Field Scientists and Purge Robots are now standalone units.
 - Purge Robot Proto's base Strength increased from 25 to 40, in order to give Hexlock a fighting chance. But its Production cost is increased from 50 to 75.
 - Hex Corporation only creates one Purge Robot Proto, but it also gives a 10% Production bonus towards the construction of all Promotion Nullifier units after Replaceable Parts is researched. Also, it no longer gives a free Compound Mixer to the capital and gives their new Food Store replacement instead.
 - Standard Refineries gain +1 to their respective yields compared to the base scenario, adjacency bonuses (+1 Production when next to strategic resources, +1 of the respective yield when next to their corresponding GI), and scaling yields, receiving +1 of their respective base yield at Laboratory and another +1 at Advanced Materials. The VX Refinery now provides Food instead of Faith, but is not considered a Food source improvement.
-- Crystal Refineries have their base yields doubled to +4 Science, +2 Water, but have their adjacency bonuses reduced to +2 Science, +1 Water with 3 or less adjacent Refineries, +4 Science, +2 Water with 4 or more. They now provide three copies of Hexlock's unique resource. Also, they gain +2 Production and provide an extra copy of Coal or Oil if built on the respective resource tile.
-- Compound Mixes now cost 2 of the consolidated unique resource (aside from Meltdown which now costs 6) and require the city to work the Refinery which corresponds with the chemical that Refinery originally produced.
-- Compound Mix GP replaced with Compound Mix GF, generating Great Farmers instead of Great Sages (but with the same resource requirement as GP).
-- The Heat Plant building is no longer one of their unique components and can be built by everyone.
+- Crystal Refineries have their base yields doubled to +4 Science, +2 Water, but have their adjacency bonuses reduced to +2 Science, +1 Water with 3 or less adjacent Refineries, +4 Science, +2 Water with 4 or more. They now provide a Refined version of the consolidated Experimented Chemical that *is* allowed to be a Luxury. Also, they gain +2 Production and provide an extra copy of Coal or Oil if built on the respective resource tile.
+- Compound Mixes now cost 2 of the consolidated unique resource (aside from Meltdown which consumes 1 copy of the Refined version) and require the city to work the Refinery which corresponds with the chemical that Refinery originally produced.
+- Compound Mix GP replaced with Compound Mix GF, generating Great Farmers instead of Great Sages.
+- Heat Plants are no longer one of their unique components and can be built by everyone.
 - Pre-Med Labs have been buffed to carry over the same amount of Food on population increase as the Hospitals they replace and add +1 Food to VX Refineries, increasing to +2 in the late game.
 - Experiment on Survivors now awards a Field Scientist instead of a Great Scientist, gives +2 pop in the capital instead of +1 in all cities, and can only be built in the capital.
 - Private Labels no longer add Science to Refineries, but have a base yield of +3 Water.
@@ -157,11 +158,11 @@
 - Survival Program now adds +1 Culture per 4 population instead of a flat +2 Culture to all cities.
 - Revolutionary Council now adds a +15% Production bonus towards Personnel units for all cities.
 - New UBs:
-  - Mansion of Our Father (new identity wonder, +2 Food/Culture, keeps the sole Weapons resource copy and free Panther unit from the old Great Mosque effect but awards a Food Store instead of a Monument)
+  - Mansion of Our Father (new identity wonder, awards a Food Store instead of a Monument but is otherwise identical to the old Great Mosque)
   - Afrikan Reformed Church (replaces Monastery, adds +2 Food)
 
 #### New Star
-- They lose the absurd 50% boost to GP generation, but gain a form of their planned UA for the Rebirth Edition: Civilian and Support units gain Thermoptic Camouflage, and gifting these units to City-States nets 15 Influence with them. The Strength bonus for Wounded units now applies evenly, and the Sight bonus for Wounded units is extended to the other Support units.
+- They lose the absurd 50% boost to GP generation, but gain a form of their planned UA for the Rebirth Edition: Civilian and Support units receive Thermoptic Camouflage, and gifting these units to City-States nets 15 Influence with them. The Strength bonus for Wounded units now applies evenly, and the Sight bonus for Wounded units is extended to the other Support units.
 - They are no longer allowed to employ prison labor.
 - Mobile Encampment provides more Weapons (2 vs. 1) and can be built in a second city after discovering Munitions, allowing them to move the capital if necessary.
 - On the run now gives two Wandering Doctor replacements instead of a Militia.

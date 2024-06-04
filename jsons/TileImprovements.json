@@ -417,8 +417,7 @@
 			"[+1 Production, +1 Science] <after discovering [Ocean Remediation]>",
 			"[+1 Production, +1 Science] <after discovering [Pharmaceuticals]>",
 			"[+1 Production, +1 Science] <after discovering [Satellites]>",
-			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+20 Gold]"]
+			"Unpillagable"]
 	},
 	{
 		"name": "Seminary",
@@ -493,7 +492,7 @@
 			"[+2 Production] <in [Oil] tiles>",
 			"Provides [1] [Coal] <in [Coal] tiles>",
 			"Provides [1] [Oil] <in [Oil] tiles>",
-			"Instantly provides [3] [Experimental Chemicals]",
+			"Provides [1] [Refined Experimental Chemicals]",
 			"Gives a defensive bonus of [110]%",
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Can be built just outside your borders",
@@ -618,7 +617,9 @@
 			"Gives a defensive bonus of [50]%",
 			"Adjacent enemy units ending their turn take [10] damage",
 			"Cannot be built on [Fissure] tiles",
-			"Can only be built to improve a resource <in [resource] tiles>",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+			"Can only be built to improve a resource <in [Bonus resource] tiles>",
 			"Pillaging this improvement yields approximately [+10 Food, +10 Gold]"
 		]
 	},
@@ -637,7 +638,9 @@
 			"[+1 Culture] <after discovering [Radio]>",
 			"[+1 Happiness] <after discovering [Social Engineering]>",
 			"[+1 Gold, +1 Culture] <after discovering [Globalization]>",
-			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
 			"Can only be built on [Coastal] tiles",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		]

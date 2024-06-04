@@ -84,6 +84,31 @@
 		]
 	},
 	{
+		"name": "Power",
+		"resourceType": "Strategic",
+		"revealedBy": "Writing",
+		"improvement": "Wind farm",
+		"improvementStats": { "production": 1 },
+		"terrainsCanBeFoundOn": [
+			"Hill",
+			"Badlands",
+			"Coast",
+			"Ocean"
+		],
+		"majorDepositAmount": { "sparse": 2, "default": 3, "abundant": 4 },
+		"minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 },
+		"uniques": [
+			"Cannot be traded",
+			"Deposits in [Coast] tiles always provide [2] resources",
+			"Deposits in [Ocean] tiles always provide [2] resources",
+			"Guaranteed with Strategic Balance resource option",
+			"Generated with weight [40] <in [{Featureless} {Badlands}] tiles>",
+			"Generated with weight [39] <in [Hill] tiles>",
+			"Generated with weight [40] <in [{Featureless} {Coast}] tiles>",
+			"Generated with weight [10] <in [{Featureless} {Ocean}] tiles>"
+		]
+	},
+	{
 		"name": "Aluminum",
 		"resourceType": "Strategic",
 		"revealedBy": "Writing",
