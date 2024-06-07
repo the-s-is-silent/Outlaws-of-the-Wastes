@@ -114,6 +114,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Tribal Unification Initiative: [roman law](https://thenounproject.com/icon/roman-law-1615859/) by sachin modgekar, IN
 - Underworld: Merger of [boar](https://thenounproject.com/icon/boar-3864428/) by Andrejs Kirma, LV and [Power](https://thenounproject.com/icon/power-1196196/) by Icon Depot, IN
 - [Victory Column](https://thenounproject.com/icon/victory-column-4202773/) by tezar tantular, ID
+- Virtual Tabernacle: [virtual space](https://thenounproject.com/icon/virtual-space-4718206/) by Rolas Design, ID
 - Wasteland Surveillance Initiative: [Security](https://thenounproject.com/icon/security-123950/) by Aaron K. Kim, US
 - Workers' Facility: [facility](https://thenounproject.com/icon/facility-2815116/) by WEBTECHOPS LLP, IN
 - Yacht Club: [yacht](https://thenounproject.com/icon/yacht-1324236/) by ProSymbols, US

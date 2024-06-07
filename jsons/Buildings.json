@@ -485,7 +485,7 @@
 		"uniques": ["[+10]% growth [in all cities]",
 			"[+2 Production] from every [Sacred Cave]",
 			"[+2 Production] from every [Tabernacle]",
-			"[+2 Production] from every [Megachurch]",
+			"[+2 Production] from every [Virtual Tabernacle]",
 			"[+2 Production] from every [Worship Center]",
 			"[+2 Science, +2 Culture] from every [Great Improvement]",
 			"Only available <if [Search for Survivors] is constructed>",
@@ -524,6 +524,21 @@
 			"Only available <in cities without a [Coal Plant]>",
 			"Only available <in cities without a [Oil Plant]>"],
 		"requiredTech": "Nuclear Fission"
+	},
+	{
+		"name": "Virtual Tabernacle",
+		"replaces": "Megachurch",
+		"uniqueTo": "Deseret Nation",
+		"culture": 3,
+		"faith": 3,
+		"percentStatBonus": {"culture": 10, "faith": 10},
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Social Engineering",
+		"uniques": ["[+100]% Natural religion spread [in this city] <when above [-2] [Power]>",
+			"Consumes [1] [Power]",
+			"Only available <in cities with a [Tabernacle]>",
+			"Hidden when religion is disabled"]
 	},
 
 	//Camelot unique buildings
@@ -1092,6 +1107,7 @@
 			"Hidden when religion is disabled",
 			"All newly-trained [Philosopher] units [in this city] receive the [Devout] promotion",
 			"All newly-trained [Great Sage] units [in this city] receive the [Devout] promotion",
+			"[+2 Culture] from [Lakes] tiles [in all cities]",
 			"[+100 Culture] whenever a Great Person is expended"
 		]
 	},
@@ -3566,9 +3582,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["New [Armor] units start with [15] Experience [in this city]",
-			"Remove extra unhappiness from annexed cities",
 			"[+2 Happiness] [in this city] <when at war>",
-			"Only available <in cities without a [Prison Camp]>",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Machinery"
 	},

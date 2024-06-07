@@ -222,6 +222,22 @@
 		]
 	},
 	{
+		"name": "Salt",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Hill", "Badlands", "Desert", "Tundra"],
+		"food": 1,
+		"improvedBy": ["Mine", "Borehole"],
+		"improvementStats": { "food": 1 },
+		"uniques": [
+			"Generated with weight [35] <in [Hill] Regions>",
+			"Generated with weight [5] <in [Badlands] Regions>",
+			"Generated with weight [5] <in [Desert] Regions>",
+			"Generated on every [10] tiles <in [Tundra] tiles>",
+			"Generated with weight [5] <in [Hybrid] Regions>",
+			"Generated near City States with weight [15]"
+		]
+	},
+	{
 		"name": "Bananas",
  		"resourceType": "Luxury",
 		"gold": 1,

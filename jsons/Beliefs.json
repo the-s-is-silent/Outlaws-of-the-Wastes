@@ -23,6 +23,14 @@
 		]
 	},
 	{
+		"name": "Cautionary Tales",
+		"type": "Pantheon",
+		"uniques": [
+			"[+2 Faith] from every [Library]",
+			"[+1 Happiness] from every [Museum]"
+		]
+	},
+	{
 		"name": "Divine Judgment",
 		"type": "Pantheon",
 		"uniques": [
@@ -92,7 +100,7 @@
 		"type": "Pantheon",
 		"uniques": [
 			"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith, +1 Happiness] from every [Bomb Shelter]",
-			"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith, +1 Happiness] per [5] population [in capital]"
+			"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith, +1 Happiness] per [5] population <in cities with a [Bomb Shelter]>"
 		]
 	},
 	{
@@ -313,7 +321,7 @@
 		"name": "Church Property",
 		"type": "Founder",
 		"uniques": ["[+3 Gold] for each global city following this religion"]
-	}
+	},
 	{
 		"name": "Cross-Cultural Dialogue",
 		"type": "Founder",
@@ -414,7 +422,7 @@
 	{
 		"name": "Atomic Judgment",
 		"type": "Enhancer",
-		"uniques": ["Provides [2] [Uranium]",
+		"uniques": ["Provides [4] [Uranium]",
 			"[+20]% Strength <for [Nuclear Weapon] units> <when attacking>",
 			"Only available <after adopting [Exodus of the Evangelists]>"]
 	},

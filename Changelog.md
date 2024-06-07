@@ -968,6 +968,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Advanced Armor buffed to 100 Strength and loses the penalty to attacking cities.
 - Purge Robots are now their own unit type. They must still be "given" promotions and cannot earn them.
 - Seastead Vessel receives increased tile improvement construction speed after researching Advanced Materials.
+- Defiance UUs: Lawkeepers are no longer limited to 1 per Civilization.
 - Harbinger UUs:
 	- Educational Officer and Opolcheniye renamed to Educator Officer and Vengerovsky.
 	- Technopath's Strength buff at Artificial Intelligence increased to 50%.
@@ -1002,6 +1003,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Resource Adjustments**
 - As in Deciv 2, Power can no longer be traded. City-States are once again allowed to build the main Power Plant buildings.
+- Salt now adds +1 Food to the tiles it spawns on.
 
 **New Faction**
 - Aztlan (Mexican, Aztec revivalist, Domination/Culture)
@@ -1009,3 +1011,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **New Buildings**
 - Community Garden (+2 Food (increases to +3 with Exotic Seeds), +25% GP generation, 1 Farmer slot, unlocks at Ecology, also added to Deciv 2 fork)
 - Frumentarii Camp (new Listening Post replacement for Crimson Legion, -33% spy theft rate, also added to Deciv 2 fork)
+- Virtual Tabernacle (Megachurch replacement for Deseret Nation, adds Culture yields equal to its Faith yields, +100% religious pressure in its city)
+
+**New Beliefs**
+- Cautionary Tales (Pantheon), adds +2 Faith to Libraries and +1 Happiness to Museums

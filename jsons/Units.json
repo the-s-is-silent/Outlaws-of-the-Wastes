@@ -1245,6 +1245,7 @@
 		"uniques": ["Can instantly construct a [Outpost] improvement <by consuming this unit>",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [45] Influence",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Can be earned through combat",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
@@ -1546,7 +1547,7 @@
 		"cost": 150,
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Exo-Trooper",
-		"uniques": ["Personnel", "Consumes [1] [Weapons]", "Great Person - [War]", "Limited to [1] per Civilization"],
+		"uniques": ["Personnel", "Consumes [1] [Weapons]", "Can be earned through combat", "Great Person - [War]"],
 		"promotions": ["Reconnaissance I", "Gas Mask", "[Lawkeeper] ability"],
 		"attackSound": "phasers"
 	},
