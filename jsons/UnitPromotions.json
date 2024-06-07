@@ -51,6 +51,31 @@
 
 	//Adjusted promotions from base scenario (mostly nerfs)
 	{
+		"name": "Heal Instantly",
+		"uniques": [
+			"Heal this unit by [50] HP",
+			"Doing so will consume this opportunity to choose a Promotion"
+		],
+		"unitTypes": [
+			"Scrapper",
+			"Scout",
+			"Siege",
+			"Helicopter",
+			"Shooter",
+			"Armor",
+			"Melee Water",
+			"Ranged Water",
+			"Submarine",
+			"Aircraft Carrier",
+			"Fighter",
+			"Bomber",
+			"Mounted",
+			"Purge Robot"
+		],
+		"row": 0,
+        "column": 0
+	},
+	{
 		"name": "Forage",
 		"uniques": ["Earn [33]% of killed [Military] unit's [Strength] as [Science]",
 			"[+5] HP when healing <in [Forest] tiles>",

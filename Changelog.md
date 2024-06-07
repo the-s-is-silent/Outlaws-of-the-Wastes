@@ -966,6 +966,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Unit Adjustments**
 - Advanced Armor buffed to 100 Strength and loses the penalty to attacking cities.
+- Purge Robots are now their own unit type. They must still be "given" promotions and cannot earn them.
 - Seastead Vessel receives increased tile improvement construction speed after researching Advanced Materials.
 - Harbinger UUs:
 	- Educational Officer and Opolcheniye renamed to Educator Officer and Vengerovsky.
@@ -1006,5 +1007,5 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Aztlan (Mexican, Aztec revivalist, Domination/Culture)
 
 **New Buildings**
-- Community Garden (+2 Food (increases to +3 with Exotic Seeds), +25% GP generation, 1 Farmer slot, unlocks at Ecology, will also be added to Deciv 2 fork)
-- Frumentarii Camp (new Listening Post replacement for Crimson Legion, -33% spy theft rate, will also be added to Deciv 2 fork)
+- Community Garden (+2 Food (increases to +3 with Exotic Seeds), +25% GP generation, 1 Farmer slot, unlocks at Ecology, also added to Deciv 2 fork)
+- Frumentarii Camp (new Listening Post replacement for Crimson Legion, -33% spy theft rate, also added to Deciv 2 fork)

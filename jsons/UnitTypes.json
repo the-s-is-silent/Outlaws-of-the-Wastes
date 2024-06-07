@@ -1,4 +1,9 @@
 [
+	{
+		"name": "Purge Robot",
+		"uniques": ["Cannot intercept [Missile] units", "Cannot intercept [Stealth] units"],
+		"movementType": "Land"
+	},
     {
 		"name": "Atomic Bomber",
 		"movementType": "Air"

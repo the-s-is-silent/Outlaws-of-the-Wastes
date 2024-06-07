@@ -2062,7 +2062,7 @@
 	},
 	{
 		"name": "Purge Robot Proto",
-		"unitType": "Armor",
+		"unitType": "Purge Robot",
 		"uniqueTo": "Hexlock",
 		"upgradesTo": "Purge Robot MKI",
 		"obsoleteTech": "Combined Arms",
@@ -2072,7 +2072,6 @@
 		"requiredTech": "Machinery",
 		"uniques": [
 			"Promotion Nullifier",
-			"Purge Robot",
 			"Can move after attacking",
 			"No defensive terrain penalty",
 			"Consumes [1] [Encrypted Data]"
@@ -2082,7 +2081,7 @@
 	},
 	{
 		"name": "Purge Robot MKI",
-		"unitType": "Armor",
+		"unitType": "Purge Robot",
 		"uniqueTo": "Hexlock",
 		"upgradesTo": "Purge Robot MKII",
 		"movement": 2,
@@ -2093,7 +2092,6 @@
 		"obsoleteTech": "Combined Arms",
 		"uniques": [
 			"Promotion Nullifier",
-			"Purge Robot",
 			"Can move after attacking",
 			"No defensive terrain penalty",
 			"Consumes [1] [Aluminum]",
@@ -2104,7 +2102,7 @@
 	},
 	{
 		"name": "Purge Robot MKII",
-		"unitType": "Armor",
+		"unitType": "Purge Robot",
 		"uniqueTo": "Hexlock",
 		"upgradesTo": "Purge Robot",
 		"movement": 5,
@@ -2115,7 +2113,6 @@
 		"obsoleteTech": "Future Power",
 		"uniques": [
 			"Promotion Nullifier",
-			"Purge Robot",
 			"Only available <if [Factory] is constructed>",
 			"[95]% chance to intercept air attacks",
 			"[+25]% Strength <vs [Air] units>",
@@ -2129,6 +2126,35 @@
 		],
 		"promotions": ["Promotion Nullifier","Portable Power Cell"],
 		"attackSound": "tankshot"
+	},
+	{
+		"name": "Salvaged Purge Robot",
+		"unitType": "Purge Robot",
+		"movement": 3,
+		"strength": 62,
+		"interceptRange": 1,
+		"cost": 450,
+		"upgradesTo": "Purge Robot",
+		"uniques": [
+			"Promotion Nullifier",
+			"[+25]% Strength <vs [Air] units>",
+			"[70]% chance to intercept air attacks",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Unbuildable",
+			"Only available <if [Reactivate AI] is constructed>",
+			"Eliminates combat penalty for attacking over a river",
+			"Eliminates combat penalty for attacking across a coast",
+			"Defense bonus when embarked",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Promotion Nullifier","Portable Power Cell"],
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{
+				"text": "This Purge Robot is estimated to have served during the Old World era. Although decayed, it's still extremely combat-effective."
+			}
+		]
 	},
 	{
 		"name": "Machine Gun",
@@ -2377,7 +2403,7 @@
 	},
 	{
 		"name": "Purge Robot",
-		"unitType": "Armor",
+		"unitType": "Purge Robot",
 		"movement": 5,
 		"interceptRange": 2,
 		"strength": 125,
@@ -2385,7 +2411,6 @@
 		"requiredTech": "Future Power",
 		"uniques": [
 			"Promotion Nullifier",
-			"Purge Robot",
 			"[100]% chance to intercept air attacks",
 			"[1] extra interceptions may be made per turn",
 			"[+50]% Strength <vs [Air] units>",
