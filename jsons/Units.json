@@ -12,7 +12,7 @@
 		"uniques": ["Double movement in [Coast]", "Double movement in [Ocean]",
 			"Can build [Land] improvements on tiles",
 			"May create improvements on water resources",
-			"Can build [Water] improvements on tiles <for [AI player]> <hidden from users>",
+			"Can build [Water] improvements on tiles",
 			"Automation is a primary action"]
 	},
 	{
@@ -166,13 +166,12 @@
 		"movement": 2,
 		"strength": 36,
 		"cost": 60,
-		"promotions": ["Gas Mask", "Forage"],
+		"promotions": ["Gas Mask", "Prospector"],
 		"obsoleteTech": "Plastics",
 		"upgradesTo": "NBC Infantry",
 		"uniques": ["Personnel",
 			"Consumes [1] [Weapons]",
-			"Can build [Salvage site] improvements on tiles",
-			"[+15]% Strength <after discovering [Rifling]>",
+			"[+25]% Strength <after discovering [Rifling]>",
 			"Unbuildable",
 			"Only available <after adopting [Collectivism]>"],
 		"attackSound": "machinegun"
@@ -924,6 +923,8 @@
 		"hurryCostModifier": 20,
 		"upgradesTo": "Mechanized Worker",
 		"uniques": ["Can build [Land] improvements on tiles",
+			"May create improvements on water resources",
+			"Can build [Water] improvements on tiles",
 			"Ignores terrain cost",
 			"Automation is a primary action"]
 	},
@@ -1095,6 +1096,8 @@
 		"uniques": ["Comment [Cheaper to buy]",
 			"Can move immediately once bought",
 			"Can build [Land] improvements on tiles",
+			"May create improvements on water resources",
+			"Can build [Water] improvements on tiles",
 			"Automation is a primary action"]
 	},
 	{
@@ -1654,6 +1657,20 @@
 
 	//Adjusted units from the base scenario and other mods
 	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"hurryCostModifier": 20,
+		"upgradesTo": "Mechanized Worker",
+		"uniques": [
+			"Can build [Land] improvements on tiles",
+			"May create improvements on water resources",
+			"Can build [Water] improvements on tiles",
+			"Automation is a primary action"
+		],
+		"cost": 70
+	},
+	{
 		"name": "Work Boats",
 		"unitType": "Civilian Water",
 		"movement": 4,
@@ -1663,7 +1680,7 @@
 			"Cannot enter ocean tiles <before discovering [Navigation]>",
 			"Uncapturable",
 			"May create improvements on water resources",
-			"Can build [Water] improvements on tiles <for [AI player]> <hidden from users>",
+			"Can build [Water] improvements on tiles",
 			"Automation is a primary action"
 		],
 		"hurryCostModifier": 20
@@ -2899,6 +2916,20 @@
 
 	//Barbarian units
 	{
+		"name": "Ghoul",
+		"uniqueTo": "Barbarians",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 24,
+		"interceptRange": 1,
+		"cost": 60,
+		"obsoleteTech": "Laboratory",
+		"uniques": ["Low Tech", "[+25] HP when healing <within [3] tiles of a [Fallout]>",
+			"Free [Ghoul] appears <upon defeating a [Military] unit> <with [33]% chance>",
+			"Uncapturable"],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Suicider",
 		"uniqueTo": "Barbarians",
 		"replaces": "Forward Observer",
@@ -2913,6 +2944,21 @@
 		"promotions": ["Raider", "Napalm"],
 		"hurryCostModifier": 20,
 		"attackSound": "nuke"
+	},
+	{
+		"name": "Marked One",
+		"replaces": "Stalker",
+		"uniqueTo": "Barbarians",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 38,
+		"interceptRange": 1,
+		"cost": 60,
+		"requiredTech": "Engineering",
+		"upgradesTo": "NBC Infantry",
+		"promotions": ["Raider", "Gas Mask", "Forage", "Urban Warfare I"],
+		"uniques": ["Personnel", "[+25]% Strength <after discovering [Rifling]>"],
+		"attackSound": "machinegun"
 	},
 	{
 		"name": "Killdozer",
@@ -3010,7 +3056,7 @@
 			"[+25]% Strength <starting from the [Rediscovering era]>",
 			"[+25]% Strength <starting from the [Rebuilding era]>",
 			"[+25]% Strength <starting from the [Postmodern era]>",
-			"[+25]% Strength <starting from the [New Future era]>",
+			"[+75]% Strength <starting from the [New Future era]>",
 			"[+1] Movement <starting from the [New Future era]>",
 			"[+100]% chance to intercept air attacks",
 			"[-100]% maintenance costs",

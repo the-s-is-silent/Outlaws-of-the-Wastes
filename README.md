@@ -22,7 +22,7 @@ A major expansion + rebalance mod for DeCiv Redux.
 - Two new victory conditions, restoring the "proper" Domination and Science victories. (Warning: do not enable these without disabling the standard Domination and Science victories. Having both DeCiv's Science Victory (Terraform Earth) and Colonization Victory (launch the spaceship) enabled will currently make those victory conditions impossible to achieve.)
 
 - Four new factions:
-  - Aztlán, the expected post-Cataclysm nation of Aztec revivalists.
+  - Aztlan, the expected post-Cataclysm nation of Aztec revivalists.
   - Camelot Foundation, a constitutional republic arising from what's left of Wales, England and Brittany.
   - Crimson Line, a faction of hardliner Communists who took shelter from the Cataclysm inside the Moscow Metro and now seek to reunite the Soviet Union by force.
   - The Harbingers, the remnants of an evil Mega-Corp who are now trying to atone for their previous practices...or are they?
@@ -30,7 +30,7 @@ A major expansion + rebalance mod for DeCiv Redux.
 - Eight new city-states: Calico (Labor), Carbon (Farming), Defiance (Weapons), Hockeytown (Culture), Issaquah Nation (Prayer, replacing Deseret in that slot), Izumrydniy Gorod (Research), The Pax (Research), and Venice Beach (Trading).
 
 - New units:
-  - Barbarian: Suicider, Killdozer, Dhow, Skiff, Ocean Robber
+  - Barbarian: Ghoul, Suicider, Marked One, Killdozer, Dhow, Skiff, Ocean Robber
   - City-States: State Guard + Pre-War Turret
   - Civilian: Great Admiral (Rekmod implementation), Military Engineer (Approximation of Civ 6 unit), Seastead Vessel
   - Collectivism policy: Stalker (yes, the very same Stalker from Roadside Picnic and everything it inspired)
@@ -62,10 +62,12 @@ A major expansion + rebalance mod for DeCiv Redux.
   - Seaside Resort, exclusive to Venice Beach.
   - Supply Complex, the Great Merchant's new Great Improvement. No longer do Great Administrators and Great Merchants share a Great Improvement.
 
+- Several new resources.
+
 - Several new beliefs for more diverse religion customization.
 
 - Several new ruins bonuses with each ruins effect now being weighted, along with buffs to some of the base scenario's bonuses.
 
-- Several of the 14 factions in the base scenario have received at least 1 new unit and/or building. Again, check the Faction Adjustments.md file for more details.
+- Several of the 14 factions in the base scenario have received at least 1 new unique component. Again, check the Faction Adjustments.md file for more details.
 
 - And more is planned for the future; check the ToDoList.md file for some of these things.

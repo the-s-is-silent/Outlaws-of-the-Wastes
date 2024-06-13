@@ -991,6 +991,7 @@
 		"requiredTech": "Botany",
 		"uniques": ["[+1 Food] from [Grain] tiles [in this city]",
 			"[+1 Food] from [Tubers] tiles [in this city]",
+			"[+1 Food] from [Cactus] tiles [in this city]",
 			"[+1 Food] from [{Fresh water} {Farm}] tiles [in this city]",
 			"[+1 Food] [in this city] <with [Exotic Seeds]>",
 			"Only available <in cities with a [Calpulli]>",
@@ -2565,6 +2566,7 @@
 		"uniques": [
 			"[+1 Food] from [Tubers] tiles [in this city]",
 			"[+1 Food] from [Grain] tiles [in this city]",
+			"[+1 Food] from [Cactus] tiles [in this city]",
 			"[+1 Food] [in this city] <with [Exotic Seeds]>"
 		],
 		"maintenance": 1,
@@ -3840,6 +3842,7 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Tubers] tiles [in this city]",
 			"[+1 Food] from [Grain] tiles [in this city]",
+			"[+1 Food] from [Cactus] tiles [in this city]",
 			"[+1 Food] from [Cattle] tiles [in this city]",
 			"[+1 Food] from [Goats] tiles [in this city]",
 			"[+1 Gold] from every [Farmer] <in this city> <after discovering [Hydroponics]>",
@@ -4011,6 +4014,7 @@
 		"specialistSlots": {"Farmer": 1},
 		"uniques": ["[+1 Food] from [Grain] tiles [in this city]",
 			"[+1 Food] from [Tubers] tiles [in this city]",
+			"[+1 Food] from [Cactus] tiles [in this city]",
 			"[+1 Food] from every [Farmer] <in this city>",
 			"[+1 Culture] from [Narcotics farm] tiles [in this city]",
 			"[+50]% Production when constructing [Worker] units [in this city]",
@@ -4392,6 +4396,7 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Tubers] tiles [in this city]",
 			"[+1 Food] from [Grain] tiles [in this city]",
+			"[+1 Food] from [Cactus] tiles [in this city]",
 			"[+1 Food] [in this city] <with [Exotic Seeds]>",
 			"[+1 Production] from every [Farmer] <in this city>"],
 		"requiredTech": "Botany"

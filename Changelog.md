@@ -966,8 +966,11 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Unit Adjustments**
 - Advanced Armor buffed to 100 Strength and loses the penalty to attacking cities.
+- Hero of the Wastes buffed to gain an additional 50% Strength bonus on reaching the New Future era.
 - Purge Robots are now their own unit type. They must still be "given" promotions and cannot earn them.
 - Seastead Vessel receives increased tile improvement construction speed after researching Advanced Materials.
+- Stalkers now start with the Prospector promotion instead of Forage, and their Strength buff at Rifling is increased to 25%.
+- Workers (but not Mounted/Mechanized Workers or CS Worker replacements) may now build water improvements (now that a resource that can spawn on Lakes has been introduced).
 - Defiance UUs: Lawkeepers are no longer limited to 1 per Civilization.
 - Harbinger UUs:
 	- Educational Officer and Opolcheniye renamed to Educator Officer and Vengerovsky.
@@ -1003,6 +1006,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Resource Adjustments**
 - As in Deciv 2, Power can no longer be traded. City-States are once again allowed to build the main Power Plant buildings.
+- Plankton is now a Bonus resource.
 - Salt now adds +1 Food to the tiles it spawns on.
 
 **New Faction**
@@ -1012,6 +1016,17 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Community Garden (+2 Food (increases to +3 with Exotic Seeds), +25% GP generation, 1 Farmer slot, unlocks at Ecology, also added to Deciv 2 fork)
 - Frumentarii Camp (new Listening Post replacement for Crimson Legion, -33% spy theft rate, also added to Deciv 2 fork)
 - Virtual Tabernacle (Megachurch replacement for Deseret Nation, adds Culture yields equal to its Faith yields, +100% religious pressure in its city)
+
+**New Barbarian Units**
+- Ghoul (weaker Mutant that can spawn more Ghouls when it kills a unit and cannot be captured)
+- Marked One (rogue Stalker that loses time improvement abilities but gains +2 Strength and starts with Forage and Urban Warfare I)
+
+**New Resources**
+(I expect some of these to also be added to the "Deciv 2" fork)
+- Cactus (Luxury, spawns in flat Desert, improved by Farm but NOT Grassland, affected by Greenhouse)
+- Deepwater Fish (Bonus, spawns in Ocean, improved by Fishing Boats and Bioculture)
+- Mercury (imported from Civ 6, Luxury, spawns in flat Wasteland, improved by Mine and Borehole)
+- Mutant Eel (Luxury, spawns in Coast/Ocean, improved by Fishing Boats and Bioculture)
 
 **New Beliefs**
 - Cautionary Tales (Pantheon), adds +2 Faith to Libraries and +1 Happiness to Museums

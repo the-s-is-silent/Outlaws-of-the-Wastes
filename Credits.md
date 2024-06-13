@@ -1,8 +1,8 @@
 # Credits
 
 Like the status of the mod as a whole as well as DeCiv Redux's credit list, this is incomplete.<br>
-Pixel art will most likely reuse other sources (several of them from DeCiv, Drydock from Rekmod, Barbarian Scout and Suicider from The Barbarians) for the initial upload.<br>
-Floating Settlement, Fortified Farm, Supply Complex, and Wasteland Station borrow tile images from Alpha Frontier, with permission from [Indonesian Gentleman](https://github.com/carriontrooper).<br>
+Pixel art will most likely reuse other sources (several of them from DeCiv, Caer and Drydock from Rekmod, Barbarian Scout and Suicider from The Barbarians) for the initial upload.<br>
+Cactus and Cactus Farm, Floating Settlement, Fortified Farm, Supply Complex, and Wasteland Station borrow and in some cases modify tile images from Alpha Frontier, with permission from [Indonesian Gentleman](https://github.com/carriontrooper).<br>
 Preservator is borrowed from [Bamboolord](https://github.com/RealBamboolord) with his permission.<br>
 Several icons reuse images used in Unciv, DeCiv Redux, Civ 6 mod, and Rekmod, with some of the latter three remaining unsourced.<br>
 The Religion Icons for Anglicanism, Imperial Cult and Mormonism were created by Tomatekh on CivFanatics and can be found [at the Civ 5 Customization Wiki's entry on the Tomatekh's Historical Religions mod](https://civilization-v-customisation.fandom.com/wiki/Tomatekh%27s_Historical_Religions).<br>
@@ -178,6 +178,9 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 
 ### Resource Icons
 - Advanced Fabrics: [nanotech shirt](https://thenounproject.com/icon/nanotech-shirt-4817171/) by supalerk laipawat, TH
+- [Cactus](https://thenounproject.com/icon/cactus-6863739/) by bsd studio, CA
+- [Mercury](https://thenounproject.com/icon/mercury-1210194/) by Pundimon
+- Mutant Eel: [eel](https://thenounproject.com/icon/eel-6813251/) by Vanicon studio, ID
 - [Newspaper](https://thenounproject.com/icon/newspaper-5525221/) by ermachello
 - [Scripture](https://thenounproject.com/icon/scripture-4402137/) by Athok
 
@@ -208,6 +211,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Exploding Boat: [fire boat](https://thenounproject.com/icon/fire-boat-3372596/) by Start Up Graphic Design, TH
 - Exploratores: Merger of [Laurel Wreath](https://thenounproject.com/icon/laurel-wreath-275974/) by Christopher T. Howlett, CA and [Gladius Sword](https://thenounproject.com/icon/gladius-sword-114601/) by Alex Firo, RO
 - Field Preparations Squad: [military engineering](https://thenounproject.com/icon/military-engineering-5268736/) by M. Oki Orlando, ID
+- Ghoul: [Zombie](https://thenounproject.com/icon/zombie-4578120/) by Ian, US
 - Goon: [Hockey Mask](https://thenounproject.com/icon/hockey-mask-225297/) by P Thanga Vignesh
 - Great Caravan: [caravan](https://thenounproject.com/icon/caravan-4604787/) by Eucalyp
 - Gunboat: [warship](https://thenounproject.com/icon/warship-2948183/) by Muhammad Tajudin, ID
@@ -218,9 +222,10 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Knight: [Knight helmet](https://thenounproject.com/icon/knight-helmet-5567347/) by Singlar
 - Lagoon: [catamaran](https://thenounproject.com/icon/catamaran-4103568/) by nareerat jaikaew, TH
 - Lawkeeper: [Police](https://thenounproject.com/icon/police-3395179/) by Nhor
-- The Last Minute: [nuclear missile](https://thenounproject.com/icon/nuclear-missile-5460126/) by Fran Couto
+- Sentinel Missile: [nuclear missile](https://thenounproject.com/icon/nuclear-missile-5460126/) by Fran Couto
 - Legate: [Legion](https://thenounproject.com/icon/legion-814530/) by Aldric Rodríguez
 - Living Prophet: [Mormonism](https://thenounproject.com/icon/mormonism-200426/) by Dabid J. Pascual
+- Marked One: [kalashnikov head](https://thenounproject.com/icon/kalashnikov-head-4727963/) by Eliricon, FI
 - Martial Monk: [monk](https://thenounproject.com/icon/monk-3631410/) by Eucalyp
 - Military Engineer: [Engineering](https://thenounproject.com/icon/engineering-2491577/) by Icon Market, PK
 - Mobile Clinic: [Ambulance](https://thenounproject.com/icon/ambulance-1262538/) by Ralf Schmitzer
