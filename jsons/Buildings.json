@@ -528,7 +528,7 @@
 	{
 		"name": "Virtual Tabernacle",
 		"replaces": "Megachurch",
-		"uniqueTo": "Deseret Nation",
+		"uniqueTo": "Deseret2",
 		"culture": 3,
 		"faith": 3,
 		"percentStatBonus": {"culture": 10, "faith": 10},
