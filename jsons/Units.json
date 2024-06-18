@@ -321,7 +321,7 @@
 	},
 	{
 		"name": "Border Patrol",
-		"unitType": "Shooter",
+		"unitType": "Mounted Ranged",
 		"movement": 4,
 		"strength": 30,
 		"rangedStrength": 35,
@@ -333,7 +333,7 @@
 		"upgradesTo": "Helicopter",
 		"requiredResource": "Weapons",
 		"promotions": ["Reconnaissance I"],
-		"uniques": ["Personnel", "Mounted", "Can move after attacking",
+		"uniques": ["Personnel", "Can move after attacking",
 			"[+25]% Strength <when fighting in [Friendly Land] tiles>",
 			"[-25]% Strength <when fighting in [Foreign Land] tiles>",
 			"[-33]% Strength <vs cities> <when attacking>",
@@ -817,14 +817,15 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 200,
-		"uniques": ["Mounted",
+		"uniques": [
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence",
 			"Can instantly construct a [Wasteland Station] improvement <by consuming this unit>",
 			"Is part of Great Person group [Merchant]", "Great Person - [Gold]",
 			"Only available <if [Harbinger Manege] is constructed>",
 			"Only available <in cities with a [Contract with Survivors]>",
 			"Requires at least [5] population",
-			"Cannot be purchased"]
+			"Cannot be purchased"
+		]
 	},
 	{
 		"name": "Educator Officer",
@@ -1718,6 +1719,21 @@
 		"cost": 50
 	},
 	{
+		"name": "Mounted Worker",
+		"unitType": "Civilian",
+		"movement": 4,
+		"hurryCostModifier": 20,
+		"requiredTech": "Redomestication",
+		"upgradesTo": "Mechanized Worker",
+		"uniques": [
+			"Can build [Land] improvements on tiles",
+			"May withdraw before melee ([50]%)",
+			"Only available <if [Stable] is constructed>",
+			"Automation is a primary action"
+		],
+		"cost": 130
+	},
+	{
 		"name": "Mechanized Worker",
 		"unitType": "Civilian",
 		"requiredTech": "Replaceable Parts",
@@ -1909,8 +1925,110 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Skirmisher",
+		"unitType": "Mounted Ranged",
+		"range": 1,
+		"movement": 4,
+		"strength": 15,
+		"rangedStrength": 15,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Dragoon",
+		"uniques": [
+			"Low Tech",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[+33]% Strength <vs [Low Tech] units>",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Only available <if [Stable] is constructed>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Rubble Rider",
+		"uniqueTo": "Deadrock Clan",
+		"replaces": "Skirmisher",
+		"unitType": "Mounted Ranged",
+		"range": 1,
+		"movement": 4,
+		"strength": 15,
+		"rangedStrength": 15,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Dragoon",
+		"uniques": [
+			"Low Tech",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[+33]% Strength <vs [Low Tech] units>",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Only available <if [Stable] is constructed>",
+			"Consumes [1] [Slaves]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "horse",
+		"promotions": ["Urban Warfare I"]
+	},
+	{
+		"name": "Dragoon",
+		"unitType": "Mounted Ranged",
+		"range": 1,
+		"movement": 4,
+		"strength": 30,
+		"rangedStrength": 24,
+		"interceptRange": 1,
+		"cost": 80,
+		"requiredTech": "Redomestication",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Light Cavalry",
+		"uniques": [
+			"Personnel",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Only available <if [Stable] is constructed>",
+			"Consumes [1] [Weapons]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
+		"name": "Highwayman",
+		"uniqueTo": "Barbarians",
+		"replaces": "Dragoon",
+		"unitType": "Mounted Ranged",
+		"range": 1,
+		"movement": 4,
+		"strength": 30,
+		"rangedStrength": 24,
+		"interceptRange": 1,
+		"cost": 80,
+		"requiredTech": "Botany",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Light Cavalry",
+		"uniques": [
+			"Personnel",
+			"Mounted",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-33]% Strength <vs cities> <when attacking>"
+		],
+		"promotions": [
+			"Skirmish",
+			"Raider",
+			"Entrench",
+			"Guerilla Warfare I",
+			"Urban Warfare I"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
 		"name": "Light Cavalry",
-		"unitType": "Shooter",
+		"unitType": "Mounted Ranged",
 		"range": 1,
 		"movement": 4,
 		"strength": 35,
@@ -1921,7 +2039,6 @@
 		"upgradesTo": "Helicopter",
 		"uniques": [
 			"Personnel",
-			"Mounted",
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-33]% Strength <vs cities> <when attacking>",
@@ -1934,7 +2051,7 @@
 		"name": "Robber",
 		"uniqueTo": "Barbarians",
 		"replaces": "Light Cavalry",
-		"unitType": "Shooter",
+		"unitType": "Mounted Ranged",
 		"range": 1,
 		"movement": 4,
 		"strength": 35,
@@ -1945,7 +2062,6 @@
 		"upgradesTo": "Helicopter",
 		"uniques": [
 			"Personnel",
-			"Mounted",
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-33]% Strength <vs cities> <when attacking>"

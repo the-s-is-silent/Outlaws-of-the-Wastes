@@ -600,6 +600,7 @@
 		"cost": 50,
 		"hurryCostModifier": -25,
 		"uniques": ["New [Mounted] units start with [15] Experience [in this city]",
+			"New [Mounted Ranged] units start with [15] Experience [in this city]",
 			"[+1 Production, +1 Culture] from [Horses] tiles [in this city]"],
 		"requiredTech": "Redomestication"
 	},
