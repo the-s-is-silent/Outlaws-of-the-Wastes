@@ -2593,7 +2593,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Biology",
 		"uniques": ["[30]% Food is carried over after population increases [in this city]",
-			"All newly-trained [Personnel] units [in this city] receive the [Medic I] promotion",
+			"All newly-trained [relevant] units [in this city] receive the [Medic I] promotion",
 			"Consumes [1] [Power]"]
 	},
 	{
@@ -2605,7 +2605,7 @@
 		"requiredTech": "Biology",
 		"uniques": [
 			"[30]% Food is carried over after population increases [in this city]",
-			"All newly-trained [Personnel] units [in this city] receive the [Medic I] promotion",
+			"All newly-trained [relevant] units [in this city] receive the [Medic I] promotion",
 			"All newly-trained [Promotion Nullifier] units [in this city] receive the [Medic I] promotion",
 			"[+1 Food] from [VX Refinery] tiles [in this city]",
 			"[+1 Food] from [VX Refinery] tiles [in this city] <after discovering [Pharmaceuticals]>",
@@ -2651,8 +2651,9 @@
 			"[30]% Food is carried over after population increases [in this city]",
 			"Population loss from nuclear attacks [-25]% [in this city]",
 			"Damage to garrison from nuclear attacks [-25]% [in this city]",
+			"All newly-trained [relevant] units [in this city] receive the [Medic I] promotion",
 			"All newly-trained [Personnel] units [in this city] receive the [Gas Mask] promotion",
-			"All newly-trained [{Land} {Low Tech}] units [in this city] receive the [Gas Mask] promotion",
+			"All newly-trained [Low Tech] units [in this city] receive the [Gas Mask] promotion",
 			"Consumes [1] [Power]"
 		]
 	},

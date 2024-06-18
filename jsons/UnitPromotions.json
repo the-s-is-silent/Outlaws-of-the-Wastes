@@ -521,7 +521,7 @@
 			"All adjacent units heal [+5] HP when healing",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted", "Mounted Ranged"],
+		"unitTypes": ["Scrapper", "Scout", "Mounted"],
 		"column": 10,
 		"row": 1
 	},
@@ -534,7 +534,7 @@
 			"[+5] HP when healing <in [Foreign Land] tiles>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted", "Mounted Ranged"],
+		"unitTypes": ["Scrapper", "Scout", "Mounted"],
 		"column": 10,
 		"row": 2
 	},
