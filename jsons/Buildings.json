@@ -282,7 +282,8 @@
 		"percentStatBonus": {"production": 5},
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["All newly-trained [Purge Robot] units [in this city] receive the [Self-Repair] promotion",
+		"uniques": ["All newly-trained [Personnel] units [in this city] receive the [Resupply] promotion",
+			"All newly-trained [Purge Robot] units [in this city] receive the [Self-Repair] promotion",
 			"[+2 Production, +2 Gold] from [Refinery] tiles [in this city]",
 			"[+2 Production] from [Salt] tiles [in this city]",
 			"Consumes [1] [Salt]", "Consumes [1] [Power]"],
@@ -600,6 +601,7 @@
 		"cost": 50,
 		"hurryCostModifier": -25,
 		"uniques": ["New [Mounted] units start with [15] Experience [in this city]",
+			"New [Mounted Ranged] units start with [15] Experience [in this city]",
 			"[+1 Production, +1 Culture] from [Horses] tiles [in this city]"],
 		"requiredTech": "Redomestication"
 	},
@@ -2592,7 +2594,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Biology",
 		"uniques": ["[30]% Food is carried over after population increases [in this city]",
-			"All newly-trained [Personnel] units [in this city] receive the [Medic I] promotion",
+			"All newly-trained [relevant] units [in this city] receive the [Medic I] promotion",
 			"Consumes [1] [Power]"]
 	},
 	{
@@ -2604,7 +2606,7 @@
 		"requiredTech": "Biology",
 		"uniques": [
 			"[30]% Food is carried over after population increases [in this city]",
-			"All newly-trained [Personnel] units [in this city] receive the [Medic I] promotion",
+			"All newly-trained [relevant] units [in this city] receive the [Medic I] promotion",
 			"All newly-trained [Promotion Nullifier] units [in this city] receive the [Medic I] promotion",
 			"[+1 Food] from [VX Refinery] tiles [in this city]",
 			"[+1 Food] from [VX Refinery] tiles [in this city] <after discovering [Pharmaceuticals]>",
@@ -2650,8 +2652,9 @@
 			"[30]% Food is carried over after population increases [in this city]",
 			"Population loss from nuclear attacks [-25]% [in this city]",
 			"Damage to garrison from nuclear attacks [-25]% [in this city]",
+			"All newly-trained [relevant] units [in this city] receive the [Medic I] promotion",
 			"All newly-trained [Personnel] units [in this city] receive the [Gas Mask] promotion",
-			"All newly-trained [{Land} {Low Tech}] units [in this city] receive the [Gas Mask] promotion",
+			"All newly-trained [Low Tech] units [in this city] receive the [Gas Mask] promotion",
 			"Consumes [1] [Power]"
 		]
 	},
@@ -4089,16 +4092,6 @@
 			"Only available <in cities with a [Research Lab]>",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Laboratory"
-	},
-	{
-		"name": "Advanced Chemical Refinery",
-		"uniqueTo": "Hexlock",
-		"maintenance": 2,
-		"requiredTech": "Laboratory",
-		"uniques": ["All newly-trained [Purge Robot] units [in this city] receive the [Chemical Weapons] promotion",
-			"[+50]% Yield from every [Refinery] <in this city>",
-			"Consumes [1] [Coal]", "Consumes [1] [Power]",
-			"Only available <if [Chemical Weapons Laboratory] is constructed>"]
 	},
 	{
 		"name": "Gas Field",

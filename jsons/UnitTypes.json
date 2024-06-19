@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Mounted Ranged",
+		"uniques": ["Cannot intercept [Missile] units", "Cannot intercept [Stealth] units"],
+		"movementType": "Land"
+	},
+	{
 		"name": "Purge Robot",
 		"uniques": ["Cannot intercept [Missile] units", "Cannot intercept [Stealth] units"],
 		"movementType": "Land"

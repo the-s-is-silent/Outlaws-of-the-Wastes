@@ -70,6 +70,7 @@
 			"Fighter",
 			"Bomber",
 			"Mounted",
+			"Mounted Ranged",
 			"Purge Robot"
 		],
 		"row": 0,
@@ -124,6 +125,76 @@
 		"unitTypes": ["Ranged Water", "Fighter", "Bomber"],
 		"column": 1,
 		"row": 13
+	},
+	{
+		"name": "Urban Warfare I",
+		"uniques": [
+			"Double movement in [Forest]",
+			"Double movement in [Jungle]",
+			"[+10]% Strength <when fighting in [Forest] tiles>",
+			"[+10]% Strength <when fighting in [Jungle] tiles>",
+			"[+10]% Strength <vs cities>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Scrapper", "Shooter", "Mounted", "Mounted Ranged"],
+		"column": 2,
+		"row": 1
+	},
+	{
+		"name": "Urban Warfare II",
+		"prerequisites": ["Urban Warfare I"],
+		"uniques": [
+			"[+30]% Strength <when fighting in [Forest] tiles>",
+			"[+30]% Strength <when fighting in [Jungle] tiles>",
+			"[+30]% Strength <vs cities>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted", "Mounted Ranged"],
+		"column": 2,
+		"row": 2
+	},
+	{
+		"name": "Guerilla Warfare I",
+		"uniques": [
+			"[+10]% Strength <when fighting in [Rough terrain] tiles>",
+			"Can move after attacking",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Scrapper", "Shooter", "Mounted", "Mounted Ranged"],
+		"column": 2,
+		"row": 3
+	},
+	{
+		"name": "Guerilla Warfare II",
+		"prerequisites": ["Guerilla Warfare I"],
+		"uniques": [
+			"[+30]% Strength <when fighting in [Hill] tiles>",
+			"[+10]% Strength <when attacking>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted", "Mounted Ranged"],
+		"column": 2,
+		"row": 4
+	},
+	{
+		"name": "Accuracy",
+		"uniques": [
+			"[+20]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Siege", "Helicopter", "Mounted Ranged"],
+		"column": 3,
+		"row": 1
+	},
+	{
+		"name": "Combat Drill",
+		"uniques": [
+			"[+20]% Strength <when defending>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Siege", "Helicopter", "Mounted Ranged"],
+		"column": 3,
+		"row": 2
 	},
 	{
 		"name": "Chemical Weapons",
@@ -192,7 +263,7 @@
 		"name": "Reconnaissance I",
 		"uniques": ["Ignores terrain cost",
 			"Only available <for units without [Promotion Nullifier]>"],
-		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted", "Mounted Ranged"],
 		"column": 5,
 		"row": 1
 	},
@@ -202,7 +273,7 @@
 		"uniques": ["[+50]% Strength <vs [Siege] units>",
 			"Ignores Zone of Control",
 			"Only available <for units without [Promotion Nullifier]>"],
-		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted", "Mounted Ranged"],
 		"column": 5,
 		"row": 2
 	},
@@ -211,7 +282,7 @@
 		"prerequisites": ["Reconnaissance II"],
 		"uniques": ["[+1] Movement", 
 			"Only available <for units without [Promotion Nullifier]>"],
-		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted", "Mounted Ranged"],
 		"column": 5,
 		"row": 3
 	},
@@ -247,6 +318,28 @@
 		"unitTypes": ["Shooter"],
 		"column": 6,
 		"row": 6
+	},
+	{
+		"name": "Barrage",
+		"prerequisites": ["Accuracy", "Combat Drill"],
+		"uniques": [
+			"[+20]% Strength <when fighting in [Rough terrain] tiles> <when attacking>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Siege", "Helicopter", "Mounted Ranged"],
+		"column": 7,
+		"row": 1
+	},
+	{
+		"name": "Resupply",
+		"prerequisites": ["Accuracy", "Combat Drill", "Awe", "Maneuver"],
+		"uniques": [
+			"[+10] HP when healing",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Armor", "Siege", "Helicopter", "Mounted Ranged"],
+		"column": 7,
+		"row": 2
 	},
 	{
 		"name": "Flank Speed",
@@ -286,7 +379,8 @@
 	},
 	{
 		"name": "Sentry",
-		"prerequisites": ["Skirmish",
+		"prerequisites": [
+			"Skirmish",
 			"Entrench",
 			"Forage",
 			"Loose Formation",
@@ -297,12 +391,55 @@
 			"Bombardment",
 			"Targeting",
 			"Littoral Warfare",
-			"Exploit Weakness"],
-		"uniques": ["[+1] Sight",
-			"Only available <for units without [Promotion Nullifier]>"],
-		"unitTypes": ["Scrapper", "Scout", "Ranged Water", "Melee Water", "Mounted"],
+			"Exploit Weakness"
+		],
+		"uniques": ["[+1] Sight", "Only available <for units without [Promotion Nullifier]>"],
+		"unitTypes": ["Scrapper", "Scout", "Ranged Water", "Melee Water", "Mounted", "Mounted Ranged"],
 		"column": 8,
 		"row": 1
+	},
+	{
+		"name": "March",
+		"prerequisites": [
+			"Smokescreen",
+			"Assault",
+			"Pursuit",
+			"Precision",
+			"Suppression",
+			"Barrage",
+			"Resupply",
+			"Formation",
+			"Ambush",
+			"Sentry",
+			"Reconnaissance III",
+			"Medic II"
+		],
+		"uniques": [
+			"Unit will heal every turn, even if it performs an action",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted", "Mounted Ranged"],
+		"column": 8,
+		"row": 3
+	},
+	{
+		"name": "Extended Range",
+		"prerequisites": [
+			"Precision",
+			"Suppression",
+			"Sentry",
+			"Barrage",
+			"Resupply",
+			"Flank Speed",
+			"Convoy"
+		],
+		"uniques": [
+			"[+1] Range",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Shooter", "Siege", "Helicopter", "Ranged Water", "Mounted Ranged"],
+		"column": 8,
+		"row": 4
 	},
 	{
 		"name": "Operational Range",
@@ -360,9 +497,46 @@
 		"uniques": ["[1] additional attacks per turn",
 			"Can move after attacking",
 			"Only available <for units without [Promotion Nullifier]>"],
-		"unitTypes": ["Shooter", "Siege", "Helicopter", "Melee Water", "Ranged Water", "Submarine", "Fighter", "Bomber"],
+		"unitTypes": ["Shooter", "Siege", "Helicopter", "Mounted Ranged", "Melee Water", "Ranged Water", "Submarine", "Fighter", "Bomber"],
 		"column": 9,
 		"row": 5
+	},
+	{
+		"name": "Medic I",
+		"prerequisites": [
+			"Smokescreen",
+			"Assault",
+			"Pursuit",
+			"Formation",
+			"Ambush",
+			"Precision",
+			"Suppression",
+			"Sentry",
+			"Guerilla Warfare II",
+			"Urban Warfare II",
+			"Reconnaissance I"
+		],
+		"uniques": [
+			"[+5] HP when healing",
+			"All adjacent units heal [+5] HP when healing",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Scrapper", "Scout", "Mounted"],
+		"column": 10,
+		"row": 1
+	},
+	{
+		"name": "Medic II",
+		"prerequisites": ["Medic I"],
+		"uniques": [
+			"[+5] HP when healing",
+			"All adjacent units heal [+5] HP when healing",
+			"[+5] HP when healing <in [Foreign Land] tiles>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Scrapper", "Scout", "Mounted"],
+		"column": 10,
+		"row": 2
 	},
 	{
 		"name": "Survivalism",
@@ -371,7 +545,7 @@
 			"[+25]% Strength <when defending>",
 			"[-50]% maintenance costs",
 			"Only available <for units without [Promotion Nullifier]>"],
-		"unitTypes": ["Scrapper", "Scout", "Shooter", "Mounted"],
+		"unitTypes": ["Scrapper", "Scout", "Shooter", "Mounted", "Mounted Ranged"],
 		"column": 10,
 		"row": 3
 	},
