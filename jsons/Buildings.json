@@ -282,7 +282,8 @@
 		"percentStatBonus": {"production": 5},
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["All newly-trained [Purge Robot] units [in this city] receive the [Self-Repair] promotion",
+		"uniques": ["All newly-trained [Personnel] units [in this city] receive the [Resupply] promotion",
+			"All newly-trained [Purge Robot] units [in this city] receive the [Self-Repair] promotion",
 			"[+2 Production, +2 Gold] from [Refinery] tiles [in this city]",
 			"[+2 Production] from [Salt] tiles [in this city]",
 			"Consumes [1] [Salt]", "Consumes [1] [Power]"],
@@ -4091,16 +4092,6 @@
 			"Only available <in cities with a [Research Lab]>",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Laboratory"
-	},
-	{
-		"name": "Advanced Chemical Refinery",
-		"uniqueTo": "Hexlock",
-		"maintenance": 2,
-		"requiredTech": "Laboratory",
-		"uniques": ["All newly-trained [Purge Robot] units [in this city] receive the [Chemical Weapons] promotion",
-			"[+50]% Yield from every [Refinery] <in this city>",
-			"Consumes [1] [Coal]", "Consumes [1] [Power]",
-			"Only available <if [Chemical Weapons Laboratory] is constructed>"]
 	},
 	{
 		"name": "Gas Field",
