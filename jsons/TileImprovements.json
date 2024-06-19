@@ -116,11 +116,11 @@
 		"turnsToBuild": 10,
 		"techRequired": "Electronics",
 		"uniques": ["Provides [1] [Power]",
-			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Water resource] tiles",
 			"Cannot be built on [Water] tiles <with [1] to [6] neighboring [Powership] tiles>",
 			"[+1 Production] <after discovering [Advanced Materials]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"],
-		"shortcutKey": "P"
+		"shortcutKey": "S"
 	},
 	{
 		"name": "Grassland",
@@ -206,7 +206,8 @@
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 			"Pillaging this improvement yields approximately [+20 Gold]"
-		]
+		],
+		"shortcutKey": "P"
 	},
 	{
 		"name": "Borough",
@@ -270,7 +271,7 @@
 			"[+1 Production] for each adjacent [Modular island]",
 			"[+1 Culture] for each adjacent [Artificial atoll]",
 			"Pillaging this improvement yields approximately [+20 Gold]"],
-		"shortcutKey": "S"
+		"shortcutKey": "F"
 	},
 	{
 		"name": "Research site",
@@ -595,9 +596,10 @@
 			"Gives a defensive bonus of [50]%",
 			"[+1 Culture] <after discovering [Radio]>",
 			"[+1 Culture] <after discovering [Flight]>",
-			"Cannot be built on [resource] tiles",
+			"Unbuildable <in [resource] tiles>",
 			"Pillaging this improvement yields approximately [+20 Gold]"
-		]
+		],
+		"shortcutKey": "C"
 	},
 	{
 		"name": "Fortified Farm",

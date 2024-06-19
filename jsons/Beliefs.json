@@ -315,7 +315,7 @@
 	{
 		"name": "Acolytes of a New God",
 		"type": "Founder",
-		"uniques": ["Gain [100] [Faith] (modified by game speed) <upon conquering a city>"]
+		"uniques": ["Gain [100] [Faith] <upon conquering a city> <(modified by game speed)>"]
 	},
 	{
 		"name": "Church Property",
@@ -340,7 +340,7 @@
 	{
 		"name": "Illuminated Order",
 		"type": "Founder",
-		"uniques": ["[+50 Culture] when a city adopts this religion for the first time (modified by game speed)"]
+		"uniques": ["[+50 Culture] when a city adopts this religion for the first time <(modified by game speed)>"]
 	},
 
 //Enhancer

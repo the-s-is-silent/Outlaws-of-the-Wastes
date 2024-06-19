@@ -108,6 +108,20 @@
 		]
 	},
 	{
+		"name": "Horses",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Badlands", "Wasteland"],
+		"food": 1,
+		"improvedBy": ["Pasture", "Bioculture"],
+		"improvementStats": { "production": 2 },
+		"uniques": [
+			"Generated on every [18] tiles <in [{Featureless} {Badlands}] tiles>",
+			"Generated on every [22] tiles <in [{Featureless} {Badlands}] tiles> <in [Hill] Regions>",
+			"Generated on every [27] tiles <in [{Featureless} {Wasteland}] tiles>",
+			"Generated on every [33] tiles <in [{Featureless} {Wasteland}] tiles> <in [Hill] Regions>"
+		]
+	},
+	{
 		"name": "Power",
 		"resourceType": "Strategic",
 		"revealedBy": "Writing",
@@ -140,6 +154,7 @@
 			"Badlands",
 			"Desert",
 			"Tundra",
+			"Permafrost",
 			"Hill",
 			"Fissure"
 		],
@@ -151,11 +166,13 @@
 			"Generated with weight [15] <in [{Featureless} {Badlands}] tiles>",
 			"Generated with weight [15] <in [{Featureless} {Desert}] tiles>",
 			"Generated with weight [15] <in [{Featureless} {Tundra}] tiles>",
+			"Generated with weight [15] <in [{Featureless} {Permafrost}] tiles>",
 			"Generated with weight [39] <in [Hill] tiles>",
 			"Generated with weight [10] <in [Fissure] tiles>",
 			"Minor deposits generated with weight [20] <in [Badlands] tiles>",
 			"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
-			"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>"
+			"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
+			"Minor deposits generated with weight [10] <in [{Featureless} {Permafrost}] tiles>"
 		],
 		"majorDepositAmount": { "sparse": 2, "default": 3, "abundant": 4 },
 		"minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 }
@@ -283,7 +300,7 @@
 		"improvedBy": ["Farm"],
 		"improvementStats": {"food": 1, "gold": 1},
 		"uniques": [
-			"Generated on every [10] tiles <in [Desert] tiles>",
+			"Generated on every [16] tiles <in [Desert] tiles>",
 			"Generated near City States with weight [10]"
 		]
 	},

@@ -8,7 +8,7 @@
 - The free Great Scientist from their UA has been pushed back from Secrets of the Past to Education, and the only Great People they generate faster with their UA are Great Scientists.
 - Atlas Refuge no longer has a Scientist slot, but adds 60 City HP (up from 40), 5 City Strength and 1 base point of Science.
 - Survey Center now adds +3 Science, +1 Culture, and increases to +8 Science, +3 Culture at Flight.
-- Think Tank is buffed to give a +25% Production boost towards Science buildings, along with a 15% Production boost to cities constructing buildings which are owned in the capital.
+- Think Tank is buffed to give a +25% Production boost towards Science buildings, along with +2 of the respective yield to each non-unique Great Improvement (Factory Farm, Manufactory, Drydock, Supply Complex, Academy, Settlement, Seminary; Citadels receive +1 Water/Science).
 - New UBs:
   - Kruger Line (standalone national wonder, unlocks at Railroads, requires Factories in every city, consumes Power, adds +3 Culture to the capital, +1 Production to tiles with Railroads and +1 Water per Trade Route)
   - Miracle Metal Mill (replaces Plastics Factory, requires the city to own a Factory and Electrostatic Generator and be working a Metal or Aluminum tile, adds +1 Production to Metal tiles, +2 to Aluminum tiles, and +10% to the city's total Production yields)
@@ -17,7 +17,7 @@
 #### Blackwarden
 - They now start with Trade and Currency instead of Construction and Machinery, and are no longer a Slaver faction. They also lose Electronics due to the addition of Espionage mechanics.
 - Ark One only adds 5 City Strength (down from 10).
-- Board of Directors adds +2 Water/Science to Personnel Offices (was previously just +1 Water) and enables units to farm Water in combat equal to 10% of the damage they deal to enemy units.
+- Board of Directors adds +2 Water to Personnel Offices (was previously just +1 Water) and enables units to farm Water in combat equal to 10% of the damage they deal to enemy units.
 - Operations Center now costs 150 Production.
 - Personnel Offices now cost 160 Production and no longer gain bonuses from owning Slaves. However, they regain the standard Town Hall's Administrator slot, reduce tile purchase costs by 25%, and add a +10% Production boost for Personnel units.
 - Resource Management Servers have a harsher limit (2 vs. base scenario's 5, but all Monopoly policy buildings have this limit now) and no longer boost city growth or provide Slaves, but to compensate, they give +10% Water to the two cities that can own one.
@@ -49,7 +49,7 @@
 - They start with Iron Working instead of Redomestication.
 - Low Tech units receive a 20% combat strength bonus while attacking from their UA.
 - Swordsmen buffed to 24 combat strength and receive bonuses against Barbarian units (25%) and on defense against Ranged units (33%). They also generate 1 Culture per turn while garrisoned after the first Colosseum is constructed.
-- Auxiliaries, which were previously early-game Enslaved units available to every faction except Commonwealth and New Star, are now Legion exclusive, no longer Enslaved units, and replace Militia, lacking the Weapons requirement and retaining the infrastructure building properties but taking a hit in combat strength compared to standard Militia (28 vs. 36). Instead of a 50% combat bonus against Mounted units, they gain a 15% combat bonus while adjacent to another Melee unit.
+- Auxiliaries, which were previously early-game Enslaved units available to every faction except Commonwealth and New Star, are now Legion exclusive, no longer Enslaved units, and replace Militia, lacking the Weapons requirement and retaining the infrastructure building properties but taking a hit in combat strength compared to standard Militia (30 vs. 36). Instead of a 50% combat bonus against Mounted units, they gain a 15% combat bonus while adjacent to another Melee unit.
 - Legions now have the same combat strength as standard Militia, but lose their combat bonus against cities.
 - All three of the above units now upgrade to Soldiers.
 - Forum now only gives a 5% faction-wide reduction to Unhappiness and no longer increases city health. However, it receives +1 Water and lets them start with a second free Swordsman.
@@ -78,7 +78,7 @@
 - Coal Plants no longer boost Culture.
 - Strategic resources no longer have added Faith yields.
 - Oracles start at +6 Faith, gain +2 Culture after researching Chemistry, and no longer provide Happiness.
-- The Temple is *severely* nerfed; it no longer generates Faith on Turn 1, no longer provides Local Happiness, no longer adds an Administrator slot, and no longer grants an instant Pantheon (which was formerly a guaranteed Turn 1 Religion via free Great Prophet prior to them being nerfed in the base scenario). To compensate, it adds +1 Culture/Faith to active Administrators after the player has researched Engineering.
+- The Temple is *severely* nerfed; it no longer generates Faith on Turn 1, no longer provides Local Happiness, no longer adds an Administrator slot, and no longer grants an instant Pantheon (which was formerly a guaranteed Turn 1 Religion via free Great Prophet prior to them being nerfed in the base scenario). To compensate, it adds +1 Culture/Faith to active Administrators.
 - Fuel Depots are also nerfed: they only add +1 Culture to Oil tiles.
 - Plantations have been taken from them and given to Deadrock Clan as a Greenhouse replacement (and are nerfed).
 - Processing Centers only inflict a 10% Food penalty (previously 25%) on annexed cities.
@@ -114,7 +114,7 @@
 - New UI: Fortified Farm (unlocks at Engineering, same placement restrictions as basic Farm, +1 Food/Production (+2 Production on Hills), +1 Food at Ecology, +1 Food at Land Remediation, +1 Production from completing Adaptation)
 
 #### Hexlock
-- They start with fewer free techs now: knowledge of Chemistry is gained, but knowledge of all of their previous starting techs except for Writing is lost. The malus on GP generation is removed, and Encrypted Data resources are doubled by their UA.
+- They start with fewer free techs now: knowledge of Chemistry is gained, but knowledge of all of their previous starting techs except for Writing is lost. However, the malus on GP generation is removed, Encrypted Data resources are doubled, and they receive a 15% construction speed bonus towards National Wonders.
 - Chemicals are now properly Strategic Resources instead of Luxury Resources, so now Hexlock actually has Happiness issues.
 - All five of the original chemicals from the base scenario have been condensed into a single resource.
 - Field Scientists and Purge Robots are now standalone units.
@@ -134,8 +134,7 @@
 - New UBs:
   - Nutri-Paste Dispenser (replaces Food Store, adds +1 Food while possessing at least 1 copy of chemicals)
   - Hexlock Chemical Company (replaces Food Processing Plant, adds +2 Production/Water to all Refinery improvements and +2 Production to worked Salt tiles instead of boosting Food yields, and grants the unique Self-Repair promotion to Purge Robots instead of granting Resupply to Personnel units)
-  - Chemfuel Generator (standalone, requires a worked Refinery of any type and a Research Lab, boosts city Production by 5% and provides 2 units of Power, will be destroyed if the city is captured)
-  - Advanced Chemical Refinery (standalone, boosts Refinery yields by 50% in that city and gives Purge Robots access to Chemical Weapons, but requires building the Chemical Weapons Laboratory and consumes both Coal and Power)
+  - Chemfuel Generator (standalone, requires a worked Refinery of any type and an Experimental Lab, boosts city Production by 5% and provides 2 units of Power, will be destroyed if the city is captured)
 
 #### The Mariners
 - They now start with Rediscovery adopted, and upon adopting Advanced Piracy *all* of their Water units along with their Personnel units gain the policy's Sea Raider promotion.
@@ -144,7 +143,7 @@
 - Raider's Council now grants a +10% growth boost in coastal cities and a +15% Production bonus towards Water units.
 - Jet Boat buffed to 25 melee strength, 45 ranged strength.
 - New UUs:
-  - Drifter (replaces Worker, double speed in water, can build water improvements, ~31% cheaper to build)
+  - Drifter (replaces Worker, double speed in water, ~31% cheaper to build)
   - Cutter Boat (replaces Raiding Craft, allowed to enter Ocean tiles, 2-in-3 chance to withdraw from melee units)
   - Lagoon (replaces Gunboat, 2-in-3 chance to withdraw from melee units)
   - Key to the City (replaces Anti-Aircraft Gun, doesn't need to embark, +4 movement in water, +100% Strength vs cities, cannot fortify)
@@ -160,6 +159,7 @@
 - New UBs:
   - Mansion of Our Father (new identity wonder, awards a Food Store instead of a Monument but is otherwise identical to the old Great Mosque)
   - Afrikan Reformed Church (replaces Monastery, adds +2 Food)
+  - Community Center (replaces Public School, adds +2 Food/Happiness)
 
 #### New Star
 - They lose the absurd 50% boost to GP generation, but gain a form of their planned UA for the Rebirth Edition: Civilian and Support units receive Thermoptic Camouflage, and gifting these units to City-States nets 15 Influence with them. The Strength bonus for Wounded units now applies evenly, and the Sight bonus for Wounded units is extended to the other Support units.
@@ -185,7 +185,7 @@
 - As mentioned above, Electing Leaders now belongs to this faction. However, its Production cost has been doubled.
 - Tactics Center is moved to Munitions so it remains available to them at the start of the game, and it now costs 100 Production.
 - New UU: Sentinel Missile (replaces Nuclear Missile, 15% cheaper to build, +2 Range)
-- New UB: Arsenal of Liberty (replaces Armaments Production Line, 60% cheaper to build, adds an extra +1 Unit Supply, but requires a Power surplus for both the provided Weapons and the extra Production speed towards Personnel units, and still consumes Power to build)
+- New UB: Arsenal of Liberty (replaces Armaments Production Line, 30% cheaper to build, adds an extra +1 Unit Supply, no Power requirements for effects beyond the Power consumed to build)
 
 #### Proklyatyye
 - Sarcophagus buffed to +2 Production.

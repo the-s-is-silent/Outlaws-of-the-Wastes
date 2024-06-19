@@ -6,6 +6,7 @@
 		"adjective": ["Deseretian"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Cultural",
+		"personality": "Warchief of Deseret",
 		"favoredReligion": "Mormonism",
 
 		"startIntroPart1": "Every day, we fall. Some days are harder than others. The day the nukes were launched... was the hardest fall yet for mankind. In the earliest days after the fallout settled, I tried to mete out vengeance against those responsible for the Cataclysm, unaware that I was setting myself up for my own great fall. I rallied many survivors, broken and disillusioned as I was, and set out on a brutal campaign, forgetting all I had been taught in the desire for revenge. The need to make my wrath into God's wrath. And sure enough, that disastrous journey led to my fall, and I found myself at Hell's gates.",
@@ -48,6 +49,7 @@
 		"adjective": ["Briton"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Scientific",
+		"personality": "Arthur",
 		"favoredReligion": "Anglicanism",
 
 		// "startIntroPart1": "",
@@ -85,6 +87,7 @@
 		"adjective": ["Harbinger"],
 		"startBias": ["River"],
 		"preferredVictoryType": "Diplomatic",
+		"personality": "Vengerov",
 		"favoredReligion": "Capitalism",
 
 		"startIntroPart1": "The years before the Cataclysm were worse than the survivors realize. Humanity came dangerously close to being permanently enslaved by a handful of oligarchs. Some of our ancestors were among those evil elite, and even among that group they wielded exceptional power, having devised a means to control our planet's dwindling water supply. Anyone who dared to oppose them had their minds reformatted... or worse. Now we are left to handle the fallout from their actions. Shunned by the rest of the world, atonement for many of us may simply be a matter of practicality, but we must at least try to atone regardless, and use our resources for the benefit of man as we should have done in the last days of our former civilization.",
@@ -130,6 +133,7 @@
 		"adjective": ["Soviet"],
 		"startBias": ["Tundra"],
 		"preferredVictoryType": "Domination",
+		"personality": "Moskvin",
 		"favoredReligion": "Stalinism",
 
 		// "startIntroPart1": "TBA",
@@ -166,6 +170,7 @@
 		"leaderName": "Yesenia Aztlanl",
 		"adjective": ["Aztlaner"],
 		"preferredVictoryType": "Domination",
+		"personality": "Great Speaker",
 		"favoredReligion": "Order of Tlaloc",
 
 		// "startIntroPart1": "",
@@ -173,7 +178,7 @@
 		"declaringWar": "Let the red flood rise and spread, drowning everything in its path!",
 		"attacked": "You mean to subjugate us like the conquistadors, or worse. But I won't let that dark future come to pass. Now die!",
 		"defeated": "I only ever did what was necessary for my people to survive. But it wasn't enough...",
-		"introduction": "I am the Great Speaker Yesenia, descendant of the Lifebringer who reestablished the mighty nation of Aztlan, and the savior of its people. I wonder, will you sacrifice as much as I have...?",
+		"introduction": "I am the Great Speaker Yesenia, daughter of the Lifebringer who reestablished the mighty nation of Aztlan, and the savior of its people. I wonder, will you sacrifice as much as I have...?",
 		"neutralHello": "Welcome.",
 		"hateHello": "What are you after now?",
 		"tradeRequest": "The consequences for refusing this deal will be quite severe.",
@@ -199,6 +204,7 @@
 		"adjective": ["Star"],
 		"startBias": ["Wasteland"],
 		"preferredVictoryType": "Diplomatic",
+		"personality": "Keiji",
 		"favoredReligion": "Humanism",
 
 		"startIntroPart1": "'When the Cataclysm happened, there were many that felt lost. Like the world was too far gone. I always had hope, but sometimes it's hard to keep it. Ever since we came out, the world has felt like a jungle. Ruled by wild beasts.'",
@@ -234,6 +240,7 @@
 		"adjective": ["Hexlock"],
 		"startBias": ["Fissure"],
 		"preferredVictoryType": "Domination",
+		"personality": "Aura",
 		"favoredReligion": "Objectivism",
 
 		"startIntroPart1": "'I will admit. There were times were even I felt stumped. Science is supposed to be free. To let you discover things to your heart's content without a single care. But for every step forward, there are some who wish to take two steps backwards. With their arbitrary regulations and limits. They had a system meant to hinder your progress. They... are gone now.'",
@@ -282,6 +289,7 @@
 		"adjective": ["Scavenger"],
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Cultural",
+		"personality": "Scarlett",
 		"favoredReligion": "Ghost Dance",
 
 		// "startIntroPart1": "TBA",
@@ -341,6 +349,7 @@
 		"leaderName": "Eric Price",
 		"adjective": ["Mercenary"],
 		"preferredVictoryType": "Domination",
+		"personality": "Price",
 		"favoredReligion": "Capitalism",
 
 		"startIntroPart1": "With over 250,000 employees across 40 nations, Blackwarden Associates is the first choice for any situation requiring a professional and discreet security solution. Our friendly, highly trained personnel are always ready to help  - from your local bank or supermarket, to immigration processing centers and border defense at home, to fallout remediation and nuclear site security in the Indus Exclusion Zone.",
@@ -400,6 +409,7 @@
 		"adjective": ["Atlesian"],
 		"startBias": ["Mountain"],
 		"preferredVictoryType": "Scientific",
+		"personality": "Kruger",
 		"favoredReligion": "Objectivism",
 
 		"startIntroPart1": "At the Refuge, I am creating more than a town, more even than a polity; it is a new world, where individuals will be free to act without the burden of taxation or the specter of injustice. Here, I have created a truly voluntary society, where the citizens associate in rational self interest; from love, not from fear of punishment. I have sent you this invitation because you have greatness within you; think of all you have achieved in your life, and how much more you could do, if you were not held back.",
@@ -442,6 +452,7 @@
 		"adjective": ["Patriot"],
 		"startBias": ["Avoid [Desert]"],
 		"preferredVictoryType": "Domination",
+		"personality": "Cameron",
 		"favoredReligion": "Liberty",
 
 		// "startIntroPart1": "TBA",
@@ -505,6 +516,7 @@
 		"leaderName": "Caesar",
 		"adjective": ["Legion"],
 		"preferredVictoryType": "Domination",
+		"personality": "Caesar",
 		"favoredReligion": "Imperial Cult",
 
 		"startIntroPart1": "Behold! The nations of the past have fallen, their once marvelous cities crumbled into dust. And why? Because they were weak! In their hour of necessity, they could not stand together! They turned on themselves and devoured themselves, and now they are dead. But we are alive, because we are strong! And what is the source of our strength? Our unity! Like the fasces, we are bound together, and with the strength of our bond, we shall rebuild civilization!",
@@ -576,6 +588,7 @@
 		"adjective": ["Ignisite"],
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Domination",
+		"personality": "Ignitor",
 		"favoredReligion": "Divine Engine",
 
 		"startIntroPart1": "In the beginning, the earth was without form, cold and void. And the Divine Engine moved upon the face of the earth, and brought forth humans, to serve her. And she blessed the people upon the earth with steel and holy oil, to make engines of their own. But the people of the earth forgot the Divine Engine who had blessed them. So the Engine sent forth the Flame to destroy the people who had sinned, and the earth was cleansed. But the Flame had mercy upon the people, and spared the people who repented and swore to serve the Engine. And it came to pass that Divine Engine blessed the people once more, and gave them steel and holy oil, and commanded them to multiply and replenish the earth, for the engine's glory.",
@@ -617,6 +630,7 @@
 		"adjective": ["Marine"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
+		"personality": "Deacon",
 		"favoredReligion": "Rongorongo",
 
 		// "startIntroPart1": "",
@@ -680,6 +694,7 @@
 		"adjective": ["Afrikan"],
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Cultural",
+		"personality": "Makonnen",
 		"favoredReligion": "Rastafari",
 
 		// "startIntroPart1": "",

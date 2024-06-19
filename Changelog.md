@@ -925,7 +925,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **Faction Adjustments**
 - All factions that started in the Rebuilding era lose the relevant starting techs.
 - Blackwarden no longer loses its Strength bonus in foreign land while the faction is unhappy.
-- Hexlock now only creates one unique strategic resource with its improvements (previously five in the pre-Rebirth versions). The Compound Mix buildings instead require the city to work the Refinery whose stat corresponds to the GP it provides. Crystal Refineries provide a Refined version of the Experimental Chemicals, which regains its lost status as a Luxury Resource, but is consumed by the Meltdown building.
+- Hexlock now only creates one unique strategic resource with its improvements (previously five in the pre-Rebirth versions). The Compound Mix buildings instead require the city to work the Refinery whose stat corresponds to the GP it provides. Crystal Refineries provide a Refined version of the Experimental Chemicals, which regains its lost status as a Luxury Resource, but is consumed by the Meltdown building. Additionally, they now build National Wonders 15% faster.
 - New Star's UA no longer increases the rate of generating Great People. Instead, it now gives their Civilian and Support units the Thermoptic Camouflage promotion for free, and allows them to gain 15 Influence with City-States for gifting these units.
 - The Patriots now receive +1 Production/Science to most defensive buildings.
 - Spy names have been added for the base scenario's factions.
@@ -956,6 +956,8 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- Hexlock:
 		- Stormfront Center now adds a +25% boost to GP generation in all cities. However, the bonus to city strength from defensive buildings is reduced by 50%.
 		- With the consolidation of the chemicals into a single stockpiled resource, Overcouncil now provides 6 copies of Experimental Chemicals.
+		- Hexlock Chemical Company now grants Resupply to Personnel units just like the standard Food Processing Plant.
+		- Advanced Chemical Refinery has been deleted for balance reasons.
 	- New Star:
 		- Gideon Scanner and Rally Station will now relocate to the new capital when the capital changes.
 	- The Patriots:
@@ -967,6 +969,8 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **Unit Adjustments**
 - Advanced Armor buffed to 100 Strength and loses the penalty to attacking cities.
 - Hero of the Wastes buffed to gain an additional 50% Strength bonus on reaching the New Future era.
+- Mounted Ranged units (Skirmisher, Dragoon, Light Cavalry, Border Patrol, and replacements) are now their own unit type and mostly follow the same promotion tree as Siege and Helicopter units. They no longer use a fake Mounted unique.
+	- Also, the two Civilian units (Mounted Worker and Great Caravan) that used Mounted as a fake unit no longer do so (but still require Stables).
 - Purge Robots are now their own unit type. They must still be "given" promotions and cannot earn them.
 - Seastead Vessel receives increased tile improvement construction speed after researching Advanced Materials.
 - Stalkers now start with the Prospector promotion instead of Forage, and their Strength buff at Rifling is increased to 25%.
@@ -975,6 +979,10 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Harbinger UUs:
 	- Educational Officer and Opolcheniye renamed to Educator Officer and Vengerovsky.
 	- Technopath's Strength buff at Artificial Intelligence increased to 50%.
+
+**Promotion Adjustments**
+- Barrage and Resupply are now valid prerequisites for March, preserving Mounted Ranged units' access to that promotion.
+- Medic I and II are no longer accessible to Shooter or Mounted Ranged units.
 
 **Policy Adjustments**
 - Expansionism:
@@ -1006,6 +1014,8 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Resource Adjustments**
 - As in Deciv 2, Power can no longer be traded. City-States are once again allowed to build the main Power Plant buildings.
+- Aluminum may now spawn on Permafrost.
+- Horses may now spawn on flat Wasteland, but are rarer on that terrain.
 - Plankton is now a Bonus resource.
 - Salt now adds +1 Food to the tiles it spawns on.
 
@@ -1013,6 +1023,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Aztlan (Mexican, Aztec revivalist, Domination/Culture)
 
 **New Buildings**
+- Community Center (Public School replacement for New Afrika, adds +2 Food/Happiness)
 - Community Garden (+2 Food (increases to +3 with Exotic Seeds), +25% GP generation, 1 Farmer slot, unlocks at Ecology, also added to Deciv 2 fork)
 - Frumentarii Camp (new Listening Post replacement for Crimson Legion, -33% spy theft rate, also added to Deciv 2 fork)
 - Virtual Tabernacle (Megachurch replacement for Deseret Nation, adds Culture yields equal to its Faith yields, +100% religious pressure in its city)

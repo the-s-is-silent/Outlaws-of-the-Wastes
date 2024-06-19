@@ -33,6 +33,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Coastal Defenses: [seawall](https://thenounproject.com/icon/seawall-5503652/) by Luis Prado, US
 - Coastal Longhouse: [longhouse](https://thenounproject.com/icon/longhouse-5058241/) by Flowicon, TH
 - Commonwealth Reserve: [aquifer](https://thenounproject.com/icon/aquifer-5399259/) by M. Oki Orlando, ID
+- Community Center: [School](https://thenounproject.com/icon/school-357761/) by Ralf Schmitzer, DE
 - Community Garden: [Community](https://www.flaticon.com/free-icon/community_10632234) by [inipagistudio](https://www.flaticon.com/authors/inipagistudio) from Flaticon
 - Constabulary: [jail](https://thenounproject.com/icon/jail-2577140/) by Made by Made, AU
 - Contraband Disposal Site: [prohibited](https://thenounproject.com/icon/prohibited-209190/) by Andrea Mazzini, IT

@@ -2104,7 +2104,7 @@
 		"replaces": "Militia",
 		"uniqueTo": "Crimson Legion",
 		"movement": 2,
-		"strength": 28,
+		"strength": 30,
 		"cost": 45,
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Soldier",
