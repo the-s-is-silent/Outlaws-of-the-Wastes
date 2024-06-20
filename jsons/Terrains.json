@@ -64,7 +64,7 @@
 			"Occurs on latitudes from [30] to [50] percent of distance equator to pole"
 		],
 		"turnsInto": "Desert",
-		"impassible": true,
+		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
 	}
