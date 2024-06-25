@@ -613,7 +613,7 @@
 			"Ignores Zone of Control",
 			"Invisible to non-adjacent units",
 			"[+50]% Strength <vs [Ranged] units> <when defending>",
-			"May withdraw from melee ([75]%)",
+			"May withdraw before melee ([75]%)",
 			"Only available <in cities with a [Holotraining Facility]>",
 			"Cannot be purchased",
 			"Consumes [1] [Encrypted Data]",
@@ -1295,7 +1295,7 @@
 		"requiredTech": "Nuclear Fission",
 		"uniques": [
 			"Consumes [1] [Uranium]",
-			"Nuclear weapon of strength [1]",
+			"Nuclear weapon of Strength [1]",
 			"Blast radius [0]",
 			"No defensive terrain bonus",
 			"Rough terrain penalty",

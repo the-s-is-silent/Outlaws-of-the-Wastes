@@ -88,7 +88,7 @@
 			{
 				"name": "Energy Weapons",
 				"row": 6,
-				"prerequisites": ["Lasers", "Advanced Materials"],
+				"prerequisites": ["Advanced Materials"],
 				"quote": "I believe that man will not merely endure: he will prevail. He is immortal, not because he alone among creatures has an inexhaustible voice, but because he has a soul, a spirit capable of compassion and sacrifice and endurance."
 			}
 		]

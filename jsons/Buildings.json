@@ -926,7 +926,7 @@
 			"[+1 Production, +1 Culture] per [4] population [in all cities]",
 			"[+5]% Production when constructing [All] buildings [in all cities connected to capital]",
 			"[+10]% Production when constructing [{Military} {Land}] units [in all cities connected to capital]",
-			"Gain [300] [Gold] (modified by game speed) <upon conquering a city>",
+			"Gain [300] [Gold] <upon conquering a city> <(modified by game speed)>",
 			"Can only be built <in [Capital] cities>"],
 		"requiredTech": "Civil Service"
 	},
