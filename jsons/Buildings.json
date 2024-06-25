@@ -1202,7 +1202,7 @@
 		"requiredTech": "Education",
 		"uniques": ["Only available <in cities with a [Musalla]>",
 			"Hidden when religion is disabled",
-			"[+34]% Natural Religion spread [in this city]"]
+			"[+34]% Natural religion spread [in this city]"]
 	},
 	{
 		"name": "Great Mosque",
@@ -1216,7 +1216,7 @@
 		"uniques": [
 			"Only available <if [Mosque] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
-			"Can only be built [in holy cities]",
+			"Can only be built <in [Holy] cities>",
 			"Only available <after adopting [Theocracy]>",
 			"Hidden when religion is disabled",
 			"All newly-trained [Philosopher] units [in this city] receive the [Devout] promotion",
@@ -1232,7 +1232,7 @@
 		"uniques": ["[+1 Production, +1 Faith] per [4] population [in all cities]",
 			"[-10]% Unhappiness from [Followers of the Majority Religion] [in all cities] <in cities following our religion>",
 			"Only available <if [Convert Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [House of War]>",
 			"Destroyed when the city is captured"]
 	},
@@ -1245,7 +1245,7 @@
 		"uniques": ["[+10]% growth [in all cities]",
 			"[Faith] cost of purchasing [Military] units [-20]%",
 			"Only available <if [Convert Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [House of Submission]>",
 			"Destroyed when the city is captured"]
 	},
