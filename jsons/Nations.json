@@ -196,6 +196,38 @@
 			"Neza", "Tepeyac", "Xalixko", "Jilotzingo", "Xoconochco", "Coalcomán", "Yanhuitlán", "Cempoala"],
 		"spyNames": ["Armando", "Alejandro", "Rosado", "Yaretzi", "Luminosa", "Tlacotl", "Chimalma", "Cozamalotl", "Xochitl", "Xilonen"]
 	},
+	{
+		"name": "The Caliphate",
+		"leaderName": "Mostafa al-Beshay",
+		"adjective": ["Muslim"],
+		"preferredVictoryType": "Domination",
+		"personality": "Triumphant Caliph",
+		"favoredReligion": "Islam",
+
+		// "startIntroPart1": "",
+		// "startIntroPart2": "",
+		"declaringWar": "Hell lives to claim your vile souls. Down with the infidel pigs!",
+		"attacked": "We must drive the unbelievers into the deepest pits of hell!",
+		"defeated": "We may be driven from these lands for now, but we will yet subvert your order and force your people to submit to Allah's will. Islam and the jihad will never die, and your Day of Judgment will still come to pass.",
+		"introduction": "Welcome to the last worthwhile homeland of the chosen. This is the Caliphate of Europe and Western North Africa, destined to emerge triumphant over the devils infesting this fractured world.",
+		"neutralHello": "Allah's people are listening.",
+		"hateHello": "Silence, infidel!",
+		"tradeRequest": "We have little reason to show generosity when the world has become the house of tyrants. You should regard this rare opportunity as a blessing.",
+
+		"outerColor": [248, 217, 2],
+		"innerColor": [21, 108, 49],
+		"uniqueName": "The Last Worthwhile Homeland",
+		"uniques": ["[+100]% Natural religion spread [in annexed cities]",
+			"Free [Great Sage] appears <upon discovering [Education] technology>",
+			"May purchase [Enslaved] units with [Faith] for [2] times their normal Production cost",
+			"Starts with [Theocracy] adopted",
+			"Starts with [Supremacy] adopted",
+			"[-25]% [Culture] [in all cities]"],
+		"cities": ["Kitznen", "Grolanhei", "Honsvang", "Slo", "al-Harv", "Noisvatsei", "am-Munch", "af-Fridhav", "ar-Rebchel",
+			"an-Nessang", "Kleilanhei", "Walnhov", "Wuperta", "af-Füss", "an-Nurber", "ar-Ramstei", "Alba Sarum",
+			"Malaga", "Nsara", "Baraka", "Turi"],
+		"spyNames": ["Rashid", "Saleh", "Mashouf", "Ismail", "Mahmoud", "Fudail", "Ghalib", "Latif", "Rustam", "Zahid"]
+	},
 
 	//Adjusted factions
 	{

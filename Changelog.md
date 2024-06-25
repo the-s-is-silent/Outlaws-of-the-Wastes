@@ -1019,8 +1019,9 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Plankton is now a Bonus resource.
 - Salt now adds +1 Food to the tiles it spawns on.
 
-**New Faction**
+**New Factions**
 - Aztlan (Mexican, Aztec revivalist, Domination/Culture)
+- The Caliphate
 
 **New Buildings**
 - Community Center (Public School replacement for New Afrika, adds +2 Food/Happiness)
