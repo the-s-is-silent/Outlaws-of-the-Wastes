@@ -908,8 +908,11 @@
 			},
 			{
 				"name": "Unifying Vision",
-				"uniques": ["[+250 Science, +100 Culture] whenever a Great Person is expended",
-					"[+50]% Golden Age length"],
+				"uniques": [
+					"Gain [250] [Science] <upon expending a [Great Person] unit> <(modified by game speed)>",
+					"Gain [100] [Culture] <upon expending a [Great Person] unit> <(modified by game speed)>",
+					"[+50]% Golden Age length"
+				],
 				"row": 1,
 				"column": 4
 			},

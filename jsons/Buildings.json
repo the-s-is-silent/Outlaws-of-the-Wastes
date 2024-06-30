@@ -907,7 +907,7 @@
 			"[+1 Production, +1 Culture] per [4] population [in all cities]",
 			"[+5]% Production when constructing [All] buildings [in all cities connected to capital]",
 			"[+10]% Production when constructing [{Military} {Land}] units [in all cities connected to capital]",
-			"Gain [300] [Gold] (modified by game speed) <upon conquering a city>",
+			"Gain [300] [Gold] <upon conquering a city> <(modified by game speed)>",
 			"Can only be built <in [Capital] cities>"],
 		"requiredTech": "Civil Service"
 	},
@@ -1111,7 +1111,7 @@
 			"All newly-trained [Philosopher] units [in this city] receive the [Devout] promotion",
 			"All newly-trained [Great Sage] units [in this city] receive the [Devout] promotion",
 			"[+2 Culture] from [Lakes] tiles [in all cities]",
-			"[+100 Culture] whenever a Great Person is expended"
+			"Gain [100] [Culture] <upon expending a [Great Person] unit> <(modified by game speed)>"
 		]
 	},
 	{
@@ -1621,7 +1621,7 @@
 		"uniqueTo": "Deadrock Clan",
 		"cost": 100,
 		"requiredTech": "Currency",
-		"uniques": ["Provides a sum of gold each time you spend a Great Person",
+		"uniques": ["Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
 			"[Great Merchant] is earned [25]% faster",
 			"[+2 Gold, +2 Culture] from every [Casino]",
 			"[+3 Gold, +3 Culture] from every [Narcotics farm]",
