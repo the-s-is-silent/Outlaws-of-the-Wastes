@@ -89,7 +89,7 @@
 	{
 		"name": "Skirmish",
 		"uniques": [
-			"Withdraws from melee combat <with [75]% chance>",
+			"Withdraws before melee combat <with [75]% chance>",
 			"[25]% XP gained from combat",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
