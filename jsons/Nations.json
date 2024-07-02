@@ -851,7 +851,7 @@
 		"adjective": ["Fo Guang"],
 		"cityStateType": "Prayer",
 		"style": "",
-		"uniques": ["Damage is ignored when determining unit Strength <for [All] units>"],
+		"uniques": ["No damage penalty for wounded units"],
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Your desire for power will only bring you suffering.",
 		"defeated": "Weep not for us, for we shall be reborn.",
