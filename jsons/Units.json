@@ -448,7 +448,7 @@
 			"Cannot enter ocean tiles",
 			"Can only attack [Water] tiles",
 			"Can move after attacking",
-			"May withdraw before melee ([33]%)"
+			"Withdraws before melee combat <with [33]% chance>"
 		],
 		"attackSound": "shot"
 	},
@@ -468,7 +468,7 @@
 		"uniques": [
 			"Can only attack [Water] tiles",
 			"Can move after attacking",
-			"May withdraw before melee ([66]%)"
+			"Withdraws before melee combat <with [66]% chance>"
 		],
 		"attackSound": "shot"
 	},
@@ -486,7 +486,7 @@
 			"Can only attack [Water] tiles",
 			"Can move after attacking",
 			"Double movement in [Coast]",
-			"May withdraw before melee ([33]%)",
+			"Withdraws before melee combat <with [33]% chance>",
 			"Can upgrade to [Scout Cruiser]",
 			"Can upgrade to [Torpedo Boat]",
 			"Consumes [1] [Oil]"
@@ -511,7 +511,7 @@
 			"Can only attack [Water] tiles",
 			"Can move after attacking",
 			"Double movement in [Coast]",
-			"May withdraw before melee ([66]%)"
+			"Withdraws before melee combat <with [66]% chance>"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
@@ -547,7 +547,7 @@
 		"upgradesTo": "Destroyer",
 		"uniques": [
 			"[+1] Sight",
-			"May withdraw before melee ([33]%)",
+			"Withdraws before melee combat <with [33]% chance>",
 			"Consumes [1] [Oil]",
 			"Never appears as a Barbarian unit"
 		],
@@ -844,7 +844,7 @@
 			"[+100]% Strength <vs [Air] units>",
 			"[+75]% Strength <vs [Submarine] units>",
 			"[+100]% Strength <vs [Helicopter] units>",
-			"May withdraw before melee ([33]%)",
+			"Withdraws before melee combat <with [33]% chance>",
 			"Only available <if [Factory] is constructed>",
 			"Can carry [2] [Missile] units",
 			"Never appears as a Barbarian unit",
@@ -1212,7 +1212,7 @@
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs [Armor] units>",
 			"[-50]% Strength <vs cities> <when attacking>",
-			"May withdraw before melee ([75]%)",
+			"Withdraws before melee combat <with [75]% chance>",
 			"Consumes [1] [Oil]"],
 		"hurryCostModifier": 20,
 		"promotions": ["Medic I", "Medic II"],
@@ -1465,7 +1465,7 @@
 		"uniques": [
 			"Double movement in [Coast]",
 			"Cannot enter ocean tiles",
-			"May withdraw before melee ([33]%)"
+			"Withdraws before melee combat <with [33]% chance>"
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -1482,7 +1482,7 @@
 		"upgradesTo": "Rifleman",
 		"hurryCostModifier": 20,
 		"uniques": ["Low Tech",
-			"May withdraw before melee ([33]%)",
+			"Withdraws before melee combat <with [33]% chance>",
 			"Earn [100]% of killed [Military] unit's [Strength] as [Culture]"],
 		"attackSound": "nonmetalhit"
 	},
@@ -2217,6 +2217,25 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Hitman",
+		"unitType": "Shooter",
+		"uniqueTo": "Deadrock Clan",
+		"replaces": "Gunman",
+		"range": 1,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 32,
+		"interceptRange": 1,
+		"cost": 70,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Assassin",
+		"hurryCostModifier": 20,
+		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
+		"promotions": ["Headhunter", "Reconnaissance I"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Rubble Gang",
 		"unitType": "Scrapper",
 		"uniqueTo": "Deadrock Clan",
@@ -2748,7 +2767,7 @@
 		"uniques": [
 			"[-25]% Strength <vs [Armor] units>",
 			"Can move after attacking",
-			"May withdraw before melee ([75]%)",
+			"Withdraws before melee combat <with [75]% chance>",
 			"Only available <if [Alma Air Base] is constructed>",
 			"Consumes [1] [Oil]"
 		],
@@ -2785,7 +2804,7 @@
 		"upgradesTo": "Patrol Boat",
 		"uniques": [
 			"Cannot enter ocean tiles",
-			"May withdraw before melee ([33]%)"
+			"Withdraws before melee combat <with [33]% chance>"
 		],
 		//removed Low Tech modifier due to bugs locking Patriots/Almaty out of building any water units
 		"attackSound": "nonmetalhit"
@@ -2801,7 +2820,7 @@
 		"cost": 50,
 		"obsoleteTech": "Steam Power",
 		"upgradesTo": "Patrol Boat",
-		"uniques": ["May withdraw before melee ([66]%)"],
+		"uniques": ["Withdraws before melee combat <with [66]% chance>"],
 		"attackSound": "nonmetalhit",
 		"promotions": ["Littoral Warfare"]
 	},
@@ -2817,7 +2836,7 @@
 		"uniques": [
 			"Consumes [1] [Oil]",
 			"Double movement in [Coast]",
-			"May withdraw before melee ([33]%)"
+			"Withdraws before melee combat <with [33]% chance>"
 		],
 		//removed Factory requirement and exclusion from Barbarian unit list
 		"hurryCostModifier": 20,
@@ -2837,7 +2856,7 @@
 		"uniques": [
 			"Consumes [1] [Oil]",
 			"Double movement in [Coast]",
-			"May withdraw before melee ([66]%)",
+			"Withdraws before melee combat <with [66]% chance>",
 			"[+25]% Strength <when defending>"
 		],
 		"hurryCostModifier": 20,
@@ -2853,10 +2872,10 @@
 		"obsoleteTech": "Robotics",
 		"upgradesTo": "Drone Ship",
 		"uniques": [
-		    "Can move after attacking",
+			"Can move after attacking",
 			"Consumes [1] [Oil]",
 			"Double movement in [Coast]",
-			"May withdraw before melee ([33]%)",
+			"Withdraws before melee combat <with [33]% chance>",
 			"Only available <if [Factory] is constructed>"
 		],
 		//removed exclusion from Barbarian unit list
@@ -2876,7 +2895,7 @@
 		"obsoleteTech": "Particle Physics",
 		"uniques": [
 			"Double movement in [Coast]",
-			"May withdraw before melee ([33]%)",
+			"Withdraws before melee combat <with [33]% chance>",
 			"Can only attack [Water] tiles",
 			"Can move after attacking",
 			"Consumes [1] [Oil]"
@@ -2899,7 +2918,7 @@
 		"obsoleteTech": "Particle Physics",
 		"uniques": [
 			"Double movement in [Coast]",
-			"May withdraw before melee ([66]%)",
+			"Withdraws before melee combat <with [66]% chance>",
 			"Can move after attacking",
 			"Consumes [1] [Oil]"
 		],
@@ -3238,7 +3257,7 @@
 		"uniques": [
 			"Cannot enter ocean tiles",
 			"[+15]% Strength <when adjacent to a [Melee Water] unit>",
-			"May withdraw before melee ([33]%)"
+			"Withdraws before melee combat <with [33]% chance>"
 		],
 		"promotions": ["Raider", "Sea Raider"],
 		"attackSound": "nonmetalhit"
@@ -3257,7 +3276,7 @@
 		"uniques": [
 			"Double movement in [Coast]",
 			"[+20]% Strength <when adjacent to a [Melee Water] unit>",
-			"May withdraw before melee ([33]%)",
+			"Withdraws before melee combat <with [33]% chance>",
 			"May capture killed [Water] units"
 		],
 		"promotions": ["Raider", "Sea Raider"],
@@ -3278,7 +3297,7 @@
 		"uniques": [
 			"Double movement in [Coast]",
 			"[+25]% Strength <when adjacent to a [Melee Water] unit>",
-			"May withdraw before melee ([33]%)",
+			"Withdraws before melee combat <with [33]% chance>",
 			"May capture killed [Water] units"
 		],
 		"promotions": ["Raider", "Sea Raider"],
@@ -3296,10 +3315,10 @@
 		"requiredTech": "Plastics",
 		"upgradesTo": "Drone Ship",
 		"uniques": [
-		    "Can move after attacking",
+			"Can move after attacking",
 			"Double movement in [Coast]",
 			"[+30]% Strength <when adjacent to a [Melee Water] unit>",
-			"May withdraw before melee ([33]%)",
+			"Withdraws before melee combat <with [33]% chance>",
 			"May capture killed [Water] units"
 		],
 		"promotions": ["Raider", "Sea Raider"],

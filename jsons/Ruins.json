@@ -4,18 +4,18 @@
 		"name": "discover cultural artifacts",
 		"notification": "We have discovered cultural artifacts in the camp! (+[cultureAmount] culture)",
 		"weight": 4,
-		"uniques": ["Gain [20]-[30] [Culture]", "Only available <after [15] turns> <before [50] turns>"]
+		"uniques": ["Gain [20]-[30] [Culture]", "Only available <after turn number [15]> <before turn number [50]>"]
 	},
 	{
 		"name": "shared cultural inspiration",
 		"notification": "The rescued wastelanders share the secrets of their well-ordered society! (+[cultureAmount] culture)",
 		"weight": 3,
-		"uniques": ["Gain [50]-[75] [Culture]", "Only available <after [50] turns>"]
+		"uniques": ["Gain [50]-[75] [Culture]", "Only available <after turn number [50]>"]
 	},
 	{
 		"name": "recovered old world policy",
 		"notification": "We have recovered some old world documents and gained insight into lost policies!",
-		"uniques": ["Free Social Policy", "Only available <after [50] turns> <before [100] turns>"]
+		"uniques": ["Free Social Policy", "Only available <after turn number [50]> <before turn number [100]>"]
 	},
 
 	// Science
@@ -45,7 +45,7 @@
 		"name": "stockpiled water",
 		"notification": "We have recovered a stockpile of [goldAmount] water from the camp!",
 		"weight": 2,
-		"uniques": ["Gain [400]-[600] [Gold]", "Only available <after [50] turns>"]
+		"uniques": ["Gain [400]-[600] [Gold]", "Only available <after turn number [50]>"]
 	},
 
 	// Faith
@@ -55,7 +55,7 @@
 		"weight": 4,
 		"uniques": ["Hidden when religion is disabled",
 			"Gain [25]-[50] [Faith]",
-			"Only available <after [15] turns>",
+			"Only available <after turn number [15]>",
 			"Only available <before founding a Pantheon>"]
 	},
 	{
@@ -80,7 +80,7 @@
 		"notification": "We stare into the void in terror as the old gods reawaken!",
 		"uniques": ["Hidden when religion is disabled",
 			"Gain a free [Pantheon] belief",
-			"Only available <after [30] turns> <before [80] turns>"],
+			"Only available <after turn number [30]> <before turn number [80]>"],
 		"excludedDifficulties": ["Immortal", "Deity"]
 		//This effect currently does not show up as a Notification when triggered
 	},
@@ -96,7 +96,7 @@
 		"name": "survivors (adds population to all cities)",
 		"notification": "Many survivors were rescued from the camp and resettled in your cities!",
 		"weight": 2,
-		"uniques": ["[+1] population [in all cities]", "Only available <after [40] turns>"]
+		"uniques": ["[+1] population [in all cities]", "Only available <after turn number [40]>"]
 	},
 
 	// Native
@@ -104,14 +104,14 @@
 		"name": "recruit a general",
 		"notification": "We tracked down and recruited a [Great General]!",
 		"uniques": ["Free [Great General] found in the ruins",
-			"Only available <after [50] turns>"],
+			"Only available <after turn number [50]>"],
 		"excludedDifficulties": ["Immortal", "Deity"]
 	},
 	{
 		"name": "rescue a farmer",
 		"notification": "We have successfully rescued a [Great Farmer]!",
 		"uniques": ["Free [Great Farmer] found in the ruins",
-			"Only available <after [50] turns>"],
+			"Only available <after turn number [50]>"],
 		"excludedDifficulties": ["Immortal", "Deity"]
 	},
 
@@ -126,7 +126,7 @@
 		"name": "infernal training",
 		"notification": "Our unit experiences infernal training!",
 		"weight": 2,
-		"uniques": ["This Unit gains [30] XP", "Only available <after [40] turns>"]
+		"uniques": ["This Unit gains [30] XP", "Only available <after turn number [40]>"]
 	},
 	{
 		"name": "prospector equipment",
@@ -148,14 +148,14 @@
 		"name": "levied militia",
 		"notification": "A [Militia] has joined us!",
 		"weight": 2,
-		"uniques": ["Free [Militia] appears", "Only available <after [30] turns> <before [120] turns>"],
+		"uniques": ["Free [Militia] appears", "Only available <after turn number [30]> <before turn number [120]>"],
 		"excludedDifficulties": ["Immortal", "Deity"]
 	},
 	{
 		"name": "levied patrols",
 		"notification": "A [Wasteland Patrol] has joined us!",
 		"weight": 2,
-		"uniques": ["Free [Wasteland Patrol] appears", "Only available <before [80] turns>"],
+		"uniques": ["Free [Wasteland Patrol] appears", "Only available <before turn number [80]>"],
 		"excludedDifficulties": ["King", "Emperor", "Immortal", "Deity"]
 	},
 	{
@@ -177,14 +177,14 @@
 		"notification": "The camp contains maps of the nearby area!",
 		"weight": 2,
 		"uniques": ["From a randomly chosen tile [5] tiles away from the ruins, reveal tiles up to [5] tiles away with [100]% chance",
-			"Only available <before [75] turns>"]
+			"Only available <before turn number [75]>"]
 	},
 	{
 		"name": "reveal nearby bonus resources",
 		"notification": "You recovered notes of vital resources!",
 		"weight": 2,
 		"uniques": ["Reveal up to [All] [Bonus resource] within a [10] tile radius",
-			"Only available <before [75] turns>"]
+			"Only available <before turn number [75]>"]
 	},
 
 	// Deletions

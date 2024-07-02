@@ -1130,7 +1130,7 @@
 			"All newly-trained [Philosopher] units [in this city] receive the [Devout] promotion",
 			"All newly-trained [Great Sage] units [in this city] receive the [Devout] promotion",
 			"[+2 Culture] from [Lakes] tiles [in all cities]",
-			"[+100 Culture] whenever a Great Person is expended"
+			"Gain [100] [Culture] <upon expending a [Great Person] unit> <(modified by game speed)>"
 		]
 	},
 	{
@@ -1640,7 +1640,7 @@
 		"uniqueTo": "Deadrock Clan",
 		"cost": 100,
 		"requiredTech": "Currency",
-		"uniques": ["Provides a sum of gold each time you spend a Great Person",
+		"uniques": ["Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
 			"[Great Merchant] is earned [25]% faster",
 			"[+2 Gold, +2 Culture] from every [Casino]",
 			"[+3 Gold, +3 Culture] from every [Narcotics farm]",

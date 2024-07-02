@@ -986,6 +986,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Stalkers now start with the Prospector promotion instead of Forage, and their Strength buff at Rifling is increased to 25%.
 - Workers (but not Mounted/Mechanized Workers or CS Worker replacements) may now build water improvements (now that a resource that can spawn on Lakes has been introduced).
 - Work Boats may now build water improvements on non-resource tiles for human players.
+- Deadrock Clan UUs: Hitman loses Skirmish, but its Production cost is reduced to 70 and its ranged strength is increased to 32.
 - Defiance UUs: Lawkeepers are no longer limited to 1 per Civilization.
 - Harbinger UUs:
 	- Educational Officer and Opolcheniye renamed to Educator Officer and Vengerovsky.
