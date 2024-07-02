@@ -623,19 +623,26 @@
 		"uniques": ["[+20]% Strength <when defending>"]
 	},
 	{
+		"name": "Dominance",
+		"uniques": ["[+15]% Strength"]
+	},
+	{
 		"name": "Terrascape",
-		"uniques": ["Turn this tile into a [Badlands] tile <in [{non-[Natural Wonder]} {non-[resource]} {non-[Badlands]} {Land}] tiles> <[2] times> <after which this unit is consumed>",
+		"uniques": [
+			"Turn this tile into a [Badlands] tile <in [{non-[Natural Wonder]} {non-[resource]} {non-[Badlands]} {Land}] tiles> <[2] times> <after which this unit is consumed>",
 			"Turn this tile into a [Wasteland] tile <in [{non-[Natural Wonder]} {non-[resource]} {non-[Wasteland]} {Land}] tiles> <[2] times> <after which this unit is consumed>",
 			"Turn this tile into a [Desert] tile <in [{non-[Natural Wonder]} {non-[resource]} {non-[Desert]} {Land}] tiles> <[2] times> <after which this unit is consumed>",
 			"Turn this tile into a [Tundra] tile <in [{non-[Natural Wonder]} {non-[resource]} {non-[Tundra]} {Land}] tiles> <[2] times> <after which this unit is consumed>",
+			"Turn this tile into a [Permafrost] tile <in [{non-[Natural Wonder]} {non-[resource]} {Tundra}] tiles> <[2] times> <after which this unit is consumed>",
 			"Turn this tile into a [Hill] tile <in [{non-[Natural Wonder]} {non-[resource]} {non-[Hill]} {Land}] tiles> <[2] times> <after which this unit is consumed>",
 			"Turn this tile into a [Tunneled Mountain] tile <in [{non-[Natural Wonder]} {Mountain}] tiles> <within [4] tiles of a [City center]> <[2] times> <after which this unit is consumed>",
 			"Turn this tile into a [Coast] tile <in [{non-[Natural Wonder]} {Ocean}] tiles> <[2] times> <after which this unit is consumed>",
 			"Turn this tile into a [Ocean] tile <in [{non-[Natural Wonder]} {Coast}] tiles> <[2] times> <after which this unit is consumed>",
 			"Turn this tile into a [Desert] tile <in [{non-[Natural Wonder]} {non-[resource]} {Coast}] tiles> <[2] times> <after which this unit is consumed>",
-			"Turn this tile into a [Desert] tile <in [{non-[Natural Wonder]} {Lakes}] tiles> <[2] times> <after which this unit is consumed>",
+			"Turn this tile into a [Desert] tile <in [{non-[Natural Wonder]} {non-[resource]} {Lakes}] tiles> <[2] times> <after which this unit is consumed>",
 			"Turn this tile into a [Lakes] tile <in [{non-[Natural Wonder]} {non-[resource]} {Land}] tiles> <[2] times> <after which this unit is consumed>",
-			"Turn this tile into a [Coast] tile <in [{non-[Natural Wonder]} {non-[resource]} {Land}] tiles> <[2] times> <after which this unit is consumed>"]
+			"Turn this tile into a [Coast] tile <in [{non-[Natural Wonder]} {non-[resource]} {Land}] tiles> <[2] times> <after which this unit is consumed>"
+		]
 	},
 	{
 		"name": "[Wayfarer] ability",

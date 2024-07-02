@@ -34,5 +34,111 @@
 				"quote": "'Talent hits a target no one else can hit; Genius hits a target no one else can see.'"
 			}
 		]
+	},
+	{
+		"columnNumber": 12,
+		"era": "Postmodern era",
+		"techCost": 5750,
+		"buildingCost": 500,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Full-Spectrum Dominance",
+				"row": 9,
+				"prerequisites": ["Avionics", "Combined Arms", "Decryption"],
+				"quote": "I have said earlier that the United States is now totally frank about putting its cards on the table. That is the case. Its official declared policy is now defined as 'full spectrum dominance'. That is not my term, it is theirs."
+			}
+		]
+	},
+	{
+		"columnNumber": 13,
+		"era": "Information era",
+		"techCost": 7250,
+		"buildingCost": 500,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Rewilding",
+				"row": 1,
+				"prerequisites": ["Ocean Remediation", "Genetics"],
+				"quote": "Our ultimate goal is the restoration of biodiversity and the surrender of human influence to natural processes. To pull this off will require a paradigm shift in the relationship between man and nature."
+			},
+			{
+				"name": "Advanced Materials",
+				"row": 8,
+				"prerequisites": ["Lasers", "Full-Spectrum Dominance"],
+				"quote": "Bunkers were spaces of exception, where democratic states could morph into autocracies in times of war by making the decision to sacrifice the polis from this space of protection."
+			},
+			{
+				"name": "Astrogation",
+				"row": 9,
+				"prerequisites": ["Avionics", "Satellites"],
+				"uniques": ["[+2] Range <for [Air] units>", "[+1] Movement <for [Water] units>"],
+				"quote": "Mankind was born on Earth. It was never meant to die here."
+			}
+		]
+	},
+	{
+		"columnNumber": 14,
+		"era": "Information era",
+		"techCost": 10000,
+		"buildingCost": 750,
+		"wonderCost": 2000,
+		"techs": [
+			{
+				"name": "Energy Weapons",
+				"row": 6,
+				"prerequisites": ["Advanced Materials"],
+				"quote": "I believe that man will not merely endure: he will prevail. He is immortal, not because he alone among creatures has an inexhaustible voice, but because he has a soul, a spirit capable of compassion and sacrifice and endurance."
+			}
+		]
+	},
+	{
+		"columnNumber": 15,
+		"era": "New Future era",
+		"techCost": 15000,
+		"buildingCost": 750,
+		"wonderCost": 2000,
+		"techs": [
+			{
+				"name": "Atmosphere Remediation",
+				"row": 3,
+				"prerequisites": ["Plastics Recycling", "Rewilding"],
+				"quote": "All analysed pathways limiting warming to 1.5°C with no or limited overshoot use CO2 removal to some extent to neutralize emissions."
+			}
+		]
+	},
+	{
+		"columnNumber": 16,
+		"era": "New Future era",
+		"techCost": 20000,
+		"buildingCost": 750,
+		"wonderCost": 2000,
+		"techs": [
+			{
+				"name": "Holography",
+				"row": 6,
+				"prerequisites": ["Particle Physics", "Artificial Intelligence", "Energy Weapons"],
+				"quote": "The light, like solid blocks, intolerable of edge and weight, came thundering upon my head."
+			}
+		]
+	},
+	{
+		"columnNumber": 17,
+		"era": "Singularity era",
+		"techCost": 30000,
+		"buildingCost": 750,
+		"wonderCost": 2000,
+		"techs": [
+			{
+				"name": "Future Tech",
+				"row": 5,
+				"prerequisites": ["Geo Engineering", "Holography", "Future Power", "Future Materials", "Human Genome", "Astrogation", "Globalization"],
+				"uniques": ["[+1 Food, +1 Production, +1 Gold, +1 Culture, +1 Science] [in all cities] <for [9999] turns>",
+					"[+1]% Strength <for [All] units> <for [9999] turns>",
+					"Can be continually researched"],
+				"quote": "There is nothing like a dream to create the future."
+			}
+		]
 	}
 ]
