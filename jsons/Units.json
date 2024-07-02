@@ -2150,6 +2150,25 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Hitman",
+		"unitType": "Shooter",
+		"uniqueTo": "Deadrock Clan",
+		"replaces": "Gunman",
+		"range": 1,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 32,
+		"interceptRange": 1,
+		"cost": 70,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Assassin",
+		"hurryCostModifier": 20,
+		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
+		"promotions": ["Headhunter", "Reconnaissance I"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Rubble Gang",
 		"unitType": "Scrapper",
 		"uniqueTo": "Deadrock Clan",
