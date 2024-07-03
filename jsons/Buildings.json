@@ -1146,6 +1146,33 @@
 
 	//Caliphate unique buildings
 	{
+		"name": "Tower of the Shuhada",
+		"uniqueTo": "The Caliphate",
+		"isWonder": true,
+		"culture": 1,
+		"faith": 1,
+		"cost": 0,
+		"uniques": [
+			"[4] units cost no maintenance",
+			"[+4] Unit Supply",
+			"Free [Mutawa] appears",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Food Store] [in this city]"
+		]
+	},
+	{
+		"name": "Revert Survivors",
+		"replaces": "Search for Survivors",
+		"uniqueTo": "The Caliphate",
+		"cost": 30,
+		"isNationalWonder": true,
+		"uniques": [
+			"[+33]% Production when constructing [Civilian] units [in this city]",
+			"Provides [4] [Slaves]",
+			"Free [Janissary] appears"
+		]
+	},
+	{
 		"name": "Kaserne",
 		"replaces": "Barracks",
 		"uniqueTo": "The Caliphate",
@@ -1193,6 +1220,21 @@
 		"requiredTech": "Trade"
 	},
 	{
+		"name": "Exotic Bazaar",
+		"replaces": "Public Works Administration",
+		"uniqueTo": "The Caliphate",
+		"percentageStatBonus": {"gold": 10},
+		"cost": 150,
+		"isNationalWonder": true,
+		"uniques": [
+			"Provides 1 extra copy of each improved luxury resource near this City",
+			"Provides [4] [Slaves]",
+			"Only available <if [Esir] is constructed in at least [4] of [Your] cities>",
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Currency"
+	},
+	{
 		"name": "Mosque",
 		"replaces": "Monastery",
 		"uniqueTo": "The Caliphate",
@@ -1220,7 +1262,9 @@
 			"Only available <after adopting [Theocracy]>",
 			"Hidden when religion is disabled",
 			"All newly-trained [Philosopher] units [in this city] receive the [Devout] promotion",
-			"All newly-trained [Great Sage] units [in this city] receive the [Devout] promotion"
+			"All newly-trained [Great Sage] units [in this city] receive the [Devout] promotion",
+			"[-50]% maintenance costs <for [Enslaved] units>",
+			"[+1 Faith, +1 Happiness] [in all cities with a garrison]"
 		]
 	},
 	{
