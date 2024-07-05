@@ -915,7 +915,7 @@
 - Sanctified Innovations (Follower), adding +1 each of Production, Science and Faith to National Wonders (this is Enhancer in Lek/Rekmod but to me didn't feel right putting it there)
 - Zen Meditation (Follower), adding +2 Culture and +1 Happiness to cities with at least 2 active Specialists
 
-#### Pre-Rebirth: May - June 2024
+#### Pre-Rebirth: May - July 2024
 
 Several of the following adjustments are based on what is planned for the Rebirth Edition of base DeCiv should it ever be released. Several others are also being included in the "DeCiv 2" fork that is the effective continuation of pre-Rebirth DeCiv.
 
@@ -958,12 +958,15 @@ Several of the following adjustments are based on what is planned for the Rebirt
 		- With the consolidation of the chemicals into a single stockpiled resource, Overcouncil now provides 6 copies of Experimental Chemicals.
 		- Hexlock Chemical Company now grants Resupply to Personnel units just like the standard Food Processing Plant.
 		- Advanced Chemical Refinery has been deleted for balance reasons.
+	- New Afrika:
+		- Survival Program renamed to Collective Congress. Instead of aiding city growth, it adds 1 Local Happiness to all cities for every 8 population.
 	- New Star:
 		- Gideon Scanner and Rally Station will now relocate to the new capital when the capital changes.
 	- The Patriots:
 		- Arsenal of Liberty's cost reduction reduced from 60% to 30%. It no longer requires surprlus Power for the Weapon copies or unit training speed bonus.
 
 **Wonder Adjustments**
+- Due to issues that have been caused by recent AI behavior changes reverting some of their previous behavior, the identity wonders for each faction are now automatically constructed once the capital is founded.
 - National Reservoir System now increases the owning city's total Water yields by 10%.
 
 **Unit Adjustments**
@@ -1027,6 +1030,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Community Center (Public School replacement for New Afrika, adds +2 Food/Happiness)
 - Community Garden (+2 Food (increases to +3 with Exotic Seeds), +25% GP generation, 1 Farmer slot, unlocks at Ecology, also added to Deciv 2 fork)
 - Frumentarii Camp (new Listening Post replacement for Crimson Legion, -33% spy theft rate, also added to Deciv 2 fork)
+- Survival Program (now a Community Garden replacement for New Afrika, 4 Food vs. 2 and +10% growth)
 - Virtual Tabernacle (Megachurch replacement for Deseret Nation, adds Culture yields equal to its Faith yields, +100% religious pressure in its city)
 
 **New Barbarian Units**

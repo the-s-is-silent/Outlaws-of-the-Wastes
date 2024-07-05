@@ -5,7 +5,7 @@
 - All of their Melee Personnel units (except Mounted units) now inherit the Surveyor ability promotion regardless of whether or not they upgraded from a Surveyor.
 - The unnecessary and nonsensical double production speed towards their unique Electrostatic Generators was removed.
 - They no longer have any starting techs or Science penalty.
-- The free Great Scientist from their UA has been pushed back from Secrets of the Past to Education, and the only Great People they generate faster with their UA are Great Scientists.
+- The free Great Scientist from their UA has been pushed back from Secrets of the Past to Education, and the only Great People they generate faster with their UA are Great Scientists, which are earned 30% faster (increased to 50% from retaining free Rationalism policy).
 - Atlas Refuge no longer has a Scientist slot, but adds 60 City HP (up from 40), 5 City Strength and 1 base point of Science.
 - Survey Center now adds +3 Science, +1 Culture, and increases to +8 Science, +3 Culture at Flight.
 - Think Tank is buffed to give a +25% Production boost towards Science buildings, along with +2 of the respective yield to each non-unique Great Improvement (Factory Farm, Manufactory, Drydock, Supply Complex, Academy, Settlement, Seminary; Citadels receive +1 Water/Science).
@@ -98,6 +98,7 @@
 - Clan Hideout buffed to +2 Water and +100 City HP.
 - Shake Down Survivors now costs 30 Production, provides 4 Slaves, and awards a free Gangboss.
 - Clansmen no longer require Clubhouses to be built.
+- Hitmen no longer start with Skirmish, but are buffed to 32 Ranged Strength (previously 24) and cost 70 Production (down from 90).
 - As mentioned above, Plantations now belong to them instead of Ignis. They now unlock at Botany instead of being available at the start of the game, lose the 20% total Food bonus, regain the standard Greenhouse boosts to Food (+2 to the city itself, +1 to Grain/Tubers, +1 Farmer slot), and only give a 50% boost to Worker training speed. They also add +1 Food to active Farmers in the city and +1 Culture to worked Narcotics farm tiles. Because of the Slave consumption requirement, they're 30% cheaper to build than standard Greenhouses.
 - Salvage Exchange has been removed from the game on account of being too similar to Children of Rust's Salvage Yard with no feasible way to differentiate the two.
 - Information Markets add +1 Water while the faction has Power and no longer have reduced Science gain compared to standard Libraries, but also no longer give Great Scientist Points.
@@ -133,7 +134,7 @@
 - Field Turrets are nerfed, reducing the increase in City Strength from 25 to 10.
 - New UBs:
   - Nutri-Paste Dispenser (replaces Food Store, adds +1 Food while possessing at least 1 copy of chemicals)
-  - Hexlock Chemical Company (replaces Food Processing Plant, adds +2 Production/Water to all Refinery improvements and +2 Production to worked Salt tiles instead of boosting Food yields, and grants the unique Self-Repair promotion to Purge Robots instead of granting Resupply to Personnel units)
+  - Hexlock Chemical Company (replaces Food Processing Plant, adds +2 Production/Water to all Refinery improvements and +2 Production to worked Salt tiles instead of boosting Food yields, and grants the unique Self-Repair promotion to Purge Robots)
   - Chemfuel Generator (standalone, requires a worked Refinery of any type and an Experimental Lab, boosts city Production by 5% and provides 2 units of Power, will be destroyed if the city is captured)
 
 #### The Mariners
@@ -154,11 +155,12 @@
 - The "Great Wall" effect in their UA now expires at Railroads.
 - They no longer start with Redomestication.
 - Great Mosque, along with the standard Mosque, have been temporarily removed from the game and replaced with UBs which should be more accurate to their religion.
-- Survival Program now adds +1 Culture per 4 population instead of a flat +2 Culture to all cities.
-- Revolutionary Council now adds a +15% Production bonus towards Personnel units for all cities.
+- Survival Program replaced with Collective Congress, which has the standard scaling Culture yields of a Congress building but also has scaling Happiness yields (+1 per 8 population) instead of a flat 5% Unhappiness reduction and adds 1 of every yield except Happiness to Settlements.
+- Revolutionary Council now adds a +15% Production bonus towards Personnel units for all cities and a +5% Production bonus towards buildings in the capital and all cities connected to it.
 - New UBs:
-  - Mansion of Our Father (new identity wonder, awards a Food Store instead of a Monument but is otherwise identical to the old Great Mosque)
+  - Mansion of Our Father (new identity wonder, gives a Food Store instead of a Monument but is otherwise identical to the old Great Mosque)
   - Afrikan Reformed Church (replaces Monastery, adds +2 Food)
+  - Survival Program (now replaces Community Garden, adds the Food/growth bonuses that were part of Collective Congress)
   - Community Center (replaces Public School, adds +2 Food/Happiness)
 
 #### New Star
@@ -180,7 +182,7 @@
   - Medical School (replaces Public School, requires a Hospital instead of a Library, awards Medic II to new units and adds +1 Local Happiness while the faction has Power)
 
 #### The Patriots
-- They now start with only one free tech - Munitions, instead of any of their original four - and no longer have an early-game Science penalty. Citadels receive an extra +2 Production/Science, increasing to +4 in the Industrial era.
+- They no longer start with any technologies or a Science penalty. Standard defensive buildings (Walls, etc.) receive +1 Production/Science, while Citadels receive +2 Production/Science, increasing to +4 in the Industrial era.
 - Eagle Rock Complex is nerfed: while it gains +1 Production, it loses its Engineer slot and the increase in City Strength is reduced from 20 to 5.
 - As mentioned above, Electing Leaders now belongs to this faction. However, its Production cost has been doubled.
 - Tactics Center is moved to Munitions so it remains available to them at the start of the game, and it now costs 100 Production.
