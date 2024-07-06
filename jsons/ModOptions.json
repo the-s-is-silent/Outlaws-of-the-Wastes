@@ -3,6 +3,11 @@
 	"buildingsToRemove": ["Arroyo", "Compound Mix GP", "Distribute Soft Drinks", "Fist of God", "Five-Year Plan",
 		"Fo Guang Library", "Ghost Mountain", "Grand Temple", "Great Mosque", "Hub Work Camp", "Longhouse", "Mormon Monument",
 		"Mosque", "Plastics Reprocessor", "Salvage Army Depot", "Salvage Exchange", "Slaver Guild"],
+	"uniques": [
+		"Suppress warning [*is supposed to automatically upgrade*]",
+		"Suppress warning [Military Engineer can place improvement Remove Fallout which has no stats, preventing unit automation!]",
+		"Suppress warning [Military Engineer can place improvement Remove Toxic Waste which has no stats, preventing unit automation!]"
+	],
 	"constants": {
 		"minimalCityDistance": 4,
 		"minimalCityDistanceOnDifferentContinents": 4,

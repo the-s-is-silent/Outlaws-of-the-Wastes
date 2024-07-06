@@ -10,7 +10,7 @@ The icons for Alma Frontier Guard and Alma State Guard are of my own creation.
 
 Unless otherwise specified, all of the following icons are from the Noun Project, licensed under Creative Commons or Public Domain. Also, if anyone feels like there is a better/more fitting icon out there for any particular building/unit/etc. than the one that is used, I am open to suggestions for replacement icons.
 
-Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmecac, Calpulli, Condenser Cooler, Defense Directorate (and its replacements), Defiant Guardian, Defiant Scout, Mounted Railgun, Pale Veteran, Pax Observer, Pax Researcher, Pax Surveyor, Persevering Pax Researcher, Pithouse, Preservator (icon also missing from TCC-beta), Pridwen-class, Roller, SS Casing, SS Life Support, Super Mutant, Telpochcalli, Tiyanquitzli, Weaponized Yacht
+Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmecac, Calpulli, Condenser Cooler, Defense Directorate (and its replacements), Defiant Guardian, Defiant Scout, Killdozer, Mounted Railgun, Pale Veteran, Pax Observer, Pax Researcher, Pax Surveyor, Persevering Pax Researcher, Pithouse, Praetorium, Preservator (icon also missing from TCC-beta), Pridwen-class, Roller, SS Casing, SS Life Support, Super Mutant, Telpochcalli, Tiyanquitzli, Weaponized Yacht
 
 ### Building Icons
 - Abbey: [Westminster Abbey](https://thenounproject.com/icon/westminster-abbey-5459042/) by Brickclay, PK
@@ -104,6 +104,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - State Dacha: [cabin](https://thenounproject.com/icon/cabin-3306863/) by PenSmasher, TH
 - Statue of Remembrance: [Justice](https://thenounproject.com/icon/justice-3872855/) by Eucalyp
 - Stone of Ages: [excalibur](https://thenounproject.com/icon/excalibur-2526433/) by Andrejs Kirma, LV
+- Survival Program: [survival guide](https://thenounproject.com/icon/survival-guide-6260051/) by rendicon, ID
 - Tabernacle: [temple](https://thenounproject.com/icon/temple-22044/) by George Patterson, US
 - Temalacatl: [Aztec calendar](https://www.flaticon.com/free-icon/aztec-calendar_4693665) by Freepik from Flaticon
 - Teocalli: [Aztec Temple](https://thenounproject.com/icon/aztec-temple-6792250/) by Fath Yusuf Izkhaqy, ID

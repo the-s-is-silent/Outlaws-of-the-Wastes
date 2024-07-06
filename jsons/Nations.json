@@ -709,12 +709,12 @@
 
 		"outerColor": [120, 120, 50],
 		"innerColor": [30, 9, 0],
-		"style": "",
+		"style": "Afrikan",
 		"uniqueName": "Community Watch",
 		"uniques": [
 			"[+10]% Strength <within [2] tiles of a [City center]>",
 			"[+20]% Strength <when fighting units from a Civilization with more Cities than you>",
-			"Enemy [Land] units must spend [1] extra movement points when inside your territory <before discovering [Railroads]>",
+			"Enemy [Land] units must spend [1] extra movement points when inside your territory <before discovering [Railroads]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
 			"Starts with [Secrets of the Past]"
 		],
 		"cities": [

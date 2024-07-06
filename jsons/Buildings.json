@@ -226,6 +226,18 @@
 		"requiredTech": "Ecology"
 	},
 	{
+		"name": "Survival Program",
+		"replaces": "Community Garden",
+		"uniqueTo": "New Afrika",
+		"food": 4,
+		"specialistSlots": {"Farmer": 1},
+		"maintenance": 1,
+		"uniques": ["[+25]% Great Person generation [in this city]",
+			"[+10]% growth [in this city]",
+			"[+1 Food] [in this city] <with [Exotic Seeds]>"],
+		"requiredTech": "Ecology"
+	},
+	{
 		"name": "Ethanol Station",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -372,6 +384,7 @@
 		"uniques": ["[+25]% Natural religion spread [in all cities]",
 			"Provides [2] [Weapons]",
 			"[2] free [Battle-axe of the Lord] units appear",
+			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Bishop's Storehouse] [in this city]"],
 		"quote": "Zion is a place, and a state of being, that has been lost to us several times in the past. Each loss is a new fall of man. And after each fall, we weep in strange new lands and dream of Zion, dream of visiting vengeance upon those who took it from us.",
@@ -590,6 +603,7 @@
 		"uniques": ["[+6 Culture] [in this city] <after discovering [Flight]>",
 			"[+10]% Production when constructing [All] units [in this city]",
 			"[2] free [Knight] units appear",
+			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Sangreal Vault] [in this city]"],
 		"quote": "Legends cannot die. They live forever on the edge of dreams, inspiring dreamers to pursue greatness. Every so often, an exceptionally virtuous dreamer with all the necessary qualities to attain greatness comes along, pushing their people to new heights or rescuing them from abysmal depths. And so they too shall become legendary.",
@@ -702,6 +716,7 @@
 		"uniques": ["[-10]% Unhappiness from [Population] [in this city]",
 			"Free [Educator Officer] appears",
 			"Free [Vengerovsky] appears",
+			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Harbinger Manege] [in this city]"],
 		"quote": "They say this was where they found the last oligarch, hiding far from the ruins of our old civilization. Hiding from those who survived the apocalypse he helped bring upon us. We gave him up to our enemies to face justice... a peace offering that meant absolutely nothing.",
@@ -838,6 +853,7 @@
 		"uniques": ["[+1 Gold, +1 Happiness] [in all cities connected to capital]",
 			"Free [Shock Worker] appears",
 			"Free [Commissar] appears",
+			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Food Store] [in this city]",
 			"Gain a free [Armory Station] [in this city]"],
@@ -964,6 +980,7 @@
 		"cost": 0,
 		"uniques": [
 			"[2] free [Jaguar] units appear",
+			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Calpulli] [in this city]"
 		]
@@ -1022,7 +1039,6 @@
 		"name": "Tiyanquitzli",
 		"replaces": "Market",
 		"uniqueTo": "Aztlan",
-		"gold": 1,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"requiredTech": "Trade",
@@ -1108,7 +1124,8 @@
 		"maintenance": 1,
 		"uniques": ["[-25]% Culture cost of natural border growth [in this city]",
 			"[-25]% Gold cost of acquiring tiles [in this city]",
-			"[+1 Culture] per [6] social policies adopted <when above [0] [Power]>"],
+			"[+1 Culture] per [6] social policies adopted <when above [0] [Power]>",
+			"[+1 Happiness] [in this city] <when above [0] [Power]>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Civil Service"
 	},
@@ -1155,7 +1172,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": ["[+10]% growth [in all cities]",
 			"[+5]% Production when constructing [All] buildings [in this city]",
-			"[+15]% Strength <for [Land] units> <when fighting in [Enemy Land] tiles>",
+			"[+10]% Strength <for [Land] units> <when fighting in [Enemy Land] tiles>",
 			"City-State Influence recovers at twice the normal rate",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
@@ -1175,6 +1192,7 @@
 			"[10]% Food is carried over after population increases [in this city]",
 			"Provides [2] [Weapons]",
 			"Free [Guerilla] appears",
+			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Deep Larder] [in this city]"
 		],
@@ -1189,6 +1207,7 @@
 		"cost": 0,
 		"uniques": [
 			"[2] free [Combat Medic] units appear",
+			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Food Store] [in this city]"
 		],
@@ -1210,6 +1229,7 @@
 			"Provides [1] [Power]",
 			"Provides [2] [Encrypted Data]",
 			"Free [Purge Robot Proto] appears",
+			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Nutri-Paste Dispenser] [in this city]"],
 		"quote": "'I will tell you a secret. Truth is, I'm not human. Not fully, at least. For some reason, Hexlock decided that it would be best having a computer lead them, instead of a person. And so their president decided to alter the head of his own daugther. Maybe the fact that I killed him as soon as I came out meant that I was now different. But to be honest? I feel the same. Just get bored of things much faster.'",
@@ -1233,6 +1253,7 @@
 			"Provides [1] [Power]",
 			"Provides [1] [Weapons]",
 			"Free [Security] appears",
+			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Food Store] [in this city]"
 		],
@@ -1255,6 +1276,7 @@
 		"uniques": [
 			"Provides [1] [Power]",
 			"[2] free [Surveyor] units appear",
+			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Food Store] [in this city]"
 		],
@@ -1279,6 +1301,7 @@
 			"Provides [1] [Power]",
 			"Provides [2] [Weapons]",
 			"Free [Spec Ops] appears",
+			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Food Store] [in this city]"
 		],
@@ -1299,6 +1322,7 @@
 		"uniques": [
 			"[-5]% Unhappiness from [Population] [in all cities]",
 			"[2] free [Swordsman] units appear",
+			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Food Store] [in this city]"
 		],
@@ -1316,9 +1340,10 @@
 		"culture": 1,
 		"cost": 0,
 		"uniques": [
-			"[+1 Culture, +1 Faith] from every [Administrator] <after discovering [Engineering]>",
+			"[+1 Culture, +1 Faith] from every [Administrator]",
 			"Provides [2] [Oil]",
 			"Free [War Buggy] appears",
+			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Fuel Depot] [in this city]"
 		],
@@ -1339,6 +1364,7 @@
 			"[+25]% Great Person generation [in this city]",
 			"[+1 Happiness] [in all cities] <when not at war>",
 			"Free [Ranger] appears",
+			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Monument] [in this city]"
 		],
@@ -1360,6 +1386,7 @@
 		"uniques": ["[+1 Faith] [in this city] <after founding a Pantheon>",
 			"May choose [1] additional [Pantheon] beliefs when [founding] a religion",
 			"[2] free [Scavenger] units appear",
+			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Pithouse] [in this city]"]
 		//Quote TBD
@@ -1371,6 +1398,7 @@
 		"culture": 1,
 		"cost": 0,
 		"uniques": [
+			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
 			"[+2 Food] [in this city] <with [1] to [6] neighboring [Coast] tiles>",
 			"[2] free [Sharkman] units appear",
@@ -1391,6 +1419,7 @@
 		"culture": 2,
 		"food": 2,
 		"uniques": [
+			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
 			"Provides [1] [Weapons]",
 			"Free [Panther] appears",
@@ -1412,8 +1441,9 @@
 		"gold": 2,
 		"cityHealth": 100,
 		"uniques": [
+			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
-			"Provides [1] [Weapons]",
+			"Provides [2] [Weapons]",
 			"[2] free [Clansman] units appear",
 			"Gain a free [Food Store] [in this city]"
 		],
@@ -1436,6 +1466,7 @@
 			"Provides [1] [Power]",
 			"[+2 Culture, +1 Happiness] [in this city] <after discovering [Decontamination]>",
 			"Free [Mutant] appears",
+			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Zemlyanka] [in this city]"
 		],
@@ -1779,14 +1810,14 @@
 			"Destroyed when the city is captured"]
 	},
 	{
-		"name": "Survival Program",
+		"name": "Collective Congress",
 		"uniqueTo": "New Afrika",
 		"replaces": "Congress",
 		"cost": 100,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+10]% growth [in all cities]",
-			"[+2 Food] [in all cities]",
-			"[+1 Culture] per [4] population [in all cities]",
+		"uniques": ["[+1 Culture] per [4] population [in all cities]",
+			"[+1 Happiness] per [8] population [in all cities]",
+			"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith] from every [Settlement]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Revolutionary Council]>",
@@ -1801,9 +1832,10 @@
 		"uniques": ["[+1] Unit Supply per [2] population [in all cities]",
 			"[-25]% maintenance costs <for [Military] units>",
 			"[+15]% Production when constructing [Personnel] units [in all cities]",
+			"[+5]% Production when constructing [All] buildings [in all cities connected to capital]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
-			"Only available <in cities without a [Survival Program]>",
+			"Only available <in cities without a [Collective Congress]>",
 			"Destroyed when the city is captured"]
 	},
 	{
@@ -2005,7 +2037,7 @@
 		"requiredTech": "Plastics Recycling",
 		"civilopediaText": [
 			{
-				"text": "Completion of this project enables the manufacture of components to construct a Terraformer which can restore Earth to its pre-Cataclysm state."
+				"text": "Enables the manufacture of components to construct a Terraformer which can restore Earth to its pre-Cataclysm state."
 			}
 		]
 	},
