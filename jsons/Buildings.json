@@ -1161,6 +1161,156 @@
 			"Destroyed when the city is captured"]
 	},
 
+	//Caliphate unique buildings
+	{
+		"name": "Tower of the Shuhada",
+		"uniqueTo": "The Caliphate",
+		"isWonder": true,
+		"culture": 1,
+		"faith": 1,
+		"cost": 0,
+		"uniques": [
+			"[4] units cost no maintenance",
+			"[+4] Unit Supply",
+			"Free [Mutawa] appears",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Food Store] [in this city]"
+		]
+	},
+	{
+		"name": "Revert Survivors",
+		"replaces": "Search for Survivors",
+		"uniqueTo": "The Caliphate",
+		"cost": 30,
+		"isNationalWonder": true,
+		"uniques": [
+			"[+33]% Production when constructing [Civilian] units [in this city]",
+			"Provides [4] [Slaves]",
+			"Free [Janissary] appears"
+		]
+	},
+	{
+		"name": "Kaserne",
+		"replaces": "Barracks",
+		"uniqueTo": "The Caliphate",
+		"faith": 1,
+		"cost": 50,
+		"hurryCostMultiplier": 25,
+		"maintenance": 1,
+		"uniques": ["New [Military] units start with [15] Experience [in this city]",
+			"Provides [1] [Slaves]",
+			"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Musalla",
+		"replaces": "Shrine",
+		"uniqueTo": "The Caliphate",
+		"faith": 1,
+		"cost": 40,
+		"requiredTech": "Secrets of the Past",
+		"uniques": ["Hidden when religion is disabled", "[-25]% Culture cost of natural border growth [in this city]"]
+	},
+	{
+		"name": "Houri Brothel",
+		"replaces": "Distillery",
+		"uniqueTo": "The Caliphate",
+		"happiness": 2,
+		"maintenance": 1,
+		"cost": 20,
+		"uniques": ["Provides [2] [Slaves]", "[+10]% growth [in this city]"],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Esir",
+		"replaces": "Town Hall",
+		"uniqueTo": "The Caliphate",
+		"percentStatBonus": {"food": 5},
+		"specialistSlots": {"Administrator": 1},
+		"culture": 1,
+		"happiness": 1,
+		"uniques": [
+			"[+50]% Production when constructing [Worker] units [in this city]",
+			"[+2 Production] [in this city] <when above [0] [Slaves]>",
+			"Only available <with [Slaves]>",
+			"Consumes [1] [Slaves]"
+		],
+		"requiredTech": "Trade"
+	},
+	{
+		"name": "Exotic Bazaar",
+		"replaces": "Public Works Administration",
+		"uniqueTo": "The Caliphate",
+		"percentageStatBonus": {"gold": 10},
+		"cost": 150,
+		"isNationalWonder": true,
+		"uniques": [
+			"Provides 1 extra copy of each improved luxury resource near this City",
+			"Provides [4] [Slaves]",
+			"Only available <if [Esir] is constructed in at least [4] of [Your] cities>",
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Mosque",
+		"replaces": "Monastery",
+		"uniqueTo": "The Caliphate",
+		"faith": 3,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Education",
+		"uniques": ["Only available <in cities with a [Musalla]>",
+			"Hidden when religion is disabled",
+			"[+34]% Natural religion spread [in this city]"]
+	},
+	{
+		"name": "Great Mosque",
+		"replaces": "Grand Monastery",
+		"uniqueTo": "The Caliphate",
+		"isNationalWonder": true,
+		"culture": 1,
+		"faith": 10,
+		"cost": 125,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"Only available <if [Mosque] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city",
+			"Can only be built <in [Holy] cities>",
+			"Only available <after adopting [Theocracy]>",
+			"Hidden when religion is disabled",
+			"All newly-trained [Philosopher] units [in this city] receive the [Devout] promotion",
+			"All newly-trained [Great Sage] units [in this city] receive the [Devout] promotion",
+			"[-50]% maintenance costs <for [Enslaved] units>",
+			"[+1 Faith, +1 Happiness] [in all cities with a garrison]"
+		]
+	},
+	{
+		"name": "House of Submission",
+		"replaces": "Congress",
+		"uniqueTo": "The Caliphate",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+1 Production, +1 Faith] per [4] population [in all cities]",
+			"[-10]% Unhappiness from [Followers of the Majority Religion] [in all cities] <in cities following our religion>",
+			"Only available <if [Convert Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [House of War]>",
+			"Destroyed when the city is captured"]
+	},
+	{
+		"name": "House of War",
+		"replaces": "Council",
+		"uniqueTo": "The Caliphate",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+10]% growth [in all cities]",
+			"[Faith] cost of purchasing [Military] units [-20]%",
+			"Only available <if [Convert Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [House of Submission]>",
+			"Destroyed when the city is captured"]
+	},
+
 	//Adjusted buildings and wonders
 	//Part 1: Faction identity wonders and government buildings
 	{
