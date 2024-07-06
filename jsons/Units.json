@@ -568,7 +568,7 @@
 			"Can move after attacking",
 			"Can see invisible [Submarine] units",
 			"[+33]% Strength <vs [Ranged Water] units> <when defending>",
-			"May withdraw before melee ([50]%)",
+			"Withdraws before melee combat <with [50]% chance>",
 			"Only available <if [Automated Factory] is constructed>",
 			"Consumes [1] [Aluminum]",
 			"Consumes [1] [Power]",
@@ -1579,7 +1579,7 @@
 		"name": "Persevering Pax Researcher",
 		"uniqueTo": "The Pax",
 		"unitType": "Civilian",
-		"uniques": ["May withdraw before melee ([100]%)",
+		"uniques": ["Withdraws before melee combat <with [100]% chance>",
 			"Can instantly construct a [Preservator] improvement <by consuming this unit>",
 			"Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -1727,7 +1727,7 @@
 		"upgradesTo": "Mechanized Worker",
 		"uniques": [
 			"Can build [Land] improvements on tiles",
-			"May withdraw before melee ([50]%)",
+			"Withdraws before melee combat <with [50]% chance>",
 			"Only available <if [Stable] is constructed>",
 			"Automation is a primary action"
 		],
@@ -1743,7 +1743,7 @@
 		"uniques": [
 			"Consumes [1] [Oil]",
 			"Only available <if [Factory] is constructed>",
-			"May withdraw before melee ([50]%)",
+			"Withdraws before melee combat <with [50]% chance>",
 			"Can pass through impassable tiles",
 			"Can build [Land] improvements on tiles",
 			"[-25]% construction time for [All] improvements",
