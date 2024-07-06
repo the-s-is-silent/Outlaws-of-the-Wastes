@@ -1173,6 +1173,7 @@
 			"[4] units cost no maintenance",
 			"[+4] Unit Supply",
 			"Free [Mutawa] appears",
+			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Food Store] [in this city]"
 		]
