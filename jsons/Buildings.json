@@ -150,6 +150,17 @@
 		"requiredTech": "Combined Arms"
 	},
 	{
+		"name": "Joint Headquarters",
+		"isNationalWonder": true,
+		"uniques": [
+			"[Military] units gain the [Dominance] promotion",
+			"Only available <if [Armaments Production Line] is constructed in at least [4] of [Your] cities>",
+			"Only available <if [Armor Production Line] is constructed in at least [4] of [Your] cities>",
+			"Only available <if [Aerospace Facility] is constructed in at least [4] of [Your] cities>"
+		],
+		"requiredTech": "Full-Spectrum Dominance"
+	},
+	{
 		"name": "Microwave Power Satellite",
 		"happiness": 2,
 		"production": 5,
@@ -172,7 +183,7 @@
 			"Triggers a global alert upon completion",
 			"Hidden when [Colonization] Victory is disabled",
 			"Cannot be hurried"],
-		"requiredTech": "Rocketry",
+		"requiredTech": "Astrogation",
 		"civilopediaText": [
 			{
 				"text": "Enables the manufacture of components for a Colony Ship that would enable humanity to leave Earth behind and seek out new worlds."
@@ -350,7 +361,15 @@
 		"hurryCostModifier": 30,
 		"uniques": ["[+1 Food, +1 Gold, +1 Culture] from [Nature preserve] tiles [in this city]",
 			"Must have an owned [Nature preserve] within [3] tiles"],
-		"requiredTech": "Atmosphere Remediation"
+		"requiredTech": "Rewilding"
+	},
+	{
+		"name": "Holotraining Facility",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["New [Military] units start with [20] Experience [in this city]",
+			"Destroyed when the city is captured"],
+		"requiredTech": "Holography"
 	},
 
 	//Deseret Nation unique buildings
@@ -3483,7 +3502,7 @@
 		"science": 3,
 		"culture": 1,
 		"uniques": [
-			"[{Land} {Low Tech}] units gain the [Drone Recon] promotion",
+			"[Low Tech] units gain the [Drone Recon] promotion",
 			"[Personnel] units gain the [Drone Recon] promotion",
 			"[+5 Science, +2 Culture] [in this city] <after discovering [Flight]>",
 			"Consumes [1] [Power]"
