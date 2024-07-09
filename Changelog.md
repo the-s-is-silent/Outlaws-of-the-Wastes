@@ -1001,6 +1001,10 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- Transhumanism now adds a flat +12 Global Happiness instead of 33% reduction to Unhappiness in the capital.
 
 **Belief Adjustments**
+- Art of War starts at a flat 200 Faith per unit purchase (Standard speed), and the cost actually increases with the era (300 in Rebuilding, 400 in Industrial, 600 in Postmodern, 800 in Information, 1000 in New Future and Singularity) like it would in official Civ 5 and standard Unciv rulesets (and does in Rekmod) but unlike any other Faith purchase in DeCiv. This is as it should be if the belief is to be allowed to exist at all.
+- Funeral Rites no longer gives minor Culture yields for consuming Great People. Instead, it adds +2 Faith to all worked Great Improvements.
+- Harvest Festival updated to account for new resources.
+- Spiritual Research now adds Science yields instead of Culture yields.
 - Works of Genius now increases GP generation by 25% instead of adding Faith to Great Improvements.
 
 **Improvement Adjustments**
@@ -1012,6 +1016,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Manufactory nerfed to lose +2 of its scaling Production yields.
 - Mine nerfed to lose the second +1 Production boost at Railroads. Also, it cannot be built on resources it doesn't improve.
 - Pasture buffed to move its +1 Food gain to Ecology, but it now properly obsoletes at Genetics.
+- Tree plantation no longer has a tech requirement for building on Badlands or Hills.
 
 **Terrain Adjustments**
 - Mountains can now only have Artificial glaciers built on them, putting a stop to one particular Enclavers hijink. This might be changed later if additional Mountain-specific improvements are created.

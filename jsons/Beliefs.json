@@ -92,7 +92,8 @@
 		"type": "Pantheon",
 		"uniques": [
 			"[+1 Faith] from every [{Grain} {resource}]",
-			"[+1 Faith] from every [{Tubers} {resource}]"
+			"[+1 Faith] from every [{Tubers} {resource}]",
+			"[+1 Faith] from every [{Cactus} {resource}]"
 		]
 	},
 	{
@@ -183,10 +184,10 @@
 		"name": "Spiritual Research",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Culture, +1 Faith] from every [{Artifacts} {resource}]",
-			"[+1 Culture, +1 Faith] from every [{Books} {resource}]",
-			"[+1 Culture, +1 Faith] from every [{Data} {resource}]",
-			"[+1 Culture, +1 Faith] from every [{Encrypted Data} {resource}]"
+			"[+1 Science, +1 Faith] from every [{Artifacts} {resource}]",
+			"[+1 Science, +1 Faith] from every [{Books} {resource}]",
+			"[+1 Science, +1 Faith] from every [{Data} {resource}]",
+			"[+1 Science, +1 Faith] from every [{Encrypted Data} {resource}]"
 		]
 	},
 	{
@@ -345,6 +346,14 @@
 
 //Enhancer
 	{
+		"name": "Funeral Rites",
+		"type": "Enhancer",
+		"uniques": [
+			"Gain [100] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>",
+			"[+2 Faith] from every [Great Improvement]"
+		]
+	},
+	{
 		"name": "Missionary Zeal",
 		"type": "Enhancer",
 		"uniques": ["[Faith] cost of purchasing [Philosopher] units [-25]%",
@@ -416,8 +425,16 @@
 	{
 		"name": "Art of War",
 		"type": "Enhancer",
-		"uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost",
-			"Only available <after adopting [Exodus of the Evangelists]>"]
+		"uniques": [
+			"Comment [May buy Military Land units with Faith in cities following this religion (cost increases with era)]",
+			"May buy [{Military} {Land}] units for [200] [Faith] [in cities following this religion] <before the [Rebuilding era]>",
+			"May buy [{Military} {Land}] units for [300] [Faith] [in cities following this religion] <during the [Rebuilding era]>",
+			"May buy [{Military} {Land}] units for [400] [Faith] [in cities following this religion] <during the [Industrial era]>",
+			"May buy [{Military} {Land}] units for [600] [Faith] [in cities following this religion] <during the [Postmodern era]>",
+			"May buy [{Military} {Land}] units for [800] [Faith] [in cities following this religion] <during the [Information era]>",
+			"May buy [{Military} {Land}] units for [1000] [Faith] [in cities following this religion] <starting from the [New Future era]>",
+			"Only available <after adopting [Exodus of the Evangelists]>"
+		]
 	},
 	{
 		"name": "Atomic Judgment",

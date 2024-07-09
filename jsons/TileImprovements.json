@@ -22,11 +22,9 @@
 		"techRequired": "Ecology",
 		"uniques": ["Food source",
 			"Gives a defensive bonus of [10]%",
-			"Cannot be built on [resource] tiles",
+			"Unbuildable <in [resource] tiles>",
 			"Cannot be built on [Desert] tiles",
 			"Cannot be built on [Permafrost] tiles",
-			"Cannot be built on [Badlands] tiles <before discovering [Hydroponics]>",
-			"Cannot be built on [Hill] tiles <before discovering [Land Remediation]>",
 			"Cannot be built on [Swamp] tiles <before discovering [Land Remediation]>",
 			"[+1 Food, +1 Production] <after discovering [Land Remediation]>",
 			"[+1 Food, +1 Production] <after discovering [Atmosphere Remediation]>",
@@ -243,6 +241,7 @@
 			"Provides [1] [Silver] <in [Silver] tiles>",
 			"Provides [1] [Gems] <in [Gems] tiles>",
 			"Provides [1] [Salt] <in [Salt] tiles>",
+			"Provides [1] [Mercury] <in [Mercury] tiles>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "B"
@@ -313,7 +312,7 @@
 		"turnsToBuild": 20,
 		"terrainsCanBeBuiltOn": ["Sunken Ruins"],
 		"techRequired": "Ocean Remediation",
-		"uniques": ["Can be built outside your borders", "Cannot be built on [resource] tiles"],
+		"uniques": ["Can be built outside your borders", "Unbuildable <in [resource] tiles>"],
 		"shortcutKey": "X"
 	},
 
