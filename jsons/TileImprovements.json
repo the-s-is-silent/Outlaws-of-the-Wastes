@@ -297,6 +297,19 @@
 		],
 		"shortcutKey": "W"
 	},
+	{
+		"name": "Fishing Boats",
+		"techRequired": "Sailing",
+		"terrainsCanBeBuiltOn": ["Coast", "Ocean"],
+		"turnsToBuild": 6,
+		"uniques": [
+			"Food source",
+			"Obsolete with [Genetics]",
+			"[+1 Food] <after discovering [Oceanography]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		]
+	},
 
 	//Removals
 	{
