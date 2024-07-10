@@ -315,7 +315,7 @@
 			"[+33]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs cities>",
 			"Only available <if [Wasteland Surveillance Initiative] is constructed>",
-			"Only available <in cities with a [Stable]>",
+			"Can only be built <in cities with a [Stable]>",
 			"Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
@@ -337,7 +337,7 @@
 			"[+25]% Strength <when fighting in [Friendly Land] tiles>",
 			"[-25]% Strength <when fighting in [Foreign Land] tiles>",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"Only available <if [Stable] is constructed>",
+			"Can only be built <in cities with a [Stable]>",
 			"Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
@@ -695,7 +695,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
-			"Only available <if [Riding Arena] is constructed>"],
+			"Can only be built <in cities with a [Riding Arena]>"],
 		"attackSound": "horse"
 	},
 	{
@@ -756,7 +756,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
-			"Only available <if [Riding Arena] is constructed>"],
+			"Can only be built <in cities with a [Riding Arena]>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -779,7 +779,7 @@
 			"[+25]% Strength <vs [Low Tech] units> <when attacking>",
 			"[+25]% Strength <vs [Personnel] units> <when attacking>",
 			"[+25]% Strength <when defending>",
-			"Only available <if [Riding Arena] is constructed>"],
+			"Can only be built <in cities with a [Riding Arena]>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -821,8 +821,7 @@
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence",
 			"Can instantly construct a [Wasteland Station] improvement <by consuming this unit>",
 			"Is part of Great Person group [Merchant]", "Great Person - [Gold]",
-			"Only available <if [Harbinger Manege] is constructed>",
-			"Only available <in cities with a [Contract with Survivors]>",
+			"Can only be built <in cities with a [Contract with Survivors]>",
 			"Requires at least [5] population",
 			"Cannot be purchased"
 		]
@@ -1009,7 +1008,7 @@
 		"upgradesTo": "Modern Armor",
 		"uniques": ["[+33]% Strength <vs [Low Tech] units> <when attacking>",
 			"[+33]% Strength <vs [Personnel] units> <when attacking>",
-			"[+100]% Strength <vs cities> <when attacking>",
+			"[+200]% Strength <vs cities> <when attacking>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[+2] Movement <in [Railroad] tiles>",
@@ -1728,7 +1727,7 @@
 		"uniques": [
 			"Can build [Land] improvements on tiles",
 			"Withdraws before melee combat <with [50]% chance>",
-			"Only available <if [Stable] is constructed>",
+			"Can only be built <in cities with a [Stable]>",
 			"Automation is a primary action"
 		],
 		"cost": 130
@@ -1766,7 +1765,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
-			"Only available <if [Stable] is constructed>"
+			"Can only be built <in cities with a [Stable]>"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
@@ -1790,7 +1789,7 @@
 			"[+50]% Strength <vs [Low Tech] units>",
 			"[-25]% Strength <vs cities> <when attacking>",
 			"Only available <if [Clubhouse] is constructed>",
-			"Only available <if [Stable] is constructed>"
+			"Can only be built <in cities with a [Stable]>"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "horse",
@@ -1834,7 +1833,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"Only available <if [Stable] is constructed>",
+			"Can only be built <in cities with a [Stable]>",
 			"Consumes [1] [Weapons]"
 		],
 		"hurryCostModifier": 20,
@@ -1876,7 +1875,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"Only available <if [Stable] is constructed>"
+			"Can only be built <in cities with a [Stable]>"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
@@ -1897,7 +1896,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"Only available <if [Stable] is constructed>"
+			"Can only be built <in cities with a [Stable]>"
 		],
 		"promotions": ["Pursuit"],
 		"hurryCostModifier": 20,
@@ -1941,7 +1940,7 @@
 			"Can move after attacking",
 			"[+33]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"Only available <if [Stable] is constructed>"
+			"Can only be built <in cities with a [Stable]>"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
@@ -1965,7 +1964,7 @@
 			"Can move after attacking",
 			"[+33]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"Only available <if [Stable] is constructed>",
+			"Can only be built <in cities with a [Stable]>",
 			"Consumes [1] [Slaves]"
 		],
 		"hurryCostModifier": 20,
@@ -1989,7 +1988,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"Only available <if [Stable] is constructed>",
+			"Can only be built <in cities with a [Stable]>",
 			"Consumes [1] [Weapons]"
 		],
 		"hurryCostModifier": 20,
@@ -2042,7 +2041,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"Only available <if [Stable] is constructed>"
+			"Can only be built <in cities with a [Stable]>"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
