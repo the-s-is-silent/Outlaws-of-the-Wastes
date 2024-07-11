@@ -978,6 +978,10 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Seastead Vessel receives increased tile improvement construction speed after researching Advanced Materials.
 - Stalkers now start with the Prospector promotion instead of Forage, and their Strength buff at Rifling is increased to 25%.
 - Workers (but not Mounted/Mechanized Workers or CS Worker replacements) may now build water improvements (now that a resource that can spawn on Lakes has been introduced).
+- Crimson Line UUs:
+	- War Tram and Armored Train's base movement reduced from 4 to 2.
+		- War Tram's bonus against infantry units increased to 50% to compensate. It now obsoletes at Railroads and upgrades to the Armored Train.
+		- Armored Train's bonus when attacking cities doubled. However, it now consumes Oil instead of Power.
 - Deadrock Clan UUs: Hitman loses Skirmish, but its Production cost is reduced to 70 and its ranged strength is increased to 32.
 - Defiance UUs: Lawkeepers are no longer limited to 1 per Civilization.
 - Harbinger UUs:
