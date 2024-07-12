@@ -586,13 +586,16 @@
 	},
 	{
 		"name": "Prospector",
-		"uniques": ["[+15]% Strength when stacked with [Civilian]",
+		"uniques": [
+			"[+15]% Strength when stacked with [Civilian]",
 			"Can build [Land] improvements on tiles",
+			"This Unit gains [3] XP <upon building a [Land] improvement>",
 			"[-25]% construction time for [All] improvements <after discovering [Replaceable Parts]>",
 			"Gain [1]-[10] [Gold] <upon ending a turn in a [Forest] tile>",
 			"Gain [1]-[10] [Gold] <upon ending a turn in a [Jungle] tile>",
 			"[+5] HP when healing",
-			"[+1] Sight"]
+			"[+1] Sight"
+		]
 	},
 	{
 		"name": "Oath of Vengeance",
@@ -628,6 +631,7 @@
 			"Turn this tile into a [Wasteland] tile <in [{non-[Natural Wonder]} {non-[resource]} {non-[Wasteland]} {Land}] tiles> <[2] times> <after which this unit is consumed>",
 			"Turn this tile into a [Desert] tile <in [{non-[Natural Wonder]} {non-[resource]} {non-[Desert]} {Land}] tiles> <[2] times> <after which this unit is consumed>",
 			"Turn this tile into a [Tundra] tile <in [{non-[Natural Wonder]} {non-[resource]} {non-[Tundra]} {Land}] tiles> <[2] times> <after which this unit is consumed>",
+			"Turn this tile into a [Permafrost] tile <in [{non-[Natural Wonder]} {non-[resource]} {Tundra}] tiles <[2] times> <after which this unit is consumed>",
 			"Turn this tile into a [Hill] tile <in [{non-[Natural Wonder]} {non-[resource]} {non-[Hill]} {Land}] tiles> <[2] times> <after which this unit is consumed>",
 			"Turn this tile into a [Tunneled Mountain] tile <in [{non-[Natural Wonder]} {Mountain}] tiles> <within [4] tiles of a [City center]> <[2] times> <after which this unit is consumed>",
 			"Turn this tile into a [Coast] tile <in [{non-[Natural Wonder]} {Ocean}] tiles> <[2] times> <after which this unit is consumed>",

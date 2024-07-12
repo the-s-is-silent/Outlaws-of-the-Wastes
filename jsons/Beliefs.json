@@ -427,12 +427,12 @@
 		"type": "Enhancer",
 		"uniques": [
 			"Comment [May buy Military Land units with Faith in cities following this religion (cost increases with era)]",
-			"May buy [{Military} {Land}] units for [200] [Faith] [in cities following this religion] <before the [Rebuilding era]>",
-			"May buy [{Military} {Land}] units for [300] [Faith] [in cities following this religion] <during the [Rebuilding era]>",
-			"May buy [{Military} {Land}] units for [400] [Faith] [in cities following this religion] <during the [Industrial era]>",
-			"May buy [{Military} {Land}] units for [600] [Faith] [in cities following this religion] <during the [Postmodern era]>",
-			"May buy [{Military} {Land}] units for [800] [Faith] [in cities following this religion] <during the [Information era]>",
-			"May buy [{Military} {Land}] units for [1000] [Faith] [in cities following this religion] <starting from the [New Future era]>",
+			"May buy [{Military} {Land}] units for [200] [Faith] [in cities following this religion] <before the [Rebuilding era]> <hidden from users>",
+			"May buy [{Military} {Land}] units for [300] [Faith] [in cities following this religion] <during the [Rebuilding era]> <hidden from users>",
+			"May buy [{Military} {Land}] units for [400] [Faith] [in cities following this religion] <during the [Industrial era]> <hidden from users>",
+			"May buy [{Military} {Land}] units for [600] [Faith] [in cities following this religion] <during the [Postmodern era]> <hidden from users>",
+			"May buy [{Military} {Land}] units for [800] [Faith] [in cities following this religion] <during the [Information era]> <hidden from users>",
+			"May buy [{Military} {Land}] units for [1000] [Faith] [in cities following this religion] <starting from the [New Future era]> <hidden from users>",
 			"Only available <after adopting [Exodus of the Evangelists]>"
 		]
 	},

@@ -991,6 +991,8 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **Promotion Adjustments**
 - Barrage and Resupply are now valid prerequisites for March, preserving Mounted Ranged units' access to that promotion.
 - Medic I and II are no longer accessible to Shooter or Mounted Ranged units.
+- Prospector buffed to grant 3 XP each time a unit with the promotion builds an improvement.
+- Terrascape now allows converting Tundra into Permafrost.
 
 **Policy Adjustments**
 - Expansionism:
