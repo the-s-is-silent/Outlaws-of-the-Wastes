@@ -4310,7 +4310,7 @@
 		"cost": 40,
 		"maintenance": 0,
 		"hurryCostModifier": 0,
-		"uniques": ["[All] Units adjacent to this city heal [+10] HP per turn when healing",
+		"uniques": ["[All] Units adjacent to this city heal [+10] HP per turn when healing <in this city>",
 			"[+15]% Production when constructing [Support] units [in this city]",
 			"[+1 Happiness] [in this city] <after adopting [Voting Rights]>",
 			"Destroyed when the city is captured"]
