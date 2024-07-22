@@ -1814,7 +1814,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking"
 		],
-		"promotions": ["Forage", "Raider", "Skirmish", "March"],
+		"promotions": ["Raider"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -1857,7 +1857,7 @@
 			"Can move after attacking",
 			"[-33]% Strength <vs cities> <when attacking>"
 		],
-		"promotions": ["Forage", "Raider", "Entrench", "Guerilla Warfare I", "Urban Warfare I", "Ambush"],
+		"promotions": ["Forage", "Raider", "Entrench", "Ambush"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
@@ -1919,7 +1919,7 @@
 			"Can move after attacking",
 			"[-33]% Strength <vs cities> <when attacking>"
 		],
-		"promotions": ["Forage", "Raider", "Entrench", "Guerilla Warfare I", "Urban Warfare I", "Ambush"],
+		"promotions": ["Forage", "Raider", "Entrench", "Ambush"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
@@ -2016,11 +2016,8 @@
 			"[-33]% Strength <vs cities> <when attacking>"
 		],
 		"promotions": [
-			"Skirmish",
 			"Raider",
-			"Entrench",
-			"Guerilla Warfare I",
-			"Urban Warfare I"
+			"Entrench"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
@@ -2066,11 +2063,8 @@
 			"[-33]% Strength <vs cities> <when attacking>"
 		],
 		"promotions": [
-			"Skirmish",
 			"Raider",
-			"Entrench",
-			"Guerilla Warfare I",
-			"Urban Warfare I"
+			"Entrench"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
@@ -2360,13 +2354,11 @@
 		"hurryCostModifier": 20,
 		"uniques": ["Personnel"],
 		"promotions": [
-			"Skirmish",
 			"Raider",
 			"Entrench",
 			"Forage",
 			"Guerilla Warfare I",
-			"Urban Warfare I",
-			"March"
+			"Urban Warfare I"
 		],
 		"attackSound": "machinegun"
 	},
@@ -2409,13 +2401,11 @@
 			"[-20]% Strength <vs [Armor] units>"
 		],
 		"promotions": [
-			"Skirmish",
 			"Raider",
 			"Entrench",
-			"Extended Range",
+			"Forage",
 			"Guerilla Warfare I",
-			"Urban Warfare I",
-			"Precision"
+			"Urban Warfare I"
 		],
 		"attackSound": "shot"
 	},
@@ -3089,6 +3079,7 @@
 		"interceptRange": 1,
 		"cost": 60,
 		"requiredTech": "Engineering",
+		"obsoleteTech": "Plastics",
 		"upgradesTo": "NBC Infantry",
 		"promotions": ["Raider", "Gas Mask", "Forage", "Urban Warfare I"],
 		"uniques": ["Personnel", "[+25]% Strength <after discovering [Rifling]>"],
