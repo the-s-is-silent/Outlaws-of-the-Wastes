@@ -21,8 +21,9 @@ A major expansion + rebalance mod for DeCiv Redux.
 
 - Two new victory conditions, restoring the "proper" Domination and Science victories. (Warning: do not enable these without disabling the standard Domination and Science victories. Having both DeCiv's Science Victory (Terraform Earth) and Colonization Victory (launch the spaceship) enabled will currently make those victory conditions impossible to achieve.)
 
-- Four new factions:
+- Five new factions (in addition to playable Deseret):
   - Aztlan, the expected post-Cataclysm nation of Aztec revivalists.
+  - The Caliphate, a hyperoppressive Islamic theocracy with a stranglehold over Germany.
   - Camelot Foundation, a constitutional republic arising from what's left of Wales, England and Brittany.
   - Crimson Line, a faction of hardliner Communists who took shelter from the Cataclysm inside the Moscow Metro and now seek to reunite the Soviet Union by force.
   - The Harbingers, the remnants of an evil Mega-Corp who are now trying to atone for their previous practices...or are they?
@@ -30,7 +31,7 @@ A major expansion + rebalance mod for DeCiv Redux.
 - Eight new city-states: Calico (Labor), Carbon (Farming), Defiance (Weapons), Hockeytown (Culture), Issaquah Nation (Prayer, replacing Deseret in that slot), Izumrydniy Gorod (Research), The Pax (Research), and Venice Beach (Trading).
 
 - New units:
-  - Barbarian: Ghoul, Suicider, Marked One, Killdozer, Dhow, Skiff, Ocean Robber
+  - Barbarian: Ghoul, Suicider, Marked One, Killdozer, Dhow, Skiff, Ocean Robber, Savior of the Sea
   - City-States: State Guard + Pre-War Turret
   - Civilian: Great Admiral (Rekmod implementation), Military Engineer (Approximation of Civ 6 unit), Seastead Vessel
   - Collectivism policy: Stalker (yes, the very same Stalker from Roadside Picnic and everything it inspired)
@@ -53,11 +54,11 @@ A major expansion + rebalance mod for DeCiv Redux.
   - Microwave Power Satellite, a late-game Power building for desert cities that also improves Solar collectors.
 
 - New tile improvements:
-  - Artificial atoll and Floating Settlement, unlocked at Ocean Remediation and built exclusively by the Seastead Vessel.
+  - Artificial atoll and Floating Settlement, unlocked at Ocean Remediation.
   - Caer, imported from Rekmod, exclusive to Camelot Foundation.
   - Drydock, imported from Rekmod, the Great Admiral's Great Improvement.
   - Polder, unlocked at Engineering and can be built on Swamps, Coasts and Lakes, though the latter two require at least 3 adjacent Land tiles.
-  - Powership, unlocked at Electronics and built exclusively by the Seastead Vessel.
+  - Powership, unlocked at Electronics.
   - Preservator, borrowed from Bamboolord's expansion mods, currently exclusive to The Pax.
   - Seaside Resort, exclusive to Venice Beach.
   - Supply Complex, the Great Merchant's new Great Improvement. No longer do Great Administrators and Great Merchants share a Great Improvement.
@@ -68,6 +69,6 @@ A major expansion + rebalance mod for DeCiv Redux.
 
 - Several new ruins bonuses with each ruins effect now being weighted, along with buffs to some of the base scenario's bonuses.
 
-- Several of the 14 factions in the base scenario have received at least 1 new unique component. Again, check the Faction Adjustments.md file for more details.
+- All 14 factions in the base scenario have received at least 1 new unique component. Again, check the Faction Adjustments.md file for more details.
 
 - And more is planned for the future; check the ToDoList.md file for some of these things.

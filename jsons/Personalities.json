@@ -653,5 +653,39 @@
 				"text": "Yesenia, Huey Tlatoani of the post-Cataclysm nation of Aztlan, is driven by two overbearing goals: to avenge all past and present sins against her people and to ensure her nation's survival at all costs. She considers herself the savior of Aztlan, but an increasing number of Aztlaners believe her increasingly draconian measures will lead them into the very future she seeks to prevent."
 			}
 		]
+	},
+	{
+		"name": "Triumphant Caliph",
+		"preferredVictoryType": "Domination",
+		"food": 4,
+		"production": 7,
+		"gold": 5,
+		"science": 3,
+		"culture": 3,
+		"faith": 10,
+		"happiness": 5,
+		"military": 8,
+		"aggressive": 8,
+		"declareWar": 9,
+		"commerce": 1,
+		"diplomacy": 1,
+		"loyal": 1,
+		"expansion": 8,
+		"priorities": {
+			"Adaptation": 10,
+			"Expansionism": 20,
+			"Sovereignty": 40,
+			"Theocracy": 40,
+			"Rationalism": 10,
+			"Constitution": 0,
+			"Supremacy": 40,
+			"Monopoly": 30,
+			"Collectivism": 20,
+			"Rediscovery": 20,
+			"Naturalism": 0,
+			"Mechanization": 0,
+			"Bionics": 0,
+			"Legacy": 0
+		}
 	}
 ]

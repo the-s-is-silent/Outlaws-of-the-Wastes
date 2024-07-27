@@ -22,7 +22,7 @@
 
 		"outerColor": [191, 128, 6],
 		"innerColor": [252, 255, 218],
-		"style": "Corporate",
+		"style": "Deseret",
 		"uniqueName": "Blood of the Prophets",
 		"uniques": ["[-25]% Faith cost of generating Great Prophet equivalents",
 			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
@@ -196,6 +196,42 @@
 			"Neza", "Tepeyac", "Xalixko", "Jilotzingo", "Xoconochco", "Coalcomán", "Yanhuitlán", "Cempoala"],
 		"spyNames": ["Armando", "Alejandro", "Rosado", "Yaretzi", "Luminosa", "Tlacotl", "Chimalma", "Cozamalotl", "Xochitl", "Xilonen"]
 	},
+	{
+		"name": "The Caliphate",
+		"leaderName": "Mostafa al-Beshay",
+		"adjective": ["Muslim"],
+		"preferredVictoryType": "Domination",
+		"personality": "Triumphant Caliph",
+		"favoredReligion": "Islam",
+
+		// "startIntroPart1": ".",
+		// "startIntroPart2": ".",
+		"declaringWar": "Hell lives to claim your vile souls. Down with the infidel pigs!",
+		"attacked": "We must drive the unbelievers into the deepest pits of hell!",
+		"defeated": "We may be driven from these lands for now, but we will yet subvert your order and force your people to submit to Allah's will. Islam and the jihad will never die, and your Day of Judgment will still come to pass.",
+		"introduction": "Welcome to the last worthwhile homeland of the chosen. This is the Caliphate of Western Europe and North Africa, destined to emerge triumphant over the devils infesting this fractured world.",
+		"neutralHello": "Allah's people are listening.",
+		"hateHello": "Silence, infidel!",
+		"tradeRequest": "We have little reason to show generosity when the world has become the house of tyrants. You should regard this rare opportunity as a blessing.",
+
+		"outerColor": [248, 217, 2],
+		"innerColor": [21, 108, 49],
+		"style": "Caliphate",
+		"uniqueName": "The Last Worthwhile Homeland",
+		"uniques": [
+			"[+100]% Natural religion spread [in annexed cities]",
+			"[+33]% to Flank Attack bonuses",
+			"[Faith] cost of purchasing items in cities [-33]%",
+			"Free [Great Sage] appears <upon discovering [Education] technology>",
+			"Starts with [Theocracy] adopted",
+			"Starts with [Supremacy] adopted",
+			"[-25]% [Culture] [in all cities]"
+		],
+		"cities": ["Kitznen", "Grolanhei", "Honsvang", "Slo", "al-Harv", "Noisvatsei", "am-Munch", "af-Fridhav", "ar-Rebchel",
+			"an-Nessang", "Kleilanhei", "Walnhov", "Svang", "Lissnen", "Almansei", "af-Füss", "an-Nurber", "ar-Ramstei",
+			"Alba Sarum", "Malaga", "Nsara", "Baraka", "Turi"],
+		"spyNames": ["Rashid", "Saleh", "Mashouf", "Ismail", "Mahmoud", "Fudail", "Ghalib", "Latif", "Rustam", "Zahid"]
+	},
 
 	//Adjusted factions
 	{
@@ -219,7 +255,7 @@
 
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 165, 0],
-		"style": "",
+		"style": "Military",
 		"uniqueName": "Determination",
 		"uniques": [
 			"Gain [15] Influence with a [Civilian] gift to a City-State",
@@ -305,7 +341,7 @@
 
 		"outerColor": [116, 67, 5],
 		"innerColor": [219, 219, 126],
-		"style": "",
+		"style": "Tribal",
 		"uniqueName": "Rubble Runners",
 		"uniques": [
 			"[Civilian] units gain the [Urban Warfare I] promotion",
@@ -656,6 +692,7 @@
 			"[+1] Movement <for [Water] units>",
 			"[Low Tech] units gain the [Amphibious] promotion",
 			"[Personnel] units gain the [Amphibious] promotion",
+			"[Low Tech] units gain the [Sea Raider] promotion <after adopting [Advanced Piracy]>",
 			"[Personnel] units gain the [Sea Raider] promotion <after adopting [Advanced Piracy]>",
 			"[Ranged Water] units gain the [Sea Raider] promotion <after adopting [Advanced Piracy]>",
 			"Starts with [Sailing]",

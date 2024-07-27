@@ -384,6 +384,7 @@
 		"uniques": ["[20]% Food is carried over after population increases [in this city]",
 			"[+1 Food] [in this city] <with [Salt]>",
 			"[+1 Food] from [Grain] tiles [in this city] <in [Desert] tiles>",
+			"[+1 Food] from [Maize] tiles [in this city] <in [Desert] tiles>",
 			"[+1 Culture, +1 Faith] [in this city] <with [Scriptures]>",
 			"[-1 Production, -1 Faith] [in this city] <with [Alcohol]>",
 			"[-1 Production, -1 Faith] [in this city] <with [Narcotics]>",
@@ -1010,6 +1011,7 @@
 		"requiredTech": "Botany",
 		"uniques": ["[+1 Food] from [Grain] tiles [in this city]",
 			"[+1 Food] from [Tubers] tiles [in this city]",
+			"[+1 Food] from [Maize] tiles [in this city]",
 			"[+1 Food] from [Cactus] tiles [in this city]",
 			"[+1 Food] from [{Fresh water} {Farm}] tiles [in this city]",
 			"[+1 Food] [in this city] <with [Exotic Seeds]>",
@@ -1158,6 +1160,159 @@
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Congress of the Alliance]>",
+			"Destroyed when the city is captured"]
+	},
+
+	//Caliphate unique buildings
+	{
+		"name": "Tower of the Shuhada",
+		"uniqueTo": "The Caliphate",
+		"isWonder": true,
+		"culture": 1,
+		"cost": 0,
+		"uniques": [
+			"[4] units cost no maintenance",
+			"[+4] Unit Supply",
+			"Free [Mutawa] appears",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Food Store] [in this city]"
+		]
+	},
+	{
+		"name": "Revert Survivors",
+		"replaces": "Search for Survivors",
+		"uniqueTo": "The Caliphate",
+		"cost": 30,
+		"isNationalWonder": true,
+		"uniques": [
+			"[+50]% Production when constructing [Civilian] units [in this city]",
+			"Provides [4] [Slaves]",
+			"Free [Janissary] appears"
+		]
+	},
+	{
+		"name": "Kaserne",
+		"replaces": "Barracks",
+		"uniqueTo": "The Caliphate",
+		"faith": 1,
+		"cost": 50,
+		"hurryCostMultiplier": 25,
+		"maintenance": 1,
+		"uniques": ["New [Military] units start with [15] Experience [in this city]",
+			"Provides [1] [Slaves]",
+			"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Musalla",
+		"replaces": "Shrine",
+		"uniqueTo": "The Caliphate",
+		"production": 1,
+		"faith": 1,
+		"cost": 40,
+		"requiredTech": "Secrets of the Past",
+		"uniques": ["Hidden when religion is disabled",
+			"[+1 Production] [in this city] <when above [0] [Power]>"]
+	},
+	{
+		"name": "Houri Brothel",
+		"replaces": "Distillery",
+		"uniqueTo": "The Caliphate",
+		"happiness": 2,
+		"maintenance": 1,
+		"uniques": ["Provides [2] [Slaves]", "[+10]% growth [in this city]"],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Esir",
+		"replaces": "Town Hall",
+		"uniqueTo": "The Caliphate",
+		"percentStatBonus": {"food": 10},
+		"specialistSlots": {"Administrator": 1},
+		"culture": 1,
+		"happiness": 1,
+		"uniques": [
+			"[+50]% Production when constructing [Worker] units [in this city]",
+			"[+2 Production] [in this city] <when above [0] [Slaves]>",
+			"Only available <with [Slaves]>",
+			"Consumes [1] [Slaves]"
+		],
+		"requiredTech": "Trade"
+	},
+	{
+		"name": "Exotic Bazaar",
+		"replaces": "Public Works Administration",
+		"uniqueTo": "The Caliphate",
+		"percentageStatBonus": {"gold": 10},
+		"cost": 150,
+		"isNationalWonder": true,
+		"uniques": [
+			"Provides 1 extra copy of each improved luxury resource near this City",
+			"Provides [4] [Slaves]",
+			"[+1 Gold] <for every [1] [Slaves]>",
+			"Only available <if [Esir] is constructed in at least [4] of [Your] cities>",
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Mosque",
+		"replaces": "Monastery",
+		"uniqueTo": "The Caliphate",
+		"faith": 3,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Education",
+		"uniques": ["Only available <in cities with a [Musalla]>",
+			"Hidden when religion is disabled",
+			"[+34]% Natural religion spread [in this city]"]
+	},
+	{
+		"name": "Great Mosque",
+		"replaces": "Grand Monastery",
+		"uniqueTo": "The Caliphate",
+		"isNationalWonder": true,
+		"culture": 1,
+		"faith": 10,
+		"cost": 125,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"Only available <if [Mosque] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city",
+			"Can only be built <in [Holy] cities>",
+			"Only available <after adopting [Theocracy]>",
+			"Hidden when religion is disabled",
+			"All newly-trained [Philosopher] units [in this city] receive the [Devout] promotion",
+			"All newly-trained [Great Sage] units [in this city] receive the [Devout] promotion",
+			"[-50]% maintenance costs <for [Enslaved] units>",
+			"[+2 Gold, +2 Happiness] [in all cities with a garrison]"
+		]
+	},
+	{
+		"name": "House of Submission",
+		"replaces": "Congress",
+		"uniqueTo": "The Caliphate",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+1 Production, +1 Faith] per [4] population [in all cities]",
+			"[-10]% Unhappiness from [Followers of the Majority Religion] [in cities following our religion]",
+			"Only available <if [Revert Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [House of War]>",
+			"Destroyed when the city is captured"]
+	},
+	{
+		"name": "House of War",
+		"replaces": "Council",
+		"uniqueTo": "The Caliphate",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+10]% growth [in all cities]",
+			"[+10]% Production when constructing [Military] units [in all cities]",
+			"May buy [Enslaved] units with [Faith] for [2] times their normal Production cost",
+			"Only available <if [Revert Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [House of Submission]>",
 			"Destroyed when the city is captured"]
 	},
 
@@ -2600,6 +2755,7 @@
 		"uniques": [
 			"[+1 Food] from [Tubers] tiles [in this city]",
 			"[+1 Food] from [Grain] tiles [in this city]",
+			"[+1 Food] from [Maize] tiles [in this city]",
 			"[+1 Food] from [Cactus] tiles [in this city]",
 			"[+1 Food] [in this city] <with [Exotic Seeds]>"
 		],
@@ -3842,6 +3998,20 @@
 		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
 	},
 	{
+		"name": "Private School",
+		"replaces": "Public School",
+		"uniqueTo": "Blackwarden",
+		"gold": 2,
+		"science": 2,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Science] per [2] population [in this city] <after discovering [Networking]>",
+			"[+1 Science] [in this city] <when above [0] [Power]>",
+			"[+2 Gold] from every [Scientist] <in this city>",
+			"Only available <after adopting [Privatization]>",
+			"Only available <in cities with a [Library]>"],
+		"requiredTech": "Civil Service"
+	},
+	{
 		"name": "Pithouse",
 		"replaces": "Food Store",
 		"uniqueTo": "Children of Rust",
@@ -3877,6 +4047,7 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Tubers] tiles [in this city]",
 			"[+1 Food] from [Grain] tiles [in this city]",
+			"[+1 Food] from [Maize] tiles [in this city]",
 			"[+1 Food] from [Cactus] tiles [in this city]",
 			"[+1 Food] from [Cattle] tiles [in this city]",
 			"[+1 Food] from [Goats] tiles [in this city]",
@@ -4049,6 +4220,7 @@
 		"specialistSlots": {"Farmer": 1},
 		"uniques": ["[+1 Food] from [Grain] tiles [in this city]",
 			"[+1 Food] from [Tubers] tiles [in this city]",
+			"[+1 Food] from [Maize] tiles [in this city]",
 			"[+1 Food] from [Cactus] tiles [in this city]",
 			"[+1 Food] from every [Farmer] <in this city>",
 			"[+1 Culture] from [Narcotics farm] tiles [in this city]",
@@ -4435,6 +4607,7 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Tubers] tiles [in this city]",
 			"[+1 Food] from [Grain] tiles [in this city]",
+			"[+1 Food] from [Maize] tiles [in this city]",
 			"[+1 Food] from [Cactus] tiles [in this city]",
 			"[+1 Food] [in this city] <with [Exotic Seeds]>",
 			"[+1 Production] from every [Farmer] <in this city>"],
@@ -4469,7 +4642,7 @@
 			"Cannot be hurried"],
 		"civilopediaText": [
 			{
-				"text": "Completing this project allows Proklyatyye to produce Super Mutants."
+				"text": "This project allows Proklyatyye to produce Super Mutants and Siege Nukes."
 			}
 		]
 	},
@@ -5292,6 +5465,25 @@
 		"faith": 1,
 		"happiness": 1,
 		"specialistSlots": {"Administrator": 1},
+		"uniques": ["Worship Center", "Unbuildable", "Hidden when religion is disabled"]
+	},
+	{
+		"name": "Communion",
+		"cost": 0,
+		"culture": 1,
+		"faith": 2,
+		"happiness": 1,
+		"gold": 3,
+		"percentStatBonus": {"gold": 10},
+		"uniques": ["Worship Center", "Unbuildable", "Hidden when religion is disabled"]
+	},
+	{
+		"name": "Meeting House",
+		"cost": 0,
+		"production": 3,
+		"culture": 1,
+		"faith": 2,
+		"percentStatBonus": {"production": 5},
 		"uniques": ["Worship Center", "Unbuildable", "Hidden when religion is disabled"]
 	}
 ]

@@ -93,6 +93,7 @@
 		"uniques": [
 			"[+1 Faith] from every [{Grain} {resource}]",
 			"[+1 Faith] from every [{Tubers} {resource}]",
+			"[+1 Faith] from every [{Maize} {resource}]",
 			"[+1 Faith] from every [{Cactus} {resource}]"
 		]
 	},
@@ -215,6 +216,11 @@
 		"uniques": ["May buy [Cathedral] buildings for [150] [Faith] [in cities following this religion]"]
 	},
 	{
+		"name": "Communion Centers",
+		"type": "Follower",
+		"uniques": ["May buy [Communion] buildings with [Faith] [in cities following this religion]"]
+	},
+	{
 		"name": "Faith Healers",
 		"type": "Follower",
 		"uniques": ["All newly-trained [Personnel] units [in cities following this religion] receive the [Healing Hands] promotion",
@@ -269,6 +275,11 @@
 			"Only available <before adopting [Feast of Flesh]>",
 			"Only available <before adopting [Feed the Faithful]>",
 			"Only available <before adopting [Obey the Elders]>"]
+	},
+	{
+		"name": "Meeting Houses",
+		"type": "Follower",
+		"uniques": ["May buy [Meeting House] buildings with [Faith] [in cities following this religion]"]
 	},
 	{
 		"name": "Obey the Elders",

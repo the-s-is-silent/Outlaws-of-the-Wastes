@@ -42,7 +42,7 @@
 		"uniques": ["Can enter ice tiles",
 			"May create improvements on water resources",
 			"Can build [Water] improvements on tiles",
-			"[-25]% construction time for [All] improvements <after discovering [Advanced Materials]>",
+			"[-25]% construction time for [All] improvements",
 			"Automation is a primary action"]
 	},
 	{
@@ -1148,6 +1148,165 @@
 		"attackSound": "metalhit"
 	},
 
+	//Caliphate unique units
+	{
+		"name": "Mutawa",
+		"replaces": "Censor",
+		"uniqueTo": "The Caliphate",
+		"unitType": "Shooter",
+		"range": 1,
+		"movement": 3,
+		"strength": 30,
+		"rangedStrength": 24,
+		"cost": 60,
+		"upgradesTo": "Rifleman",
+		"uniques": ["Personnel",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
+			"Can move after attacking",
+			"Heals [25] damage if it kills a unit",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <[2] times> <after which this unit is consumed>",
+			"[+1] Sight",
+			"Unbuildable",
+			"Religious Unit",
+			"Hidden when religion is disabled"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Janissary",
+		"unitType": "Scrapper",
+		"uniqueTo": "The Caliphate",
+		"replaces": "Conscript",
+		"movement": 2,
+		"strength": 36,
+		"cost": 60,
+		"upgradesTo": "NBC Conscript",
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Combined Arms",
+		"uniques": [
+			"Personnel",
+			"Enslaved",
+			"Earn [10]% of killed [Military] unit's [Cost] as [Faith]",
+			"[-25]% construction time for [All] improvements",
+			"Can build [All Road] improvements on tiles",
+			"Can build [Fort] improvements on tiles",
+			"Can build [Trench] improvements on tiles",
+			"Only available <with [Slaves]>",
+			"Consumes [1] [Slaves]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Akindji",
+		"replaces": "Skirmisher",
+		"uniqueTo": "The Caliphate",
+		"unitType": "Mounted Ranged",
+		"range": 1,
+		"movement": 4,
+		"strength": 20,
+		"rangedStrength": 20,
+		"cost": 80,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Dragoon",
+		"uniques": [
+			"Low Tech",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"Earn [10]% of the damage done to [All] units as [Gold]",
+			"[+33]% Strength <vs [Low Tech] units>",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"No movement cost to pillage",
+			"Can only be built <in cities with a [Stable]>"
+		],
+		"promotions": ["Raider", "Reconnaissance I"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Bashi-bazouk",
+		"replaces": "Dragoon",
+		"uniqueTo": "The Caliphate",
+		"unitType": "Mounted Ranged",
+		"range": 1,
+		"movement": 4,
+		"strength": 33,
+		"rangedStrength": 28,
+		"interceptRange": 1,
+		"cost": 90,
+		"requiredTech": "Redomestication",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Light Cavalry",
+		"uniques": [
+			"Personnel",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"Earn [10]% of the damage done to [All] units as [Gold]",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"No movement cost to pillage",
+			"Can only be built <in cities with a [Stable]>",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions": ["Raider", "Reconnaissance I"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
+		"name": "Hamidiye",
+		"replaces": "Light Cavalry",
+		"uniqueTo": "The Caliphate",
+		"unitType": "Mounted Ranged",
+		"range": 1,
+		"movement": 5,
+		"strength": 40,
+		"rangedStrength": 35,
+		"interceptRange": 1,
+		"cost": 155,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Helicopter",
+		"uniques": [
+			"Personnel",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"Earn [20]% of the damage done to [All] units as [Gold]",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"No movement cost to pillage",
+			"Can only be built <in cities with a [Stable]>"
+		],
+		"promotions": ["Raider", "Reconnaissance I"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
+		"name": "WMD Defense Janissary",
+		"unitType": "Scrapper",
+		"uniqueTo": "The Caliphate",
+		"replaces": "NBC Conscript",
+		"movement": 2,
+		"strength": 50,
+		"interceptRange": 1,
+		"cost": 180,
+		"requiredTech": "Combined Arms",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Enslaved",
+			"Earn [25]% of killed [Military] unit's [Cost] as [Faith]",
+			"Only available <if [Factory] is constructed>",
+			"[-25]% construction time for [All] improvements",
+			"Can build [All Road] improvements on tiles",
+			"Can build [Fort] improvements on tiles",
+			"Can build [Trench] improvements on tiles",
+			"Only available <with [Slaves]>",
+			"Consumes [1] [Slaves]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Gas Mask"],
+		"attackSound": "machinegun"
+	},
+
 	//Siege units
 	{
 		"name": "Armed Ambulance",
@@ -1220,6 +1379,28 @@
 		"attackSound": "nuke"
 	},
 
+	//Hexlock unique units
+	{
+		"name": "Stim Trooper",
+		"unitType": "Scrapper",
+		"uniqueTo": "Hexlock",
+		"movement": 3,
+		"strength": 60,
+		"cost": 250,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Exo-Trooper",
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]",
+			"Instantly consumes [1] [Experimental Chemicals]",
+			"Heals [20] damage if it kills a unit",
+			"Can only be built <in cities with a [Hexlock Chemical Company]>",
+			"Requires at least [999] population <when below [1] [Experimental Chemicals]>"
+		],
+		"promotions": ["Gas Mask"],
+		"attackSound": "machinegun"
+	},
+
 	//Proklyatyye unique units
 	{
 		"name": "Super Mutant",
@@ -1237,6 +1418,29 @@
 			"Consumes [2] [Uranium]", "Consumes [1] [Weapons]"],
 		"promotions": ["Forage", "Powered Armor", "Gas Mask"],
 		"attackSound": "machinegun"
+	},
+	{
+		"name": "Nuke Cannon",
+		"unitType": "Siege Nuke",
+		"uniqueTo": "Proklyatyye",
+		"movement": 2,
+		"strength": 60,
+		"rangedStrength": 70,
+		"range": 3,
+		"cost": 600,
+		"requiredTech": "Nuclear Fission",
+		"uniques": [
+			"Consumes [1] [Uranium]",
+			"Nuclear weapon of strength [2]",
+			"Blast radius [0]",
+			"No defensive terrain bonus",
+			"Rough terrain penalty",
+			"Only available <if [Atomgrad Project] is constructed>",
+			"Cannot be purchased",
+			"Limited to [3] per Civilization"
+		],
+		"promotions": ["Artillery"],
+		"attackSound": "nuke"
 	},
 
 	//Great People
@@ -3158,6 +3362,27 @@
 			"Double movement in [Coast]",
 			"[+25]% Strength <when adjacent to a [Melee Water] unit>",
 			"Withdraws before melee combat <with [33]% chance>",
+			"May capture killed [Water] units"
+		],
+		"promotions": ["Raider", "Sea Raider"],
+		"hurryCostModifier": 20,
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Savior of the Sea",
+		"replaces": "Assault Ship",
+		"uniqueTo": "Barbarians",
+		"unitType": "Melee Water",
+		"movement": 6,
+		"strength": 60,
+		"cost": 300,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Drone Ship",
+		"uniques": [
+		    "Can move after attacking",
+			"Double movement in [Coast]",
+			"[+30]% Strength <when adjacent to a [Melee Water] unit>",
+			"May withdraw before melee ([33]%)",
 			"May capture killed [Water] units"
 		],
 		"promotions": ["Raider", "Sea Raider"],

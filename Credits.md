@@ -2,6 +2,7 @@
 
 Like the status of the mod as a whole as well as DeCiv Redux's credit list, this is incomplete.<br>
 Pixel art will most likely reuse other sources (several of them from DeCiv, Caer and Drydock from Rekmod, Barbarian Scout and Suicider from The Barbarians) for the initial upload.<br>
+Several unit sprites are either borrowed from, or based off sprites made by, [The Bucketeer](https://github.com/GeneralWadaling).
 The sprites for War Tram and Armored Train were made by [ReallyBasicName](https://github.com/ReallyBasicName).<br>
 Cactus and Cactus Farm, Floating Settlement, Fortified Farm, Supply Complex, and Wasteland Station borrow and in some cases modify tile images from Alpha Frontier, with permission from [Indonesian Gentleman](https://github.com/carriontrooper).<br>
 Preservator is borrowed from [Bamboolord](https://github.com/RealBamboolord) with his permission.<br>
@@ -45,7 +46,9 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Earthscraper: [skyscraper](https://thenounproject.com/icon/skyscraper-1811460/) by iconcheese, adapted slightly
 - Earthscraper Project: [Skyscraper](https://thenounproject.com/icon/skyscraper-1038032/) by Maxim Kulikov, adapted slightly
 - Emergency Response Network: [emergency call](https://thenounproject.com/icon/emergency-call-6051291/) by intana silva, ID
+- Esir: [human trafficking](https://www.flaticon.com/free-icon/human-trafficking_10059240) by [anilofax](https://www.flaticon.com/authors/anilofex) from Flaticon
 - Ethanol Station: [Corn energy](https://thenounproject.com/icon/corn-energy-1580160/) by dDara, TH
+- Exotic Bazaar: [bazaar complex](https://thenounproject.com/icon/bazaar-complex-4945606/) by Azam Ishaq, PK
 - First Kiva: [Kiva](https://thenounproject.com/icon/kiva-84834/) by Alex Fuller, US
 - [Food Processing Plant](https://thenounproject.com/icon/food-processing-plant-1877253/) by ProSymbols, US
 - Fortified Aquifer: [three sisters](https://thenounproject.com/icon/three-sisters-5539994/) by Ary Prasetyo, ID
@@ -58,17 +61,21 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Hexlock Chemical Company: [chemical industry](https://thenounproject.com/icon/chemical-industry-4762097/) by Azam Ishaq, PK
 - Hidesite: [Blockhouse](https://thenounproject.com/icon/blockhouse-4020245/) by Philine Klingel, DE
 - Homeland Defense Initiative: [national defense](https://thenounproject.com/icon/national-defense-4363309/) by Yusuf Solihudin, ID
+- Houri Brothel: [trade](https://www.flaticon.com/free-icon/trade_14431675) by [Backwoods](https://www.flaticon.com/authors/backwoods) from Flaticon
 - Ice Hockey Rink: [hockey](https://thenounproject.com/icon/hockey-3509449/) by nareerat jaikaew, TH
 - Ignitor's Tower: [Brick Tower](https://thenounproject.com/icon/brick-tower-384759/) by Creative Stall, PK
 - Interpretative Center: [translate](https://thenounproject.com/icon/translate-3624415/) by sripfoto, TH
 - Interstice: [hyperloop train](https://thenounproject.com/icon/hyperloop-train-5736270/) by Delwar Hossain, BD
 - Jeweler: [jeweler](https://thenounproject.com/icon/jeweler-207094/) by Hans Paul Mösl Junior, BR
+- Kaserne: [barracks](https://thenounproject.com/icon/barracks-3637162/) by Eucalyp
 - Kolkhoz: [Hammer and Sickle](https://thenounproject.com/icon/hammer-and-sickle-1367671/) by Dmitry Baranovskiy, AU
 - Kruger Line: [railway](https://thenounproject.com/icon/railway-5804165/) by Viktor Turchyn, UA
 - Mansion of Our Father: [holy trinity cathedral](https://thenounproject.com/icon/holy-trinity-cathedral-4284193/) by Amethyst Studio, TH
 - [Medical School](https://thenounproject.com/icon/medical-school-1203776/) by Vectors Market
+- Meeting House: [Church](https://thenounproject.com/icon/church-2189051/) by Md Saiful Alam Saif
 - Microwave Power Satellite: [space station](https://thenounproject.com/icon/space-station-3312581/) by Vectors Point, PK
 - Miracle Metal Mill: [smart industry](https://thenounproject.com/icon/smart-industry-3191201/) by WiStudio, TH
+- Musalla: [Mosque](https://thenounproject.com/icon/mosque-1158499/) by Royyan Razka, ID
 - Nanomaterial Factory: [nanofabrication](https://thenounproject.com/icon/nanofabrication-4331493/) by Loritas Medina, PH
 - National Reservoir System: [Reservoir](https://thenounproject.com/icon/reservoir-3918342/) by Adrien Coquet, FR
 - Navy Shipyard: [shipyard](https://thenounproject.com/icon/shipyard-5848043/) by Andi Nur Abdullah, ID
@@ -92,6 +99,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Renovate Metal Pyramid: [Pyramid](https://thenounproject.com/icon/pyramid-957412/) by Lluisa Iborra, ES
 - Research and Preservation Institute: [institute](https://thenounproject.com/icon/institute-5137615/) by lastspark, RU
 - Restored Temple of Zion: [Salt Lake Temple](https://thenounproject.com/icon/salt-lake-temple-219294/) by Nick Bluth, US
+- Revert Survivors: [islam](https://thenounproject.com/icon/islam-4239132/) by Arthur Bauer, UA
 - Riding Arena: [stadium](https://thenounproject.com/icon/stadium-4477576/) by Doodle Icons
 - The Round Table: [round table](https://thenounproject.com/icon/round-table-4817059/) by Musmellow
 - Sacred Cave: [cave](https://thenounproject.com/icon/cave-5590220/) by Ardhian Rama
@@ -113,6 +121,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Tidal Array: [Tidal energy](https://thenounproject.com/icon/tidal-energy-4215014/) by Lucas Helle, CL
 - Tlachtli: [aztec stadium](https://thenounproject.com/icon/aztec-stadium-4282213/) by Lars Meiertoberens, DE
 - [Totem Pole](https://thenounproject.com/icon/totem-pole-20257/) by MaxineVSG, GB
+- Tower of the Shuhada: [minar e pakistan building vector](https://thenounproject.com/icon/minar-e-pakistan-building-vector-3017475/) by Vectors Point, PK
 - Triage: [medical camp](https://thenounproject.com/icon/medical-camp-3309877/) by Vectors Point, PK
 - Tribal Unification Initiative: [roman law](https://thenounproject.com/icon/roman-law-1615859/) by sachin modgekar, IN
 - Underworld: Merger of [boar](https://thenounproject.com/icon/boar-3864428/) by Andrejs Kirma, LV and [Power](https://thenounproject.com/icon/power-1196196/) by Icon Depot, IN
@@ -188,10 +197,12 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - [Scripture](https://thenounproject.com/icon/scripture-4402137/) by Athok
 
 ### Unit Icons
+- Akindji: [islamic turban](https://thenounproject.com/icon/islamic-turban-2105395/) by Vectors Market
 - Alma Honor Guard: Derived from [Kazakhstan](https://thenounproject.com/icon/kazakhstan-2624175/) by Xinh Studio
 - Ark Hunter: [rail gun](https://thenounproject.com/icon/rail-gun-3448479/) by Smalllike
 - Armored Train: [Train](https://thenounproject.com/icon/train-58877/) by Cédric Villain, FR
-- Battleaxe of the Lord: [ax hammer](https://thenounproject.com/icon/ax-hammer-3635247/) by Eucalyp
+- Bashi-bazouk: [Turban Helmet](https://thenounproject.com/icon/turban-helmet-120662/) by Henry Rider, GB
+- Battle-axe of the Lord: [ax hammer](https://thenounproject.com/icon/ax-hammer-3635247/) by Eucalyp
 - Blueliner: [hockey](https://thenounproject.com/icon/hockey-2744255/) by Gan Khoon Lay
 - Border Patrol: [patrol](https://thenounproject.com/icon/patrol-3048375/) by Eucalyp
 - Brownsteel Knight: [Knight](https://thenounproject.com/icon/knight-4110910/) by Robert Bjurshagen, SE
@@ -218,6 +229,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Goon: [Hockey Mask](https://thenounproject.com/icon/hockey-mask-225297/) by P Thanga Vignesh
 - Great Caravan: [caravan](https://thenounproject.com/icon/caravan-4604787/) by Eucalyp
 - Gunboat: [warship](https://thenounproject.com/icon/warship-2948183/) by Muhammad Tajudin, ID
+- Hamidiye: [Fez](https://thenounproject.com/icon/fez-4456761/) by M. Oki Orlando, ID
 - Hawkman Brave: [tomahawk](https://thenounproject.com/icon/tomahawk-4130106/) by Amethyst Studio
 - Hero of the Wastes: [Shield](https://thenounproject.com/icon/shield-49999/) by Jonathan Li
 - Issaquah Mystic: [shaman](https://thenounproject.com/icon/shaman-1629068/) by Daniel Schott, DE
@@ -233,6 +245,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Military Engineer: [Engineering](https://thenounproject.com/icon/engineering-2491577/) by Icon Market, PK
 - Mobile Clinic: [Ambulance](https://thenounproject.com/icon/ambulance-1262538/) by Ralf Schmitzer
 - Mormon Battalion: [flag of utah](https://thenounproject.com/icon/flag-of-utah-5740272/) by Zach Bogart
+- Mutawa: [swords](https://www.flaticon.com/free-icon/swords_3568104) by [Graphic Nehar](https://www.flaticon.com/authors/graphic-nehar) from Flaticon
 - Neutron Bomb: [Nuclear](https://thenounproject.com/icon/nuclear-2169503/) by ahmad, ID
 - Ocean Robber: [pirate ship](https://thenounproject.com/icon/pirate-ship-1295820/) by Fahmihorizon, ID
 - Raiding Craft: [Rubber Boat](https://thenounproject.com/icon/rubber-boat-3575176/) by Hey Rabbit, TH
@@ -252,3 +265,4 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - War Tram: [Tram](https://thenounproject.com/icon/tram-19213/) by Carter Green, US
 - Wasteland Patrol: [Binoculars](https://thenounproject.com/icon/binoculars-4069422/) by iconixar
 - Wayfarer: [Fleur de Lis](https://thenounproject.com/icon/fleur-de-lis-1383646/) by prasong tadoungsorn
+- WMD Defense Janissary: Based on [Tarbouche](https://thenounproject.com/icon/tarbouche-245391/) by Mohamed Amine BENZAKOUR, MA (which is also the icon used for Janissary in base Unciv)
