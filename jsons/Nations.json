@@ -214,8 +214,8 @@
 		"hateHello": "Silence, infidel!",
 		"tradeRequest": "We have little reason to show generosity when the world has become the house of tyrants. You should regard this rare opportunity as a blessing.",
 
-		"outerColor": [248, 217, 2],
-		"innerColor": [21, 108, 49],
+		"outerColor": [21, 108, 49],
+		"innerColor": [248, 217, 2],
 		"style": "Caliphate",
 		"uniqueName": "The Last Worthwhile Homeland",
 		"uniques": [
