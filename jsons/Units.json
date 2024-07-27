@@ -1431,7 +1431,7 @@
 		"requiredTech": "Nuclear Fission",
 		"uniques": [
 			"Consumes [1] [Uranium]",
-			"Nuclear weapon of strength [2]",
+			"Nuclear weapon of Strength [2]",
 			"Blast radius [0]",
 			"No defensive terrain bonus",
 			"Rough terrain penalty",
@@ -3382,7 +3382,7 @@
 		    "Can move after attacking",
 			"Double movement in [Coast]",
 			"[+30]% Strength <when adjacent to a [Melee Water] unit>",
-			"May withdraw before melee ([33]%)",
+			"Withdraws before melee combat <with [33]% chance>",
 			"May capture killed [Water] units"
 		],
 		"promotions": ["Raider", "Sea Raider"],
