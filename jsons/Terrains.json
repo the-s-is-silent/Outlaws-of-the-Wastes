@@ -30,6 +30,20 @@
 		]
 	},
 	{
+		"name": "Spring",
+		"type": "TerrainFeature",
+		"gold": 1,
+		"occursOn": ["Tundra", "Badlands", "Wasteland"],
+		"uniques": [
+			"Rare feature",
+			"Fresh water",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Food] when determining start locations",
+			"Always Fertility [4] for Map Generation",
+			"Only [Water pump] improvements may be built on this tile"
+		]
+	},
+	{
 		"name": "Fissure",
 		"type": "TerrainFeature",
 		"movementCost": 1,

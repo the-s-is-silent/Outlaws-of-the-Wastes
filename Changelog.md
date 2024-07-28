@@ -1036,6 +1036,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Terrain Adjustments**
 - Mountains can now only have Artificial glaciers built on them, putting a stop to one particular Enclavers hijink. This might be changed later if additional Mountain-specific improvements are created.
+- Springs can now only have Water pumps built on them, as another screw you to the AI and its primitive sanity checks. (*Stop* wasting your Great Improvements on those tiles, dammit!)
 
 **Resource Adjustments**
 - As in Deciv 2, Power can no longer be traded. City-States are once again allowed to build the main Power Plant buildings.
