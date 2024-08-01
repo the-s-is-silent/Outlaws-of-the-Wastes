@@ -1307,6 +1307,31 @@
 		"attackSound": "machinegun"
 	},
 
+	//Aurelian Group unique units
+	{
+		"name": "Digger",
+		"uniqueTo": "Aurelian Group",
+		"replaces": "Militia",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 36,
+		"cost": 55,
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Soldier",
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]",
+			"Can pass through impassable tiles",
+			"Can build [All Road] improvements on tiles",
+			"Can build [Fort] improvements on tiles",
+			"Can build [Trench] improvements on tiles",
+			"Can build [Armed Mining Camp] improvements on tiles",
+			"Turn this tile into a [Tunneled Mountain] tile <by consuming this unit> <in [Mountain] tiles>"
+		],
+		"promotions": ["Entrench"],
+		"attackSound": "shot"
+	},
+
 	//Siege units
 	{
 		"name": "Armed Ambulance",

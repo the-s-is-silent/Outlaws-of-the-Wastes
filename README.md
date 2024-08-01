@@ -21,7 +21,8 @@ A major expansion + rebalance mod for DeCiv Redux.
 
 - Two new victory conditions, restoring the "proper" Domination and Science victories. (Warning: do not enable these without disabling the standard Domination and Science victories. Having both DeCiv's Science Victory (Terraform Earth) and Colonization Victory (launch the spaceship) enabled will currently make those victory conditions impossible to achieve.)
 
-- Five new factions (in addition to playable Deseret):
+- Six new factions (in addition to playable Deseret):
+  - Aurelian Group, a pre-war Australian mining corporation that survived the Cataclysm and is trying to rebuild its former country while remaining isolationist.
   - Aztlan, the expected post-Cataclysm nation of Aztec revivalists.
   - The Caliphate, a hyperoppressive Islamic theocracy with a stranglehold over Germany.
   - Camelot Foundation, a constitutional republic arising from what's left of Wales, England and Brittany.
@@ -54,9 +55,11 @@ A major expansion + rebalance mod for DeCiv Redux.
   - Microwave Power Satellite, a late-game Power building for desert cities that also improves Solar collectors.
 
 - New tile improvements:
+  - Armed Mining Camp, exclusive to Aurelian Group.
   - Artificial atoll and Floating Settlement, unlocked at Ocean Remediation.
   - Caer, imported from Rekmod, exclusive to Camelot Foundation.
   - Drydock, imported from Rekmod, the Great Admiral's Great Improvement.
+  - Fortified Farm, exclusive to Enclavers.
   - Polder, unlocked at Engineering and can be built on Swamps, Coasts and Lakes, though the latter two require at least 3 adjacent Land tiles.
   - Powership, unlocked at Electronics.
   - Preservator, borrowed from Bamboolord's expansion mods, currently exclusive to The Pax.

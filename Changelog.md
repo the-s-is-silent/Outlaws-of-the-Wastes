@@ -570,7 +570,7 @@
 - Annex Isolationists now adds +5 Production instead of +5 Water to the Isolated Island.
 - Biosphere Project's Production cost reduced to 750.
 - Convert Survivors and Resettlement Bureau have been deleted.
-- Domestic Electrification now adds +1 Culture/Happiness to all cities connected to the capital instead of a potential +8 Happiness in the capital. However, its Production cost no longer scales according to how many cities the faction owns.
+- Domestic Electrification now adds +1 Culture/Happiness to all cities connected to the capital instead of a potential +8 Happiness in the capital. Its Production cost no longer scales according to how many cities the faction owns.
 - Fusion Reactor now requires the capital to own a Nuclear Plant, but is buffed to add an additional +8 Production to the capital and all cities connected to it.
 - Ground Control Center's Production cost reduced to 300 and it gives +3 Culture instead of Happiness. Adjustments to faction-specific replacements:
 	- Atlas (Survey Center): Starts at +3 Science/+1 Culture, gains +5 Science/+2 Culture at Flight
@@ -915,7 +915,7 @@
 - Sanctified Innovations (Follower), adding +1 each of Production, Science and Faith to National Wonders (this is Enhancer in Lek/Rekmod but to me didn't feel right putting it there)
 - Zen Meditation (Follower), adding +2 Culture and +1 Happiness to cities with at least 2 active Specialists
 
-#### Pre-Rebirth: May - July 2024
+#### May - August 2024
 
 Several of the following adjustments are based on what is planned for the Rebirth Edition of base DeCiv should it ever be released. Several others are also being included in the "DeCiv 2" fork that is the effective continuation of pre-Rebirth DeCiv.
 
@@ -1017,9 +1017,11 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Belief Adjustments**
 - Art of War starts at a flat 200 Faith per unit purchase (Standard speed), and the cost actually increases with the era (300 in Rebuilding, 400 in Industrial, 600 in Postmodern, 800 in Information, 1000 in New Future and Singularity) like it would in official Civ 5 and standard Unciv rulesets (and does in Rekmod) but unlike any other Faith purchase in DeCiv. This is as it should be if the belief is to be allowed to exist at all.
+- Blessed Green updated to account for Enclavers' Fortified Farm UI.
 - Funeral Rites no longer gives minor Culture yields for consuming Great People. Instead, it adds +2 Faith to all worked Great Improvements.
 - Harvest Festival updated to account for new resources.
 - Spiritual Research now adds Science yields instead of Culture yields.
+- Strength of the Earth updated to account for a new faction-specific improvement.
 - Works of Genius now increases GP generation by 25% instead of adding Faith to Great Improvements.
 
 **Improvement Adjustments**
@@ -1036,7 +1038,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Terrain Adjustments**
 - Mountains can now only have Artificial glaciers built on them, putting a stop to one particular Enclavers hijink. This might be changed later if additional Mountain-specific improvements are created.
-- Springs can now only have Water pumps built on them, as another screw you to the AI and its primitive sanity checks. (*Stop* wasting your Great Improvements on those tiles, dammit!)
+- Springs can now only have Water pumps built on them, as another screw you to the AI and its primitive sanity checks. (*Stop* wasting your Great Improvements on those tiles, dammit!) This change is also present in the DeCiv 2 fork.
 
 **Resource Adjustments**
 - As in Deciv 2, Power can no longer be traded. City-States are once again allowed to build the main Power Plant buildings.
@@ -1047,6 +1049,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Salt now adds +1 Food to the tiles it spawns on.
 
 **New Factions**
+- Aurelian Group (Pre-War Australian mining company, Science)
 - Aztlan (Mexican, Aztec revivalist, Domination/Culture)
 - The Caliphate (Arabic takeover of Germany, Domination/Religious)
 
@@ -1072,6 +1075,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Maize (Bonus, spawns in flat Badlands/Desert, improved by Farm and Grassland, affected by Greenhouse)
 - Mercury (imported from Civ 6, Luxury, spawns in flat Wasteland, improved by Mine and Borehole)
 - Mutant Eel (Luxury, spawns in Coast/Ocean, improved by Fishing Boats and Bioculture)
+- Opal (Luxury, exclusive to Aurelian Group)
 
 **New Beliefs**
 - Cautionary Tales (Pantheon), adds +2 Faith to Libraries and +1 Happiness to Museums

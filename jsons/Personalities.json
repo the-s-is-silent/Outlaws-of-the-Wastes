@@ -687,5 +687,38 @@
 			"Bionics": 0,
 			"Legacy": 0
 		}
+	},
+	{
+		"name": "Aurelia",
+		"production": 7,
+		"food": 5,
+		"gold": 7,
+		"science": 7,
+		"culture": 3,
+		"happiness": 6,
+		"faith": 3,
+		"military": 5,
+		"aggressive": 2,
+		"declareWar": 2,
+		"commerce": 6,
+		"diplomacy": 6,
+		"loyal": 6,
+		"expansion": 4,
+		"priorities": {
+			"Adaptation": 30,
+			"Expansionism": 10,
+			"Sovereignty": 10,
+			"Theocracy": 10,
+			"Rationalism": 40,
+			"Constitution": 30,
+			"Supremacy": 0,
+			"Monopoly": 30,
+			"Collectivism": 0,
+			"Rediscovery": 10,
+			"Naturalism": 0,
+			"Mechanization": 30,
+			"Bionics": 0,
+			"Legacy": 0
+		}
 	}
 ]

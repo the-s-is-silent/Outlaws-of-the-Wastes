@@ -4,7 +4,7 @@ Like the status of the mod as a whole as well as DeCiv Redux's credit list, this
 Pixel art will most likely reuse other sources (several of them from DeCiv, Caer and Drydock from Rekmod, Barbarian Scout and Suicider from The Barbarians) for the initial upload.<br>
 Several unit sprites are either borrowed from, or based off sprites made by, [The Bucketeer](https://github.com/GeneralWadaling).
 The sprites for War Tram and Armored Train were made by [ReallyBasicName](https://github.com/ReallyBasicName).<br>
-Cactus and Cactus Farm, Floating Settlement, Fortified Farm, Supply Complex, and Wasteland Station borrow and in some cases modify tile images from Alpha Frontier, with permission from [Indonesian Gentleman](https://github.com/carriontrooper).<br>
+Armed Mining Camp, Cactus and Cactus Farm, Floating Settlement, Fortified Farm, Supply Complex, and Wasteland Station borrow and in some cases modify tile images from Alpha Frontier, with permission from [Indonesian Gentleman](https://github.com/carriontrooper).<br>
 Preservator is borrowed from [Bamboolord](https://github.com/RealBamboolord) with his permission.<br>
 Several icons reuse images used in Unciv, DeCiv Redux, Civ 6 mod, and Rekmod, with some of the latter three remaining unsourced.<br>
 The Religion Icons for Anglicanism, Imperial Cult and Mormonism were created by Tomatekh on CivFanatics and can be found [at the Civ 5 Customization Wiki's entry on the Tomatekh's Historical Religions mod](https://civilization-v-customisation.fandom.com/wiki/Tomatekh%27s_Historical_Religions).<br>
@@ -23,6 +23,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Arsenal of Liberty: [ammunition](https://thenounproject.com/icon/ammunition-2423453/) by Template, TH
 - Atomgrad Project: [Nuclear](https://thenounproject.com/icon/nuclear-2661706/) by emkamal kamaluddin, ID
 - Atomic Diner: [atom](https://thenounproject.com/icon/atom-1081009/) by ProSymbols, US
+- Aurelian Office Tower: [office tower](https://thenounproject.com/icon/office-tower-6528417/) by Sendiko Designs, ID
 - Austere Processing Hub: [database](https://thenounproject.com/icon/database-5276636/) by iconfield, ID
 - Bishop's Storehouse: [Storage Garage](https://thenounproject.com/icon/storage-garage-1371149/) by STBS, IN
 - Blue Castle Reactor: [atom](https://thenounproject.com/icon/atom-2606502/) by Icon Lauk, ID
@@ -53,6 +54,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - [Food Processing Plant](https://thenounproject.com/icon/food-processing-plant-1877253/) by ProSymbols, US
 - Fortified Aquifer: [three sisters](https://thenounproject.com/icon/three-sisters-5539994/) by Ary Prasetyo, ID
 - Fortified Museum: [metro](https://thenounproject.com/icon/metro-3339860/) by N.Style, RU
+- Geological Survey Center: [geology](https://thenounproject.com/icon/geology-1645503/) by Minnie Pigeon, GB
 - Gostiny Dvor: [castle](https://thenounproject.com/icon/castle-1502/) by Iconic, CY
 - Grand Tabernacle: [Mormon Temple](https://thenounproject.com/icon/mormon-temple-91138/) by Jason Dilworth
 - Gulag: [star](https://thenounproject.com/icon/star-3086974/) by Dmitry Vasiliev
@@ -74,6 +76,8 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - [Medical School](https://thenounproject.com/icon/medical-school-1203776/) by Vectors Market
 - Meeting House: [Church](https://thenounproject.com/icon/church-2189051/) by Md Saiful Alam Saif
 - Microwave Power Satellite: [space station](https://thenounproject.com/icon/space-station-3312581/) by Vectors Point, PK
+- Mineral Enricher: [refinement](https://thenounproject.com/icon/refinement-2172518/) by WEBTECHOPS LLP, IN
+- Mining Tunnels: [mining tunnel](https://thenounproject.com/icon/mining-tunnel-3924994/) by Firza Alamsyah, ID
 - Miracle Metal Mill: [smart industry](https://thenounproject.com/icon/smart-industry-3191201/) by WiStudio, TH
 - Musalla: [Mosque](https://thenounproject.com/icon/mosque-1158499/) by Royyan Razka, ID
 - Nanomaterial Factory: [nanofabrication](https://thenounproject.com/icon/nanofabrication-4331493/) by Loritas Medina, PH
@@ -83,6 +87,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Nuevo Templo Mayor: [tenochtitlan](https://www.flaticon.com/free-icon/tenochtitlan_4039722) by Freepik from Flaticon
 - Nutri-Paste Dispenser: [Dispenser](https://thenounproject.com/icon/dispenser-4565083/) by Gustyne Pissesa Ardhaneswari, ID
 - Oceanological Center: [national maritime museum](https://thenounproject.com/icon/national-maritime-museum-3348038/) by Justicon, TH
+- Opal Fields: [opal](https://www.flaticon.com/free-icon/opal_6845986) by Freepik from Flaticon
 - OSI: [Research](https://thenounproject.com/icon/research-2280921/) by Petai Jantrapoon, TH
 - Parish School: [School](https://thenounproject.com/icon/school-3758946/) by iconcheese
 - PINDAR Station: [London Underground](https://thenounproject.com/icon/london-underground-26183/) by Daniel Turner, GB
@@ -104,6 +109,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - The Round Table: [round table](https://thenounproject.com/icon/round-table-4817059/) by Musmellow
 - Sacred Cave: [cave](https://thenounproject.com/icon/cave-5590220/) by Ardhian Rama
 - Sangreal Vault: [holy grail](https://thenounproject.com/icon/holy-grail-2256337/) by Arunika
+- School of Mines: [vocational school](https://thenounproject.com/icon/vocational-school-4100326/) by Edi Prastyo, ID
 - Sealed Facility: [Bunker](https://thenounproject.com/icon/bunker-2972283/) by IcoLabs, BR
 - Sharashka: [Prison](https://thenounproject.com/icon/prison-3373255/) by Start Up Graphic Design, TH
 - Sharecropper Farm: [out building](https://thenounproject.com/icon/out-building-1848316/) by Smashicons, GB
@@ -122,11 +128,13 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Tlachtli: [aztec stadium](https://thenounproject.com/icon/aztec-stadium-4282213/) by Lars Meiertoberens, DE
 - [Totem Pole](https://thenounproject.com/icon/totem-pole-20257/) by MaxineVSG, GB
 - Tower of the Shuhada: [minar e pakistan building vector](https://thenounproject.com/icon/minar-e-pakistan-building-vector-3017475/) by Vectors Point, PK
+- Trades Hall: [office building](https://thenounproject.com/icon/office-building-6177929/) by arfan maulana, ID
 - Triage: [medical camp](https://thenounproject.com/icon/medical-camp-3309877/) by Vectors Point, PK
 - Tribal Unification Initiative: [roman law](https://thenounproject.com/icon/roman-law-1615859/) by sachin modgekar, IN
 - Underworld: Merger of [boar](https://thenounproject.com/icon/boar-3864428/) by Andrejs Kirma, LV and [Power](https://thenounproject.com/icon/power-1196196/) by Icon Depot, IN
 - [Victory Column](https://thenounproject.com/icon/victory-column-4202773/) by tezar tantular, ID
 - Virtual Tabernacle: [virtual space](https://thenounproject.com/icon/virtual-space-4718206/) by Rolas Design, ID
+- Warden's Court: [court of appeal](https://thenounproject.com/icon/court-of-appeal-3189823/) by Vectors Point, PK
 - Wasteland Surveillance Initiative: [Security](https://thenounproject.com/icon/security-123950/) by Aaron K. Kim, US
 - Workers' Facility: [facility](https://thenounproject.com/icon/facility-2815116/) by WEBTECHOPS LLP, IN
 - Yacht Club: [yacht](https://thenounproject.com/icon/yacht-1324236/) by ProSymbols, US
@@ -142,6 +150,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Wasteland Station: [station terminal](https://thenounproject.com/icon/station-terminal-2260974/) by Eucalyp
 
 ### Nation Icons
+- Aurelian Group: [Opalcoin](https://www.iconfinder.com/icons/1175305/opal_opalcoin_icon) by [AllienWorks](https://www.iconfinder.com/martin.allien) from [Iconfinder](https://www.iconfinder.com)
 - Aztlan: [Sun](https://www.flaticon.com/free-icon/sun_6912442) by Freepik from Flaticon
 - Camelot Foundation: [Wales](https://thenounproject.com/icon/wales-4282300/) by Lars Meiertoberens, DE
 - Crimson Line: [Hammer and Sickle](https://thenounproject.com/icon/hammer-and-sickle-52420/) by Yohann Berger, FR
@@ -194,6 +203,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - [Mercury](https://thenounproject.com/icon/mercury-1210194/) by Pundimon
 - Mutant Eel: [eel](https://thenounproject.com/icon/eel-6813251/) by Vanicon studio, ID
 - [Newspaper](https://thenounproject.com/icon/newspaper-5525221/) by ermachello
+- Opal: Same icon as Opal Fields
 - [Scripture](https://thenounproject.com/icon/scripture-4402137/) by Athok
 
 ### Unit Icons
@@ -215,6 +225,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Deseret Missionary: [Religion](https://thenounproject.com/icon/religion-53064/) by Bruno Gätjens González (same source as Missionary icon in base Unciv except *not* adapted)
 - Destroying Angel: [Angel](https://thenounproject.com/icon/angel-354209/) by william dayabaran
 - Dhow: [sailboat](https://thenounproject.com/icon/sailboat-54530/) by Michael Thompson, US
+- [Digger](https://thenounproject.com/icon/digger-4104038/) by nareerat jaikaew, TH
 - Drifter: [driftwood](https://thenounproject.com/icon/driftwood-374954/) by BK
 - Drone Ship: [autonomous ship](https://thenounproject.com/icon/autonomous-ship-5912595/) by Todak Todak, KR
 - [Eagle Warrior](https://thenounproject.com/icon/eagle-warrior-6792241/) by Fath Yusuf Iskhaqy, ID

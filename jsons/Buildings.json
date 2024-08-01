@@ -1316,6 +1316,162 @@
 			"Destroyed when the city is captured"]
 	},
 
+	//Aurelian Group unique buildings
+	{
+		"name": "Aurelia Office Tower",
+		"isWonder": true,
+		"uniqueTo": "Aurelian Group",
+		"production": 1,
+		"gold": 1,
+		"cost": 0,
+		"uniques": [
+			"[+10]% Production when constructing [Personnel] units [in this city]",
+			"Provides [2] [Weapons]",
+			"Free [Digger] appears",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Dugout] [in this city]"
+		]
+	},
+	{
+		"name": "Dugout",
+		"replaces": "Food Store",
+		"uniqueTo": "Aurelian Group",
+		"cityHealth": 25,
+		"cost": 10,
+		"hurryCostModifier": -25,
+		"uniques": [
+			"[20]% Food is carried over after population increases [in this city]",
+			"[+1 Food] [in this city] <with [Salt]>",
+			"[+10]% growth [in this city] <with [Salt]>",
+			"[-1 Production, +1 Gold] [in this city] <with [Alcohol]>",
+			"[-1 Production, +1 Gold] [in this city] <with [Narcotics]>",
+			"[-1 Production, -1 Food, +1 Gold] [in this city] <with [Refined Narcotics]>"
+		]
+	},
+	{
+		"name": "Warden's Court",
+		"replaces": "Prison Camp",
+		"uniqueTo": "Aurelian Group",
+		"production": -2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Remove extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>",
+			"Only available <in cities without a [Listening Post]>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Opal Fields",
+		"uniqueTo": "Aurelian Group",
+		"maintenance": 2,
+		"hurryCostModifier": 20,
+		"uniques": [
+			"[+1 Production] from [{non-[resource]} {Mine}] tiles [in this city]",
+			"[+1 Production] from [{non-[resource]} {Armed Mining Camp}] tiles [in this city]",
+			"[+1 Production] from [{non-[resource]} {Borehole}] tiles [in this city]",
+			"Provides [1] [Opal]",
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Mining"
+	},
+	{
+		"name": "Mining Tunnels",
+		"uniqueTo": "Aurelian Group",
+		"maintenance": 1,
+		"hurryCostModifier": 20,
+		"uniques": ["[+2 Production] from [Mountain] tiles [in this city]",
+			"[+2 Production] from [Tunneled Mountain] tiles [in this city]",
+			"Must have an owned [Tunneled Mountain] within [3] tiles"],
+		"requiredTech": "Engineering"
+	},
+	{
+		"name": "Geological Survey Center",
+		"replaces": "National College",
+		"uniqueTo": "Aurelian Group",
+		"isNationalWonder": true,
+		"science": 2,
+		"culture": 1,
+		"percentStatBonus": {"science": 33},
+		"cost": 125,
+		"uniques": [
+			"[+1 Science] from [Strategic resource] tiles [in all cities]",
+			"[+1 Science] from [Mountain] tiles [in all cities]",
+			"[+1 Science] from [Tunneled Mountain] tiles [in all cities]",
+			"Only available <if [Library] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "School of Mines",
+		"replaces": "University",
+		"uniqueTo": "Aurelian Group",
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 1},
+		"uniques": [
+			"[+1 Science] from [Mine] tiles [in this city]",
+			"[+1 Science] from [Borehole] tiles [in this city]",
+			"[+1 Science] from [Armed Mining Camp] tiles [in this city]",
+			"[+1 Science] from [Mountain] tiles [in this city]",
+			"[+1 Science] from [Tunneled Mountain] tiles [in this city]",
+			"[+2 Science] [in this city] <when above [0] [Power]>",
+			"Only available <in cities with a [Library]>"
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Trades Hall",
+		"replaces": "Congress",
+		"uniqueTo": "Aurelian Group",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Gold, +1 Culture] per [4] population [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Minerals Council]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Minerals Council",
+		"replaces": "Council",
+		"uniqueTo": "Aurelian Group",
+		"cost": 150,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+5]% Production when constructing [All] buildings [in all cities]",
+			"[+10]% [Production] from every [School of Mines]",
+			"Double quantity of [Coal] produced",
+			"Double quantity of [Aluminum] produced",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Trades Hall]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Mineral Enricher",
+		"replaces": "Plastics Factory",
+		"uniqueTo": "Aurelian Group",
+		"production": 2,
+		"percentStatBonus": {"production": 5},
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[+2 Production, +1 Science] from [Mountain] tiles [in this city]",
+			"[+2 Production, +1 Science] from [Tunneled Mountain] tiles [in this city]",
+			"Must have an owned [Tunneled Mountain] within [3] tiles"
+		],
+		"requiredTech": "Replaceable Parts"
+	},
+
 	//Adjusted buildings and wonders
 	//Part 1: Faction identity wonders and government buildings
 	{

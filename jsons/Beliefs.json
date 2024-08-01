@@ -15,6 +15,17 @@
 		]
 	},
 	{
+		"name": "Blessed Green",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Culture] from every [Tree plantation]",
+			"[+1 Culture] from every [Farm]",
+			"[+1 Culture] from every [Grassland]",
+			"[+1 Culture] from every [Factory farm]",
+			"[+1 Culture] from every [Fortified Farm]"
+		]
+	},
+	{
 		"name": "Blessed Steel",
 		"type": "Pantheon",
 		"uniques": [
@@ -196,6 +207,7 @@
 		"type": "Pantheon",
 		"uniques": [
 			"[+1 Faith] from every [Mine] <within [2] tiles of a [City center]>",
+			"[+1 Faith] from every [Armed Mining Camp] <within [2] tiles of a [City center]>",
 			"[+1 Faith] from every [Borehole] <within [2] tiles of a [City center]>",
 			"[+1 Faith] from every [Manufactory]"
 		]
