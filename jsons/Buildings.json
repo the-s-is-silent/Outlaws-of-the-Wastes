@@ -625,7 +625,8 @@
 		"replaces": "Prison Camp",
 		"uniqueTo": "Camelot Foundation",
 		"maintenance": 1,
-		"uniques": ["Remove extra unhappiness from annexed cities",
+		"uniques": ["[-25]% enemy spy effectiveness [in this city]",
+			"Remove extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>",
 			"Only available <in cities without a [Listening Post]>",
 			"Destroyed when the city is captured"],
@@ -953,10 +954,10 @@
 		"requiredTech": "Munitions"
 	},
 
-	//Aztlan unique buildings
+	//Aztlán unique buildings
 	{
 		"name": "Plumed Serpent Pyramid",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"isWonder": true,
 		"culture": 1,
 		"cost": 0,
@@ -970,7 +971,7 @@
 	{
 		"name": "Temalacatl",
 		"replaces": "Monument",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"culture": 2,
 		"cost": 40,
 		"maintenance": 0,
@@ -980,7 +981,7 @@
 	{
 		"name": "Calpulli",
 		"replaces": "Barracks",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"food": 1,
 		"production": 1,
 		"cost": 50,
@@ -992,7 +993,7 @@
 	{
 		"name": "Amoxcalli",
 		"replaces": "Library",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"hurryCostModifier": 25,
 		"requiredTech": "Writing",
 		"uniques": ["[+1 Science] per [3] population [in this city]",
@@ -1003,7 +1004,7 @@
 	{
 		"name": "Chinampa",
 		"replaces": "Greenhouse",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"food": 2,
 		"specialistSlots": {"Farmer": 1},
 		"maintenance": 1,
@@ -1021,7 +1022,7 @@
 	{
 		"name": "Tiyanquitzli",
 		"replaces": "Market",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"requiredTech": "Trade",
@@ -1032,7 +1033,7 @@
 	{
         "name": "Tlachtli",
         "replaces": "Stadium",
-        "uniqueTo": "Aztlan",
+        "uniqueTo": "Aztlán",
         "culture": 2,
         "happiness": 2,
         "maintenance": 1,
@@ -1045,7 +1046,7 @@
 	{
 		"name": "Teocalli",
 		"replaces": "Monastery",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"faith": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
@@ -1072,7 +1073,7 @@
 	{
 		"name": "Calmecac",
 		"replaces": "University",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"maintenance": 1,
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"science": 33},
@@ -1088,7 +1089,7 @@
 	{
 		"name": "Telpochcalli",
 		"replaces": "Public School",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"culture": 2,
 		"science": 2,
 		"maintenance": 1,
@@ -1101,7 +1102,7 @@
 	{
 		"name": "Cabildo",
 		"replaces": "Town Hall",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"culture": 2,
 		"specialistSlots": {"Administrator": 1},
 		"maintenance": 1,
@@ -1115,7 +1116,7 @@
 	{
 		"name": "Nuevo Templo Mayor",
 		"replaces": "Grand Monastery",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"isNationalWonder": true,
 		"culture": 3,
 		"faith": 8,
@@ -1136,7 +1137,7 @@
 	{
 		"name": "Congress of the Alliance",
 		"replaces": "Congress",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": ["[+1 Culture] per [4] population [in all cities]",
@@ -1150,7 +1151,7 @@
 	{
 		"name": "Council of Four",
 		"replaces": "Council",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": ["[+10]% growth [in all cities]",
@@ -1373,7 +1374,7 @@
 			"[+1 Production] from [{non-[resource]} {Armed Mining Camp}] tiles [in this city]",
 			"[+1 Production] from [{non-[resource]} {Borehole}] tiles [in this city]",
 			"Provides [1] [Opal]",
-			"Cost increases by [30] per owned city"
+			"Cost increases by [30] when built"
 		],
 		"requiredTech": "Mining"
 	},

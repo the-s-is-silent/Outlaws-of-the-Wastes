@@ -645,17 +645,17 @@
 		"uniques": ["May enter foreign tiles without open borders"]
 	},
 	{
-		"name": "Valor of Aztlan",
+		"name": "Valor of Aztlán",
 		"uniques": ["[+25]% Strength <vs [Wounded] units>",
 			"This Unit upgrades for free <upon defeating a [Military] unit>",
-			"Comment [This Promotion becomes Fury of Aztlan after this unit upgrades to Shorn One]",
-			"This Unit loses the [Valor of Aztlan] promotion <for [non-[Aztlan]]> <hidden from users>"]
+			"Comment [This Promotion becomes Fury of Aztlán after this unit upgrades to Shorn One]",
+			"This Unit loses the [Valor of Aztlán] promotion <for [non-[Aztlán]]> <hidden from users>"]
 	},
 	{
-		"name": "Fury of Aztlan",
+		"name": "Fury of Aztlán",
 		"uniques": ["[+33]% Strength <when attacking>",
 			"Heals [25] damage if it kills a unit",
-			"This Unit loses the [Valor of Aztlan] promotion <hidden from users>"]
+			"This Unit loses the [Valor of Aztlán] promotion <hidden from users>"]
     },
 	{
 		"name": "[Lawkeeper] ability",

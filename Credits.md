@@ -3,7 +3,7 @@
 Like the status of the mod as a whole as well as DeCiv Redux's credit list, this is incomplete.<br>
 Pixel art will most likely reuse other sources (several of them from DeCiv, Caer and Drydock from Rekmod, Barbarian Scout and Suicider from The Barbarians) for the initial upload.<br>
 Several unit sprites are either borrowed from, or based off sprites made by, [The Bucketeer](https://github.com/GeneralWadaling).
-The sprites for War Tram and Armored Train were made by [ReallyBasicName](https://github.com/ReallyBasicName).<br>
+The sprites for Eagle Warrior, War Tram, and Armored Train were made by [ReallyBasicName](https://github.com/ReallyBasicName).<br>
 Armed Mining Camp, Cactus and Cactus Farm, Floating Settlement, Fortified Farm, Supply Complex, and Wasteland Station borrow and in some cases modify tile images from Alpha Frontier, with permission from [Indonesian Gentleman](https://github.com/carriontrooper).<br>
 Preservator is borrowed from [Bamboolord](https://github.com/RealBamboolord) with his permission.<br>
 Several icons reuse images used in Unciv, DeCiv Redux, Civ 6 mod, and Rekmod, with some of the latter three remaining unsourced.<br>
@@ -43,6 +43,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Contract with Survivors: [contract](https://thenounproject.com/icon/contract-4139832/) by Design Circle, PK
 - Deseret Data Center: [data warehouse](https://thenounproject.com/icon/data-warehouse-5615005/) by Nikita Kozin, RU
 - Disciplinary Council: [court](https://thenounproject.com/icon/court-4428402/) by Eko Purnomo, ID
+- Dugout: [hobbit house](https://thenounproject.com/icon/hobbit-house-4122101/) by Pixel Bazaar
 - Earth Clinic: [herbal remedy](https://thenounproject.com/icon/herbal-remedy-842292/) by Ker'is, TH
 - Earthscraper: [skyscraper](https://thenounproject.com/icon/skyscraper-1811460/) by iconcheese, adapted slightly
 - Earthscraper Project: [Skyscraper](https://thenounproject.com/icon/skyscraper-1038032/) by Maxim Kulikov, adapted slightly
@@ -142,6 +143,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 
 ### Improvement Icons
 - Artificial atoll: [island](https://thenounproject.com/icon/island-1546376/) by Chanut is Industries, TH (same icon used for Atoll in base Unciv)
+- Banana Business Area: [bananas](https://thenounproject.com/icon/bananas-1278099/) by Saeful Muslim, ID
 - Drydock: [Dock Lifter](https://thenounproject.com/icon/dock-lifter-906357/) by Smashicons, GB
 - Endowment House: [charity box](https://thenounproject.com/icon/charity-box-4091320/) by Nattapol Seengern
 - Floating Settlement: [houseboat](https://thenounproject.com/icon/houseboat-4260799/) by Luis Prado, US
@@ -151,7 +153,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 
 ### Nation Icons
 - Aurelian Group: [Opalcoin](https://www.iconfinder.com/icons/1175305/opal_opalcoin_icon) by [AllienWorks](https://www.iconfinder.com/martin.allien) from [Iconfinder](https://www.iconfinder.com)
-- Aztlan: [Sun](https://www.flaticon.com/free-icon/sun_6912442) by Freepik from Flaticon
+- Aztlán: [Sun](https://www.flaticon.com/free-icon/sun_6912442) by Freepik from Flaticon
 - Camelot Foundation: [Wales](https://thenounproject.com/icon/wales-4282300/) by Lars Meiertoberens, DE
 - Crimson Line: [Hammer and Sickle](https://thenounproject.com/icon/hammer-and-sickle-52420/) by Yohann Berger, FR
 - Deseret Nation: [Beehive](https://thenounproject.com/icon/beehive-106249/) by Cléa Lautrey
@@ -178,7 +180,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Ballistic Weave: [graphene technology](https://thenounproject.com/icon/graphene-technology-1870120/) by ProSymbols, US
 - Combat Armor: [armor](https://thenounproject.com/icon/armor-4069582/) by iconixar
 - Conquer Terrain: [atv tire](https://thenounproject.com/icon/atv-tire-378331/) by Martin Hofmann
-- Fury of Aztlan: [Quetzalcoatl](https://www.flaticon.com/free-icon/quetzalcoatl_5169317) by Freepik from Flaticon
+- Fury of Aztlán: [Quetzalcoatl](https://www.flaticon.com/free-icon/quetzalcoatl_5169317) by Freepik from Flaticon
 - Healing Hands: [medical symbol](https://thenounproject.com/icon/medical-symbol-1017634/) by IconTrack
 - Heroic Resolve: [hero shield](https://thenounproject.com/icon/hero-shield-4533534/) by Made x Made, AU
 - Line Brawl: [fighting](https://thenounproject.com/icon/fighting-2717946/) by Vectors Point, PK
@@ -188,11 +190,12 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Sea Raider: Same icon as Advanced Piracy
 - Self-Repair: [Hammer](https://thenounproject.com/icon/hammer-854936/) by Thengaloka (same icon used for Air Repair in base Unciv)
 - Terrascape: [terraform planet](https://thenounproject.com/icon/terraform-planet-4940216/) by Juicy Fish, GB
-- Valor of Aztlan: [cuauhtli](https://www.flaticon.com/free-icon/cuauhtli_6727414) by Freepik from Flaticon
+- Valor of Aztlán: [cuauhtli](https://www.flaticon.com/free-icon/cuauhtli_6727414) by Freepik from Flaticon
 - Will of Tellus: [Tree](https://thenounproject.com/icon/tree-6482946/) by ayadeya, ID
 - Zeal: [zeal of the convert](https://thenounproject.com/icon/zeal-of-the-convert-4708155/) by Saneseed
 
 ### Religion Icons
+- Mictlantec: [mictlantecuhtli](https://www.flaticon.com/free-icon/mictlantecuhtli_4039782) by Freepik from Flaticon
 - Order of Tlaloc: [tlaloc](https://thenounproject.com/icon/tlaloc-4640131/) by Eucalyp
 - Rodnovery: [Red Rodnover kolovrat](https://commons.wikimedia.org/wiki/File:Red_Rodnover_kolovrat.svg) by Eckhardt Etheling on Wikimedia Commons
 - Stalinism: [stalin](https://thenounproject.com/icon/stalin-3370715/) by Simon Child, GB

@@ -166,9 +166,9 @@
 		"spyNames": ["Korbut", "Lesnitsky", "Nastya", "Pavel", "Dmitri", "Anatoly", "Irina", "Ramilya", "Grigory", "Igor"]
 	},
 	{
-		"name": "Aztlan",
-		"leaderName": "Yesenia Aztlanl",
-		"adjective": ["Aztlaner"],
+		"name": "Aztlán",
+		"leaderName": "Yesenia Aztlánl",
+		"adjective": ["Aztláner"],
 		"preferredVictoryType": "Domination",
 		"personality": "Great Speaker",
 		"favoredReligion": "Order of Tlaloc",
@@ -178,14 +178,14 @@
 		"declaringWar": "Let the red flood rise and spread, drowning everything in its path!",
 		"attacked": "You mean to subjugate us like the conquistadors, or worse. But I won't let that dark future come to pass. Now die!",
 		"defeated": "I only ever did what was necessary for my people to survive. But it wasn't enough...",
-		"introduction": "I am the Great Speaker Yesenia, daughter of the Lifebringer who reestablished the mighty nation of Aztlan, and the savior of its people. I wonder, will you sacrifice as much as I have...?",
+		"introduction": "I am the Great Speaker Yesenia, daughter of the Lifebringer who reestablished the mighty nation of Aztlán, and the savior of its people. I wonder, will you sacrifice as much as I have...?",
 		"neutralHello": "Welcome.",
 		"hateHello": "What are you after now?",
 		"tradeRequest": "The consequences for refusing this deal will be quite severe.",
 
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 255, 255],
-		"style": "Tribal",
+		"style": "Aztlán",
 		"uniqueName": "Resurgence Under the Sixth Sun",
 		"uniques": ["[+30]% Strength <vs [City-States]>",
 			"Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
@@ -220,16 +220,16 @@
 		"uniqueName": "The Last Worthwhile Homeland",
 		"uniques": [
 			"[+100]% Natural religion spread [in annexed cities]",
-			"[+33]% to Flank Attack bonuses",
+			"[+100]% to Flank Attack bonuses",
 			"[Faith] cost of purchasing items in cities [-33]%",
 			"Free [Great Sage] appears <upon discovering [Education] technology>",
 			"Starts with [Theocracy] adopted",
 			"Starts with [Supremacy] adopted",
 			"[-25]% [Culture] [in all cities]"
 		],
-		"cities": ["Kitznen", "Grolanhei", "Honsvang", "Slo", "al-Harv", "Noisvatsei", "am-Munch", "af-Fridhav", "ar-Rebchel",
-			"an-Nessang", "Kleilanhei", "Walnhov", "Svang", "Lissnen", "Almansei", "af-Füss", "an-Nurber", "ar-Ramstei",
-			"Alba Sarum", "Malaga", "Nsara", "Baraka", "Turi"],
+		"cities": ["Bruksil", "Kitznen", "Grolanhei", "Honsvang", "Slo", "al-Harv", "Noisvatsei", "am-Munch", "af-Fridhav",
+			"ar-Rebchel", "an-Nessang", "Kleilanhei", "Walnhov", "Svang", "Lissnen", "Almansei", "af-Füss", "an-Nurber",
+			"ar-Ramstei", "Alba Sarum", "Malaga", "Nsara", "Baraka", "Turi"],
 		"spyNames": ["Rashid", "Saleh", "Mashouf", "Ismail", "Mahmoud", "Fudail", "Ghalib", "Latif", "Rustam", "Zahid"]
 	},
 	{
@@ -895,7 +895,6 @@
 		"name": "Fo Guang",
 		"adjective": ["Fo Guang"],
 		"cityStateType": "Prayer",
-		"style": "",
 		"uniques": ["No damage penalty for wounded units"],
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Your desire for power will only bring you suffering.",
@@ -909,7 +908,6 @@
 		"adjective": ["Tellus"],
 		"cityStateType": "Culture",
 		"startBias": ["Wasteland"],
-		"style": "",
 		"uniques": ["[{Military} {Land}] units gain the [Will of Tellus] promotion",
 			"Starts with [Ecology]", "Starts with [Land Remediation]"],
 		"declaringWar": "The plant has spoken, you must be defeated!",
@@ -1045,6 +1043,18 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [66, 189, 74],
 		"cities": ["Izumrydniy Gorod"]
+	},
+	{
+		"name": "Trudograd",
+		"adjective": ["Trudogradian"],
+		"cityStateType": "Trading",
+		"startBias": ["Tundra"],
+		"declaringWar": "Our paradise already has enough problems as it is. We don't need you becoming one of them.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We were right to fear you...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0, 102, 102],
+		"cities": ["Trudograd"]
 	},
 
 	//Barbarian

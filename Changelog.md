@@ -950,6 +950,8 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Faction/City-State UBs:
 	- Atlas:
 		- Think Tank no longer adds a Production bonus towards buildings owned in the capital. Instead, it adds +2 of the respective yield to non-unique Great Improvements (+1 Water/Science to Citadels).
+	- Camelot Foundation:
+		- Constabulary now adds defense against spies.
 	- Defiance:
 		- Lawkeeper Office now replaces Defense Directorate instead of Town Hall, no longer has Administrator slots, gives a free Roller in addition to the Lawkeeper + Pre-War Turrets, and lets 5 units be maintenance free (instead of 3).
 	- Deseret Nation:
@@ -1050,7 +1052,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **New Factions**
 - Aurelian Group (Pre-War Australian mining company, Science)
-- Aztlan (Mexican, Aztec revivalist, Domination/Culture)
+- Aztlán (Mexican, Aztec revivalist, Domination/Culture)
 - The Caliphate (Arabic takeover of Germany, Domination/Religious)
 
 **New Buildings**
@@ -1080,4 +1082,4 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **New Beliefs**
 - Cautionary Tales (Pantheon), adds +2 Faith to Libraries and +1 Happiness to Museums
 - Communion Centers (Follower), Worship Center adds: +1 Culture/Happiness, +2 Faith, +3 Water, +10% to city's total Water yields
-- Meeting House (Follower), Worship Center adds: +3 Production, +1 Culture, +2 Faith, +5% to city's total Production
+- Meeting Houses (Follower), Worship Center adds: +3 Production, +1 Culture, +2 Faith, +5% to city's total Production

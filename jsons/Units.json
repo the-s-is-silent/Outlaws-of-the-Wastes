@@ -1083,11 +1083,11 @@
 		"attackSound": "shot"
 	},
 
-	//Aztlan unique units
+	//Aztlán unique units
 	{
 		"name": "Tlacotin",
 		"replaces": "Worker",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 70,
@@ -1103,7 +1103,7 @@
 	{
 		"name": "Jaguar",
 		"unitType": "Scrapper",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"replaces": "Spearman",
 		"movement": 2,
 		"strength": 22,
@@ -1113,37 +1113,37 @@
 		"hurryCostModifier": 20,
 		"uniques": ["Low Tech", "[+50]% Strength <vs [Low Tech] units>",
 			"[+25]% Strength <vs [Barbarian] units>",
-			"This Unit gains the [Valor of Aztlan] promotion <upon defeating a [Military] unit>"],
+			"This Unit gains the [Valor of Aztlán] promotion <upon defeating a [Military] unit>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Eagle Warrior",
 		"unitType": "Scrapper",
 		"replaces": "Machete",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"movement": 2,
 		"strength": 28,
 		"cost": 50,
 		"requiredTech": "Steel",
 		"obsoleteTech": "Rifling",
-		"promotions": ["Valor of Aztlan"],
+		"promotions": ["Valor of Aztlán"],
 		"uniques": ["Low Tech", "[+50]% Strength <vs [Low Tech] units>",
 			"[+25]% Strength <vs [Barbarian] units>",
-			"Can upgrade to [Militia] <for [non-[Aztlan]]> <hidden from users>",
-			"Can upgrade to [Shorn One] <for [Aztlan]> <hidden from users>"],
+			"Can upgrade to [Militia] <for [non-[Aztlán]]> <hidden from users>",
+			"Can upgrade to [Shorn One] <for [Aztlán]> <hidden from users>"],
 		"attackSound": "metalhit"
 	},
 	{
 		"name": "Shorn One",
 		"unitType": "Scrapper",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"movement": 2,
 		"strength": 40,
 		"cost": 100,
 		"requiredTech": "Civil Service",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
-		"promotions": ["Fury of Aztlan"],
+		"promotions": ["Fury of Aztlán"],
 		"uniques": ["Low Tech"],
 		"attackSound": "metalhit"
 	},
