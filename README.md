@@ -23,13 +23,13 @@ A major expansion + rebalance mod for DeCiv Redux.
 
 - Six new factions (in addition to playable Deseret):
   - Aurelian Group, a pre-war Australian mining corporation that survived the Cataclysm and is trying to rebuild its former country while remaining isolationist.
-  - Aztlan, the expected post-Cataclysm nation of Aztec revivalists.
+  - Aztlán, the expected post-Cataclysm nation of Aztec revivalists.
   - The Caliphate, a hyperoppressive Islamic theocracy with a stranglehold over Germany.
   - Camelot Foundation, a constitutional republic arising from what's left of Wales, England and Brittany.
   - Crimson Line, a faction of hardliner Communists who took shelter from the Cataclysm inside the Moscow Metro and now seek to reunite the Soviet Union by force.
   - The Harbingers, the remnants of an evil Mega-Corp who are now trying to atone for their previous practices...or are they?
 
-- Eight new city-states: Calico (Labor), Carbon (Farming), Defiance (Weapons), Hockeytown (Culture), Issaquah Nation (Prayer, replacing Deseret in that slot), Izumrydniy Gorod (Research), The Pax (Research), and Venice Beach (Trading).
+- Nine new city-states: Calico (Labor), Carbon (Farming), Defiance (Weapons), Hockeytown (Culture), Issaquah Nation (Prayer, replacing Deseret in that slot), Izumrydniy Gorod (Research), The Pax (Research), Trudograd (Trading), and Venice Beach (Trading).
 
 - New units:
   - Barbarian: Ghoul, Suicider, Marked One, Killdozer, Dhow, Skiff, Ocean Robber, Savior of the Sea
