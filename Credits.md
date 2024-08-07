@@ -195,6 +195,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Zeal: [zeal of the convert](https://thenounproject.com/icon/zeal-of-the-convert-4708155/) by Saneseed
 
 ### Religion Icons
+- Church of the Water Tsaritsa: Based on [freemason](https://thenounproject.com/icon/freemason-97076/) by Kyle Tezak, US and [watch drop](https://thenounproject.com/icon/watch-drop-1511946/) by corpus delicti, GR
 - Mictlantec: [mictlantecuhtli](https://www.flaticon.com/free-icon/mictlantecuhtli_4039782) by Freepik from Flaticon
 - Order of Tlaloc: [tlaloc](https://thenounproject.com/icon/tlaloc-4640131/) by Eucalyp
 - Rodnovery: [Red Rodnover kolovrat](https://commons.wikimedia.org/wiki/File:Red_Rodnover_kolovrat.svg) by Eckhardt Etheling on Wikimedia Commons
