@@ -99,7 +99,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 1500,
-		"requiredTech": "Satellites",
+		"requiredTech": "Astrogation",
 		"requiredResource": "Aluminum",
 		"uniques": ["Colony Ship Part",
 			"Only available <in cities with a [Aerospace Facility]>",
@@ -577,6 +577,50 @@
 		"promotions": ["Automated"],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
+	},
+
+	//Next-gen warfare
+	{
+		"name": "Automated Logistics Vehicle",
+		"unitType": "Armor",
+		"movement": 6,
+		"strength": 75,
+		"cost": 325,
+		"requiredTech": "Full-Spectrum Dominance",
+		"promotions": ["Automated"],
+		"uniques": ["Automated",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"[+50]% Strength <vs [Personnel] units>",
+			"[-33]% Strength <vs cities>",
+			"Consumes [1] [Power]"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Mirage Sniper",
+		"unitType": "Shooter",
+		"movement": 3,
+		"strength": 85,
+		"rangedStrength": 90,
+		"range": 2,
+		"interceptRange": 2,
+		"cost": 475,
+		"requiredTech": "Holography",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"No defensive terrain penalty",
+			"Ignores Zone of Control",
+			"Invisible to non-adjacent units",
+			"[+50]% Strength <vs [Ranged] units> <when defending>",
+			"May withdraw before melee ([75]%)",
+			"Only available <in cities with a [Holotraining Facility]>",
+			"Cannot be purchased",
+			"Consumes [1] [Encrypted Data]",
+			"Consumes [2] [Power]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "phasers"
 	},
 
 	//Deseret Nation unique units
@@ -1760,7 +1804,7 @@
 		"strength": 45,
 		"cost": 150,
 		"requiredTech": "Replaceable Parts",
-		"upgradesTo": "Tank",
+		"upgradesTo": "Automated Logistics Vehicle",
 		"uniques": ["[+33]% Strength <vs [Low Tech] units> <when attacking>",
 			"[+33]% Strength <vs [Personnel] units> <when attacking>",
 			"[-33]% Strength <vs cities> <when attacking>",
@@ -2721,19 +2765,82 @@
 		"name": "Drop Troops",
 		"unitType": "Scrapper",
 		"movement": 3,
-		"strength": 55,
+		"strength": 60,
 		"cost": 280,
-		"requiredTech": "Energy Weapons",
+		"requiredTech": "Full-Spectrum Dominance",
 		"uniques": [
 		    "Personnel",
 			"No movement cost to pillage",
 			"May Paradrop up to [30] tiles from inside friendly territory",
 			"Consumes [2] [Weapons]",
 			"Never appears as a Barbarian unit",
-			"Only available <if [Automated Factory] is constructed>"
+			"Only available <if [Aerospace Facility] is constructed>"
 		],
 		"promotions": ["Gas Mask", "Loose Formation", "Reconnaissance I", "Reconnaissance II"],
-		"attackSound": "phasers"
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Armored Car",
+		"unitType": "Armor",
+		"movement": 4,
+		"strength": 45,
+		"cost": 150,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Automated Logistics Vehicle",
+		"obsoleteTech": "Full-Spectrum Dominance",
+		"uniques": [
+			"[-33]% Strength <vs [Armor] units>",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Oil]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Big Rig",
+		"unitType": "Armor",
+		"uniqueTo": "Cult of Ignis",
+		"replaces": "Armored Car",
+		"movement": 4,
+		"strength": 35,
+		"cost": 140,
+		"requiredTech": "Engineering",
+		"upgradesTo": "Automated Logistics Vehicle",
+		"obsoleteTech": "Full-Spectrum Dominance",
+		"uniques": [
+			"Only available <if [Chop Shop] is constructed>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Consumes [1] [Oil]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "4x4",
+		"unitType": "Armor",
+		"uniqueTo": "Enclavers",
+		"replaces": "Armored Car",
+		"movement": 4,
+		"strength": 45,
+		"cost": 150,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Automated Logistics Vehicle",
+		"obsoleteTech": "Full-Spectrum Dominance",
+		"uniques": [
+			"[-25]% Strength <vs [Armor] units>",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Oil]",
+			"Double movement in [Hill]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
 	},
 	{
 		"name": "Tank",
@@ -2960,13 +3067,13 @@
 		"obsoleteTech": "Robotics",
 		"upgradesTo": "Drone Ship",
 		"uniques": [
-		    "Can move after attacking",
+			"Can move after attacking",
 			"Consumes [1] [Oil]",
 			"Double movement in [Coast]",
 			"Withdraws before melee combat <with [33]% chance>",
-			"Only available <if [Factory] is constructed>",
-			"Never appears as a Barbarian unit"
+			"Only available <if [Factory] is constructed>"
 		],
+		//removed exclusion from Barbarian unit list
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
 	},
@@ -3404,7 +3511,7 @@
 		"requiredTech": "Plastics",
 		"upgradesTo": "Drone Ship",
 		"uniques": [
-		    "Can move after attacking",
+			"Can move after attacking",
 			"Double movement in [Coast]",
 			"[+30]% Strength <when adjacent to a [Melee Water] unit>",
 			"Withdraws before melee combat <with [33]% chance>",
