@@ -21,6 +21,7 @@
 - Operations Center now costs 150 Production.
 - Personnel Offices now cost 160 Production and no longer gain bonuses from owning Slaves. However, they regain the standard Town Hall's Administrator slot, reduce tile purchase costs by 25%, and add a +10% Production boost for Personnel units.
 - Resource Management Servers have a harsher limit (2 vs. base scenario's 5, but all Monopoly policy buildings have this limit now) and no longer boost city growth or provide Slaves, but to compensate, they give +10% Water to the two cities that can own one.
+- New UB: Private School (restored cut content from older versions of DeCiv - replaces Public School, no maintenance, +2 Water, additional +2 Water for each Scientist active in the city)
 
 #### Children of Rust
 - They no longer start with Redomestication, and the Faith bonus only applies with *unimproved* Ruins tiles.
@@ -99,7 +100,7 @@
 - Shake Down Survivors now costs 30 Production, provides 4 Slaves, and awards a free Gangboss.
 - Clansmen no longer require Clubhouses to be built.
 - Hitmen no longer start with Skirmish, but are buffed to 32 Ranged Strength (previously 24) and cost 70 Production (down from 90).
-- As mentioned above, Plantations now belong to them instead of Ignis. They now unlock at Botany instead of being available at the start of the game, lose the 20% total Food bonus, regain the standard Greenhouse boosts to Food (+2 to the city itself, +1 to Grain/Tubers, +1 Farmer slot), and only give a 50% boost to Worker training speed. They also add +1 Food to active Farmers in the city and +1 Culture to worked Narcotics farm tiles. Because of the Slave consumption requirement, they're 30% cheaper to build than standard Greenhouses.
+- As mentioned above, Plantations now belong to them instead of Ignis. They now unlock at Botany instead of being available at the start of the game, lose the 20% total Food bonus, regain the standard Greenhouse boosts to Food (+2 to the city itself, +1 to Farm-able resources, +1 Farmer slot), and only give a 50% boost to Worker training speed. They also add +1 Food to active Farmers in the city and +1 Culture to worked Narcotics farm tiles. Because of the Slave consumption requirement, they're 30% cheaper to build than standard Greenhouses.
 - Salvage Exchange has been removed from the game on account of being too similar to Children of Rust's Salvage Yard with no feasible way to differentiate the two.
 - Information Markets add +1 Water while the faction has Power and no longer have reduced Science gain compared to standard Libraries, but also no longer give Great Scientist Points.
 - Clubhouses are pushed back to Civil Service where they should be, instead of being available at Secrets of the Past. They also lose the -1 Food penalty, add +2 Water by default instead of needing to own Slaves, and no longer cost maintenance.
@@ -132,6 +133,7 @@
 - Record Grids now add +1 Science to Refineries, +1 Local Happiness while the faction has Power, and lose both the increase to Production cost and reduced Science per pop compared to the Libraries they replace.
 - Stormfront Center and Overcouncil now cost 150 Production each. The former has been nerfed to cut the additional defensive bonus in half, but also buffed to add 25% faster GP generation to all cities, while the latter now provides 6 copies of their unique resource.
 - Field Turrets are nerfed, reducing the increase in City Strength from 25 to 10.
+- New UU: Stim Trooper (standalone, unlocks at Combined Arms, upgrades to Exo-Trooper, 250 production cost, 60 combat strength, 3 movement, consumes both Weapons and Experimental Chemicals, heals 20 damage per kill, starts with Gas Mask)
 - New UBs:
   - Nutri-Paste Dispenser (replaces Food Store, adds +1 Food while possessing at least 1 copy of chemicals)
   - Hexlock Chemical Company (replaces Food Processing Plant, adds +2 Production/Water to all Refinery improvements and +2 Production to worked Salt tiles instead of boosting Food yields, and grants the unique Self-Repair promotion to Purge Robots)
@@ -194,7 +196,9 @@
 - Five-Year Plan and Gulag have been renamed to State Assembly and Politburo.
 - State Assembly now adds scaling Production yields (in addition to the scaling Culture yields) and counts every 4 population in cities instead of every 5. However, it costs 150 Production.
 - Politburo no longer adds Culture/Happiness; it instead adds +3 Production to their Prison Camp/Work Camp replacements and Listening Posts.
-- New UU: Super Mutant (replaces Exo-Trooper, available earlier at Nuclear Fission but requires Atomgrad Project, consumes 2 Uranium + 1 Weapons, cannot paradrop)
+- New UUs:
+  - Nuke Cannon (standalone, Siege Nuke, requires Atomgrad Project, 600 production cost, 2 movement, 3 range, 60 defense strength, 70 ranged strength, nuke strength 2, blast radius 0, limit of 3)
+  - Super Mutant (replaces Exo-Trooper, available earlier at Nuclear Fission but requires Atomgrad Project, consumes 2 Uranium + 1 Weapons, cannot paradrop)
 - New UBs:
   - Zemlyanka (replaces Food Store, adds +1 City Strength, +20 City HP, and +1 Food to Camp improvements and Tuber resources on Tundra terrain)
   - Kolkhoz (replaces Greenhouse, adds +2 Production along with an extra Farmer slot and +1 Production to each Farmer in the city, but its maintenance cost is increased by 1)

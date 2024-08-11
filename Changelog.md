@@ -570,7 +570,7 @@
 - Annex Isolationists now adds +5 Production instead of +5 Water to the Isolated Island.
 - Biosphere Project's Production cost reduced to 750.
 - Convert Survivors and Resettlement Bureau have been deleted.
-- Domestic Electrification now adds +1 Culture/Happiness to all cities connected to the capital instead of a potential +8 Happiness in the capital. However, its Production cost no longer scales according to how many cities the faction owns.
+- Domestic Electrification now adds +1 Culture/Happiness to all cities connected to the capital instead of a potential +8 Happiness in the capital. Its Production cost no longer scales according to how many cities the faction owns.
 - Fusion Reactor now requires the capital to own a Nuclear Plant, but is buffed to add an additional +8 Production to the capital and all cities connected to it.
 - Ground Control Center's Production cost reduced to 300 and it gives +3 Culture instead of Happiness. Adjustments to faction-specific replacements:
 	- Atlas (Survey Center): Starts at +3 Science/+1 Culture, gains +5 Science/+2 Culture at Flight
@@ -915,7 +915,7 @@
 - Sanctified Innovations (Follower), adding +1 each of Production, Science and Faith to National Wonders (this is Enhancer in Lek/Rekmod but to me didn't feel right putting it there)
 - Zen Meditation (Follower), adding +2 Culture and +1 Happiness to cities with at least 2 active Specialists
 
-#### Pre-Rebirth: May - July 2024
+#### May - August 2024
 
 Several of the following adjustments are based on what is planned for the Rebirth Edition of base DeCiv should it ever be released. Several others are also being included in the "DeCiv 2" fork that is the effective continuation of pre-Rebirth DeCiv.
 
@@ -926,6 +926,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - All factions that started in the Rebuilding era lose the relevant starting techs.
 - Blackwarden no longer loses its Strength bonus in foreign land while the faction is unhappy.
 - Hexlock now only creates one unique strategic resource with its improvements (previously five in the pre-Rebirth versions). The Compound Mix buildings instead require the city to work the Refinery whose stat corresponds to the GP it provides. Crystal Refineries provide a Refined version of the Experimental Chemicals, which regains its lost status as a Luxury Resource, but is consumed by the Meltdown building. Additionally, they now build National Wonders 15% faster.
+- The Mariners' UA gifting Sea Raider to their infantry units after adopting Advanced Piracy now also applies to Low Tech units.
 - New Star's UA no longer increases the rate of generating Great People. Instead, it now gives their Civilian and Support units the Thermoptic Camouflage promotion for free, and allows them to gain 15 Influence with City-States for gifting these units.
 - The Patriots now receive +1 Production/Science to most defensive buildings.
 - Spy names have been added for the base scenario's factions.
@@ -954,8 +955,12 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Faction/City-State UBs:
 	- Atlas:
 		- Think Tank no longer adds a Production bonus towards buildings owned in the capital. Instead, it adds +2 of the respective yield to non-unique Great Improvements (+1 Water/Science to Citadels).
+	- Camelot Foundation:
+		- Constabulary now adds defense against spies.
 	- Defiance:
 		- Lawkeeper Office now replaces Defense Directorate instead of Town Hall, no longer has Administrator slots, gives a free Roller in addition to the Lawkeeper + Pre-War Turrets, and lets 5 units be maintenance free (instead of 3).
+	- Deseret Nation:
+		- Bishop's Storehouse updated to account for a new resource.
 	- The Harbingers:
 		- Austere Processing Hub no longer requires Census Chambers in every city, due to the espionage updates.
 	- Hexlock:
@@ -964,7 +969,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 		- Hexlock Chemical Company now grants Resupply to Personnel units just like the standard Food Processing Plant.
 		- Advanced Chemical Refinery has been deleted for balance reasons.
 	- New Afrika:
-		- Survival Program renamed to Collective Congress. Instead of aiding city growth, it adds 1 Local Happiness to all cities for every 8 population.
+		- Survival Program renamed to Collective Congress. Instead of adding Food and Growth yields to cities, it adds 1 Local Happiness for every 8 population in each of your cities and 1 of every yield except Happiness to worked Settlements.
 	- New Star:
 		- Gideon Scanner and Rally Station will now relocate to the new capital when the capital changes.
 	- The Patriots:
@@ -983,12 +988,23 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Hero of the Wastes buffed to gain an additional 50% Strength bonus on reaching the New Future era.
 - Mounted Ranged units (Skirmisher, Dragoon, Light Cavalry, Border Patrol, and replacements) are now their own unit type and mostly follow the same promotion tree as Siege and Helicopter units. They no longer use a fake Mounted unique.
 	- Also, the two Civilian units (Mounted Worker and Great Caravan) that used Mounted as a fake unit no longer do so (but still require Stables).
+- Multiple barbarian units have lost 2 or more of their free promotions (most of these nerfs are also applied to the DeCiv 2 fork):
+	- Bikers and Insurgents lose Skirmish, Forage and March
+	- Outlaws and Charros lose Guerilla Warfare I and Urban Warfare I
+	- Highwaymen and Robbers lose Skirmish, Guerilla Warfare I and Urban Warfare I
+	- Rebels lose Ambush, Forage and Urban Warfare I
+	- Irregulars lose Skirmish and Urban Warfare I
+	- Partisans lose Skirmish, Precision, Extended Range, and Urban Warfare I
 - Purge Robots are now their own unit type. They must still be "given" promotions and cannot earn them.
 - Seastead Vessel receives increased tile improvement construction speed.
 - SS Cockpit has been moved to a new tech, the same one as the Colony Ship Project.
 - Stalkers now start with the Prospector promotion instead of Forage, and their Strength buff at Rifling is increased to 25%.
 - Workers (but not Mounted/Mechanized Workers or CS Worker replacements) may now build water improvements (now that a resource that can spawn on Lakes has been introduced).
 - Work Boats may now build water improvements on non-resource tiles for human players.
+- Crimson Line UUs:
+	- War Tram and Armored Train's base movement reduced from 4 to 2.
+		- War Tram's bonus against infantry units increased to 50% to compensate. It now obsoletes at Railroads and upgrades to the Armored Train.
+		- Armored Train's bonus when attacking cities doubled. However, it now consumes Oil instead of Power.
 - Deadrock Clan UUs: Hitman loses Skirmish, but its Production cost is reduced to 70 and its ranged strength is increased to 32.
 - Defiance UUs: Lawkeepers are no longer limited to 1 per Civilization.
 - Harbinger UUs:
@@ -998,6 +1014,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **Promotion Adjustments**
 - Barrage and Resupply are now valid prerequisites for March, preserving Mounted Ranged units' access to that promotion.
 - Medic I and II are no longer accessible to Shooter or Mounted Ranged units.
+- Prospector buffed to grant 3 XP each time a unit with the promotion builds an improvement.
 
 **Policy Adjustments**
 - Expansionism:
@@ -1012,6 +1029,12 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- Transhumanism now adds a flat +12 Global Happiness instead of 33% reduction to Unhappiness in the capital.
 
 **Belief Adjustments**
+- Art of War starts at a flat 200 Faith per unit purchase (Standard speed), and the cost actually increases with the era (300 in Rebuilding, 400 in Industrial, 600 in Postmodern, 800 in Information, 1000 in New Future and Singularity) like it would in official Civ 5 and standard Unciv rulesets (and does in Rekmod) but unlike any other Faith purchase in DeCiv. This is as it should be if the belief is to be allowed to exist at all.
+- Blessed Green updated to account for Enclavers' Fortified Farm UI.
+- Funeral Rites no longer gives minor Culture yields for consuming Great People. Instead, it adds +2 Faith to all worked Great Improvements.
+- Harvest Festival updated to account for new resources.
+- Spiritual Research now adds Science yields instead of Culture yields.
+- Strength of the Earth updated to account for a new faction-specific improvement.
 - Works of Genius now increases GP generation by 25% instead of adding Faith to Great Improvements.
 
 **Improvement Adjustments**
@@ -1020,41 +1043,49 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Borehole nerfed to +3 base Production.
 - Crystal Refinery provides 3 copies of the consolidated Experimental Chemicals, and if built on Coal or Oil tiles it provides an additional copy of those resources.
 - Drydock nerfed slightly to lose +1 of its scaling Production and Science yields. Also, until such time as water improvements are no longer destroyed outright by pillaging, it is now unpillagable.
+- Fishing Boats may now be built either slowly (allowing the Work Boat to keep building improvements afterward) or instantly.
 - Manufactory nerfed to lose +2 of its scaling Production yields.
 - Mine nerfed to lose the second +1 Production boost at Railroads. Also, it cannot be built on resources it doesn't improve.
 - Nature preserve is now available one technological era earlier.
 - Pasture buffed to move its +1 Food gain to Ecology, but it now properly obsoletes at Genetics.
+- Tree plantation no longer has a tech requirement for building on Badlands or Hills.
 
 **Terrain Adjustments**
 - Mountains can now only have Artificial glaciers built on them, putting a stop to one particular Enclavers hijink. This might be changed later if additional Mountain-specific improvements are created.
+- Springs can now only have Water pumps built on them, as another screw you to the AI and its primitive sanity checks. (*Stop* wasting your Great Improvements on those tiles, dammit!) This change is also present in the DeCiv 2 fork.
 
 **Resource Adjustments**
 - As in Deciv 2, Power can no longer be traded. City-States are once again allowed to build the main Power Plant buildings.
 - Aluminum may now spawn on Permafrost.
+- Grain is now somewhat less common.
 - Horses may now spawn on flat Wasteland, but are rarer on that terrain.
 - Plankton is now a Bonus resource.
 - Salt now adds +1 Food to the tiles it spawns on.
 
-**New Faction**
-- Aztlan (Mexican, Aztec revivalist, Domination/Culture)
+**New Factions**
+- Aurelian Group (Pre-War Australian mining company, Science)
+- Aztlán (Mexican, Aztec revivalist, Domination/Culture)
+- The Caliphate (Arabic takeover of Germany, Domination/Religious)
 
 **New Buildings**
 - Community Center (Public School replacement for New Afrika, adds +2 Food/Happiness)
 - Community Garden (+2 Food (increases to +3 with Exotic Seeds), +25% GP generation, 1 Farmer slot, unlocks at Ecology, also added to Deciv 2 fork)
 - Frumentarii Camp (new Listening Post replacement for Crimson Legion, -33% spy theft rate, also added to Deciv 2 fork)
 - Holotraining Facility (standalone, +20 XP to new units trained in cities with one)
+- Private School (Public School replacement for Blackwarden, adds +2 Water along with another +2 Water for each active Scientist in the city, no maintenance cost)
 - Survival Program (now a Community Garden replacement for New Afrika, 4 Food vs. 2 and +10% growth)
 - Virtual Tabernacle (Megachurch replacement for Deseret Nation, adds Culture yields equal to its Faith yields, +100% religious pressure in its city)
 
 **New Wonders**
-- Joint Headquarters (Postmodern era national wonder, grants all Military units 15% more strength, requires building each of Armaments Production Line, Armor Production Line and Aerospace Facility in at least 4 cities)
+- Joint Headquarters (Postmodern era national wonder, grants all Military units 15% more strength, requires building each of Armaments Production Line, Armor Production Line, Aerospace Facility and Decryption Center in at least 4 cities)
 
 **New Standalone Units**
 - Automated Logistics Vehicle (Automated Armor, 325 production cost, 75 combat strength, 6 movement, 50% stronger when attacking infantry, 33% weaker when attacking cities, can move after attacking, no defensive terrain bonus, consumes Power)
 - Mirage Sniper (Shooter, 475 production cost, 85 combat strength, 90 ranged strength, 3 movement, 2 range + intercept range, no terrain penalties, invisible to non-adjacent units, 50% extra defense against other Ranged units, 3-in-4 chance to withdraw from melee, cannot spawn as Barbarian, requires a Holotraining Facility, consumes Encrypted Data and Power)
 
 **New Faction Units**
-- Nuke Cannon (standalone, Siege Nuke, unique to Proklyatyye, 600 production cost, 60 combat strength, 70 ranged strength, 2 movement, 3 range, nuke strength 1/blast radius 0, rough terrain penalty, costs 1 Uranium, can only have 1 at a time)
+- Nuke Cannon (standalone, Siege Nuke, unique to Proklyatyye, 600 production cost, 60 combat strength, 70 ranged strength, 2 movement, 3 range, nuke strength 2, blast radius 0, rough terrain penalty, costs 1 Uranium, can only have 3 at a time)
+- Stim Trooper (Standalone UU for Hexlock, 250 production cost, 60 combat strength, 3 movement, heals 20 damage on kill, consumes both Weapons and Experimental Chemicals, upgrades to Exo-Trooper)
 
 **New Barbarian Units**
 - Ghoul (weaker Mutant that can spawn more Ghouls when it kills a unit and cannot be captured)
@@ -1065,8 +1096,10 @@ Several of the following adjustments are based on what is planned for the Rebirt
 (I expect some of these to also be added to the "Deciv 2" fork)
 - Cactus (Luxury, spawns in flat Desert, improved by Farm but NOT Grassland, affected by Greenhouse)
 - Deepwater Fish (Bonus, spawns in Ocean, improved by Fishing Boats and Bioculture)
+- Maize (Bonus, spawns in flat Badlands/Desert, improved by Farm and Grassland, affected by Greenhouse)
 - Mercury (imported from Civ 6, Luxury, spawns in flat Wasteland, improved by Mine and Borehole)
 - Mutant Eel (Luxury, spawns in Coast/Ocean, improved by Fishing Boats and Bioculture)
+- Opal (Luxury, exclusive to Aurelian Group)
 
 **New Techs**
 - Astrogation (Information era, requires Avionics and Satellites, required for Future Tech and Colonization Victory)
@@ -1076,3 +1109,5 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **New Beliefs**
 - Cautionary Tales (Pantheon), adds +2 Faith to Libraries and +1 Happiness to Museums
+- Communion Centers (Follower), Worship Center adds: +1 Culture/Happiness, +2 Faith, +3 Water, +10% to city's total Water yields
+- Meeting Houses (Follower), Worship Center adds: +3 Production, +1 Culture, +2 Faith, +5% to city's total Production

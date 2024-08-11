@@ -403,6 +403,7 @@
 		"uniques": ["[20]% Food is carried over after population increases [in this city]",
 			"[+1 Food] [in this city] <with [Salt]>",
 			"[+1 Food] from [Grain] tiles [in this city] <in [Desert] tiles>",
+			"[+1 Food] from [Maize] tiles [in this city] <in [Desert] tiles>",
 			"[+1 Culture, +1 Faith] [in this city] <with [Scriptures]>",
 			"[-1 Production, -1 Faith] [in this city] <with [Alcohol]>",
 			"[-1 Production, -1 Faith] [in this city] <with [Narcotics]>",
@@ -643,7 +644,8 @@
 		"replaces": "Prison Camp",
 		"uniqueTo": "Camelot Foundation",
 		"maintenance": 1,
-		"uniques": ["Remove extra unhappiness from annexed cities",
+		"uniques": ["[-25]% enemy spy effectiveness [in this city]",
+			"Remove extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>",
 			"Only available <in cities without a [Listening Post]>",
 			"Destroyed when the city is captured"],
@@ -971,10 +973,10 @@
 		"requiredTech": "Munitions"
 	},
 
-	//Aztlan unique buildings
+	//Aztlán unique buildings
 	{
 		"name": "Plumed Serpent Pyramid",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"isWonder": true,
 		"culture": 1,
 		"cost": 0,
@@ -988,7 +990,7 @@
 	{
 		"name": "Temalacatl",
 		"replaces": "Monument",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"culture": 2,
 		"cost": 40,
 		"maintenance": 0,
@@ -998,7 +1000,7 @@
 	{
 		"name": "Calpulli",
 		"replaces": "Barracks",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"food": 1,
 		"production": 1,
 		"cost": 50,
@@ -1010,7 +1012,7 @@
 	{
 		"name": "Amoxcalli",
 		"replaces": "Library",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"hurryCostModifier": 25,
 		"requiredTech": "Writing",
 		"uniques": ["[+1 Science] per [3] population [in this city]",
@@ -1021,7 +1023,7 @@
 	{
 		"name": "Chinampa",
 		"replaces": "Greenhouse",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"food": 2,
 		"specialistSlots": {"Farmer": 1},
 		"maintenance": 1,
@@ -1029,6 +1031,7 @@
 		"requiredTech": "Botany",
 		"uniques": ["[+1 Food] from [Grain] tiles [in this city]",
 			"[+1 Food] from [Tubers] tiles [in this city]",
+			"[+1 Food] from [Maize] tiles [in this city]",
 			"[+1 Food] from [Cactus] tiles [in this city]",
 			"[+1 Food] from [{Fresh water} {Farm}] tiles [in this city]",
 			"[+1 Food] [in this city] <with [Exotic Seeds]>",
@@ -1038,7 +1041,7 @@
 	{
 		"name": "Tiyanquitzli",
 		"replaces": "Market",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"requiredTech": "Trade",
@@ -1049,7 +1052,7 @@
 	{
         "name": "Tlachtli",
         "replaces": "Stadium",
-        "uniqueTo": "Aztlan",
+        "uniqueTo": "Aztlán",
         "culture": 2,
         "happiness": 2,
         "maintenance": 1,
@@ -1062,7 +1065,7 @@
 	{
 		"name": "Teocalli",
 		"replaces": "Monastery",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"faith": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
@@ -1089,7 +1092,7 @@
 	{
 		"name": "Calmecac",
 		"replaces": "University",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"maintenance": 1,
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"science": 33},
@@ -1105,7 +1108,7 @@
 	{
 		"name": "Telpochcalli",
 		"replaces": "Public School",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"culture": 2,
 		"science": 2,
 		"maintenance": 1,
@@ -1118,7 +1121,7 @@
 	{
 		"name": "Cabildo",
 		"replaces": "Town Hall",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"culture": 2,
 		"specialistSlots": {"Administrator": 1},
 		"maintenance": 1,
@@ -1132,7 +1135,7 @@
 	{
 		"name": "Nuevo Templo Mayor",
 		"replaces": "Grand Monastery",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"isNationalWonder": true,
 		"culture": 3,
 		"faith": 8,
@@ -1153,7 +1156,7 @@
 	{
 		"name": "Congress of the Alliance",
 		"replaces": "Congress",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": ["[+1 Culture] per [4] population [in all cities]",
@@ -1167,7 +1170,7 @@
 	{
 		"name": "Council of Four",
 		"replaces": "Council",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": ["[+10]% growth [in all cities]",
@@ -1178,6 +1181,315 @@
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Congress of the Alliance]>",
 			"Destroyed when the city is captured"]
+	},
+
+	//Caliphate unique buildings
+	{
+		"name": "Tower of the Shuhada",
+		"uniqueTo": "The Caliphate",
+		"isWonder": true,
+		"culture": 1,
+		"cost": 0,
+		"uniques": [
+			"[4] units cost no maintenance",
+			"[+4] Unit Supply",
+			"Free [Mutawa] appears",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Food Store] [in this city]"
+		]
+	},
+	{
+		"name": "Revert Survivors",
+		"replaces": "Search for Survivors",
+		"uniqueTo": "The Caliphate",
+		"cost": 30,
+		"isNationalWonder": true,
+		"uniques": [
+			"[+50]% Production when constructing [Civilian] units [in this city]",
+			"Provides [4] [Slaves]",
+			"Free [Janissary] appears"
+		]
+	},
+	{
+		"name": "Kaserne",
+		"replaces": "Barracks",
+		"uniqueTo": "The Caliphate",
+		"faith": 1,
+		"cost": 50,
+		"hurryCostMultiplier": 25,
+		"maintenance": 1,
+		"uniques": ["New [Military] units start with [15] Experience [in this city]",
+			"Provides [1] [Slaves]",
+			"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Musalla",
+		"replaces": "Shrine",
+		"uniqueTo": "The Caliphate",
+		"production": 1,
+		"faith": 1,
+		"cost": 40,
+		"requiredTech": "Secrets of the Past",
+		"uniques": ["Hidden when religion is disabled",
+			"[+1 Production] [in this city] <when above [0] [Power]>"]
+	},
+	{
+		"name": "Houri Brothel",
+		"replaces": "Distillery",
+		"uniqueTo": "The Caliphate",
+		"happiness": 2,
+		"maintenance": 1,
+		"uniques": ["Provides [2] [Slaves]", "[+10]% growth [in this city]"],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Esir",
+		"replaces": "Town Hall",
+		"uniqueTo": "The Caliphate",
+		"percentStatBonus": {"food": 10},
+		"specialistSlots": {"Administrator": 1},
+		"culture": 1,
+		"happiness": 1,
+		"uniques": [
+			"[+50]% Production when constructing [Worker] units [in this city]",
+			"[+2 Production] [in this city] <when above [0] [Slaves]>",
+			"Only available <with [Slaves]>",
+			"Consumes [1] [Slaves]"
+		],
+		"requiredTech": "Trade"
+	},
+	{
+		"name": "Exotic Bazaar",
+		"replaces": "Public Works Administration",
+		"uniqueTo": "The Caliphate",
+		"percentageStatBonus": {"gold": 10},
+		"cost": 150,
+		"isNationalWonder": true,
+		"uniques": [
+			"Provides 1 extra copy of each improved luxury resource near this City",
+			"Provides [4] [Slaves]",
+			"[+1 Gold] <for every [1] [Slaves]>",
+			"Only available <if [Esir] is constructed in at least [4] of [Your] cities>",
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Mosque",
+		"replaces": "Monastery",
+		"uniqueTo": "The Caliphate",
+		"faith": 3,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Education",
+		"uniques": ["Only available <in cities with a [Musalla]>",
+			"Hidden when religion is disabled",
+			"[+34]% Natural religion spread [in this city]"]
+	},
+	{
+		"name": "Great Mosque",
+		"replaces": "Grand Monastery",
+		"uniqueTo": "The Caliphate",
+		"isNationalWonder": true,
+		"culture": 1,
+		"faith": 10,
+		"cost": 125,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"Only available <if [Mosque] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city",
+			"Can only be built <in [Holy] cities>",
+			"Only available <after adopting [Theocracy]>",
+			"Hidden when religion is disabled",
+			"All newly-trained [Philosopher] units [in this city] receive the [Devout] promotion",
+			"All newly-trained [Great Sage] units [in this city] receive the [Devout] promotion",
+			"[-50]% maintenance costs <for [Enslaved] units>",
+			"[+2 Gold, +2 Happiness] [in all cities with a garrison]"
+		]
+	},
+	{
+		"name": "House of Submission",
+		"replaces": "Congress",
+		"uniqueTo": "The Caliphate",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+1 Production, +1 Faith] per [4] population [in all cities]",
+			"[-10]% Unhappiness from [Followers of the Majority Religion] [in cities following our religion]",
+			"Only available <if [Revert Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [House of War]>",
+			"Destroyed when the city is captured"]
+	},
+	{
+		"name": "House of War",
+		"replaces": "Council",
+		"uniqueTo": "The Caliphate",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+10]% growth [in all cities]",
+			"[+10]% Production when constructing [Military] units [in all cities]",
+			"May buy [Enslaved] units with [Faith] for [2] times their normal Production cost",
+			"Only available <if [Revert Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [House of Submission]>",
+			"Destroyed when the city is captured"]
+	},
+
+	//Aurelian Group unique buildings
+	{
+		"name": "Aurelia Office Tower",
+		"isWonder": true,
+		"uniqueTo": "Aurelian Group",
+		"production": 1,
+		"gold": 1,
+		"cost": 0,
+		"uniques": [
+			"[+10]% Production when constructing [Personnel] units [in this city]",
+			"Provides [2] [Weapons]",
+			"Free [Digger] appears",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Dugout] [in this city]"
+		]
+	},
+	{
+		"name": "Dugout",
+		"replaces": "Food Store",
+		"uniqueTo": "Aurelian Group",
+		"cityHealth": 25,
+		"cost": 10,
+		"hurryCostModifier": -25,
+		"uniques": [
+			"[20]% Food is carried over after population increases [in this city]",
+			"[+1 Food] [in this city] <with [Salt]>",
+			"[+10]% growth [in this city] <with [Salt]>",
+			"[-1 Production, +1 Gold] [in this city] <with [Alcohol]>",
+			"[-1 Production, +1 Gold] [in this city] <with [Narcotics]>",
+			"[-1 Production, -1 Food, +1 Gold] [in this city] <with [Refined Narcotics]>"
+		]
+	},
+	{
+		"name": "Warden's Court",
+		"replaces": "Prison Camp",
+		"uniqueTo": "Aurelian Group",
+		"production": -2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Remove extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>",
+			"Only available <in cities without a [Listening Post]>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Opal Fields",
+		"uniqueTo": "Aurelian Group",
+		"maintenance": 2,
+		"hurryCostModifier": 20,
+		"uniques": [
+			"[+1 Production] from [{non-[resource]} {Mine}] tiles [in this city]",
+			"[+1 Production] from [{non-[resource]} {Armed Mining Camp}] tiles [in this city]",
+			"[+1 Production] from [{non-[resource]} {Borehole}] tiles [in this city]",
+			"Provides [1] [Opal]",
+			"Cost increases by [30] when built"
+		],
+		"requiredTech": "Mining"
+	},
+	{
+		"name": "Mining Tunnels",
+		"uniqueTo": "Aurelian Group",
+		"maintenance": 1,
+		"hurryCostModifier": 20,
+		"uniques": ["[+2 Production] from [Mountain] tiles [in this city]",
+			"[+2 Production] from [Tunneled Mountain] tiles [in this city]",
+			"Must have an owned [Tunneled Mountain] within [3] tiles"],
+		"requiredTech": "Engineering"
+	},
+	{
+		"name": "Geological Survey Center",
+		"replaces": "National College",
+		"uniqueTo": "Aurelian Group",
+		"isNationalWonder": true,
+		"science": 2,
+		"culture": 1,
+		"percentStatBonus": {"science": 33},
+		"cost": 125,
+		"uniques": [
+			"[+1 Science] from [Strategic resource] tiles [in all cities]",
+			"[+1 Science] from [Mountain] tiles [in all cities]",
+			"[+1 Science] from [Tunneled Mountain] tiles [in all cities]",
+			"Only available <if [Library] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "School of Mines",
+		"replaces": "University",
+		"uniqueTo": "Aurelian Group",
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 1},
+		"uniques": [
+			"[+1 Science] from [Mine] tiles [in this city]",
+			"[+1 Science] from [Borehole] tiles [in this city]",
+			"[+1 Science] from [Armed Mining Camp] tiles [in this city]",
+			"[+1 Science] from [Mountain] tiles [in this city]",
+			"[+1 Science] from [Tunneled Mountain] tiles [in this city]",
+			"[+2 Science] [in this city] <when above [0] [Power]>",
+			"Only available <in cities with a [Library]>"
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Trades Hall",
+		"replaces": "Congress",
+		"uniqueTo": "Aurelian Group",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Gold, +1 Culture] per [4] population [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Minerals Council]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Minerals Council",
+		"replaces": "Council",
+		"uniqueTo": "Aurelian Group",
+		"cost": 150,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+5]% Production when constructing [All] buildings [in all cities]",
+			"[+10]% [Production] from every [School of Mines]",
+			"Double quantity of [Coal] produced",
+			"Double quantity of [Aluminum] produced",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Trades Hall]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Mineral Enricher",
+		"replaces": "Plastics Factory",
+		"uniqueTo": "Aurelian Group",
+		"production": 2,
+		"percentStatBonus": {"production": 5},
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[+2 Production, +1 Science] from [Mountain] tiles [in this city]",
+			"[+2 Production, +1 Science] from [Tunneled Mountain] tiles [in this city]",
+			"Must have an owned [Tunneled Mountain] within [3] tiles"
+		],
+		"requiredTech": "Replaceable Parts"
 	},
 
 	//Adjusted buildings and wonders
@@ -2619,6 +2931,7 @@
 		"uniques": [
 			"[+1 Food] from [Tubers] tiles [in this city]",
 			"[+1 Food] from [Grain] tiles [in this city]",
+			"[+1 Food] from [Maize] tiles [in this city]",
 			"[+1 Food] from [Cactus] tiles [in this city]",
 			"[+1 Food] [in this city] <with [Exotic Seeds]>"
 		],
@@ -3861,6 +4174,20 @@
 		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
 	},
 	{
+		"name": "Private School",
+		"replaces": "Public School",
+		"uniqueTo": "Blackwarden",
+		"gold": 2,
+		"science": 2,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Science] per [2] population [in this city] <after discovering [Networking]>",
+			"[+1 Science] [in this city] <when above [0] [Power]>",
+			"[+2 Gold] from every [Scientist] <in this city>",
+			"Only available <after adopting [Privatization]>",
+			"Only available <in cities with a [Library]>"],
+		"requiredTech": "Civil Service"
+	},
+	{
 		"name": "Pithouse",
 		"replaces": "Food Store",
 		"uniqueTo": "Children of Rust",
@@ -3896,6 +4223,7 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Tubers] tiles [in this city]",
 			"[+1 Food] from [Grain] tiles [in this city]",
+			"[+1 Food] from [Maize] tiles [in this city]",
 			"[+1 Food] from [Cactus] tiles [in this city]",
 			"[+1 Food] from [Cattle] tiles [in this city]",
 			"[+1 Food] from [Goats] tiles [in this city]",
@@ -4068,6 +4396,7 @@
 		"specialistSlots": {"Farmer": 1},
 		"uniques": ["[+1 Food] from [Grain] tiles [in this city]",
 			"[+1 Food] from [Tubers] tiles [in this city]",
+			"[+1 Food] from [Maize] tiles [in this city]",
 			"[+1 Food] from [Cactus] tiles [in this city]",
 			"[+1 Food] from every [Farmer] <in this city>",
 			"[+1 Culture] from [Narcotics farm] tiles [in this city]",
@@ -4329,7 +4658,7 @@
 		"cost": 40,
 		"maintenance": 0,
 		"hurryCostModifier": 0,
-		"uniques": ["[All] Units adjacent to this city heal [+10] HP per turn when healing",
+		"uniques": ["[All] Units adjacent to this city heal [+10] HP per turn when healing <in this city>",
 			"[+15]% Production when constructing [Support] units [in this city]",
 			"[+1 Happiness] [in this city] <after adopting [Voting Rights]>",
 			"Destroyed when the city is captured"]
@@ -4454,6 +4783,7 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Tubers] tiles [in this city]",
 			"[+1 Food] from [Grain] tiles [in this city]",
+			"[+1 Food] from [Maize] tiles [in this city]",
 			"[+1 Food] from [Cactus] tiles [in this city]",
 			"[+1 Food] [in this city] <with [Exotic Seeds]>",
 			"[+1 Production] from every [Farmer] <in this city>"],
@@ -4488,7 +4818,7 @@
 			"Cannot be hurried"],
 		"civilopediaText": [
 			{
-				"text": "Completing this project allows Proklyatyye to produce Super Mutants."
+				"text": "This project allows Proklyatyye to produce Super Mutants and Siege Nukes."
 			}
 		]
 	},
@@ -5311,6 +5641,25 @@
 		"faith": 1,
 		"happiness": 1,
 		"specialistSlots": {"Administrator": 1},
+		"uniques": ["Worship Center", "Unbuildable", "Hidden when religion is disabled"]
+	},
+	{
+		"name": "Communion",
+		"cost": 0,
+		"culture": 1,
+		"faith": 2,
+		"happiness": 1,
+		"gold": 3,
+		"percentStatBonus": {"gold": 10},
+		"uniques": ["Worship Center", "Unbuildable", "Hidden when religion is disabled"]
+	},
+	{
+		"name": "Meeting House",
+		"cost": 0,
+		"production": 3,
+		"culture": 1,
+		"faith": 2,
+		"percentStatBonus": {"production": 5},
 		"uniques": ["Worship Center", "Unbuildable", "Hidden when religion is disabled"]
 	}
 ]

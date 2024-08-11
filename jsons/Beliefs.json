@@ -15,6 +15,17 @@
 		]
 	},
 	{
+		"name": "Blessed Green",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Culture] from every [Tree plantation]",
+			"[+1 Culture] from every [Farm]",
+			"[+1 Culture] from every [Grassland]",
+			"[+1 Culture] from every [Factory farm]",
+			"[+1 Culture] from every [Fortified Farm]"
+		]
+	},
+	{
 		"name": "Blessed Steel",
 		"type": "Pantheon",
 		"uniques": [
@@ -92,7 +103,9 @@
 		"type": "Pantheon",
 		"uniques": [
 			"[+1 Faith] from every [{Grain} {resource}]",
-			"[+1 Faith] from every [{Tubers} {resource}]"
+			"[+1 Faith] from every [{Tubers} {resource}]",
+			"[+1 Faith] from every [{Maize} {resource}]",
+			"[+1 Faith] from every [{Cactus} {resource}]"
 		]
 	},
 	{
@@ -183,10 +196,10 @@
 		"name": "Spiritual Research",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Culture, +1 Faith] from every [{Artifacts} {resource}]",
-			"[+1 Culture, +1 Faith] from every [{Books} {resource}]",
-			"[+1 Culture, +1 Faith] from every [{Data} {resource}]",
-			"[+1 Culture, +1 Faith] from every [{Encrypted Data} {resource}]"
+			"[+1 Science, +1 Faith] from every [{Artifacts} {resource}]",
+			"[+1 Science, +1 Faith] from every [{Books} {resource}]",
+			"[+1 Science, +1 Faith] from every [{Data} {resource}]",
+			"[+1 Science, +1 Faith] from every [{Encrypted Data} {resource}]"
 		]
 	},
 	{
@@ -194,6 +207,7 @@
 		"type": "Pantheon",
 		"uniques": [
 			"[+1 Faith] from every [Mine] <within [2] tiles of a [City center]>",
+			"[+1 Faith] from every [Armed Mining Camp] <within [2] tiles of a [City center]>",
 			"[+1 Faith] from every [Borehole] <within [2] tiles of a [City center]>",
 			"[+1 Faith] from every [Manufactory]"
 		]
@@ -212,6 +226,11 @@
 		"name": "Cathedrals",
 		"type": "Follower",
 		"uniques": ["May buy [Cathedral] buildings for [150] [Faith] [in cities following this religion]"]
+	},
+	{
+		"name": "Communion Centers",
+		"type": "Follower",
+		"uniques": ["May buy [Communion] buildings with [Faith] [in cities following this religion]"]
 	},
 	{
 		"name": "Faith Healers",
@@ -268,6 +287,11 @@
 			"Only available <before adopting [Feast of Flesh]>",
 			"Only available <before adopting [Feed the Faithful]>",
 			"Only available <before adopting [Obey the Elders]>"]
+	},
+	{
+		"name": "Meeting Houses",
+		"type": "Follower",
+		"uniques": ["May buy [Meeting House] buildings with [Faith] [in cities following this religion]"]
 	},
 	{
 		"name": "Obey the Elders",
@@ -345,6 +369,14 @@
 
 //Enhancer
 	{
+		"name": "Funeral Rites",
+		"type": "Enhancer",
+		"uniques": [
+			"Gain [100] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>",
+			"[+2 Faith] from every [Great Improvement]"
+		]
+	},
+	{
 		"name": "Missionary Zeal",
 		"type": "Enhancer",
 		"uniques": ["[Faith] cost of purchasing [Philosopher] units [-25]%",
@@ -416,8 +448,16 @@
 	{
 		"name": "Art of War",
 		"type": "Enhancer",
-		"uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost",
-			"Only available <after adopting [Exodus of the Evangelists]>"]
+		"uniques": [
+			"Comment [May buy Military Land units with Faith in cities following this religion (cost increases with era)]",
+			"May buy [{Military} {Land}] units for [200] [Faith] [in cities following this religion] <before the [Rebuilding era]> <hidden from users>",
+			"May buy [{Military} {Land}] units for [300] [Faith] [in cities following this religion] <during the [Rebuilding era]> <hidden from users>",
+			"May buy [{Military} {Land}] units for [400] [Faith] [in cities following this religion] <during the [Industrial era]> <hidden from users>",
+			"May buy [{Military} {Land}] units for [600] [Faith] [in cities following this religion] <during the [Postmodern era]> <hidden from users>",
+			"May buy [{Military} {Land}] units for [800] [Faith] [in cities following this religion] <during the [Information era]> <hidden from users>",
+			"May buy [{Military} {Land}] units for [1000] [Faith] [in cities following this religion] <starting from the [New Future era]> <hidden from users>",
+			"Only available <after adopting [Exodus of the Evangelists]>"
+		]
 	},
 	{
 		"name": "Atomic Judgment",

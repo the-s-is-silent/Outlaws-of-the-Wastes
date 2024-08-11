@@ -315,7 +315,7 @@
 			"[+33]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs cities>",
 			"Only available <if [Wasteland Surveillance Initiative] is constructed>",
-			"Only available <in cities with a [Stable]>",
+			"Can only be built <in cities with a [Stable]>",
 			"Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
@@ -337,7 +337,7 @@
 			"[+25]% Strength <when fighting in [Friendly Land] tiles>",
 			"[-25]% Strength <when fighting in [Foreign Land] tiles>",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"Only available <if [Stable] is constructed>",
+			"Can only be built <in cities with a [Stable]>",
 			"Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
@@ -739,7 +739,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
-			"Only available <if [Riding Arena] is constructed>"],
+			"Can only be built <in cities with a [Riding Arena]>"],
 		"attackSound": "horse"
 	},
 	{
@@ -800,7 +800,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
-			"Only available <if [Riding Arena] is constructed>"],
+			"Can only be built <in cities with a [Riding Arena]>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -823,7 +823,7 @@
 			"[+25]% Strength <vs [Low Tech] units> <when attacking>",
 			"[+25]% Strength <vs [Personnel] units> <when attacking>",
 			"[+25]% Strength <when defending>",
-			"Only available <if [Riding Arena] is constructed>"],
+			"Can only be built <in cities with a [Riding Arena]>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -865,8 +865,7 @@
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence",
 			"Can instantly construct a [Wasteland Station] improvement <by consuming this unit>",
 			"Is part of Great Person group [Merchant]", "Great Person - [Gold]",
-			"Only available <if [Harbinger Manege] is constructed>",
-			"Only available <in cities with a [Contract with Survivors]>",
+			"Can only be built <in cities with a [Contract with Survivors]>",
 			"Requires at least [5] population",
 			"Cannot be purchased"
 		]
@@ -1026,14 +1025,14 @@
 		"unitType": "Armor",
 		"uniqueTo": "Crimson Line",
 		"replaces": "Attack Vehicle",
-		"movement": 4,
+		"movement": 2,
 		"strength": 30,
 		"cost": 70,
 		"requiredTech": "Machinery",
-		"upgradesTo": "Armored Car",
-		"obsoleteTech": "Replaceable Parts",
-		"uniques": ["[+20]% Strength <vs [Low Tech] units>",
-			"[+20]% Strength <vs [Personnel] units>",
+		"upgradesTo": "Armored Train",
+		"obsoleteTech": "Railroads",
+		"uniques": ["[+50]% Strength <vs [Low Tech] units>",
+			"[+50]% Strength <vs [Personnel] units>",
 			"[-33]% Strength <vs cities>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
@@ -1045,7 +1044,7 @@
 		"name": "Armored Train",
 		"unitType": "Armor",
 		"uniqueTo": "Crimson Line",
-		"movement": 4,
+		"movement": 2,
 		"strength": 55,
 		"cost": 225,
 		"requiredTech": "Railroads",
@@ -1053,12 +1052,12 @@
 		"upgradesTo": "Modern Armor",
 		"uniques": ["[+33]% Strength <vs [Low Tech] units> <when attacking>",
 			"[+33]% Strength <vs [Personnel] units> <when attacking>",
-			"[+100]% Strength <vs cities> <when attacking>",
+			"[+200]% Strength <vs cities> <when attacking>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[+2] Movement <in [Railroad] tiles>",
 			"Only available <if [Factory] is constructed>",
-			"Consumes [1] [Power]"],
+			"Consumes [1] [Oil]"],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
 	},
@@ -1128,11 +1127,11 @@
 		"attackSound": "shot"
 	},
 
-	//Aztlan unique units
+	//Aztlán unique units
 	{
 		"name": "Tlacotin",
 		"replaces": "Worker",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 70,
@@ -1148,7 +1147,7 @@
 	{
 		"name": "Jaguar",
 		"unitType": "Scrapper",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"replaces": "Spearman",
 		"movement": 2,
 		"strength": 22,
@@ -1158,39 +1157,223 @@
 		"hurryCostModifier": 20,
 		"uniques": ["Low Tech", "[+50]% Strength <vs [Low Tech] units>",
 			"[+25]% Strength <vs [Barbarian] units>",
-			"This Unit gains the [Valor of Aztlan] promotion <upon defeating a [Military] unit>"],
+			"This Unit gains the [Valor of Aztlán] promotion <upon defeating a [Military] unit>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Eagle Warrior",
 		"unitType": "Scrapper",
 		"replaces": "Machete",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"movement": 2,
 		"strength": 28,
 		"cost": 50,
 		"requiredTech": "Steel",
 		"obsoleteTech": "Rifling",
-		"promotions": ["Valor of Aztlan"],
+		"promotions": ["Valor of Aztlán"],
 		"uniques": ["Low Tech", "[+50]% Strength <vs [Low Tech] units>",
 			"[+25]% Strength <vs [Barbarian] units>",
-			"Can upgrade to [Militia] <for [non-[Aztlan]]> <hidden from users>",
-			"Can upgrade to [Shorn One] <for [Aztlan]> <hidden from users>"],
+			"Can upgrade to [Militia] <for [non-[Aztlán]]> <hidden from users>",
+			"Can upgrade to [Shorn One] <for [Aztlán]> <hidden from users>"],
 		"attackSound": "metalhit"
 	},
 	{
 		"name": "Shorn One",
 		"unitType": "Scrapper",
-		"uniqueTo": "Aztlan",
+		"uniqueTo": "Aztlán",
 		"movement": 2,
 		"strength": 40,
 		"cost": 100,
 		"requiredTech": "Civil Service",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
-		"promotions": ["Fury of Aztlan"],
+		"promotions": ["Fury of Aztlán"],
 		"uniques": ["Low Tech"],
 		"attackSound": "metalhit"
+	},
+
+	//Caliphate unique units
+	{
+		"name": "Mutawa",
+		"replaces": "Censor",
+		"uniqueTo": "The Caliphate",
+		"unitType": "Shooter",
+		"range": 1,
+		"movement": 3,
+		"strength": 30,
+		"rangedStrength": 24,
+		"cost": 60,
+		"upgradesTo": "Rifleman",
+		"uniques": ["Personnel",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
+			"Can move after attacking",
+			"Heals [25] damage if it kills a unit",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <[2] times> <after which this unit is consumed>",
+			"[+1] Sight",
+			"Unbuildable",
+			"Religious Unit",
+			"Hidden when religion is disabled"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Janissary",
+		"unitType": "Scrapper",
+		"uniqueTo": "The Caliphate",
+		"replaces": "Conscript",
+		"movement": 2,
+		"strength": 36,
+		"cost": 60,
+		"upgradesTo": "NBC Conscript",
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Combined Arms",
+		"uniques": [
+			"Personnel",
+			"Enslaved",
+			"Earn [10]% of killed [Military] unit's [Cost] as [Faith]",
+			"[-25]% construction time for [All] improvements",
+			"Can build [All Road] improvements on tiles",
+			"Can build [Fort] improvements on tiles",
+			"Can build [Trench] improvements on tiles",
+			"Only available <with [Slaves]>",
+			"Consumes [1] [Slaves]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Akindji",
+		"replaces": "Skirmisher",
+		"uniqueTo": "The Caliphate",
+		"unitType": "Mounted Ranged",
+		"range": 1,
+		"movement": 4,
+		"strength": 20,
+		"rangedStrength": 20,
+		"cost": 80,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Dragoon",
+		"uniques": [
+			"Low Tech",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"Earn [10]% of the damage done to [All] units as [Gold]",
+			"[+33]% Strength <vs [Low Tech] units>",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"No movement cost to pillage",
+			"Can only be built <in cities with a [Stable]>"
+		],
+		"promotions": ["Raider", "Reconnaissance I"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Bashi-bazouk",
+		"replaces": "Dragoon",
+		"uniqueTo": "The Caliphate",
+		"unitType": "Mounted Ranged",
+		"range": 1,
+		"movement": 4,
+		"strength": 33,
+		"rangedStrength": 28,
+		"interceptRange": 1,
+		"cost": 90,
+		"requiredTech": "Redomestication",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Light Cavalry",
+		"uniques": [
+			"Personnel",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"Earn [10]% of the damage done to [All] units as [Gold]",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"No movement cost to pillage",
+			"Can only be built <in cities with a [Stable]>",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions": ["Raider", "Reconnaissance I"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
+		"name": "Hamidiye",
+		"replaces": "Light Cavalry",
+		"uniqueTo": "The Caliphate",
+		"unitType": "Mounted Ranged",
+		"range": 1,
+		"movement": 5,
+		"strength": 40,
+		"rangedStrength": 35,
+		"interceptRange": 1,
+		"cost": 155,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Helicopter",
+		"uniques": [
+			"Personnel",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"Earn [20]% of the damage done to [All] units as [Gold]",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"No movement cost to pillage",
+			"Can only be built <in cities with a [Stable]>"
+		],
+		"promotions": ["Raider", "Reconnaissance I"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
+		"name": "WMD Defense Janissary",
+		"unitType": "Scrapper",
+		"uniqueTo": "The Caliphate",
+		"replaces": "NBC Conscript",
+		"movement": 2,
+		"strength": 50,
+		"interceptRange": 1,
+		"cost": 180,
+		"requiredTech": "Combined Arms",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Enslaved",
+			"Earn [25]% of killed [Military] unit's [Cost] as [Faith]",
+			"Only available <if [Factory] is constructed>",
+			"[-25]% construction time for [All] improvements",
+			"Can build [All Road] improvements on tiles",
+			"Can build [Fort] improvements on tiles",
+			"Can build [Trench] improvements on tiles",
+			"Only available <with [Slaves]>",
+			"Consumes [1] [Slaves]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Gas Mask"],
+		"attackSound": "machinegun"
+	},
+
+	//Aurelian Group unique units
+	{
+		"name": "Digger",
+		"uniqueTo": "Aurelian Group",
+		"replaces": "Militia",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 36,
+		"cost": 55,
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Soldier",
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]",
+			"Can pass through impassable tiles",
+			"Can build [All Road] improvements on tiles",
+			"Can build [Fort] improvements on tiles",
+			"Can build [Trench] improvements on tiles",
+			"Can build [Armed Mining Camp] improvements on tiles",
+			"Turn this tile into a [Tunneled Mountain] tile <by consuming this unit> <in [Mountain] tiles>"
+		],
+		"promotions": ["Entrench"],
+		"attackSound": "shot"
 	},
 
 	//Siege units
@@ -1265,6 +1448,28 @@
 		"attackSound": "nuke"
 	},
 
+	//Hexlock unique units
+	{
+		"name": "Stim Trooper",
+		"unitType": "Scrapper",
+		"uniqueTo": "Hexlock",
+		"movement": 3,
+		"strength": 60,
+		"cost": 250,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Exo-Trooper",
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]",
+			"Instantly consumes [1] [Experimental Chemicals]",
+			"Heals [20] damage if it kills a unit",
+			"Can only be built <in cities with a [Hexlock Chemical Company]>",
+			"Requires at least [999] population <when below [1] [Experimental Chemicals]>"
+		],
+		"promotions": ["Gas Mask"],
+		"attackSound": "machinegun"
+	},
+
 	//Proklyatyye unique units
 	{
 		"name": "Super Mutant",
@@ -1295,13 +1500,13 @@
 		"requiredTech": "Nuclear Fission",
 		"uniques": [
 			"Consumes [1] [Uranium]",
-			"Nuclear weapon of Strength [1]",
+			"Nuclear weapon of Strength [2]",
 			"Blast radius [0]",
 			"No defensive terrain bonus",
 			"Rough terrain penalty",
 			"Only available <if [Atomgrad Project] is constructed>",
 			"Cannot be purchased",
-			"Limited to [1] per Civilization"
+			"Limited to [3] per Civilization"
 		],
 		"promotions": ["Artillery"],
 		"attackSound": "nuke"
@@ -1795,7 +2000,7 @@
 		"uniques": [
 			"Can build [Land] improvements on tiles",
 			"Withdraws before melee combat <with [50]% chance>",
-			"Only available <if [Stable] is constructed>",
+			"Can only be built <in cities with a [Stable]>",
 			"Automation is a primary action"
 		],
 		"cost": 130
@@ -1833,7 +2038,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
-			"Only available <if [Stable] is constructed>"
+			"Can only be built <in cities with a [Stable]>"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
@@ -1857,7 +2062,7 @@
 			"[+50]% Strength <vs [Low Tech] units>",
 			"[-25]% Strength <vs cities> <when attacking>",
 			"Only available <if [Clubhouse] is constructed>",
-			"Only available <if [Stable] is constructed>"
+			"Can only be built <in cities with a [Stable]>"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "horse",
@@ -1882,7 +2087,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking"
 		],
-		"promotions": ["Forage", "Raider", "Skirmish", "March"],
+		"promotions": ["Raider"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -1901,7 +2106,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"Only available <if [Stable] is constructed>",
+			"Can only be built <in cities with a [Stable]>",
 			"Consumes [1] [Weapons]"
 		],
 		"hurryCostModifier": 20,
@@ -1925,7 +2130,7 @@
 			"Can move after attacking",
 			"[-33]% Strength <vs cities> <when attacking>"
 		],
-		"promotions": ["Forage", "Raider", "Entrench", "Guerilla Warfare I", "Urban Warfare I", "Ambush"],
+		"promotions": ["Forage", "Raider", "Entrench", "Ambush"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
@@ -1943,7 +2148,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"Only available <if [Stable] is constructed>"
+			"Can only be built <in cities with a [Stable]>"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
@@ -1964,7 +2169,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"Only available <if [Stable] is constructed>"
+			"Can only be built <in cities with a [Stable]>"
 		],
 		"promotions": ["Pursuit"],
 		"hurryCostModifier": 20,
@@ -1987,7 +2192,7 @@
 			"Can move after attacking",
 			"[-33]% Strength <vs cities> <when attacking>"
 		],
-		"promotions": ["Forage", "Raider", "Entrench", "Guerilla Warfare I", "Urban Warfare I", "Ambush"],
+		"promotions": ["Forage", "Raider", "Entrench", "Ambush"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
@@ -2008,7 +2213,7 @@
 			"Can move after attacking",
 			"[+33]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"Only available <if [Stable] is constructed>"
+			"Can only be built <in cities with a [Stable]>"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
@@ -2032,7 +2237,7 @@
 			"Can move after attacking",
 			"[+33]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"Only available <if [Stable] is constructed>",
+			"Can only be built <in cities with a [Stable]>",
 			"Consumes [1] [Slaves]"
 		],
 		"hurryCostModifier": 20,
@@ -2056,7 +2261,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"Only available <if [Stable] is constructed>",
+			"Can only be built <in cities with a [Stable]>",
 			"Consumes [1] [Weapons]"
 		],
 		"hurryCostModifier": 20,
@@ -2084,11 +2289,8 @@
 			"[-33]% Strength <vs cities> <when attacking>"
 		],
 		"promotions": [
-			"Skirmish",
 			"Raider",
-			"Entrench",
-			"Guerilla Warfare I",
-			"Urban Warfare I"
+			"Entrench"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
@@ -2109,7 +2311,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"Only available <if [Stable] is constructed>"
+			"Can only be built <in cities with a [Stable]>"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
@@ -2134,11 +2336,8 @@
 			"[-33]% Strength <vs cities> <when attacking>"
 		],
 		"promotions": [
-			"Skirmish",
 			"Raider",
-			"Entrench",
-			"Guerilla Warfare I",
-			"Urban Warfare I"
+			"Entrench"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
@@ -2428,13 +2627,11 @@
 		"hurryCostModifier": 20,
 		"uniques": ["Personnel"],
 		"promotions": [
-			"Skirmish",
 			"Raider",
 			"Entrench",
 			"Forage",
 			"Guerilla Warfare I",
-			"Urban Warfare I",
-			"March"
+			"Urban Warfare I"
 		],
 		"attackSound": "machinegun"
 	},
@@ -2477,13 +2674,11 @@
 			"[-20]% Strength <vs [Armor] units>"
 		],
 		"promotions": [
-			"Skirmish",
 			"Raider",
 			"Entrench",
-			"Extended Range",
+			"Forage",
 			"Guerilla Warfare I",
-			"Urban Warfare I",
-			"Precision"
+			"Urban Warfare I"
 		],
 		"attackSound": "shot"
 	},
@@ -3220,6 +3415,7 @@
 		"interceptRange": 1,
 		"cost": 60,
 		"requiredTech": "Engineering",
+		"obsoleteTech": "Plastics",
 		"upgradesTo": "NBC Infantry",
 		"promotions": ["Raider", "Gas Mask", "Forage", "Urban Warfare I"],
 		"uniques": ["Personnel", "[+25]% Strength <after discovering [Rifling]>"],

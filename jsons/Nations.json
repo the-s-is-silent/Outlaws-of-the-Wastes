@@ -22,7 +22,7 @@
 
 		"outerColor": [191, 128, 6],
 		"innerColor": [252, 255, 218],
-		"style": "Corporate",
+		"style": "Deseret",
 		"uniqueName": "Blood of the Prophets",
 		"uniques": ["[-25]% Faith cost of generating Great Prophet equivalents",
 			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
@@ -166,9 +166,9 @@
 		"spyNames": ["Korbut", "Lesnitsky", "Nastya", "Pavel", "Dmitri", "Anatoly", "Irina", "Ramilya", "Grigory", "Igor"]
 	},
 	{
-		"name": "Aztlan",
-		"leaderName": "Yesenia Aztlanl",
-		"adjective": ["Aztlaner"],
+		"name": "Aztlán",
+		"leaderName": "Yesenia Aztlánl",
+		"adjective": ["Aztláner"],
 		"preferredVictoryType": "Domination",
 		"personality": "Great Speaker",
 		"favoredReligion": "Order of Tlaloc",
@@ -178,14 +178,14 @@
 		"declaringWar": "Let the red flood rise and spread, drowning everything in its path!",
 		"attacked": "You mean to subjugate us like the conquistadors, or worse. But I won't let that dark future come to pass. Now die!",
 		"defeated": "I only ever did what was necessary for my people to survive. But it wasn't enough...",
-		"introduction": "I am the Great Speaker Yesenia, daughter of the Lifebringer who reestablished the mighty nation of Aztlan, and the savior of its people. I wonder, will you sacrifice as much as I have...?",
+		"introduction": "I am the Great Speaker Yesenia, daughter of the Lifebringer who reestablished the mighty nation of Aztlán, and the savior of its people. I wonder, will you sacrifice as much as I have...?",
 		"neutralHello": "Welcome.",
 		"hateHello": "What are you after now?",
 		"tradeRequest": "The consequences for refusing this deal will be quite severe.",
 
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 255, 255],
-		"style": "Tribal",
+		"style": "Aztlán",
 		"uniqueName": "Resurgence Under the Sixth Sun",
 		"uniques": ["[+30]% Strength <vs [City-States]>",
 			"Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
@@ -195,6 +195,82 @@
 			"Ecatepec", "Mazatlán", "Sahuayo", "Xicotepec", "Colhuacán", "Nueva Cholula", "Ixtapan", "Otompan",
 			"Neza", "Tepeyac", "Xalixko", "Jilotzingo", "Xoconochco", "Coalcomán", "Yanhuitlán", "Cempoala"],
 		"spyNames": ["Armando", "Alejandro", "Rosado", "Yaretzi", "Luminosa", "Tlacotl", "Chimalma", "Cozamalotl", "Xochitl", "Xilonen"]
+	},
+	{
+		"name": "The Caliphate",
+		"leaderName": "Mostafa al-Beshay",
+		"adjective": ["Muslim"],
+		"preferredVictoryType": "Domination",
+		"personality": "Triumphant Caliph",
+		"favoredReligion": "Islam",
+
+		// "startIntroPart1": ".",
+		// "startIntroPart2": ".",
+		"declaringWar": "Hell lives to claim your vile souls. Down with the infidel pigs!",
+		"attacked": "We must drive the unbelievers into the deepest pits of hell!",
+		"defeated": "We may be driven from these lands for now, but we will yet subvert your order and force your people to submit to Allah's will. Islam and the jihad will never die, and your Day of Judgment will still come to pass.",
+		"introduction": "Welcome to the last worthwhile homeland of the chosen. This is the Caliphate of Western Europe and North Africa, destined to emerge triumphant over the devils infesting this fractured world.",
+		"neutralHello": "Allah's people are listening.",
+		"hateHello": "Silence, infidel!",
+		"tradeRequest": "We have little reason to show generosity when the world has become the house of tyrants. You should regard this rare opportunity as a blessing.",
+
+		"outerColor": [21, 108, 49],
+		"innerColor": [248, 217, 2],
+		"style": "Caliphate",
+		"uniqueName": "The Last Worthwhile Homeland",
+		"uniques": [
+			"[+100]% Natural religion spread [in annexed cities]",
+			"[+100]% to Flank Attack bonuses",
+			"[Faith] cost of purchasing items in cities [-33]%",
+			"Free [Great Sage] appears <upon discovering [Education] technology>",
+			"Starts with [Theocracy] adopted",
+			"Starts with [Supremacy] adopted",
+			"[-25]% [Culture] [in all cities]"
+		],
+		"cities": ["Bruksil", "Kitznen", "Grolanhei", "Honsvang", "Slo", "al-Harv", "Noisvatsei", "am-Munch", "af-Fridhav",
+			"ar-Rebchel", "an-Nessang", "Kleilanhei", "Walnhov", "Svang", "Lissnen", "Almansei", "af-Füss", "an-Nurber",
+			"ar-Ramstei", "Alba Sarum", "Malaga", "Nsara", "Baraka", "Turi"],
+		"spyNames": ["Rashid", "Saleh", "Mashouf", "Ismail", "Mahmoud", "Fudail", "Ghalib", "Latif", "Rustam", "Zahid"]
+	},
+	{
+		"name": "Aurelian Group",
+		"leaderName": "Genevieve Aurelia",
+		"adjective": ["Aurelian"],
+		"startBias": ["Mountain"],
+		"preferredVictoryType": "Scientific",
+		"personality": "Aurelia",
+		// "favoredReligion": "TBA",
+
+		// "startIntroPart1": "TBA",
+		// "startIntroPart2": "TBA",
+		"declaringWar": "For the good of these lands and the people residing in them, you must be liquidated.",
+		"attacked": "The Aurelian Group will not stand idly by while the wasteland is under siege. All workers are called to arms!",
+		"defeated": "Have all our rebuilding efforts gone to waste? This is bloody unacceptable!",
+		"introduction": "It brings me comfort to see another outpost of civilization in these savage lands. I'm Genevieve Aurelia, CEO of the Aurelian Group, and it's a pleasure to make your acquaintance.",
+		"neutralHello": "Good day to you, friend.",
+		"hateHello": "Step forward, vile savage, but keep your distance all the same.",
+		"tradeRequest": "Shall we make a deal?",
+
+		"outerColor": [245, 245, 245],
+		"innerColor": [179, 135, 0],
+		"style": "Corporate",
+		"uniqueName": "Enduring Engineering",
+		"uniques": [
+			"[+10]% Strength <for [{Military} {Land}] units> <when fighting in [Rough terrain] tiles>",
+			"[+1 Production, +1 Science] from every [Forge]",
+			"[+1 Production, +1 Science] from every [Blast Furnace]",
+			"[+1 Production, +1 Science] from every [Factory]",
+			"[+1 Production, +1 Science] from every [Recycling Plant]",
+			"[Great Engineer] is earned [33]% faster",
+			"Starts with [Construction]",
+			"Starts with [Iron Working]",
+			"Starts with [Machinery]",
+			"[-2 Happiness] [in all cities]"
+		],
+		"cities": ["Broken Hill", "Lightning Ridge", "Kotara", "Fassifern", "Morriset", "Lymington", "Waratah", "Awaba", "Jesmond",
+			"Burwood", "Duckenfield", "Glebe End", "Hartley Vale", "Wallsend", "Stockrington", "New Lambton", "Blackhill",
+			"Mandalong", "Myuna", "Swansea", "Wiluna", "Wyee", "Seahampton", "Newstan", "Worsley"],
+		"spyNames": ["Donaldson", "Marheine", "Leigh", "Nott", "Macquarie", "Wickham", "Fernleigh", "Eales", "McCormack", "Stockton"]
 	},
 
 	//Adjusted factions
@@ -219,7 +295,7 @@
 
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 165, 0],
-		"style": "",
+		"style": "Military",
 		"uniqueName": "Determination",
 		"uniques": [
 			"Gain [15] Influence with a [Civilian] gift to a City-State",
@@ -305,7 +381,7 @@
 
 		"outerColor": [116, 67, 5],
 		"innerColor": [219, 219, 126],
-		"style": "",
+		"style": "Tribal",
 		"uniqueName": "Rubble Runners",
 		"uniques": [
 			"[Civilian] units gain the [Urban Warfare I] promotion",
@@ -656,6 +732,7 @@
 			"[+1] Movement <for [Water] units>",
 			"[Low Tech] units gain the [Amphibious] promotion",
 			"[Personnel] units gain the [Amphibious] promotion",
+			"[Low Tech] units gain the [Sea Raider] promotion <after adopting [Advanced Piracy]>",
 			"[Personnel] units gain the [Sea Raider] promotion <after adopting [Advanced Piracy]>",
 			"[Ranged Water] units gain the [Sea Raider] promotion <after adopting [Advanced Piracy]>",
 			"Starts with [Sailing]",
@@ -818,7 +895,6 @@
 		"name": "Fo Guang",
 		"adjective": ["Fo Guang"],
 		"cityStateType": "Prayer",
-		"style": "",
 		"uniques": ["No damage penalty for wounded units"],
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Your desire for power will only bring you suffering.",
@@ -832,7 +908,6 @@
 		"adjective": ["Tellus"],
 		"cityStateType": "Culture",
 		"startBias": ["Wasteland"],
-		"style": "",
 		"uniques": ["[{Military} {Land}] units gain the [Will of Tellus] promotion",
 			"Starts with [Ecology]", "Starts with [Land Remediation]"],
 		"declaringWar": "The plant has spoken, you must be defeated!",
@@ -968,6 +1043,18 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [66, 189, 74],
 		"cities": ["Izumrydniy Gorod"]
+	},
+	{
+		"name": "Trudograd",
+		"adjective": ["Trudogradian"],
+		"cityStateType": "Trading",
+		"startBias": ["Tundra"],
+		"declaringWar": "Our paradise already has enough problems as it is. We don't need you becoming one of them.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We were right to fear you...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0, 102, 102],
+		"cities": ["Trudograd"]
 	},
 
 	//Barbarian

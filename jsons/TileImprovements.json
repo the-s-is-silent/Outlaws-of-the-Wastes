@@ -22,11 +22,9 @@
 		"techRequired": "Ecology",
 		"uniques": ["Food source",
 			"Gives a defensive bonus of [10]%",
-			"Cannot be built on [resource] tiles",
+			"Unbuildable <in [resource] tiles>",
 			"Cannot be built on [Desert] tiles",
 			"Cannot be built on [Permafrost] tiles",
-			"Cannot be built on [Badlands] tiles <before discovering [Hydroponics]>",
-			"Cannot be built on [Hill] tiles <before discovering [Land Remediation]>",
 			"Cannot be built on [Swamp] tiles <before discovering [Land Remediation]>",
 			"[+1 Food, +1 Production] <after discovering [Land Remediation]>",
 			"[+1 Food, +1 Production] <after discovering [Atmosphere Remediation]>",
@@ -262,6 +260,7 @@
 			"Provides [1] [Silver] <in [Silver] tiles>",
 			"Provides [1] [Gems] <in [Gems] tiles>",
 			"Provides [1] [Salt] <in [Salt] tiles>",
+			"Provides [1] [Mercury] <in [Mercury] tiles>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "B"
@@ -317,6 +316,19 @@
 		],
 		"shortcutKey": "W"
 	},
+	{
+		"name": "Fishing Boats",
+		"techRequired": "Sailing",
+		"terrainsCanBeBuiltOn": ["Coast", "Ocean"],
+		"turnsToBuild": 6,
+		"uniques": [
+			"Food source",
+			"Obsolete with [Genetics]",
+			"[+1 Food] <after discovering [Oceanography]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		]
+	},
 
 	//Removals
 	{
@@ -332,7 +344,7 @@
 		"turnsToBuild": 20,
 		"terrainsCanBeBuiltOn": ["Sunken Ruins"],
 		"techRequired": "Ocean Remediation",
-		"uniques": ["Can be built outside your borders", "Cannot be built on [resource] tiles"],
+		"uniques": ["Can be built outside your borders", "Unbuildable <in [resource] tiles>"],
 		"shortcutKey": "X"
 	},
 
@@ -602,6 +614,23 @@
     },
 
 	//Other Civ uniques
+	{
+		"name": "Armed Mining Camp",
+		"uniqueTo": "Aurelian Group",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 9,
+		"techRequired": "Engineering",
+		"uniques": [
+			"Gives a defensive bonus of [50]%",
+			"[+1 Production] <after discovering [Steam Power]>",
+			"[+1 Production] <in [non-[resource]] tiles> <after discovering [Railroads]>",
+			"[+1 Production] <in [non-[resource]] tiles> <after adopting [Monopoly Complete]>",
+			"Can only be built to improve a resource <in [resource] tiles>",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
+		"shortcutKey": "A"
+	},
 	{
 		"name": "Caer",
 		"uniqueTo": "Camelot Foundation",
