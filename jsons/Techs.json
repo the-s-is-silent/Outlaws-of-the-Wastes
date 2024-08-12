@@ -1,5 +1,88 @@
 [
 	{
+		"columnNumber": 1,
+		"era": "Decivilized era",
+		"techCost": 60,
+		"buildingCost": 60,
+		"wonderCost": 125,
+		"techs": [
+			{
+				"name": "Sailing",
+				"row": 1,
+				"prerequisites": ["The Wheel"],
+				"quote": "'We have command of the sea, my friends, and with that, we have command of everything.' - Deacon Hopper"
+			}
+		]
+	},
+	{
+		"columnNumber": 2,
+		"era": "Decivilized era",
+		"techCost": 120,
+		"buildingCost": 75,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Optics",
+				"row": 1,
+				"prerequisites": ["Sailing"],
+				"uniques": ["Enables embarkation for land units"]
+			}
+		]
+	},
+	{
+		"columnNumber": 3,
+		"era": "Rediscovering era",
+		"techCost": 250,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Navigation",
+				"row": 1,
+				"prerequisites": ["Writing", "Optics"],
+				"uniques": [
+					"[+1] Movement <for [Embarked] units>",
+					"Enables [Embarked] units to enter ocean tiles"
+				],
+				"quote": "'When you have no landmarks to navigate by, you have to get creative.' - Captain Ray Decca"
+			},
+			{
+				"name": "Storytelling",
+				"row": 4,
+				"prerequisites": ["Writing"]
+			},
+			{
+				"name": "Chemistry",
+				"row": 6,
+				"prerequisites": ["Writing"],
+				"quote": "For the days of my life have vanished like smoke, and my bones are grown dry like fuel for the fire."
+			}
+		]
+	},
+	{
+		"columnNumber": 4,
+		"era": "Rediscovering era",
+		"techCost": 400,
+		"buildingCost": 120,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Education",
+				"row": 4,
+				"prerequisites": ["Storytelling"],
+				"uniques": ["Enables Research agreements"],
+				"quote": "Hereby it is manifest that during the time men live without a common Power to keep them all in awe, they are in that condition which is called War; and such a war as is of every man against every man."
+			},
+			{
+				"name": "Moisture Harvesting",
+				"row": 6,
+				"prerequisites": ["Chemistry", "Engineering"],
+				"uniques": ["Enables conversion of city production to [Gold]"],
+				"quote": "'For a brief window in history, we controlled all of this world's water and thus, we controlled the world itself. In this era, we must repurpose our methods to aid those who remain in this world - if they will even accept our aid.' - Yuri Vengerov"
+			}
+		]
+	},
+	{
 		"columnNumber": 5,
 		"era": "Neofeudal era",
 		"techCost": 650,
@@ -11,6 +94,13 @@
 				"row": 5,
 				"prerequisites": ["Chemistry", "Education"],
 				"quote": "If the brain were so simple we could understand it, we would be so simple we couldn't."
+			},
+			{
+				"name": "Steam Power",
+				"row": 7,
+				"prerequisites": ["Moisture Harvesting", "Steel"],
+				"uniques": ["[+1] Movement <for [Embarked] units>"],
+				"quote": "Is it a fact - or have I dreamt it - that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?"
 			}
 		]
 	},

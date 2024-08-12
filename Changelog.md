@@ -942,7 +942,9 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Tech Adjustments**
 - Advanced Materials now requires Lasers and an entirely new technology before it can be researched. Like with Radio to Radar in base DeCiv, Combined Arms to Advanced Materials skips an entire tech era, and this can't be allowed.
+- Chemistry no longer enables Production-to-Water conversions; this was moved to a new tech.
 - Future Tech now actually does something. Also, its quote was swapped out.
+- Sailing no longer enables embarked units; this was moved to a new tech.
 
 **Building Adjustments**
 - Condenser Cooler now removes itself from the cities it's built in when it goes obsolete at Atmosphere Remediation. However, this is hidden from the player in-game.
@@ -1046,6 +1048,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Fishing Boats may now be built either slowly (allowing the Work Boat to keep building improvements afterward) or instantly.
 - Manufactory nerfed to lose +2 of its scaling Production yields.
 - Mine nerfed to lose the second +1 Production boost at Railroads. Also, it cannot be built on resources it doesn't improve.
+- Moisutre traps can no longer be built at the start of the game. The player must research a new technology first.
 - Nature preserve is now available one technological era earlier.
 - Pasture buffed to move its +1 Food gain to Ecology, but it now properly obsoletes at Genetics.
 - Tree plantation no longer has a tech requirement for building on Badlands or Hills.
@@ -1105,7 +1108,10 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Astrogation (Information era, requires Avionics and Satellites, required for Future Tech and Colonization Victory)
 - Full-Spectrum Dominance (Postmodern era, requires Avionics, Combined Arms and Decryption, required for Advanced Materials)
 - Holography (New Future era, requires Artificial Intelligence, Energy Weapons and Particle Physics, required for Future Tech)
+- Moisture Harvesting (Rediscovering era, requires Chemistry and Engineering, required for Steam Power)
+- Optics (Decivilized era, requires Sailing, required for Navigation)
 - Rewilding (Information era, requires Ocean Remediation and Genetics, required for Atmosphere Remediation)
+- Storytelling (Rediscovering era, requires Writing, required for Education)
 
 **New Beliefs**
 - Cautionary Tales (Pantheon), adds +2 Faith to Libraries and +1 Happiness to Museums

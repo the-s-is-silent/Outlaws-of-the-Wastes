@@ -436,7 +436,7 @@
 	{
 		"name": "Raiding Craft",
 		"unitType": "Ranged Water",
-		"requiredTech": "Sailing",
+		"requiredTech": "Optics",
 		"movement": 4,
 		"strength": 18,
 		"rangedStrength": 15,
@@ -457,7 +457,7 @@
 		"replaces": "Raiding Craft",
 		"uniqueTo": "The Mariners",
 		"unitType": "Ranged Water",
-		"requiredTech": "Sailing",
+		"requiredTech": "Optics",
 		"movement": 4,
 		"strength": 18,
 		"rangedStrength": 15,

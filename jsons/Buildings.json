@@ -116,6 +116,22 @@
 
 	//Other National Wonders
 	{
+		"name": "State Archive",
+		"isNationalWonder": true,
+		"cost": 125,
+		"culture": 3,
+		"uniques": [
+			"[+1 Happiness] [in this city] <with [Artifacts]>",
+			"[+1 Happiness] [in this city] <with [Books]>",
+			"[+1 Happiness] [in this city] <with [Data]>",
+			"[+1 Happiness] [in this city] <with [Electronics]>",
+			"[+1 Culture, +1 Happiness] [in this city] <when above [0] [Power]>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities with a [Library]>"
+		],
+		"requiredTech": "Storytelling"
+	},
+	{
 		"name": "National Reservoir System",
 		"isNationalWonder": true,
 		"cost": 125,

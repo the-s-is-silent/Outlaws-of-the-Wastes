@@ -73,6 +73,7 @@
 		],
 		"gold": 1,
 		"turnsToBuild": 5,
+		"techRequired": "Moisture Harvesting",
 		"uniques": ["[+1 Gold] <after discovering [Plastics]>",
 			"[+1 Gold] <after discovering [Atmosphere Remediation]>",
 			"Cannot be built on [Fissure] tiles",
