@@ -392,7 +392,7 @@
 			"Provides [2] [Slaves]",
 			"Removes removable features when built",
 			"Can be built just outside your borders",
-			"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Gain control over [all] tiles in a [1]-tile radius",
 			"Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
@@ -509,7 +509,7 @@
 			"Gives a defensive bonus of [110]%",
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Can be built just outside your borders",
-			"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Gain control over [all] tiles in a [1]-tile radius",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]"]
 	},
