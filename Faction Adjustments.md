@@ -25,6 +25,7 @@
 
 #### Children of Rust
 - They no longer start with Redomestication, and the Faith bonus only applies with *unimproved* Ruins tiles.
+- They no longer start with Collectivism already adopted.
 - The Longhouse wonder is replaced with First Kiva, which adds +40 more City HP (at the cost of losing the measly +1 to City Strength) and a bonus Pantheon belief upon founding their religion. However, it does not generate any Faith on its own until a Pantheon has been founded, and it gives their new Food Store replacement instead of a Salvage Yard.
 - Salvage Yards no longer add Production to Scrap resources; they regain the normal Forge's Production bonus towards Land units.
 - Communes are no longer available at the start of the game and no longer reduce tile cost purchase or have any base yields without access to Power. Also, they cost 120 Production (up from 40). However, they add +2 Food with access to Power.

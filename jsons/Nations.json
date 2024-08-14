@@ -33,7 +33,7 @@
 		"cities": ["Zion Valley", "New Canaan", "Provorem", "Grand Staircase", "Cueva Guarache", "Fort Walker", "Dead Horse Point", "Angel's Landing",
 			"Traverse City", "New Tooele", "New Nephi", "Patriarchs' Court", "Urim and Thummim", "Malki Tzedek", "Maeserville", "Pine Creek",
 			"Fort Browning", "Kobol", "Anamani", "Rainbow Bridge", "Hovenweep", "Old Rockville", "Van Buren", "Burham Springs", "Nuevo Vicios"],
-		"spyNames": ["Daniel", "Mordecai", "Waking Cloud", "Jeremiah", "Judah", "Two-Bears-High-Fiving", "Marianne", "Clark", "Dancing Flame", "Quiet Shadow"],
+		"spyNames": ["Daniel", "Mordecai", "Waking Cloud", "Judah", "Two-Bears-High-Fiving", "Emmaline", "Bonnie", "Jeremiah", "Dancing Flame", "Quiet Shadow"],
 		"civilopediaText": [
 			{
 				"text": "Every day, we fall. Some days are harder than others. The day the nukes were launched... was the hardest fall yet for mankind. In the earliest days after the fallout settled, I tried to mete out vengeance against those responsible for the Cataclysm, unaware that I was setting myself up for my own great fall. I rallied many survivors, broken and disillusioned as I was, and set out on a brutal campaign, forgetting all I had been taught in the desire for revenge. The need to make my wrath into God's wrath. And sure enough, that disastrous journey led to my fall, and I found myself at Hell's gates."
@@ -387,7 +387,6 @@
 			"[Civilian] units gain the [Urban Warfare I] promotion",
 			"[Low Tech] units gain the [Urban Warfare I] promotion",
 			"[Personnel] units gain the [Urban Warfare I] promotion",
-			"Starts with [Collectivism] adopted",
 			"[+1 Faith] [in all cities] <with [1] to [2] neighboring [{unimproved} {Jungle}] tiles>",
 			"[+2 Faith] [in all cities] <with [3] to [6] neighboring [{unimproved} {Jungle}] tiles>",
 			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."

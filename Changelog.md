@@ -925,6 +925,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **Faction Adjustments**
 - All factions that started in the Rebuilding era lose the relevant starting techs.
 - Blackwarden no longer loses its Strength bonus in foreign land while the faction is unhappy.
+- Children of Rust is no longer locked into Collectivism at the start of a game.
 - Hexlock now only creates one unique strategic resource with its improvements (previously five in the pre-Rebirth versions). The Compound Mix buildings instead require the city to work the Refinery whose stat corresponds to the GP it provides. Crystal Refineries provide a Refined version of the Experimental Chemicals, which regains its lost status as a Luxury Resource, but is consumed by the Meltdown building. Additionally, they now build National Wonders 15% faster.
 - The Mariners' UA gifting Sea Raider to their infantry units after adopting Advanced Piracy now also applies to Low Tech units.
 - New Star's UA no longer increases the rate of generating Great People. Instead, it now gives their Civilian and Support units the Thermoptic Camouflage promotion for free, and allows them to gain 15 Influence with City-States for gifting these units.
