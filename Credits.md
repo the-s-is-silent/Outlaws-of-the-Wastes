@@ -7,7 +7,7 @@ The sprites for Eagle Warrior, War Tram, and Armored Train were made by [ReallyB
 Armed Mining Camp, Cactus and Cactus Farm, Floating Settlement, Fortified Farm, Supply Complex, and Wasteland Station borrow and in some cases modify tile images from Alpha Frontier, with permission from [Indonesian Gentleman](https://github.com/carriontrooper).<br>
 Preservator is borrowed from [Bamboolord](https://github.com/RealBamboolord) with his permission.<br>
 Several icons reuse images used in Unciv, DeCiv Redux, Civ 6 mod, and Rekmod, with some of the latter three remaining unsourced.<br>
-The Religion Icons for Anglicanism, Imperial Cult and Mormonism were created by Tomatekh on CivFanatics and can be found [at the Civ 5 Customization Wiki's entry on the Tomatekh's Historical Religions mod](https://civilization-v-customisation.fandom.com/wiki/Tomatekh%27s_Historical_Religions).<br>
+The Religion Icons for Anglicanism, Imperial Cult, Methodism and Mormonism were created by Tomatekh on CivFanatics and can be found [at the Civ 5 Customization Wiki's entry on the Tomatekh's Historical Religions mod](https://civilization-v-customisation.fandom.com/wiki/Tomatekh%27s_Historical_Religions).<br>
 The icons for Alma Frontier Guard and Alma State Guard are of my own creation.
 
 Unless otherwise specified, all of the following icons are from the Noun Project, licensed under Creative Commons or Public Domain. Also, if anyone feels like there is a better/more fitting icon out there for any particular building/unit/etc. than the one that is used, I am open to suggestions for replacement icons.
@@ -39,8 +39,10 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Community Center: [School](https://thenounproject.com/icon/school-357761/) by Ralf Schmitzer, DE
 - Community Garden: [Community](https://www.flaticon.com/free-icon/community_10632234) by [inipagistudio](https://www.flaticon.com/authors/inipagistudio) from Flaticon
 - Constabulary: [jail](https://thenounproject.com/icon/jail-2577140/) by Made by Made, AU
+- Constitution Hall: [constitution square](https://thenounproject.com/icon/constitution-square-3925125/) by Lars Meiertoberens, DE
 - Contraband Disposal Site: [prohibited](https://thenounproject.com/icon/prohibited-209190/) by Andrea Mazzini, IT
 - Contract with Survivors: [contract](https://thenounproject.com/icon/contract-4139832/) by Design Circle, PK
+- Control Post: [control center](https://thenounproject.com/icon/control-center-2877281/) by Template, TH
 - Deseret Data Center: [data warehouse](https://thenounproject.com/icon/data-warehouse-5615005/) by Nikita Kozin, RU
 - Disciplinary Council: [court](https://thenounproject.com/icon/court-4428402/) by Eko Purnomo, ID
 - Dugout: [hobbit house](https://thenounproject.com/icon/hobbit-house-4122101/) by Pixel Bazaar
@@ -97,11 +99,13 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Pre-War Cryo Sanctum: [cryogenic](https://thenounproject.com/icon/cryogenic-5753249/) by Rolas Design, ID
 - [Printing Press](https://thenounproject.com/icon/printing-press/11880/) by Mike Wirth (same icon used for Printing Press tech in base Unciv)
 - Quorum of the Twelve: [city Council](https://thenounproject.com/icon/city-council-3566027/) by Thomas Deckert, US
+- Radio Freedom: [broadcast station](https://thenounproject.com/icon/broadcast-station-1777039/) by Petai Jantrapoon, TH
 - Raider Suppression Initiative: [Soldier Attack with Machine Gun](https://thenounproject.com/icon/soldier-attack-with-machine-gun-659094/) by Gan Khoon Lay
+- Rally Survivors: [justice rally](https://thenounproject.com/icon/justice-rally-6991858/) by gravisio, ID
 - [Red Square](https://thenounproject.com/icon/red-square-4944120/) by Amethyst Studio, TH
 - Refurbished Textile Mill: [Textile industry](https://thenounproject.com/icon/textile-industry-5649184/) by Studio 365
 - Rehabilitation Center: [Hospital](https://thenounproject.com/icon/hospital-2453105/) by Vectors Point, PK
-- Remedial School (currently unused): [educational school building](https://thenounproject.com/icon/educational-school-building-3017500/) by Vectors Point
+- Remedial School: [educational school building](https://thenounproject.com/icon/educational-school-building-3017500/) by Vectors Point
 - Renovate Metal Pyramid: [Pyramid](https://thenounproject.com/icon/pyramid-957412/) by Lluisa Iborra, ES
 - Research and Preservation Institute: [institute](https://thenounproject.com/icon/institute-5137615/) by lastspark, RU
 - Restored Temple of Zion: [Salt Lake Temple](https://thenounproject.com/icon/salt-lake-temple-219294/) by Nick Bluth, US
@@ -131,12 +135,15 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Tower of the Shuhada: [minar e pakistan building vector](https://thenounproject.com/icon/minar-e-pakistan-building-vector-3017475/) by Vectors Point, PK
 - Trades Hall: [office building](https://thenounproject.com/icon/office-building-6177929/) by arfan maulana, ID
 - Triage: [medical camp](https://thenounproject.com/icon/medical-camp-3309877/) by Vectors Point, PK
-- Tribal Unification Initiative: [roman law](https://thenounproject.com/icon/roman-law-1615859/) by sachin modgekar, IN
+- [Tribunal](https://thenounproject.com/icon/tribunal-5677391/) by diyah farida, ID
 - Underworld: Merger of [boar](https://thenounproject.com/icon/boar-3864428/) by Andrejs Kirma, LV and [Power](https://thenounproject.com/icon/power-1196196/) by Icon Depot, IN
 - [Victory Column](https://thenounproject.com/icon/victory-column-4202773/) by tezar tantular, ID
 - Virtual Tabernacle: [virtual space](https://thenounproject.com/icon/virtual-space-4718206/) by Rolas Design, ID
 - Warden's Court: [court of appeal](https://thenounproject.com/icon/court-of-appeal-3189823/) by Vectors Point, PK
+- [Water Purifier](https://thenounproject.com/icon/water-purifier-2607834/) by Vectors Point, PK
 - Wasteland Surveillance Initiative: [Security](https://thenounproject.com/icon/security-123950/) by Aaron K. Kim, US
+- Windmill Generator: [Windmill](https://thenounproject.com/icon/windmill-4419172/) by Rifai, ID
+- [Workbench](https://thenounproject.com/icon/workbench-6095280/) by nuengrutai, TH
 - Workers' Facility: [facility](https://thenounproject.com/icon/facility-2815116/) by WEBTECHOPS LLP, IN
 - Yacht Club: [yacht](https://thenounproject.com/icon/yacht-1324236/) by ProSymbols, US
 - Zemlyanka: [refuge](https://thenounproject.com/icon/refuge-4122612/) by Robin Lopez, FR
@@ -154,10 +161,12 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 ### Nation Icons
 - Aurelian Group: [Opalcoin](https://www.iconfinder.com/icons/1175305/opal_opalcoin_icon) by [AllienWorks](https://www.iconfinder.com/martin.allien) from [Iconfinder](https://www.iconfinder.com)
 - Aztlán: [Sun](https://www.flaticon.com/free-icon/sun_6912442) by Freepik from Flaticon
+- The Caliphate: [Star and Crescent](https://thenounproject.com/icon/star-and-crescent-253647/) by Alexander Skowalsky, HU
 - Camelot Foundation: [Wales](https://thenounproject.com/icon/wales-4282300/) by Lars Meiertoberens, DE
 - Crimson Line: [Hammer and Sickle](https://thenounproject.com/icon/hammer-and-sickle-52420/) by Yohann Berger, FR
 - Deseret Nation: [Beehive](https://thenounproject.com/icon/beehive-106249/) by Cléa Lautrey
 - The Harbingers: [Water](https://thenounproject.com/icon/water-3064516/) by brian saptura
+- The Oathsworn: [Eagle](https://thenounproject.com/icon/eagle-4822077/) by Studio 365, TH
 
 ### Policy Icons
 - Sovereignty tree
@@ -214,6 +223,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Akindji: [islamic turban](https://thenounproject.com/icon/islamic-turban-2105395/) by Vectors Market
 - Alma Honor Guard: Derived from [Kazakhstan](https://thenounproject.com/icon/kazakhstan-2624175/) by Xinh Studio
 - Ark Hunter: [rail gun](https://thenounproject.com/icon/rail-gun-3448479/) by Smalllike
+- Armed Settler: [flag](https://www.flaticon.com/free-icon/flag_10059721) by [Leremy](https://www.flaticon.com/authors/leremy) from Flaticon
 - Armored Train: [Train](https://thenounproject.com/icon/train-58877/) by Cédric Villain, FR
 - Bashi-bazouk: [Turban Helmet](https://thenounproject.com/icon/turban-helmet-120662/) by Henry Rider, GB
 - Battle-axe of the Lord: [ax hammer](https://thenounproject.com/icon/ax-hammer-3635247/) by Eucalyp
@@ -224,6 +234,8 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - [Combat Medic](https://thenounproject.com/icon/combat-medic-1587125/) by Gan Khoon Lay
 - Commando: [soldier](https://thenounproject.com/icon/soldier-642197/) by Gan Khoon Lay
 - Commissar: [hat](https://thenounproject.com/icon/hat-5052310/) by Maxicons, TH
+- Constitutional Militia: [Rifle](https://thenounproject.com/icon/rifle-6823191/) by SISWANTORO, ID
+- Continental General: [Eagle](https://thenounproject.com/icon/eagle-11870/) by Christopher T. Howlett, CA
 - Crimson Sniper: [sniper](https://thenounproject.com/icon/sniper-5218615/) by Amethyst Studio, TH
 - Dendro Mutant: [vines](https://thenounproject.com/icon/vines-4169419/) by Zulfa Mahendra, ID
 - Deseret Missionary: [Religion](https://thenounproject.com/icon/religion-53064/) by Bruno Gätjens González (same source as Missionary icon in base Unciv except *not* adapted)
@@ -252,8 +264,8 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Knight: [Knight helmet](https://thenounproject.com/icon/knight-helmet-5567347/) by Singlar
 - Lagoon: [catamaran](https://thenounproject.com/icon/catamaran-4103568/) by nareerat jaikaew, TH
 - Lawkeeper: [Police](https://thenounproject.com/icon/police-3395179/) by Nhor
-- Sentinel Missile: [nuclear missile](https://thenounproject.com/icon/nuclear-missile-5460126/) by Fran Couto
 - Legate: [Legion](https://thenounproject.com/icon/legion-814530/) by Aldric Rodríguez
+- Liberty Guard: [american shield](https://thenounproject.com/icon/american-shield-5665358/) by icon trip, ID
 - Living Prophet: [Mormonism](https://thenounproject.com/icon/mormonism-200426/) by Dabid J. Pascual
 - Marked One: [kalashnikov head](https://thenounproject.com/icon/kalashnikov-head-4727963/) by Eliricon, FI
 - Martial Monk: [monk](https://thenounproject.com/icon/monk-3631410/) by Eucalyp
@@ -267,6 +279,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Rapid Response Squad: [shield medic](https://thenounproject.com/icon/shield-medic-5192820/) by Rahmat Sigit Prasetyo, ID
 - Scout Cruiser: [cruiser](https://thenounproject.com/icon/cruiser-4833538/) by Andi Nur Abdillah, ID
 - Seastead Vessel: [Ship](https://thenounproject.com/icon/ship-4767613/) by Singlar
+- Sentinel Missile: [nuclear missile](https://thenounproject.com/icon/nuclear-missile-5460126/) by Fran Couto
 - Shock Worker: [Sickle](https://thenounproject.com/icon/sickle-5130144/) by Luis Prado, US
 - Shorn One: [Chimalli](https://www.flaticon.com/free-icon/chimalli_4039772) by Freepik from Flaticon
 - Skiff: [skiff](https://thenounproject.com/icon/skiff-4687237/) by Eucalyp
@@ -275,6 +288,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Suicider: [Suicide Bomber](https://thenounproject.com/icon/suicide-bomber-2409625/) by Gan Khoon Lay
 - Technopath: [mind ability](https://thenounproject.com/icon/mind-ability-3216421/) by Vectors Point, PK
 - Vengerovsky: [Ak-47](https://thenounproject.com/icon/ak-47-1745454/) by Nico Ilk, CH
+- [Vigilante](https://www.flaticon.com/free-icon/vigilante_2037367) by [Flat-Icons](https://www.flaticon.com/authors/flat-icons)
 - Volt Driver: [railgun](https://thenounproject.com/icon/railgun-3873813/) by Ian Rahmadi Kurniawan, ID
 - Wandering Doctor: [caduceus](https://thenounproject.com/icon/caduceus-211045/) by icon 54
 - War Tram: [Tram](https://thenounproject.com/icon/tram-19213/) by Carter Green, US

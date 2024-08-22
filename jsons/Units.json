@@ -1332,6 +1332,110 @@
 		"attackSound": "shot"
 	},
 
+	//Oathsworn unique units
+	{
+		"name": "Armed Settler",
+		"unitType": "Scout",
+		"uniqueTo": "The Oathsworn",
+		"replaces": "Civilian Convoy",
+		"movement": 3,
+		"strength": 20,
+		"rangedStrength": 20,
+		"range": 1,
+		"interceptrange": 1,
+		"cost": 106,
+		"uniques": ["Personnel",
+			"Founds a new city <by consuming this unit>",
+			"Can move after attacking",
+			"[+15] HP when healing",
+			"All adjacent units heal [+15] HP when healing",
+			"[+25]% Strength <vs [Barbarian] units>",
+			"[+1] Sight",
+			"Uncapturable",
+			"Excess Food converted to Production when under construction",
+			"Requires at least [2] population"],
+		"promotions": ["Skirmish", "Reconnaissance I"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Vigilante",
+		"unitType": "Scrapper",
+		"uniqueTo": "The Oathsworn",
+		"replaces": "Machete",
+		"movement": 2,
+		"strength": 24,
+		"cost": 50,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Militia",
+		"uniques": ["Low Tech", "[+100]% Strength <vs [Barbarian] units>",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"[+15]% Strength <when fighting in [Friendly Land] tiles>",
+			"[+15]% Strength <when adjacent to a [Vigilante] unit>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Constitutional Militia",
+		"unitType": "Scrapper",
+		"uniqueTo": "The Oathsworn",
+		"replaces": "Militia",
+		"movement": 2,
+		"strength": 36,
+		"interceptRange": 1,
+		"cost": 55,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Soldier",
+		"hurryCostModifier": 20,
+		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
+		"promotions": ["Guerilla Warfare I", "Urban Warfare I"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Liberty Guard",
+		"unitType": "Scrapper",
+		"uniqueTo": "The Oathsworn",
+		"replaces": "Soldier",
+		"movement": 2,
+		"strength": 40,
+		"interceptRange": 1,
+		"cost": 105,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Infantry",
+		"hurryCostModifier": 20,
+		"uniques": ["Personnel"],
+		"promotions": ["Homeland Guardian"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Continental General",
+		"unitType": "Shooter",
+		"uniqueTo": "The Oathsworn",
+		"replaces": "Great General",
+		"range": 1,
+		"movement": 2,
+		"strength": 40,
+		"cost": 500,
+		"rangedStrength": 35,
+		"interceptRange": 1,
+		"uniques": [
+			"Personnel",
+			"Can be earned through combat",
+			"Is part of Great Person group [General]",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions": [
+			"Reconnaissance I",
+			"Gas Mask",
+			"Homeland Guardian",
+			"Great Generals",
+			"[Continental General] ability"
+		],
+		"attackSound": "shot"
+	},
+
 	//Siege units
 	{
 		"name": "Armed Ambulance",
@@ -3423,8 +3527,11 @@
 		"strength": 36,
 		"interceptRange": 3,
 		"cost": 500,
-		"promotions": ["Heroic Resolve"],
-		"uniques": ["Personnel", "Limited to [1] per Civilization", "Unbuildable", "Cannot be purchased",
+		"promotions": ["Great Generals", "Heroic Resolve"],
+		"uniques": [
+			"Personnel",
+			"Limited to [1] per Civilization",
+			"Unbuildable", "Cannot be purchased",
 			"Can only attack [Military] units", "Can only attack [Civilian] units",
 			"[+25]% Strength <vs [Barbarian] units>",
 			"[+100]% Strength <vs [Purge Robot] units>",
@@ -3435,7 +3542,8 @@
 			"[+1] Movement <starting from the [New Future era]>",
 			"[+100]% chance to intercept air attacks",
 			"[-100]% maintenance costs",
-			"Never appears as a Barbarian unit"],
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "machinegun"
 	}
 ]

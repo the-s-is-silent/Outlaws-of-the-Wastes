@@ -953,6 +953,8 @@ Several of the following adjustments are based on what is planned for the Rebirt
 		- Think Tank no longer adds a Production bonus towards buildings owned in the capital. Instead, it adds +2 of the respective yield to non-unique Great Improvements (+1 Water/Science to Citadels).
 	- Camelot Foundation:
 		- Constabulary now adds defense against spies.
+	- Commonwealth:
+		- Embassy's City-State Influence gain from Military unit gifts reduced to 15.
 	- Defiance:
 		- Lawkeeper Office now replaces Defense Directorate instead of Town Hall, no longer has Administrator slots, gives a free Roller in addition to the Lawkeeper + Pre-War Turrets, and lets 5 units be maintenance free (instead of 3).
 	- Deseret Nation:
@@ -1004,7 +1006,6 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **Promotion Adjustments**
 - Barrage and Resupply are now valid prerequisites for March, preserving Mounted Ranged units' access to that promotion.
 - Medic I and II are no longer accessible to Shooter or Mounted Ranged units.
-- Prospector buffed to grant 3 XP each time a unit with the promotion builds an improvement.
 
 **Policy Adjustments**
 - Expansionism:
@@ -1012,6 +1013,9 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- Citizen Militia's Production bonus to all cities moved to Restorers and no longer requires a garrison.
 	- Reclaimers' old effect was thrown out entirely for giving way too many extra copies of strategic resources.
 	- Courier Service now adds +15% Water to cities connected to the capital instead of slowing CS influence degradation.
+- Theocracy:
+	- Organized Religion now adds +1 Culture instead of +1 Happiness to Shrines, Monasteries and Megachurches.
+	- Divine Mandate no longer adds stats to Monuments. Instead, it now adds +1 Happiness to Shrines, Monasteries and Megachurches.
 - Monopoly:
 	- Mass Consumption no longer adds yields to improvements. Instead it gains Reclaimers' lost effect of preserving Happiness from trading away the last copy of owned luxuries.
 	- The finisher bonus now adds +1 Water/Production to Hexlock's Refineries.
@@ -1055,6 +1059,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Aurelian Group (Pre-War Australian mining company, Science)
 - Aztlán (Mexican, Aztec revivalist, Domination/Culture)
 - The Caliphate (Arabic takeover of Germany, Domination/Religious)
+- The Oathsworn (American militia organization, Diplomatic/Domination)
 
 **New Buildings**
 - Community Center (Public School replacement for New Afrika, adds +2 Food/Happiness)
@@ -1063,6 +1068,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Private School (Public School replacement for Blackwarden, adds +2 Water along with another +2 Water for each active Scientist in the city, no maintenance cost)
 - Survival Program (now a Community Garden replacement for New Afrika, 4 Food vs. 2 and +10% growth)
 - Virtual Tabernacle (Megachurch replacement for Deseret Nation, adds Culture yields equal to its Faith yields, +100% religious pressure in its city)
+- Windmill Generator (+2 Production, +2 Power, +1 Production to Wind farms on Land, requires the city to be working a Power tile)
 
 **New Units**
 - Ghoul (standalone Barbarian unit that can spawn more Ghouls when it kills a unit and cannot be captured)

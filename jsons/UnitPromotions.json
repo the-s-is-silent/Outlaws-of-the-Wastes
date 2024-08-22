@@ -589,7 +589,6 @@
 		"uniques": [
 			"[+15]% Strength when stacked with [Civilian]",
 			"Can build [Land] improvements on tiles",
-			"This Unit gains [3] XP <upon building a [Land] improvement>",
 			"[-25]% construction time for [All] improvements <after discovering [Replaceable Parts]>",
 			"Gain [1]-[10] [Gold] <upon ending a turn in a [Forest] tile>",
 			"Gain [1]-[10] [Gold] <upon ending a turn in a [Jungle] tile>",
@@ -657,6 +656,26 @@
 			"Heals [25] damage if it kills a unit",
 			"This Unit loses the [Valor of Aztlán] promotion <hidden from users>"]
     },
+	{
+		"name": "Homeland Guardian",
+		"uniques": ["[+25]% Strength <when fighting in [Friendly Land] tiles>"]
+	},
+	{
+		"name": "Great Generals",
+		"uniques": ["[Great General] is earned [100]% faster"]
+	},
+	{
+		"name": "[Continental General] ability",
+		"uniques": ["Great General",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"[+50]% XP gained from combat",
+			"[+50]% Strength <after discovering [Combined Arms]>",
+			"[+50]% Strength <after discovering [Advanced Materials]>",
+			"Can instantly construct a [Citadel] improvement <once> <for [2] movement>",
+			"This Unit gains [1] XP <upon ending a turn in a [Citadel] tile>",
+			"Gain [5]-[30] [Gold] <upon ending a turn in a [Settlement] tile>",
+			"Uncapturable"]
+	},
 	{
 		"name": "[Lawkeeper] ability",
 		"uniques": ["Great General",

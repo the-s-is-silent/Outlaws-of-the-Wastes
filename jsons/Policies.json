@@ -200,16 +200,18 @@
 		"policies": [
 			{
 				"name": "Organized Religion",
-				"uniques": ["[+1 Happiness, +1 Faith] from every [Shrine]",
-					"[+1 Happiness, +1 Faith] from every [Monastery]",
-					"[+1 Happiness, +1 Faith] from every [Megachurch]"],
+				"uniques": ["[+1 Culture, +1 Faith] from every [Shrine]",
+					"[+1 Culture, +1 Faith] from every [Monastery]",
+					"[+1 Culture, +1 Faith] from every [Megachurch]"],
 				"row": 1,
 				"column": 2
 			},
 			{
 				"name": "Divine Mandate",
-				"uniques": ["[+2 Culture, +2 Happiness] from every [Monument]",
-					"[Faith] cost of purchasing items in cities [-20]%"],
+				"uniques": ["[Faith] cost of purchasing items in cities [-20]%",
+					"[+1 Happiness] from every [Shrine]",
+					"[+1 Happiness] from every [Monastery]",
+					"[+1 Happiness] from every [Megachurch]"],
 				"row": 1,
 				"column": 4
 			},

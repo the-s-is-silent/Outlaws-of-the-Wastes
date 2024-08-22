@@ -272,6 +272,44 @@
 			"Mandalong", "Myuna", "Swansea", "Wiluna", "Wyee", "Seahampton", "Newstan", "Worsley"],
 		"spyNames": ["Donaldson", "Marheine", "Leigh", "Nott", "Macquarie", "Wickham", "Fernleigh", "Eales", "McCormack", "Stockton"]
 	},
+	{
+		"name": "The Oathsworn",
+		"leaderName": "Ada Hemings",
+		"adjective": ["Oathsworn"],
+		"startBias": ["Avoid [Desert]"],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Hemings",
+		"favoredReligion": "Methodism",
+
+		// "startIntroPart1": "TBA",
+		// "startIntroPart2": "Our nation has fallen, but our oath still stands. We are the Oathsworn, and we must keep the American ideal alive.",
+		"declaringWar": "We've endured your oppression for too long, as have your people. It ends now.",
+		"attacked": "You would treat us as terrorists just as the tyrannical regimes of pre-Cataclysm America's last days once did. So be it.",
+		"defeated": "For the second and last time, we have failed to uphold our oath...",
+		"introduction": "I don't know who you are, but I welcome you to our territories. I'm Ada Hemings, Supreme Commander of the Oathsworn, and so long as you leave the good people living under my protection in peace, we should get along just fine.",
+		"neutralHello": "Carry on.",
+		"hateHello": "Tread carefully, lest you invite retaliation.",
+		"tradeRequest": "We hope this arrangement is of mutual benefit to our peoples.",
+
+		"outerColor": [255,255,255],
+		"innerColor": [28,51,119],
+		"style": "Military",
+		"uniqueName": "Oath to a Fallen Nation",
+		"uniques": [
+			"Comment [Each city owned increases resting point for influence with City-States by 5, up to a maximum of 30]",
+			"City-State territory always counts as friendly territory",
+			"[+1] Movement <for [All] units> <in [City-States] tiles>",
+			"[+25]% Great Person generation [in all cities]",
+			"Starts with [Construction]",
+			"Starts with [Constitution] adopted",
+			"Cannot build [Enslaved] units",
+			"Comment [Cannot build Prison Camp, Work Camp, or Council buildings]"
+		],
+		"cities": ["Century City", "Soldier Field", "Brandon Falls", "Libertyville", "Fort Independence", "Sanctuary Hills",
+			"Foundation", "Heritage", "Covenant", "Vanguard", "New Albany", "Hackettstown", "Taffington", "Concord", "Anabol",
+			"Quincy", "Bradbury", "Orwell", "Somerville", "Murkwater", "Cape Oath"],
+		"spyNames": ["Preston", "Harriet", "Beckett", "Bryce", "Murphy", "Nathaniel", "Wilhelmena", "Horatio", "Hailey", "Ted"]
+	},
 
 	//Adjusted factions
 	{

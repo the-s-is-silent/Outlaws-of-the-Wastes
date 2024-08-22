@@ -720,5 +720,39 @@
 			"Bionics": 0,
 			"Legacy": 0
 		}
+	},
+	{
+		"name": "Hemings",
+		"preferredVictoryType": "Diplomatic",
+		"production": 5,
+		"food": 5,
+		"gold": 9,
+		"science": 6,
+		"culture": 5,
+		"happiness": 6,
+		"faith": 5,
+		"military": 8,
+		"aggressive": 5,
+		"declareWar": 2,
+		"commerce": 10,
+		"diplomacy": 7,
+		"loyal": 9,
+		"expansion": 6,
+		"priorities": {
+			"Adaptation": 20,
+			"Expansionism": 30,
+			"Sovereignty": 20,
+			"Theocracy": 20,
+			"Rationalism": 30,
+			"Constitution": 50,
+			"Supremacy": 0,
+			"Monopoly": 30,
+			"Collectivism": 0,
+			"Rediscovery": 20,
+			"Naturalism": 0,
+			"Mechanization": 0,
+			"Bionics": 0,
+			"Legacy": 40
+		}
 	}
 ]

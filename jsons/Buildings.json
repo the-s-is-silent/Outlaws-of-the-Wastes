@@ -206,6 +206,16 @@
 		"requiredTech": "Machinery"
 	},
 	{
+		"name": "Windmill Generator",
+		"requiredNearbyImprovedResources": ["Power"],
+		"production": 2,
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [{Land} {Wind farm}] tiles [in this city]",
+			"Provides [2] [Power]"],
+		"requiredTech": "Steel"
+	},
+	{
 		"name": "Community Garden",
 		"food": 2,
 		"specialistSlots": {"Farmer": 1},
@@ -1473,6 +1483,170 @@
 		"requiredTech": "Replaceable Parts"
 	},
 
+	//Oathsworn unique buildings
+	{
+		"name": "Constitution Hall",
+		"isWonder": true,
+		"uniqueTo": "The Oathsworn",
+		"culture": 1,
+		"cost": 0,
+		"uniques": [
+			"[+1 Happiness] from every [Administrator]",
+			"Provides [2] [Weapons]",
+			"Free [Constitutional Militia] appears",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Monument] [in this city]"
+		]
+	},
+	{
+		"name": "Rally Survivors",
+		"replaces": "Search for Survivors",
+		"uniqueTo": "The Oathsworn",
+		"cost": 40,
+		"isNationalWonder": true,
+		"uniques": ["[+1] population [in all cities]",
+			"[+10]% Production when constructing [Land] units [in this city]",
+			"Free [Armed Settler] appears",
+			"Can only be built <in [Capital] cities>"]
+	},
+	{
+		"name": "Oathsworn's Influence",
+		"uniqueTo": "The Oathsworn",
+		"cost": 0,
+		"uniques": ["Resting point for Influence with City-States is increased by [5]",
+			"Automatically built in all cities where it is buildable",
+			"Limited to [6] per Civilization",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Workbench",
+		"replaces": "Forge",
+		"uniqueTo": "The Oathsworn",
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"requiredTech": "Iron Working",
+		"uniques": ["[+15]% Production when constructing [Land] units [in this city]",
+			"[+1 Production] from [Strategic resource] tiles [in this city]",
+			"Provides [1] [Weapons]"]
+	},
+	{
+		"name": "Tribunal",
+		"uniqueTo": "The Oathsworn",
+		"cost": 60,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Comment [Replaces Prison Camp without being treated as Prison Camp]",
+			"Remove extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Remedial School",
+		"uniqueTo": "The Oathsworn",
+		"percentStatBonus": {"science": 15},
+		"happiness": 1,
+		"science": 2,
+		"specialistSlots": {"Scientist": 1},
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Comment [Replaces Work Camp without being treated as Work Camp]",
+			"[+1] population [in this city]",
+			"[+2 Science] [in this city] <with [Power]>",
+			"[+1 Happiness] [in this city] <after adopting [Voting Rights]>",
+			"Consumes [1] [Slaves]",
+			"Only available <with [Slaves]>",
+			"Unsellable"
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Water Purifier",
+		"replaces": "Water Storage",
+		"uniqueTo": "The Oathsworn",
+		"gold": 2,
+		"percentStatBonus": {"gold": 10},
+		"specialistSlots": {"Merchant": 1},
+		"requiredTech": "Currency",
+		"uniques": ["[+1 Gold] from [Water pump] tiles [in this city]",
+			"[+2 Gold] [in this city] <when above [0] [Power]>",
+			"Doubles Gold given to enemy if city is captured"]
+	},
+	{
+		"name": "Continental Congress",
+		"uniqueTo": "The Oathsworn",
+		"replaces": "Congress",
+		"cost": 150,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture, +1 Gold] per [4] population [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
+			"[+5]% Production when constructing [All] buildings [in all cities]",
+			"[+10]% Production when constructing [All] units [in all cities]",
+			"Gain [15] Influence with a [{non-[Great General]} {Military}] gift to a City-State",
+			"Only available <if [Rally Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Radio Freedom",
+		"replaces": "Broadcast Tower",
+		"uniqueTo": "The Oathsworn",
+		"culture": 2,
+		"happiness": 2,
+		"specialistSlots": {"Administrator": 1},
+		"percentStatBonus": {"culture": 25},
+		"maintenance": 3,
+		"requiredTech": "Radio",
+		"uniques": ["[+25]% Great Person generation [in this city]",
+			"[+1] population [in this city]",
+			"Unsellable",
+			"Consumes [1] [Power]"]
+	},
+	{
+		"name": "Control Post",
+		"replaces": "Listening Post",
+		"uniqueTo": "The Oathsworn",
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"happiness": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"City Defense",
+			"[-30]% enemy spy effectiveness [in this city]",
+			"[+50]% Yield from every [Citadel] <in this city>",
+			"Destroyed when the city is captured",
+			"Hidden when espionage is disabled"
+		],
+		"requiredTech": "Electronics"
+	},
+	{
+		"name": "Oathsworn cannot build Prison Camp",
+		"replaces": "Prison Camp",
+		"uniqueTo": "The Oathsworn",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Oathsworn cannot build Work Camp",
+		"replaces": "Work Camp",
+		"uniqueTo": "The Oathsworn",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Oathsworn cannot build Council",
+		"replaces": "Council",
+		"uniqueTo": "The Oathsworn",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	}
+
 	//Adjusted buildings and wonders
 	//Part 1: Faction identity wonders and government buildings
 	{
@@ -2054,7 +2228,7 @@
 		"uniques": ["[+10]% growth [in all cities]",
 			"[+5]% Production when constructing [All] buildings [in this city]",
 			"Gifts of Gold to City-States generate [25]% more Influence",
-			"Gain [30] Influence with a [Military] gift to a City-State",
+			"Gain [15] Influence with a [Military] gift to a City-State",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Parliament]>",
 			"Destroyed when the city is captured"]
