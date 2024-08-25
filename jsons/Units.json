@@ -647,7 +647,7 @@
 	{
 		"name": "Deseret Bishop",
 		"replaces": "Censor",
-		"uniqueTo": "Deseret Nation",
+		"uniqueTo": "Deseret2",
 		"unitType": "Civilian",
 		"uniques": [
 			"Prevents spreading of religion to the city it is next to",
