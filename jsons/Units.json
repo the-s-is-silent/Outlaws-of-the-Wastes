@@ -636,13 +636,33 @@
 		"replaces": "Philosopher",
 		"uniqueTo": "Deseret2",
 		"unitType": "Civilian",
-		"uniques": ["Founds a new city <by consuming this unit>",
+		"uniques": ["Founds a new city <by consuming this unit> <in tiles without [Impeded terrain]>",
 			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
 			"May enter foreign tiles without open borders, but loses [100] religious strength each turn it ends there",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
 			"Unbuildable", "Uncapturable", "Religious Unit", "Hidden when religion is disabled"],
 		"movement": 4,
 		"religiousStrength": 1000
+	},
+	{
+		"name": "Deseret Bishop",
+		"replaces": "Censor",
+		"uniqueTo": "Deseret Nation",
+		"unitType": "Civilian",
+		"uniques": [
+			"Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <[2] times> <after which this unit is consumed>",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
+			"[+1] Sight",
+			"[+15] HP when healing",
+			"All adjacent units heal [+15] HP when healing",
+			"[-100]% maintenance costs",
+			"Hidden when religion is disabled",
+			"Unbuildable",
+			"Uncapturable",
+			"Religious Unit"
+		],
+		"movement": 3
 	},
 	{
 		"name": "Living Prophet",
@@ -872,7 +892,6 @@
 	{
 		"name": "Technopath",
 		"unitType": "Scrapper",
-		"replaces": "NBC Conscript",
 		"uniqueTo": "The Harbingers",
 		"movement": 2,
 		"strength": 60,
@@ -1331,6 +1350,31 @@
 		"promotions": ["Entrench"],
 		"attackSound": "shot"
 	},
+	{
+		"name": "Aurelia Light Horse",
+		"replaces": "Light Cavalry",
+		"uniqueTo": "Aurelian Group",
+		"unitType": "Mounted Ranged",
+		"range": 1,
+		"movement": 4,
+		"strength": 30,
+		"rangedStrength": 35,
+		"interceptRange": 1,
+		"cost": 110,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Gyroscopes",
+		"upgradesTo": "Helicopter",
+		"uniques": [
+			"Personnel",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"Double movement in [Desert]",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Can only be built <in cities with a [Stable]>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
 
 	//Oathsworn unique units
 	{
@@ -1345,7 +1389,7 @@
 		"interceptrange": 1,
 		"cost": 106,
 		"uniques": ["Personnel",
-			"Founds a new city <by consuming this unit>",
+			"Founds a new city <by consuming this unit> <in tiles without [Impeded terrain]>",
 			"Can move after attacking",
 			"[+15] HP when healing",
 			"All adjacent units heal [+15] HP when healing",
@@ -1987,8 +2031,95 @@
 			"[+25]% Strength <when fighting in [Permafrost] tiles>"],
 		"attackSound": "shot"
 	},
+	{
+		"name": "Trudograd Security Service",
+		"replaces": "State Guard",
+		"uniqueTo": "Trudograd",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 40,
+		"interceptRange": 1,
+		"cost": 60,
+		"upgradesTo": "Infantry",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]",
+			"[+25]% Strength <vs [Barbarian] units>",
+			"Limited to [3] per Civilization"
+		],
+		"promotions": ["Urban Warfare I"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Militsiya",
+		"replaces": "Militia",
+		"uniqueTo": "Trudograd",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 36,
+		"interceptRange": 1,
+		"cost": 55,
+		"upgradesTo": "Soldier",
+		"hurryCostModifier": 20,
+		"uniques": ["Personnel", "Consumes [1] [Weapons]", "[+25]% Strength <when fighting in [Friendly Land] tiles>"],
+		"promotions": ["Urban Warfare I"],
+		"attackSound": "shot"
+	},
 
 	//Adjusted units from the base scenario and other mods
+	{
+		"name": "Civilian Convoy",
+		"unitType": "Civilian",
+		"movement": 3,
+		"cost": 106,
+		"uniques": [
+			"Founds a new city <by consuming this unit> <in tiles without [Impeded terrain]>",
+			"[+15] HP when healing",
+			"All adjacent units heal [+15] HP when healing",
+			"Excess Food converted to Production when under construction",
+			"Requires at least [2] population"
+		],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Cavern Expander",
+		"unitType": "Civilian",
+		"uniqueTo": "TCC",
+		"replaces": "Civilian Convoy",
+		"movement": 2,
+		"cost": 160,
+		"uniques": [
+			"Founds a new city <by consuming this unit> <in tiles without [Impeded terrain]>",
+			"[+15] HP when healing",
+			"All adjacent units heal [+15] HP when healing",
+			"Can move immediately once bought",
+			"Unit will heal every turn, even if it performs an action",
+			"Uncapturable",
+			"Can pass through impassable tiles",
+			"Invisible to others",
+			"May enter foreign tiles without open borders"
+		],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Homesteader",
+		"unitType": "Civilian",
+		"replaces": "Civilian Convoy",
+		"uniqueTo": "Seekers of Eden",
+		"movement": 3,
+		"cost": 106,
+		"uniques": [
+			"Founds a new city <by consuming this unit> <in tiles without [Impeded terrain]>",
+			"[+1] Sight",
+			"Gain [2] [Faith] <upon ending a turn in a [Food Source] tile>",
+			"[+15] HP when healing",
+			"All adjacent units heal [+15] HP when healing",
+			"Excess Food converted to Production when under construction",
+			"Requires at least [2] population"
+		],
+		"hurryCostModifier": 20
+	},
 	{
 		"name": "Worker",
 		"unitType": "Civilian",

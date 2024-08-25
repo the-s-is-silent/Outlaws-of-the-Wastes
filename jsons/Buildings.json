@@ -35,15 +35,13 @@
 	},
 	{
 		"name": "Earthscraper Project",
-		"cost": 2000,
 		"isNationalWonder": true,
-		"uniques": ["Can only be built <in [Capital] cities>",
-			"[+1 Production] from every specialist [in all cities]",
-			"Only available <after adopting [Collectivism]>"],
+		"uniques": ["[+1 Production] from every specialist [in all cities]",
+			"Gain a free [Earthscraper] [in this city]"],
 		"requiredTech": "Advanced Materials",
 		"civilopediaText": [
 			{
-				"text": "Completing this project enables the construction of Earthscraper buildings, giving cities unprecedented levels of protection from nuclear attack."
+				"text": "Enables the construction of Earthscraper buildings, giving cities unprecedented levels of protection from nuclear attack.","link":"Building/Earthscraper"
 			}
 		]
 	},
@@ -55,9 +53,9 @@
 		"maintenance": 3,
 		"hurryCostModifier": 40,
 		"uniques": ["City Defense",
-			"[+2] population [in this city]",
-			"Population loss from nuclear attacks [-100]% [in this city]",
-			"Damage to garrison from nuclear attacks [-100]% [in this city]",
+			"[+1] population [in this city]",
+			"Population loss from nuclear attacks [-75]% [in this city]",
+			"Damage to garrison from nuclear attacks [-75]% [in this city]",
 			"Consumes [1] [Power]",
 			"Requires at least [20] population",
 			"Only available <if [Earthscraper Project] is constructed>",
@@ -268,7 +266,7 @@
 		"specialistSlots": {"Administrator": 1},
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"replacementTextForUniques": "Each social policy tree completed adds +1 Culture to this city.",
+		"replacementTextForUniques": "Each social policy branch completed adds +1 Culture to this city.",
 		"uniques": ["[+1 Culture] [in this city] <after adopting [Adaptation Complete]>",
 			"[+1 Culture] [in this city] <after adopting [Expansionism Complete]>",
 			"[+1 Culture] [in this city] <after adopting [Sovereignty Complete]>",
@@ -354,7 +352,7 @@
 		"requiredTech": "Ocean Remediation"
 	},
 	{
-		"name": "Sanctuary",
+		"name": "Eco-Sanctuary",
 		"happiness": 3,
 		"maintenance": 3,
 		"hurryCostModifier": 30,
@@ -1321,6 +1319,7 @@
 		"uniques": ["[+10]% growth [in all cities]",
 			"[+10]% Production when constructing [Military] units [in all cities]",
 			"May buy [Enslaved] units with [Faith] for [2] times their normal Production cost",
+			"May buy [Mounted Ranged] units with [Faith] for [2] times their normal Production cost",
 			"Only available <if [Revert Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [House of Submission]>",
@@ -1391,9 +1390,12 @@
 	{
 		"name": "Mining Tunnels",
 		"uniqueTo": "Aurelian Group",
+		"cityStrength": 5,
+		"cityHealth": 80,
 		"maintenance": 1,
 		"hurryCostModifier": 20,
-		"uniques": ["[+2 Production] from [Mountain] tiles [in this city]",
+		"uniques": ["City Defense",
+			"[+2 Production] from [Mountain] tiles [in this city]",
 			"[+2 Production] from [Tunneled Mountain] tiles [in this city]",
 			"Must have an owned [Tunneled Mountain] within [3] tiles"],
 		"requiredTech": "Engineering"
@@ -1506,9 +1508,8 @@
 		"cost": 40,
 		"isNationalWonder": true,
 		"uniques": ["[+1] population [in all cities]",
-			"[+10]% Production when constructing [Land] units [in this city]",
-			"Free [Armed Settler] appears",
-			"Can only be built <in [Capital] cities>"]
+			"[+10]% Production when constructing [Land] units [in all cities]",
+			"Free [Armed Settler] appears"]
 	},
 	{
 		"name": "Oathsworn's Influence",
@@ -1570,12 +1571,12 @@
 		"name": "Water Purifier",
 		"replaces": "Water Storage",
 		"uniqueTo": "The Oathsworn",
-		"gold": 2,
+		"gold": 3,
 		"percentStatBonus": {"gold": 10},
 		"specialistSlots": {"Merchant": 1},
 		"requiredTech": "Currency",
 		"uniques": ["[+1 Gold] from [Water pump] tiles [in this city]",
-			"[+2 Gold] [in this city] <when above [0] [Power]>",
+			"[+3 Gold] [in this city] <when above [0] [Power]>",
 			"Doubles Gold given to enemy if city is captured"]
 	},
 	{
@@ -1589,11 +1590,28 @@
 			"[-5]% Unhappiness from [Population] [in all cities]",
 			"[+5]% Production when constructing [All] buildings [in all cities]",
 			"[+10]% Production when constructing [All] units [in all cities]",
-			"Gain [15] Influence with a [{non-[Great General]} {Military}] gift to a City-State",
+			"Gain [15] Influence with a [Military] gift to a City-State",
 			"Only available <if [Rally Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Destroyed when the city is captured"
 		]
+	},
+	{
+		"name": "Volunteer Industry Factory",
+		"replaces": "Factory",
+		"uniqueTo": "The Oathsworn",
+		"percentStatBonus": {"production": 20},
+		"specialistSlots": {"Engineer": 2},
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Only available <in cities with a [Library]>",
+			"[+10]% Production when constructing [Military] units [in this city] <when at war>",
+			"[+3 Production, +2 Happiness] [in this city] <when above [0] [Power]>",
+			"[+1 Production] from [Machine Parts] tiles [in this city]",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Manufacturing"
 	},
 	{
 		"name": "Radio Freedom",
@@ -4527,7 +4545,11 @@
 		"isNationalWonder": true,
 		"replaces": "Search for Survivors",
 		"uniqueTo": "Deadrock Clan",
-		"uniques": ["Provides [4] [Slaves]", "Free [Gangboss] appears"]
+		"uniques": [
+			"[+1 Gold] per [4] population [in this city]",
+			"Provides [4] [Slaves]",
+			"Free [Gangboss] appears"
+		]
 	},
 	{
 		"name": "Slave Quarters",
@@ -5786,6 +5808,44 @@
 			"Will not be displayed in Civilopedia"
 		],
 		"requiredTech": "Education"
+	},
+	{
+		"name": "GUVD Trudograd",
+		"replaces": "Defense Directorate",
+		"uniqueTo": "Trudograd",
+		"cityHealth": 50,
+		"cost": 0,
+		"uniques": ["City Defense",
+			"[3] units cost no maintenance",
+			"Provides [2] [Weapons]",
+			"Free [Trudograd Security Service] appears",
+			"[2] free [Pre-War Turret] units appear",
+			"Reveals the entire map",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built <in [Capital] cities>",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Seventh Heaven",
+		"replaces": "Arcology Dome",
+		"uniqueTo": "Trudograd",
+		"cityStrength": 5,
+		"cityHealth": 150,
+		"food": 1,
+		"gold": 1,
+		"culture": 1,
+		"cost": 0,
+		"uniques": [
+			"City Defense",
+			"[+5]% growth [in this city]",
+			"[5]% Food is carried over after population increases [in this city]",
+			"[-5]% Unhappiness from [Population] [in this city]",
+			"[+33]% [Production] [in this city] <after discovering [Social Engineering]>",
+			"[+33]% [Gold] [in this city] <after discovering [Advanced Materials]>",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 
 	//Religion buildings

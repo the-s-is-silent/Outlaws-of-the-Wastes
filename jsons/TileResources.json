@@ -145,6 +145,30 @@
 		]
 	},
 	{
+		"name": "Insects",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": [
+			"Jungle",
+			"Forest",
+			"Toxic Waste",
+			"Fallout",
+			"Swamp",
+			"Muskeg"
+		],
+		"food": 1,
+		"improvedBy": ["Camp", "Bioculture"],
+		"improvementStats": { "food": 1 },
+		"uniques": [
+			"Generated on every [14] tiles <in [Jungle] tiles>",
+			"Generated on every [16] tiles <in [Jungle] tiles> <in [Hill] Regions>",
+			"Generated on every [14] tiles <in [Forest] tiles>",
+			"Generated on every [16] tiles <in [Forest] tiles> <in [Hill] Regions>",
+			"Generated on every [9] tiles <in [Muskeg] tiles>",
+			"Generated on every [9] tiles <in [Toxic Waste] tiles>",
+			"Generated on every [14] tiles <in [Fallout] tiles>"
+		]
+	},
+	{
 		"name": "Horses",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Badlands", "Wasteland"],
@@ -181,6 +205,38 @@
 			"Generated with weight [39] <in [Hill] tiles>",
 			"Generated with weight [40] <in [{Featureless} {Coast}] tiles>",
 			"Generated with weight [10] <in [{Featureless} {Ocean}] tiles>"
+		]
+	},
+	{
+		"name": "Oil",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [
+			"Desert",
+			"Tundra",
+			"Permafrost",
+			"Coast",
+			"Ocean",
+			"Swamp",
+			"Muskeg"
+		],
+		"production": 1,
+		"improvement": "Oil well",
+		"improvementStats": { "production": 1 },
+		"majorDepositAmount": { "sparse": 2, "default": 3, "abundant": 4 },
+		"minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 },
+		"uniques": [
+			"Deposits in [Coast] tiles always provide [2] resources",
+			"Deposits in [Ocean] tiles always provide [2] resources",
+			"Guaranteed with Strategic Balance resource option",
+			"Generated with weight [65] <in [Toxic Waste] tiles> <in tiles without [Hill]>",
+			"Generated with weight [40] <in [{Featureless} {Tundra}] tiles>",
+			"Generated with weight [60] <in [{Featureless} {Permafrost}] tiles>",
+			"Generated with weight [65] <in [{Featureless} {Desert}] tiles>",
+			"Generated with weight [100] <in [{Featureless} {Coast}] tiles>",
+			"Generated with weight [10] <in [{Featureless} {Ocean}] tiles>",
+			"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
+			"Minor deposits generated with weight [20] <in [{Featureless} {Tundra}] tiles>",
+			"Minor deposits generated with weight [20] <in [{Featureless} {Permafrost}] tiles>"
 		]
 	},
 	{
@@ -414,6 +470,36 @@
 			"Generated with weight [30] <in [Hill] Regions>",
 			"Generated with weight [10] <in [Hybrid] Regions>",
 			"Generated near City States with weight [10]"
+		]
+	},
+	{
+		"name": "Furs",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Tundra", "Wasteland", "Jungle", "Forest", "Muskeg"],
+		"food": 1,
+		"improvedBy": ["Camp", "Bioculture"],
+		"improvementStats": { "production": 1 },
+		"uniques": [
+			"Generated with weight [40] <in [Tundra] Regions>",
+			"Generated with weight [10] <in [Wasteland] Regions>",
+			"Generated with weight [10] <in [Forest] Regions>",
+			"Generated with weight [10] <in [Jungle] Regions>",
+			"Generated near City States with weight [15]"
+		]
+	},
+	{
+		"name": "Fungus",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Hill", "Toxic Waste", "Jungle", "Muskeg"],
+		"food": 1,
+		"improvedBy": ["Camp", "Bioculture"],
+		"improvementStats": { "culture": 1 },
+		"uniques": [
+			"Generated with weight [5] <in [Jungle] Regions>",
+			"Generated with weight [30] <in [Hill] Regions>",
+			"Generated with weight [5] <in [Hybrid] Regions>",
+			"Generated on every [10] tiles <in [Muskeg] tiles>",
+			"Generated near City States with weight [15]"
 		]
 	},
 	{

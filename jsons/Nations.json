@@ -286,7 +286,7 @@
 		"declaringWar": "We've endured your oppression for too long, as have your people. It ends now.",
 		"attacked": "You would treat us as terrorists just as the tyrannical regimes of pre-Cataclysm America's last days once did. So be it.",
 		"defeated": "For the second and last time, we have failed to uphold our oath...",
-		"introduction": "I don't know who you are, but I welcome you to our territories. I'm Ada Hemings, Supreme Commander of the Oathsworn, and so long as you leave the good people living under my protection in peace, we should get along just fine.",
+		"introduction": "I don't know who you are, but I welcome you to our territories. I'm General Ada Hemings, chief of the Oathsworn defense forces, and so long as you leave the good people living under my protection in peace, we should get along just fine.",
 		"neutralHello": "Carry on.",
 		"hateHello": "Tread carefully, lest you invite retaliation.",
 		"tradeRequest": "We hope this arrangement is of mutual benefit to our peoples.",
@@ -419,7 +419,6 @@
 
 		"outerColor": [116, 67, 5],
 		"innerColor": [219, 219, 126],
-		"style": "Tribal",
 		"uniqueName": "Rubble Runners",
 		"uniques": [
 			"[Civilian] units gain the [Urban Warfare I] promotion",

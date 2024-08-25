@@ -139,6 +139,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Underworld: Merger of [boar](https://thenounproject.com/icon/boar-3864428/) by Andrejs Kirma, LV and [Power](https://thenounproject.com/icon/power-1196196/) by Icon Depot, IN
 - [Victory Column](https://thenounproject.com/icon/victory-column-4202773/) by tezar tantular, ID
 - Virtual Tabernacle: [virtual space](https://thenounproject.com/icon/virtual-space-4718206/) by Rolas Design, ID
+- Volunteer Industry Factory: [volunteer work](https://thenounproject.com/icon/volunteer-work-5914049/) by mangunkarsa, ID
 - Warden's Court: [court of appeal](https://thenounproject.com/icon/court-of-appeal-3189823/) by Vectors Point, PK
 - [Water Purifier](https://thenounproject.com/icon/water-purifier-2607834/) by Vectors Point, PK
 - Wasteland Surveillance Initiative: [Security](https://thenounproject.com/icon/security-123950/) by Aaron K. Kim, US
@@ -238,6 +239,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Continental General: [Eagle](https://thenounproject.com/icon/eagle-11870/) by Christopher T. Howlett, CA
 - Crimson Sniper: [sniper](https://thenounproject.com/icon/sniper-5218615/) by Amethyst Studio, TH
 - Dendro Mutant: [vines](https://thenounproject.com/icon/vines-4169419/) by Zulfa Mahendra, ID
+- Deseret Bishop: [Holiness Eye](https://thenounproject.com/icon/holiness-eye-91615/) by Jason Dilworth
 - Deseret Missionary: [Religion](https://thenounproject.com/icon/religion-53064/) by Bruno Gätjens González (same source as Missionary icon in base Unciv except *not* adapted)
 - Destroying Angel: [Angel](https://thenounproject.com/icon/angel-354209/) by william dayabaran
 - Dhow: [sailboat](https://thenounproject.com/icon/sailboat-54530/) by Michael Thompson, US

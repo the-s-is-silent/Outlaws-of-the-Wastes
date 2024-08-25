@@ -943,6 +943,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Building Adjustments**
 - Condenser Cooler now removes itself from the cities it's built in when it goes obsolete at Atmosphere Remediation. However, this is hidden from the player in-game.
+- Earthscraper nerfed to only give 1 free pop instead of 2 and only a 75% reduction to population loss and garrisoned unit damage from nukes instead of full protection.
 - Hydroponic Farming loses one Farmer slot, but now actually adds +2 Food to Lakes instead of +1 (this was supposed to have happened earlier).
 - Listening Post (and replacements) no longer boost GP generation at all. It is now the Tier 1 anti-spy building (a change that was also implemented in the new "Deciv 2" fork).
 	- Crimson Legion's Colosseum and Cult of Ignis' Arena now replace the Stadium instead of the Listening Post and have their effects adjusted accordingly.
@@ -955,6 +956,8 @@ Several of the following adjustments are based on what is planned for the Rebirt
 		- Constabulary now adds defense against spies.
 	- Commonwealth:
 		- Embassy's City-State Influence gain from Military unit gifts reduced to 15.
+	- Deadrock Clan:
+		- Shake Down Survivors buffed again to add scaling Water yields (+1 per 4 pop) to the city that owns it.
 	- Defiance:
 		- Lawkeeper Office now replaces Defense Directorate instead of Town Hall, no longer has Administrator slots, gives a free Roller in addition to the Lawkeeper + Pre-War Turrets, and lets 5 units be maintenance free (instead of 3).
 	- Deseret Nation:
@@ -975,6 +978,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Wonder Adjustments**
 - Due to issues that have been caused by recent AI behavior changes reverting some of their previous behavior, the identity wonders for each faction are now automatically constructed once the capital is founded.
+- Earthscraper Project is no longer exclusive to Collectivists or the capital city and now automatically builds an Earthscraper in the city that builds it.
 - National Reservoir System now increases the owning city's total Water yields by 10%.
 
 **Unit Adjustments**
@@ -1001,7 +1005,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Defiance UUs: Lawkeepers are no longer limited to 1 per Civilization.
 - Harbinger UUs:
 	- Educational Officer and Opolcheniye renamed to Educator Officer and Vengerovsky.
-	- Technopath's Strength buff at Artificial Intelligence increased to 50%.
+	- Technopath is now a standalone UU and its Strength buff at Artificial Intelligence increased to 50%.
 
 **Promotion Adjustments**
 - Barrage and Resupply are now valid prerequisites for March, preserving Mounted Ranged units' access to that promotion.
@@ -1044,6 +1048,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Tree plantation no longer has a tech requirement for building on Badlands or Hills.
 
 **Terrain Adjustments**
+- A new unique, "Impeded Terrain", has been added and applied to terrains where cities are not supposed to be built.
 - Mountains can now only have Artificial glaciers built on them, putting a stop to one particular Enclavers hijink. This might be changed later if additional Mountain-specific improvements are created.
 - Springs can now only have Water pumps built on them, as another screw you to the AI and its primitive sanity checks. (*Stop* wasting your Great Improvements on those tiles, dammit!) This change is also present in the DeCiv 2 fork.
 
@@ -1071,6 +1076,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Windmill Generator (+2 Production, +2 Power, +1 Production to Wind farms on Land, requires the city to be working a Power tile)
 
 **New Units**
+- Deseret Bishop (Censor replacement for Deseret Nation, provides a healing aura to accelerate healing of adjacent units by 15 HP per turn)
 - Ghoul (standalone Barbarian unit that can spawn more Ghouls when it kills a unit and cannot be captured)
 - Marked One (Barbarian version of Stalker, loses tile improvement abilities but gains +2 Strength and starts with Forage and Urban Warfare I)
 - Nuke Cannon (Standalone UU for Proklyatyye, Siege Nuke, 600 production cost, 60 combat strength, 70 ranged strength, 2 nuke strength, blast radius 0, cannot fortify, rough terrain penalty, can only have 3 at a time)
@@ -1085,6 +1091,9 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Mercury (imported from Civ 6, Luxury, spawns in flat Wasteland, improved by Mine and Borehole)
 - Mutant Eel (Luxury, spawns in Coast/Ocean, improved by Fishing Boats and Bioculture)
 - Opal (Luxury, exclusive to Aurelian Group)
+
+**New Terrain**
+- Muskeg (Rare feature in Tundra or Permafrost, Impeded terrain, resources that can spawn: Fungus, Furs, Insects, Oil)
 
 **New Beliefs**
 - Cautionary Tales (Pantheon), adds +2 Faith to Libraries and +1 Happiness to Museums
