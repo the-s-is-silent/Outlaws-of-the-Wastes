@@ -53,7 +53,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": [
-			"Heal this unit by [50] HP",
+			"[This Unit] heals [50] HP",
 			"Doing so will consume this opportunity to choose a Promotion"
 		],
 		"unitTypes": [
@@ -646,15 +646,15 @@
 	{
 		"name": "Valor of Aztlán",
 		"uniques": ["[+25]% Strength <vs [Wounded] units>",
-			"This Unit upgrades for free <upon defeating a [Military] unit>",
+			"[This Unit] upgrades for free <upon defeating a [Military] unit>",
 			"Comment [This Promotion becomes Fury of Aztlán after this unit upgrades to Shorn One]",
-			"This Unit loses the [Valor of Aztlán] promotion <for [non-[Aztlán]]> <hidden from users>"]
+			"[This Unit] loses the [Valor of Aztlán] promotion <for [non-[Aztlán]]> <hidden from users>"]
 	},
 	{
 		"name": "Fury of Aztlán",
 		"uniques": ["[+33]% Strength <when attacking>",
 			"Heals [25] damage if it kills a unit",
-			"This Unit loses the [Valor of Aztlán] promotion <hidden from users>"]
+			"[This Unit] loses the [Valor of Aztlán] promotion <hidden from users>"]
     },
 	{
 		"name": "Homeland Guardian",
@@ -672,7 +672,7 @@
 			"[+50]% Strength <after discovering [Combined Arms]>",
 			"[+50]% Strength <after discovering [Advanced Materials]>",
 			"Can instantly construct a [Citadel] improvement <once> <for [2] movement>",
-			"This Unit gains [1] XP <upon ending a turn in a [Citadel] tile>",
+			"[This Unit] gains [1] XP <upon ending a turn in a [Citadel] tile>",
 			"Gain [5]-[30] [Gold] <upon ending a turn in a [Settlement] tile>",
 			"Uncapturable"]
 	},

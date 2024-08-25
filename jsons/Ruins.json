@@ -120,28 +120,28 @@
 		"name": "your exploring unit receives training",
 		"notification": "The survivors trained us in their ways of combat!",
 		"weight": 4,
-		"uniques": ["This Unit gains [15] XP"]
+		"uniques": ["[This Unit] gains [15] XP"]
 	},
 	{
 		"name": "infernal training",
 		"notification": "Our unit experiences infernal training!",
 		"weight": 2,
-		"uniques": ["This Unit gains [30] XP", "Only available <after turn number [40]>"]
+		"uniques": ["[This Unit] gains [30] XP", "Only available <after turn number [40]>"]
 	},
 	{
 		"name": "prospector equipment",
 		"notification": "Our unit finds prospecting tools hidden in the camp!",
 		"weight": 4,
-		"uniques": ["This Unit gains the [Prospector] promotion",
-			"This Unit gains [10] XP",
+		"uniques": ["[This Unit] gains the [Prospector] promotion",
+			"[This Unit] gains [10] XP",
 			"Only available <for units without [Prospector]>"]
 	},
 	{
 		"name": "combat armor",
 		"notification": "Our unit finds advanced armor hidden in the camp!",
 		"weight": 3,
-		"uniques": ["This Unit gains the [Combat Armor] promotion",
-			"This Unit gains [10] XP",
+		"uniques": ["[This Unit] gains the [Combat Armor] promotion",
+			"[This Unit] gains [10] XP",
 			"Only available <for [Personnel] units> <for units without [Combat Armor]>"]
 	},
 	{
@@ -206,7 +206,7 @@
 		"name": "advanced weaponry for your explorer",
 		"notification": "Our unit finds advanced weaponry hidden in the camp!",
 		"weight": 0,
-		"uniques": ["This Unit upgrades for free including special upgrades"],
+		"uniques": ["[This Unit] upgrades for free including special upgrades"],
 		"excludedDifficulties": ["Tourist", "Settler", "Chieftain", "Warlord", "Prince", "King", "Emperor", "Immortal", "Deity", "Sandbox"]
 	}
 ]

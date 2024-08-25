@@ -1132,7 +1132,7 @@
 		"hurryCostModifier": 20,
 		"uniques": ["Low Tech", "[+50]% Strength <vs [Low Tech] units>",
 			"[+25]% Strength <vs [Barbarian] units>",
-			"This Unit gains the [Valor of Aztlán] promotion <upon defeating a [Military] unit>"],
+			"[This Unit] gains the [Valor of Aztlán] promotion <upon defeating a [Military] unit>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
