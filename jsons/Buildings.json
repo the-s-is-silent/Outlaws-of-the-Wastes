@@ -4967,7 +4967,7 @@
 		"requiredTech": "Botany"
 	},
 	{
-		"name": "Sharaskha",
+		"name": "Sharashka",
 		"uniqueTo": "Proklyatyye",
 		"science": 3,
 		"percentStatBonus": {"science": 10},
