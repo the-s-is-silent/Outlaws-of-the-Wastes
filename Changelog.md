@@ -922,6 +922,9 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **Barbarian Adjustments**
 - Barbarian Water units are no longer allowed to pillage tiles.
 
+**Tech Adjustments**
+- Advanced Materials now requires Lasers. This change is also present in the "DeCiv 2" fork.
+
 **Faction Adjustments**
 - All factions that started in the Rebuilding era lose the relevant starting techs.
 - Blackwarden no longer loses its Strength bonus in foreign land while the faction is unhappy.
@@ -943,7 +946,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Building Adjustments**
 - Condenser Cooler now removes itself from the cities it's built in when it goes obsolete at Atmosphere Remediation. However, this is hidden from the player in-game.
-- Earthscraper nerfed to only give 1 free pop instead of 2 and only a 75% reduction to population loss and garrisoned unit damage from nukes instead of full protection.
+- Earthscraper nerfed to only give 1 free pop instead of 2 and only a 75% reduction to population loss and garrisoned unit damage from nukes instead of full protection. However, the population requirement for building is now more lenient, only needing 15 instead of the previous 20, and it no longer costs maintenance and is cheaper to purchase.
 - Hydroponic Farming loses one Farmer slot, but now actually adds +2 Food to Lakes instead of +1 (this was supposed to have happened earlier).
 - Listening Post (and replacements) no longer boost GP generation at all. It is now the Tier 1 anti-spy building (a change that was also implemented in the new "Deciv 2" fork).
 	- Crimson Legion's Colosseum and Cult of Ignis' Arena now replace the Stadium instead of the Listening Post and have their effects adjusted accordingly.
@@ -978,7 +981,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Wonder Adjustments**
 - Due to issues that have been caused by recent AI behavior changes reverting some of their previous behavior, the identity wonders for each faction are now automatically constructed once the capital is founded.
-- Earthscraper Project is no longer exclusive to Collectivists or the capital city and now automatically builds an Earthscraper in the city that builds it.
+- Earthscraper Project is no longer exclusive to Collectivists or the capital city and now automatically builds an Earthscraper in the city that builds it. It has also been added to the "DeCiv 2" fork.
 - National Reservoir System now increases the owning city's total Water yields by 10%.
 
 **Unit Adjustments**
@@ -1053,7 +1056,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Springs can now only have Water pumps built on them, as another screw you to the AI and its primitive sanity checks. (*Stop* wasting your Great Improvements on those tiles, dammit!) This change is also present in the DeCiv 2 fork.
 
 **Resource Adjustments**
-- As in Deciv 2, Power can no longer be traded. City-States are once again allowed to build the main Power Plant buildings.
+- As in DeCiv 2, Power can no longer be traded. City-States are once again allowed to build the main Power Plant buildings.
 - Aluminum may now spawn on Permafrost.
 - Grain is now somewhat less common.
 - Horses may now spawn on flat Wasteland, but are rarer on that terrain.
