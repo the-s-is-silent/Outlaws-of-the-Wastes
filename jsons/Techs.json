@@ -34,5 +34,35 @@
 				"quote": "'Talent hits a target no one else can hit; Genius hits a target no one else can see.'"
 			}
 		]
+	},
+	{
+		"columnNumber": 13,
+		"era": "Information era",
+		"techCost": 7250,
+		"buildingCost": 500,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Advanced Materials",
+				"row": 8,
+				"prerequisites": ["Lasers", "Combined Arms"],
+				"quote": "Bunkers were spaces of exception, where democratic states could morph into autocracies in times of war by making the decision to sacrifice the polis from this space of protection."
+			}
+		]
+	},
+	{
+		"columnNumber": 14,
+		"era": "Information era",
+		"techCost": 10000,
+		"buildingCost": 750,
+		"wonderCost": 2000,
+		"techs": [
+			{
+				"name": "Energy Weapons",
+				"row": 6,
+				"prerequisites": ["Advanced Materials"],
+				"quote": "I believe that man will not merely endure: he will prevail. He is immortal, not because he alone among creatures has an inexhaustible voice, but because he has a soul, a spirit capable of compassion and sacrifice and endurance."
+			}
+		]
 	}
 ]
