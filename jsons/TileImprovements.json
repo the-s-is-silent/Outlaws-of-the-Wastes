@@ -74,6 +74,7 @@
 		],
 		"gold": 1,
 		"turnsToBuild": 5,
+		"techRequired": "Moisture Harvesting",
 		"uniques": ["[+1 Gold] <after discovering [Plastics]>",
 			"[+1 Gold] <after discovering [Atmosphere Remediation]>",
 			"Cannot be built on [Fissure] tiles",
@@ -137,6 +138,25 @@
 			"Can only be built to improve a resource <in [resource] tiles>",
 			"Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "G"
+	},
+	{
+		"name": "Nature preserve",
+		"turnsToBuild": 10,
+		"techRequired": "Rewilding",
+		"food": 2,
+		"gold": 1,
+		"culture": 1,
+		"happiness": 1,
+		"uniques": [
+			"Food source",
+			"[+1 Food] <with [Exotic Seeds]>",
+			"Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"terrainsCanBeBuiltOn": ["Badlands"],
+		"shortcutKey": "N"
 	},
 	{
 		"name": "Artificial oasis",

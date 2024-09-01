@@ -944,6 +944,12 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- New Star spy names, I decided to have a little fun here and take them from fictional characters whose last names are all Starling.
 	- Patriot spy names reference the novels of Tom Clancy and Clive Cussler.
 
+**Tech Adjustments**
+- Advanced Materials now requires Lasers and an entirely new technology before it can be researched. Like with Radio to Radar in base DeCiv, Combined Arms to Advanced Materials skips an entire tech era, and this can't be allowed.
+- Chemistry no longer enables Production-to-Water conversions; this was moved to a new tech.
+- Future Tech now actually does something. Also, its quote was swapped out.
+- Sailing no longer enables embarked units; this was moved to a new tech.
+
 **Building Adjustments**
 - Condenser Cooler now removes itself from the cities it's built in when it goes obsolete at Atmosphere Remediation. However, this is hidden from the player in-game.
 - Earthscraper nerfed to only give 1 free pop instead of 2 and only a 75% reduction to population loss and garrisoned unit damage from nukes instead of full protection. However, the population requirement for building is now more lenient, only needing 15 instead of the previous 20, and it no longer costs maintenance and is cheaper to purchase.
@@ -952,6 +958,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- Crimson Legion's Colosseum and Cult of Ignis' Arena now replace the Stadium instead of the Listening Post and have their effects adjusted accordingly.
 - Prison Camp (and slaver faction replacements) also nerfed to inflict a -2 Happiness penalty on annexed cities.
 - Public School now has a base yield of 2 Science, but the scaling Science yields from city population are now applied at Networking.
+- Sanctuary is now available earlier, moved to a new tech that comes before Atmosphere Remediation.
 - Faction/City-State UBs:
 	- Atlas:
 		- Think Tank no longer adds a Production bonus towards buildings owned in the capital. Instead, it adds +2 of the respective yield to non-unique Great Improvements (+1 Water/Science to Citadels).
@@ -984,11 +991,15 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Wonder Adjustments**
 - Due to issues that have been caused by recent AI behavior changes reverting some of their previous behavior, the identity wonders for each faction are now automatically constructed once the capital is founded.
+- Colony Ship Project is now unlocked by an entirely new tech.
 - Earthscraper Project is no longer exclusive to Collectivists or the capital city and now automatically builds an Earthscraper in the city that builds it. It has also been added to the "DeCiv 2" fork.
 - National Reservoir System now increases the owning city's total Water yields by 10%.
 
 **Unit Adjustments**
 - Advanced Armor buffed to 100 Strength and loses the penalty to attacking cities.
+- Armored Car no longer upgrades to Tank, but to an entirely new unit.
+- Assault Ship is no longer excluded from the Barbarian unit list.
+- Drop Troops buffed again to 60 Strength and are now available earlier.
 - Hero of the Wastes buffed to gain an additional 50% Strength bonus on reaching the New Future era.
 - Mounted Ranged units (Skirmisher, Dragoon, Light Cavalry, Border Patrol, and replacements) are now their own unit type and mostly follow the same promotion tree as Siege and Helicopter units. They no longer use a fake Mounted unique.
 	- Also, the two Civilian units (Mounted Worker and Great Caravan) that used Mounted as a fake unit no longer do so (but still require Stables).
@@ -1001,8 +1012,10 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- Partisans lose Skirmish, Precision, Extended Range, and Urban Warfare I
 - Purge Robots are now their own unit type. They must still be "given" promotions and cannot earn them.
 - Seastead Vessel receives increased tile improvement construction speed.
+- SS Cockpit has been moved to a new tech, the same one as the Colony Ship Project.
 - Stalkers now start with the Prospector promotion instead of Forage, and their Strength buff at Rifling is increased to 25%.
 - Workers (but not Mounted/Mechanized Workers or CS Worker replacements) may now build water improvements (now that a resource that can spawn on Lakes has been introduced).
+- Work Boats may now build water improvements on non-resource tiles for human players.
 - Crimson Line UUs:
 	- War Tram and Armored Train's base movement reduced from 4 to 2.
 		- War Tram's bonus against infantry units increased to 50% to compensate. It now obsoletes at Railroads and upgrades to the Armored Train.
@@ -1052,6 +1065,8 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Fishing Boats and Modular Islands may now be built either slowly (allowing the Work Boat to keep building improvements afterward) or instantly.
 - Manufactory nerfed to lose +2 of its scaling Production yields.
 - Mine nerfed to lose the second +1 Production boost at Railroads. Also, it cannot be built on resources it doesn't improve.
+- Moisutre traps can no longer be built at the start of the game. The player must research a new technology first.
+- Nature preserve is now available one technological era earlier.
 - Pasture buffed to move its +1 Food gain to Ecology, but it now properly obsoletes at Genetics.
 - Tree plantation no longer has a tech requirement for building on Badlands or Hills.
 
@@ -1078,18 +1093,28 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Community Center (Public School replacement for New Afrika, adds +2 Food/Happiness)
 - Community Garden (+2 Food (increases to +3 with Exotic Seeds), +25% GP generation, 1 Farmer slot, unlocks at Ecology, also added to Deciv 2 fork)
 - Frumentarii Camp (new Listening Post replacement for Crimson Legion, -33% spy theft rate, also added to Deciv 2 fork)
+- Holotraining Facility (standalone, +20 XP to new units trained in cities with one)
 - Private School (Public School replacement for Blackwarden, adds +2 Water along with another +2 Water for each active Scientist in the city, no maintenance cost)
 - Survival Program (now a Community Garden replacement for New Afrika, 4 Food vs. 2 and +10% growth)
 - Virtual Tabernacle (Megachurch replacement for Deseret Nation, adds Culture yields equal to its Faith yields, +100% religious pressure in its city)
 - Windmill Generator (+2 Production, +2 Power, +1 Production to Wind farms on Land, requires the city to be working a Power tile)
 
-**New Units**
+**New Wonders**
+- Joint Headquarters (Postmodern era national wonder, grants all Military units 15% more strength, requires building each of Armaments Production Line, Armor Production Line, Aerospace Facility and Decryption Center in at least 4 cities)
+
+**New Standalone Units**
+- Automated Logistics Vehicle (Automated Armor, 325 production cost, 75 combat strength, 6 movement, 50% stronger when attacking infantry, 33% weaker when attacking cities, can move after attacking, no defensive terrain bonus, consumes Power)
+- Mirage Sniper (Shooter, 475 production cost, 85 combat strength, 90 ranged strength, 3 movement, 2 range + intercept range, no terrain penalties, invisible to non-adjacent units, 50% extra defense against other Ranged units, 3-in-4 chance to withdraw from melee, cannot spawn as Barbarian, requires a Holotraining Facility, consumes Encrypted Data and Power)
+
+**New Faction Units**
 - Deseret Bishop (Censor replacement for Deseret Nation, provides a healing aura to accelerate healing of adjacent units by 15 HP per turn)
-- Ghoul (standalone Barbarian unit that can spawn more Ghouls when it kills a unit and cannot be captured)
-- Marked One (Barbarian version of Stalker, loses tile improvement abilities but gains +2 Strength and starts with Forage and Urban Warfare I)
-- Nuke Cannon (Standalone UU for Proklyatyye, Siege Nuke, 600 production cost, 60 combat strength, 70 ranged strength, 2 nuke strength, blast radius 0, cannot fortify, rough terrain penalty, can only have 3 at a time)
-- Savior of the Sea (Barbarian version of Assault Ship, 30% stronger when adjacent to other Melee Water units and can capture defeated Water units)
+- Nuke Cannon (standalone, Siege Nuke, unique to Proklyatyye, 600 production cost, 60 combat strength, 70 ranged strength, 2 movement, 3 range, nuke strength 2, blast radius 0, rough terrain penalty, costs 1 Uranium, can only have 3 at a time)
 - Stim Trooper (Standalone UU for Hexlock, 250 production cost, 60 combat strength, 3 movement, heals 20 damage on kill, consumes both Weapons and Experimental Chemicals, upgrades to Exo-Trooper)
+
+**New Barbarian Units**
+- Ghoul (weaker Mutant that can spawn more Ghouls when it kills a unit and cannot be captured)
+- Marked One (rogue Stalker that loses time improvement abilities but gains +2 Strength and starts with Forage and Urban Warfare I)
+- Savior of the Sea (Assault Ship replacement, 30% stronger when adjacent to other Melee Water units, chance to capture defeated units)
 
 **New Resources**
 (I expect some of these to also be added to the "Deciv 2" fork)
@@ -1102,6 +1127,15 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **New Terrain**
 - Muskeg (Rare feature in Tundra or Permafrost, Impeded terrain, resources that can spawn: Fungus, Furs, Insects, Oil)
+
+**New Techs**
+- Astrogation (Information era, requires Avionics and Satellites, required for Future Tech and Colonization Victory)
+- Full-Spectrum Dominance (Postmodern era, requires Avionics, Combined Arms and Decryption, required for Advanced Materials)
+- Holography (New Future era, requires Artificial Intelligence, Energy Weapons and Particle Physics, required for Future Tech)
+- Moisture Harvesting (Rediscovering era, requires Chemistry and Engineering, required for Steam Power)
+- Optics (Decivilized era, requires Sailing, required for Navigation)
+- Rewilding (Information era, requires Ocean Remediation and Genetics, required for Atmosphere Remediation)
+- Storytelling (Rediscovering era, requires Writing, required for Education)
 
 **New Beliefs**
 - Cautionary Tales (Pantheon), adds +2 Faith to Libraries and +1 Happiness to Museums
