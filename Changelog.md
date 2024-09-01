@@ -947,10 +947,13 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **Tech Adjustments**
 - Advanced Materials now requires Lasers and an entirely new technology before it can be researched. Like with Radio to Radar in base DeCiv, Combined Arms to Advanced Materials skips an entire tech era, and this can't be allowed.
 - Chemistry no longer enables Production-to-Water conversions; this was moved to a new tech.
+- Electronics now requires Replaceable Parts instead of Manufacturing.
 - Future Tech now actually does something. Also, its quote was swapped out.
 - Sailing no longer enables embarked units; this was moved to a new tech.
 
 **Building Adjustments**
+- Armaments Production Line no longer gives a free Armory - it now *requires* an Armory in the city.
+- Armory no longer requires the city to be working a Weapons tile, but it's now moved back much later in the tech tree, unlocking in the Neofeudal era.
 - Condenser Cooler now removes itself from the cities it's built in when it goes obsolete at Atmosphere Remediation. However, this is hidden from the player in-game.
 - Earthscraper nerfed to only give 1 free pop instead of 2 and only a 75% reduction to population loss and garrisoned unit damage from nukes instead of full protection. However, the population requirement for building is now more lenient, only needing 15 instead of the previous 20, and it no longer costs maintenance and is cheaper to purchase.
 - Hydroponic Farming loses one Farmer slot, but now actually adds +2 Food to Lakes instead of +1 (this was supposed to have happened earlier).
@@ -1011,9 +1014,11 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- Irregulars lose Skirmish and Urban Warfare I
 	- Partisans lose Skirmish, Precision, Extended Range, and Urban Warfare I
 - Purge Robots are now their own unit type. They must still be "given" promotions and cannot earn them.
+- Raiding Craft (and The Mariners' replacement) now requires Optics instead of Sailing.
 - Seastead Vessel receives increased tile improvement construction speed.
 - SS Cockpit has been moved to a new tech, the same one as the Colony Ship Project.
 - Stalkers now start with the Prospector promotion instead of Forage, and their Strength buff at Rifling is increased to 25%.
+- Stealth aircraft now require Stealth technology instead of Future Materials.
 - Workers (but not Mounted/Mechanized Workers or CS Worker replacements) may now build water improvements (now that a resource that can spawn on Lakes has been introduced).
 - Work Boats may now build water improvements on non-resource tiles for human players.
 - Crimson Line UUs:
@@ -1101,6 +1106,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **New Wonders**
 - Joint Headquarters (Postmodern era national wonder, grants all Military units 15% more strength, requires building each of Armaments Production Line, Armor Production Line, Aerospace Facility and Decryption Center in at least 4 cities)
+- State Archive (Rediscovering era national wonder, can only be built in the capital and only if it has a Library, adds up to +4 Culture and +5 Happiness to the capital depending on availability of Power and specific luxuries)
 
 **New Standalone Units**
 - Automated Logistics Vehicle (Automated Armor, 325 production cost, 75 combat strength, 6 movement, 50% stronger when attacking infantry, 33% weaker when attacking cities, can move after attacking, no defensive terrain bonus, consumes Power)
@@ -1132,9 +1138,11 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Astrogation (Information era, requires Avionics and Satellites, required for Future Tech and Colonization Victory)
 - Full-Spectrum Dominance (Postmodern era, requires Avionics, Combined Arms and Decryption, required for Advanced Materials)
 - Holography (New Future era, requires Artificial Intelligence, Energy Weapons and Particle Physics, required for Future Tech)
+- Hoplology (Neofeudal era, requires Civil Service and Rifling, required for Munitions and Replaceable Parts)
 - Moisture Harvesting (Rediscovering era, requires Chemistry and Engineering, required for Steam Power)
 - Optics (Decivilized era, requires Sailing, required for Navigation)
 - Rewilding (Information era, requires Ocean Remediation and Genetics, required for Atmosphere Remediation)
+- Stealth (New Future era, requires Advanced Materials and Particle Physics, required for Future Tech)
 - Storytelling (Rediscovering era, requires Writing, required for Education)
 
 **New Beliefs**

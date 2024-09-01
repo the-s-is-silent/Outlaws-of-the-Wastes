@@ -3398,7 +3398,7 @@
 		"rangedStrength": 80,
 		"range": 20,
 		"cost": 500,
-		"requiredTech": "Future Materials",
+		"requiredTech": "Stealth",
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Only available <if [Aerospace Facility] is constructed>",
@@ -3408,6 +3408,27 @@
 			"Cannot be carried by [Carrier] units"
 		],
 		"attackSound": "bombing"
+	},
+	{
+		"name": "Stealth Fighter",
+		"unitType": "Fighter",
+		"movement": 2,
+		"strength": 65,
+		"rangedStrength": 75,
+		"range": 10,
+		"interceptRange": 10,
+		"cost": 500,
+		"requiredTech": "Stealth",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"[100]% chance to intercept air attacks",
+			"[+100]% Strength <vs [Bomber] units>",
+			"Only available <if [Aerospace Facility] is constructed>",
+			"Stealth",
+			"Consumes [1] [Oil]",
+			"Consumes [1] [Aluminum]"
+		],
+		"attackSound": "jetgun"
 	},
 	{
 		"name": "Tactical Nuke",

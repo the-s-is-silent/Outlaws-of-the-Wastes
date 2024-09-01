@@ -25,7 +25,8 @@
 				"name": "Optics",
 				"row": 1,
 				"prerequisites": ["Sailing"],
-				"uniques": ["Enables embarkation for land units"]
+				"uniques": ["Enables embarkation for land units"],
+				"quote": "One doesn't discover new lands without losing sight of the shore."
 			}
 		]
 	},
@@ -49,7 +50,8 @@
 			{
 				"name": "Storytelling",
 				"row": 4,
-				"prerequisites": ["Writing"]
+				"prerequisites": ["Writing"],
+				"quote": "'And if you believe that drivel, I've got a prime piece of radioactive swampland to sell you!' - Rozalia Nowakalska, Nowa Polska diplomat"
 			},
 			{
 				"name": "Chemistry",
@@ -101,6 +103,57 @@
 				"prerequisites": ["Moisture Harvesting", "Steel"],
 				"uniques": ["[+1] Movement <for [Embarked] units>"],
 				"quote": "Is it a fact - or have I dreamt it - that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?"
+			}
+		]
+	},
+	{
+		"columnNumber": 6,
+		"era": "Neofeudal era",
+		"techCost": 1000,
+		"buildingCost": 200,
+		"wonderCost": 500,
+		"techs": [
+			{
+				"name": "Hoplology",
+				"row": 8,
+				"prerequisites": ["Civil Service", "Rifling"],
+				"quote": "While you thought you were advancing the progress of men, I was actually advancing them - for it is only through warfare that men can advance into better eras."
+			}
+		]
+	},
+	{
+		"columnNumber": 7,
+		"era": "Rebuilding era",
+		"techCost": 1300,
+		"buildingCost": 250,
+		"wonderCost": 625,
+		"techs": [
+			{
+				"name": "Replaceable Parts",
+				"row": 7,
+				"prerequisites": ["Manufacturing", "Hoplology"],
+				"quote": "Nothing is particularly hard if you divide it into small jobs."
+			},
+			{
+				"name": "Munitions",
+				"row": 8,
+				"prerequisites": ["Manufacturing", "Hoplology"],
+				"quote": "As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy."
+			}
+		]
+	},
+	{
+		"columnNumber": 8,
+		"era": "Rebuilding era",
+		"techCost": 2000,
+		"buildingCost": 300,
+		"wonderCost": 750,
+		"techs": [
+			{
+				"name": "Electronics",
+				"row": 6,
+				"prerequisites": ["Replaceable Parts"],
+				"quote": "LIST COG SITES\nContacting nodes:\nARCHANGEL... OFFLINE;\nMAYFLOWER... OFFLINE;\nELYSIUM... OFFLINE;\nOLYMPUS... ONLINE;\n\n\nCONNECTING...\n\nUNAUTHORISED ACCESS LOGGED\n\nCONNECTION TERMINATED"
 			}
 		]
 	},
@@ -195,6 +248,12 @@
 				"row": 3,
 				"prerequisites": ["Plastics Recycling", "Rewilding"],
 				"quote": "All analysed pathways limiting warming to 1.5°C with no or limited overshoot use CO2 removal to some extent to neutralize emissions."
+			},
+			{
+				"name": "Stealth",
+				"row": 4,
+				"prerequisites": ["Particle Physics", "Advanced Materials"],
+				"quote": "Be extremely subtle, even to the point of formlessness, be extremely mysterious, even to the point of soundlessness. Thereby you can be the director of the opponent's fate."
 			}
 		]
 	},
@@ -223,7 +282,16 @@
 			{
 				"name": "Future Tech",
 				"row": 5,
-				"prerequisites": ["Geo Engineering", "Holography", "Future Power", "Future Materials", "Human Genome", "Astrogation", "Globalization"],
+				"prerequisites": [
+					"Geo Engineering",
+					"Holography",
+					"Future Power",
+					"Future Materials",
+					"Stealth",
+					"Human Genome",
+					"Astrogation",
+					"Globalization"
+				],
 				"uniques": ["[+1 Food, +1 Production, +1 Gold, +1 Culture, +1 Science] [in all cities] <for [9999] turns>",
 					"[+1]% Strength <for [All] units> <for [9999] turns>",
 					"Can be continually researched"],

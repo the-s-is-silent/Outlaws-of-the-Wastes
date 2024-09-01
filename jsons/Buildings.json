@@ -909,7 +909,7 @@
 			"[+1 Production] from [Weapons] tiles [in this city]",
 			"[+2 Production] [in this city] <after discovering [Railroads]>",
 			"Destroyed when the city is captured"],
-		"requiredTech": "Construction"
+		"requiredTech": "Hoplology"
 	},
 	{
 		"name": "Gupvi",
@@ -3575,7 +3575,7 @@
 			"[Personnel] units gain the [Infantry Weapons] promotion",
 			"[+10]% Production when constructing [Military] units [in this city] <when above [-2] [Power]>",
 			"Only available <in cities with a [Factory]>",
-			"Gain a free [Armory] [in this city]"
+			"Only available <in cities with a [Armory]>"
 		],
 		"requiredTech": "Munitions"
 	},
@@ -4246,8 +4246,7 @@
 	{
 		"name": "Armory",
 		"hurryCostModifier": 25,
-		"requiredTech": "Construction",
-		"requiredNearbyImprovedResources": ["Weapons"],
+		"requiredTech": "Hoplology",
 		"uniques": ["New [Military] units start with [15] Experience [in this city]",
 			"[+1 Production] from [Weapons] tiles [in this city]",
 			"Destroyed when the city is captured"]
@@ -4962,7 +4961,8 @@
 			"Consumes [1] [Power]",
 			"[Personnel] units gain the [Infantry Weapons] promotion",
 			"[+10]% Production when constructing [Military] units [in this city]",
-			"Gain a free [Armory] [in this city]"],
+			"Gain a free [Armory] [in this city]",
+			"Only available <in cities with a [Factory]>"],
 		"requiredTech": "Munitions"
 	},
 	{
