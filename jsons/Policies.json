@@ -240,7 +240,8 @@
 				"name": "Exodus of the Evangelists",
 				"uniques": ["[+2] Movement <for [Religious] units>",
 					"[+4 Faith] from every [Grand Monastery]",
-					"Gain a free [Enhancer] belief"],
+					"Gain a free [Enhancer] belief",
+					"Only available <after enhancing a religion>"],
 				"requires": ["Apotheosis", "Organized Religion"],
 				"row": 3,
 				"column": 3

@@ -915,7 +915,7 @@
 - Sanctified Innovations (Follower), adding +1 each of Production, Science and Faith to National Wonders (this is Enhancer in Lek/Rekmod but to me didn't feel right putting it there)
 - Zen Meditation (Follower), adding +2 Culture and +1 Happiness to cities with at least 2 active Specialists
 
-#### May - August 2024
+#### May - September 2024
 
 Several of the following adjustments are based on what is planned for the Rebirth Edition of base DeCiv should it ever be released. Several others are also being included in the "DeCiv 2" fork that is the effective continuation of pre-Rebirth DeCiv.
 
@@ -932,7 +932,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Hexlock now only creates one unique strategic resource with its improvements (previously five in the pre-Rebirth versions). The Compound Mix buildings instead require the city to work the Refinery whose stat corresponds to the GP it provides. Crystal Refineries provide a Refined version of the Experimental Chemicals, which regains its lost status as a Luxury Resource, but is consumed by the Meltdown building. Additionally, they now build National Wonders 15% faster.
 - The Mariners' UA gifting Sea Raider to their infantry units after adopting Advanced Piracy now also applies to Low Tech units.
 - New Star's UA no longer increases the rate of generating Great People. Instead, it now gives their Civilian and Support units the Thermoptic Camouflage promotion for free, and allows them to gain 15 Influence with City-States for gifting these units.
-- The Patriots now receive +1 Production/Science to most defensive buildings.
+- The Patriots now receive +1 Production/Science to most defensive buildings (e.g. Walls and everything required by it).
 - Spy names have been added for the base scenario's factions.
 	- Atlas spy names are taken from characters in *Atlas Shrugged.*
 	- Children of Rust spy names use a stereotypical Native American naming theme.
@@ -976,6 +976,9 @@ Several of the following adjustments are based on what is planned for the Rebirt
 		- Survival Program renamed to Collective Congress. Instead of adding Food and Growth yields to cities, it adds 1 Local Happiness for every 8 population in each of your cities and 1 of every yield except Happiness to worked Settlements.
 	- New Star:
 		- Gideon Scanner and Rally Station will now relocate to the new capital when the capital changes.
+		- Soup Kitchen and Triage are now standalone UBs. New Star still cannot build standard Prison Camps or Work Camps.
+		- New Star also cannot Annex Isolationists anymore.
+		- Rehabilitation Center is now the pseudo-Work Camp replacement instead of Triage and it will remain intact if the city is captured.
 	- The Patriots:
 		- Arsenal of Liberty's cost reduction reduced from 60% to 30%. It no longer requires surprlus Power for the Weapon copies or unit training speed bonus.
 
@@ -1023,6 +1026,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Theocracy:
 	- Organized Religion now adds +1 Culture instead of +1 Happiness to Shrines, Monasteries and Megachurches.
 	- Divine Mandate no longer adds stats to Monuments. Instead, it now adds +1 Happiness to Shrines, Monasteries and Megachurches.
+	- Exodus of the Evangelists now requires the player to have enhanced their religion before it can be adopted. This is done to prevent players from taking two of the "Reformation" beliefs, and also to prevent the AI from screwing itself out of the bonus belief on higher difficulties.
 - Monopoly:
 	- Mass Consumption no longer adds yields to improvements. Instead it gains Reclaimers' lost effect of preserving Happiness from trading away the last copy of owned luxuries.
 	- The finisher bonus now adds +1 Water/Production to Hexlock's Refineries.
@@ -1036,6 +1040,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Harvest Festival updated to account for new resources.
 - Spiritual Research now adds Science yields instead of Culture yields.
 - Strength of the Earth updated to account for a new faction-specific improvement.
+- Thought Control now gives a 25% Water discount for the relevant Censor replacements.
 - Works of Genius now increases GP generation by 25% instead of adding Faith to Great Improvements.
 
 **Improvement Adjustments**
@@ -1044,7 +1049,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Borehole nerfed to +3 base Production.
 - Crystal Refinery provides 3 copies of the consolidated Experimental Chemicals, and if built on Coal or Oil tiles it provides an additional copy of those resources.
 - Drydock nerfed slightly to lose +1 of its scaling Production and Science yields. Also, until such time as water improvements are no longer destroyed outright by pillaging, it is now unpillagable.
-- Fishing Boats may now be built either slowly (allowing the Work Boat to keep building improvements afterward) or instantly.
+- Fishing Boats and Modular Islands may now be built either slowly (allowing the Work Boat to keep building improvements afterward) or instantly.
 - Manufactory nerfed to lose +2 of its scaling Production yields.
 - Mine nerfed to lose the second +1 Production boost at Railroads. Also, it cannot be built on resources it doesn't improve.
 - Pasture buffed to move its +1 Food gain to Ecology, but it now properly obsoletes at Genetics.

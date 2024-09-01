@@ -426,8 +426,12 @@
 	{
 		"name": "Thought Control",
 		"type": "Enhancer",
-		"uniques": ["[Faith] cost of purchasing [Censor] units [-25]%",
-			"[Censor] units gain the [Control] promotion"]
+		"uniques": [
+			"Comment [Cost of purchasing Censor units (and their replacements) -25%]",
+			"[Gold] cost of purchasing [Censor] units [-25]% <hidden from users>",
+			"[Faith] cost of purchasing [Censor] units [-25]% <hidden from users>",
+			"[Censor] units gain the [Control] promotion"
+		]
 	},
 	{
 		"name": "Unity of the Sages",

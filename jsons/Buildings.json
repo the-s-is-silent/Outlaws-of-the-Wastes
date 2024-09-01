@@ -1497,6 +1497,12 @@
 			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Monument] [in this city]"
+		],
+		"quote": "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.",
+		"civilopediaText": [
+			{
+				"text": "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness."
+			}
 		]
 	},
 	{
@@ -1605,7 +1611,7 @@
 		"uniques": [
 			"Only available <in cities with a [Library]>",
 			"[+10]% Production when constructing [Military] units [in this city] <when at war>",
-			"[+3 Production, +2 Happiness] [in this city] <when above [0] [Power]>",
+			"[+4 Production, +2 Happiness] [in this city] <when above [0] [Power]>",
 			"[+1 Production] from [Machine Parts] tiles [in this city]",
 			"Consumes [1] [Power]"
 		],
@@ -3636,21 +3642,20 @@
 	},
 	{
 		"name": "Broadcast Tower",
-		"requiredResource": "Power",
 		"culture": 2,
 		"specialistSlots": {"Administrator": 1},
 		"percentStatBonus": {"culture": 25},
+		"uniques": ["Consumes [1] [Power]"],
 		"maintenance": 3,
 		"requiredTech": "Radio"
 	},
 	{
 		"name": "Television Studio",
-		"requiredBuilding": "Broadcast Tower",
-		"requiredResource": "Power",
 		"culture": 2,
 		"happiness": 2,
 		"specialistSlots": {"Administrator": 1},
 		"maintenance": 2,
+		"uniques": ["Only available <in cities with a [Broadcast Tower]", "Consumes [1] [Power]"],
 		"requiredTech": "Electronics"
 	},
 	{
@@ -4813,30 +4818,30 @@
 		"uniques": ["Indicates the capital city", "Provides [2] [Weapons]", "Limited to [2] per Civilization"]
 	},
 	{
+		"name": "Triage",
+		"uniqueTo": "New Star",
+		"cityHealth": 50,
+		"cost": 40,
+		"maintenance": 0,
+		"hurryCostModifier": -50,
+		"uniques": ["[All] Units adjacent to this city heal [+10] HP per turn when healing <in this city>",
+			"[+15]% Production when constructing [Support] units [in this city]",
+			"Can only be built <in [non-occupied] cities>",
+			"Destroyed when the city is captured"]
+	},
+	{
 		"name": "Soup Kitchen",
-		"replaces": "Prison Camp",
 		"uniqueTo": "New Star",
 		"food": 2,
 		"happiness": 1,
 		"maintenance": 1,
-		"uniques": ["[+1 Food] from every [Administrator] <in this city>",
+		"cost": 60,
+		"uniques": ["Comment [Replaces Prison Camp without being treated as Prison Camp]",
+			"[+1 Food] from every [Administrator] <in this city>",
 			"Remove extra unhappiness from annexed cities",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Construction",
 		"hurryCostModifier": -50
-	},
-	{
-		"name": "Triage",
-		"replaces": "Work Camp",
-		"uniqueTo": "New Star",
-		"cityHealth": 20,
-		"cost": 40,
-		"maintenance": 0,
-		"hurryCostModifier": 0,
-		"uniques": ["[All] Units adjacent to this city heal [+10] HP per turn when healing <in this city>",
-			"[+15]% Production when constructing [Support] units [in this city]",
-			"[+1 Happiness] [in this city] <after adopting [Voting Rights]>",
-			"Destroyed when the city is captured"]
 	},
 	{
 		"name": "Rehabilitation Center",
@@ -4844,11 +4849,13 @@
 		"happiness": 2,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1] population [in this city]",
+		"uniques": ["Comment [Replaces Work Camp without being treated as Work Camp]",
+			"[+1] population [in this city]",
 			"[+2 Happiness] [in this city] <after adopting [Voting Rights]>",
 			"Consumes [1] [Slaves]",
 			"Only available <with [Slaves]>",
-			"Unsellable"],
+			"Unsellable",
+			"Never destroyed when the city is captured"],
 		"requiredTech": "Biology"
 	},
 	{
@@ -4879,6 +4886,27 @@
 			"Only available <in cities with a [Library]>",
 			"Only available <in cities with a [Hospital]>"],
 		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "New Star cannot build Prison Camp",
+		"replaces": "Prison Camp",
+		"uniqueTo": "New Star",
+		"requiredTech": "The Wheel",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "New Star cannot build Work Camp",
+		"replaces": "Work Camp",
+		"uniqueTo": "New Star",
+		"requiredTech": "The Wheel",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "New Star cannot Annex Isolationists",
+		"replaces": "Annex Isolationists",
+		"uniqueTo": "New Star",
+		"requiredTech": "The Wheel",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Electing Leaders",
