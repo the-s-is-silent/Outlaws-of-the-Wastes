@@ -43,7 +43,7 @@ A major expansion + rebalance mod for DeCiv Redux.
   - Scouting: Wasteland Patrol, Border Patrol, Expeditionary Force
   - Hero units (only 1 allowed per Civ): Hero of the Wastes, only available as a random camp reward
 
-- New buildings: Alternet Cafe, Coastal Defenses, Community Garden, Condenser Cooler, Contraband Disposal Site, Defense Directorate (City-States only), Earth Clinic (Naturalism only), Earthscraper (Collectivism only), Ethanol Station, Food Processing Plant, Interpretative Center, Jeweler, Navy Shipyard (Rediscovery only), Sanctuary, Sociopolitical Institute, Tidal Array, and Workers' Facility (Collectivism only).
+- New buildings: Alternet Cafe, Coastal Defenses, Community Garden, Condenser Cooler, Contraband Disposal Site, Defense Directorate (City-States only), Earth Clinic (Naturalism only), Earthscraper, Ethanol Station, Food Processing Plant, Interpretative Center, Jeweler, Navy Shipyard (Rediscovery only), Sanctuary, Sociopolitical Institute, Tidal Array, Windmill Generator, and Workers' Facility (Collectivism only).
 
 - New world wonder: Statue of Remembrance.
 
@@ -52,7 +52,7 @@ A major expansion + rebalance mod for DeCiv Redux.
   - National Reservoir System, the mod's equivalent to BNW's East India Company.
   - Oceanological Center, boosting the Science output and Happiness of coastal cities for factions that have adopted the new Rediscovery policy.
   - Naval War College, the naval counterpart to the Military Academy, but cannot exist in the same city as the Military Academy.
-  - Earthscraper Project, unlocking a powerful late-game building for Collectivist factions.
+  - Earthscraper Project, unlocking a powerful late-game building to aid in defending cities.
   - Microwave Power Satellite, a late-game Power building for desert cities that also improves Solar collectors.
 
 - New tile improvements:
