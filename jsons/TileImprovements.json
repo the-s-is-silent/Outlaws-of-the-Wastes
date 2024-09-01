@@ -68,6 +68,7 @@
 			"Forest",
 			"Jungle",
 			"Swamp",
+			"Muskeg",
 			"Tundra",
 			"Permafrost"
 		],
@@ -228,6 +229,21 @@
 		"shortcutKey": "P"
 	},
 	{
+		"name": "Modular island",
+		"techRequired": "Computers",
+		"production": 1,
+		"food": 2,
+		"turnsToBuild": 12,
+		"uniques": [
+			"Food source",
+			"[+1 Science] <after discovering [Artificial Intelligence]>",
+			"Can only be built to improve a resource",
+			"Can only be built on [Water] tiles",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "M"
+	},
+	{
 		"name": "Borough",
 		"terrainsCanBeBuiltOn": ["Forest", "Jungle"],
 		"turnsToBuild": 15,
@@ -328,7 +344,8 @@
 			"[+1 Food] <after discovering [Oceanography]>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
-		]
+		],
+		"shortcutKey": "B"
 	},
 
 	//Removals
@@ -412,7 +429,7 @@
 			"Provides [2] [Slaves]",
 			"Removes removable features when built",
 			"Can be built just outside your borders",
-			"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Gain control over [all] tiles in a [1]-tile radius",
 			"Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
@@ -529,7 +546,7 @@
 			"Gives a defensive bonus of [110]%",
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Can be built just outside your borders",
-			"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Gain control over [all] tiles in a [1]-tile radius",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]"]
 	},

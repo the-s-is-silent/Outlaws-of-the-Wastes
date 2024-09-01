@@ -33,7 +33,7 @@
 		"cities": ["Zion Valley", "New Canaan", "Provorem", "Grand Staircase", "Cueva Guarache", "Fort Walker", "Dead Horse Point", "Angel's Landing",
 			"Traverse City", "New Tooele", "New Nephi", "Patriarchs' Court", "Urim and Thummim", "Malki Tzedek", "Maeserville", "Pine Creek",
 			"Fort Browning", "Kobol", "Anamani", "Rainbow Bridge", "Hovenweep", "Old Rockville", "Van Buren", "Burham Springs", "Nuevo Vicios"],
-		"spyNames": ["Daniel", "Mordecai", "Waking Cloud", "Jeremiah", "Judah", "Two-Bears-High-Fiving", "Marianne", "Clark", "Dancing Flame", "Quiet Shadow"],
+		"spyNames": ["Daniel", "Mordecai", "Waking Cloud", "Judah", "Two-Bears-High-Fiving", "Emmaline", "Bonnie", "Jeremiah", "Dancing Flame", "Quiet Shadow"],
 		"civilopediaText": [
 			{
 				"text": "Every day, we fall. Some days are harder than others. The day the nukes were launched... was the hardest fall yet for mankind. In the earliest days after the fallout settled, I tried to mete out vengeance against those responsible for the Cataclysm, unaware that I was setting myself up for my own great fall. I rallied many survivors, broken and disillusioned as I was, and set out on a brutal campaign, forgetting all I had been taught in the desire for revenge. The need to make my wrath into God's wrath. And sure enough, that disastrous journey led to my fall, and I found myself at Hell's gates."
@@ -272,6 +272,44 @@
 			"Mandalong", "Myuna", "Swansea", "Wiluna", "Wyee", "Seahampton", "Newstan", "Worsley"],
 		"spyNames": ["Donaldson", "Marheine", "Leigh", "Nott", "Macquarie", "Wickham", "Fernleigh", "Eales", "McCormack", "Stockton"]
 	},
+	{
+		"name": "The Oathsworn",
+		"leaderName": "Ada Hemings",
+		"adjective": ["Oathsworn"],
+		"startBias": ["Avoid [Desert]"],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Hemings",
+		"favoredReligion": "Methodism",
+
+		"startIntroPart1": "Like the Founding Fathers, we were outlaws, branded as such by an oppressive government. That government was the United States government, and our crime was trying to preserve, protect, and defend the Constitution which it held in contempt. As the 21st Century progressed, it became evident that the corrupt regime which had stolen power and stolen the rights of the American people would never give them back. It was time to refresh the tree of liberty by spilling the blood of these tyrants. Against all odds, we managed to awaken most of our fellow countrymen to their evil and rallied them to our cause. But just when it looked like we might have had a shot at victory, America was destroyed by nuclear hellfire. Had those tyrants truly grown so depraved as to annihilate their own people? We don't know. All we know is that we failed to save our nation. We failed to keep our oath. And we have to live with that failure.",
+		"startIntroPart2": "But when we emerged into the wastelands, we saw a glimmer of hope. The destruction was not as complete as we feared. More people survived than we expected. And we can still protect them as they lay the foundation for the rebirth of liberty. We have a second chance to get things right. To bring back America as it should have been. Our nation has fallen, but our oath still stands. We are the Oathsworn, and we must keep the American ideal alive.",
+		"declaringWar": "We've endured your oppression for too long, as have your people. It ends now.",
+		"attacked": "You would treat us as terrorists just as the tyrannical regimes of pre-Cataclysm America's last days once did. So be it.",
+		"defeated": "For the second and last time, we have failed to uphold our oath...",
+		"introduction": "I don't know who you are, but I welcome you to our territories. I'm General Ada Hemings, chief of the Oathsworn defense forces, and so long as you leave the good people living under my protection in peace, we should get along just fine.",
+		"neutralHello": "Carry on.",
+		"hateHello": "Tread carefully, lest you invite retaliation.",
+		"tradeRequest": "We hope this arrangement is of mutual benefit to our peoples.",
+
+		"outerColor": [255,255,255],
+		"innerColor": [28,51,119],
+		"style": "Military",
+		"uniqueName": "Oath to a Fallen Nation",
+		"uniques": [
+			"Comment [Each city owned increases resting point for influence with City-States by 5, up to a maximum of 30]",
+			"City-State territory always counts as friendly territory",
+			"[+1] Movement <for [All] units> <in [City-States] tiles>",
+			"[+25]% Great Person generation [in all cities]",
+			"Starts with [Construction]",
+			"Starts with [Constitution] adopted",
+			"Cannot build [Enslaved] units",
+			"Comment [Cannot build Prison Camp, Work Camp, or Council buildings]"
+		],
+		"cities": ["Century City", "Soldier Field", "Brandon Falls", "Libertyville", "Fort Independence", "Sanctuary Hills",
+			"Foundation", "Heritage", "Covenant", "Vanguard", "New Albany", "Hackettstown", "Taffington", "Concord", "Anabol",
+			"Quincy", "Bradbury", "Orwell", "Somerville", "Murkwater", "Cape Oath"],
+		"spyNames": ["Preston", "Harriet", "Beckett", "Bryce", "Murphy", "Nathaniel", "Wilhelmena", "Horatio", "Hailey", "Ted"]
+	},
 
 	//Adjusted factions
 	{
@@ -381,13 +419,11 @@
 
 		"outerColor": [116, 67, 5],
 		"innerColor": [219, 219, 126],
-		"style": "Tribal",
 		"uniqueName": "Rubble Runners",
 		"uniques": [
 			"[Civilian] units gain the [Urban Warfare I] promotion",
 			"[Low Tech] units gain the [Urban Warfare I] promotion",
 			"[Personnel] units gain the [Urban Warfare I] promotion",
-			"Starts with [Collectivism] adopted",
 			"[+1 Faith] [in all cities] <with [1] to [2] neighboring [{unimproved} {Jungle}] tiles>",
 			"[+2 Faith] [in all cities] <with [3] to [6] neighboring [{unimproved} {Jungle}] tiles>",
 			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."

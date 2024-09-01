@@ -7,6 +7,7 @@
 		"RGB": [120, 120, 120],
 		"uniques": [
 			"Rough terrain",
+			"Impeded terrain",
 			"Has an elevation of [4] for visibility calculations",
 			"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage",
@@ -24,6 +25,7 @@
 		"RGB": [120, 120, 120],
 		"uniques": [
 			"Rough terrain",
+			"Impeded terrain",
 			"Doesn't generate naturally",
 			"Has an elevation of [4] for visibility calculations",
 			"Only [Artificial glacier] improvements may be built on this tile"
@@ -33,6 +35,7 @@
 		"name": "Spring",
 		"type": "TerrainFeature",
 		"gold": 1,
+		"unbuildable": true,
 		"occursOn": ["Tundra", "Badlands", "Wasteland"],
 		"uniques": [
 			"Rare feature",
@@ -50,7 +53,6 @@
 		"production": 1,
 		"defenceBonus": -0.3,
 		"overrideStats": true,
-		"impassable": true,
 		"unbuildable": true,
 		"occursOn": [
 			"Wasteland",
@@ -62,9 +64,25 @@
 		"uniques": [
 			"Rare feature",
 			"Rough terrain",
+			"Impeded terrain",
 			"Every [7] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"Units ending their turn on this terrain take [5] damage",
-			"Only [Borehole] improvements may be built on this tile"
+			"Units ending their turn on this terrain take [5] damage"
+		]
+	},
+	{
+		"name": "Muskeg",
+		"type": "TerrainFeature",
+		"gold": 1,
+		"movementCost": 2,
+		"defenseBonus": -0.15,
+		"overrideStats": true,
+		"occursOn": ["Tundra", "Permafrost"],
+		"uniques": [
+			"Rare feature",
+			"Rough terrain",
+			"Impeded terrain",
+			"Every [7] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"Units ending their turn on this terrain take [5] damage"
 		]
 	},
 	{

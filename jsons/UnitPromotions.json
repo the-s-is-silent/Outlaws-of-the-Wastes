@@ -53,7 +53,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": [
-			"Heal this unit by [50] HP",
+			"[This Unit] heals [50] HP",
 			"Doing so will consume this opportunity to choose a Promotion"
 		],
 		"unitTypes": [
@@ -589,7 +589,6 @@
 		"uniques": [
 			"[+15]% Strength when stacked with [Civilian]",
 			"Can build [Land] improvements on tiles",
-			"This Unit gains [3] XP <upon building a [Land] improvement>",
 			"[-25]% construction time for [All] improvements <after discovering [Replaceable Parts]>",
 			"Gain [1]-[10] [Gold] <upon ending a turn in a [Forest] tile>",
 			"Gain [1]-[10] [Gold] <upon ending a turn in a [Jungle] tile>",
@@ -654,16 +653,36 @@
 	{
 		"name": "Valor of Aztlán",
 		"uniques": ["[+25]% Strength <vs [Wounded] units>",
-			"This Unit upgrades for free <upon defeating a [Military] unit>",
+			"[This Unit] upgrades for free <upon defeating a [Military] unit>",
 			"Comment [This Promotion becomes Fury of Aztlán after this unit upgrades to Shorn One]",
-			"This Unit loses the [Valor of Aztlán] promotion <for [non-[Aztlán]]> <hidden from users>"]
+			"[This Unit] loses the [Valor of Aztlán] promotion <for [non-[Aztlán]]> <hidden from users>"]
 	},
 	{
 		"name": "Fury of Aztlán",
 		"uniques": ["[+33]% Strength <when attacking>",
 			"Heals [25] damage if it kills a unit",
-			"This Unit loses the [Valor of Aztlán] promotion <hidden from users>"]
+			"[This Unit] loses the [Valor of Aztlán] promotion <hidden from users>"]
     },
+	{
+		"name": "Homeland Guardian",
+		"uniques": ["[+25]% Strength <when fighting in [Friendly Land] tiles>"]
+	},
+	{
+		"name": "Great Generals",
+		"uniques": ["[Great General] is earned [100]% faster"]
+	},
+	{
+		"name": "[Continental General] ability",
+		"uniques": ["Great General",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"[+50]% XP gained from combat",
+			"[+50]% Strength <after discovering [Combined Arms]>",
+			"[+50]% Strength <after discovering [Advanced Materials]>",
+			"Can instantly construct a [Citadel] improvement <once> <for [2] movement>",
+			"[This Unit] gains [1] XP <upon ending a turn in a [Citadel] tile>",
+			"Gain [5]-[30] [Gold] <upon ending a turn in a [Settlement] tile>",
+			"Uncapturable"]
+	},
 	{
 		"name": "[Lawkeeper] ability",
 		"uniques": ["Great General",

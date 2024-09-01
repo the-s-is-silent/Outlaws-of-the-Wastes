@@ -25,6 +25,7 @@
 
 #### Children of Rust
 - They no longer start with Redomestication, and the Faith bonus only applies with *unimproved* Ruins tiles.
+- They no longer start with Collectivism already adopted.
 - The Longhouse wonder is replaced with First Kiva, which adds +40 more City HP (at the cost of losing the measly +1 to City Strength) and a bonus Pantheon belief upon founding their religion. However, it does not generate any Faith on its own until a Pantheon has been founded, and it gives their new Food Store replacement instead of a Salvage Yard.
 - Salvage Yards no longer add Production to Scrap resources; they regain the normal Forge's Production bonus towards Land units.
 - Communes are no longer available at the start of the game and no longer reduce tile cost purchase or have any base yields without access to Power. Also, they cost 120 Production (up from 40). However, they add +2 Food with access to Power.
@@ -37,7 +38,7 @@
 - Peace Memorial no longer generates Faith. Instead, it adds +1 Local Happiness to every owned city during peacetime.
 - Caravan Office buffed to +3 base Water.
 - Black Site no longer has a minor Food penalty.
-- Embassy no longer increases GP generation. It now increases influence gain from Water gifts to City-States and receives the +10% growth and +5% Production bonuses of the standard Council.
+- Embassy no longer increases GP generation, and the influence gain from unit gifts to City-States is cut in half. It now increases influence gain from Water gifts to City-States and receives the +10% growth and +5% Production bonuses of the standard Council.
 - Parliament now adds scaling Water yields instead of scaling Science yields and cuts CS influence degradation in half.
 - New UU: Field Preparations Squad (replaces Forward Observer, has an extra movement point and can build Roads, Railroads, Forts and Trenches in half the time of standard Workers)
 - New UBs:
@@ -97,7 +98,7 @@
 - The adjustments to Hospitals and Organ Labs for other factions have effectively turned Harvested Organs into a third exclusive luxury for this faction.
 - Narcotics farms are buffed to start at +4 Culture, +2 Water, and gain an additional +4 Culture at Social Engineering.
 - Clan Hideout buffed to +2 Water and +100 City HP.
-- Shake Down Survivors now costs 30 Production, provides 4 Slaves, and awards a free Gangboss.
+- Shake Down Survivors now costs 30 Production, provides 4 Slaves, adds 1 Water per 4 population in its city, and gives a free Gangboss.
 - Clansmen no longer require Clubhouses to be built.
 - Hitmen no longer start with Skirmish, but are buffed to 32 Ranged Strength (previously 24) and cost 70 Production (down from 90).
 - As mentioned above, Plantations now belong to them instead of Ignis. They now unlock at Botany instead of being available at the start of the game, lose the 20% total Food bonus, regain the standard Greenhouse boosts to Food (+2 to the city itself, +1 to Farm-able resources, +1 Farmer slot), and only give a 50% boost to Worker training speed. They also add +1 Food to active Farmers in the city and +1 Culture to worked Narcotics farm tiles. Because of the Slave consumption requirement, they're 30% cheaper to build than standard Greenhouses.

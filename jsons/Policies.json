@@ -200,16 +200,18 @@
 		"policies": [
 			{
 				"name": "Organized Religion",
-				"uniques": ["[+1 Happiness, +1 Faith] from every [Shrine]",
-					"[+1 Happiness, +1 Faith] from every [Monastery]",
-					"[+1 Happiness, +1 Faith] from every [Megachurch]"],
+				"uniques": ["[+1 Culture, +1 Faith] from every [Shrine]",
+					"[+1 Culture, +1 Faith] from every [Monastery]",
+					"[+1 Culture, +1 Faith] from every [Megachurch]"],
 				"row": 1,
 				"column": 2
 			},
 			{
 				"name": "Divine Mandate",
-				"uniques": ["[+2 Culture, +2 Happiness] from every [Monument]",
-					"[Faith] cost of purchasing items in cities [-20]%"],
+				"uniques": ["[Faith] cost of purchasing items in cities [-20]%",
+					"[+1 Happiness] from every [Shrine]",
+					"[+1 Happiness] from every [Monastery]",
+					"[+1 Happiness] from every [Megachurch]"],
 				"row": 1,
 				"column": 4
 			},
@@ -238,7 +240,8 @@
 				"name": "Exodus of the Evangelists",
 				"uniques": ["[+2] Movement <for [Religious] units>",
 					"[+4 Faith] from every [Grand Monastery]",
-					"Gain a free [Enhancer] belief"],
+					"Gain a free [Enhancer] belief",
+					"Only available <after enhancing a religion>"],
 				"requires": ["Apotheosis", "Organized Religion"],
 				"row": 3,
 				"column": 3
@@ -547,7 +550,6 @@
 		"uniques": ["[Great Engineer] is earned [33]% faster",
 			"May buy [Stalker] units with [Gold] for [3] times their normal Production cost",
 			"Comment [Unlocks [Workers' Facility]]",
-			"Comment [Unlocks [Earthscraper Project]]",
 			"Only available <before adopting [Monopoly]>"],
 		"policies": [
 			{
@@ -699,7 +701,7 @@
 				"uniques": ["[+1 Faith, +1 Culture, +1 Happiness] from every [Greenhouse]",
 					"[+1 Faith, +1 Culture, +1 Happiness] from every [Protected Area]",
 					"[+1 Faith, +1 Culture, +1 Happiness] from every [Arcology Dome]",
-					"[+1 Faith, +1 Culture, +1 Happiness] from every [Sanctuary]"],
+					"[+1 Faith, +1 Culture, +1 Happiness] from every [Eco-Sanctuary]"],
 				"row": 2,
 				"column": 2
 			},
