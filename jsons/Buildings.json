@@ -3655,7 +3655,7 @@
 		"happiness": 2,
 		"specialistSlots": {"Administrator": 1},
 		"maintenance": 2,
-		"uniques": ["Only available <in cities with a [Broadcast Tower]", "Consumes [1] [Power]"],
+		"uniques": ["Only available <in cities with a [Broadcast Tower]>", "Consumes [1] [Power]"],
 		"requiredTech": "Electronics"
 	},
 	{
