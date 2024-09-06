@@ -237,8 +237,7 @@
 		"type": "Follower",
 		"uniques": ["All newly-trained [Personnel] units [in cities following this religion] receive the [Healing Hands] promotion",
 			"[All] Units adjacent to this city heal [+10] HP per turn when healing",
-			"[+2 Faith] from every [Hospital]",
-			"[+2 Faith] from every [Medical Lab]"]
+			"[+2 Faith] from every [Hospital]"]
 	},
 	{
 		"name": "Feast of Flesh",

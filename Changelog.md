@@ -1036,7 +1036,11 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **Belief Adjustments**
 - Art of War starts at a flat 200 Faith per unit purchase (Standard speed), and the cost actually increases with the era (300 in Rebuilding, 400 in Industrial, 600 in Postmodern, 800 in Information, 1000 in New Future and Singularity) like it would in official Civ 5 and standard Unciv rulesets (and does in Rekmod) but unlike any other Faith purchase in DeCiv. This is as it should be if the belief is to be allowed to exist at all.
 - Blessed Green updated to account for Enclavers' Fortified Farm UI.
+- Cathedrals no longer have an Administrator slot, but they now add +5 Culture.
+- Divinity Schools no longer have a Scientist slot.
+- Faith Healers no longer adds Faith to Medical Labs.
 - Funeral Rites no longer gives minor Culture yields for consuming Great People. Instead, it adds +2 Faith to all worked Great Improvements.
+- Gardens no longer have a Farmer slot, but they now carry over 10% of the Food consumed by population growth and gain +1 Food with access to Exotic Seeds.
 - Harvest Festival updated to account for new resources.
 - Spiritual Research now adds Science yields instead of Culture yields.
 - Strength of the Earth updated to account for a new faction-specific improvement.
@@ -1106,4 +1110,4 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **New Beliefs**
 - Cautionary Tales (Pantheon), adds +2 Faith to Libraries and +1 Happiness to Museums
 - Communion Centers (Follower), Worship Center adds: +1 Culture/Happiness, +2 Faith, +3 Water, +10% to city's total Water yields
-- Meeting Houses (Follower), Worship Center adds: +3 Production, +1 Culture, +2 Faith, +5% to city's total Production
+- Meeting Houses (Follower), Worship Center adds: +3 Production, +1 Culture, +2 Faith, +10% Production towards buildings

@@ -4273,8 +4273,9 @@
 		"faith": 1,
 		"happiness": 1,
 		"food": 3,
-		"specialistSlots": {"Farmer": 1},
-		"uniques": ["Worship Center", "Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Worship Center", "Unbuildable",
+			"[10]% Food is carried over after population increases [in this city]",
+			"Hidden when religion is disabled"]
 	},
 	{
 		"name": "Holy Fortress",
@@ -4303,7 +4304,6 @@
 		"happiness": 1,
 		"science": 3,
 		"percentStatBonus": {"science": 10},
-		"specialistSlots": {"Scientist": 1},
 		"uniques": ["Worship Center", "Unbuildable", "Hidden when religion is disabled"]
 	},
 
@@ -5878,10 +5878,9 @@
 	{
 		"name": "Cathedral",
 		"cost": 0,
-		"culture": 3,
+		"culture": 5,
 		"faith": 1,
 		"happiness": 1,
-		"specialistSlots": {"Administrator": 1},
 		"uniques": ["Worship Center", "Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
@@ -5900,7 +5899,8 @@
 		"production": 3,
 		"culture": 1,
 		"faith": 2,
-		"percentStatBonus": {"production": 5},
-		"uniques": ["Worship Center", "Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Worship Center", "Unbuildable",
+			"[+10]% Production when constructing [All] buildings [in this city]",
+			"Hidden when religion is disabled"]
 	}
 ]
