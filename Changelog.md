@@ -929,10 +929,12 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - All factions that started in the Rebuilding era lose the relevant starting techs.
 - Blackwarden no longer loses its Strength bonus in foreign land while the faction is unhappy.
 - Children of Rust is no longer locked into Collectivism at the start of a game.
+- Crimson Line, The Harbingers, and Proklyatyye have been designated as "Russian Unifier" factions in their UAs for the purposes of component sharing.
 - Hexlock now only creates one unique strategic resource with its improvements (previously five in the pre-Rebirth versions). The Compound Mix buildings instead require the city to work the Refinery whose stat corresponds to the GP it provides. Crystal Refineries provide a Refined version of the Experimental Chemicals, which regains its lost status as a Luxury Resource, but is consumed by the Meltdown building. Additionally, they now build National Wonders 15% faster.
 - The Mariners' UA gifting Sea Raider to their infantry units after adopting Advanced Piracy now also applies to Low Tech units.
 - New Star's UA no longer increases the rate of generating Great People. Instead, it now gives their Civilian and Support units the Thermoptic Camouflage promotion for free, and allows them to gain 15 Influence with City-States for gifting these units.
 - The Patriots now receive +1 Production/Science to most defensive buildings (e.g. Walls and everything required by it).
+- Proklyatyye's growth penalties are now eliminated once Decontamination is researched. Also, Rodnovery is now their favored religion (they don't have a favored religion in base DeCiv).
 - Spy names have been added for the base scenario's factions.
 	- Atlas spy names are taken from characters in *Atlas Shrugged.*
 	- Children of Rust spy names use a stereotypical Native American naming theme.
@@ -946,6 +948,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Building Adjustments**
 - Condenser Cooler now removes itself from the cities it's built in when it goes obsolete at Atmosphere Remediation. However, this is hidden from the player in-game.
+- Distillery (and Moonshinery) updated to account for new resources.
 - Earthscraper nerfed to only give 1 free pop instead of 2 and only a 75% reduction to population loss and garrisoned unit damage from nukes instead of full protection. However, the population requirement for building is now more lenient, only needing 15 instead of the previous 20, and it no longer costs maintenance and is cheaper to purchase.
 - Hydroponic Farming loses one Farmer slot, but now actually adds +2 Food to Lakes instead of +1 (this was supposed to have happened earlier).
 - Listening Post (and replacements) no longer boost GP generation at all. It is now the Tier 1 anti-spy building (a change that was also implemented in the new "Deciv 2" fork).
@@ -1007,8 +1010,12 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- War Tram and Armored Train's base movement reduced from 4 to 2.
 		- War Tram's bonus against infantry units increased to 50% to compensate. It now obsoletes at Railroads and upgrades to the Armored Train.
 		- Armored Train's bonus when attacking cities doubled. However, it now consumes Oil instead of Power.
+		- The RCB units are no longer exclusive to this faction; now they are available to any hypothetical Russian Unifier faction.
+		- Crimson Sniper now replaces Black Ops and has had its stats adjusted accordingly. Also, it gets double strength when attacking other Personnel units.
 - Deadrock Clan UUs: Hitman loses Skirmish, but its Production cost is reduced to 70 and its ranged strength is increased to 32.
-- Defiance UUs: Lawkeepers are no longer limited to 1 per Civilization.
+- Defiance UUs:
+	- Defiant Scouts are now ranged units with 30 ranged strength and 2 range that require setting up to attack, and they now upgrade to Riflemen.
+	- Lawkeepers are no longer limited to 1 per Civilization.
 - Harbinger UUs:
 	- Educational Officer and Opolcheniye renamed to Educator Officer and Vengerovsky.
 	- Technopath is now a standalone UU and its Strength buff at Artificial Intelligence increased to 50%.
@@ -1061,7 +1068,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Terrain Adjustments**
 - A new unique, "Impeded Terrain", has been added and applied to terrains where cities are not supposed to be built.
-- Mountains can now only have Artificial glaciers built on them, putting a stop to one particular Enclavers hijink. This might be changed later if additional Mountain-specific improvements are created.
+- Mountains can now only have Artificial glaciers built on them, putting a stop to one particular Enclavers hijink. This will likely be changed later to allow a handful of other standard improvements to be built on those tiles.
 - Springs can now only have Water pumps built on them, as another screw you to the AI and its primitive sanity checks. (*Stop* wasting your Great Improvements on those tiles, dammit!) This change is also present in the DeCiv 2 fork.
 
 **Resource Adjustments**
@@ -1092,6 +1099,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Ghoul (standalone Barbarian unit that can spawn more Ghouls when it kills a unit and cannot be captured)
 - Marked One (Barbarian version of Stalker, loses tile improvement abilities but gains +2 Strength and starts with Forage and Urban Warfare I)
 - Nuke Cannon (Standalone UU for Proklyatyye, Siege Nuke, 600 production cost, 60 combat strength, 70 ranged strength, 2 nuke strength, blast radius 0, cannot fortify, rough terrain penalty, can only have 3 at a time)
+- RCB Marksman (Russian Unifier replacement for NBC Marksman, Ranged/Defense Strength swapped, same additional bonuses as RCB Infantry)
 - Savior of the Sea (Barbarian version of Assault Ship, 30% stronger when adjacent to other Melee Water units and can capture defeated Water units)
 - Stim Trooper (Standalone UU for Hexlock, 250 production cost, 60 combat strength, 3 movement, heals 20 damage on kill, consumes both Weapons and Experimental Chemicals, upgrades to Exo-Trooper)
 

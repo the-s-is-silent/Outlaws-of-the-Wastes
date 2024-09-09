@@ -193,6 +193,8 @@
 - New UB: Arsenal of Liberty (replaces Armaments Production Line, 30% cheaper to build, adds an extra +1 Unit Supply, no Power requirements for effects beyond the Power consumed to build)
 
 #### Proklyatyye
+- Since they don't have a favored religion in base DeCiv, Rodnovery was assigned to them in this mod.
+- The growth penalties in the UA now end after researching Decontamination.
 - Sarcophagus buffed to +2 Production.
 - Five-Year Plan and Gulag have been renamed to State Assembly and Politburo.
 - State Assembly now adds scaling Production yields (in addition to the scaling Culture yields) and counts every 4 population in cities instead of every 5. However, it costs 150 Production.

@@ -3671,6 +3671,27 @@
 		"requiredTech": "Hydroponics"
 	},
 	{
+		"name": "Distillery",
+		"happiness": 2,
+		"maintenance": 1,
+		"uniques": ["Provides [1] [Alcohol]"],
+		"requiredNearbyImprovedResources": ["Grain", "Tubers", "Maize"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Chemistry"
+	},
+	{
+		"name": "Moonshinery",
+		"uniqueTo": "Enclavers",
+		"replaces": "Distillery",
+		"culture": 1,
+		"happiness": 2,
+		"maintenance": 1,
+		"uniques": ["Provides [1] [Alcohol]"],
+		"requiredNearbyImprovedResources": ["Grain", "Tubers", "Maize"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Chemistry"
+	},
+	{
 		"name": "Market",
 		"specialistSlots": {"Merchant": 1},
 		"gold": 2,
