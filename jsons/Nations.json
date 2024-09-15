@@ -316,6 +316,38 @@
 			"Quincy", "Bradbury", "Orwell", "Somerville", "Murkwater", "Cape Oath"],
 		"spyNames": ["Preston", "Harriet", "Beckett", "Bryce", "Murphy", "Nathaniel", "Wilhelmena", "Horatio", "Hailey", "Ted"]
 	},
+	{
+		"name": "Nowa Polska",
+		"leaderName": "Aleksandra Mielżyńska",
+		"adjective": ["Polish"],
+		"startBias": ["Badlands"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Mielżyńska",
+		"favoredReligion": "Rodnovery",
+
+		// "startIntroPart1": "TBA",
+		// "startIntroPart2": "TBA",
+		"declaringWar": "We didn't want to go this far. But we must ensure that we keep our independence.",
+		"attacked": "You will not trample over us as so many others have done!",
+		"defeated": "Though we fought with everything we had, Poland is lost. Perhaps this time, forever...",
+		"introduction": "Welcome to New Poland, wastelander. We are still one of the finest nations on Earth in spite of all that has been thrown at us.",
+		"neutralHello": "Good day.",
+		"hateHello": "What do demons like you expect to find among our ever vigilant people?",
+		"tradeRequest": "I have sent a delegation to your capital. Treat them kindly.",
+
+		"outerColor": [228, 117, 116],
+		"innerColor": [121, 0, 2],
+		"uniqueName": "Sanation",
+		"uniques": [
+			"[-10]% Culture cost of adopting new Policies",
+			"[+25]% Production when constructing [Military] units [in all cities] <when fighting units from a Civilization with more cities than you>",
+			"[+50]% XP gained from combat <when fighting units from a Civilization with more cities than you>",
+			"Starts with [Redomestication]"
+		],
+		"cities": ["Zamość", "Chwala", "Borne Sulinowo", "Nowe Tychy", "Bereza Kartusha", "Ostrołęka", "Sława", "Nowogród",
+			"Zwonowice", "Jasna Góra", "Zakopane", "Rzeczka", "Łysa Góra", "Bochnia", "Wieliczka", "Rembertów"],
+		"spyNames": ["Stefan", "Malina", "Kazimierz", "Bronislaw", "Ewa", "Jan", "Marzena", "Henryk", "Artur", "Rozalia"]
+	},
 
 	//Adjusted factions
 	{

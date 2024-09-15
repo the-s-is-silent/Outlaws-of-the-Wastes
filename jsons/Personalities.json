@@ -754,5 +754,38 @@
 			"Bionics": 0,
 			"Legacy": 40
 		}
+	},
+	{
+		"name": "Mielżyńska",
+		"production": 5,
+		"food": 6,
+		"gold": 6,
+		"science": 5,
+		"culture": 8,
+		"happiness": 6,
+		"faith": 5,
+		"military": 8,
+		"aggressive": 5,
+		"declareWar": 2,
+		"commerce": 8,
+		"diplomacy": 7,
+		"loyal": 6,
+		"expansion": 3,
+		"priorities": {
+			"Adaptation": 30,
+			"Expansionism": 10,
+			"Sovereignty": 40,
+			"Theocracy": 10,
+			"Rationalism": 20,
+			"Constitution": 30,
+			"Supremacy": 0,
+			"Monopoly": 20,
+			"Collectivism": 0,
+			"Rediscovery": 20,
+			"Naturalism": 40,
+			"Mechanization": 0,
+			"Bionics": 0,
+			"Legacy": 0
+		}
 	}
 ]

@@ -124,7 +124,7 @@
 		"production": 5,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"isNationalWonder": true,
-		"uniques": ["[+4 Production] from every [Solar collector]",
+		"uniques": ["[+1 Production] from every [Solar collector]",
 			"[+1 Production] from [Desert] tiles [in this city]",
 			"Provides [8] [Power]",
 			"Only available <in cities with a [Aerospace Facility]>",
@@ -1667,7 +1667,118 @@
 		"replaces": "Council",
 		"uniqueTo": "The Oathsworn",
 		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
-	}
+	},
+
+	//Nowa Polska unique buildings
+	{
+		"name": "Zamość Fortress",
+		"isWonder": true,
+		"uniqueTo": "Nowa Polska",
+		"culture": 1,
+		"production": 1,
+		"cityStrength": 5,
+		"cityHealth": 60,
+		"cost": 0,
+		"uniques": [
+			"[+2] Unit Supply per city",
+			"Provides [2] [Weapons]",
+			"[2] free [Kosynier] units appear",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Food Store] [in this city]"
+		]
+	},
+	{
+		"name": "Sukiennice",
+		"replaces": "Market",
+		"uniqueTo": "Nowa Polska",
+		"production": 2,
+		"gold": 3,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"requiredTech": "Trade",
+		"uniques": ["[+1 Gold] from [Luxury resource] tiles [in this city]",
+			"[+1 Gold] from each Trade Route"]
+	},
+	{
+		"name": "Folwark",
+		"replaces": "Greenhouse",
+		"uniqueTo": "Nowa Polska",
+		"food": 3,
+		"gold": 2,
+		"specialistSlots": {"Farmer": 1},
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Food] from [Tubers] tiles [in this city]",
+			"[+1 Food] from [Grain] tiles [in this city]",
+			"[+1 Food] from [Maize] tiles [in this city]",
+			"[+1 Food] from [Cactus] tiles [in this city]",
+			"[+1 Food] [in this city] <with [Exotic Seeds]>"
+		],
+		"requiredTech": "Botany"
+	},
+	{
+		"name": "Sejmik",
+		"replaces": "Town Hall",
+		"uniqueTo": "Nowa Polska",
+		"culture": 2,
+		"specialistSlots": {"Administrator": 1},
+		"maintenance": 1,
+		"uniques": [
+			"[-25]% Culture cost of natural border growth [in this city]",
+			"[-25]% Gold cost of acquiring tiles [in this city]",
+			"Comment [+1 Happiness in this city for each completed social policy branch]",
+			"[+1 Happiness] [in this city] <after adopting [Adaptation Complete]> <hidden from users>",
+			"[+1 Happiness] [in this city] <after adopting [Expansionism Complete]> <hidden from users>",
+			"[+1 Happiness] [in this city] <after adopting [Sovereignty Complete]> <hidden from users>",
+			"[+1 Happiness] [in this city] <after adopting [Theocracy Complete]> <hidden from users>",
+			"[+1 Happiness] [in this city] <after adopting [Rationalism Complete]> <hidden from users>",
+			"[+1 Happiness] [in this city] <after adopting [Constitution Complete]> <hidden from users>",
+			"[+1 Happiness] [in this city] <after adopting [Supremacy Complete]> <hidden from users>",
+			"[+1 Happiness] [in this city] <after adopting [Monopoly Complete]> <hidden from users>",
+			"[+1 Happiness] [in this city] <after adopting [Collectivism Complete]> <hidden from users>",
+			"[+1 Happiness] [in this city] <after adopting [Rediscovery Complete]> <hidden from users>",
+			"[+1 Happiness] [in this city] <after adopting [Naturalism Complete]> <hidden from users>",
+			"[+1 Happiness] [in this city] <after adopting [Mechanization Complete]> <hidden from users>",
+			"[+1 Happiness] [in this city] <after adopting [Bionics Complete]> <hidden from users>",
+			"[+1 Happiness] [in this city] <after adopting [Legacy Complete]> <hidden from users>"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Sejm",
+		"replaces": "Congress",
+		"uniqueTo": "Nowa Polska",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture] per [4] population [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
+			"[+1 Gold] from all [{non-[Wonder]} {Gold}] buildings",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Rada Ocalenia]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Rada Ocalenia",
+		"replaces": "Council",
+		"uniqueTo": "Nowa Polska",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+10]% growth [in all cities]",
+			"[+5]% Production when constructing [All] buildings [in all cities connected to capital]",
+			"[+30]% Strength decreasing with distance from the capital",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Sejm]>",
+			"Destroyed when the city is captured"
+		]
+	},
 
 	//Adjusted buildings and wonders
 	//Part 1: Faction identity wonders and government buildings
@@ -2605,10 +2716,10 @@
 		"name": "Fusion Reactor",
 		"isNationalWonder": true,
 		"requiredBuilding": "Nuclear Plant",
-		"uniques": ["Double quantity of [Power] produced",
+		"uniques": ["Provides [40] [Power]",
 			"Provides [2] [Uranium]",
-			"[+8 Production] [in all cities connected to capital]",
-			"[+25]% [Production] [in all cities connected to capital]",
+			"[+5 Production] [in all cities connected to capital]",
+			"[+15]% [Production] [in all cities connected to capital]",
 			"Can only be built <in [Capital] cities>"],
 		"requiredTech": "Future Power"
 	},

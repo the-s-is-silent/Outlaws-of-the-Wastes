@@ -1513,6 +1513,128 @@
 		"attackSound": "shot"
 	},
 
+	//Nowa Polska unique units
+	{
+		"name": "Kosynier",
+		"unitType": "Scrapper",
+		"uniqueTo": "Nowa Polska",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 22,
+		"cost": 50,
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Militia",
+		"uniques": [
+			"Low Tech",
+			"Can build [Land] improvements on tiles",
+			"[+50]% Strength <vs [Mounted] units>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Winged Hussar",
+		"unitType": "Mounted",
+		"uniqueTo": "Nowa Polska",
+		"replaces": "Hussar",
+		"movement": 5,
+		"strength": 38,
+		"interceptRange": 1,
+		"cost": 80,
+		"requiredTech": "Redomestication",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Cavalry",
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Can only be built <in cities with a [Stable]>"
+		],
+		"promotions": ["Shock"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Uhlan",
+		"unitType": "Mounted",
+		"uniqueTo": "Nowa Polska",
+		"replaces": "Cavalry",
+		"movement": 5,
+		"strength": 42,
+		"cost": 140,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Tank",
+		"uniques": [
+			"Personnel",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[+20]% Strength <vs [Armor] units> <when attacking>",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
+			"Can only be built <in cities with a [Stable]>"
+		],
+		"promotions": ["Pursuit"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Cursed Soldier",
+		"unitType": "Scrapper",
+		"uniqueTo": "Nowa Polska",
+		"replaces": "Infantry",
+		"movement": 2,
+		"strength": 45,
+		"interceptRange": 1,
+		"cost": 125,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "NBC Infantry",
+		"hurryCostModifier": 20,
+		"promotions": ["[Cursed Soldier] ability"],
+		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Cichociemni",
+		"replaces": "Jetsuit",
+		"uniqueTo": "Nowa Polska",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 50,
+		"cost": 225,
+		"requiredTech": "Avionics",
+		"upgradesTo": "Drop Troops",
+		"uniques": [
+		    "Personnel",
+			"No movement cost to pillage",
+			"May Paradrop up to [12] tiles from inside friendly territory",
+			"[+25]% Strength <when fighting in [Friendly Land] tiles>",
+			"Consumes [1] [Weapons]",
+			"Only available <if [Factory] is constructed>"
+		],
+		"promotions": ["Reconnaissance I", "Reconnaissance II", "Thermoptic Camouflage"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "GROM",
+		"replaces": "Drop Troops",
+		"uniqueTo": "Nowa Polska",
+		"unitType": "Scrapper",
+		"movement": 3,
+		"strength": 60,
+		"cost": 330,
+		"requiredTech": "Energy Weapons",
+		"uniques": [
+		    "Personnel",
+			"No movement cost to pillage",
+			"May Paradrop up to [30] tiles from inside friendly territory",
+			"Consumes [2] [Weapons]",
+			"Only available <if [Automated Factory] is constructed>"
+		],
+		"promotions": ["Gas Mask", "Loose Formation", "Medic II", "Reconnaissance I", "Reconnaissance II"],
+		"attackSound": "machinegun"
+	},
+
 	//Siege units
 	{
 		"name": "Armed Ambulance",

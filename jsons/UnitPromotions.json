@@ -657,6 +657,10 @@
 			"[This Unit] loses the [Valor of Aztlán] promotion <hidden from users>"]
     },
 	{
+		"name": "[Cursed Soldier] ability",
+		"uniques": ["[+20]% Strength <when fighting units from a Civilization with more Cities than you>"]
+	},
+	{
 		"name": "Homeland Guardian",
 		"uniques": ["[+25]% Strength <when fighting in [Friendly Land] tiles>"]
 	},

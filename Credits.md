@@ -12,7 +12,7 @@ The icons for Alma Frontier Guard and Alma State Guard are of my own creation.
 
 Unless otherwise specified, all of the following icons are from the Noun Project, licensed under Creative Commons or Public Domain. Also, if anyone feels like there is a better/more fitting icon out there for any particular building/unit/etc. than the one that is used, I am open to suggestions for replacement icons.
 
-Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmecac, Calpulli, Condenser Cooler, Defense Directorate (and its replacements), Defiant Guardian, Defiant Scout, Killdozer, Mounted Railgun, Pale Veteran, Pax Observer, Pax Researcher, Pax Surveyor, Persevering Pax Researcher, Pithouse, Praetorium, Preservator (icon also missing from TCC-beta), Pridwen-class, Roller, SS Casing, SS Life Support, Super Mutant, Telpochcalli, Tiyanquitzli, Weaponized Yacht
+Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmecac, Calpulli, Cichociemni, Condenser Cooler, Defense Directorate (and its replacements), Defiant Guardian, Defiant Scout, GROM, Killdozer, Mounted Railgun, Pale Veteran, Pax Observer, Pax Researcher, Pax Surveyor, Persevering Pax Researcher, Pithouse, Praetorium, Preservator (icon also missing from TCC-beta), Pridwen-class, Roller, Sejmik, SS Casing, SS Life Support, Super Mutant, Telpochcalli, Tiyanquitzli, Weaponized Yacht
 
 ### Building Icons
 - Abbey: [Westminster Abbey](https://thenounproject.com/icon/westminster-abbey-5459042/) by Brickclay, PK
@@ -147,6 +147,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - [Workbench](https://thenounproject.com/icon/workbench-6095280/) by nuengrutai, TH
 - Workers' Facility: [facility](https://thenounproject.com/icon/facility-2815116/) by WEBTECHOPS LLP, IN
 - Yacht Club: [yacht](https://thenounproject.com/icon/yacht-1324236/) by ProSymbols, US
+- Zamość Fortress: Based off the [Zamość Logo](https://kshetman.zamosc.pl/wp-content/uploads/2023/02/zamosc_logo.jpg)
 - Zemlyanka: [refuge](https://thenounproject.com/icon/refuge-4122612/) by Robin Lopez, FR
 
 ### Improvement Icons
@@ -238,6 +239,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Constitutional Militia: [Rifle](https://thenounproject.com/icon/rifle-6823191/) by SISWANTORO, ID
 - Continental General: [Eagle](https://thenounproject.com/icon/eagle-11870/) by Christopher T. Howlett, CA
 - Crimson Sniper: [sniper](https://thenounproject.com/icon/sniper-5218615/) by Amethyst Studio, TH
+- Cursed Soldier: [Crown of Thorns](https://thenounproject.com/icon/crown-of-thorns-4424960/) by Jaime Serra, PT
 - Dendro Mutant: [vines](https://thenounproject.com/icon/vines-4169419/) by Zulfa Mahendra, ID
 - Deseret Bishop: [Holiness Eye](https://thenounproject.com/icon/holiness-eye-91615/) by Jason Dilworth
 - Deseret Missionary: [Religion](https://thenounproject.com/icon/religion-53064/) by Bruno Gätjens González (same source as Missionary icon in base Unciv except *not* adapted)
@@ -264,6 +266,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Issaquah Mystic: [shaman](https://thenounproject.com/icon/shaman-1629068/) by Daniel Schott, DE
 - Key to the City: [Anti-Aircraft Gun](https://game-icons.net/1x1/pierre-leducq/anti-aircraft-gun.html) by Pierre Leducq on Game-Icons.net
 - Knight: [Knight helmet](https://thenounproject.com/icon/knight-helmet-5567347/) by Singlar
+- Kosynier: [Crossed Polearms](https://thenounproject.com/icon/crossed-polearms-966701/) by Tresnatiq
 - Lagoon: [catamaran](https://thenounproject.com/icon/catamaran-4103568/) by nareerat jaikaew, TH
 - Lawkeeper: [Police](https://thenounproject.com/icon/police-3395179/) by Nhor
 - Legate: [Legion](https://thenounproject.com/icon/legion-814530/) by Aldric Rodríguez

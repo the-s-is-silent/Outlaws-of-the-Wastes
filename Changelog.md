@@ -988,6 +988,8 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **Wonder Adjustments**
 - Due to issues that have been caused by recent AI behavior changes reverting some of their previous behavior, the identity wonders for each faction are now automatically constructed once the capital is founded.
 - Earthscraper Project is no longer exclusive to Collectivists or the capital city and now automatically builds an Earthscraper in the city that builds it. It has also been added to the "DeCiv 2" fork.
+- Fusion Reactor harshly nerfed - instead of doubling the faction's Power supply, it adds a fixed 40 units of Power, and the Production bonuses are reduced by roughly 40% (now +5 and +15%).
+- Microwave Power Satellite harshlly nerfed; the added Production to Solar collectors is reduced to +1 (was originally +4).
 - National Reservoir System now increases the owning city's total Water yields by 10%.
 
 **Unit Adjustments**
@@ -1036,7 +1038,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- Exodus of the Evangelists now requires the player to have enhanced their religion before it can be adopted. This is done to prevent players from taking two of the "Reformation" beliefs, and also to prevent the AI from screwing itself out of the bonus belief on higher difficulties.
 - Monopoly:
 	- Mass Consumption no longer adds yields to improvements. Instead it gains Reclaimers' lost effect of preserving Happiness from trading away the last copy of owned luxuries.
-	- The finisher bonus now adds +1 Water/Production to Hexlock's Refineries.
+	- The finisher bonus now adds +1 Water/Production to Hexlock's Refineries along with the unique improvement of a new faction.
 - Bionics:
 	- Transhumanism now adds a flat +12 Global Happiness instead of 33% reduction to Unhappiness in the capital.
 
@@ -1083,6 +1085,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Aurelian Group (Pre-War Australian mining company, Science)
 - Aztlán (Mexican, Aztec revivalist, Domination/Culture)
 - The Caliphate (Arabic takeover of Germany, Domination/Religious)
+- Nowa Polska (Literally "New Poland", Culture/Domination)
 - The Oathsworn (American militia organization, Diplomatic/Domination)
 
 **New Buildings**

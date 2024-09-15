@@ -623,7 +623,6 @@
 			"Gives a defensive bonus of [50]%",
 			"[+1 Production] <after discovering [Steam Power]>",
 			"[+1 Production] <in [non-[resource]] tiles> <after discovering [Railroads]>",
-			"[+1 Production] <in [non-[resource]] tiles> <after adopting [Monopoly Complete]>",
 			"Can only be built to improve a resource <in [resource] tiles>",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
