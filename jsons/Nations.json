@@ -340,8 +340,8 @@
 		"uniqueName": "Sanation",
 		"uniques": [
 			"[-10]% Culture cost of adopting new Policies",
-			"[+25]% Production when constructing [Military] units [in all cities] <when fighting units from a Civilization with more cities than you>",
-			"[+50]% XP gained from combat <when fighting units from a Civilization with more cities than you>",
+			"[+25]% Production when constructing [Military] units [in all cities] <when fighting units from a Civilization with more Cities than you>",
+			"[+50]% XP gained from combat <when fighting units from a Civilization with more Cities than you>",
 			"Starts with [Redomestication]"
 		],
 		"cities": ["Zamość", "Chwala", "Borne Sulinowo", "Nowe Tychy", "Bereza Kartusha", "Ostrołęka", "Sława", "Nowogród",
