@@ -989,11 +989,11 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Great Caravan",
+		"name": "Siberian Convoy",
 		"uniqueTo": "The Harbingers",
 		"replaces": "Great Merchant",
 		"unitType": "Civilian",
-		"movement": 2,
+		"movement": 3,
 		"cost": 200,
 		"uniques": [
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence",
@@ -1415,7 +1415,7 @@
 		"unitType": "Scout",
 		"uniqueTo": "The Oathsworn",
 		"replaces": "Civilian Convoy",
-		"movement": 3,
+		"movement": 2,
 		"strength": 18,
 		"rangedStrength": 15,
 		"range": 1,

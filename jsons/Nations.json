@@ -32,7 +32,8 @@
 			"Cannot build [Enslaved] units"],
 		"cities": ["Zion Valley", "New Canaan", "Provorem", "Grand Staircase", "Cueva Guarache", "Fort Walker", "Dead Horse Point", "Angel's Landing",
 			"Traverse City", "New Tooele", "New Nephi", "Patriarchs' Court", "Urim and Thummim", "Malki Tzedek", "Maeserville", "Pine Creek",
-			"Fort Browning", "Kobol", "Anamani", "Rainbow Bridge", "Hovenweep", "Old Rockville", "Van Buren", "Burham Springs", "Nuevo Vicios"],
+			"Fort Browning", "Kobol", "Anamani", "Rainbow Bridge", "Hovenweep", "Old Rockville", "Van Buren", "Burham Springs", "Nuevo Vicios",
+			"Salt Town", "Irvington"],
 		"spyNames": ["Daniel", "Mordecai", "Waking Cloud", "Judah", "Two-Bears-High-Fiving", "Emmaline", "Bonnie", "Jeremiah", "Dancing Flame", "Quiet Shadow"],
 		"civilopediaText": [
 			{
@@ -233,9 +234,9 @@
 			"Starts with [Supremacy] adopted",
 			"[-25]% [Culture] [in all cities]"
 		],
-		"cities": ["Bruksil", "Kitznen", "Grolanhei", "Honsvang", "Slo", "al-Harv", "Noisvatsei", "am-Munch", "af-Fridhav",
-			"ar-Rebchel", "an-Nessang", "Kleilanhei", "Walnhov", "Svang", "Lissnen", "Almansei", "af-Füss", "an-Nurber",
-			"ar-Ramstei", "Alba Sarum", "Malaga", "Nsara", "Baraka", "Turi"],
+		"cities": ["Bruksil", "Jirmānyah el-Kharab", "Munastir al-Kitz", "Guzlanham", "Usullu", "Malaga", "al-Munikh", "Wādī Al-Kharda",
+			"Madinat al-Nurum", "Klaylanham", "Qalal al-Liss", "Qalat Hajar al-Ram", "Madinah Aš-Šadūna", "Baraka", "Mudainah an-Nessel",
+			"Alba Sarum", "Ḥiṣn Bulāy", "Madīnat al-Mariyya", "Qabr Mirza", "Nsara", "Turi"],
 		"spyNames": ["Rashid", "Saleh", "Mashouf", "Ismail", "Mahmoud", "Fudail", "Ghalib", "Latif", "Rustam", "Zahid"]
 	},
 	{
@@ -273,9 +274,10 @@
 			"Starts with [Machinery]",
 			"[-2 Happiness] [in all cities]"
 		],
-		"cities": ["Broken Hill", "Lightning Ridge", "Kotara", "Fassifern", "Morriset", "Lymington", "Waratah", "Awaba", "Jesmond",
-			"Burwood", "Duckenfield", "Glebe End", "Hartley Vale", "Wallsend", "Stockrington", "New Lambton", "Blackhill",
-			"Mandalong", "Myuna", "Swansea", "Wiluna", "Wyee", "Seahampton", "Newstan", "Worsley"],
+		"cities": ["Broken Hill", "Lightning Ridge", "Coober Pedy", "Andamooka", "Mintabee", "Kotara", "Fassifern", "Morriset",
+			"Quilpie", "Lymington", "Waratah", "Awaba", "Jesmond", "Burwood", "Duckenfield", "Glebe End", "Hartley Vale",
+			"Wallsend", "Stockrington", "New Lambton", "Blackhill", "Ironbank", "Mandalong", "Myuna", "Swansea", "Wiluna", "Wyee",
+			"Seahampton", "Newstan", "Worsley"],
 		"spyNames": ["Donaldson", "Marheine", "Leigh", "Nott", "Macquarie", "Wickham", "Fernleigh", "Eales", "McCormack", "Stockton"]
 	},
 	{
@@ -313,7 +315,7 @@
 		],
 		"cities": ["Century City", "Soldier Field", "Brandon Falls", "Libertyville", "Fort Independence", "Sanctuary Hills",
 			"Foundation", "Heritage", "Covenant", "Vanguard", "New Albany", "Hackettstown", "Taffington", "Concord", "Anabol",
-			"Quincy", "Bradbury", "Orwell", "Somerville", "Murkwater", "Cape Oath"],
+			"Quincy", "Bradbury", "Fort Constantine", "Orwell", "Wellesley", "Somerville", "Murkwater", "Cape Oath"],
 		"spyNames": ["Preston", "Harriet", "Beckett", "Bryce", "Murphy", "Nathaniel", "Wilhelmena", "Horatio", "Hailey", "Ted"]
 	},
 	{
@@ -344,8 +346,9 @@
 			"[+50]% XP gained from combat <when fighting units from a Civilization with more Cities than you>",
 			"Starts with [Redomestication]"
 		],
-		"cities": ["Zamość", "Chwala", "Borne Sulinowo", "Nowe Tychy", "Bereza Kartusha", "Ostrołęka", "Sława", "Nowogród",
-			"Zwonowice", "Jasna Góra", "Zakopane", "Rzeczka", "Łysa Góra", "Bochnia", "Wieliczka", "Rembertów"],
+		"cities": ["Zamość", "Chwala", "Borne Sulinowo", "Nowe Tychy", "Jelenia Góra", "Bereza Kartusha", "Ostrołęka", "Sława",
+			"Nowogród", "Zwonowice", "Jasna Góra", "Zakopane", "Rzeczka", "Łysa Góra", "Bochnia", "Wieliczka", "Rembertów",
+			"Jastarnia", "Władysławowo", "Świnoujście", "Mikołajki"],
 		"spyNames": ["Stefan", "Malina", "Kazimierz", "Bronislaw", "Ewa", "Jan", "Marzena", "Henryk", "Artur", "Rozalia"]
 	},
 

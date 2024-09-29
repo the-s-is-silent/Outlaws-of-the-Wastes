@@ -287,6 +287,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Sentinel Missile: [nuclear missile](https://thenounproject.com/icon/nuclear-missile-5460126/) by Fran Couto
 - Shock Worker: [Sickle](https://thenounproject.com/icon/sickle-5130144/) by Luis Prado, US
 - Shorn One: [Chimalli](https://www.flaticon.com/free-icon/chimalli_4039772) by Freepik from Flaticon
+- Siberian Convoy: [Water Truck](https://thenounproject.com/icon/water-truck-106461/) by Juan Pablo Bravo, CL
 - Skiff: [skiff](https://thenounproject.com/icon/skiff-4687237/) by Eucalyp
 - Speculatores: [bloody knife](https://thenounproject.com/icon/bloody-knife-2109678/) by Vectors Market
 - State Guard: [Civil defense](https://thenounproject.com/icon/civil-defense-454060/) by Yuri Martins, ES

@@ -945,6 +945,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- New Afrika spy names are taken from notable IRL Black Panther Party members.
 	- New Star spy names, I decided to have a little fun here and take them from fictional characters whose last names are all Starling.
 	- Patriot spy names reference the novels of Tom Clancy and Clive Cussler.
+	- Proklyatyye spy names are taken from *Roadside Picnic* and two of the video game franchises it inspired, *S.T.A.L.K.E.R.* and *Metro 2033*.
 
 **Building Adjustments**
 - Condenser Cooler now removes itself from the cities it's built in when it goes obsolete at Atmosphere Remediation. However, this is hidden from the player in-game.
@@ -976,6 +977,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 		- Hexlock Chemical Company now grants Resupply to Personnel units just like the standard Food Processing Plant.
 		- Advanced Chemical Refinery has been deleted for balance reasons.
 	- New Afrika:
+		- Afrikan Reformed Church no longer adds Food. It now adds +2 Happiness while the city is following your religion and costs no maintenance.
 		- Survival Program renamed to Collective Congress. Instead of adding Food and Growth yields to cities, it adds 1 Local Happiness for every 8 population in each of your cities and 1 of every yield except Happiness to worked Settlements.
 	- New Star:
 		- Gideon Scanner and Rally Station will now relocate to the new capital when the capital changes.
@@ -1019,8 +1021,9 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- Defiant Scouts are now ranged units with 30 ranged strength and 2 range that require setting up to attack, and they now upgrade to Riflemen.
 	- Lawkeepers are no longer limited to 1 per Civilization.
 - Harbinger UUs:
-	- Educational Officer and Opolcheniye renamed to Educator Officer and Vengerovsky.
-	- Technopath is now a standalone UU and its Strength buff at Artificial Intelligence increased to 50%.
+	- Great Caravan is now Siberian Convoy and gains +1 Movement.
+	- Educational Officer and Opolcheniye are now Educator Officer and Vengerovsky.
+	- Technopath is now a standalone UU and its Strength buff at Artificial Intelligence is increased to 50%.
 
 **Promotion Adjustments**
 - Barrage and Resupply are now valid prerequisites for March, preserving Mounted Ranged units' access to that promotion.
@@ -1089,7 +1092,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - The Oathsworn (American militia organization, Diplomatic/Domination)
 
 **New Buildings**
-- Community Center (Public School replacement for New Afrika, adds +2 Food/Happiness)
+- Community Center (Public School replacement for New Afrika, adds +2 Food)
 - Community Garden (+2 Food (increases to +3 with Exotic Seeds), +25% GP generation, 1 Farmer slot, unlocks at Ecology, also added to Deciv 2 fork)
 - Frumentarii Camp (new Listening Post replacement for Crimson Legion, -33% spy theft rate, also added to Deciv 2 fork)
 - Private School (Public School replacement for Blackwarden, adds +2 Water along with another +2 Water for each active Scientist in the city, no maintenance cost)

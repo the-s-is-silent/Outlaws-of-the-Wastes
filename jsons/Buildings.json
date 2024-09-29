@@ -490,7 +490,7 @@
 		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": ["[+1 Culture, +1 Faith] per [4] population [in all cities]",
-			"[-10]% Unhappiness from [Followers of the Majority Religion] [in all cities] <in cities following our religion>",
+			"[-10]% Unhappiness from [Followers of the Majority Religion] [in cities following our religion]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Quorum of the Twelve]>",
@@ -683,7 +683,7 @@
 			"Destroyed when the city is captured"],
 		"civilopediaText": [
 			{
-				"text": "Merging the bonuses of the Congress and Council into one building, the Round Table represents the Camelot Foundation's restoration of the Rule of Law and the voice of its citizens in the post-Cataclysm world."
+				"text": "'Freedom of choice is important to many of my people. I have to refrain from exercising power whenever possible, even if I want to.' - Arthur"
 			}
 		]
 	},
@@ -1172,7 +1172,7 @@
 
 	//Caliphate unique buildings
 	{
-		"name": "Tower of the Shuhada",
+		"name": "Burj al-Shuhada",
 		"uniqueTo": "The Caliphate",
 		"isWonder": true,
 		"culture": 1,
@@ -1184,7 +1184,8 @@
 			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Food Store] [in this city]"
-		]
+		],
+		"quote": "'We must stick together and hold our peace until the time comes. You can't see anything yet, but everything is being prepared in secret. You must hold yourself in readiness for the right moment.' - Pre-Cataclysm sermon in Bavaria"
 	},
 	{
 		"name": "Revert Survivors",
@@ -1498,10 +1499,10 @@
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Monument] [in this city]"
 		],
-		"quote": "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.",
+		"quote": "'We hold these truths to be self-evident: that all men are created equal; that they are endowed by their Creator with certain unalienable Rights; that among these are Life, Liberty and the pursuit of Happiness.' - Thomas Jefferson",
 		"civilopediaText": [
 			{
-				"text": "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness."
+				"text": "'We hold these truths to be self-evident: that all men are created equal; that they are endowed by their Creator with certain unalienable Rights; that among these are Life, Liberty and the pursuit of Happiness.' - Thomas Jefferson"
 			}
 		]
 	},
@@ -4911,13 +4912,15 @@
 		"name": "Afrikan Reformed Church",
 		"replaces": "Monastery",
 		"uniqueTo": "New Afrika",
-		"food": 2,
 		"faith": 2,
-		"maintenance": 1,
+		"maintenance": 0,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Shrine",
 		"requiredTech": "Education",
-		"uniques": ["Hidden when religion is disabled"]
+		"uniques": [
+			"Hidden when religion is disabled",
+			"[+2 Happiness] [in this city] <in cities following our religion>"
+		]
 	},
 	{
 		"name": "Community Center",
@@ -4925,7 +4928,6 @@
 		"uniqueTo": "New Afrika",
 		"food": 2,
 		"science": 2,
-		"happiness": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Science] per [2] population [in this city] <after discovering [Networking]>",
