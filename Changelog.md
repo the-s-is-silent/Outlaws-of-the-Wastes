@@ -1100,6 +1100,9 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Virtual Tabernacle (Megachurch replacement for Deseret Nation, adds Culture yields equal to its Faith yields, +100% religious pressure in its city)
 - Windmill Generator (+2 Production, +2 Power, +1 Production to Wind farms on Land, requires the city to be working a Power tile)
 
+**New Wonder**
+- Amager Bakke (world wonder, +3 Culture, +2 Great Engineer points, +16 Power, Recycling Plants built 50% faster, sells off Coal/Oil Plants in the city and gives a free Recycling Plant, must be built in a coastal city)
+
 **New Units**
 - Deseret Bishop (Censor replacement for Deseret Nation, provides a healing aura to accelerate healing of adjacent units by 15 HP per turn)
 - Ghoul (standalone Barbarian unit that can spawn more Ghouls when it kills a unit and cannot be captured)

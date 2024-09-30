@@ -19,6 +19,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Advanced Chemical Refinery: [smart factory](https://thenounproject.com/icon/smart-factory-2260365/) by ProSymbols, US
 - Afrikan Reformed Church: [Church](https://thenounproject.com/icon/church-1786868/) by SANTRI ICON, ID
 - Alternet Cafe: [internet cafe](https://thenounproject.com/icon/internet-cafe-4624824/) by Eucalyp
+- Amager Bakke: Based off the official logo for Copenhill (source link missing)
 - Armory Station: [Metro Station](https://thenounproject.com/icon/metro-station-5108900/) by Singlar
 - Arsenal of Liberty: [ammunition](https://thenounproject.com/icon/ammunition-2423453/) by Template, TH
 - Atomgrad Project: [Nuclear](https://thenounproject.com/icon/nuclear-2661706/) by emkamal kamaluddin, ID
@@ -207,6 +208,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 
 ### Religion Icons
 - Church of the Water Tsaritsa: Based on [freemason](https://thenounproject.com/icon/freemason-97076/) by Kyle Tezak, US and [watch drop](https://thenounproject.com/icon/watch-drop-1511946/) by corpus delicti, GR
+- Earth Mother: [gaia](https://thenounproject.com/icon/gaia-6693400/) by iconfield, ID
 - Mictlantec: [mictlantecuhtli](https://www.flaticon.com/free-icon/mictlantecuhtli_4039782) by Freepik from Flaticon
 - Order of Tlaloc: [tlaloc](https://thenounproject.com/icon/tlaloc-4640131/) by Eucalyp
 - Rodnovery: [Red Rodnover kolovrat](https://commons.wikimedia.org/wiki/File:Red_Rodnover_kolovrat.svg) by Eckhardt Etheling on Wikimedia Commons

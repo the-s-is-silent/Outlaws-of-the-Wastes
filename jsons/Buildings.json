@@ -188,6 +188,22 @@
 		"requiredTech": "Engineering",
 		"quote": "Remember the sacrifices of everyone we lost, and remember the treachery of those who took them from us. Remember our righteous desire to rain vengeance down upon those who transgressed against all of humankind, and remember our drive to ensure such a calamity will never again befall us. Remember always..."
 	},
+	{
+		"name": "Amager Bakke",
+		"isWonder": true,
+		"culture": 3,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"uniques": [
+			"Must be on [Coast]",
+			"Provides [16] [Power]",
+			"[+50]% Production when constructing [Recycling Plant] buildings [in all cities]",
+			"Sell [Coal Plant] [in this city]",
+			"Sell [Oil Plant] [in this city]",
+			"Gain a free [Recycling Plant] [in this city]"
+		],
+		"requiredTech": "Plastics Recycling",
+		"quote": "'It's living proof that sustainable architecture doesn't have to be boring. It can be an exhilirating part of our daily lives.' - Pre-Cataclysm ad for Copenhill"
+	},
 
 	//New buildings
 	{
@@ -2587,7 +2603,7 @@
 			"Triggers a global alert upon completion",
 			"Cannot be hurried"
 		],
-		"quote": "Just as if he existed solely for his mission, the Hero vanished. But some of us will remember him forever. Down 2/3 of our people. Supplies had run out. The atmosphere was toxic, but survivable. It was time to head out."
+		"quote": "Just as if he existed solely for his mission, the Hero vanished. But some of us will remember him forever.\n\n...\n\nThey're calling this war the Cataclysm. And it has taken its toll on all of us. Down 2/3 of our people. Supplies had run out. The atmosphere was toxic, but survivable. It was time to head out."
 	},
 	{
 		"name": "Recover Transmission #6",
@@ -2654,7 +2670,7 @@
 			"Triggers a global alert upon build start",
 			"Cannot be hurried"
 		],
-		"quote": "We must all hang together, or surely we will all hang separately."
+		"quote": "'We must, indeed, all hang together, or, most assuredly, we shall all hang separately.' - Benjamin Franklin"
 	},
 	{
 		"name": "International Trade Center",
@@ -2935,10 +2951,10 @@
 			"Must have an owned [Vault of Records] within [5] tiles",
 			"Provides [2] [Books]",
 			"Hidden when religion is disabled"],
-		"quote": "And I seal up these records, after I have spoken a few words by way of exhortation unto you.",
+		"quote": "'And I seal up these records, after I have spoken a few words by way of exhortation unto you.' - The Book of Mormon, Moroni 10:2",
 		"civilopediaText": [
 			{
-				"text": "And I seal up these records, after I have spoken a few words by way of exhortation unto you."
+				"text": "'And I seal up these records, after I have spoken a few words by way of exhortation unto you.' - The Book of Mormon, Moroni 10:2"
 			}
 		]
 	},
@@ -3004,10 +3020,10 @@
 			"[+1 Food, +1 Gold, +1 Culture] from [Artificial oasis] tiles [in all cities]",
 			"Must have an owned [Oasis] within [5] tiles"
 		],
-		"quote": "The Lord God made all kinds of trees grow out of the ground - trees that were pleasing to the eye and good for food.",
+		"quote": "'And out of the ground made the LORD God to grow every tree that is pleasant to the sight, and good for food; the tree of life also in the midst of the garden, and the tree of knowledge of good and evil.' - The Holy Bible, Genesis 2:9",
 		"civilopediaText": [
 			{
-				"text": "The Lord God made all kinds of trees grow out of the ground - trees that were pleasing to the eye and good for food."
+				"text": "'And out of the ground made the LORD God to grow every tree that is pleasant to the sight, and good for food; the tree of life also in the midst of the garden, and the tree of knowledge of good and evil.' - The Holy Bible, Genesis 2:9"
 			}
 		]
 	},
