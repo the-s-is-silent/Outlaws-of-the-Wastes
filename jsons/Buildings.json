@@ -197,8 +197,8 @@
 			"Must be on [Coast]",
 			"Provides [16] [Power]",
 			"[+50]% Production when constructing [Recycling Plant] buildings [in all cities]",
-			"Sell [Coal Plant] [in this city]",
-			"Sell [Oil Plant] [in this city]",
+			"Sell [Coal Plant] buildings [in this city]",
+			"Sell [Oil Plant] buildings [in this city]",
 			"Gain a free [Recycling Plant] [in this city]"
 		],
 		"requiredTech": "Plastics Recycling",
