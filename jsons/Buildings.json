@@ -194,7 +194,7 @@
 		"culture": 3,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"uniques": [
-			"Must be on [Coast]",
+			"Must be next to [Coast]",
 			"Provides [16] [Power]",
 			"[+50]% Production when constructing [Recycling Plant] buildings [in all cities]",
 			"Sell [Coal Plant] buildings [in this city]",
