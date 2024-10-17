@@ -85,6 +85,17 @@
 
 	//Other National Wonders
 	{
+		"name": "Restart Oil Lake Industry",
+		"isNationalWonder": true,
+		"uniques": [
+			"Provides [4] [Oil]",
+			"Provides [4] [Oil] <after discovering [Land Remediation]>",
+			"[+5 Production] from [Oil Lake] tiles [in all cities]",
+			"Must have an owned [Oil Lake] within [3] tiles"
+		],
+		"requiredTech": "Chemistry"
+	},
+	{
 		"name": "National Reservoir System",
 		"isNationalWonder": true,
 		"cost": 125,
@@ -100,6 +111,7 @@
 	},
 	{
 		"name": "Renovate Metal Pyramid",
+		"isNationalWonder": true,
 		"happiness": 4,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"uniques": ["[+6 Culture] from [Metal Pyramid] tiles [in all cities]",
@@ -196,7 +208,7 @@
 		"uniques": [
 			"Must be next to [Coast]",
 			"Provides [16] [Power]",
-			"[+50]% Production when constructing [Recycling Plant] buildings [in all cities]",
+			"[+100]% Production when constructing [Recycling Plant] buildings [in all cities]",
 			"Sell [Coal Plant] buildings [in this city]",
 			"Sell [Oil Plant] buildings [in this city]",
 			"Gain a free [Recycling Plant] [in this city]"
@@ -329,17 +341,6 @@
 		"hurryCostModifier": 15,
 		"uniques": ["Consumes [1] [Narcotics]", "[+25]% Production when constructing [Military] units [in this city]"],
 		"requiredTech": "Munitions"
-	},
-	{
-		"name": "Interpretative Center",
-		"culture": 3,
-		"cost": 300,
-		"maintenance": 0,
-		"hurryCostModifier": 15,
-		"uniques": ["[+1 Culture] from [Great Improvement] tiles [in this city]",
-			"Must have an owned [Settlement] within [3] tiles",
-			"Consumes [1] [Power]"],
-		"requiredTech": "Flight"
 	},
 	{
 		"name": "Alternet Cafe",
@@ -791,7 +792,7 @@
 			"Only available <in cities without a [Prison Camp]>",
 			"Destroyed when the city is captured",
 			"Hidden when espionage is disabled"],
-		"requiredTech": "Civil Service"
+		"requiredTech": "Radio"
 	},
 	{
 		"name": "Investors' Chamber",
@@ -1641,7 +1642,7 @@
 		"culture": 2,
 		"happiness": 2,
 		"specialistSlots": {"Administrator": 1},
-		"percentStatBonus": {"culture": 25},
+		"percentStatBonus": {"culture": 10},
 		"maintenance": 3,
 		"requiredTech": "Radio",
 		"uniques": ["[+25]% Great Person generation [in this city]",
@@ -1704,6 +1705,23 @@
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Food Store] [in this city]"
 		]
+	},
+	{
+		"name": "Stadnina Koni",
+		"replaces": "Stable",
+		"uniqueTo": "Nowa Polska",
+		"requiredNearbyImprovedResources": ["Horses"],
+		"cost": 50,
+		"hurryCostModifier": -25,
+		"uniques": [
+			"[+15]% Production when constructing [Mounted] units [in this city]",
+			"[+15]% Production when constructing [Mounted Ranged] units [in this city]",
+			"[+15]% Production when constructing [Mounted Worker] units [in this city]",
+			"New [Mounted] units start with [15] Experience [in this city]",
+			"New [Mounted Ranged] units start with [15] Experience [in this city]",
+			"[+1 Production] from [Horses] tiles [in this city]"
+		],
+		"requiredTech": "Redomestication"
 	},
 	{
 		"name": "Sukiennice",
@@ -1813,8 +1831,12 @@
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Deep Larder] [in this city]"
 		],
-		"quote": "An armed society is a polite society.",
-		"civilopediaText": [{ "text": "An armed society is a polite society." }]
+		"quote": "'An armed society is a polite society.' - Robert A. Heinlein",
+		"civilopediaText": [
+			{
+				"text": "'An armed society is a polite society.' - Robert A. Heinlein"
+			}
+		]
 	},
 	{
 		"name": "On the run",
@@ -1943,10 +1965,10 @@
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Food Store] [in this city]"
 		],
-		"quote": "Whatsoever any man either doth or saith, thou must be good; not for any man's sake, but for thine own nature's sake; as if either gold, or the emerald, or purple, should ever be saying to themselves, Whatsoever any man either doth or saith, I must still be an emerald, and I must keep my colour.",
+		"quote": "'Whatsoever any man either doth or saith, thou must be good; not for any man's sake, but for thine own nature's sake; as if either gold, or the emerald, or purple, should ever be saying to themselves, Whatsoever any man either doth or saith, I must still be an emerald, and I must keep my colour.' - Marcus Aurelius",
 		"civilopediaText": [
 			{
-				"text": "Whatsoever any man either doth or saith, thou must be good; not for any man's sake, but for thine own nature's sake; as if either gold, or the emerald, or purple, should ever be saying to themselves, Whatsoever any man either doth or saith, I must still be an emerald, and I must keep my colour."
+				"text": "'Whatsoever any man either doth or saith, thou must be good; not for any man's sake, but for thine own nature's sake; as if either gold, or the emerald, or purple, should ever be saying to themselves, Whatsoever any man either doth or saith, I must still be an emerald, and I must keep my colour.' - Marcus Aurelius"
 			}
 		]
 	},
@@ -1964,10 +1986,10 @@
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Fuel Depot] [in this city]"
 		],
-		"quote": "Be thy hands, anointed, with holy oil.\nBe thy breast, anointed, with holy oil.\nBe thy head, anointed, with holy oil.\nAs kings, priests, and prophets were anointed.\nAnd as Solomon was anointed king by Zadok the priest and Nathan the prophet, so be thee anointed.",
+		"quote": "'Be thy hands, anointed, with holy oil.\nBe thy breast, anointed, with holy oil.\nBe thy head, anointed, with holy oil.\nAs kings, priests, and prophets were anointed.\nAnd as Solomon was anointed king by Zadok the priest and Nathan the prophet, so be thee anointed.'\n\n- Details from Coronation of Her Majesty Queen Elizabeth II, Novello, 1953",
 		"civilopediaText": [
 			{
-				"text": "Be thy hands, anointed, with holy oil.\nBe thy breast, anointed, with holy oil.\nBe thy head, anointed, with holy oil.\nAs kings, priests, and prophets were anointed.\nAnd as Solomon was anointed king by Zadok the priest and Nathan the prophet, so be thee anointed."
+				"text": "'Be thy hands, anointed, with holy oil.\nBe thy breast, anointed, with holy oil.\nBe thy head, anointed, with holy oil.\nAs kings, priests, and prophets were anointed.\nAnd as Solomon was anointed king by Zadok the priest and Nathan the prophet, so be thee anointed.'\n\n- Details from Coronation of Her Majesty Queen Elizabeth II, Novello, 1953"
 			}
 		]
 	},
@@ -1985,10 +2007,10 @@
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Monument] [in this city]"
 		],
-		"quote": "Lasting peace is sought, it is essential to adopt international measures to improve the lot of the masses. The welfare of the entire human race must replace hunger and oppression. People of the world must be taught to give up envy, avarice and rancour.",
+		"quote": "'Lasting peace is sought, it is essential to adopt international measures to improve the lot of the masses. The welfare of the entire human race must replace hunger and oppression. People of the world must be taught to give up envy, avarice and rancour.' - Mustafa Kemal Atatürk",
 		"civilopediaText": [
 			{
-				"text": "Lasting peace is sought, it is essential to adopt international measures to improve the lot of the masses. The welfare of the entire human race must replace hunger and oppression. People of the world must be taught to give up envy, avarice and rancour."
+				"text": "'Lasting peace is sought, it is essential to adopt international measures to improve the lot of the masses. The welfare of the entire human race must replace hunger and oppression. People of the world must be taught to give up envy, avarice and rancour.' - Mustafa Kemal Atatürk"
 			}
 		]
 	},
@@ -2021,10 +2043,10 @@
 			"[2] free [Sharkman] units appear",
 			"Gain a free [Lighthouse] [in this city]"
 		],
-		"quote": "Brightly beams our father's mercy\nFrom his lighthouse evermore\nBut to us he gives the keeping\nOf the lights along the shore.",
+		"quote": "'Brightly beams our father's mercy\nFrom his lighthouse evermore\nBut to us he gives the keeping\nOf the lights along the shore.'\n\n- Philip P. Bliss",
 		"civilopediaText": [
 			{
-				"text": "Brightly beams our father's mercy\nFrom his lighthouse evermore\nBut to us he gives the keeping\nOf the lights along the shore."
+				"text": "'Brightly beams our father's mercy\nFrom his lighthouse evermore\nBut to us he gives the keeping\nOf the lights along the shore.'\n\n- Philip P. Bliss"
 			}
 		]
 	},
@@ -2043,10 +2065,10 @@
 			"Gain a free [Food Store] [in this city]",
 			"May choose [1] additional belief(s) of any type when [enhancing] a religion"
 		],
-		"quote": "We declare our right on this earth to be a human being, to be respected as a human being, to be given the rights of a human being in this society, on this earth, in this day, which we intend to bring into existence by any means necessary.",
+		"quote": "'We declare our right on this earth to be a human being, to be respected as a human being, to be given the rights of a human being in this society, on this earth, in this day, which we intend to bring into existence by any means necessary.' - Malcolm X",
 		"civilopediaText": [
 			{
-				"text": "We declare our right on this earth to be a human being, to be respected as a human being, to be given the rights of a human being in this society, on this earth, in this day, which we intend to bring into existence by any means necessary."
+				"text": "'We declare our right on this earth to be a human being, to be respected as a human being, to be given the rights of a human being in this society, on this earth, in this day, which we intend to bring into existence by any means necessary.' - Malcolm X"
 			}
 		]
 	},
@@ -2064,10 +2086,10 @@
 			"[2] free [Clansman] units appear",
 			"Gain a free [Food Store] [in this city]"
 		],
-		"quote": "If you would keep your secret from an enemy, tell it not to a friend.",
+		"quote": "'If you would keep your secret from an enemy, tell it not to a friend.' - Benjamin Franklin",
 		"civilopediaText": [
 			{
-				"text": "If you would keep your secret from an enemy, tell it not to a friend."
+				"text": "'If you would keep your secret from an enemy, tell it not to a friend.' - Benjamin Franklin"
 			}
 		]
 	},
@@ -2456,7 +2478,7 @@
 			"Destroyed when the city is captured"]
 	},
 	{
-		"name": "State Assembly", //originally named Five-Year Plan, which makes no sense
+		"name": "Verkhovny Sovet", //originally named Five-Year Plan, which makes no sense
 		"replaces": "Congress",
 		"uniqueTo": "Proklyatyye",
 		"cost": 150,
@@ -2483,7 +2505,7 @@
 			"[+3 Production] from every [Listening Post]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
-			"Only available <in cities without a [State Assembly]>",
+			"Only available <in cities without a [Verkhovny Sovet]>",
 			"Destroyed when the city is captured"]
 	},
 
@@ -2687,7 +2709,7 @@
 			"Triggers the following global alert: [Our influence with City-States has started dropping faster!]",
 			"Cannot be hurried"
 		],
-		"quote": "By pursuing our own interest we frequently promote that of the society more effectually than when we really intend to promote it."
+		"quote": "'By pursuing his own interest he frequently promotes that of the society more effectually than when he really intends to promote it.' - Adam Smith"
 	},
 	{
 		"name": "Manhattan Project",
@@ -2711,10 +2733,10 @@
 			"Free Great Person",
 			"Only available <if [Broadcast Tower] is constructed in all [non-[Puppeted]] cities>"
 		],
-		"quote": "When the immediate danger has passed the sirens will sound a steady note. The all clear message will also be given on this wavelength.",
+		"quote": "'When the immediate danger has passed the sirens will sound a steady note. The all clear message will also be given on this wavelength.' - BBC Wartime Broadcasting Service, 'Four-minute warning' script",
 		"civilopediaText": [
 			{
-				"text": "When the immediate danger has passed the sirens will sound a steady note. The all clear message will also be given on this wavelength."
+				"text": "'When the immediate danger has passed the sirens will sound a steady note. The all clear message will also be given on this wavelength.' - BBC Wartime Broadcasting Service, 'Four-minute warning' script"
 			}
 		]
 	},
@@ -2728,6 +2750,43 @@
 			"Cost increases by [30] per owned city"],
 		"isNationalWonder": true,
 		"requiredTech": "Social Engineering"
+	},
+	{
+		"name": "Supercollider",
+		"science": 8,
+		"culture": 1,
+		"greatPersonPoints": {"Great Scientist": 3},
+		"isWonder": true,
+		"uniques": [
+			"Creates a [Academy] improvement on a specific tile",
+			"[+4 Science, +2 Gold] from every [Academy]",
+			"[+2 Science] from every [Scientist]",
+			"Consumes [8] [Power]"
+		],
+		"percentStatBonus": {"science": 50},
+		"requiredTech": "Particle Physics",
+		"quote": "'God does not play dice with the universe.' - Albert Einstein",
+		"civilopediaText": [
+			{
+				"text": "'God does not play dice with the universe.' - Albert Einstein"
+			}
+		]
+	},
+	{
+		"name": "AI Project",
+		"science": 10,
+		"isWonder": true,
+		"uniques": [
+			"[+15]% Strength <for [Automated] units>",
+			"[+15]% Strength <for [Purge Robot] units>",
+			"[+150]% Production when constructing [Terraformer Part] units [in this city]",
+			"Provides [4] [Encrypted Data]",
+			"Consumes [5] [Power]"
+		],
+		"percentStatBonus": {"science": 50},
+		"requiredTech": "Artificial Intelligence",
+		"quote": "Let there be light.",
+		"civilopediaText": [{ "text": "Let there be light." }]
 	},
 	{
 		"name": "Fusion Reactor",
@@ -2819,7 +2878,7 @@
 			"Unbuildable <if [Ally with Isolationists] is constructed>"],
 		"civilopediaText": [
 			{
-				"text": "Ephialtes the son of Eurydemos, a Malian, came to speech with him, supposing that he would win a very great reward from the king; and this man told him of the path which leads over the mountain to Thermopylae, and brought about the destruction of those Greeks who remained in that place."
+				"text": "'Ephialtes the son of Eurydemos, a Malian, came to speech with him, supposing that he would win a very great reward from the king; and this man told him of the path which leads over the mountain to Thermopylae, and brought about the destruction of those Greeks who remained in that place.' - Herodotus"
 			}
 		]
 	},
@@ -2833,10 +2892,10 @@
 			"[+2 Production, +4 Science] from [Missile Complex] tiles [in all cities]",
 			"Provides [4] [Uranium]"],
 		"requiredTech": "Writing",
-		"quote": "Our legends tell of weapons, wielded by kings of old; crafted by evil wizards, unholy to behold...",
+		"quote": "'Our legends tell of weapons, wielded by kings of old; crafted by evil wizards, unholy to behold...' - The Sword, 'Fire Lances of the Ancient Hyperzephyrians'",
 		"civilopediaText": [
 			{
-				"text": "Our legends tell of weapons, wielded by kings of old; crafted by evil wizards, unholy to behold..."
+				"text": "'Our legends tell of weapons, wielded by kings of old; crafted by evil wizards, unholy to behold...' - The Sword, 'Fire Lances of the Ancient Hyperzephyrians'"
 			}
 		]
 	},
@@ -2859,10 +2918,10 @@
 			"[+3 Production, +4 Science] from [Nuclear Waste Storage] tiles [in all cities]",
 			"Provides [5] [Uranium]",
 			"Unbuildable <if [Nuclear Waste Museum] is constructed>"],
-		"quote": "Sending this message was important to us.\nWe considered ourselves to be a powerful culture.\nThis place is not a place of honor... no highly esteemed deed is commemorated here... nothing valued is here.\nWhat is here was dangerous and repulsive to us.\nThis message is a warning about danger.\nThe danger is still present, in your time, as it was in ours.",
+		"quote": "'Sending this message was important to us.\nWe considered ourselves to be a powerful culture.\nThis place is not a place of honor... no highly esteemed deed is commemorated here... nothing valued is here.\nWhat is here was dangerous and repulsive to us. This message is a warning about danger.\nThe danger is still present, in your time, as it was in ours.'\n\n- Sandia National Laboratories report, 1993",
 		"civilopediaText": [
 			{
-				"text": "Sending this message was important to us.\nWe considered ourselves to be a powerful culture.\nThis place is not a place of honor... no highly esteemed deed is commemorated here... nothing valued is here.\nWhat is here was dangerous and repulsive to us.\nThis message is a warning about danger.\nThe danger is still present, in your time, as it was in ours."
+				"text": "'Sending this message was important to us.\nWe considered ourselves to be a powerful culture.\nThis place is not a place of honor... no highly esteemed deed is commemorated here... nothing valued is here.\nWhat is here was dangerous and repulsive to us. This message is a warning about danger.\nThe danger is still present, in your time, as it was in ours.'\n\n- Sandia National Laboratories report, 1993"
 			}
 		]
 	},
@@ -2877,10 +2936,10 @@
 			"Must have an owned [Seed Vault] within [5] tiles",
 			"Provides [3] [Exotic Seeds]"
 		],
-		"quote": "What about us? What about all the plans that ended in disaster?",
+		"quote": "'What about us? What about all the plans that ended in disaster?' - P!nk, 'What About Us'",
 		"civilopediaText": [
 			{
-				"text": "What about us? What about all the plans that ended in disaster?"
+				"text": "'What about us? What about all the plans that ended in disaster?' - P!nk, 'What About Us'"
 			}
 		]
 	},
@@ -2904,10 +2963,10 @@
 			"Provides [2] [Weapons]",
 			"Provides [1] [Oil]",
 			"Free [Ancient Armor] appears"],
-		"quote": "Oh, see the fire is sweepin, our very street today; burns like a red coat carpet, mad bull lost your way... War, children! It's just a shot away!",
+		"quote": "'Oh, see the fire is sweepin, our very street today; burns like a red coat carpet, mad bull lost your way... War, children! It's just a shot away!' - The Rolling Stones, 'Gimme Shelter'",
 		"civilopediaText": [
 			{
-				"text": "Oh, see the fire is sweepin, our very street today; burns like a red coat carpet, mad bull lost your way... War, children! It's just a shot away!"
+				"text": "'Oh, see the fire is sweepin, our very street today; burns like a red coat carpet, mad bull lost your way... War, children! It's just a shot away!' - The Rolling Stones, 'Gimme Shelter'"
 			}
 		]
 	},
@@ -2967,10 +3026,10 @@
 			"Must have an owned [Space Station Wreckage] within [5] tiles",
 			"[+2 Science, +2 Culture, +2 Production] from [Space Station Wreckage] tiles [in all cities]"
 		],
-		"quote": "Everything in space obeys the laws of physics. If you know these laws, and obey them, space will treat you kindly. And don't tell me that man doesn't belong out there. Man belongs wherever he wants to go - and he'll do plenty well when he gets there.",
+		"quote": "'Everything in space obeys the laws of physics. If you know these laws, and obey them, space will treat you kindly. And don't tell me that man doesn't belong out there. Man belongs wherever he wants to go - and he'll do plenty well when he gets there.' - Wernher von Braun",
 		"civilopediaText": [
 			{
-				"text": "Everything in space obeys the laws of physics. If you know these laws, and obey them, space will treat you kindly. And don't tell me that man doesn't belong out there. Man belongs wherever he wants to go - and he'll do plenty well when he gets there."
+				"text": "'Everything in space obeys the laws of physics. If you know these laws, and obey them, space will treat you kindly. And don't tell me that man doesn't belong out there. Man belongs wherever he wants to go - and he'll do plenty well when he gets there.' - Wernher von Braun"
 			}
 		]
 	},
@@ -2984,10 +3043,10 @@
 			"Must have an owned [Mining Pit] within [5] tiles",
 			"Unbuildable <if [Pit of Sacrifice] is constructed>"
 		],
-		"quote": "There is, of course, a gold mine or a buried treasure on every mortgaged homestead. Whether the farmer ever digs for it or not, it is there, haunting his daydreams when the burden of debt is most unbearable.",
+		"quote": "'There is, of course, a gold mine or a buried treasure on every mortgaged homestead. Whether the farmer ever digs for it or not, it is there, haunting his daydreams when the burden of debt is most unbearable.' - Fawn M. Brodie",
 		"civilopediaText": [
 			{
-				"text": "There is, of course, a gold mine or a buried treasure on every mortgaged homestead. Whether the farmer ever digs for it or not, it is there, haunting his daydreams when the burden of debt is most unbearable."
+				"text": "'There is, of course, a gold mine or a buried treasure on every mortgaged homestead. Whether the farmer ever digs for it or not, it is there, haunting his daydreams when the burden of debt is most unbearable.' - Fawn M. Brodie"
 			}
 		]
 	},
@@ -3772,7 +3831,7 @@
 		"name": "Broadcast Tower",
 		"culture": 2,
 		"specialistSlots": {"Administrator": 1},
-		"percentStatBonus": {"culture": 25},
+		"percentStatBonus": {"culture": 10},
 		"uniques": ["Consumes [1] [Power]"],
 		"maintenance": 3,
 		"requiredTech": "Radio"
@@ -4266,7 +4325,7 @@
 			"Only available <in cities without a [Prison Camp]>",
 			"Destroyed when the city is captured",
 			"Hidden when espionage is disabled"],
-		"requiredTech": "Civil Service"
+		"requiredTech": "Radio"
 	},
 	{
 		"name": "Arena",
@@ -5021,7 +5080,7 @@
 			"Free [Rapid Response Squad] appears",
 			"Destroyed when the city is captured",
 			"Hidden when espionage is disabled"],
-		"requiredTech": "Civil Service"
+		"requiredTech": "Radio"
 	},
 	{
 		"name": "Medical School",

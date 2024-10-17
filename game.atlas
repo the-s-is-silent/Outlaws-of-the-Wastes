@@ -200,7 +200,7 @@ BuildingIcons/Sejm
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/State Assembly
+BuildingIcons/Verkhovny Sovet
   rotate: false
   xy: 112, 265
   size: 100, 100

@@ -157,18 +157,18 @@
 - The +20% combat bonus against larger factions no longer has a policy requirement.
 - The "Great Wall" effect in their UA now expires at Railroads.
 - They no longer start with Redomestication.
-- Great Mosque, along with the standard Mosque, have been temporarily removed from the game and replaced with UBs which should be more accurate to their religion.
+- Great Mosque, along with the standard Mosque, have been taken away from them and replaced with UBs which should be more accurate to their religion.
 - Survival Program replaced with Collective Congress, which has the standard scaling Culture yields of a Congress building but also has scaling Happiness yields (+1 per 8 population) instead of a flat 5% Unhappiness reduction and adds 1 of every yield except Happiness to Settlements.
 - Revolutionary Council now adds a +15% Production bonus towards Personnel units for all cities and a +5% Production bonus towards buildings in the capital and all cities connected to it.
 - New UBs:
   - Mansion of Our Father (new identity wonder, gives a Food Store instead of a Monument but is otherwise identical to the old Great Mosque)
-  - Afrikan Reformed Church (replaces Monastery, adds +2 Food)
+  - Afrikan Reformed Church (replaces Monastery, adds +2 Happiness as long as the city follows New Afrika's religion)
   - Survival Program (now replaces Community Garden, adds the Food/growth bonuses that were part of Collective Congress)
-  - Community Center (replaces Public School, adds +2 Food/Happiness)
+  - Community Center (replaces Public School, adds +2 Food)
 
 #### New Star
 - They lose the absurd 50% boost to GP generation, but gain a form of their planned UA for the Rebirth Edition: Civilian and Support units receive Thermoptic Camouflage, and gifting these units to City-States nets 15 Influence with them. The Strength bonus for Wounded units now applies evenly, and the Sight bonus for Wounded units is extended to the other Support units.
-- They are no longer allowed to employ prison labor.
+- They are no longer allowed to employ prison labor. This includes a ban on constructing Annex Isolationists.
 - Mobile Encampment provides more Weapons (2 vs. 1) and can be built in a second city after discovering Munitions, allowing them to move the capital if necessary.
 - On the run now gives two Wandering Doctor replacements instead of a Militia.
 - Electing Leaders has been taken away from them and given to The Patriots.
@@ -179,8 +179,8 @@
   - Rapid Response Squad (replaces Forward Observer, starts with Gas Mask and Medic I/II, 75% strength on defense, can sacrifice itself to clear Fallout or Toxic Waste, more expensive to build)
 - New UBs:
   - Soup Kitchen (replaces Prison Camp, +2 Food, +1 Local Happiness, removes extra unhappiness from annexed cities, does not provide Slaves, no restrictions on building)
-  - Triage (replaces Work Camp, +10 unit healing for units adjacent to the city, +15% Production towards "support" units, +1 Local Happiness restored at Voting Rights, does not consume Slaves)
-  - Rehabilitation Center (standalone, +2 Local Happiness increasing to +4 upon adopting Voting Rights, liberates an acquired Slave to add +1 population to the city)
+  - Triage (standalone, +10 unit healing for units adjacent to the city, +15% Production towards "support" units, +1 Local Happiness restored at Voting Rights, does not consume Slaves)
+  - Rehabilitation Center (replaces Work Camp, +2 Local Happiness increasing to +4 upon adopting Voting Rights, liberates an acquired Slave to add +1 population to the city)
   - Emergency Response Network (replaces Listening Post, adds protection from nukes, spawns a free Rapid Response Squad, does not remove extra unhappiness from annexed cities since unlike Prison Camps/Listening Posts + all other replacements, it can exist alongside a Soup Kitchen)
   - Medical School (replaces Public School, requires a Hospital instead of a Library, awards Medic II to new units and adds +1 Local Happiness while the faction has Power)
 
@@ -196,8 +196,8 @@
 - Since they don't have a favored religion in base DeCiv, Rodnovery was assigned to them in this mod.
 - The growth penalties in the UA now end after researching Decontamination.
 - Sarcophagus buffed to +2 Production.
-- Five-Year Plan and Gulag have been renamed to State Assembly and Politburo.
-- State Assembly now adds scaling Production yields (in addition to the scaling Culture yields) and counts every 4 population in cities instead of every 5. However, it costs 150 Production.
+- Five-Year Plan and Gulag have been renamed to Verkhovny Sovet and Politburo.
+- Verkhovny Sovet now adds scaling Production yields (in addition to the scaling Culture yields) and counts every 4 population in cities instead of every 5. However, it costs 150 Production.
 - Politburo no longer adds Culture/Happiness; it instead adds +3 Production to their Prison Camp/Work Camp replacements and Listening Posts.
 - New UUs:
   - Nuke Cannon (standalone, Siege Nuke, requires Atomgrad Project, 600 production cost, 2 movement, 3 range, 60 defense strength, 70 ranged strength, nuke strength 2, blast radius 0, limit of 3)

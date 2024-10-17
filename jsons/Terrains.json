@@ -99,5 +99,22 @@
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
+	},
+	{
+		"name": "Oil Lake",
+		"type": "NaturalWonder",
+		"production": 1,
+		"gold": 1,
+		"science": 1,
+		"occursOn": ["Badlands", "Mountain"],
+		"uniques": [
+			"Must be adjacent to [1] to [2] [Coastal] tiles",
+			"Must be adjacent to [0] [Water] tiles",
+			"Occurs on latitudes from [0] to [20] percent of distance equator to pole"
+		],
+		"turnsInto": "Lakes",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
 	}
 ]

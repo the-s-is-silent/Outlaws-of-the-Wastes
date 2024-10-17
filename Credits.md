@@ -109,6 +109,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Remedial School: [educational school building](https://thenounproject.com/icon/educational-school-building-3017500/) by Vectors Point
 - Renovate Metal Pyramid: [Pyramid](https://thenounproject.com/icon/pyramid-957412/) by Lluisa Iborra, ES
 - Research and Preservation Institute: [institute](https://thenounproject.com/icon/institute-5137615/) by lastspark, RU
+- Restart Oil Lake Industry: [Oil Platform](https://thenounproject.com/icon/oil-platform-5413495/) by Capativ Design, ID
 - Restored Temple of Zion: [Salt Lake Temple](https://thenounproject.com/icon/salt-lake-temple-219294/) by Nick Bluth, US
 - Revert Survivors: [islam](https://thenounproject.com/icon/islam-4239132/) by Arthur Bauer, UA
 - Riding Arena: [stadium](https://thenounproject.com/icon/stadium-4477576/) by Doodle Icons
@@ -122,6 +123,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Slave Quarters: [shack](https://thenounproject.com/icon/shack-2837993/) by ciciliakwo, FI
 - Sociopolitical Institute: [Campus](https://thenounproject.com/icon/campus-3884267/) by Adrien Coquet, FR
 - Soup Kitchen: [Soup](https://thenounproject.com/icon/soup-1182528/) by Peter Emil van den Berg, NL
+- Stadnina Koni: [Farm](https://thenounproject.com/icon/farm-2723266/) by Laymik, UA
 - State Dacha: [cabin](https://thenounproject.com/icon/cabin-3306863/) by PenSmasher, TH
 - Statue of Remembrance: [Justice](https://thenounproject.com/icon/justice-3872855/) by Eucalyp
 - Stone of Ages: [excalibur](https://thenounproject.com/icon/excalibur-2526433/) by Andrejs Kirma, LV

@@ -447,8 +447,7 @@
 		"uniques": [
 			"Cannot enter ocean tiles",
 			"Can only attack [Water] tiles",
-			"Can move after attacking",
-			"Withdraws before melee combat <with [33]% chance>"
+			"Can move after attacking"
 		],
 		"attackSound": "shot"
 	},
@@ -468,7 +467,7 @@
 		"uniques": [
 			"Can only attack [Water] tiles",
 			"Can move after attacking",
-			"Withdraws before melee combat <with [66]% chance>"
+			"Withdraws before melee combat <with [20]% chance>"
 		],
 		"attackSound": "shot"
 	},
@@ -485,8 +484,7 @@
 		"uniques": [
 			"Can only attack [Water] tiles",
 			"Can move after attacking",
-			"Double movement in [Coast]",
-			"Withdraws before melee combat <with [33]% chance>",
+			"[+1] Movement <in [Friendly Land] tiles>",
 			"Can upgrade to [Scout Cruiser]",
 			"Can upgrade to [Torpedo Boat]",
 			"Consumes [1] [Oil]"
@@ -510,8 +508,8 @@
 		"uniques": [
 			"Can only attack [Water] tiles",
 			"Can move after attacking",
-			"Double movement in [Coast]",
-			"Withdraws before melee combat <with [66]% chance>"
+			"[+1] Movement <in [Friendly Land] tiles>",
+			"Withdraws before melee combat <with [20]% chance>"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
@@ -547,7 +545,6 @@
 		"upgradesTo": "Destroyer",
 		"uniques": [
 			"[+1] Sight",
-			"Withdraws before melee combat <with [33]% chance>",
 			"Consumes [1] [Oil]",
 			"Never appears as a Barbarian unit"
 		],
@@ -564,7 +561,6 @@
 		"uniques": [
 			"Automated",
 			"Can carry [2] [{Automated} {Air}] units",
-			"Double movement in [Coast]",
 			"Can move after attacking",
 			"Can see invisible [Submarine] units",
 			"[+33]% Strength <vs [Ranged Water] units> <when defending>",
@@ -1944,8 +1940,7 @@
 		"upgradesTo": "Patrol Boat",
 		"uniques": [
 			"Double movement in [Coast]",
-			"Cannot enter ocean tiles",
-			"Withdraws before melee combat <with [33]% chance>"
+			"Cannot enter ocean tiles"
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -3299,10 +3294,7 @@
 		"cost": 50,
 		"obsoleteTech": "Steam Power",
 		"upgradesTo": "Patrol Boat",
-		"uniques": [
-			"Cannot enter ocean tiles",
-			"Withdraws before melee combat <with [33]% chance>"
-		],
+		"uniques": ["Cannot enter ocean tiles"],
 		//removed Low Tech modifier due to bugs locking Patriots/Almaty out of building any water units
 		"attackSound": "nonmetalhit"
 	},
@@ -3317,25 +3309,53 @@
 		"cost": 50,
 		"obsoleteTech": "Steam Power",
 		"upgradesTo": "Patrol Boat",
-		"uniques": ["Withdraws before melee combat <with [66]% chance>"],
+		"uniques": ["Withdraws before melee combat <with [20]% chance>"],
 		"attackSound": "nonmetalhit",
 		"promotions": ["Littoral Warfare"]
 	},
 	{
-		"name": "Attack Boat",
+		"name": "Patrol Boat",
 		"unitType": "Melee Water",
 		"movement": 4,
+		"strength": 30,
+		"cost": 90,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Attack Boat",
+		"obsoleteTech": "Manufacturing",
+		"uniques": ["Consumes [1] [Oil]"],
+		"hurryCostModifier": 20,
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Privateer",
+		"uniqueTo": "The Mariners",
+		"replaces": "Patrol Boat",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 30,
+		"cost": 90,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Attack Boat",
+		"obsoleteTech": "Manufacturing",
+		"uniques": [
+			"Withdraws before melee combat <with [20]% chance>",
+			"Consumes [1] [Oil]",
+			"May capture killed [Water] units",
+			"Earn [33]% of the damage done to [City] units as [Gold]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Attack Boat",
+		"unitType": "Melee Water",
+		"movement": 5,
 		"strength": 40,
 		"cost": 100,
 		"requiredTech": "Steam Power",
 		"obsoleteTech": "Plastics",
 		"upgradesTo": "Assault Ship",
-		"uniques": [
-			"Consumes [1] [Oil]",
-			"Double movement in [Coast]",
-			"Withdraws before melee combat <with [33]% chance>"
-		],
-		//removed Factory requirement and exclusion from Barbarian unit list
+		"uniques": ["Consumes [1] [Oil]"],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
 	},
@@ -3352,8 +3372,8 @@
 		"upgradesTo": "Assault Ship",
 		"uniques": [
 			"Consumes [1] [Oil]",
-			"Double movement in [Coast]",
-			"Withdraws before melee combat <with [66]% chance>",
+			"[+1] Movement <in [Coast] tiles>",
+			"Withdraws before melee combat <with [20]% chance>",
 			"[+25]% Strength <when defending>"
 		],
 		"hurryCostModifier": 20,
@@ -3371,10 +3391,8 @@
 		"uniques": [
 		    "Can move after attacking",
 			"Consumes [1] [Oil]",
-			"Double movement in [Coast]",
 			"Withdraws before melee combat <with [33]% chance>",
-			"Only available <if [Factory] is constructed>",
-			"Never appears as a Barbarian unit"
+			"Only available <if [Factory] is constructed>"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
@@ -3391,8 +3409,7 @@
 		"upgradesTo": "Submarine",
 		"obsoleteTech": "Particle Physics",
 		"uniques": [
-			"Double movement in [Coast]",
-			"Withdraws before melee combat <with [33]% chance>",
+			"[+1] Movement <in [Coast] tiles>",
 			"Can only attack [Water] tiles",
 			"Can move after attacking",
 			"Consumes [1] [Oil]"
@@ -3414,8 +3431,8 @@
 		"upgradesTo": "Submarine",
 		"obsoleteTech": "Particle Physics",
 		"uniques": [
-			"Double movement in [Coast]",
-			"Withdraws before melee combat <with [66]% chance>",
+			"[+1] Movement <in [Coast] tiles>",
+			"Withdraws before melee combat <with [20]% chance>",
 			"Can move after attacking",
 			"Consumes [1] [Oil]"
 		],
@@ -3772,9 +3789,8 @@
 		"upgradesTo": "Attack Boat",
 		"obsoleteTech": "Steam Power",
 		"uniques": [
-			"Double movement in [Coast]",
 			"[+20]% Strength <when adjacent to a [Melee Water] unit>",
-			"Withdraws before melee combat <with [33]% chance>",
+			"Withdraws before melee combat <with [25]% chance>",
 			"May capture killed [Water] units"
 		],
 		"promotions": ["Raider", "Sea Raider"],
@@ -3793,9 +3809,8 @@
 		"obsoleteTech": "Plastics",
 		"upgradesTo": "Assault Ship",
 		"uniques": [
-			"Double movement in [Coast]",
 			"[+25]% Strength <when adjacent to a [Melee Water] unit>",
-			"Withdraws before melee combat <with [33]% chance>",
+			"Withdraws before melee combat <with [25]% chance>",
 			"May capture killed [Water] units"
 		],
 		"promotions": ["Raider", "Sea Raider"],
@@ -3814,7 +3829,6 @@
 		"upgradesTo": "Drone Ship",
 		"uniques": [
 		    "Can move after attacking",
-			"Double movement in [Coast]",
 			"[+30]% Strength <when adjacent to a [Melee Water] unit>",
 			"Withdraws before melee combat <with [33]% chance>",
 			"May capture killed [Water] units"

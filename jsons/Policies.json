@@ -148,14 +148,16 @@
 			{
 				"name": "Doctrine",
 				"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Gold]",
-					"[+2 Production, +2 Gold, +2 Culture] from every [Barracks]"],
+					"[+1 Production, +1 Gold, +1 Culture] from every [Barracks]",
+					"[+1 Production, +1 Gold, +1 Culture] from every [Armory]"],
 				"row": 1,
 				"column": 3
 			},
 			{
 				"name": "Security Forces",
-				"uniques": ["Units in cities cost no Maintenance",
-					"[+2 Culture, +3 Happiness] [in all cities with a garrison]"],
+				"uniques": ["[+2 Culture, +1 Happiness] [in all cities with a garrison]",
+					"[+1 Happiness] from every [Barracks]",
+					"[+1 Happiness] from every [Armory]"],
 				"row": 1,
 				"column": 5
 			},
@@ -724,7 +726,7 @@
 				"requires": ["Physiolatry"],
 				"uniques": ["[Faith] cost of purchasing items in cities [-20]%",
 					"[+2 Culture, +2 Faith] <in cities with at least [2] [Specialists]>",
-					"[+25]% [Culture] from every [Protected Area]"],
+					"[+15]% [Culture] from every [Protected Area]"],
 				"row": 3,
 				"column": 1
 			},

@@ -56,6 +56,8 @@ A major expansion + rebalance mod for DeCiv Redux.
   - Earthscraper Project, unlocking a powerful late-game building to aid in defending cities.
   - Microwave Power Satellite, a late-game Power building for desert cities that also improves Solar collectors.
 
+- New ancient wonders + corresponding national projects.
+
 - New tile improvements:
   - Armed Mining Camp, exclusive to Aurelian Group.
   - Artificial atoll and Floating Settlement, unlocked at Ocean Remediation.

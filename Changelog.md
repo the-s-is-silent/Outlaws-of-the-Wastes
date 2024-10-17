@@ -1101,7 +1101,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Windmill Generator (+2 Production, +2 Power, +1 Production to Wind farms on Land, requires the city to be working a Power tile)
 
 **New Wonder**
-- Amager Bakke (world wonder, +3 Culture, +2 Great Engineer points, +16 Power, Recycling Plants built 50% faster, sells off Coal/Oil Plants in the city and gives a free Recycling Plant, must be built in a coastal city)
+- Amager Bakke (world wonder, +3 Culture, +2 Great Engineer points, +16 Power, Recycling Plants built twice as fast, sells off Coal/Oil Plants in the city and gives a free Recycling Plant, must be built in a coastal city)
 
 **New Units**
 - Deseret Bishop (Censor replacement for Deseret Nation, provides a healing aura to accelerate healing of adjacent units by 15 HP per turn)
@@ -1128,3 +1128,60 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Cautionary Tales (Pantheon), adds +2 Faith to Libraries and +1 Happiness to Museums
 - Communion Centers (Follower), Worship Center adds: +1 Culture/Happiness, +2 Faith, +3 Water, +10% to city's total Water yields
 - Meeting Houses (Follower), Worship Center adds: +3 Production, +1 Culture, +2 Faith, +10% Production towards buildings
+
+#### October 2024
+
+**Building Adjustments**
+- Broadcast Tower (and replacements) nerfed to +10% Culture.
+- Interpretative Center has been temporarily deleted. (I say "temporarily", but who knows how long it will be before Tourism mechanics are implemented)
+- Listening Post now unlocks at Radio instead of Civil Service.
+- Renovate Metal Pyramid has been fixed so it's now a national project like it should be. (Yes, I miss the exploit of +26 Culture pyramids and +8 Culture to city connections too.)
+- Faction/City-State UBs:
+	- Proklyatyye:
+		- State Assembly renamed again; it is now Verkhovny Sovet.
+
+**Wonder Adjustments**
+- Supercollider adjustments:
+	- Base Science increased to +8.
+	- Great Scientist points increased to +3.
+	- Scientist specialists provide an additional +2 Science.
+	- Academy tiles gain +4 Science, +2 Water.
+	- Creates an Academy improvement on a selected tile upon completion.
+	- Power cost increased from 1 to 8.
+	- No longer provides free Great Scientists.
+- AI Project adjustments:
+	- Base Science increased to +10.
+	- Production bonus for Terraformer Parts built in the city increased to 150%.
+	- Combat bonus extended to Purge Robot units.
+	- Copies of Encrypted Data provided increased from 2 to 4.
+	- Power cost increased from 2 to 5.
+	- No longer provides a Great Scientist or Golden Age.
+	- No longer triggers a global alert upon completion.
+
+**Unit Adjustments**
+- Naval unit adjustments (mostly nerfs):
+	- Standard early and mid-game units (Dinghy, Raiding Craft, Patrol Boat, Gunboat, Attack Boat, Torpedo Boat) no longer have a chance to evade melee combat.
+	- Mariner UUs' chance to evade melee combat is reduced to 20%.
+	- Gunboat, Lagoon, Corvette, Torpedo Boat and Jet Boat reduced to +1 additional movement on Coast tiles instead of doubled movement. All other units that had doubled movement on Coast lose that bonus movement altogether.
+	- Attack Boat and Corvette's base movement increased to 5.
+	- All of the nerfs to base DeCiv units will also be applied directly to Deciv 2.
+
+**Policy Adjustments**
+- Sovereignty:
+	- Doctrine's added stats to Barracks are now divided between Barracks and Armory (+1 Production/Water/Culture each).
+	- Security Forces' added Happiness divided - it is now +1 for a garrison, +1 with Barracks, +1 with Armory.
+- Naturalism:
+	- Harmony's added Culture to Protected Areas reduced to +15%.
+
+**Belief Adjustments**
+- Power of Light now gives Faith equal to 33% of a defeated unit's Strength after determining the old effect (25% of damage dealt to all units) was awarding a little too much Faith.
+
+**New Buildings**
+- Stadnina Koni (Stable replacement for Nowa Polska, grants 15 XP to new Mounted units and +15% Production speed towards Mounted units)
+
+**New Wonders**
+- Oil Lake (ancient wonder, starts at +1 Production/Water/Science)
+	- Restart Oil Lake Industry (corresponding national project, available at Chemistry, +4 Oil doubling at Land Remediation, +5 Production to the Oil Lake tile)
+
+**Misc.**
+- Quote attributions for several wonders have been restored.
