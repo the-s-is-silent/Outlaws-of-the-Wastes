@@ -5578,7 +5578,7 @@
 			"[2] free [Pre-War Turret] units appear",
 			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
-			"Only available <for [City-States]>",
+			"Only available <for [City-States] Civilizations>",
 			"Destroyed when the city is captured"]
 	},
 	{
@@ -5587,7 +5587,7 @@
 		"requiredTech": "Electronics",
 		"uniques": ["Will not be displayed in Civilopedia",
 			"Provides [4] [Power]",
-			"Only available <for [City-States]>",
+			"Only available <for [City-States] Civilizations>",
 			"Only available <in cities with a [Library]>",
 			"Destroyed when the city is captured"]
 	},
