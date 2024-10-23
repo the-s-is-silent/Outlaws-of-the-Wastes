@@ -2567,7 +2567,7 @@
 			"[15]% Production when constructing [Victory Transmission] wonders [in all cities]",
 			"[15]% Production when constructing [Great Arc] wonders [in all cities]",
 			"Only available <if [Transmissions Center] is constructed>",
-			"Only available <when [Transmission] Victory is enabled",
+			"Only available <when [Transmission] Victory is enabled>",
 			"Triggers a global alert upon completion",
 			"Cannot be hurried"
 		],
@@ -2585,7 +2585,7 @@
 			"[15]% Production when constructing [Victory Transmission] wonders [in all cities]",
 			"[15]% Production when constructing [Great Arc] wonders [in all cities]",
 			"Only available <if [Transmissions Center] is constructed>",
-			"Only available <when [Transmission] Victory is enabled",
+			"Only available <when [Transmission] Victory is enabled>",
 			"Triggers a global alert upon completion",
 			"Cannot be hurried"
 		],
@@ -2603,7 +2603,7 @@
 			"[15]% Production when constructing [Victory Transmission] wonders [in all cities]",
 			"[15]% Production when constructing [Great Arc] wonders [in all cities]",
 			"Only available <if [Transmissions Center] is constructed>",
-			"Only available <when [Transmission] Victory is enabled",
+			"Only available <when [Transmission] Victory is enabled>",
 			"Triggers a global alert upon completion",
 			"Cannot be hurried"
 		],
@@ -2621,7 +2621,7 @@
 			"[15]% Production when constructing [Victory Transmission] wonders [in all cities]",
 			"[15]% Production when constructing [Great Arc] wonders [in all cities]",
 			"Only available <if [Transmissions Center] is constructed>",
-			"Only available <when [Transmission] Victory is enabled",
+			"Only available <when [Transmission] Victory is enabled>",
 			"Triggers a global alert upon completion",
 			"Cannot be hurried"
 		],
@@ -2638,7 +2638,7 @@
 			"Victory Transmission",
 			"[15]% Production when constructing [Great Arc] wonders [in all cities]",
 			"Only available <if [Transmissions Center] is constructed>",
-			"Only available <when [Transmission] Victory is enabled",
+			"Only available <when [Transmission] Victory is enabled>",
 			"Triggers a global alert upon completion",
 			"Cannot be hurried"
 		],
@@ -2654,7 +2654,7 @@
 		"uniques": [
 			"Only available <if [Transmissions Center] is constructed>",
 			"Triggers a global alert upon build start",
-			"Only available <when [Transmission] Victory is enabled",
+			"Only available <when [Transmission] Victory is enabled>",
 			"Cannot be hurried"
 		],
 		"quote": "This is it. Our second chance.",
