@@ -76,7 +76,7 @@
 			"Limited to [1] per Civilization",
 			"Cannot be purchased",
 			"Triggers a global alert upon completion",
-			"Hidden when [Colonization] Victory is disabled"]
+			"Only available <when [Colonization] Victory is enabled>"]
 	},
 	{
 		"name": "SS Casing",
@@ -92,7 +92,7 @@
 			"Limited to [1] per Civilization",
 			"Cannot be purchased",
 			"Triggers a global alert upon completion",
-			"Hidden when [Colonization] Victory is disabled"]
+			"Only available <when [Colonization] Victory is enabled>"]
 	},
 	{
 		"name": "SS Cockpit",
@@ -108,7 +108,7 @@
 			"Limited to [1] per Civilization",
 			"Cannot be purchased",
 			"Triggers a global alert upon completion",
-			"Hidden when [Colonization] Victory is disabled"]
+			"Only available <when [Colonization] Victory is enabled>"]
 	},
 	{
 		"name": "SS Engine",
@@ -124,7 +124,7 @@
 			"Limited to [1] per Civilization",
 			"Cannot be purchased",
 			"Triggers a global alert upon completion",
-			"Hidden when [Colonization] Victory is disabled"]
+			"Only available <when [Colonization] Victory is enabled>"]
 	},
 	{
 		"name": "SS Life Support",
@@ -140,7 +140,7 @@
 			"Limited to [1] per Civilization",
 			"Cannot be purchased",
 			"Triggers a global alert upon completion",
-			"Hidden when [Colonization] Victory is disabled"]
+			"Only available <when [Colonization] Victory is enabled>"]
 	},
 	{
 		"name": "SS Stasis Chamber",
@@ -156,7 +156,7 @@
 			"Limited to [1] per Civilization",
 			"Cannot be purchased",
 			"Triggers a global alert upon completion",
-			"Hidden when [Colonization] Victory is disabled"]
+			"Only available <when [Colonization] Victory is enabled>"]
 	},
 
 	//Collectivism policy
@@ -636,7 +636,7 @@
 			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
 			"May enter foreign tiles without open borders, but loses [100] religious strength each turn it ends there",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
-			"Unbuildable", "Uncapturable", "Religious Unit", "Hidden when religion is disabled"],
+			"Unbuildable", "Uncapturable", "Religious Unit", "Only available <when religion is enabled>"],
 		"movement": 4,
 		"religiousStrength": 1000
 	},
@@ -653,7 +653,7 @@
 			"[+15] HP when healing",
 			"All adjacent units heal [+15] HP when healing",
 			"[-100]% maintenance costs",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Unbuildable",
 			"Uncapturable",
 			"Religious Unit"
@@ -672,7 +672,7 @@
 			"May enhance a religion <by consuming this unit> <if it hasn't used other actions yet>",
 			"May enter foreign tiles without open borders",
 			"Great Person - [Faith]", "Unbuildable", "Uncapturable",
-			"Religious Unit", "Hidden when religion is disabled", "Takes your religion over the one in their birth city"],
+			"Religious Unit", "Only available <when religion is enabled>", "Takes your religion over the one in their birth city"],
 		"movement": 2,
 		"religiousStrength": 1000
 	},
@@ -981,7 +981,7 @@
 			"Unbuildable",
 			"Uncapturable",
 			"Religious Unit",
-			"Hidden when religion is disabled"],
+			"Only available <when religion is enabled>"],
 		"attackSound": "shot"
 	},
 	{
@@ -1040,7 +1040,7 @@
 			"Unbuildable",
 			"Uncapturable",
 			"Religious Unit",
-			"Hidden when religion is disabled"],
+			"Only available <when religion is enabled>"],
 		"attackSound": "shot"
 	},
 	{
@@ -1177,7 +1177,7 @@
 		"promotions": ["Valor of Aztlán"],
 		"uniques": ["Low Tech", "[+50]% Strength <vs [Low Tech] units>",
 			"[+25]% Strength <vs [Barbarian] units>",
-			"Can upgrade to [Militia] <for [non-[Aztlán] Civilizations]> <hidden from users>",
+			"Can upgrade to [Militia] <for [non-[Aztlán]] Civilizations> <hidden from users>",
 			"Can upgrade to [Shorn One] <for [Aztlán] Civilizations> <hidden from users>"],
 		"attackSound": "metalhit"
 	},
@@ -1218,7 +1218,7 @@
 			"[+1] Sight",
 			"Unbuildable",
 			"Religious Unit",
-			"Hidden when religion is disabled"],
+			"Only available <when religion is enabled>"],
 		"attackSound": "shot"
 	},
 	{
@@ -3588,7 +3588,7 @@
 			"Limited to [1] per Civilization",
 			"Cannot be purchased",
 			"Triggers a global alert upon completion",
-			"Hidden when [Scientific] Victory is disabled"
+			"Only available <when [Scientific] Victory is enabled>"
 		]
 	},
 	{
@@ -3605,7 +3605,7 @@
 			"Limited to [1] per Civilization",
 			"Cannot be purchased",
 			"Triggers a global alert upon completion",
-			"Hidden when [Scientific] Victory is disabled"
+			"Only available <when [Scientific] Victory is enabled>"
 		]
 	},
 	{
@@ -3623,7 +3623,7 @@
 			"Limited to [1] per Civilization",
 			"Cannot be purchased",
 			"Triggers a global alert upon completion",
-			"Hidden when [Scientific] Victory is disabled"
+			"Only available <when [Scientific] Victory is enabled>"
 		]
 	},
 	{
@@ -3640,7 +3640,7 @@
 			"Limited to [1] per Civilization",
 			"Cannot be purchased",
 			"Triggers a global alert upon completion",
-			"Hidden when [Scientific] Victory is disabled"
+			"Only available <when [Scientific] Victory is enabled>"
 		]
 	},
 	{
@@ -3654,7 +3654,7 @@
 			"Unbuildable",
 			"Uncapturable",
 			"Religious Unit",
-			"Hidden when religion is disabled"
+			"Only available <when religion is enabled>"
 		],
 		"movement": 4,
 		"religiousStrength": 1000
@@ -3670,7 +3670,7 @@
 			"Unbuildable",
 			"Uncapturable",
 			"Religious Unit",
-			"Hidden when religion is disabled"
+			"Only available <when religion is enabled>"
 		],
 		"movement": 3
 	},

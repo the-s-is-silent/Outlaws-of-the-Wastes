@@ -53,7 +53,7 @@
 		"name": "discover religious texts",
 		"notification": "We have found religious texts in the camp, giving us a deeper understanding of religion! (+[faithAmount] Faith)",
 		"weight": 4,
-		"uniques": ["Hidden when religion is disabled",
+		"uniques": ["Only available <when religion is enabled>",
 			"Gain [25]-[50] [Faith]",
 			"Only available <after turn number [15]>",
 			"Only available <before founding a Pantheon>"]
@@ -62,7 +62,7 @@
 		"name": "an ancient prophecy",
 		"notification": "We have found an ancient prophecy in the camp, greatly increasing our spiritual connection! (+[faithAmount] Faith)",
 		"weight": 3,
-		"uniques": ["Hidden when religion is disabled",
+		"uniques": ["Only available <when religion is enabled>",
 			"Only available <after founding a Pantheon>",
 			"Gain enough Faith for [33]% of a Great Prophet",
 			"Unavailable <after generating a Great Prophet>"]
@@ -71,14 +71,14 @@
 		"name": "philosophical debate",
 		"notification": "The survivors engage in philosophical debates with us, giving us a much deeper understanding of religion! (+[faithAmount] Faith)",
 		"weight": 2,
-		"uniques": ["Hidden when religion is disabled",
+		"uniques": ["Only available <when religion is enabled>",
 			"Only available <after founding a religion>",
 			"Gain [100]-[150] [Faith]"]
 	},
 	{
 		"name": "stare into the void",
 		"notification": "We stare into the void in terror as the old gods reawaken!",
-		"uniques": ["Hidden when religion is disabled",
+		"uniques": ["Only available <when religion is enabled>",
 			"Gain a free [Pantheon] belief",
 			"Only available <after turn number [30]> <before turn number [80]>"],
 		"excludedDifficulties": ["Immortal", "Deity"]

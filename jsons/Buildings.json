@@ -178,7 +178,7 @@
 		"isNationalWonder": true,
 		"uniques": ["[+50]% Production when constructing [Aerospace Facility] buildings [in all cities]",
 			"Triggers a global alert upon completion",
-			"Hidden when [Colonization] Victory is disabled",
+			"Only available <when [Colonization] Victory is enabled>",
 			"Cannot be hurried"],
 		"requiredTech": "Rocketry",
 		"civilopediaText": [
@@ -423,7 +423,7 @@
 		"cost": 40,
 		"requiredTech": "Secrets of the Past",
 		"uniques": ["City Defense",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"[+2 Culture, +2 Faith] from [Natural Wonder] tiles [in this city]"]
 	},
 	{
@@ -479,7 +479,7 @@
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Shrine",
 		"requiredTech": "Education",
-		"uniques": ["Hidden when religion is disabled"]
+		"uniques": ["Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Grand Tabernacle",
@@ -494,7 +494,7 @@
 			"Cost increases by [30] per owned city",
 			"Can only be built <in [Holy] cities>",
 			"Only available <after adopting [Theocracy]>",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"All newly-trained [Deseret Missionary] units [in this city] receive the [Devout] promotion",
 			"All newly-trained [Living Prophet] units [in this city] receive the [Devout] promotion",
 			"Creates a [Endowment House] improvement on a specific tile",
@@ -576,7 +576,7 @@
 		"uniques": ["[+100]% Natural religion spread [in this city] <when above [-2] [Power]>",
 			"Consumes [1] [Power]",
 			"Only available <in cities with a [Tabernacle]>",
-			"Hidden when religion is disabled"]
+			"Only available <when religion is enabled>"]
 	},
 
 	//Camelot unique buildings
@@ -626,7 +626,7 @@
 		"faith": 1,
 		"cost": 40,
 		"requiredTech": "Secrets of the Past",
-		"uniques": ["Hidden when religion is disabled",
+		"uniques": ["Only available <when religion is enabled>",
 			"[+1 Culture, +1 Faith] [in this city] <with [Artifacts]>"]
 	},
 	{
@@ -682,7 +682,7 @@
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Shrine",
 		"requiredTech": "Education",
-		"uniques": ["Hidden when religion is disabled"]
+		"uniques": ["Only available <when religion is enabled>"]
 	},
 	{
 		"name": "The Round Table",
@@ -791,7 +791,7 @@
 			"Provides [1] [Encrypted Data]",
 			"Only available <in cities without a [Prison Camp]>",
 			"Destroyed when the city is captured",
-			"Hidden when espionage is disabled"],
+			"Only available <when espionage is enabled>"],
 		"requiredTech": "Radio"
 	},
 	{
@@ -1076,7 +1076,7 @@
 		"requiredTech": "Education",
 		"replacementTextForUniques": "Each social policy branch completed adds +1 Faith to this city.",
 		"uniques": ["Only available <in cities with a [Shrine]>",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Destroyed when the city is captured",
 			"[+1 Faith] [in this city] <after adopting [Adaptation Complete]>",
 			"[+1 Faith] [in this city] <after adopting [Expansionism Complete]>",
@@ -1150,7 +1150,7 @@
 			"Cost increases by [30] per owned city",
 			"Can only be built <in [Holy] cities>",
 			"Only available <after adopting [Theocracy]>",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"All newly-trained [Philosopher] units [in this city] receive the [Devout] promotion",
 			"All newly-trained [Great Sage] units [in this city] receive the [Devout] promotion",
 			"[+2 Culture] from [Lakes] tiles [in all cities]",
@@ -1236,7 +1236,7 @@
 		"faith": 1,
 		"cost": 40,
 		"requiredTech": "Secrets of the Past",
-		"uniques": ["Hidden when religion is disabled",
+		"uniques": ["Only available <when religion is enabled>",
 			"[+1 Production] [in this city] <when above [0] [Power]>"]
 	},
 	{
@@ -1289,7 +1289,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Education",
 		"uniques": ["Only available <in cities with a [Musalla]>",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"[+34]% Natural religion spread [in this city]"]
 	},
 	{
@@ -1306,7 +1306,7 @@
 			"Cost increases by [30] per owned city",
 			"Can only be built <in [Holy] cities>",
 			"Only available <after adopting [Theocracy]>",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"All newly-trained [Philosopher] units [in this city] receive the [Devout] promotion",
 			"All newly-trained [Great Sage] units [in this city] receive the [Devout] promotion",
 			"[-50]% maintenance costs <for [Enslaved] units>",
@@ -1664,7 +1664,7 @@
 			"[-30]% enemy spy effectiveness [in this city]",
 			"[+50]% Yield from every [Citadel] <in this city>",
 			"Destroyed when the city is captured",
-			"Hidden when espionage is disabled"
+			"Only available <when espionage is enabled>"
 		],
 		"requiredTech": "Electronics"
 	},
@@ -2518,7 +2518,7 @@
 			"Hidden until [6] social policy branches have been completed",
 			"Triggers a global alert upon build start",
 			"Triggers a Cultural Victory upon completion",
-			"Hidden when [Cultural] Victory is disabled",
+			"Only available <when [Cultural] Victory is enabled>",
 			"Cannot be hurried"
 		]
 	},
@@ -2529,7 +2529,7 @@
 		"culture": 1,
 		"cost": 65,
 		"requiredTech": "Secrets of the Past",
-		"uniques": ["Hidden when [Transmission] Victory is disabled",
+		"uniques": ["Only available <when [Transmission] Victory is enabled>",
 			"Cannot be hurried"],
 		"civilopediaText": [
 			{
@@ -2549,7 +2549,7 @@
 			"[15]% Production when constructing [Victory Transmission] wonders [in all cities]",
 			"[15]% Production when constructing [Great Arc] wonders [in all cities]",
 			"Only available <if [Transmissions Center] is constructed>",
-			"Hidden when [Transmission] Victory is disabled",
+			"Only available <when [Transmission] Victory is enabled>",
 			"Triggers a global alert upon completion",
 			"Cannot be hurried"
 		],
@@ -2567,7 +2567,7 @@
 			"[15]% Production when constructing [Victory Transmission] wonders [in all cities]",
 			"[15]% Production when constructing [Great Arc] wonders [in all cities]",
 			"Only available <if [Transmissions Center] is constructed>",
-			"Hidden when [Transmission] Victory is disabled",
+			"Only available <when [Transmission] Victory is enabled",
 			"Triggers a global alert upon completion",
 			"Cannot be hurried"
 		],
@@ -2585,7 +2585,7 @@
 			"[15]% Production when constructing [Victory Transmission] wonders [in all cities]",
 			"[15]% Production when constructing [Great Arc] wonders [in all cities]",
 			"Only available <if [Transmissions Center] is constructed>",
-			"Hidden when [Transmission] Victory is disabled",
+			"Only available <when [Transmission] Victory is enabled",
 			"Triggers a global alert upon completion",
 			"Cannot be hurried"
 		],
@@ -2603,7 +2603,7 @@
 			"[15]% Production when constructing [Victory Transmission] wonders [in all cities]",
 			"[15]% Production when constructing [Great Arc] wonders [in all cities]",
 			"Only available <if [Transmissions Center] is constructed>",
-			"Hidden when [Transmission] Victory is disabled",
+			"Only available <when [Transmission] Victory is enabled",
 			"Triggers a global alert upon completion",
 			"Cannot be hurried"
 		],
@@ -2621,7 +2621,7 @@
 			"[15]% Production when constructing [Victory Transmission] wonders [in all cities]",
 			"[15]% Production when constructing [Great Arc] wonders [in all cities]",
 			"Only available <if [Transmissions Center] is constructed>",
-			"Hidden when [Transmission] Victory is disabled",
+			"Only available <when [Transmission] Victory is enabled",
 			"Triggers a global alert upon completion",
 			"Cannot be hurried"
 		],
@@ -2638,7 +2638,7 @@
 			"Victory Transmission",
 			"[15]% Production when constructing [Great Arc] wonders [in all cities]",
 			"Only available <if [Transmissions Center] is constructed>",
-			"Hidden when [Transmission] Victory is disabled",
+			"Only available <when [Transmission] Victory is enabled",
 			"Triggers a global alert upon completion",
 			"Cannot be hurried"
 		],
@@ -2654,7 +2654,7 @@
 		"uniques": [
 			"Only available <if [Transmissions Center] is constructed>",
 			"Triggers a global alert upon build start",
-			"Hidden when [Transmission] Victory is disabled",
+			"Only available <when [Transmission] Victory is enabled",
 			"Cannot be hurried"
 		],
 		"quote": "This is it. Our second chance.",
@@ -2670,7 +2670,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Triggers a global alert upon completion",
-			"Hidden when [Scientific] Victory is disabled",
+			"Only available <when [Scientific] Victory is enabled>",
 			"Cannot be hurried"
 		],
 		"requiredTech": "Plastics Recycling",
@@ -2688,7 +2688,7 @@
 		"requiredTech": "Globalization",
 		"uniques": [
 			"Triggers voting for the Diplomatic Victory",
-			"Hidden when [Diplomatic] Victory is disabled",
+			"Only available <when [Diplomatic] Victory is enabled>",
 			"Triggers a global alert upon build start",
 			"Cannot be hurried"
 		],
@@ -3009,7 +3009,7 @@
 		"uniques": ["[+2 Science, +2 Culture, +2 Faith] from [Vault of Records] tiles [in all cities]",
 			"Must have an owned [Vault of Records] within [5] tiles",
 			"Provides [2] [Books]",
-			"Hidden when religion is disabled"],
+			"Only available <when religion is enabled>"],
 		"quote": "'And I seal up these records, after I have spoken a few words by way of exhortation unto you.' - The Book of Mormon, Moroni 10:2",
 		"civilopediaText": [
 			{
@@ -3108,7 +3108,7 @@
 			"Cost increases by [30] per owned city",
 			"Can only be built <in [Holy] cities>",
 			"Only available <after adopting [Theocracy]>",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"All newly-trained [Philosopher] units [in this city] receive the [Devout] promotion",
 			"All newly-trained [Great Sage] units [in this city] receive the [Devout] promotion"]
 	},
@@ -3125,7 +3125,7 @@
 			"Cost increases by [30] per owned city",
 			"Can only be built <in [Holy] cities>",
 			"Only available <after adopting [Theocracy]>",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"All newly-trained [Philosopher] units [in this city] receive the [Devout] promotion",
 			"All newly-trained [Great Sage] units [in this city] receive the [Devout] promotion",
 			"Free Social Policy",
@@ -4324,7 +4324,7 @@
 			"Remove extra unhappiness from annexed cities",
 			"Only available <in cities without a [Prison Camp]>",
 			"Destroyed when the city is captured",
-			"Hidden when espionage is disabled"],
+			"Only available <when espionage is enabled>"],
 		"requiredTech": "Radio"
 	},
 	{
@@ -4472,7 +4472,7 @@
 		"culture": 2,
 		"faith": 2,
 		"happiness": 2,
-		"uniques": ["Worship Center", "Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Worship Center", "Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Garden",
@@ -4483,7 +4483,7 @@
 		"food": 3,
 		"uniques": ["Worship Center", "Unbuildable",
 			"[10]% Food is carried over after population increases [in this city]",
-			"Hidden when religion is disabled"]
+			"Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Holy Fortress",
@@ -4493,7 +4493,7 @@
 		"happiness": 1,
 		"cityStrength": 6,
 		"cityHealth": 25,
-		"uniques": ["Worship Center", "City Defense", "Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Worship Center", "City Defense", "Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Dojo",
@@ -4501,7 +4501,7 @@
 		"culture": 1,
 		"faith": 1,
 		"happiness": 1,
-		"uniques": ["Worship Center", "Unbuildable", "Hidden when religion is disabled",
+		"uniques": ["Worship Center", "Unbuildable", "Only available <when religion is enabled>",
 			"New [Military] units start with [15] Experience [in this city]"]
 	},
 	{
@@ -4512,7 +4512,7 @@
 		"happiness": 1,
 		"science": 3,
 		"percentStatBonus": {"science": 10},
-		"uniques": ["Worship Center", "Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Worship Center", "Unbuildable", "Only available <when religion is enabled>"]
 	},
 
 	//Other Civ unique buildings (new + adjusted)
@@ -4689,7 +4689,7 @@
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Shrine",
 		"requiredTech": "Education",
-		"uniques": ["Hidden when religion is disabled",
+		"uniques": ["Only available <when religion is enabled>",
 			"[+10]% Production when constructing [All] buildings [in this city]"]
 	},
 	{
@@ -4703,7 +4703,7 @@
 			"Remove extra unhappiness from annexed cities",
 			"Only available <in cities without a [Prison Camp]>",
 			"Destroyed when the city is captured",
-			"Hidden when espionage is disabled"],
+			"Only available <when espionage is enabled>"],
 		"requiredTech": "Civil Service"
 	},
 	{
@@ -4993,7 +4993,7 @@
 		"requiredBuilding": "Shrine",
 		"requiredTech": "Education",
 		"uniques": [
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"[+2 Happiness] [in this city] <in cities following our religion>"
 		]
 	},
@@ -5079,7 +5079,7 @@
 			"[-25]% enemy spy effectiveness [in this city]",
 			"Free [Rapid Response Squad] appears",
 			"Destroyed when the city is captured",
-			"Hidden when espionage is disabled"],
+			"Only available <when espionage is enabled>"],
 		"requiredTech": "Radio"
 	},
 	{
@@ -6090,7 +6090,7 @@
 		"culture": 5,
 		"faith": 1,
 		"happiness": 1,
-		"uniques": ["Worship Center", "Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Worship Center", "Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Communion",
@@ -6100,7 +6100,7 @@
 		"happiness": 1,
 		"gold": 3,
 		"percentStatBonus": {"gold": 10},
-		"uniques": ["Worship Center", "Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Worship Center", "Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Meeting House",
@@ -6110,6 +6110,6 @@
 		"faith": 2,
 		"uniques": ["Worship Center", "Unbuildable",
 			"[+10]% Production when constructing [All] buildings [in this city]",
-			"Hidden when religion is disabled"]
+			"Only available <when religion is enabled>"]
 	}
 ]
