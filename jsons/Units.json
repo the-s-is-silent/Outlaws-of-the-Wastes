@@ -560,7 +560,6 @@
 		"requiredTech": "Robotics",
 		"uniques": [
 			"Automated",
-			"Can carry [2] [{Automated} {Air}] units",
 			"Can move after attacking",
 			"Can see invisible [Submarine] units",
 			"[+33]% Strength <vs [Ranged Water] units> <when defending>",
@@ -1926,6 +1925,24 @@
 			"Can build [Tree plantation] improvements on tiles",
 			"Invisible to others <in [Tree plantation] tiles>"],
 		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Arroyo Sagestepper",
+		"unitType": "Shooter",
+		"uniqueTo": "Arroyo",
+		"replaces": "State Guard",
+		"movement": 2,
+		"strength": 36,
+		"cost": 50,
+		"upgradesTo": "Soldier",
+		"hurryCostModifier": 20,
+		"promotions": ["Skirmish"],
+		"uniques": [
+			"Low Tech",
+			"[+25]% Strength <when defending>",
+			"Limited to [3] per Civilization"
+		],
+		"attackSound": "shot"
 	},
 	{
 		"name": "Weaponized Yacht",

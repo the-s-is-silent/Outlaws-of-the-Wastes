@@ -32,8 +32,7 @@
 			"Cannot build [Enslaved] units"],
 		"cities": ["Zion Valley", "New Canaan", "Provorem", "Grand Staircase", "Cueva Guarache", "Fort Walker", "Dead Horse Point", "Angel's Landing",
 			"Traverse City", "New Tooele", "New Nephi", "Patriarchs' Court", "Urim and Thummim", "Malki Tzedek", "Maeserville", "Pine Creek",
-			"Fort Browning", "Kobol", "Anamani", "Rainbow Bridge", "Hovenweep", "Old Rockville", "Van Buren", "Burham Springs", "Nuevo Vicios",
-			"Salt Town", "Irvington"],
+			"Fort Browning", "Kobol", "Anamani", "Old Rockville", "Van Buren", "Burham Springs", "Nuevo Vicios", "Salt Town", "Irvington"],
 		"spyNames": ["Daniel", "Mordecai", "Waking Cloud", "Judah", "Two-Bears-High-Fiving", "Emmaline", "Bonnie", "Jeremiah", "Dancing Flame", "Quiet Shadow"],
 		"civilopediaText": [
 			{
@@ -305,6 +304,8 @@
 		"uniqueName": "Oath to a Fallen Nation",
 		"uniques": [
 			"Comment [Each city owned increases resting point for influence with City-States by 5, up to a maximum of 30]",
+			"Resting point for Influence with City-States is increased by [5] <for every [[Your] Cities]> <when number of [[Your] Cities]> is between [0] and [6]> <hidden from users>",
+			"Resting point for Influence with City-States is increased by [30] <when number of [[Your] Cities] is more than [6]> <hidden from users>",
 			"City-State territory always counts as friendly territory",
 			"[+1] Movement <for [All] units> <in [City-States] tiles>",
 			"[+25]% Great Person generation [in all cities]",
@@ -342,7 +343,7 @@
 		"uniqueName": "Sanation",
 		"uniques": [
 			"[-10]% Culture cost of adopting new Policies",
-			"[+25]% Production when constructing [Military] units [in all cities] <when fighting units from a Civilization with more Cities than you>",
+			"[+15]% Production when constructing [Military] units [in all cities] <when at war>",
 			"[+50]% XP gained from combat <when fighting units from a Civilization with more Cities than you>",
 			"Starts with [Redomestication]"
 		],

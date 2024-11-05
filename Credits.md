@@ -28,6 +28,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Austere Processing Hub: [database](https://thenounproject.com/icon/database-5276636/) by iconfield, ID
 - Bishop's Storehouse: [Storage Garage](https://thenounproject.com/icon/storage-garage-1371149/) by STBS, IN
 - Blue Castle Reactor: [atom](https://thenounproject.com/icon/atom-2606502/) by Icon Lauk, ID
+- Brigham Young University: [university of utah](https://thenounproject.com/icon/university-of-utah-3017437/) by Vectors Point, PK
 - [Cabildo](https://www.flaticon.com/free-icon/cabildo_4633718) by [Freepik](https://www.flaticon.com/authors/freepik) from [Flaticon](https://www.flaticon.com)
 - Caesareum: [temple](https://thenounproject.com/icon/temple-3636159/) by Rock Zombie
 - Cathedral School: [temple](https://thenounproject.com/icon/temple-2072915/) by Nick Bluth, US
@@ -142,6 +143,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Underworld: Merger of [boar](https://thenounproject.com/icon/boar-3864428/) by Andrejs Kirma, LV and [Power](https://thenounproject.com/icon/power-1196196/) by Icon Depot, IN
 - [Victory Column](https://thenounproject.com/icon/victory-column-4202773/) by tezar tantular, ID
 - Virtual Tabernacle: [virtual space](https://thenounproject.com/icon/virtual-space-4718206/) by Rolas Design, ID
+- Vodka Brewery: [vodka](https://thenounproject.com/icon/vodka-4640678/) by Eucalyp
 - Volunteer Industry Factory: [volunteer work](https://thenounproject.com/icon/volunteer-work-5914049/) by mangunkarsa, ID
 - Warden's Court: [court of appeal](https://thenounproject.com/icon/court-of-appeal-3189823/) by Vectors Point, PK
 - [Water Purifier](https://thenounproject.com/icon/water-purifier-2607834/) by Vectors Point, PK

@@ -1129,18 +1129,30 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Communion Centers (Follower), Worship Center adds: +1 Culture/Happiness, +2 Faith, +3 Water, +10% to city's total Water yields
 - Meeting Houses (Follower), Worship Center adds: +3 Production, +1 Culture, +2 Faith, +10% Production towards buildings
 
-#### October 2024
+#### October - November 2024
 
 **Building Adjustments**
-- Broadcast Tower (and replacements) nerfed to +10% Culture.
-- Interpretative Center has been temporarily deleted. (I say "temporarily", but who knows how long it will be before Tourism mechanics are implemented)
-- Listening Post now unlocks at Radio instead of Civil Service.
-- Renovate Metal Pyramid has been fixed so it's now a national project like it should be. (Yes, I miss the exploit of +26 Culture pyramids and +8 Culture to city connections too.)
+- Culture buildings:
+	- Broadcast Tower (and replacements) nerfed to +10% Culture.
+	- Interpretative Center has been temporarily deleted. (I say "temporarily", but who knows how long it will be before Tourism mechanics are implemented)
+	- Renovate Metal Pyramid was fixed so it's now a national project like it should be (yes, I miss the exploit of +26 Culture pyramids and +8 Culture to city connections too).
+- Industry buildings:
+	- Oil Plant nerfed; the amount of Power it provides is cut in half (now +2 base Power, +1 if Oil supply doesn't go negative, +1 at Plastics).
+	- The repurposed Recycling Plant has been (at least temporarily) deleted until such time as I figure out how I want to preserve compatibility with both the Redux and 2 branches of DeCiv.
+	- Automated Factory regains its specialist slot.
+	- Bio Synthesizer moved to Advanced Materials.
+- Water buildings:
+	- Water Plant and Rainwater Harvester buffed to +25% total Water.
+	- Greywater Treatment Plant and Condenser Cooler buffed to +15% total Water.
+- Military/Espionage buildings:
+	- Listening Post now requires Radio instead of Civil Service.
 - Faction/City-State UBs:
 	- Proklyatyye:
 		- State Assembly renamed again; it is now Verkhovny Sovet.
 
 **Wonder Adjustments**
+- Amager Bakke moved to Land Remediation and it now provides an Advanced Energy Recycling Plant. It also adds +15% Production to the city to offset the Production penalty of the Advanced Energy Recycling Plant.
+- National College buffed to where it should be: +3 Science, +50% Science. The nerfs in base DeCiv basically made it a worse and more costly University.
 - Supercollider adjustments:
 	- Base Science increased to +8.
 	- Great Scientist points increased to +3.
@@ -1164,6 +1176,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- Mariner UUs' chance to evade melee combat is reduced to 20%.
 	- Gunboat, Lagoon, Corvette, Torpedo Boat and Jet Boat reduced to +1 additional movement on Coast tiles instead of doubled movement. All other units that had doubled movement on Coast lose that bonus movement altogether.
 	- Attack Boat and Corvette's base movement increased to 5.
+	- Drone Ship can no longer carry units.
 	- All of the nerfs to base DeCiv units will also be applied directly to Deciv 2.
 
 **Policy Adjustments**
@@ -1177,11 +1190,17 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Power of Light now gives Faith equal to 33% of a defeated unit's Strength after determining the old effect (25% of damage dealt to all units) was awarding a little too much Faith.
 
 **New Buildings**
+- Advanced Energy Recycling Plant (Post-Tech Expansion replacement for Recycling Plant in "Deciv 2" branch, twice as much power as Redux's old Recycling Plant, unlocks at Energy Weapons)
+- Brigham Young University (National College replacement for Deseret, +25% construction speed for Science buildings, +2 Faith to Universities, cannot be built but can be purchased)
 - Stadnina Koni (Stable replacement for Nowa Polska, grants 15 XP to new Mounted units and +15% Production speed towards Mounted units)
+- Vodka Brewery (Distillery replacement for Russian factions, +1 additional Happiness but +1 higher maintenance cost)
 
 **New Wonders**
 - Oil Lake (ancient wonder, starts at +1 Production/Water/Science)
 	- Restart Oil Lake Industry (corresponding national project, available at Chemistry, +4 Oil doubling at Land Remediation, +5 Production to the Oil Lake tile)
+
+**New Units**
+- Arroyo Sagestepper (State Guard replacement for Arroyo, Low Tech, extra strength when defending, starts with Skirmish)
 
 **Misc.**
 - Quote attributions for several wonders have been restored.
