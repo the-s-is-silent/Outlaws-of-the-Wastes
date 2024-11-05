@@ -2697,7 +2697,7 @@
 			"Only available <when [Scientific] Victory is enabled>",
 			"Cannot be hurried"
 		],
-		"requiredTech": "Plastics Recycling",
+		"requiredTech": "Atmosphere Remediation",
 		"civilopediaText": [
 			{
 				"text": "Enables the manufacture of components to construct a Terraformer which can restore Earth to its pre-Cataclysm state."

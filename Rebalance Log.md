@@ -105,7 +105,7 @@ Wonder Changes
 (Several of these are mostly due to Wonders not obeying their proper behavior - in Unciv, they *can* be rebuilt after razing the city they're in, which should not be possible. However, it is unlikely I will revert most of the nerfs to wonders that were made because of this bug enabling exploits with the old effects.)
 - Wincon wonders, International Trade Center, and Manhattan Project can no longer have their production hurried.
 	- International Trade Center is buffed, however: it adds +5 Water, +50% to the owning city's total Water yields, and +3 Water to city connections.
-	- Biosphere Project also buffed: its production cost is cut in half and building it doubles the number of terraform charges granted to Mechanized Workers built after its completion.
+	- Biosphere Project's production cost is cut in half; however, it now unlocks much later, at Atmosphere Remediation.
 - Supercollider and AI Project no longer give free Great Scientists. However...
 	- Supercollider gets an extra +3 base Science, +1 Great Scientist point, creates an Academy improvement on a tile of the player's choosing upon completion, increases the yields of Academies by +4 Science and +2 Water, and adds +2 Science to all active Scientists. But it now consumes 8 units of Power instead of 1.
 	- AI Project gets an extra +5 base Science, +2 extra copies of Encrypted Data, boosts Production speed of Terraformer Parts by 150% (previously 15%), gives +15% combat strength to Purge Robots as well as Automated units, and no longer sets off a global alert upon completion. But it now consumes 5 units of Power instead of 2.

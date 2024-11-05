@@ -1152,6 +1152,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Wonder Adjustments**
 - Amager Bakke moved to Land Remediation and it now provides an Advanced Energy Recycling Plant. It also adds +15% Production to the city to offset the Production penalty of the Advanced Energy Recycling Plant.
+- Biosphere Project moved to Atmosphere Remediation.
 - National College buffed to where it should be: +3 Science, +50% Science. The nerfs in base DeCiv basically made it a worse and more costly University.
 - Supercollider adjustments:
 	- Base Science increased to +8.
