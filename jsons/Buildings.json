@@ -1572,7 +1572,7 @@
 		"uniqueTo": "The Oathsworn",
 		"cost": 0,
 		"uniques": [
-			"Resting point for influence with City-States increased by [5]",
+			"Resting point for Influence with City-States is increased by [5]",
 			"Automatically built in all cities where it is buildable",
 			"Limited to [6] per Civilization",
 			"Destroyed when the city is captured",
