@@ -83,7 +83,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 1500,
-		"requiredTech": "Advanced Materials",
+		"requiredTech": "Future Materials",
 		"requiredResource": "Aluminum",
 		"uniques": ["Colony Ship Part",
 			"Only available <in cities with a [Aerospace Facility]>",
@@ -99,7 +99,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 1500,
-		"requiredTech": "Satellites",
+		"requiredTech": "Astrogation",
 		"requiredResource": "Aluminum",
 		"uniques": ["Colony Ship Part",
 			"Only available <in cities with a [Aerospace Facility]>",
@@ -3457,6 +3457,27 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Stealth Fighter",
+		"unitType": "Fighter",
+		"movement": 2,
+		"strength": 65,
+		"rangedStrength": 75,
+		"range": 10,
+		"interceptRange": 10,
+		"cost": 500,
+		"requiredTech": "Stealth",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"[100]% chance to intercept air attacks",
+			"[+100]% Strength <vs [Bomber] units>",
+			"Only available <if [Aerospace Facility] is constructed>",
+			"Stealth",
+			"Consumes [1] [Oil]",
+			"Consumes [1] [Aluminum]"
+		],
+		"attackSound": "jetgun"
+	},
+	{
 		"name": "Bomber",
 		"unitType": "Bomber",
 		"movement": 1,
@@ -3499,7 +3520,7 @@
 		"rangedStrength": 80,
 		"range": 20,
 		"cost": 500,
-		"requiredTech": "Future Materials",
+		"requiredTech": "Stealth",
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Only available <if [Aerospace Facility] is constructed>",

@@ -180,7 +180,7 @@
 			"Triggers a global alert upon completion",
 			"Only available <when [Colonization] Victory is enabled>",
 			"Cannot be hurried"],
-		"requiredTech": "Rocketry",
+		"requiredTech": "Astrogation",
 		"civilopediaText": [
 			{
 				"text": "Enables the manufacture of components for a Colony Ship that would enable humanity to leave Earth behind and seek out new worlds."
@@ -201,6 +201,24 @@
 		"quote": "Remember the sacrifices of everyone we lost, and remember the treachery of those who took them from us. Remember our righteous desire to rain vengeance down upon those who transgressed against all of humankind, and remember our drive to ensure such a calamity will never again befall us. Remember always..."
 	},
 	{
+		"name": "The Green Palace",
+		"isWonder": true,
+		"culture": 1,
+		"happiness": 4,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": [
+			"Creates a [Factory farm] improvement on a specific tile",
+			"[+2 Food] from every [Factory farm]"
+		],
+		"requiredTech": "Ecotheory",
+		"quote": "'When people around me died of the atomic bomb sickness, and I also wondered whether I would survive, I saw this tree putting out shoots and thought I could somehow go on living.' - Anonymous Hiroshima survivor",
+		"civilopediaText": [
+			{
+				"text": "This magnificent architectural wonder generates its own climate control environment, where the best crops bloom and thrive, feeding settlements even in the most desolate lands."
+			}
+		]
+	},
+	{
 		"name": "Amager Bakke",
 		"isWonder": true,
 		"culture": 3,
@@ -214,7 +232,7 @@
 			"Sell [Oil Plant] buildings [in this city]",
 			"Gain a free [Advanced Energy Recycling Plant] [in this city]"
 		],
-		"requiredTech": "Land Remediation",
+		"requiredTech": "Re-Utilization",
 		"quote": "'It's living proof that sustainable architecture doesn't have to be boring. It can be an exhilirating part of our daily lives.' - Pre-Cataclysm ad for Copenhill"
 	},
 
@@ -374,7 +392,7 @@
 		"hurryCostModifier": 30,
 		"uniques": ["[+1 Food, +1 Gold, +1 Culture] from [Nature preserve] tiles [in this city]",
 			"Must have an owned [Nature preserve] within [3] tiles"],
-		"requiredTech": "Atmosphere Remediation"
+		"requiredTech": "Rewilding"
 	},
 
 	//Deseret Nation unique buildings
@@ -443,21 +461,46 @@
 		"hurryCostModifier": -50
 	},
 	{
-		"name": "Cathedral School",
+		"name": "Relief Society",
 		"replaces": "Work Camp",
 		"uniqueTo": "Deseret2",
-		"percentStatBonus": {"faith": 25},
-		"science": 1,
+		"percentStatBonus": {"food": 5, "faith": 15},
+		"food": 1,
 		"faith": 1,
 		"happiness": 1,
 		"specialistSlots": {"Administrator": 1},
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["[+1] population [in this city]",
-			"[+1 Science, +1 Faith] [in this city] <when above [0] [Power]>",
+		"uniques": [
+			"[+1] population [in this city]",
+			"[+1 Food, +1 Faith] from every [Administrator] <in this city>",
 			"[+1 Happiness] [in this city] <after adopting [Voting Rights]>",
-			"Consumes [1] [Slaves]", "Only available <with [Slaves]>", "Unsellable"],
-		"requiredTech": "Education"
+			"Consumes [1] [Slaves]",
+			"Only available <with [Slaves]>",
+			"Unsellable"
+		],
+		"requiredTech": "Education",
+		"civilopediaText": [
+			{
+				"text": "'Charity never faileth.' - The Holy Bible, 1 Corinthians 13:8"
+			}
+		]
+	},
+	{
+		"name": "Mission to Isolationists",
+		"replaces": "Annex Isolationists",
+		"uniqueTo": "Deseret2",
+		"isNationalWonder": true,
+		"requiredTech": "Education",
+		"cost": 200,
+		"faith": 2,
+		"culture": 2,
+		"uniques": [
+			"[+2 Food, +3 Culture, +3 Faith] from [Isolated Island] tiles [in this city]",
+			"Provides [2] [Weapons]",
+			"Gain a free [Mission Site] [in this city]",
+			"Unbuildable <if [Ally with Isolationists] is constructed>"
+		]
 	},
 	{
 		"name": "Printing Press",
@@ -614,10 +657,13 @@
 		"gold": 1,
 		"culture": 1,
 		"cost": 1,
-		"uniques": ["Indicates the capital city",
+		"uniques": [
+			"Indicates the capital city",
 			"Population loss from nuclear attacks [-25]% [in this city]",
 			"Damage to garrison from nuclear attacks [-25]% [in this city]",
-			"Gain a free [Food Store] [in this city]"]
+			"Gain a free [Food Store] [in this city]",
+			"[+2 Gold] [in this city] <if [Deciv 2 Tech Expansion] is enabled> <hidden from users>"
+		]
 	},
 	{
 		"name": "Stone of Ages",
@@ -1566,18 +1612,6 @@
 		"uniques": ["[+1] population [in all cities]",
 			"[+10]% Production when constructing [Land] units [in all cities]",
 			"Free [Armed Settler] appears"]
-	},
-	{
-		"name": "Oathsworn's Influence",
-		"uniqueTo": "The Oathsworn",
-		"cost": 0,
-		"uniques": [
-			"Resting point for Influence with City-States is increased by [5]",
-			"Automatically built in all cities where it is buildable",
-			"Limited to [6] per Civilization",
-			"Destroyed when the city is captured",
-			"Will not be displayed in Civilopedia"
-		]
 	},
 	{
 		"name": "Workbench",
@@ -5060,7 +5094,12 @@
 		"culture": 1,
 		"cost": 200,
 		"requiredTech": "Munitions",
-		"uniques": ["Indicates the capital city", "Provides [2] [Weapons]", "Limited to [2] per Civilization"]
+		"uniques": [
+			"Indicates the capital city",
+			"Provides [2] [Weapons]",
+			"[+2 Gold] [in this city] <if [Deciv 2 Tech Expansion] is enabled> <hidden from users>",
+			"Limited to [2] per Civilization"
+		]
 	},
 	{
 		"name": "Triage",
@@ -6147,5 +6186,13 @@
 		"uniques": ["Worship Center", "Unbuildable",
 			"[+10]% Production when constructing [All] buildings [in this city]",
 			"Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Mission Site",
+		"cost": 0,
+		"culture": 1,
+		"faith": 5,
+		"happiness": 1,
+		"uniques": ["Worship Center", "Unbuildable", "Only available <when religion is enabled>"]
 	}
 ]

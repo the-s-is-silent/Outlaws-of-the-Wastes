@@ -3,6 +3,7 @@
 	"buildingsToRemove": ["Arroyo", "Compound Mix GP", "Distribute Soft Drinks", "Fist of God", "Five-Year Plan",
 		"Fo Guang Library", "Ghost Mountain", "Grand Temple", "Hub Work Camp", "Longhouse", "Mormon Monument",
 		"Plastics Reprocessor", "Recycling Plant", "Salvage Army Depot", "Salvage Exchange", "Slaver Guild"],
+	"techsToRemove": ["Plastics Recycling"],
 	"uniques": [
 		"Suppress warning [*is supposed to automatically upgrade*]",
 		"Suppress warning [Military Engineer can place improvement Remove Fallout which has no stats, preventing unit automation!]",

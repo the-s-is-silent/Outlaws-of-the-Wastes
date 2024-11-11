@@ -31,7 +31,6 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Brigham Young University: [university of utah](https://thenounproject.com/icon/university-of-utah-3017437/) by Vectors Point, PK
 - [Cabildo](https://www.flaticon.com/free-icon/cabildo_4633718) by [Freepik](https://www.flaticon.com/authors/freepik) from [Flaticon](https://www.flaticon.com)
 - Caesareum: [temple](https://thenounproject.com/icon/temple-3636159/) by Rock Zombie
-- Cathedral School: [temple](https://thenounproject.com/icon/temple-2072915/) by Nick Bluth, US
 - Census Chamber: [Neural Processor](https://thenounproject.com/icon/neural-processor-1870013/) by ProSymbols, US
 - Central Metro Command: [Bunker](https://thenounproject.com/icon/bunker-4477229/) by Doodle Icons
 - Chinampa: [Canoe](https://thenounproject.com/icon/canoe-402285/) by Viktor Fediuk, UA (same icon as Floating Gardens in base Unciv)
@@ -107,6 +106,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - [Red Square](https://thenounproject.com/icon/red-square-4944120/) by Amethyst Studio, TH
 - Refurbished Textile Mill: [Textile industry](https://thenounproject.com/icon/textile-industry-5649184/) by Studio 365
 - Rehabilitation Center: [Hospital](https://thenounproject.com/icon/hospital-2453105/) by Vectors Point, PK
+- Relief Society: [temple](https://thenounproject.com/icon/temple-2072915/) by Nick Bluth, US
 - Remedial School: [educational school building](https://thenounproject.com/icon/educational-school-building-3017500/) by Vectors Point
 - Renovate Metal Pyramid: [Pyramid](https://thenounproject.com/icon/pyramid-957412/) by Lluisa Iborra, ES
 - Research and Preservation Institute: [institute](https://thenounproject.com/icon/institute-5137615/) by lastspark, RU
@@ -226,6 +226,12 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - [Newspaper](https://thenounproject.com/icon/newspaper-5525221/) by ermachello
 - Opal: Same icon as Opal Fields
 - [Scripture](https://thenounproject.com/icon/scripture-4402137/) by Athok
+
+### Technology Icons
+- Astrogation: [Navigation](https://thenounproject.com/icon/navigation-4699749/) by Gregor Cresnar
+- Ecotheory: [ecology science](https://thenounproject.com/icon/ecology-science-4554717/) by Soremba, DE
+- Full-Spectrum Dominance: [techonology war](https://thenounproject.com/icon/technology-war-3683724/) by WiStudio, TH
+- [Rewilding](https://thenounproject.com/icon/rewilding-5549246/) by Good Father, ID
 
 ### Unit Icons
 - Akindji: [islamic turban](https://thenounproject.com/icon/islamic-turban-2105395/) by Vectors Market

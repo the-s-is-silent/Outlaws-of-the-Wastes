@@ -15,12 +15,33 @@
 		]
 	},
 	{
+		"columnNumber": 8,
+		"era": "Rebuilding era",
+		"techCost": 1300,
+		"buildingCost": 300,
+		"wonderCost": 750,
+		"techs": [
+			{
+				"name": "Ecotheory",
+				"row": 3,
+				"prerequisites": ["Laboratory"],
+				"quote": "Nature, to be commanded, must be obeyed."
+			}
+		]
+	},
+	{
 		"columnNumber": 9,
 		"era": "Industrial era",
 		"techCost": 2500,
 		"buildingCost": 360,
 		"wonderCost": 920,
 		"techs": [
+			{
+				"name": "Re-Utilization",
+				"row": 3,
+				"prerequisites": ["Ecotheory", "Plastics"],
+				"quote": "The incomplete becomes complete; the crooked becomes straight; the empty becomes full; the worn out becomes new."
+			},
 			{
 				"name": "Computers",
 				"row": 4,
@@ -32,6 +53,21 @@
 				"row": 10,
 				"prerequisites": ["Radio", "Electronics"],
 				"quote": "'Talent hits a target no one else can hit; Genius hits a target no one else can see.'"
+			}
+		]
+	},
+	{
+		"columnNumber": 10,
+		"era": "Industrial era",
+		"techCost": 3750,
+		"buildingCost": 500,
+		"wonderCost": 1060,
+		"techs": [
+			{
+				"name": "Land Remediation",
+				"row": 2,
+				"prerequisites": ["Hydroponics", "Re-Utilization"],
+				"quote": "The nation that destroys its soil destroys itself."
 			}
 		]
 	},
@@ -58,10 +94,82 @@
 		"wonderCost": 2000,
 		"techs": [
 			{
+				"name": "Atmosphere Remediation",
+				"row": 1,
+				"prerequisites": ["Ocean Remediation"],
+				"quote": "But the truth is that the alleged climate change crisis is just another cog in a concealed depopulation agenda, skilfully engineered by the powers that be. And the only carbon footprint they want to eliminate, is you."
+			},
+			{
 				"name": "Energy Weapons",
 				"row": 6,
 				"prerequisites": ["Advanced Materials"],
 				"quote": "I believe that man will not merely endure: he will prevail. He is immortal, not because he alone among creatures has an inexhaustible voice, but because he has a soul, a spirit capable of compassion and sacrifice and endurance."
+			},
+			{
+				"name": "Astrogation",
+				"row": 9,
+				"prerequisites": ["Advanced Materials", "Satellites"],
+				"uniques": ["[+2] Range <for [Air] units>", "[+1] Sight <for [Water] units>"],
+				"quote": "Mankind was born on Earth. It was never meant to die here."
+			}
+		]
+	},
+	{
+		"columnNumber": 15,
+		"era": "New Future era",
+		"techCost": 17500,
+		"buildingCost": 750,
+		"wonderCost": 2000,
+		"techs": [
+			{
+				"name": "Rewilding",
+				"row": 1,
+				"prerequisites": ["Atmosphere Remediation", "Human Genome"],
+				"quote": "In wilderness I sense the miracle of life, and behind it our scientific accomplishments fade to trivia."
+			},
+			{
+				"name": "Stealth",
+				"row": 4,
+				"prerequisites": ["Particle Physics", "Advanced Materials"],
+				"quote": "Be extremely subtle, even to the point of formlessness, be extremely mysterious, even to the point of soundlessness. Thereby you can be the director of the opponent's fate."
+			}
+		]
+	},
+	{
+		"columnNumber": 16,
+		"era": "New Future era",
+		"techCost": 25000,
+		"buildingCost": 750,
+		"wonderCost": 2000,
+		"techs": [
+			{
+				"name": "Geo Engineering",
+				"row": 2,
+				"prerequisites": ["Rewilding"],
+				"quote": "It always seems impossible until it's done."
+			}
+		]
+	},
+	{
+		"columnNumber": 17,
+		"era": "Singularity era",
+		"techCost": 35000,
+		"buildingCost": 750,
+		"wonderCost": 2000,
+		"techs": [
+			{
+				"name": "Future Tech",
+				"row": 5,
+				"prerequisites": [
+					"Geo Engineering",
+					"Future Power",
+					"Future Materials",
+					"Stealth",
+					"Astrogation",
+					"Globalization"
+				],
+				"uniques": ["Can be continually researched"],
+				"quote": "There is nothing like a dream to create the future."
 			}
 		]
 	}

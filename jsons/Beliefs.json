@@ -293,6 +293,11 @@
 		"uniques": ["May buy [Meeting House] buildings with [Faith] [in cities following this religion]"]
 	},
 	{
+		"name": "Mission Sites",
+		"type": "Follower",
+		"uniques": ["May buy [Mission Site] buildings with [Faith] [in cities following this religion]"]
+	},
+	{
 		"name": "Obey the Elders",
 		"type": "Follower",
 		"uniques": ["[+2 Food, +2 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>",
