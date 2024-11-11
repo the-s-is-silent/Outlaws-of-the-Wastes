@@ -496,6 +496,7 @@
 		"faith": 2,
 		"culture": 2,
 		"uniques": [
+			"Must have an owned [Isolated Island] within [3] tiles",
 			"[+2 Food, +3 Culture, +3 Faith] from [Isolated Island] tiles [in this city]",
 			"Provides [2] [Weapons]",
 			"Gain a free [Mission Site] [in this city]",
