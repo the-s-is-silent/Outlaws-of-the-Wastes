@@ -46,7 +46,7 @@ A major expansion + rebalance mod for DeCiv Redux.
 
 - New buildings: Alternet Cafe, Coastal Defenses, Community Garden, Condenser Cooler, Contraband Disposal Site, Defense Directorate (City-States only), Earth Clinic (Naturalism only), Earthscraper, Ethanol Station, Food Processing Plant, Interpretative Center, Jeweler, Navy Shipyard (Rediscovery only), Sanctuary, Sociopolitical Institute, Tidal Array, Windmill Generator, and Workers' Facility (Collectivism only).
 
-- New world wonders: Amager Bakke and Statue of Remembrance.
+- New world wonders: Amager Bakke, Citadel Space Station and Statue of Remembrance.
 
 - New national wonders:
   - Homeland Defense / Wasteland Surveillance / Raider Suppression Initiatives, each locked behind a starting policy and designed to help each faction survive the early-game.
@@ -69,6 +69,8 @@ A major expansion + rebalance mod for DeCiv Redux.
   - Preservator, borrowed from Bamboolord's expansion mods, currently exclusive to The Pax.
   - Seaside Resort, exclusive to Venice Beach.
   - Supply Complex, the Great Merchant's new Great Improvement. No longer do Great Administrators and Great Merchants share a Great Improvement.
+
+- New technologies.
 
 - Several new resources.
 

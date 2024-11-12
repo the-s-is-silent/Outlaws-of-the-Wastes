@@ -1214,12 +1214,13 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **New Buildings**
 - Advanced Energy Recycling Plant (Post-Tech Expansion replacement for Recycling Plant in "Deciv 2" branch, twice as much power as Redux's old Recycling Plant, unlocks at Energy Weapons)
-- Brigham Young University (National College replacement for Deseret, +25% construction speed for Science buildings, +2 Faith to Universities, cannot be built but can be purchased)
 - Relief Society (new Work Camp replacement for Deseret - differences from old Cathedral School: +1 Food instead of +1 Science, +5% Food and +15% Faith instead of +25% Faith, no added stats when Powered, +1 Food/Faith from active Administrators in the city)
 - Stadnina Koni (Stable replacement for Nowa Polska, grants 15 XP to new Mounted units and +15% Production speed towards Mounted units)
 - Vodka Brewery (Distillery replacement for Russian factions, +1 additional Happiness but +1 higher maintenance cost)
 
 **New Wonders**
+- Brigham Young University (National College replacement for Deseret, +25% construction speed for Science buildings, +2 Faith to Universities, cannot be built but can be purchased)
+- Citadel Space Station (world wonder, unocks at Astrogation, +8 Science, +1 Science to active Engineers, +1 Production to active Scientists, grants an extra 1500 Science on Standard game speed when consuming a Great Scientist)
 - Mission to Isolationists (Annex Isolationists replacement for Deseret, +3 Culture/Faith instead of +5 Production, keeps the Weapons resources, gives a free Mission Site in the city)
 - Oil Lake (ancient wonder, starts at +1 Production/Water/Science)
 	- Restart Oil Lake Industry (corresponding national project, available at Chemistry, +4 Oil doubling at Land Remediation, +5 Production to the Oil Lake tile)

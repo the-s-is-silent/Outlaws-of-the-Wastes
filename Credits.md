@@ -34,6 +34,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Census Chamber: [Neural Processor](https://thenounproject.com/icon/neural-processor-1870013/) by ProSymbols, US
 - Central Metro Command: [Bunker](https://thenounproject.com/icon/bunker-4477229/) by Doodle Icons
 - Chinampa: [Canoe](https://thenounproject.com/icon/canoe-402285/) by Viktor Fediuk, UA (same icon as Floating Gardens in base Unciv)
+- Citadel Space Station: [defense satellite](https://game-icons.net/1x1/delapouite/defense-satellite.html) by Delapouite on [Game-Icons.net](https://game-icons.net)
 - Coastal Defenses: [seawall](https://thenounproject.com/icon/seawall-5503652/) by Luis Prado, US
 - Coastal Longhouse: [longhouse](https://thenounproject.com/icon/longhouse-5058241/) by Flowicon, TH
 - Commonwealth Reserve: [aquifer](https://thenounproject.com/icon/aquifer-5399259/) by M. Oki Orlando, ID

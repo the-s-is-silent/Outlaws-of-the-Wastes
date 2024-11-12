@@ -194,14 +194,16 @@
 		"isWonder": true,
 		"culture": 3,
 		"greatPersonPoints": {"Great Engineer": 1},
-		"uniques": ["[+1] population [in this city]",
+		"uniques": [
+			"[+1] population [in this city]",
 			"[+5]% [Production] [in all cities]",
-			"[+10]% Production when constructing [Military] units [in this city]"],
+			"[+10]% Production when constructing [Military] units [in this city]"
+		],
 		"requiredTech": "Engineering",
 		"quote": "Remember the sacrifices of everyone we lost, and remember the treachery of those who took them from us. Remember our righteous desire to rain vengeance down upon those who transgressed against all of humankind, and remember our drive to ensure such a calamity will never again befall us. Remember always..."
 	},
 	{
-		"name": "The Green Palace",
+		"name": "The Green Palace", //Deciv 2 wonder
 		"isWonder": true,
 		"culture": 1,
 		"happiness": 4,
@@ -234,6 +236,20 @@
 		],
 		"requiredTech": "Re-Utilization",
 		"quote": "'It's living proof that sustainable architecture doesn't have to be boring. It can be an exhilirating part of our daily lives.' - Pre-Cataclysm ad for Copenhill"
+	},
+	{
+		"name": "Citadel Space Station",
+		"isWonder": true,
+		"science": 8,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"uniques": [
+			"[+1 Production] from every [Scientist]",
+			"[+1 Science] from every [Engineer]",
+			"Gain [1500] [Science] <upon expending a [Great Scientist] unit> <(modified by game speed)>",
+			"Only available <in cities with a [Aerospace Facility]>"
+		],
+		"requiredTech": "Astrogation",
+		"quote": "'The conquest of space must and will go ahead. That much we know. That much we can say with confidence and conviction.' - John F. Kennedy"
 	},
 
 	//New buildings
