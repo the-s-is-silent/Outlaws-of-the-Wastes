@@ -988,7 +988,7 @@
 			"[+1 Production] from [Weapons] tiles [in this city]",
 			"[+2 Production] [in this city] <after discovering [Railroads]>",
 			"Destroyed when the city is captured"],
-		"requiredTech": "Construction"
+		"requiredTech": "Engineering"
 	},
 	{
 		"name": "Gupvi",
@@ -4502,15 +4502,6 @@
 			"Only available <with [Slaves]>"
 		],
 		"requiredTech": "Construction"
-	},
-	{
-		"name": "Armory",
-		"hurryCostModifier": 25,
-		"requiredTech": "Construction",
-		"requiredNearbyImprovedResources": ["Weapons"],
-		"uniques": ["New [Military] units start with [15] Experience [in this city]",
-			"[+1 Production] from [Weapons] tiles [in this city]",
-			"Destroyed when the city is captured"]
 	},
 	{
 		"name": "Military Academy",
