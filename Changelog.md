@@ -1132,7 +1132,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 #### October - November 2024
 
 **Tech Adjustments**
-- Six new technologies added: Astrogation, Ecotheory, Full-Spectrum Dominance, Rewilding, Re-Utilization, and Stealth (all except Astrogation are imported from the planned "Tech Expansion" update for Deciv 2; Re-Utilization replaces Plastics Recycling).
+- Five new technologies added: Astrogation, Ecotheory, Rewilding, Re-Utilization, and Stealth (all except Astrogation are imported from the planned "Tech Expansion" update for Deciv 2; Re-Utilization replaces Plastics Recycling).
 - Advanced Materials now requires Full-Spectrum Dominance.
 - Future Tech now requires Astrogation and Stealth, but no longer requires Human Genome since the latter is required for Rewilding, which in turn is required for Geo Engineering.
 
@@ -1147,8 +1147,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- Renovate Metal Pyramid was fixed so it's now a national project like it should be (yes, I miss the exploit of +26 Culture pyramids and +8 Culture to city connections too).
 - Industry buildings:
 	- Oil Plant nerfed; the amount of Power it provides is cut in half (now +2 base Power, +1 if Oil supply doesn't go negative, +1 at Plastics).
-	- The repurposed Recycling Plant has been (at least temporarily) deleted until such time as I figure out how I want to preserve compatibility with both the Redux and 2 branches of DeCiv.
-	- Automated Factory regains its specialist slot.
+	- The repurposed Recycling Plant is renamed to Materials Recovery Facility and nerfed due to concerns with providing too much Production now that it's available earlier. The percentage Production boost is reduced to 10% and now only applies towards building construction.
 	- Bio Synthesizer moved to Advanced Materials.
 - Water buildings:
 	- Water Plant and Rainwater Harvester buffed to +25% total Water.

@@ -4,6 +4,8 @@ Tech Changes:
 - Electronics is now required for both Computers and Radar; the latter adjustment prevents players from skipping the Rebuilding era.
 - Biology no longer boosts city growth.
 - Computers no longer boosts Production or Science.
+- Plastics Recycling has been replaced with Re-Utilization and moved to the early Industrial era. The new tech is required for Land Remediation.
+- Four additional techs have been added: Astrogation, Ecotheory, Rewilding, and Stealth.
 - Nuclear Fission has been renamed to Nuclear Power.
 
 City-State General Changes:
@@ -64,6 +66,7 @@ Building Changes:
 	- Aluminum Smelter no longer adds a Food/Water penalty to Aluminum tiles and restores the commented out +3 Production to the city, and also adds an Engineer slot.
 	- Armament Production Line, Armor Production Line, and Aerospace Facility no longer reduce the city's Production when not building their specific units. However, they now each have a maintenance cost of 3 Water per turn.
 		- Armor Production Line now only adds a 33% Production bonus towards Armor units (that will shut off if the faction runs out of Power) and no longer awards a free Tank upon acquisition; however, building it gives Armor units access to a new promotion improving their defensive abilities.
+	- Automated Factory no longer has an Engineer slot.
 	- Bio Synthesizer is now available at Advanced Materials and provides 2 Oil, but no Aluminum or Uranium. You can have up to 5 now instead of 3, but it costs 1000 Production to build.
 	- Blast Furnace nerfed to +1 Production on Scrap/Metal tiles, but no longer adds Food/Water penalties to them.
 	- Carbon Capture *severely* nerfed; instead of adding Food/Happiness to Grasslands, it adds +1 Production to Tree plantations. Additionally, its maintenance cost is increased by 1 and it consumes Power.
@@ -76,7 +79,7 @@ Building Changes:
 	- Plastics Factory buffed to add +1 Production to Plastics tiles and +2 Production to Oil tiles worked by the city, along with 5% total Production. However, it no longer has an Engineer slot.
 	- Plastics Reprocessor has been removed from the game.
 	- Prison Camp (and replacements) now costs 60 Production (previously 20) and is additionally more expensive to purchase with Water. However, the standard Camps no longer have a Food penalty.
-	- Recycling Plant reworked into Advanced Energy Recycling Plant, which provides double the Power of the original but is moved much further back in the tech tree, now unlocking at Energy Weapons.
+	- Recycling Plant reworked into Advanced Energy Recycling Plant, which provides double the Power of the original but is moved further back in the tech tree, now unlocking at Energy Weapons.
 	- Stable nerfed to +1 Production on Horses tiles, but no longer adds a Food penalty to them.
 	- Transport Network *severely* nerfed; it now only adds +1 Production to Borough tiles and no additional stats.
 	- Uranium Centrifuge nerfed: you can only have 3 instead of 5 and they have to be in cities with a Nuclear Plant.

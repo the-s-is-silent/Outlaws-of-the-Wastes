@@ -78,6 +78,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Kolkhoz: [Hammer and Sickle](https://thenounproject.com/icon/hammer-and-sickle-1367671/) by Dmitry Baranovskiy, AU
 - Kruger Line: [railway](https://thenounproject.com/icon/railway-5804165/) by Viktor Turchyn, UA
 - Mansion of Our Father: [holy trinity cathedral](https://thenounproject.com/icon/holy-trinity-cathedral-4284193/) by Amethyst Studio, TH
+- Materials Recovery Facility: [recycling plant](https://thenounproject.com/icon/recycling-plant-6570321/) by Adrien Coquet, FR
 - [Medical School](https://thenounproject.com/icon/medical-school-1203776/) by Vectors Market
 - Meeting House: [Church](https://thenounproject.com/icon/church-2189051/) by Md Saiful Alam Saif
 - Microwave Power Satellite: [space station](https://thenounproject.com/icon/space-station-3312581/) by Vectors Point, PK
