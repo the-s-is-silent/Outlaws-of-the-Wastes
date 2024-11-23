@@ -1,0 +1,10 @@
+{
+	"useColorAsBaseTerrain": "false",
+		"ruleVariants": {
+		//  Mountainous
+		"Mountain+Moisture trap": ["Mountain", "Moisture trap-Mountain"],
+		"Mountain+Artificial glacier": ["Mountain", "Artificial glacier-Mountain"],
+		"Tunneled Mountain+Moisture trap": ["Tunneled Mountain", "Moisture trap-Mountain"],
+		"Tunneled Mountain+Artificial glacier": ["Tunneled Mountain", "Artificial glacier-Mountain"],
+	}
+}

@@ -37,6 +37,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Citadel Space Station: [defense satellite](https://game-icons.net/1x1/delapouite/defense-satellite.html) by Delapouite on [Game-Icons.net](https://game-icons.net)
 - Coastal Defenses: [seawall](https://thenounproject.com/icon/seawall-5503652/) by Luis Prado, US
 - Coastal Longhouse: [longhouse](https://thenounproject.com/icon/longhouse-5058241/) by Flowicon, TH
+- Colony Ship Project: [Moon orbit icon](https://game-icons.net/1x1/delapouite/moon-orbit.html) by Delapouite on Game-Icons.net
 - Commonwealth Reserve: [aquifer](https://thenounproject.com/icon/aquifer-5399259/) by M. Oki Orlando, ID
 - Community Center: [School](https://thenounproject.com/icon/school-357761/) by Ralf Schmitzer, DE
 - Community Garden: [Community](https://www.flaticon.com/free-icon/community_10632234) by [inipagistudio](https://www.flaticon.com/authors/inipagistudio) from Flaticon
@@ -304,8 +305,11 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Siberian Convoy: [Water Truck](https://thenounproject.com/icon/water-truck-106461/) by Juan Pablo Bravo, CL
 - Skiff: [skiff](https://thenounproject.com/icon/skiff-4687237/) by Eucalyp
 - Speculatores: [bloody knife](https://thenounproject.com/icon/bloody-knife-2109678/) by Vectors Market
+- SS Casing: [Cylinder](https://thenounproject.com/icon/cylinder-146124/) by Chris Munroe, US
+- SS Life Support: [cryogenic](https://thenounproject.com/icon/cryogenic-5753249/) by Rolas Design, ID
 - State Guard: [Civil defense](https://thenounproject.com/icon/civil-defense-454060/) by Yuri Martins, ES
 - Suicider: [Suicide Bomber](https://thenounproject.com/icon/suicide-bomber-2409625/) by Gan Khoon Lay
+- Super Mutant: [space marine](https://thenounproject.com/icon/space-marine-118893/) by Robert Bjurshagen, SE
 - Technopath: [mind ability](https://thenounproject.com/icon/mind-ability-3216421/) by Vectors Point, PK
 - Vengerovsky: [Ak-47](https://thenounproject.com/icon/ak-47-1745454/) by Nico Ilk, CH
 - [Vigilante](https://www.flaticon.com/free-icon/vigilante_2037367) by [Flat-Icons](https://www.flaticon.com/authors/flat-icons)
