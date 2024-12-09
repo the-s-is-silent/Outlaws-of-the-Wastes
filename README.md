@@ -31,7 +31,7 @@ A major expansion + rebalance mod for DeCiv Redux.
   - Nowa Polska, because it's going to take a lot more than the Cataclysm for Poland to be lost.
   - The Oathsworn, descended from American militia who are desperately trying to keep American ideals alive despite their former nation having tried to wipe them out.
 
-- Nine new city-states: Calico (Labor), Carbon (Farming), Defiance (Weapons), Hockeytown (Culture), Issaquah Nation (Prayer, replacing Deseret in that slot), Izumrydniy Gorod (Research), The Pax (Research), Trudograd (Trading), and Venice Beach (Trading).
+- Ten new city-states: Calico (Labor), Carbon (Farming), Defiance (Weapons), Hockeytown (Culture), Issaquah Nation (Prayer, replacing Deseret in that slot), Izumrydniy Gorod (Research), The Pax (Research), Powderhorn Autonomous Zone (Culture), Trudograd (Trading), and Venice Beach (Trading).
 
 - New units:
   - Barbarian: Ghoul, Suicider, Marked One, Killdozer, Dhow, Skiff, Ocean Robber, Savior of the Sea
@@ -64,6 +64,7 @@ A major expansion + rebalance mod for DeCiv Redux.
   - Caer, imported from Rekmod, exclusive to Camelot Foundation.
   - Drydock, imported from Rekmod, the Great Admiral's Great Improvement.
   - Fortified Farm, exclusive to Enclavers.
+  - Outback Station, imported from Civ 6, exclusive to Aurelian Group (for now).
   - Polder, unlocked at Engineering and can be built on Swamps, Coasts and Lakes, though the latter two require at least 3 adjacent Land tiles.
   - Powership, unlocked at Electronics.
   - Preservator, borrowed from Bamboolord's expansion mods, currently exclusive to The Pax.

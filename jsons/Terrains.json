@@ -12,8 +12,7 @@
 			"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [-2] for Map Generation",
-			"Considered [Undesirable] when determining start locations",
-			"Only [Artificial glacier] improvements may be built on this tile"
+			"Considered [Undesirable] when determining start locations"
 		]
 	},
 	{
@@ -27,8 +26,7 @@
 			"Rough terrain",
 			"Impeded terrain",
 			"Doesn't generate naturally",
-			"Has an elevation of [4] for visibility calculations",
-			"Only [Artificial glacier] improvements may be built on this tile"
+			"Has an elevation of [4] for visibility calculations"
 		]
 	},
 	{

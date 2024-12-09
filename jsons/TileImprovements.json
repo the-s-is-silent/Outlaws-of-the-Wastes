@@ -8,7 +8,8 @@
 			"Food source",
 			"Can also be built on tiles adjacent to fresh water",
 			"[+1 Food] <after discovering [Land Remediation]>",
-			"Cannot be built on [Fissure] tiles",
+			"Cannot be built on [Impeded terrain] tiles",
+			"Cannot be built on [Water] tiles",
 			"Can only be built to improve a resource <in [resource] tiles>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -65,6 +66,8 @@
 			"Wasteland",
 			"Desert",
 			"Hill",
+			"Mountain",
+			"Tunneled Mountain",
 			"Forest",
 			"Jungle",
 			"Swamp",
@@ -127,15 +130,19 @@
 		"turnsToBuild": 10,
 		"food": 3,
 		"techRequired": "Land Remediation",
-		"uniques": ["Food source",
+		"uniques": [
+			"Food source",
 			"Can also be built on tiles adjacent to fresh water",
+			"Cannot be built on [Impeded terrain] tiles",
+			"Cannot be built on [Water] tiles",
 			"Cannot be built on [Permafrost] tiles",
 			"Cannot be built on [Desert] tiles <before discovering [Geo Engineering]>",
 			"[+1 Culture] <with [1] to [6] neighboring [Nature preserve] tiles>",
 			"[+1 Production] <with [1] to [6] neighboring [Terrace farm] tiles>",
 			"[+1 Food] <after discovering [Atmosphere Remediation]>",
 			"Can only be built to improve a resource <in [resource] tiles>",
-			"Pillaging this improvement yields approximately [+10 Gold]"],
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
 		"shortcutKey": "G"
 	},
 	{
@@ -164,13 +171,15 @@
 		"terrainsCanBeBuiltOn": ["Desert", "Swamp"],
 		"food": 3,
 		"gold": 1,
-		"uniques": ["Food source",
+		"uniques": [
+			"Food source",
 			"Can only be built on [Desert] tiles",
 			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 			"[+1 Food, +1 Gold] from [Fresh water] tiles",
-			"Pillaging this improvement yields approximately [+20 Gold]"],
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
 		"shortcutKey": "A"
 	},
 	{
@@ -217,6 +226,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Engineering",
 		"uniques": [
+			"Food source",
 			"[+1 Food] from [Swamp] tiles",
 			"[+1 Production, +2 Gold] <after discovering [Decontamination]>",
 			"Cannot be built on [Water] tiles <with [0] to [2] neighboring [Land] tiles>",
@@ -229,6 +239,7 @@
 	},
 	{
 		"name": "Modular island",
+		"terrainsCanBeBuiltOn": ["Sunken Ruins"],
 		"techRequired": "Computers",
 		"production": 1,
 		"food": 2,
@@ -236,7 +247,7 @@
 		"uniques": [
 			"Food source",
 			"[+1 Science] <after discovering [Artificial Intelligence]>",
-			"Can only be built to improve a resource",
+			"Can only be built to improve a resource <in [resource] tiles>",
 			"Can only be built on [Water] tiles",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -288,9 +299,11 @@
 		"food": 1,
 		"production": 2,
 		"techRequired": "Ocean Remediation",
-		"uniques": ["Food source",
+		"uniques": [
+			"Food source",
 			"Cannot be built on [Water resource] tiles",
-			"Pillaging this improvement yields approximately [+10 Gold]"],
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
 		"shortcutKey": "A"
 	},
 	{
@@ -299,12 +312,15 @@
 		"turnsToBuild": 14,
 		"food": 2,
 		"techRequired": "Ocean Remediation",
-		"uniques": ["Cannot be built on [Water resource] tiles",
+		"uniques": [
+			"Food source",
+			"Cannot be built on [Water resource] tiles",
 			"Cannot be built on [Water] tiles <with [1] to [6] neighboring [Floating Settlement] tiles>",
 			"[+1 Production] for each adjacent [Bioculture]",
 			"[+1 Production] for each adjacent [Modular island]",
 			"[+1 Culture] for each adjacent [Artificial atoll]",
-			"Pillaging this improvement yields approximately [+20 Gold]"],
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
 		"shortcutKey": "F"
 	},
 	{
@@ -370,19 +386,24 @@
 		"name": "Academy",
 		"science": 4,
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Great Improvement",
+		"uniques": [
+			"Great Improvement",
 			"Gives a defensive bonus of [10]%",
 			"Removes removable features when built",
+			"Will not be replaced by automated units",
+			"Unbuildable <in [Impeded terrain] tiles>",
 			"[+2 Science] <after discovering [Education]>",
 			"[+2 Science] <after discovering [Laboratory]>",
 			"[+2 Science] <after discovering [Decryption]>",
-			"Pillaging this improvement yields approximately [+20 Gold]"]
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
 	},
 	{
 		"name": "Settlement",
 		"culture": 4,
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Great Improvement",
+		"uniques": [
+			"Great Improvement",
 			"Gives a defensive bonus of [10]%",
 			"[+1 Food] <with [1] to [2] neighboring [Food source] tiles>",
 			"[+2 Food] <with [3] to [6] neighboring [Food source] tiles>",
@@ -390,83 +411,144 @@
 			"[+2 Culture] <after discovering [Social Engineering]>",
 			"[+2 Gold] <after discovering [Incentivization]>",
 			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+20 Gold]"]
+			"Will not be replaced by automated units",
+			"Unbuildable <in [Impeded terrain] tiles>",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
 	},
 	{
 		"name": "Supply Complex",
 		"gold": 4,
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Great Improvement",
+		"uniques": [
+			"Great Improvement",
 			"Gives a defensive bonus of [10]%",
 			"[+2 Gold] <after discovering [Decontamination]>",
 			"[+2 Gold] <after discovering [Radar]>",
 			"[+2 Gold] <after discovering [Incentivization]>",
 			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+20 Gold]"]
+			"Will not be replaced by automated units",
+			"Unbuildable <in [Impeded terrain] tiles>",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+	{
+		"name": "Factory farm",
+		"food": 4,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Food source",
+			"Gives a defensive bonus of [10]%",
+			"[+1 Food] <after discovering [Botany]>",
+			"[+1 Food] <after discovering [Ecology]>",
+			"[+1 Food] <after discovering [Hydroponics]>",
+			"[+1 Production, +1 Food] <after discovering [Genetics]>",
+			"Removes removable features when built",
+			"Will not be replaced by automated units",
+			"Unbuildable <in [Impeded terrain] tiles>",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
 	},
 	{
 		"name": "Manufactory",
 		"production": 4,
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Great Improvement",
+		"uniques": [
+			"Great Improvement",
 			"Gives a defensive bonus of [10]%",
 			"[+1 Production, +1 Food] <after discovering [Steam Power]>",
 			"[+1 Production, +1 Food] <after discovering [Railroads]>",
 			"[+2 Production, +1 Science] <after discovering [Robotics]>",
 			"[+2 Production, +1 Science] <after discovering [Advanced Materials]>",
 			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+20 Gold]"]
+			"Will not be replaced by automated units",
+			"Unbuildable <in [Impeded terrain] tiles>",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+	{
+		"name": "Citadel",
+		"science": 2,
+		"gold": 2,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Gives a defensive bonus of [100]%",
+			"Adjacent enemy units ending their turn take [30] damage",
+			"Great Improvement",
+			"Gain control over [all] tiles in a [1]-tile radius",
+			"Can be built just outside your borders",
+			"Removes removable features when built",
+			"Will not be replaced by automated units",
+			"Unbuildable <in [Impeded terrain] tiles>",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
 	},
 	{
 		"name": "Outpost",
 		"production": 2,
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Great Improvement",
+		"uniques": [
+			"Great Improvement",
 			"Gives a defensive bonus of [110]%",
 			"Adjacent enemy units ending their turn take [30] damage",
 			"[+4 Production] <after discovering [Combined Arms]>",
 			"Provides [2] [Slaves]",
+			"Unbuildable <in [Impeded terrain] tiles>",
 			"Removes removable features when built",
+			"Will not be replaced by automated units",
 			"Can be built just outside your borders",
 			"Gain control over [all] tiles in a [1]-tile radius",
-			"Pillaging this improvement yields approximately [+20 Gold]"]
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
 	},
 	{
 		"name": "Prison farm",
 		"production": 2,
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Great Improvement",
+		"uniques": [
+			"Great Improvement",
 			"Gives a defensive bonus of [10]%",
 			"Provides [2] [Slaves]",
 			"[+1 Production] for each adjacent [Farm]",
 			"[+4 Production] <after discovering [Social Engineering]>",
 			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+20 Gold]"]
+			"Will not be replaced by automated units",
+			"Unbuildable <in [Impeded terrain] tiles>",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
 	},
 	{
 		"name": "Narcotics farm",
 		"gold": 2,
 		"culture": 4,
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Great Improvement",
+		"uniques": [
+			"Great Improvement",
 			"Gives a defensive bonus of [10]%",
 			"[+2 Gold] <after discovering [Hydroponics]>",
 			"[+4 Culture] <after discovering [Social Engineering]>",
 			"Provides [1] [Narcotics]",
 			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+20 Gold]"]
+			"Will not be replaced by automated units",
+			"Unbuildable <in [Impeded terrain] tiles>",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
 	},
 	{
 		"name": "Drydock",
 		"production": 4,
 		"terrainsCanBeBuiltOn": ["Coast"],
-		"uniques": ["Great Improvement",
+		"uniques": [
+			"Great Improvement",
 			"[+1 Production, +1 Science] <after discovering [Oceanography]>",
 			"[+1 Production, +1 Science] <after discovering [Radar]>",
 			"[+1 Production, +1 Science] <after discovering [Ocean Remediation]>",
 			"[+1 Production, +1 Science] <after discovering [Pharmaceuticals]>",
 			"[+1 Production, +1 Science] <after discovering [Satellites]>",
-			"Unpillagable"]
+			"Will not be replaced by automated units",
+			"Unpillagable"
+		]
 	},
 	{
 		"name": "Seminary",
@@ -476,6 +558,8 @@
 			"Great Improvement",
 			"Gives a defensive bonus of [10]%",
 			"Removes removable features when built",
+			"Will not be replaced by automated units",
+			"Unbuildable <in [Impeded terrain] tiles>",
 			"[+2 Faith] <after discovering [Education]>",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		]
@@ -484,13 +568,17 @@
 		"name": "Oracle",
 		"faith": 6,
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Great Improvement",
+		"uniques": [
+			"Great Improvement",
 			"Gives a defensive bonus of [10]%",
 			"Removes removable features when built",
+			"Will not be replaced by automated units",
+			"Unbuildable <in [Impeded terrain] tiles>",
 			"Provides [1] [Oil]",
 			"Provides [1] [Oil] <after discovering [Biology]>",
 			"[+2 Culture] <after discovering [Chemistry]>",
-			"Pillaging this improvement yields approximately [+20 Gold]"]
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
 	},
 	{
 		"name": "Endowment House",
@@ -498,22 +586,27 @@
 		"culture": 1,
 		"faith": 6,
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Great Improvement",
+		"uniques": [
+			"Great Improvement",
 			"Gives a defensive bonus of [10]%",
 			"[+1 Food] <with [1] to [6] neighboring [Food source] tiles>",
 			"[+1 Gold] <after discovering [Currency]>",
-			"[+1 Culture, +1 Faith] <after discovering [Civil Service]>",
+			"[+1 Culture] <after discovering [Civil Service]>",
 			"[+1 Gold] <after discovering [Railroads]>",
-			"[+1 Culture, +1 Faith] <after discovering [Social Engineering]>",
+			"[+1 Culture] <after discovering [Social Engineering]>",
 			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+20 Gold]"]
+			"Will not be replaced by automated units",
+			"Unbuildable <in [Impeded terrain] tiles>",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
 	},
 	{
 		"name": "Wasteland Station",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"food": 2,
 		"gold": 2,
-		"uniques": ["Great Improvement",
+		"uniques": [
+			"Great Improvement",
 			"Gives a defensive bonus of [10]%",
 			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -525,7 +618,10 @@
 			"[+1 Production, +1 Gold] <after discovering [Incentivization]>",
 			"[+2 Gold] <after discovering [Globalization]>",
 			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+20 Gold]"]
+			"Will not be replaced by automated units",
+			"Unbuildable <in [Impeded terrain] tiles>",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
 	},
 
 	//Hexlock Refineries
@@ -534,7 +630,9 @@
 		"science": 4,
 		"gold": 2,
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Refinery", "Great Improvement",
+		"uniques": [
+			"Refinery",
+			"Great Improvement",
 			"[+2 Science, +1 Gold] <with [1] to [3] neighboring [Refinery] tiles>",
 			"[+4 Science, +2 Gold] <with [4] to [6] neighboring [Refinery] tiles>",
 			"[+2 Production] <in [Coal] tiles>",
@@ -547,7 +645,10 @@
 			"Can be built just outside your borders",
 			"Gain control over [all] tiles in a [1]-tile radius",
 			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+20 Gold]"]
+			"Will not be replaced by automated units",
+			"Unbuildable <in [Impeded terrain] tiles>",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
 	},
 	{
 		"name": "C1F3 Refinery",
@@ -646,6 +747,27 @@
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
 		"shortcutKey": "A"
+	},
+	{
+		"name": "Outback Station",
+		"uniqueTo": "Aurelian Group", //should actually be for a different Australian faction once a new one arises, or shared between all hypothetical Australian factions except the two Mad Max factions
+		"terrainsCanBeBuiltOn": ["Badlands", "Wasteland", "Desert", "Hill"],
+		"food": 1,
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Redomestication",
+		"uniques": [
+			"[+1 Food, +1 Production] for each adjacent [Pasture]",
+			"[+1 Food, +1 Production] for each adjacent [Bioculture]",
+			"[+1 Production] <with [2] to [3] neighboring [Outback Station] tiles> <after discovering [Steam Power]>",
+			"[+2 Production] <with [4] to [5] neighboring [Outback Station] tiles> <after discovering [Steam Power]>",
+			"[+3 Production] <with [6] to [6] neighboring [Outback Station] tiles> <after discovering [Steam Power]>",
+			"[+1 Food] <with [2] to [3] neighboring [Outback Station] tiles> <after discovering [Land Remediation]>",
+			"[+2 Food] <with [4] to [5] neighboring [Outback Station] tiles> <after discovering [Land Remediation]>",
+			"[+3 Food] <with [6] to [6] neighboring [Outback Station] tiles> <after discovering [Land Remediation]>",
+			"Unbuildable <in [resource] tiles>",
+			"Pillaging this improvement yields approximately [+10 Food, +10 Gold]"
+		]
 	},
 	{
 		"name": "Caer",
@@ -813,6 +935,14 @@
 			{
 				"text": "Appearance changes with the technological era of the owning civilization"
 			}
+		]
+	},
+	{
+		"name": "Survivor camp",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Unpillagable",
+			"Provides a random bonus when entered"
 		]
 	},
 	{

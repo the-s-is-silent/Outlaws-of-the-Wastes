@@ -251,9 +251,9 @@
 			{
 				"name": "Theocracy Complete",
 				"uniques": ["Free [Great Sage] appears",
-					"[+1 Food, +1 Faith, +3 Culture] from every [Seminary]",
-					"[+1 Food, +1 Faith, +3 Culture] from every [Oracle]",
-					"[+1 Food, +1 Faith, +3 Culture] from every [Endowment House]"]
+					"[+1 Food, +3 Culture] from every [Seminary]",
+					"[+1 Food, +3 Culture] from every [Oracle]",
+					"[+1 Food, +3 Culture] from every [Endowment House]"]
 			}
 		]
 	},

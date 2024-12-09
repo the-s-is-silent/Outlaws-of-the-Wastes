@@ -1184,6 +1184,20 @@
 		"innerColor": [0, 102, 102],
 		"cities": ["Trudograd"]
 	},
+	{
+		"name": "Powderhorn Autonomous Zone",
+		"adjective": ["Powderhorner"],
+		"cityStateType": "Culture",
+		"startBias": ["Lakes"],
+		"style": "Gang",
+		"uniques": ["[+1 Food, +2 Gold] from all [Culture] buildings"],
+		"declaringWar": "We won't stand for your injustice!",
+		"attacked": "Lookin' to cause trouble? You're about to run into a lot more than you can handle.",
+		"defeated": "We were never terrorists. It was you and your kind who brought terror here.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [232, 95, 221],
+		"cities": ["Powderhorn"]
+	},
 
 	//Barbarian
 	{

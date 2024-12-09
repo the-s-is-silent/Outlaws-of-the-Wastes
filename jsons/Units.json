@@ -1194,6 +1194,22 @@
 		"uniques": ["Low Tech"],
 		"attackSound": "metalhit"
 	},
+	{
+		"name": "Eagle Speaker",
+		"unitType": "Civilian",
+		"uniqueTo": "Aztlán",
+		"replaces": "Great General",
+		"uniques": [
+			"Can start an [8]-turn golden age <by consuming this unit>",
+			"[+15]% Strength bonus for [Military] units within [3] tiles",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can instantly construct a [Survivor camp] improvement <once> <in tiles adjacent to [City ruins]> <for [2] movement>",
+			"Can be earned through combat",
+			"Great Person - [War]", 
+			"Unbuildable", "Uncapturable"
+		],
+		"movement": 2
+	},
 
 	//Caliphate unique units
 	{
@@ -1791,13 +1807,16 @@
 		"rangedStrength": 40,
 		"interceptRange": 2,
 		"cost": 50,
-		"uniques": ["Cannot move",
-			"Can only attack [Military] units", "Can only attack [Civilian] units",
+		"uniques": [
+			"Cannot move",
+			"Can only attack [Military] units",
+			"Can only attack [Civilian] units",
 			"[+20]% Strength <when attacking>",
 			"Only available <for [City-States] Civilizations>",
 			"Only available <with a garrison>",
 			"Never appears as a Barbarian unit",
-			"Limited to [3] per Civilization"],
+			"Limited to [3] per Civilization"
+		],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1809,10 +1828,13 @@
 		"cost": 50,
 		"upgradesTo": "Soldier",
 		"hurryCostModifier": 20,
-		"uniques": ["Personnel", "[+25]% Strength <when fighting in [Friendly Land] tiles>",
+		"uniques": [
+			"Personnel",
+			"[+25]% Strength <when fighting in [Friendly Land] tiles>",
 			"Only available <for [City-States] Civilizations>",
 			"Never appears as a Barbarian unit",
-			"Limited to [3] per Civilization"],
+			"Limited to [3] per Civilization"
+		],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1828,8 +1850,11 @@
 		"upgradesTo": "Infantry",
 		"hurryCostModifier": 20,
 		"promotions": ["Gas Mask"],
-		"uniques": ["Personnel", "Consumes [1] [Weapons]",
-			"[+25]% Strength <when fighting in [Friendly Land] tiles>"],
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]",
+			"[+25]% Strength <when fighting in [Friendly Land] tiles>"
+		],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1845,7 +1870,10 @@
 		"upgradesTo": "State Guard",
 		"hurryCostModifier": 20,
 		"promotions": ["Gas Mask"],
-		"uniques": ["Personnel", "[+20]% Strength <when fighting in [Friendly Land] tiles>"],
+		"uniques": [
+			"Personnel",
+			"[+20]% Strength <when fighting in [Friendly Land] tiles>"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -1860,8 +1888,12 @@
 		"upgradesTo": "Militia",
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Rifling",
-		"uniques": ["Personnel", "[-33]% Strength <vs cities>",
-			"[+150]% Strength <vs [Barbarian] units>"],
+		"uniques": [
+			"Personnel",
+			"[-33]% Strength <vs cities>",
+			"Unable to capture cities",
+			"[+150]% Strength <vs [Barbarian] units>"
+		],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1889,7 +1921,11 @@
 		"cost": 50,
 		"upgradesTo": "Soldier",
 		"hurryCostModifier": 20,
-		"uniques": ["Personnel", "Consumes [1] [Weapons]", "[+25]% Strength when stacked with [Civilian]"],
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]",
+			"[+25]% Strength when stacked with [Civilian]"
+		],
 		"promotions": ["Combat Armor", "Hazard Pay"],
 		"attackSound": "shot"
 	},
@@ -1904,9 +1940,12 @@
 		"cost": 50,
 		"upgradesTo": "Soldier",
 		"hurryCostModifier": 20,
-		"uniques": ["Low Tech", "[+25]% Strength <when fighting in [Friendly Land] tiles>",
+		"uniques": [
+			"Low Tech",
+			"[+25]% Strength <when fighting in [Friendly Land] tiles>",
 			"Earn [50]% of killed [Military] unit's [Strength] as [Culture]",
-			"Limited to [5] per Civilization"],
+			"Limited to [5] per Civilization"
+		],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1921,9 +1960,11 @@
 		"cost": 50,
 		"upgradesTo": "Rifleman",
 		"hurryCostModifier": 20,
-		"uniques": ["Low Tech",
+		"uniques": [
+			"Low Tech",
 			"Can build [Tree plantation] improvements on tiles",
-			"Invisible to others <in [Tree plantation] tiles>"],
+			"Invisible to others <in [Tree plantation] tiles>"
+		],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1973,9 +2014,11 @@
 		"cost": 50,
 		"upgradesTo": "Rifleman",
 		"hurryCostModifier": 20,
-		"uniques": ["Low Tech",
+		"uniques": [
+			"Low Tech",
 			"Withdraws before melee combat <with [33]% chance>",
-			"Earn [100]% of killed [Military] unit's [Strength] as [Culture]"],
+			"Earn [100]% of killed [Military] unit's [Strength] as [Culture]"
+		],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1989,9 +2032,12 @@
 		"requiredTech": "Steel",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Militia",
-		"uniques": ["Low Tech", "[+50]% Strength <vs [Low Tech] units>",
+		"uniques": [
+			"Low Tech",
+			"[+50]% Strength <vs [Low Tech] units>",
 			"Earn [100]% of killed [Military] unit's [Strength] as [Faith]",
- 			"Free [Hawkman Brave] appears <upon being defeated> <with [33]% chance>"],
+ 			"Free [Hawkman Brave] appears <upon being defeated> <with [33]% chance>"
+		],
 		"attackSound": "metalhit"
 	},
 	{
@@ -2008,10 +2054,12 @@
 		"upgradesTo": "Rifleman",
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Replaceable Parts",
-		"uniques": ["Personnel",
+		"uniques": [
+			"Personnel",
 			"[+50]% Strength <vs [Low Tech] units>",
 			"[+50]% Strength <vs [Barbarian] units>",
-			"Must set up to ranged attack"],
+			"Must set up to ranged attack"
+		],
 		"promotions": ["Reconnaissance I", "Skirmish"],
 		"attackSound": "shot"
 	},
@@ -2044,7 +2092,11 @@
 		"upgradesTo": "Infantry",
 		"hurryCostModifier": 20,
 		"promotions": ["Gas Mask", "Drone Recon"],
-		"uniques": ["Personnel", "Consumes [1] [Weapons]", "[+25]% Strength <when fighting in [Friendly Land] tiles>"],
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]",
+			"[+25]% Strength <when fighting in [Friendly Land] tiles>"
+		],
 		"attackSound": "machinegun"
 	},
 	{
@@ -2095,11 +2147,13 @@
 		"cost": 150,
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Tank",
-		"uniques": ["[+33]% Strength <vs [Low Tech] units> <when attacking>",
+		"uniques": [
+			"[+33]% Strength <vs [Low Tech] units> <when attacking>",
 			"[+33]% Strength <vs [Personnel] units> <when attacking>",
 			"[-33]% Strength <vs cities> <when attacking>",
 			"Can move after attacking",
-			"No defensive terrain bonus"],
+			"No defensive terrain bonus"
+		],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
 	},
@@ -2113,7 +2167,12 @@
 		"cost": 150,
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Exo-Trooper",
-		"uniques": ["Personnel", "Consumes [1] [Weapons]", "Can be earned through combat", "Great Person - [War]"],
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]",
+			"Can be earned through combat",
+			"Great Person - [War]"
+		],
 		"promotions": ["Reconnaissance I", "Gas Mask", "[Lawkeeper] ability"],
 		"attackSound": "phasers"
 	},
@@ -2127,7 +2186,8 @@
 		"hurryCostModifier": 20,
 		"upgradesTo": "Mechanized Worker",
 		"replacementTextForUniques": "Can build normal tile improvements on land, sacrifice itself to instantly build a Research site, or generate small amounts of Science when it ends its turn on a Rubble or Ruins tile",
-		"uniques": ["Can build [Land] improvements on tiles",
+		"uniques": [
+			"Can build [Land] improvements on tiles",
 			"Can instantly construct a [Research site] improvement <by consuming this unit>",
 			"Gain [5]-[10] [Science] <upon ending a turn in a [Forest] tile> <before the [Neofeudal era]>",
 			"Gain [5]-[10] [Science] <upon ending a turn in a [Jungle] tile> <before the [Neofeudal era]>",
@@ -2135,15 +2195,19 @@
 			"Gain [15]-[30] [Science] <upon ending a turn in a [Jungle] tile> <starting from the [Neofeudal era]> <before the [Industrial era]>",
 			"Gain [45]-[90] [Science] <upon ending a turn in a [Forest] tile> <starting from the [Industrial era]>",
 			"Gain [45]-[90] [Science] <upon ending a turn in a [Jungle] tile> <starting from the [Industrial era]>",
-			"Automation is a primary action"]
+			"Automation is a primary action"
+		]
 	},
 	{
 		"name": "Persevering Pax Researcher",
 		"uniqueTo": "The Pax",
 		"unitType": "Civilian",
-		"uniques": ["Withdraws before melee combat <with [100]% chance>",
+		"uniques": [
+			"Withdraws before melee combat <with [100]% chance>",
 			"Can instantly construct a [Preservator] improvement <by consuming this unit>",
-			"Unbuildable", "Uncapturable"],
+			"Unbuildable",
+			"Uncapturable"
+		],
 		"movement": 2
 	},
 	{
@@ -2158,9 +2222,13 @@
 		"upgradesTo": "Forward Observer",
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Replaceable Parts",
-		"uniques": ["Personnel", "[-33]% Strength <vs cities>", "Unable to capture cities",
+		"uniques": [
+			"Personnel",
+			"[-33]% Strength <vs cities>",
+			"Unable to capture cities",
 			"[+100]% Strength <vs [Low Tech] units>",
-			"[+100]% Strength <vs [Barbarian] units>"],
+			"[+100]% Strength <vs [Barbarian] units>"
+		],
 		"promotions": ["Forage", "Reconnaissance I", "Skirmish"],
 		"attackSound": "nonmetalhit"
 	},
@@ -2176,10 +2244,13 @@
 		"hurryCostModifier": 20,
 		"requiredTech": "Replaceable Parts",
 		"promotions": ["Drone Recon", "Reconnaissance I", "Skirmish", "Gas Mask"],
-		"uniques": ["Personnel", "[+1] Sight",
+		"uniques": [
+			"Personnel",
+			"[+1] Sight",
 			"Can move after attacking",
 			"[+33]% Strength <when defending>",
-			"Unable to capture cities"],
+			"Unable to capture cities"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -2194,10 +2265,12 @@
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Rifling",
 		"promotions": ["Line Brawl"],
-		"uniques": ["Low Tech",
+		"uniques": [
+			"Low Tech",
 			"[+50]% Strength <vs [Low Tech] units>",
 			"[+25]% Strength <when fighting in [Tundra] tiles>",
-			"[+25]% Strength <when fighting in [Permafrost] tiles>"],
+			"[+25]% Strength <when fighting in [Permafrost] tiles>"
+		],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -2212,9 +2285,12 @@
 		"upgradesTo": "Soldier",
 		"hurryCostModifier": 20,
 		"promotions": ["Line Brawl"],
-		"uniques": ["Personnel", "[+25]% Strength <when fighting in [Friendly Land] tiles>",
+		"uniques": [
+			"Personnel",
+			"[+25]% Strength <when fighting in [Friendly Land] tiles>",
 			"[+25]% Strength <when fighting in [Tundra] tiles>",
-			"[+25]% Strength <when fighting in [Permafrost] tiles>"],
+			"[+25]% Strength <when fighting in [Permafrost] tiles>"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -2248,9 +2324,33 @@
 		"cost": 55,
 		"upgradesTo": "Soldier",
 		"hurryCostModifier": 20,
-		"uniques": ["Personnel", "Consumes [1] [Weapons]", "[+25]% Strength <when fighting in [Friendly Land] tiles>"],
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]",
+			"[+25]% Strength <when fighting in [Friendly Land] tiles>"
+		],
 		"promotions": ["Urban Warfare I"],
 		"attackSound": "shot"
+	},
+	{
+		"name": "New Police",
+		"replaces": "State Guard",
+		"uniqueTo": "Powderhorn Autonomous Zone",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 36,
+		"interceptRange": 1,
+		"cost": 55,
+		"upgradesTo": "Soldier",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Can move after attacking",
+			"[+25]% Strength <when fighting in [Friendly Land] tiles>",
+			"Limited to [5] per Civilization"
+		],
+		"promotions": ["Urban Warfare I"],
+		"attackSound": "machinegun"
 	},
 
 	//Adjusted units from the base scenario and other mods
@@ -2393,6 +2493,7 @@
 			"Consumes [1] [Oil]",
 			"Only available <if [Factory] is constructed>",
 			"Withdraws before melee combat <with [50]% chance>",
+			"Ignores terrain cost",
 			"Can pass through impassable tiles",
 			"Can build [Land] improvements on tiles",
 			"[-25]% construction time for [All] improvements",
@@ -3154,7 +3255,7 @@
 			"Only available <if [Automated Factory] is constructed>"
 		],
 		"promotions": ["Gas Mask", "Loose Formation", "Reconnaissance I", "Reconnaissance II"],
-		"attackSound": "phasers"
+		"attackSound": "machinegun"
 	},
 	{
 		"name": "Tank",

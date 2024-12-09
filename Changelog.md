@@ -1091,6 +1091,9 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Nowa Polska (Literally "New Poland", Culture/Domination)
 - The Oathsworn (American militia organization, Diplomatic/Domination)
 
+**New City-State**
+- Trudograd (Trading-type; Source material: *ATOM RPG*)
+
 **New Buildings**
 - Community Center (Public School replacement for New Afrika, adds +2 Food)
 - Community Garden (+2 Food (increases to +3 with Exotic Seeds), +25% GP generation, 1 Farmer slot, unlocks at Ecology, also added to Deciv 2 fork)
@@ -1129,7 +1132,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Communion Centers (Follower), Worship Center adds: +1 Culture/Happiness, +2 Faith, +3 Water, +10% to city's total Water yields
 - Meeting Houses (Follower), Worship Center adds: +3 Production, +1 Culture, +2 Faith, +10% Production towards buildings
 
-#### October - November 2024
+#### October - December 2024
 
 **Tech Adjustments**
 - Five new technologies added: Astrogation, Ecotheory, Rewilding, Re-Utilization, and Stealth (all except Astrogation are imported from the planned "Tech Expansion" update for Deciv 2; Re-Utilization replaces Plastics Recycling).
@@ -1155,6 +1158,8 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Military/Espionage buildings:
 	- Listening Post now requires Radio instead of Civil Service.
 - Faction/City-State UBs:
+	- Aztlán:
+		- Temalacatl no longer increases Happiness during wartime (this was moved to their new Shrine replacement).
 	- Camelot Foundation:
 		- PINDAR Station's Water yield increased to +3 if used with the Tech Expansion branch of Deciv 2.
 	- Deseret Nation:
@@ -1188,6 +1193,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- No longer provides free Great Scientists.
 
 **Unit Adjustments**
+- Mechanized Workers now ignore terrain costs.
 - Naval unit adjustments (mostly nerfs):
 	- Standard early and mid-game units (Dinghy, Raiding Craft, Patrol Boat, Gunboat, Attack Boat, Torpedo Boat) no longer have a chance to evade melee combat.
 	- Mariner UUs' chance to evade melee combat is reduced to 20%.
@@ -1205,14 +1211,26 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- Security Forces' added Happiness divided - it is now +1 for a garrison, +1 with Barracks, +1 with Armory.
 - Theocracy:
 	- Indulgences' added Water to Monasteries reduced to +15%.
+	- The finisher bonus no longer adds Faith to Seminaries or their replacements.
 - Naturalism:
 	- Harmony's added Culture to Protected Areas reduced to +15%.
 
 **Belief Adjustments**
 - Power of Light now gives Faith equal to 33% of a defeated unit's Strength after determining the old effect (25% of damage dealt to all units) was awarding a little too much Faith.
 
+**Improvement Adjustments**
+- Great Improvements now specify that all Impeded terrain (Fissure, Mountain, Muskeg) is off-limits in light of planned changes to Deciv 2 and also in the event that more Impeded terrain types are added in the future.
+- Endowment Houses nerfed slightly: the additional +2 Faith gained from tech scaling has been removed.
+- Modular islands can now be built on resource-less Sunken Ruins tiles.
+- Moisture traps can now be built on Mountains.
+- Floating Settlements and Polders are now properly considered Food sources.
+
+**New City-State**
+- Powderhorn Autonomous Zone (Culture-type; is not based on any fictional media)
+
 **New Buildings**
 - Advanced Energy Recycling Plant (Post-Tech Expansion replacement for Recycling Plant in "Deciv 2" branch, twice as much power as Redux's old Recycling Plant, unlocks at Energy Weapons)
+- Momoztli (Shrine replacement for Aztlán, adds +1 Happiness, increasing to +2 during wartime)
 - Relief Society (new Work Camp replacement for Deseret - differences from old Cathedral School: +1 Food instead of +1 Science, +5% Food and +15% Faith instead of +25% Faith, no added stats when Powered, +1 Food/Faith from active Administrators in the city)
 - Stadnina Koni (Stable replacement for Nowa Polska, grants 15 XP to new Mounted units and +15% Production speed towards Mounted units)
 - Vodka Brewery (Distillery replacement for Russian factions, +1 additional Happiness but +1 higher maintenance cost)
@@ -1226,9 +1244,13 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **New Units**
 - Arroyo Sagestepper (State Guard replacement for Arroyo, Low Tech, extra strength when defending, starts with Skirmish)
+- Eagle Speaker (Great General replacement for Aztlán, wider aura, can spawn a Survivor camp once if adjacent to City ruins)
 
 **New Beliefs**
 - Mission Sites (Follower, Worship Center provides +5 Faith, +1 Culture/Happiness)
+
+**New Improvements**
+- Outback Station (*Currently* exclusive to Aurelian Group, planned to change once another Australian or New Zealand faction not based on the Mad Max films is released - stats taken from the improvement in Civ 6)
 
 **Misc.**
 - Quote attributions for several wonders have been restored.
