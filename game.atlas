@@ -186,7 +186,7 @@ BuildingIcons/General Conference
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/House of Submission
+BuildingIcons/Consultative Assembly
   rotate: false
   xy: 248, 1805
   size: 100, 100
@@ -305,7 +305,7 @@ BuildingIcons/Council of Four
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/House of War
+BuildingIcons/Allegiance Council
   rotate: false
   xy: 572, 1833
   size: 100, 100

@@ -1438,32 +1438,36 @@
 		]
 	},
 	{
-		"name": "House of Submission",
+		"name": "Consultative Assembly",
 		"replaces": "Congress",
 		"uniqueTo": "The Caliphate",
 		"cost": 100,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+1 Production, +1 Faith] per [4] population [in all cities]",
+		"uniques": [
+			"[+1 Production, +1 Faith] per [4] population [in all cities]",
 			"[-10]% Unhappiness from [Followers of the Majority Religion] [in cities following our religion]",
 			"Only available <if [Revert Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
-			"Only available <in cities without a [House of War]>",
-			"Destroyed when the city is captured"]
+			"Only available <in cities without a [Allegiance Council]>",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
-		"name": "House of War",
+		"name": "Allegiance Council",
 		"replaces": "Council",
 		"uniqueTo": "The Caliphate",
 		"cost": 100,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+10]% growth [in all cities]",
+		"uniques": [
+			"[+10]% growth [in all cities]",
 			"[+10]% Production when constructing [Military] units [in all cities]",
 			"May buy [Enslaved] units with [Faith] for [2] times their normal Production cost",
 			"May buy [Mounted Ranged] units with [Faith] for [2] times their normal Production cost",
 			"Only available <if [Revert Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
-			"Only available <in cities without a [House of Submission]>",
-			"Destroyed when the city is captured"]
+			"Only available <in cities without a [Consultative Assembly]>",
+			"Destroyed when the city is captured"
+		]
 	},
 
 	//Aurelian Group unique buildings
