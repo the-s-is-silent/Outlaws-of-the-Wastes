@@ -119,7 +119,7 @@
 			"[+100]% unhappiness from the number of cities"
 		],
 		"cities": ["Vodagrad", "Prava", "Nevesk", "Kyovashad", "Snezhnaya", "Prekrasnaya", "Zapolyarny", "Ubezhishche", "Nostrava",
-			"Grad Sysevich", "Istochnik", "Mirny", "Uspekh", "Khrabrost", "Margrave", "Yelesna", "Menestad"],
+			"Grad Sysevich", "Istochnik", "Mirny", "Uspekh", "Khrabrost", "Stradaniy", "Margrave", "Yelesna", "Menestad"],
 		"spyNames": ["Sergey", "Iosef", "Leonid", "Mikhail", "Tatiana", "Veronika", "Alexei", "Anastasia", "Nikita", "Fyodor"],
 		"civilopediaText": [
 			{
@@ -197,9 +197,9 @@
 			"Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
 			"When defeating a [{Military} {Land}] unit, earn [25] Gold and recruit it <with [25]% chance>",
 			"Starts with [Iron Working]"],
-		"cities": ["Xochicalco", "Cuentepec", "Nueva Tula", "Tepic", "Tlahtoloyan", "Acapulco", "Xochimilco", "Huaxyacac",
-			"Ecatepec", "Mazatlán", "Sahuayo", "Xicotepec", "Colhuacán", "Nueva Cholula", "Ixtapan", "Otompan",
-			"Neza", "Tepeyac", "Xalixko", "Jilotzingo", "Xoconochco", "Coalcomán", "Yanhuitlán", "Cempoala"],
+		"cities": ["Xochicalco", "Cuentepec", "Nueva Tula", "Tepic", "Tlahtoloyan", "Acapulco", "Calimaya", "Xochimilco",
+			"Huaxyacac", "Ecatepec", "Mazatlán", "Malinalco", "Sahuayo", "Xicotepec", "Colhuacán", "Nueva Cholula", "Ixtapan",
+			"Otompan", "Neza", "Tepeyac", "Xalixko", "Jilotzingo", "Xoconochco", "Coalcomán", "Yanhuitlán", "Cempoala"],
 		"spyNames": ["Armando", "Alejandro", "Rosado", "Yaretzi", "Luminosa", "Tlacotl", "Chimalma", "Cozamalotl", "Xochitl", "Xilonen"]
 	},
 	{
@@ -247,8 +247,8 @@
 		"personality": "Aurelia",
 		// "favoredReligion": "TBA",
 
-		// "startIntroPart1": "TBA",
-		// "startIntroPart2": "TBA",
+		"startIntroPart1": "Here at Aurelian Group, we specialize not only in efficient extraction and refining of metals and minerals, but also in repurposing depleted mines to meet various other demands. It is through our expertise in the latter that we were able to save over a million people when the Cataclysm struck Australia. As the only surviving major entity from before the Cataclysm left standing in this land, it falls to us to take charge and lift our fallen nation out of the ashes.",
+		"startIntroPart2": "The Aurelian Group will rebuild Australia's future.",
 		"declaringWar": "For the good of these lands and the people residing in them, you must be liquidated.",
 		"attacked": "The Aurelian Group will not stand idly by while the wasteland is under siege. All workers are called to arms!",
 		"defeated": "Have all our rebuilding efforts gone to waste? This is bloody unacceptable!",
@@ -273,8 +273,8 @@
 			"Starts with [Machinery]",
 			"[-2 Happiness] [in all cities]"
 		],
-		"cities": ["Broken Hill", "Lightning Ridge", "Coober Pedy", "Andamooka", "Mintabee", "Kotara", "Fassifern", "Morriset",
-			"Quilpie", "Lymington", "Waratah", "Awaba", "Jesmond", "Burwood", "Duckenfield", "Glebe End", "Hartley Vale",
+		"cities": ["Broken Hill", "Lightning Ridge", "Coober Pedy", "Andamooka", "Mintabee", "Cairn Hill", "Kotara", "Fassifern",
+			"Morriset", "Quilpie", "Lymington", "Waratah", "Awaba", "Jesmond", "Burwood", "Duckenfield", "Glebe End", "Hartley Vale",
 			"Wallsend", "Stockrington", "New Lambton", "Blackhill", "Ironbank", "Mandalong", "Myuna", "Swansea", "Wiluna", "Wyee",
 			"Seahampton", "Newstan", "Worsley"],
 		"spyNames": ["Donaldson", "Marheine", "Leigh", "Nott", "Macquarie", "Wickham", "Fernleigh", "Eales", "McCormack", "Stockton"]
