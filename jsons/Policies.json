@@ -172,7 +172,9 @@
 			{
 				"name": "Triumph",
 				"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>",
-					"[-25]% maintenance costs <for [Military] units>"],
+					"[+2 Food, +2 Culture] from every [Citadel]",
+					"[+2 Food, +2 Culture] from every [Crystal Refinery]",
+					"[+2 Food, +2 Culture] from every [Outpost]"],
 				"requires": ["Doctrine"],
 				"row": 2,
 				"column": 3
@@ -350,10 +352,10 @@
 			},
 			{
 				"name": "Public Good",
-				"uniques": ["[+1 Gold, +1 Happiness] from every [Water Plant]",
-					"[+1 Gold, +1 Happiness] from every [Hospital]",
-					"[+1 Gold, +1 Happiness] from every [Town Hall]",
-					"[+1 Gold, +1 Happiness] from every [Broadcast Tower]"],
+				"uniques": ["[+1 Gold, +1 Science] from every [Water Plant]",
+					"[+1 Gold, +1 Science] from every [Hospital]",
+					"[+1 Gold, +1 Science] from every [Town Hall]",
+					"[+1 Gold, +1 Science] from every [Broadcast Tower]"],
 				"requires": ["Civil Society"],
 				"row": 2,
 				"column": 1
@@ -402,7 +404,8 @@
 		"policies": [
 			{
 				"name": "Mobilization",
-				"uniques": ["[Gold] cost of purchasing [All] units [-25]%"],
+				"uniques": ["[-25]% maintenance costs <for [Military] units>",
+					"[Gold] cost of purchasing [Military] units [-25]%"],
 				"row": 1,
 				"column": 2
 			},
@@ -417,12 +420,10 @@
 			},
 			{
 				"name": "Police State",
-				"uniques": ["[+100]% Production when constructing [Prison Camp] buildings [in all cities]",
-					"[+100]% Production when constructing [Work Camp] buildings [in all cities]",
-					"[+100]% Production when constructing [Listening Post] buildings [in all cities]",
-					"[+3 Happiness] from every [Listening Post]",
-					"[+3 Production] from every [Prison Camp]",
-					"[+3 Production] from every [Work Camp]"],
+				"uniques": ["[+50]% Production when constructing [Listening Post] buildings [in all cities]",
+					"[+50]% Production when constructing [Field Office] buildings [in all cities]",
+					"[+1 Happiness] from every [Listening Post]",
+					"[+1 Happiness] from every [Field Office]"],
 				"requires": ["Scorched Earth", "Mobilization"],
 				"row": 2,
 				"column": 3
@@ -495,7 +496,7 @@
 			},
 			{
 				"name": "Privatization",
-				"uniques": ["[Gold] cost of purchasing items in cities [-20]%",
+				"uniques": ["[Gold] cost of purchasing items in cities [-15]%",
 					"[Personnel] units gain the [Hazard Pay] promotion",
 					"[+2 Gold] from every [Hospital]",
 					"[+2 Gold] from every [Factory]",
@@ -693,8 +694,8 @@
 				"uniques": ["[+10]% [Food] from every [Coal Plant]",
 					"[+2 Production] from every [Carbon Capture]",
 					"[+2 Production] from every [Smart Grid]",
-					"[+2 Production] from every [Solar collector]",
-					"[+2 Production] from every [Wind farm]"],
+					"[+1 Production] from every [Solar collector]",
+					"[+1 Production] from every [Wind farm]"],
 				"row": 1,
 				"column": 3
 			},
@@ -834,9 +835,9 @@
 			{
 				"name": "Weather Engineering",
 				"uniques": ["[+2 Gold] [in all cities]",
-					"[+2 Gold] from every [Moisture trap]",
-					"[+2 Production] from every [Solar collector]",
-					"[+2 Production] from every [Wind farm]",
+					"[+1 Gold] from every [Moisture trap]",
+					"[+1 Production] from every [Solar collector]",
+					"[+1 Production] from every [Wind farm]",
 					"[+10]% growth [in all cities] <during a Golden Age>"],
 				"row": 1,
 				"column": 1

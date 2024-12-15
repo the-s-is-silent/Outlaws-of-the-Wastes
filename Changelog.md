@@ -1160,6 +1160,8 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Faction/City-State UBs:
 	- Aztlán:
 		- Temalacatl no longer increases Happiness during wartime (this was moved to their new Shrine replacement).
+	- The Caliphate:
+		- Houses of Submission/War renamed to Consultative Assembly and Allegiance Council.
 	- Camelot Foundation:
 		- PINDAR Station's Water yield increased to +3 if used with the Tech Expansion branch of Deciv 2.
 	- Deseret Nation:
@@ -1209,11 +1211,22 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Sovereignty:
 	- Doctrine's added stats to Barracks are now divided between Barracks and Armory (+1 Production/Water/Culture each).
 	- Security Forces' added Happiness divided - it is now +1 for a garrison, +1 with Barracks, +1 with Armory.
+	- Triumph no longer reduces maintenance costs for Military units. Instead, it adds +2 Food/Culture to each Citadel, Crystal Refinery and Outpost.
 - Theocracy:
 	- Indulgences' added Water to Monasteries reduced to +15%.
 	- The finisher bonus no longer adds Faith to Seminaries or their replacements.
+- Constitution:
+	- Public Good now adds +1 Science instead of +1 Happiness to its four affected buildings.
+- Supremacy:
+	- Mobilization receives the -25% maintenance cost for military units that was originally granted by Triumph.
+	- Police State nerfed to +50% Production bonus and +1 Happiness for Listening Posts and extends the bonuses to Field Offices. It no longer affects Prison Camps and Work Camps.
+- Monopoly:
+	- Privatization's discount on Water purchases reduced to -15%.
 - Naturalism:
+	- Emissions Standards' added Production to Solar collectors and Wind farms reduced to +1.
 	- Harmony's added Culture to Protected Areas reduced to +15%.
+- Bionics:
+	- Weather Engineering's added yields to the appropriate improvements reduced to +1.
 
 **Belief Adjustments**
 - Power of Light now gives Faith equal to 33% of a defeated unit's Strength after determining the old effect (25% of damage dealt to all units) was awarding a little too much Faith.
