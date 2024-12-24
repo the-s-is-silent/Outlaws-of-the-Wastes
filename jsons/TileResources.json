@@ -53,7 +53,7 @@
 		]
 	},
 	{
-		"name": "Deepwater Fish",
+		"name": "Deep-sea Fish",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Ocean"],
 		"food": 1,
@@ -517,7 +517,7 @@
 	{
 		"name": "Mutant Eel",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Coast", "Ocean", "Lakes"],
+		"terrainsCanBeFoundOn": ["Coast", "Ocean"],
 		"food": 1,
 		"revealedBy": "Oceanography",
 		"improvedBy": ["Fishing Boats", "Bioculture"],
@@ -525,7 +525,6 @@
 		"uniques": [
 			"Generated on every [33] tiles <in [{Featureless} {Coast}] tiles>",
 			"Generated on every [33] tiles <in [{Featureless} {Ocean}] tiles> <with [1] to [6] neighboring [Coast] tiles>",
-			"Generated on every [10] tiles <in [{Featureless} {Lakes}] tiles>",
 			"Generated near City States with weight [15]"
 		]
 	},

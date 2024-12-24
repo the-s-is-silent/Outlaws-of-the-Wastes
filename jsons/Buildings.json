@@ -203,6 +203,18 @@
 		"quote": "Remember the sacrifices of everyone we lost, and remember the treachery of those who took them from us. Remember our righteous desire to rain vengeance down upon those who transgressed against all of humankind, and remember our drive to ensure such a calamity will never again befall us. Remember always..."
 	},
 	{
+		"name": "Wasteland Games",
+		"isWonder": true,
+		"culture": 6,
+		"happiness": 3,
+		"uniques": [
+			"Resting point for Influence with City-States is increased by [30]",
+			"Free Social Policy"
+		],
+		"requiredTech": "Radio",
+		"quote": "'A better world could be brought about only by better individuals.' - Pierre de Coubertin"
+	},
+	{
 		"name": "The Green Palace", //Deciv 2 wonder
 		"isWonder": true,
 		"culture": 1,
@@ -315,11 +327,14 @@
 	{
 		"name": "Condenser Cooler",
 		"percentStatBonus": {"gold": 15},
-		"uniques": ["[+1 Gold] from [Moisture trap] tiles [in this city]",
+		"uniques": [
+			"[+1 Gold] from [Moisture trap] tiles [in this city]",
+			"Must have an owned [Moisture trap] within [3] tiles",
 			"Consumes [1] [Coal]",
 			"Obsolete with [Atmosphere Remediation]",
-			"Remove [Condenser Cooler] [in this city] <after discovering [Atmosphere Remediation]> <hidden from users>"],
-		"requiredTech": "Steam Power"
+			"Remove [Condenser Cooler] [in this city] <after discovering [Atmosphere Remediation]> <hidden from users>"
+		],
+		"requiredTech": "Moisture Harvesting"
 	},
 	{
 		"name": "Sociopolitical Institute",
@@ -686,15 +701,14 @@
 		"cityStrength": 5,
 		"cityHealth": 50,
 		"science": 3,
-		"gold": 1,
+		"gold": 3,
 		"culture": 1,
 		"cost": 1,
 		"uniques": [
 			"Indicates the capital city",
 			"Population loss from nuclear attacks [-25]% [in this city]",
 			"Damage to garrison from nuclear attacks [-25]% [in this city]",
-			"Gain a free [Food Store] [in this city]",
-			"[+2 Gold] [in this city] <if [Deciv 2 Tech Expansion] is enabled> <hidden from users>"
+			"Gain a free [Food Store] [in this city]"
 		]
 	},
 	{
@@ -831,12 +845,15 @@
 		"culture": 2,
 		"cost": 0,
 		"isWonder": true,
-		"uniques": ["[-10]% Unhappiness from [Population] [in this city]",
+		"uniques": [
+			"[-25]% Unhappiness from [Population] [in this city]",
 			"Free [Educator Officer] appears",
 			"Free [Vengerovsky] appears",
 			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
-			"Gain a free [Harbinger Manege] [in this city]"],
+			"Gain a free [Food Store] [in this city]",
+			"Gain a free [Harbinger Manege] [in this city]"
+		],
 		"quote": "They say this was where they found the last oligarch, hiding far from the ruins of our old civilization. Hiding from those who survived the apocalypse he helped bring upon us. We gave him up to our enemies to face justice... a peace offering that meant absolutely nothing.",
 		"civilopediaText": [
 			{
@@ -968,12 +985,14 @@
 		"uniqueTo": "Crimson Line",
 		"culture": 2,
 		"cost": 0,
-		"uniques": ["[+1 Happiness] [in all cities connected to capital]",
+		"uniques": [
+			"[+1 Happiness] [in all cities connected to capital]",
 			"Free [Commissar] appears",
 			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Food Store] [in this city]",
-			"Gain a free [Armory Station] [in this city]"],
+			"Gain a free [Armory Station] [in this city]"
+		],
 		"quote": "Once, these mighty cultural monuments stood as a symbol of our power. Now their ruins remain only to serve as a reminder of our decay."
 	},
 	{
@@ -984,26 +1003,30 @@
 		"science": 1,
 		"percentStatBonus": {"culture": 10},
 		"cityHealth": 50,
-		"cost": 40,
 		"requiredNearbyImprovedResources": ["Artifacts", "Electronics"],
 		"hurryCostModifier": 25,
-		"requiredTech": "Secrets of the Past",
-		"uniques": ["City Defense",
+		"requiredTech": "Record Keeping",
+		"uniques": [
+			"City Defense",
 			"[+1 Culture, +1 Science] from [Artifacts] tiles [in this city]",
 			"[+1 Culture, +1 Science] from [Electronics] tiles [in this city]",
-			"[+2 Culture] [in this city] <after discovering [Railroads]>"]
+			"[+2 Culture] [in this city] <after discovering [Railroads]>"
+		]
 	},
 	{
 		"name": "Armory Station",
 		"replaces": "Armory",
 		"uniqueTo": "Crimson Line",
 		"cityHealth": 50,
-		"uniques": ["City Defense", "Provides [1] [Weapons]",
+		"uniques": [
+			"City Defense",
+			"Provides [1] [Weapons]",
 			"New [Military] units start with [15] Experience [in this city]",
 			"[+1 Production] from [Weapons] tiles [in this city]",
 			"[+2 Production] [in this city] <after discovering [Railroads]>",
-			"Destroyed when the city is captured"],
-		"requiredTech": "Engineering"
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Hoplology"
 	},
 	{
 		"name": "Gupvi",
@@ -1012,12 +1035,14 @@
 		"hurryCostModifier": 25,
 		"production": 2,
 		"happiness": -2,
-		"uniques": ["Remove extra unhappiness from annexed cities",
+		"uniques": [
+			"Remove extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>",
 			"Provides [2] [Slaves]",
 			"Provides [2] [Slaves] <after adopting [Collectivism Complete]>",
 			"Only available <in cities without a [Listening Post]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured"
+		],
 		"requiredTech": "Construction"
 	},
 	{
@@ -1029,9 +1054,11 @@
 		"percentStatBonus": {"production": 10},
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["[+2 Production] [in this city] <when above [0] [Power]>",
+		"uniques": [
+			"[+2 Production] [in this city] <when above [0] [Power]>",
 			"Consumes [1] [Slaves]",
-			"Only available <with [Slaves]>"],
+			"Only available <with [Slaves]>"
+		],
 		"requiredTech": "Construction"
 	},
 	{
@@ -1042,9 +1069,11 @@
 		"science": 3,
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["City Defense",
+		"uniques": [
+			"City Defense",
 			"[+1 Science] per [2] social policies adopted <after adopting [Collectivism Complete]>",
-			"Only available <in cities with a [Library]>"],
+			"Only available <in cities with a [Library]>"
+		],
 		"requiredTech": "Civil Service"
 	},
 	{
@@ -1053,7 +1082,8 @@
 		"uniqueTo": "Crimson Line",
 		"cityHealth": 100,
 		"cost": 150,
-		"uniques": ["City Defense",
+		"uniques": [
+			"City Defense",
 			"[+10]% growth [in all cities]",
 			"[+1 Production, +1 Culture] per [4] population [in all cities]",
 			"[+5]% Production when constructing [All] buildings [in all cities connected to capital]",
@@ -1061,7 +1091,8 @@
 			"Gain [300] [Gold] <upon conquering a city> <(modified by game speed)>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured"
+		],
 		"requiredTech": "Civil Service"
 	},
 	{
@@ -1079,13 +1110,15 @@
 		"maintenance": 1,
 		"hurryCostModifier": 50,
 		"requiredBuilding": "Hardened Defenses",
-		"uniques": ["City Defense",
+		"uniques": [
+			"City Defense",
 			"Population loss from nuclear attacks [-75]% [in this city]",
 			"Damage to garrison from nuclear attacks [-75]% [in this city]",
 			"New [Military] units start with [15] Experience [in this city]",
 			"[+4 Production] from [Mountain] tiles [in this city]",
-			"[+4 Production] from [Tunneled Mountain] tiles [in this city]",
-			"Destroyed when the city is captured"],
+			"[+4 Production] from [Mountain Tunnel] tiles [in this city]",
+			"Destroyed when the city is captured"
+		],
 		"requiredTech": "Munitions"
 	},
 
@@ -1540,8 +1573,8 @@
 		"hurryCostModifier": 20,
 		"uniques": ["City Defense",
 			"[+2 Production] from [Mountain] tiles [in this city]",
-			"[+2 Production] from [Tunneled Mountain] tiles [in this city]",
-			"Must have an owned [Tunneled Mountain] within [3] tiles"],
+			"[+2 Production] from [Mountain Tunnel] tiles [in this city]",
+			"Must have an owned [Mountain Tunnel] within [3] tiles"],
 		"requiredTech": "Engineering"
 	},
 	{
@@ -1556,7 +1589,7 @@
 		"uniques": [
 			"[+1 Science] from [Strategic resource] tiles [in all cities]",
 			"[+1 Science] from [Mountain] tiles [in all cities]",
-			"[+1 Science] from [Tunneled Mountain] tiles [in all cities]",
+			"[+1 Science] from [Mountain Tunnel] tiles [in all cities]",
 			"Only available <if [Library] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city"
 		],
@@ -1575,7 +1608,7 @@
 			"[+1 Science] from [Borehole] tiles [in this city]",
 			"[+1 Science] from [Armed Mining Camp] tiles [in this city]",
 			"[+1 Science] from [Mountain] tiles [in this city]",
-			"[+1 Science] from [Tunneled Mountain] tiles [in this city]",
+			"[+1 Science] from [Mountain Tunnel] tiles [in this city]",
 			"[+2 Science] [in this city] <when above [0] [Power]>",
 			"Only available <in cities with a [Library]>"
 		],
@@ -1623,8 +1656,8 @@
 		"hurryCostModifier": 0,
 		"uniques": [
 			"[+2 Production, +1 Science] from [Mountain] tiles [in this city]",
-			"[+2 Production, +1 Science] from [Tunneled Mountain] tiles [in this city]",
-			"Must have an owned [Tunneled Mountain] within [3] tiles"
+			"[+2 Production, +1 Science] from [Mountain Tunnel] tiles [in this city]",
+			"Must have an owned [Mountain Tunnel] within [3] tiles"
 		],
 		"requiredTech": "Replaceable Parts"
 	},
@@ -3123,11 +3156,13 @@
 	{
 		"name": "Open the Vault",
 		"isWonder": true,
-		"requiredTech": "Secrets of the Past",
-		"uniques": ["[+2 Science, +2 Culture, +2 Faith] from [Vault of Records] tiles [in all cities]",
+		"requiredTech": "Record Keeping",
+		"uniques": [
+			"[+2 Science, +2 Culture, +2 Faith] from [Vault of Records] tiles [in all cities]",
 			"Must have an owned [Vault of Records] within [5] tiles",
 			"Provides [2] [Books]",
-			"Only available <when religion is enabled>"],
+			"Only available <when religion is enabled>"
+		],
 		"quote": "'And I seal up these records, after I have spoken a few words by way of exhortation unto you.' - The Book of Mormon, Moroni 10:2",
 		"civilopediaText": [
 			{
@@ -3881,10 +3916,9 @@
 		"culture": 1,
 		"science": 1,
 		"percentStatBonus": {"culture": 10},
-		"cost": 40,
 		"requiredNearbyImprovedResources": ["Artifacts"],
 		"hurryCostModifier": 25,
-		"requiredTech": "Secrets of the Past",
+		"requiredTech": "Record Keeping",
 		"uniques": ["[+1 Culture, +1 Science] from [Artifacts] tiles [in this city]"]
 	},
 	{
@@ -4855,7 +4889,7 @@
 		"requiredTech": "Currency",
 		"uniques": ["City Defense",
 			"[+1 Food, +1 Gold] from [Mountain] tiles [in this city]",
-			"[+1 Food, +1 Gold] from [Tunneled Mountain] tiles [in this city]",
+			"[+1 Food, +1 Gold] from [Mountain Tunnel] tiles [in this city]",
 			"Doubles Gold given to enemy if city is captured"]
 	},
 	{
@@ -5128,14 +5162,13 @@
 		"cityStrength": 5,
 		"cityHealth": 50,
 		"science": 3,
-		"gold": 1,
+		"gold": 3,
 		"culture": 1,
 		"cost": 200,
 		"requiredTech": "Munitions",
 		"uniques": [
 			"Indicates the capital city",
 			"Provides [2] [Weapons]",
-			"[+2 Gold] [in this city] <if [Deciv 2 Tech Expansion] is enabled> <hidden from users>",
 			"Limited to [2] per Civilization"
 		]
 	},

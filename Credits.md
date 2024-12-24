@@ -8,11 +8,12 @@ Armed Mining Camp, Cactus and Cactus Farm, Floating Settlement, Fortified Farm, 
 Preservator is borrowed from [Bamboolord](https://github.com/RealBamboolord) with his permission.<br>
 Several icons reuse images used in Unciv, DeCiv Redux, Civ 6 mod, and Rekmod, with some of the latter three remaining unsourced.<br>
 The Religion Icons for Anglicanism, Imperial Cult, Methodism and Mormonism were created by Tomatekh on CivFanatics and can be found [at the Civ 5 Customization Wiki's entry on the Tomatekh's Historical Religions mod](https://civilization-v-customisation.fandom.com/wiki/Tomatekh%27s_Historical_Religions).<br>
+The icon for Wasteland Games was made by [Reaktorlan](https://github.com/PAFR2003) and is used with his permission.<br>
 The icons for Alma Frontier Guard and Alma State Guard are of my own creation.
 
 Unless otherwise specified, all of the following icons are from the Noun Project, licensed under Creative Commons or Public Domain. Also, if anyone feels like there is a better/more fitting icon out there for any particular building/unit/etc. than the one that is used, I am open to suggestions for replacement icons.
 
-Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmecac, Calpulli, Cichociemni, Condenser Cooler, Defense Directorate (and its replacements), Defiant Guardian, Defiant Scout, Eagle Speaker, GROM, Killdozer, Momoztli, Mounted Railgun, Pale Veteran, Pax Observer, Pax Researcher, Pax Surveyor, Persevering Pax Researcher, Pithouse, Praetorium, Preservator (icon also missing from TCC-beta), Pridwen-class, Roller, Sejmik, SS Casing, SS Life Support, Super Mutant, Telpochcalli, Tiyanquitzli, Weaponized Yacht
+Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmecac, Calpulli, Cichociemni, Defense Directorate (and its replacements), Defiant Guardian, Defiant Scout, Eagle Speaker, GROM, Killdozer, Momoztli, Mounted Railgun, Pale Veteran, Pax Observer, Pax Researcher, Pax Surveyor, Persevering Pax Researcher, Pithouse, Praetorium, Preservator (icon also missing from TCC-beta), Pridwen-class, Roller, Sejmik, SS Casing, SS Life Support, Super Mutant, Telpochcalli, Tiyanquitzli, Weaponized Yacht
 
 ### Building Icons
 - Abbey: [Westminster Abbey](https://thenounproject.com/icon/westminster-abbey-5459042/) by Brickclay, PK
@@ -41,6 +42,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Commonwealth Reserve: [aquifer](https://thenounproject.com/icon/aquifer-5399259/) by M. Oki Orlando, ID
 - Community Center: [School](https://thenounproject.com/icon/school-357761/) by Ralf Schmitzer, DE
 - Community Garden: [Community](https://www.flaticon.com/free-icon/community_10632234) by [inipagistudio](https://www.flaticon.com/authors/inipagistudio) from Flaticon
+- Condenser Cooler: Based on [nuclear power](https://thenounproject.com/icon/nuclear-power-1970705/) by ProSymbols, US
 - Constabulary: [jail](https://thenounproject.com/icon/jail-2577140/) by Made by Made, AU
 - Constitution Hall: [constitution square](https://thenounproject.com/icon/constitution-square-3925125/) by Lars Meiertoberens, DE
 - Contraband Disposal Site: [prohibited](https://thenounproject.com/icon/prohibited-209190/) by Andrea Mazzini, IT

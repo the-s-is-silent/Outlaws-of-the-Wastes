@@ -223,16 +223,6 @@
 
 //Follower
 	{
-		"name": "Cathedrals",
-		"type": "Follower",
-		"uniques": ["May buy [Cathedral] buildings for [150] [Faith] [in cities following this religion]"]
-	},
-	{
-		"name": "Communion Centers",
-		"type": "Follower",
-		"uniques": ["May buy [Communion] buildings with [Faith] [in cities following this religion]"]
-	},
-	{
 		"name": "Faith Healers",
 		"type": "Follower",
 		"uniques": ["All newly-trained [Personnel] units [in cities following this religion] receive the [Healing Hands] promotion",
@@ -288,16 +278,6 @@
 			"Only available <before adopting [Obey the Elders]>"]
 	},
 	{
-		"name": "Meeting Houses",
-		"type": "Follower",
-		"uniques": ["May buy [Meeting House] buildings with [Faith] [in cities following this religion]"]
-	},
-	{
-		"name": "Mission Sites",
-		"type": "Follower",
-		"uniques": ["May buy [Mission Site] buildings with [Faith] [in cities following this religion]"]
-	},
-	{
 		"name": "Obey the Elders",
 		"type": "Follower",
 		"uniques": ["[+2 Food, +2 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>",
@@ -337,6 +317,80 @@
 		"name": "Zen Meditation",
 		"type": "Follower",
 		"uniques": ["[+2 Culture, +1 Happiness] [in cities following this religion] <in cities with at least [2] [Specialists]>"]
+	},
+
+//Worship
+	{
+		"name": "Cathedrals",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Cathedral] buildings for [150] [Faith] [in cities following this religion]",
+			"Only available <before adopting [Art of War]> <before adopting [Communion Centers]> <before adopting [Divinity Schools]> <before adopting [Dojos]> <before adopting [Gardens]> <before adopting [Holy Fortresses]> <before adopting [Meeting Houses]> <before adopting [Mission Sites]> <before adopting [Pyramids]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Communion Centers",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Communion] buildings with [Faith] [in cities following this religion]",
+			"Only available <before adopting [Art of War]> <before adopting [Cathedrals]> <before adopting [Divinity Schools]> <before adopting [Dojos]> <before adopting [Gardens]> <before adopting [Holy Fortresses]> <before adopting [Meeting Houses]> <before adopting [Mission Sites]> <before adopting [Pyramids]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Divinity Schools",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Divinity School] buildings for [200] [Faith] [in cities following this religion]",
+			"Only available <before adopting [Art of War]> <before adopting [Cathedrals]> <before adopting [Communion Centers]> <before adopting [Dojos]> <before adopting [Gardens]> <before adopting [Holy Fortresses]> <before adopting [Meeting Houses]> <before adopting [Mission Sites]> <before adopting [Pyramids]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Dojos",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Dojo] buildings for [200] [Faith] [in cities following this religion]",
+			"Only available <before adopting [Art of War]> <before adopting [Cathedrals]> <before adopting [Communion Centers]> <before adopting [Divinity Schools]> <before adopting [Gardens]> <before adopting [Holy Fortresses]> <before adopting [Meeting Houses]> <before adopting [Mission Sites]> <before adopting [Pyramids]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Gardens",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Garden] buildings for [200] [Faith] [in cities following this religion]",
+			"Only available <before adopting [Art of War]> <before adopting [Cathedrals]> <before adopting [Communion Centers]> <before adopting [Divinity Schools]> <before adopting [Dojos]> <before adopting [Holy Fortresses]> <before adopting [Meeting Houses]> <before adopting [Mission Sites]> <before adopting [Pyramids]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Holy Fortresses",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Holy Fortress] buildings for [200] [Faith] [in cities following this religion]",
+			"Only available <before adopting [Art of War]> <before adopting [Cathedrals]> <before adopting [Communion Centers]> <before adopting [Divinity Schools]> <before adopting [Dojos]> <before adopting [Gardens]> <before adopting [Meeting Houses]> <before adopting [Mission Sites]> <before adopting [Pyramids]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Meeting Houses",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Meeting House] buildings with [Faith] [in cities following this religion]",
+			"Only available <before adopting [Art of War]> <before adopting [Cathedrals]> <before adopting [Communion Centers]> <before adopting [Divinity Schools]> <before adopting [Dojos]> <before adopting [Gardens]> <before adopting [Holy Fortresses]> <before adopting [Mission Sites]> <before adopting [Pyramids]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Mission Sites",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Mission Site] buildings with [Faith] [in cities following this religion]",
+			"Only available <before adopting [Art of War]> <before adopting [Cathedrals]> <before adopting [Communion Centers]> <before adopting [Divinity Schools]> <before adopting [Dojos]> <before adopting [Gardens]> <before adopting [Holy Fortresses]> <before adopting [Meeting Houses]> <before adopting [Pyramids]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Pyramids",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Pyramid] buildings for [200] [Faith] [in cities following this religion]",
+			"Only available <before adopting [Art of War]> <before adopting [Cathedrals]> <before adopting [Communion Centers]> <before adopting [Divinity Schools]> <before adopting [Dojos]> <before adopting [Gardens]> <before adopting [Holy Fortresses]> <before adopting [Meeting Houses]> <before adopting [Mission Sites]> <hidden from users>"
+		]
 	},
 
 //Founder
@@ -466,7 +520,8 @@
 			"May buy [{Military} {Land}] units for [600] [Faith] [in cities following this religion] <during the [Postmodern era]> <hidden from users>",
 			"May buy [{Military} {Land}] units for [800] [Faith] [in cities following this religion] <during the [Information era]> <hidden from users>",
 			"May buy [{Military} {Land}] units for [1000] [Faith] [in cities following this religion] <starting from the [New Future era]> <hidden from users>",
-			"Only available <after adopting [Exodus of the Evangelists]>"
+			"Only available <after adopting [Exodus of the Evangelists]>",
+			"Only available <before adopting [Cathedrals]> <before adopting [Communion Centers]> <before adopting [Divinity Schools]> <before adopting [Dojos]> <before adopting [Gardens]> <before adopting [Holy Fortresses]> <before adopting [Meeting Houses]> <before adopting [Mission Sites]> <before adopting [Pyramids]> <hidden from users>"
 		]
 	},
 	{

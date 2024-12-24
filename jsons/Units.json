@@ -22,14 +22,17 @@
 		"cost": 120,
 		"requiredTech": "Engineering",
 		"upgradesTo": "Mechanized Worker",
-		"uniques": ["Can pass through impassable tiles",
+		"uniques": [
+			"Can pass through impassable tiles",
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Can build [Trench] improvements on tiles",
+			"Can build [Tunnel] improvements on tiles",
 			"Can instantly construct a [Remove Fallout] improvement <by consuming this unit>",
 			"Can instantly construct a [Remove Toxic Waste] improvement <by consuming this unit>",
-			"Turn this tile into a [Tunneled Mountain] tile <in [{non-[Natural Wonder]} {Mountain}] tiles> <by consuming this unit> <within [4] tiles of a [City center]>",
-			"[-50]% maintenance costs"]
+			"[-50]% construction time for [All] improvements <after discovering [Replaceable Parts]>",
+			"[-50]% maintenance costs"
+		]
 	},
 	{
 		"name": "Seastead Vessel",
@@ -436,7 +439,7 @@
 	{
 		"name": "Raiding Craft",
 		"unitType": "Ranged Water",
-		"requiredTech": "Sailing",
+		"requiredTech": "Optics",
 		"movement": 4,
 		"strength": 18,
 		"rangedStrength": 15,
@@ -456,7 +459,7 @@
 		"replaces": "Raiding Craft",
 		"uniqueTo": "The Mariners",
 		"unitType": "Ranged Water",
-		"requiredTech": "Sailing",
+		"requiredTech": "Optics",
 		"movement": 4,
 		"strength": 18,
 		"rangedStrength": 15,

@@ -67,7 +67,7 @@
 			"Desert",
 			"Hill",
 			"Mountain",
-			"Tunneled Mountain",
+			"Mountain Tunnel",
 			"Forest",
 			"Jungle",
 			"Swamp",
@@ -77,10 +77,13 @@
 		],
 		"gold": 1,
 		"turnsToBuild": 5,
-		"uniques": ["[+1 Gold] <after discovering [Plastics]>",
+		"techRequired": "Moisture Harvesting",
+		"uniques": [
+			"[+1 Gold] <after discovering [Plastics]>",
 			"[+1 Gold] <after discovering [Atmosphere Remediation]>",
 			"Cannot be built on [Fissure] tiles",
-			"Pillaging this improvement yields approximately [+10 Gold]"],
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
 		"shortcutKey": "U"
 	},
 	{
@@ -110,6 +113,17 @@
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "W"
+	},
+	{
+		"name": "Offshore mine",
+		"turnsToBuild": 8,
+		"techRequired": "Oceanography",
+		"uniques": [
+			"Can only be built to improve a resource",
+			"[+1 Production, +1 Science] <after discovering [Advanced Materials]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "M"
 	},
 	{
 		"name": "Powership",
@@ -184,7 +198,7 @@
 	},
 	{
 		"name": "Artificial glacier",
-		"terrainsCanBeBuiltOn": ["Permafrost", "Mountain", "Tunneled Mountain"],
+		"terrainsCanBeBuiltOn": ["Permafrost", "Mountain", "Mountain Tunnel"],
 		"gold": 3,
 		"science": 2,
 		"production": 1,
@@ -213,7 +227,7 @@
 			"Cannot be built on [Fissure] tiles",
 			"Cannot be built on [resource] tiles",
 			"[+1 Food] for each adjacent [Mountain]",
-			"[+1 Food] for each adjacent [Tunneled Mountain]",
+			"[+1 Food] for each adjacent [Mountain Tunnel]",
 			"[+1 Food, +1 Production] <with [1] to [6] neighboring [Grassland] tiles>",
 			"[+1 Food, +1 Production] <after discovering [Geo Engineering]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"],
@@ -361,6 +375,20 @@
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "B"
+	},
+
+	//Terraforming
+	{
+		"name": "Tunnel",
+		"terrainsCanBeBuiltOn": ["Mountain"],
+		"turnsToBuild": 4,
+		"techRequired": "Engineering",
+		"uniques": [
+			"Can be built outside your borders",
+			"Turn this tile into a [Mountain Tunnel] tile",
+			"Excluded from map editor"
+		],
+		"shortcutKey": "T"
 	},
 
 	//Removals
@@ -906,6 +934,7 @@
 			"Provides [1] [Aluminum] <in [{Featureless} {Permafrost}] tiles>",
 			"Provides [1] [Oil] <in [{Featureless} {Tundra}] tiles>",
 			"Cannot be built on [Water] tiles",
+			"Cannot be built on [Impeded terrain] tiles",
 			"Cannot be built on [Coal] tiles",
 			"Cannot be built on [Oil] tiles",
 			"Cannot be built on [Aluminum] tiles",

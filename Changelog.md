@@ -1007,7 +1007,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- Irregulars lose Skirmish and Urban Warfare I
 	- Partisans lose Skirmish, Precision, Extended Range, and Urban Warfare I
 - Purge Robots are now their own unit type. They must still be "given" promotions and cannot earn them.
-- Seastead Vessel receives increased tile improvement construction speed.
+- Seastead Vessel receives reduced tile improvement construction time.
 - Stalkers now start with the Prospector promotion instead of Forage, and their Strength buff at Rifling is increased to 25%.
 - Workers (but not Mounted/Mechanized Workers or CS Worker replacements) may now build water improvements (now that a resource that can spawn on Lakes has been introduced).
 - Crimson Line UUs:
@@ -1135,9 +1135,13 @@ Several of the following adjustments are based on what is planned for the Rebirt
 #### October - December 2024
 
 **Tech Adjustments**
-- Five new technologies added: Astrogation, Ecotheory, Rewilding, Re-Utilization, and Stealth (all except Astrogation are imported from the planned "Tech Expansion" update for Deciv 2; Re-Utilization replaces Plastics Recycling).
+- Eleven new technologies added: Astrogation, Ecotheory, Full-Spectrum Dominance, Hoplology, Moisture Harvesting, Mountain Exploration, Optics, Record Keeping, Rewilding, Re-Utilization, and Stealth. All of these except for Astrogation were imported from the "Tech Expansion" update for Deciv 2. Re-Utilization replaces Plastics Recycling.
+- Tech costs for the new + adjusted techs are now based on DeCiv 2 post-Tech Expansion instead of Redux. For those still using Redux instead of 2, be advised that this means some techs in Redux will be researched faster than they should be.
 - Advanced Materials now requires Full-Spectrum Dominance.
 - Future Tech now requires Astrogation and Stealth, but no longer requires Human Genome since the latter is required for Rewilding, which in turn is required for Geo Engineering.
+
+**Terrain Adjustments**
+- Tunneled Mountain renamed to Mountain Tunnel and buffed to provide +1 Production, in accordance with adjustments to Deciv 2 post-Tech Expansion.
 
 **Nation Adjustments**
 - The Oathsworn now have their Influence boost added directly to the UA instead of utilizing a dummy building.
@@ -1145,7 +1149,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **Building Adjustments**
 - Culture and Happiness buildings:
 	- Broadcast Tower (and replacements) nerfed to +10% Culture.
-	- Eco-Sanctuary moved to Rewilding as per the planned Tech Expansion update to Deciv 2.
+	- Eco-Sanctuary moved to Rewilding in accordance with the Tech Expansion update to Deciv 2.
 	- Interpretative Center has been temporarily deleted. (I say "temporarily", but who knows how long it will be before Tourism mechanics are implemented)
 	- Renovate Metal Pyramid was fixed so it's now a national project like it should be (yes, I miss the exploit of +26 Culture pyramids and +8 Culture to city connections too).
 - Industry buildings:
@@ -1155,6 +1159,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Water buildings:
 	- Water Plant and Rainwater Harvester buffed to +25% total Water.
 	- Greywater Treatment Plant and Condenser Cooler buffed to +15% total Water.
+	- Condenser Cooler is now available earlier, but also requires the city to be working a Moisture trap, in accordance with the adjustments made to the building after its addition to Deciv 2 post-Tech Expansion.
 - Military/Espionage buildings:
 	- Listening Post now requires Radio instead of Civil Service.
 - Faction/City-State UBs:
@@ -1163,11 +1168,16 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- The Caliphate:
 		- Houses of Submission/War renamed to Consultative Assembly and Allegiance Council.
 	- Camelot Foundation:
-		- PINDAR Station's Water yield increased to +3 if used with the Tech Expansion branch of Deciv 2.
+		- PINDAR Station's Water yield increased to +3.
+	- Crimson Line:
+		- Fortified Museum moved to new Record Keeping technology.
+		- Armory Station moved to new Hoplology technology.
 	- Deseret Nation:
 		- Cathedral School deleted and replaced with a new and more fitting UB.
+	- The Harbingers:
+		- State Dacha buffed to 25% Unhappiness reduction in the capital and a free Food Store like most other identity wonders.
 	- New Star:
-		- Mobile Encampment's Water yield increased to +3 if used with the Tech Expansion branch of Deciv 2.
+		- Mobile Encampment's Water yield increased to +3.
 	- Proklyatyye:
 		- State Assembly renamed again; it is now Verkhovny Sovet.
 
@@ -1185,6 +1195,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Colony Ship Project moved to Astrogation.
 - The Green Palace (Deciv 2 wonder) moved to Ecotheory as per the planned Tech Expansion update and nerfed to reduce the added Food to Factory Farms to +2.
 - National College buffed to where it should be: +3 Science, +50% Science. The nerfs in base DeCiv basically made it a worse and more costly University.
+- Open the Vault moved to new Record Keeping technology.
 - Supercollider adjustments:
 	- Base Science increased to +8.
 	- Great Scientist points increased to +3.
@@ -1196,7 +1207,9 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Unit Adjustments**
 - Mechanized Workers now ignore terrain costs.
+- Military Engineers can no longer consume themselves to instantly tunnel through Mountains; with Tunnels being a standard improvement in Deciv 2, the unit must slow build them. However, construction time is cut in half once Replaceable Parts is researched.
 - Naval unit adjustments (mostly nerfs):
+	- Raiding Craft + replacements moved from Sailing to Optics.
 	- Standard early and mid-game units (Dinghy, Raiding Craft, Patrol Boat, Gunboat, Attack Boat, Torpedo Boat) no longer have a chance to evade melee combat.
 	- Mariner UUs' chance to evade melee combat is reduced to 20%.
 	- Gunboat, Lagoon, Corvette, Torpedo Boat and Jet Boat reduced to +1 additional movement on Coast tiles instead of doubled movement. All other units that had doubled movement on Coast lose that bonus movement altogether.
@@ -1229,6 +1242,8 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- Weather Engineering's added yields to the appropriate improvements reduced to +1.
 
 **Belief Adjustments**
+- In light of AI adjustments which encourage them to pick Worship Buildings for both of their Follower Beliefs, players (both human and AI) are now only allowed to pick *one* Worship Building as a Follower Belief.
+- Art of War cannot be adopted as the Reformation Belief if the player has adopted a Worship Belief. This will only be a temporary nerf as another, much harsher one is planned for a future update.
 - Power of Light now gives Faith equal to 33% of a defeated unit's Strength after determining the old effect (25% of damage dealt to all units) was awarding a little too much Faith.
 
 **Improvement Adjustments**
@@ -1236,6 +1251,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Endowment Houses nerfed slightly: the additional +2 Faith gained from tech scaling has been removed.
 - Modular islands can now be built on resource-less Sunken Ruins tiles.
 - Moisture traps can now be built on Mountains.
+- Offshore mines (newly added improvement in DeCiv 2) may be slow built (8 turns on Standard speed) but do not provide additional luxury resource copies late-game.
 - Floating Settlements and Polders are now properly considered Food sources.
 
 **New City-State**
@@ -1254,6 +1270,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Mission to Isolationists (Annex Isolationists replacement for Deseret, +3 Culture/Faith instead of +5 Production, keeps the Weapons resources, gives a free Mission Site in the city)
 - Oil Lake (ancient wonder, starts at +1 Production/Water/Science)
 	- Restart Oil Lake Industry (corresponding national project, available at Chemistry, +4 Oil doubling at Land Remediation, +5 Production to the Oil Lake tile)
+- Wasteland Games (world wonder, unlocks at Radio, +6 Culture, +3 Happiness, free Social Policy, +30 to resting point for CS influence)
 
 **New Units**
 - Arroyo Sagestepper (State Guard replacement for Arroyo, Low Tech, extra strength when defending, starts with Skirmish)

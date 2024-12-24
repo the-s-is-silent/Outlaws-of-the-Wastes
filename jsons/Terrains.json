@@ -16,9 +16,10 @@
 		]
 	},
 	{
-		"name": "Tunneled Mountain",
+		"name": "Mountain Tunnel",
 		"type": "Land",
 		"impassable": false,
+		"production": 1,
 		"movementCost": 2,
 		"defenceBonus": 0.25,
 		"RGB": [120, 120, 120],
