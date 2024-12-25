@@ -3268,7 +3268,7 @@
 		"cost": 225,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Modern Armor",
-		"obsoleteTech": "Advanced Materials",
+		"obsoleteTech": "Full-Spectrum Dominance",
 		"uniques": [
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
@@ -3276,6 +3276,70 @@
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"
 		], //removed exclusion from Barbarian unit list
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Jet Rover",
+		"unitType": "Armor",
+		"replaces": "Missile Vehicle",
+		"uniqueTo": "Hexlock",
+		"movement": 4,
+		"strength": 65,
+		"cost": 265,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Modern Armor",
+		"obsoleteTech": "Full-Spectrum Dominance",
+		"uniques": [
+			"Only available <if [Factory] is constructed>",
+			"[+25]% Strength <vs [Air] units>",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"Can move after attacking",
+			"No defensive terrain penalty",
+			"Consumes [1] [Oil]"
+		],
+		"promotions": ["Amphibious"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Campaign Tank",
+		"unitType": "Armor",
+		"replaces": "Tank",
+		"uniqueTo": "New Star",
+		"movement": 4,
+		"strength": 60,
+		"cost": 245,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Modern Armor",
+		"obsoleteTech": "Full-Spectrum Dominance",
+		"uniques": [
+		    "[+15]% Strength <when attacking>",
+			"[-15]% Strength <when defending>",
+			"Can move after attacking",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Oil]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Modern Armor",
+		"unitType": "Armor",
+		"movement": 5,
+		"strength": 80,
+		"cost": 375,
+		"requiredTech": "Full-Spectrum Dominance",
+		"upgradesTo": "Advanced Armor",
+		"uniques": [
+			"Can move after attacking",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Oil]",
+			"Never appears as a Barbarian unit"
+		],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
 	},
@@ -3295,7 +3359,7 @@
 		],
 		"promotions": ["Powered Armor", "Drone Recon"],
 		"hurryCostModifier": 20,
-		"attackSound": "gdrAttack"
+		"attackSound": "tankshot"
 	},
 	{
 		"name": "Purge Robot",
@@ -3335,7 +3399,7 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Rocket Artillery",
 		"uniques": [
-			"[+100]% Strength <vs cities> <when attacking>",
+			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"[-50]% Strength <vs [Helicopter] units>",
 			"Must set up to ranged attack",

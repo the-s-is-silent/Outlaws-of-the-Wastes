@@ -1135,13 +1135,14 @@ Several of the following adjustments are based on what is planned for the Rebirt
 #### October - December 2024
 
 **Tech Adjustments**
-- Eleven new technologies added: Astrogation, Ecotheory, Full-Spectrum Dominance, Hoplology, Moisture Harvesting, Mountain Exploration, Optics, Record Keeping, Rewilding, Re-Utilization, and Stealth. All of these except for Astrogation were imported from the "Tech Expansion" update for Deciv 2. Re-Utilization replaces Plastics Recycling.
+- All new technologies added to DeCiv 2 in its Tech Expansion update are also added to this mod for compatibility reasons.
+- One entirely new technology, Astrogation, has been added alongside the DeCiv 2 techs.
 - Tech costs for the new + adjusted techs are now based on DeCiv 2 post-Tech Expansion instead of Redux. For those still using Redux instead of 2, be advised that this means some techs in Redux will be researched faster than they should be.
 - Advanced Materials now requires Full-Spectrum Dominance.
 - Future Tech now requires Astrogation and Stealth, but no longer requires Human Genome since the latter is required for Rewilding, which in turn is required for Geo Engineering.
 
 **Terrain Adjustments**
-- Tunneled Mountain renamed to Mountain Tunnel and buffed to provide +1 Production, in accordance with adjustments to Deciv 2 post-Tech Expansion.
+- Tunneled Mountain renamed to Mountain Tunnel and buffed to provide a base yield of 1 Production, in accordance with adjustments to DeCiv 2.
 
 **Nation Adjustments**
 - The Oathsworn now have their Influence boost added directly to the UA instead of utilizing a dummy building.
@@ -1159,8 +1160,10 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Water buildings:
 	- Water Plant and Rainwater Harvester buffed to +25% total Water.
 	- Greywater Treatment Plant and Condenser Cooler buffed to +15% total Water.
-	- Condenser Cooler is now available earlier, but also requires the city to be working a Moisture trap, in accordance with the adjustments made to the building after its addition to Deciv 2 post-Tech Expansion.
+	- Condenser Cooler is now available earlier, but also requires the city to be working a Moisture trap, in accordance with the adjustments made to the building after its addition to DeCiv 2 in the Tech Expansion update.
 - Military/Espionage buildings:
+	- Armory now requires Hoplology, and doesn't require the city to work an improved Weapons tile.
+	- Armaments Production Line now requires an Armory instead of providing a free one.
 	- Listening Post now requires Radio instead of Civil Service.
 - Faction/City-State UBs:
 	- Aztlán:
@@ -1170,8 +1173,8 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- Camelot Foundation:
 		- PINDAR Station's Water yield increased to +3.
 	- Crimson Line:
-		- Fortified Museum moved to new Record Keeping technology.
-		- Armory Station moved to new Hoplology technology.
+		- Fortified Museum moved to Record Keeping.
+		- Armory Station moved to Hoplology.
 	- Deseret Nation:
 		- Cathedral School deleted and replaced with a new and more fitting UB.
 	- The Harbingers:
@@ -1193,9 +1196,9 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Amager Bakke now provides an early Advanced Energy Recycling Plant (thus preventing the city that owns it from rebuilding Coal/Oil Plants or building Nuclear Plants). It also adds +15% Production to the city to offset the Production penalty of the Advanced Energy Recycling Plant.
 - Biosphere Project moved to Atmosphere Remediation.
 - Colony Ship Project moved to Astrogation.
-- The Green Palace (Deciv 2 wonder) moved to Ecotheory as per the planned Tech Expansion update and nerfed to reduce the added Food to Factory Farms to +2.
+- The Green Palace (Deciv 2 wonder) nerfed to reduce the added Food to Factory Farms to +2.
 - National College buffed to where it should be: +3 Science, +50% Science. The nerfs in base DeCiv basically made it a worse and more costly University.
-- Open the Vault moved to new Record Keeping technology.
+- Open the Vault moved to Record Keeping.
 - Supercollider adjustments:
 	- Base Science increased to +8.
 	- Great Scientist points increased to +3.
@@ -1216,7 +1219,8 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- Attack Boat and Corvette's base movement increased to 5.
 	- Drone Ship can no longer carry units.
 	- All of the nerfs to base DeCiv units will also be applied directly to Deciv 2.
-- Stealth Fighter/Bomber moved to Stealth technology, as per the planned Tech Expansion update to Deciv 2.
+- Modern Armor moved to Full-Spectrum Dominance. Tanks (and replacements) now obsolete at that tech.
+- Stealth Fighter/Bomber moved to Stealth technology.
 - SS Casing now unlocks at Future Materials.
 - SS Cockpit now unlocks at Astrogation.
 

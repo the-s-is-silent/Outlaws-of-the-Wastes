@@ -96,6 +96,21 @@
 		"requiredTech": "Chemistry"
 	},
 	{
+		"name": "State Archive",
+		"isNationalWonder": true,
+		"cost": 125,
+		"culture": 3,
+		"uniques": [
+			"[+1 Science] [in this city] <with [Artifacts]>",
+			"[+1 Science] [in this city] <with [Books]>",
+			"[+1 Science] [in this city] <with [Data]>",
+			"[+1 Science] [in this city] <with [Electronics]>",
+			"[+2 Science] [in this city] <when above [0] [Power]>",
+			"Gain a free [Library] [in this city]"
+		],
+		"requiredTech": "Record Keeping"
+	},
+	{
 		"name": "National Reservoir System",
 		"isNationalWonder": true,
 		"cost": 125,
@@ -129,6 +144,18 @@
 			"Free [Great Admiral] appears",
 			"Only available <in cities without a [Military Academy]>"],
 		"requiredTech": "Combined Arms"
+	},
+	{
+		"name": "Warnet",
+		"isNationalWonder": true,
+		"uniques": [
+			"[+20]% Strength <for [Military] units>",
+			"Only available <if [Armaments Production Line] is constructed in at least [4] of [Your] cities>",
+			"Only available <if [Armor Production Line] is constructed in at least [4] of [Your] cities>",
+			"Only available <if [Aerospace Facility] is constructed in at least [4] of [Your] cities>",
+			"Only available <if [Decryption Center] is constructed in at least [4] of [Your] cities>"
+		],
+		"requiredTech": "Full-Spectrum Dominance"
 	},
 	{
 		"name": "Microwave Power Satellite",
@@ -264,7 +291,7 @@
 		"quote": "'The conquest of space must and will go ahead. That much we know. That much we can say with confidence and conviction.' - John F. Kennedy"
 	},
 
-	//New buildings
+	//New buildings (including "DeCiv 2: Tech Expansion" content)
 	{
 		"name": "Jeweler",
 		"requiredNearbyImprovedResources": ["Gems", "Silver"],
@@ -272,9 +299,28 @@
 		"culture": 2,
 		"maintenance": 0,
 		"hurryCostModifier": 15,
-		"uniques": ["[+1 Production, +2 Gold, +1 Culture] from [Gems] tiles [in this city]",
-			"[+1 Production, +2 Gold, +1 Culture] from [Silver] tiles [in this city]"],
+		"uniques": [
+			"[+1 Production, +2 Gold, +1 Culture] from [Gems] tiles [in this city]",
+			"[+1 Production, +2 Gold, +1 Culture] from [Silver] tiles [in this city]"
+		],
 		"requiredTech": "Machinery"
+	},
+	{
+		"name": "Observatory",
+		"maintenance": 1,
+		"science": 2,
+		"hurryCostModifier": 15,
+		"replacementTextForUniques": "+2 Science from Mountain tiles in this city (excluding Ancient Wonders), increasing to +4 after discovering Ecotheory; +2 Science in this city with access to Power",
+		"uniques": [
+			"[+2 Science] from [{non-[Natural Wonder]} {Mountain}] tiles [in this city]",
+			"[+2 Science] from [Mountain Tunnel] tiles [in this city]",
+			"[+2 Science] from [Desert Mountain] tiles [in this city] <if [Forgotten Factions for Deciv] is enabled>",
+			"[+2 Science] from [{non-[Natural Wonder]} {Mountain}] tiles [in this city] <after discovering [Ecotheory]>",
+			"[+2 Science] from [Mountain Tunnel] tiles [in this city] <after discovering [Ecotheory]>",
+			"[+2 Science] from [Desert Mountain] tiles [in this city] <after discovering [Ecotheory]> <if [Forgotten Factions for Deciv] is enabled>",
+			"[+2 Science] [in this city] <when above [0] [Power]>"
+		],
+		"requiredTech": "Mountain Exploration"
 	},
 	{
 		"name": "Windmill Generator",
@@ -3879,7 +3925,7 @@
 			"[Personnel] units gain the [Infantry Weapons] promotion",
 			"[+10]% Production when constructing [Military] units [in this city] <when above [-2] [Power]>",
 			"Only available <in cities with a [Factory]>",
-			"Gain a free [Armory] [in this city]"
+			"Only available <in cities with a [Armory]>"
 		],
 		"requiredTech": "Munitions"
 	},
@@ -4568,6 +4614,16 @@
 		"requiredTech": "Construction"
 	},
 	{
+		"name": "Armory",
+		"hurryCostModifier": 25,
+		"requiredTech": "Hoplology",
+		"uniques": [
+			"New [Military] units start with [15] Experience [in this city]",
+			"[+1 Production] from [Weapons] tiles [in this city]",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
 		"name": "Military Academy",
 		"isNationalWonder": true,
 		"requiredBuilding": "Barracks",
@@ -4664,12 +4720,14 @@
 		"isNationalWonder": true,
 		"culture": 3,
 		"cost": 150,
-		"uniques": ["Can only be built <in [Capital] cities>",
+		"uniques": [
+			"Can only be built <in [Capital] cities>",
 			"[+1 Production] from [Railroad] tiles [in all cities]",
 			"[+1 Gold] from each Trade Route",
 			"Consumes [1] [Power]",
 			"Only available <if [Factory] is constructed in all [non-[Puppeted]] cities>",
-			"Cost increases by [30] per owned city"],
+			"Cost increases by [30] per owned city"
+		],
 		"requiredTech": "Railroads"
 	},
 	{
@@ -4680,11 +4738,13 @@
 		"maintenance": 2,
 		"hurryCostModifier": 0,
 		"requiredNearbyImprovedResources": ["Metal", "Aluminum"],
-		"uniques": ["[+1 Production] from [Metal] tiles [in this city]",
+		"uniques": [
+			"[+1 Production] from [Metal] tiles [in this city]",
 			"[+2 Production] from [Aluminum] tiles [in this city]",
 			"Only available <in cities with a [Factory]>",
 			"Only available <in cities with a [Electrostatic Generator]>",
-			"Consumes [1] [Power]"],
+			"Consumes [1] [Power]"
+		],
 		"requiredTech": "Plastics"
 	},
 	{
