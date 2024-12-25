@@ -1207,7 +1207,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Unit Adjustments**
 - Mechanized Workers now ignore terrain costs.
-- Military Engineers can no longer consume themselves to instantly tunnel through Mountains; with Tunnels being a standard improvement in Deciv 2, the unit must slow build them. However, construction time is cut in half once Replaceable Parts is researched.
+- Military Engineers and Aurelian Group's Diggers can no longer consume themselves to instantly tunnel through Mountains; with Tunnels being a standard improvement in Deciv 2, the units must now slow build them. However, construction time is cut in half for Military Engineers once Replaceable Parts is researched. Mechanized Workers can still instant tunnel.
 - Naval unit adjustments (mostly nerfs):
 	- Raiding Craft + replacements moved from Sailing to Optics.
 	- Standard early and mid-game units (Dinghy, Raiding Craft, Patrol Boat, Gunboat, Attack Boat, Torpedo Boat) no longer have a chance to evade melee combat.
