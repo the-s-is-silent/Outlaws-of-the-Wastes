@@ -6303,6 +6303,23 @@
 			"Will not be displayed in Civilopedia"
 		]
 	},
+	{
+		"name": "Asian Garden Mall",
+		"uniqueTo": "Tự Do",
+		"food": 2,
+		"gold": 2,
+		"culture": 2,
+		"percentStatBonus": {"food": 5, "gold": 5, "culture": 5},
+		"cost": 0,
+		"uniques": [
+			"[+1] population [in this city]",
+			"Free [Tự Vệ Quân] appears",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built <in [Capital] cities>",
+			"Destroyed when the city is captured",
+			"Gain a free [Market] [in this city]"
+		]
+	},
 
 	//Religion buildings
 	{

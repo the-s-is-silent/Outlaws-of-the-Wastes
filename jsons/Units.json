@@ -2355,6 +2355,23 @@
 		"promotions": ["Urban Warfare I"],
 		"attackSound": "machinegun"
 	},
+	{
+		"name": "Tự Vệ Quân",
+		"replaces": "State Guard",
+		"uniqueTo": "Tự Do",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 36,
+		"interceptRange": 1,
+		"cost": 50,
+		"upgradesTo": "Soldier",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"[+25]% Strength <when fighting in [Friendly Land] tiles>"
+		],
+		"attackSound": "machinegun"
+	},
 
 	//Adjusted units from the base scenario and other mods
 	{

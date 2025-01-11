@@ -1198,6 +1198,24 @@
 		"innerColor": [232, 95, 221],
 		"cities": ["Powderhorn"]
 	},
+	{
+		"name": "Tự Do",
+		"adjective": ["Tự Do"],
+		"cityStateType": "Weapons",
+		"startBias": ["Coast"],
+		// "style": "",
+		"uniques": [
+			"All newly-trained [relevant] units [in all cities] receive the [Reconnaissance I] promotion",
+			"All newly-trained [relevant] units [in all cities] receive the [Urban Warfare I] promotion",
+			"All newly-trained [relevant] units [in all cities] receive the [Urban Warfare II] promotion"
+		],
+		"declaringWar": "You are at war with freedom itself. You cannot hold back the forces of liberation.",
+		"attacked": "Today begins the war that will end in your destruction.",
+		"defeated": "You think you have defeated us? The spirit of resistance is immortal and will haunt your people for the rest of their days.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [51, 51, 255],
+		"cities": ["Tự Do"]
+	},
 
 	//Barbarian
 	{
