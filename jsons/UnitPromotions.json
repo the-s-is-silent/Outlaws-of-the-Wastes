@@ -89,7 +89,7 @@
 	{
 		"name": "Skirmish",
 		"uniques": [
-			"Withdraws before melee combat <with [75]% chance>",
+			"Withdraws before melee combat <with [50]% chance>",
 			"[25]% XP gained from combat",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
@@ -633,18 +633,18 @@
 	{
 		"name": "Terrascape",
 		"uniques": [
-			"Turn this tile into a [Badlands] tile <in [{non-[Natural Wonder]} {non-[resource]} {non-[Badlands]} {Land}] tiles> <[2] times> <after which this unit is consumed>",
-			"Turn this tile into a [Wasteland] tile <in [{non-[Natural Wonder]} {non-[resource]} {non-[Wasteland]} {Land}] tiles> <[2] times> <after which this unit is consumed>",
-			"Turn this tile into a [Desert] tile <in [{non-[Natural Wonder]} {non-[resource]} {non-[Desert]} {Land}] tiles> <[2] times> <after which this unit is consumed>",
-			"Turn this tile into a [Tundra] tile <in [{non-[Natural Wonder]} {non-[resource]} {non-[Tundra]} {Land}] tiles> <[2] times> <after which this unit is consumed>",
-			"Turn this tile into a [Hill] tile <in [{non-[Natural Wonder]} {non-[resource]} {non-[Hill]} {Land}] tiles> <[2] times> <after which this unit is consumed>",
-			"Turn this tile into a [Mountain Tunnel] tile <in [{non-[Natural Wonder]} {Mountain}] tiles> <within [4] tiles of a [City center]> <[2] times> <after which this unit is consumed>",
-			"Turn this tile into a [Coast] tile <in [{non-[Natural Wonder]} {Ocean}] tiles> <[2] times> <after which this unit is consumed>",
-			"Turn this tile into a [Ocean] tile <in [{non-[Natural Wonder]} {Coast}] tiles> <[2] times> <after which this unit is consumed>",
-			"Turn this tile into a [Desert] tile <in [{non-[Natural Wonder]} {non-[resource]} {Coast}] tiles> <[2] times> <after which this unit is consumed>",
-			"Turn this tile into a [Desert] tile <in [{non-[Natural Wonder]} {Lakes}] tiles> <[2] times> <after which this unit is consumed>",
-			"Turn this tile into a [Lakes] tile <in [{non-[Natural Wonder]} {non-[resource]} {Land}] tiles> <[2] times> <after which this unit is consumed>",
-			"Turn this tile into a [Coast] tile <in [{non-[Natural Wonder]} {non-[resource]} {Land}] tiles> <[2] times> <after which this unit is consumed>"
+			"Turn this tile into a [Badlands] tile <in [{non-[Natural Wonder]} {non-[resource]} {non-[Badlands]} {Land}] tiles> <for all movement> <[2] times> <after which this unit is consumed>",
+			"Turn this tile into a [Wasteland] tile <in [{non-[Natural Wonder]} {non-[resource]} {non-[Wasteland]} {Land}] tiles> <for all movement> <[2] times> <after which this unit is consumed>",
+			"Turn this tile into a [Desert] tile <in [{non-[Natural Wonder]} {non-[resource]} {non-[Desert]} {Land}] tiles> <for all movement> <[2] times> <after which this unit is consumed>",
+			"Turn this tile into a [Tundra] tile <in [{non-[Natural Wonder]} {non-[resource]} {non-[Tundra]} {Land}] tiles> <for all movement> <[2] times> <after which this unit is consumed>",
+			"Turn this tile into a [Hill] tile <in [{non-[Natural Wonder]} {non-[resource]} {non-[Hill]} {Land}] tiles> <for all movement> <[2] times> <after which this unit is consumed>",
+			"Turn this tile into a [Mountain Tunnel] tile <in [{non-[Natural Wonder]} {Mountain}] tiles> <for all movement> <[2] times> <after which this unit is consumed>",
+			"Turn this tile into a [Coast] tile <in [{non-[Natural Wonder]} {Ocean}] tiles> <for all movement> <[2] times> <after which this unit is consumed>",
+			"Turn this tile into a [Ocean] tile <in [{non-[Natural Wonder]} {Coast}] tiles> <for all movement> <[2] times> <after which this unit is consumed>",
+			"Turn this tile into a [Desert] tile <in [{non-[Natural Wonder]} {non-[resource]} {Coast}] tiles> <for all movement> <[2] times> <after which this unit is consumed>",
+			"Turn this tile into a [Desert] tile <in [{non-[Natural Wonder]} {Lakes}] tiles> <for all movement> <[2] times> <after which this unit is consumed>",
+			"Turn this tile into a [Lakes] tile <in [{non-[Natural Wonder]} {non-[resource]} {Land}] tiles> <for all movement> <[2] times> <after which this unit is consumed>",
+			"Turn this tile into a [Coast] tile <in [{non-[Natural Wonder]} {non-[resource]} {Land}] tiles> <for all movement> <[2] times> <after which this unit is consumed>"
 		]
 	},
 	{

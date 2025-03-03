@@ -567,7 +567,7 @@
 			"Naturalism": 0,
 			"Mechanization": 0,
 			"Bionics": 40,
-			"Legacy": 40
+			"Legacy": 10
 		},
 		"civilopediaText": [
 			{
@@ -588,11 +588,11 @@
 		"happiness": 5,
 		"faith": 3,
 		"military": 8,
-		"aggressive": 9,
-		"declareWar": 9,
+		"aggressive": 8,
+		"declareWar": 7,
 		"commerce": 5,
 		"diplomacy": 5,
-		"loyal": 3,
+		"loyal": 6,
 		"expansion": 8,
 		"priorities": {
 			"Adaptation": 20,
@@ -656,7 +656,6 @@
 	},
 	{
 		"name": "Triumphant Caliph",
-		"preferredVictoryType": "Domination",
 		"food": 4,
 		"production": 7,
 		"gold": 5,
@@ -723,7 +722,6 @@
 	},
 	{
 		"name": "Hemings",
-		"preferredVictoryType": "Diplomatic",
 		"production": 5,
 		"food": 5,
 		"gold": 9,

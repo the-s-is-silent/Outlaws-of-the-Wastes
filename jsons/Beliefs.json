@@ -225,39 +225,49 @@
 	{
 		"name": "Faith Healers",
 		"type": "Follower",
-		"uniques": ["All newly-trained [Personnel] units [in cities following this religion] receive the [Healing Hands] promotion",
+		"uniques": [
+			"All newly-trained [Personnel] units [in cities following this religion] receive the [Healing Hands] promotion",
 			"[All] Units adjacent to this city heal [+10] HP per turn when healing",
-			"[+2 Faith] from every [Hospital]"]
+			"[+2 Faith] from every [Hospital]"
+		]
 	},
 	{
 		"name": "Feast of Flesh",
 		"type": "Follower",
-		"uniques": ["[+2 Food, +1 Happiness] from every [Ranch]",
+		"uniques": [
+			"[+2 Food, +1 Happiness] from every [Ranch]",
 			"Only available <before adopting [Feed the Faithful]>",
 			"Only available <before adopting [Mandatory Rationing]>",
-			"Only available <before adopting [Obey the Elders]>"]
+			"Only available <before adopting [Obey the Elders]>"
+		]
 	},
 	{
 		"name": "Feed the Faithful",
 		"type": "Follower",
-		"uniques": ["[+1 Food] from every [Shrine]",
+		"uniques": [
+			"[+1 Food] from every [Shrine]",
 			"[+1 Food] from every [Monastery]",
 			"[+1 Food] from every [Megachurch]",
 			"Only available <before adopting [Obey the Elders]>",
 			"Only available <before adopting [Mandatory Rationing]>",
-			"Only available <before adopting [Feast of Flesh]>"]
+			"Only available <before adopting [Feast of Flesh]>"
+		]
 	},
 	{
 		"name": "Followers of Old World Crafts",
 		"type": "Follower",
-		"uniques": ["[+1 Gold, +1 Culture] from every [Jeweler]",
-			"[+1 Gold, +1 Culture] from every [Distillery]"]
+		"uniques": [
+			"[+1 Gold, +1 Culture] from every [Jeweler]",
+			"[+1 Gold, +1 Culture] from every [Distillery]"
+		]
 	},
 	{
 		"name": "Great Commission",
 		"type": "Follower",
-		"uniques": ["[+1 Gold, +1 Faith] from every [Harbor]",
-			"[+1 Gold, +1 Faith] from every [Seaport]"]
+		"uniques": [
+			"[+1 Gold, +1 Faith] from every [Harbor]",
+			"[+1 Gold, +1 Faith] from every [Seaport]"
+		]
 	},
 	{
 		"name": "Happiness in Faith",
@@ -272,18 +282,22 @@
 	{
 		"name": "Mandatory Rationing",
 		"type": "Follower",
-		"uniques": ["[+2 Food, +2 Gold, -1 Happiness] [in cities following this religion]",
+		"uniques": [
+			"[+2 Food, +2 Gold, -1 Happiness] [in cities following this religion]",
 			"Only available <before adopting [Feast of Flesh]>",
 			"Only available <before adopting [Feed the Faithful]>",
-			"Only available <before adopting [Obey the Elders]>"]
+			"Only available <before adopting [Obey the Elders]>"
+		]
 	},
 	{
 		"name": "Obey the Elders",
 		"type": "Follower",
-		"uniques": ["[+2 Food, +2 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>",
+		"uniques": [
+			"[+2 Food, +2 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>",
 			"Only available <before adopting [Feast of Flesh]>",
 			"Only available <before adopting [Feed the Faithful]>",
-			"Only available <before adopting [Mandatory Rationing]>"]
+			"Only available <before adopting [Mandatory Rationing]>"
+		]
 	},
 	{
 		"name": "Public Prayer",
@@ -293,9 +307,11 @@
 	{
 		"name": "Sacred Waters",
 		"type": "Follower",
-		"uniques": ["[+1 Happiness, +1 Faith] [in cities following this religion] <in [River] tiles>",
+		"uniques": [
+			"[+1 Happiness, +1 Faith] [in cities following this religion] <in [River] tiles>",
 			"[+1 Food, +1 Faith] from every [Hydroponic Farming]",
-			"[+1 Gold, +1 Faith] from every [Greywater Treatment Plant]"]
+			"[+1 Gold, +1 Faith] from every [Greywater Treatment Plant]"
+		]
 	},
 	{
 		"name": "Sanctified Innovations",
@@ -305,8 +321,10 @@
 	{
 		"name": "Trust the Science",
 		"type": "Follower",
-		"uniques": ["[+1 Science, +1 Faith] from every [University] <in cities with at least [5] [Followers of this Religion]>",
-			"[+1 Science, +1 Faith] from every [Public School] <in cities with at least [5] [Followers of this Religion]>"]
+		"uniques": [
+			"[+1 Science, +1 Faith] from every [University] <in cities with at least [5] [Followers of this Religion]>",
+			"[+1 Science, +1 Faith] from every [Public School] <in cities with at least [5] [Followers of this Religion]>"
+		]
 	},
 	{
 		"name": "Veneration of the Elders",
@@ -427,6 +445,11 @@
 
 //Enhancer
 	{
+		"name": "Defender of the Faith",
+		"type": "Enhancer",
+		"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"]
+	},
+	{
 		"name": "Funeral Rites",
 		"type": "Enhancer",
 		"uniques": [
@@ -435,19 +458,28 @@
 		]
 	},
 	{
+		"name": "Just War",
+		"type": "Enhancer",
+		"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"]
+	},
+	{
 		"name": "Missionary Zeal",
 		"type": "Enhancer",
-		"uniques": ["[Faith] cost of purchasing [Philosopher] units [-25]%",
+		"uniques": [
+			"[Faith] cost of purchasing [Philosopher] units [-25]%",
 			"[+25]% Spread Religion Strength <for [Philosopher] units>",
-			"[Philosopher] units gain the [Zeal] promotion"]
+			"[Philosopher] units gain the [Zeal] promotion"
+		]
 	},
 	{
 		"name": "Path of the Sage",
 		"type": "Enhancer",
-		"uniques": ["[+25]% Spread Religion Strength <for [Great Sage] units>",
+		"uniques": [
+			"[+25]% Spread Religion Strength <for [Great Sage] units>",
 			"[-25]% Faith cost of generating Great Prophet equivalents",
 			"[Faith] cost of purchasing [Great Sage] units [-25]%",
-			"[Great Sage] units gain the [Zeal] promotion"]
+			"[Great Sage] units gain the [Zeal] promotion"
+		]
 	},
 	{
 		"name": "Power of Light",
@@ -460,28 +492,34 @@
 	{
 		"name": "Religious Troubadours",
 		"type": "Enhancer",
-		"uniques": ["[+2 Faith] from each Trade Route",
+		"uniques": [
+			"[+2 Faith] from each Trade Route",
 			"[+50]% Natural religion spread [in all cities connected to capital]",
 			"Only available <before adopting [Exodus of the Evangelists]>",
 			"Only available <before adopting [Religious Unity]>",
-			"Only available <before adopting [The Radiant City]>"]
+			"Only available <before adopting [The Radiant City]>"
+		]
 	},
 	{
 		"name": "Religious Unity",
 		"type": "Enhancer",
-		"uniques": ["[+100]% Natural religion spread [in City-State cities]",
+		"uniques": [
+			"[+100]% Natural religion spread [in City-State cities]",
 			"Resting point for Influence with City-States following this religion [+15]",
 			"Only available <before adopting [Exodus of the Evangelists]>",
 			"Only available <before adopting [Religious Troubadours]>",
-			"Only available <before adopting [The Radiant City]>"]
+			"Only available <before adopting [The Radiant City]>"
+		]
 	},
 	{
 		"name": "The Radiant City",
 		"type": "Enhancer",
-		"uniques": ["[+100]% Natural religion spread [in capital]",
+		"uniques": [
+			"[+100]% Natural religion spread [in capital]",
 			"Only available <before adopting [Exodus of the Evangelists]>",
 			"Only available <before adopting [Religious Troubadours]>",
-			"Only available <before adopting [Religious Unity]>"]
+			"Only available <before adopting [Religious Unity]>"
+		]
 	},
 	{
 		"name": "Thought Control",
@@ -496,9 +534,11 @@
 	{
 		"name": "Unity of the Sages",
 		"type": "Enhancer",
-		"uniques": ["[+4 Faith, +2 Production] from every [Seminary]",
+		"uniques": [
+			"[+4 Faith, +2 Production] from every [Seminary]",
 			"[+4 Faith, +2 Production] from every [Oracle]",
-			"[+4 Faith, +2 Production] from every [Endowment House]"]
+			"[+4 Faith, +2 Production] from every [Endowment House]"
+		]
 		// TODO: Should also have the Unity of the Prophets effect of Censors/Sages only reducing foreign religion followers by half once BNW content is implemented
 	},
 
@@ -506,8 +546,10 @@
 	{
 		"name": "Annihilationism",
 		"type": "Enhancer",
-		"uniques": ["Cities are razed [3] times as fast",
-			"Only available <after adopting [Exodus of the Evangelists]>"]
+		"uniques": [
+			"Cities are razed [3] times as fast",
+			"Only available <after adopting [Exodus of the Evangelists]>"
+		]
 	},
 	{
 		"name": "Art of War",
@@ -527,64 +569,78 @@
 	{
 		"name": "Atomic Judgment",
 		"type": "Enhancer",
-		"uniques": ["Provides [4] [Uranium]",
+		"uniques": [
+			"Provides [4] [Uranium]",
 			"[+20]% Strength <for [Nuclear Weapon] units> <when attacking>",
-			"Only available <after adopting [Exodus of the Evangelists]>"]
+			"Only available <after adopting [Exodus of the Evangelists]>"
+		]
 	},
 	{
 		"name": "Blessing of Peace",
 		"type": "Enhancer",
-		"uniques": ["[+2 Food] from every [Barracks]",
+		"uniques": [
+			"[+2 Food] from every [Barracks]",
 			"[+20]% growth [in cities following this religion] <when not at war>",
-			"Only available <after adopting [Exodus of the Evangelists]>"]
+			"Only available <after adopting [Exodus of the Evangelists]>"
+		]
 	},
 	{
 		"name": "Hopeful Habitability",
 		"type": "Enhancer",
-		"uniques": ["[+1 Food, +1 Faith] from every [Artificial atoll]",
+		"uniques": [
+			"[+1 Food, +1 Faith] from every [Artificial atoll]",
 			"[+1 Food, +1 Faith] from every [Artificial glacier]",
 			"[+1 Food, +1 Faith] from every [Artificial oasis]",
 			"[+1 Food, +1 Faith] from every [Grassland]",
 			"[+1 Food, +1 Faith] from every [Jungle Replanting Zone]",
 			"[+1 Food, +1 Faith] from every [Nature preserve]",
 			"[+1 Food, +1 Faith] from every [Tree plantation]",
-			"Only available <after adopting [Exodus of the Evangelists]>"]
+			"Only available <after adopting [Exodus of the Evangelists]>"
+		]
 	},
 	{
 		"name": "Jesuit Education",
 		"type": "Enhancer",
-		"uniques": ["May buy [Library] buildings with [Faith] for [2] times their normal Production cost",
+		"uniques": [
+			"May buy [Library] buildings with [Faith] for [2] times their normal Production cost",
 			"May buy [University] buildings with [Faith] for [2] times their normal Production cost",
 			"May buy [Public School] buildings with [Faith] for [2] times their normal Production cost",
 			"May buy [Research Lab] buildings with [Faith] for [2] times their normal Production cost",
-			"Only available <after adopting [Exodus of the Evangelists]>"]
+			"Only available <after adopting [Exodus of the Evangelists]>"
+		]
 	},
 	{
 		"name": "New Zion",
 		"type": "Enhancer",
-		"uniques": ["[+1 Production, +1 Food, +1 Gold, +1 Culture, +1 Faith] from every [Seminary]",
+		"uniques": [
+			"[+1 Production, +1 Food, +1 Gold, +1 Culture, +1 Faith] from every [Seminary]",
 			"[+1 Production, +1 Food, +1 Gold, +1 Culture, +1 Faith] from every [Oracle]",
 			"[+1 Production, +1 Food, +1 Gold, +1 Culture, +1 Faith] from every [Endowment House]",
-			"Only available <after adopting [Exodus of the Evangelists]>"]
+			"Only available <after adopting [Exodus of the Evangelists]>"
+		]
 	},
 	{
 		"name": "Puritan Ethic",
 		"type": "Enhancer",
-		"uniques": ["May buy [Forge] buildings with [Faith] for [2] times their normal Production cost",
+		"uniques": [
+			"May buy [Forge] buildings with [Faith] for [2] times their normal Production cost",
 			"May buy [Oil Refinery] buildings with [Faith] for [2] times their normal Production cost",
 			"May buy [Blast Furnace] buildings with [Faith] for [2] times their normal Production cost",
 			"May buy [Aluminum Smelter] buildings with [Faith] for [2] times their normal Production cost",
 			"May buy [Factory] buildings with [Faith] for [2] times their normal Production cost",
-			"May buy [Recycling Plant] buildings with [Faith] for [2] times their normal Production cost",
-			"Only available <after adopting [Exodus of the Evangelists]>"]
+			"May buy [Materials Recovery Facility] buildings with [Faith] for [2] times their normal Production cost",
+			"Only available <after adopting [Exodus of the Evangelists]>"
+		]
 	},
 	{
 		"name": "Sacred Sites",
 		"type": "Enhancer",
 		"replacementTextForUniques": "Cities which own a World Wonder receive +4 Water and Culture. Religious buildings purchased with Faith receive +2 Water, Culture and Faith.",
-		"uniques": ["[+4 Gold, +4 Culture] [in cities following this religion] <in cities with a [World Wonder]>",
+		"uniques": [
+			"[+4 Gold, +4 Culture] [in cities following this religion] <in cities with a [World Wonder]>",
 			"[+2 Gold, +2 Culture, +2 Faith] from every [Worship Center]",
-			"Only available <after adopting [Exodus of the Evangelists]>"]
+			"Only available <after adopting [Exodus of the Evangelists]>"
+		]
 	},
 
 //Deletions

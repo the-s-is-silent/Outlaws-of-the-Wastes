@@ -1288,3 +1288,25 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Misc.**
 - Quote attributions for several wonders have been restored.
+
+#### March 2025
+
+**Faction Adjustments**
+- Crimson Line no longer gets an inherent reduction in policy cost increase from cities owned. Additionally, the faction should now be slightly less likely to declare war on you and somewhat more likely to fight alongside you in war when controlled by the AI.
+
+**Unit Adjustments**
+- Border Patrols that upgrade from Wasteland Patrols will lose the Skirmish promotion.
+- RCB units no longer have a combat bonus against City-State units and the combat bonus against cities now only applies when attacking.
+- Volt Driver now upgrades to Machine Gun.
+
+**Promotion Adjustments**
+- Skirmish's evade rate reduced from 75% to 50%.
+- Terrascape now consumes all remaining movement points on the Mechanized Worker when a terraforming charge is used.
+
+**Belief Adjustments**
+- Defender of the Faith and Just War nerfed from 20% combat bonus to 15%.
+
+**New Buildings**
+- Collaborate with Isolationists (replaces Annex Isolationists for Atlas, +8 Science instead of +5 Production to the Isolated Island, +3 Science/+1 Culture to the city itself, +1 Great Scientist Point, keeps the Weapons resources)
+- Proxy Office (replaces Prison Camp for Atlas, no bonuses or penalties beyond the Courthouse effect)
+- Shale Extractor (replaces Oil Refinery for Atlas, +1 additional Production on Oil tiles and +1 additional copy of Oil, also added to Deciv 2)

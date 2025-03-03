@@ -313,13 +313,17 @@
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Border Patrol",
 		"promotions": ["Skirmish", "Reconnaissance I"],
-		"uniques": ["Low Tech", "Mounted", "Can move after attacking",
+		"uniques": [
+			"Low Tech",
+			"Mounted",
+			"Can move after attacking",
 			"[+50]% Strength <vs [Barbarian] units>",
 			"[+33]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs cities>",
 			"Only available <if [Wasteland Surveillance Initiative] is constructed>",
 			"Can only be built <in cities with a [Stable]>",
-			"Never appears as a Barbarian unit"],
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -336,12 +340,16 @@
 		"upgradesTo": "Helicopter",
 		"requiredResource": "Weapons",
 		"promotions": ["Reconnaissance I"],
-		"uniques": ["Personnel", "Can move after attacking",
+		"uniques": [
+			"Personnel",
+			"Can move after attacking",
 			"[+25]% Strength <when fighting in [Friendly Land] tiles>",
 			"[-25]% Strength <when fighting in [Foreign Land] tiles>",
 			"[-33]% Strength <vs cities> <when attacking>",
 			"Can only be built <in cities with a [Stable]>",
-			"Never appears as a Barbarian unit"],
+			"Never appears as a Barbarian unit",
+			"[This Unit] loses the [Skirmish] promotion <hidden from users>"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -868,11 +876,13 @@
 		"upgradesTo": "Exo-Trooper",
 		"hurryCostModifier": 20,
 		"promotions": ["Gas Mask"],
-		"uniques": ["Personnel", "Consumes [1] [Weapons]",
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]",
 			"[+15]% Strength <when fighting in [Friendly Land] tiles>",
-			"[+25]% Strength <vs [City-State] units>",
-			"[+25]% Strength <vs cities>",
-			"Only available <if [Factory] is constructed>"],
+			"[+25]% Strength <vs cities> <when attacking>",
+			"Only available <if [Factory] is constructed>"
+		],
 		"attackSound": "machinegun"
 	},
 	{
@@ -894,8 +904,7 @@
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Weapons]",
 			"[+15]% Strength <when fighting in [Friendly Land] tiles>",
-			"[+25]% Strength <vs [City-State] units>",
-			"[+25]% Strength <vs cities>"
+			"[+25]% Strength <vs cities> <when attacking>"
 		],
 		"promotions": ["Reconnaissance I", "Gas Mask"],
 		"attackSound": "shot"
@@ -1057,8 +1066,8 @@
 		"cost": 35,
 		"hurryCostModifier": 20,
 		"requiredTech": "Steel",
-		"obsoleteTech": "Rifling",
-		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Machine Gun",
 		"uniques": [
 			"Personnel",
 			"Must set up to ranged attack",

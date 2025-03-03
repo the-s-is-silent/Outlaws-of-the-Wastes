@@ -158,7 +158,6 @@
 			"Russian Unifier",
 			"[-50]% construction time for [All Road] improvements",
 			"[-25]% maintenance on road & railroads",
-			"Each city founded increases culture cost of policies [17]% less than normal",
 			"[+15]% [Production] [in all cities] <for [10] turns> <upon declaring war with a major Civilization>",
 			"Starts with [Machinery]",
 			"Starts with [Collectivism] adopted"
@@ -582,13 +581,14 @@
 		"innerColor": [45, 60, 120],
 		"style": "Corporate",
 		"uniqueName": "Creative Leadership",
-		"uniques": ["[{non-[Mounted]} {Melee} {Personnel}] units gain the [[Surveyor] ability] promotion",
+		"uniques": [
+			"[{non-[Mounted]} {Melee} {Personnel}] units gain the [[Surveyor] ability] promotion",
 			"Free [Great Scientist] appears <upon discovering [Education] technology>",
 			"[Great Scientist] is earned [30]% faster",
 			"Starts with [Rationalism] adopted",
 			"Cannot build [Enslaved] units",
-			"Comment [Cannot build Prison Camp buildings]",
-			"Comment [Cannot build Work Camp buildings]"],
+			"Comment [Cannot build Work Camp buildings]"
+		],
 		"cities": ["Atlas Canyon", "Praxis", "Opportunity", "Enterprise Gardens", "Pareto Estates", "Hanlon College", "The Reservation", "Zakharov Campus",
 			"Curiosity", "Progress Estates", "New Horizon", "Dunning Institute", "Kruger Laboratories", "Apogee", "Hypothesis", "Axiom",
 			"Euclid Center", "Prometheus Laboratories", "Zenith", "Von Neumann Institute"],

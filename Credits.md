@@ -13,7 +13,7 @@ The icons for Alma Frontier Guard and Alma State Guard are of my own creation.
 
 Unless otherwise specified, all of the following icons are from the Noun Project, licensed under Creative Commons or Public Domain. Also, if anyone feels like there is a better/more fitting icon out there for any particular building/unit/etc. than the one that is used, I am open to suggestions for replacement icons.
 
-Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmecac, Calpulli, Cichociemni, Defense Directorate (and its replacements), Defiant Guardian, Defiant Scout, Eagle Speaker, GROM, Killdozer, Momoztli, Mounted Railgun, Pale Veteran, Pax Observer, Pax Researcher, Pax Surveyor, Persevering Pax Researcher, Pithouse, Praetorium, Preservator (icon also missing from TCC-beta), Pridwen-class, Roller, Sejmik, SS Casing, SS Life Support, Super Mutant, Telpochcalli, Tiyanquitzli, Weaponized Yacht
+Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmecac, Calpulli, Cichociemni, Defense Directorate (and its replacements), Defiant Guardian, Defiant Scout, Eagle Speaker, GROM, Killdozer, Momoztli, Mounted Railgun, Pale Veteran, Pax Observer, Pax Researcher, Pax Surveyor, Persevering Pax Researcher, Pithouse, Praetorium, Preservator (icon also missing from TCC-beta), Pridwen-class, Roller, Sejmik, Super Mutant, Telpochcalli, Tiyanquitzli, Weaponized Yacht
 
 ### Building Icons
 - Abbey: [Westminster Abbey](https://thenounproject.com/icon/westminster-abbey-5459042/) by Brickclay, PK
@@ -104,6 +104,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Plumed Serpent Pyramid: [Aztec Pyramid](https://www.flaticon.com/free-icon/aztec-pyramid_2828046) by Freepik from Flaticon
 - Pre-War Cryo Sanctum: [cryogenic](https://thenounproject.com/icon/cryogenic-5753249/) by Rolas Design, ID
 - [Printing Press](https://thenounproject.com/icon/printing-press/11880/) by Mike Wirth (same icon used for Printing Press tech in base Unciv)
+- Proxy Office: [Office](https://thenounproject.com/icon/office-5875757/) by Firza Alamsyah, ID
 - Quorum of the Twelve: [city Council](https://thenounproject.com/icon/city-council-3566027/) by Thomas Deckert, US
 - Radio Freedom: [broadcast station](https://thenounproject.com/icon/broadcast-station-1777039/) by Petai Jantrapoon, TH
 - Raider Suppression Initiative: [Soldier Attack with Machine Gun](https://thenounproject.com/icon/soldier-attack-with-machine-gun-659094/) by Gan Khoon Lay
@@ -124,6 +125,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Sangreal Vault: [holy grail](https://thenounproject.com/icon/holy-grail-2256337/) by Arunika
 - School of Mines: [vocational school](https://thenounproject.com/icon/vocational-school-4100326/) by Edi Prastyo, ID
 - Sealed Facility: [Bunker](https://thenounproject.com/icon/bunker-2972283/) by IcoLabs, BR
+- Shale Extractor: [Fracking](https://thenounproject.com/icon/fracking-6507747/) by Designing Hub, PK
 - Sharashka: [Prison](https://thenounproject.com/icon/prison-3373255/) by Start Up Graphic Design, TH
 - Sharecropper Farm: [out building](https://thenounproject.com/icon/out-building-1848316/) by Smashicons, GB
 - Slave Quarters: [shack](https://thenounproject.com/icon/shack-2837993/) by ciciliakwo, FI
