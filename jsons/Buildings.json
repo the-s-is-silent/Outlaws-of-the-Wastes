@@ -66,7 +66,7 @@
 		"requiredBuilding": "Harbor",
 		"uniques": ["Must be next to [Coast]", 
 			"[Water] units gain the [Reinforced Hull] promotion",
-			"New [Water] units start with [15] Experience [in this city]",
+			"New [Water] units start with [15] XP [in this city]",
 			"[+2 Production] from [Drydock] tiles [in this city]",
 			"Only available <after adopting [Rediscovery Complete]>"],
 		"requiredTech": "Oceanography"
@@ -140,7 +140,7 @@
 		"isNationalWonder": true,
 		"requiredBuilding": "Seaport",
 		"uniques": ["Must be next to [Coast]",
-			"New [Water] units start with [30] Experience [in this city]",
+			"New [Water] units start with [30] XP [in this city]",
 			"Free [Great Admiral] appears",
 			"Only available <in cities without a [Military Academy]>"],
 		"requiredTech": "Combined Arms"
@@ -797,8 +797,8 @@
 		"happiness": 2,
 		"cost": 50,
 		"hurryCostModifier": -25,
-		"uniques": ["New [Mounted] units start with [15] Experience [in this city]",
-			"New [Mounted Ranged] units start with [15] Experience [in this city]",
+		"uniques": ["New [Mounted] units start with [15] XP [in this city]",
+			"New [Mounted Ranged] units start with [15] XP [in this city]",
 			"[+1 Production, +1 Culture] from [Horses] tiles [in this city]"],
 		"requiredTech": "Redomestication"
 	},
@@ -1067,7 +1067,7 @@
 		"uniques": [
 			"City Defense",
 			"Provides [1] [Weapons]",
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"[+1 Production] from [Weapons] tiles [in this city]",
 			"[+2 Production] [in this city] <after discovering [Railroads]>",
 			"Destroyed when the city is captured"
@@ -1160,7 +1160,7 @@
 			"City Defense",
 			"Population loss from nuclear attacks [-75]% [in this city]",
 			"Damage to garrison from nuclear attacks [-75]% [in this city]",
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"[+4 Production] from [Mountain] tiles [in this city]",
 			"[+4 Production] from [Mountain Tunnel] tiles [in this city]",
 			"Destroyed when the city is captured"
@@ -1189,7 +1189,7 @@
 		"culture": 2,
 		"cost": 40,
 		"maintenance": 0,
-		"uniques": ["New [Low Tech] units start with [15] Experience [in this city]"]
+		"uniques": ["New [Low Tech] units start with [15] XP [in this city]"]
 	},
 	{
 		"name": "Momoztli",
@@ -1213,7 +1213,7 @@
 		"cost": 50,
 		"maintenance": 1,
 		"uniques": ["[+5]% growth [in this city]",
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"]
 	},
 	{
@@ -1308,7 +1308,7 @@
 			"[+1 Science] from [Forest] tiles [in this city]",
 			"[+1 Science] from [Sunken Ruins] tiles [in this city]",
 			"[+25]% Great Person generation [in this city]",
-			"New [{Military} {Land}] units start with [15] Experience [in this city]",
+			"New [{Military} {Land}] units start with [15] XP [in this city]",
 			"Only available <in cities with a [Amoxcalli]>"],
 		"requiredTech": "Education"
 	},
@@ -1427,7 +1427,7 @@
 		"cost": 50,
 		"hurryCostMultiplier": 25,
 		"maintenance": 1,
-		"uniques": ["New [Military] units start with [15] Experience [in this city]",
+		"uniques": ["New [Military] units start with [15] XP [in this city]",
 			"Provides [1] [Slaves]",
 			"Destroyed when the city is captured"]
 	},
@@ -1914,8 +1914,8 @@
 			"[+15]% Production when constructing [Mounted] units [in this city]",
 			"[+15]% Production when constructing [Mounted Ranged] units [in this city]",
 			"[+15]% Production when constructing [Mounted Worker] units [in this city]",
-			"New [Mounted] units start with [15] Experience [in this city]",
-			"New [Mounted Ranged] units start with [15] Experience [in this city]",
+			"New [Mounted] units start with [15] XP [in this city]",
+			"New [Mounted Ranged] units start with [15] XP [in this city]",
 			"[+1 Production] from [Horses] tiles [in this city]"
 		],
 		"requiredTech": "Redomestication"
@@ -2523,7 +2523,7 @@
 		"requiredTech": "Currency",
 		"uniques": ["[+10]% growth [in all cities]",
 			"[+10]% Production when constructing [Personnel] units [in all cities]",
-			"New [Personnel] units start with [15] Experience [in all cities]",
+			"New [Personnel] units start with [15] XP [in all cities]",
 			"[Great General] is earned [50]% faster",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Smugglers' Guild]>",
@@ -4354,7 +4354,7 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Science] per [2] population [in this city] <after discovering [Networking]>",
 			"[+10]% Production when constructing [{Military} {Land}] units [in this city]",
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"Only available <in cities with a [Barracks]>"],
 		"requiredTech": "Civil Service"
 	},
@@ -4366,7 +4366,7 @@
 		"hurryCostModifier": 0,
 		"uniques": ["[+1 Science] per [2] population [in this city] <after discovering [Networking]>",
 			"[+1 Science, +1 Culture, +1 Faith] [in this city] <when above [0] [Power]>",
-			"New [Armor] units start with [15] Experience [in this city]",
+			"New [Armor] units start with [15] XP [in this city]",
 			"Only available <in cities with a [Sanctum]>"],
 		"requiredTech": "Civil Service"
 	},
@@ -4567,7 +4567,7 @@
 		"happiness": 2,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["New [Armor] units start with [15] Experience [in this city]",
+		"uniques": ["New [Armor] units start with [15] XP [in this city]",
 			"[+2 Happiness] [in this city] <when at war>",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Machinery"
@@ -4579,7 +4579,7 @@
 		"happiness": 2,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["New [Military] units start with [15] Experience [in this city]",
+		"uniques": ["New [Military] units start with [15] XP [in this city]",
 			"[+2 Happiness] [in this city] <after discovering [Social Engineering]>",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Engineering"
@@ -4633,7 +4633,7 @@
 		"cost": 50,
 		"maintenance": 1,
 		"uniques": ["[+15]% Production when constructing [Melee] units [in this city]",
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"]
 	},
 	{
@@ -4654,7 +4654,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Hoplology",
 		"uniques": [
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"[+1 Production] from [Weapons] tiles [in this city]",
 			"Destroyed when the city is captured"
 		]
@@ -4663,7 +4663,7 @@
 		"name": "Military Academy",
 		"isNationalWonder": true,
 		"requiredBuilding": "Barracks",
-		"uniques": ["New [Military] units start with [30] Experience [in this city]",
+		"uniques": ["New [Military] units start with [30] XP [in this city]",
 			"Only available <in cities without a [Naval War College]>",
 			"Free [Great General] appears"],
 		"requiredTech": "Combined Arms"
@@ -4672,7 +4672,7 @@
 		"name": "Guerilla Camp",
 		"replaces": "Military Academy",
 		"uniqueTo": "Enclavers",
-		"uniques": ["New [Military] units start with [15] Experience [in this city]",
+		"uniques": ["New [Military] units start with [15] XP [in this city]",
 			"All newly-trained [relevant] units [in this city] receive the [Guerilla Warfare II] promotion",
 			"Only available <in cities without a [Naval War College]>",
 			"Destroyed when the city is captured"],
@@ -4736,7 +4736,7 @@
 		"faith": 1,
 		"happiness": 1,
 		"uniques": ["Worship Center", "Unbuildable", "Only available <when religion is enabled>",
-			"New [Military] units start with [15] Experience [in this city]"]
+			"New [Military] units start with [15] XP [in this city]"]
 	},
 	{
 		"name": "Divinity School",
@@ -5935,7 +5935,7 @@
 		"happiness": 2,
 		"maintenance": 0,
 		"cost": 0,
-		"uniques": ["New [Military] units start with [30] Experience [in this city]",
+		"uniques": ["New [Military] units start with [30] XP [in this city]",
 			"Never destroyed when the city is captured"],
 		"requiredTech": "Iron Working"
 	},
@@ -6011,7 +6011,7 @@
 		"replaces": "Monument",
 		"culture": 2,
 		"cost": 0,
-		"uniques": ["New [Military] units start with [30] Experience [in this city]"]
+		"uniques": ["New [Military] units start with [30] XP [in this city]"]
 	},
 	{
 		"name": "Pole House",
@@ -6098,7 +6098,7 @@
 		"uniqueTo": "Defiance",
 		"cost": 0,
 		"uniques": ["Provides [2] [Weapons]",
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
 	},

@@ -431,7 +431,7 @@
 			{
 				"name": "Total War",
 				"uniques": ["[+25]% Production when constructing [Military] units [in all cities]",
-					"New [Military] units start with [15] Experience [in all cities]"],
+					"New [Military] units start with [15] XP [in all cities]"],
 				"requires": ["Scorched Earth"],
 				"row": 2,
 				"column": 5
@@ -855,7 +855,7 @@
 				"name": "Eugenics",
 				"requires": ["Mutagens"],
 				"uniques": ["[+25]% Strength <for [Personnel] units>",
-					"New [Personnel] units start with [25] Experience [in all cities]",
+					"New [Personnel] units start with [25] XP [in all cities]",
 					"[+2 Happiness] <in cities with at least [2] [Specialists]>"],
 				"row": 2,
 				"column": 2
