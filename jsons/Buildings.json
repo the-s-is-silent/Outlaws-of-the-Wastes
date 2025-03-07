@@ -230,6 +230,17 @@
 		"quote": "Remember the sacrifices of everyone we lost, and remember the treachery of those who took them from us. Remember our righteous desire to rain vengeance down upon those who transgressed against all of humankind, and remember our drive to ensure such a calamity will never again befall us. Remember always..."
 	},
 	{
+		"name": "International Ordnance Museum",
+		"isWonder": true,
+		"culture": 1,
+		"uniques": [
+			"All newly-trained [non-air] units [in this city] receive the [Know Your History] promotion",
+			"[+3 Culture] from [Weapons] tiles [in all cities]"
+		],
+		"requiredTech": "Hoplology",
+		"quote": "'The majority falls prey to the delusion, popular in some circles, that ordinary people are too careless and stupid to own guns, and we would be far better off leaving all weapons in the hands of professionals on the government payroll. But the simple truth, born of experience, is that tyranny thrives best where government need not fear the wrath of an armed people...' - Alex Kozinski"
+	},
+	{
 		"name": "Wasteland Games",
 		"isWonder": true,
 		"culture": 6,

@@ -1310,3 +1310,9 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Collaborate with Isolationists (replaces Annex Isolationists for Atlas, +8 Science instead of +5 Production to the Isolated Island, +3 Science/+1 Culture to the city itself, +1 Great Scientist Point, keeps the Weapons resources)
 - Proxy Office (replaces Prison Camp for Atlas, no bonuses or penalties beyond the Courthouse effect)
 - Shale Extractor (replaces Oil Refinery for Atlas, +1 additional Production on Oil tiles and +1 additional copy of Oil, also added to Deciv 2)
+
+**New Wonders**
+- International Ordnance Museum (world wonder, unlocks at Hoplology, +3 Culture to all Weapons tiles owned by the faction, new land and water units trained in the city earn XP 50% faster)
+
+**New Promotions**
+- Know Your History (granted by International Ordnance Museum)

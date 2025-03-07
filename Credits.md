@@ -74,6 +74,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Houri Brothel: [trade](https://www.flaticon.com/free-icon/trade_14431675) by [Backwoods](https://www.flaticon.com/authors/backwoods) from Flaticon
 - Ice Hockey Rink: [hockey](https://thenounproject.com/icon/hockey-3509449/) by nareerat jaikaew, TH
 - Ignitor's Tower: [Brick Tower](https://thenounproject.com/icon/brick-tower-384759/) by Creative Stall, PK
+- International Ordinance Museum: [Museum](https://thenounproject.com/icon/museum-7617687/) by Tithy, BD and [assault rifle](https://thenounproject.com/icon/assault-rifle-4259909/) by Arthur Shlain
 - Interpretative Center: [translate](https://thenounproject.com/icon/translate-3624415/) by sripfoto, TH
 - Interstice: [hyperloop train](https://thenounproject.com/icon/hyperloop-train-5736270/) by Delwar Hossain, BD
 - Jeweler: [jeweler](https://thenounproject.com/icon/jeweler-207094/) by Hans Paul Mösl Junior, BR
@@ -206,6 +207,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Fury of Aztlán: [Quetzalcoatl](https://www.flaticon.com/free-icon/quetzalcoatl_5169317) by Freepik from Flaticon
 - Healing Hands: [medical symbol](https://thenounproject.com/icon/medical-symbol-1017634/) by IconTrack
 - Heroic Resolve: [hero shield](https://thenounproject.com/icon/hero-shield-4533534/) by Made x Made, AU
+- Know Your History: [education](https://thenounproject.com/icon/education-5139860/) by lastspark, KZ
 - Line Brawl: [fighting](https://thenounproject.com/icon/fighting-2717946/) by Vectors Point, PK
 - Oath of Vengeance: [Swear On Bible](https://thenounproject.com/icon/swear-on-bible-158489/) by Wolf Böse
 - Overcome Obstructions: [break](https://thenounproject.com/icon/break-3968745/) by Adrien Coquet, FR

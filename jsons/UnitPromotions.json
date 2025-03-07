@@ -631,6 +631,10 @@
 		"uniques": ["[+20]% Strength <when defending>"]
 	},
 	{
+		"name": "Know Your History",
+		"uniques": ["[+50]% XP gained from combat"]
+	},
+	{
 		"name": "Terrascape",
 		"uniques": [
 			"Turn this tile into a [Badlands] tile <in [{non-[Natural Wonder]} {non-[resource]} {non-[Badlands]} {Land}] tiles> <for all movement> <[2] times> <after which this unit is consumed>",
