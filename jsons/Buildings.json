@@ -234,7 +234,7 @@
 		"isWonder": true,
 		"culture": 1,
 		"uniques": [
-			"All newly-trained [non-air] units [in this city] receive the [Know Your History] promotion",
+			"All newly-trained [{non-air} {Military}] units [in this city] receive the [Know Your History] promotion",
 			"[+3 Culture] from [Weapons] tiles [in all cities]"
 		],
 		"requiredTech": "Hoplology",
