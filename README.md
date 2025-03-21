@@ -46,7 +46,7 @@ A major expansion + rebalance mod for DeCiv Redux.
 
 - New buildings: Alternet Cafe, Coastal Defenses, Community Garden, Condenser Cooler, Contraband Disposal Site, Defense Directorate (City-States only), Earth Clinic (Naturalism only), Earthscraper, Ethanol Station, Food Processing Plant, Interpretative Center, Jeweler, Navy Shipyard (Rediscovery only), Sanctuary, Sociopolitical Institute, Tidal Array, Windmill Generator, and Workers' Facility (Collectivism only).
 
-- New world wonders: Amager Bakke, Citadel Space Station, Statue of Remembrance, and Wasteland Games.
+- New world wonders: Amager Bakke, Citadel Space Station, International Ordnance Museum, Statue of Remembrance, and Wasteland Games.
 
 - New national wonders:
   - Homeland Defense / Wasteland Surveillance / Raider Suppression Initiatives, each locked behind a starting policy and designed to help each faction survive the early-game.
