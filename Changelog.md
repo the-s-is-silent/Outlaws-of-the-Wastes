@@ -1294,8 +1294,12 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **Faction Adjustments**
 - Crimson Line no longer gets an inherent reduction in policy cost increase from cities owned. Additionally, the faction should now be slightly less likely to declare war on you and somewhat more likely to fight alongside you in war when controlled by the AI.
 
+**Building Adjustments**
+- Bunkers and Earthscrapers cannot be built if nukes are disabled.
+
 **Unit Adjustments**
 - Border Patrols that upgrade from Wasteland Patrols will lose the Skirmish promotion.
+- Machine Guns now cost 205 Production on Standard speed (previously 150) and lose 20 points to defense strength.
 - RCB units no longer have a combat bonus against City-State units and the combat bonus against cities now only applies when attacking.
 - Volt Driver now upgrades to Machine Gun.
 

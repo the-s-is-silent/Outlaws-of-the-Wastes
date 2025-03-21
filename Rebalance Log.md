@@ -33,7 +33,7 @@ Unit Changes:
 	- Salvaged Helicopter's movement points are reduced to 5, its ranged strength is reduced to 40, but its Production cost is reduced from 200 to 150.
 - Naval units no longer have doubled movement in Coast tiles. Early/mid-game naval units (excepting Mariners' replacements) are also no longer able to evade melee attacks.
 - Attack Boats (and the Mariners' replacement) no longer require Factories to build, so they're now properly available at Steam Power instead of being forced to wait until Manufacturing. They can now also spawn as Barbarian units.
-- Machine Guns are now Shooter units with the Personnel modifier, and start with Logistics.
+- Machine Guns are now Shooter units with the Personnel modifier, and start with Logistics. However, their Production cost is increased from 150 to 205 and their defense strength is reduced from 50 to 30.
 - Mechanized Workers can now terraform tiles and start with 2 charges. Terrains excluded: Mountain, Permafrost, Swamp, Spring, Rubble, Ruins, Ice.
 - Scouts (and New Star's replacement) now upgrade to Forward Observers instead of Gunmen. Also, Forward Observers cannot be used to capture cities.
 - Tanks can now appear as Barbarian units (the Barbarian version is the Killdozer which is available earlier for them and doesn't spend movement points to pillage).
@@ -163,15 +163,15 @@ Policy Changes:
 		- The opener bonus loses the Culture from Barbarian kills and gains Doctrine's old Culture per kill bonus against all Military units.
         - Discipline loses its old effect completely and now boosts unit production by 20%.
         - Doctrine now starts the war economy earlier than before; the Culture per kill becomes Water per kill, and it adds yields to Barracks and Armories (+1 Production/Water/Culture each).
-        - Autocracy replaced with Security Forces, which adjusts the Culture/Happiness added to cities from garrisons to +2/+1 respectively, adds +1 Happiness to Barracks and Armories, and no longer doubles the amount of Slaves possessed.
+        - Autocracy replaced with Security Forces, which swaps the Culture/Happiness yields of the replaced policy (now +2 Culture/+1 Happiness), adds +1 Happiness to Barracks and Armories, and no longer doubles the amount of Slaves possessed.
         - Military Tradition's bonus of double military unit gift rate from Military CS while allies at war is moved to the finisher bonus and it now gives a 10% Strength bonus to Land units.
-        - Triumph receives the old finisher of reduced upgrade costs.
+        - Triumph receives the old finisher of reduced upgrade costs and adds +2 Food/Culture to Citadels, Outposts and Crystal Refineries.
         - The finisher bonus now awards Science per kill (25% of unit's cost), the free Great General that was originally awarded by Discipline, the boosted unit gift rate that was originally provided by Military Tradition, and allows purchasing Great Generals with Faith (moved here from Supremacy's finisher).
 	- Theocracy
 		- Can now be taken alongside Rationalism, and is available at the start of the game.
 		- The opener bonus is buffed to add +1 Culture/Faith to the capital.
 		- Organized Religion buffed to remove the Science penalty from Faith buildings and add a Culture bonus to those buildings instead.
-		- Indulgences buffed to add a +25% Water bonus to Monasteries, +1 Water to each of the main three Faith buildings, and +2 Water to Seminaries + replacements (the latter was moved here from the finisher bonus).
+		- Indulgences buffed to increase the Water bonus from Monasteries to +15% and add +1 Water to each of the main three Faith buildings and +2 Water to Seminaries + replacements (the latter was moved here from the finisher bonus).
 		- Mandate of Heaven, God Emperor, and Holy Scriptures are removed, with the aim of decoupling this policy from Supremacy by making it less warlike.
 		- Divine Mandate replaces Mandate of Heaven, adding +1 Happiness to Faith buildings and reducing the Faith cost of purchases (the latter being moved here from the finisher bonus).
 		- Apotheosis replaces God Emperor, reducing the Culture cost of adopting additional Policies by 10% and triggering an instant Golden Age upon adoption.
@@ -193,15 +193,16 @@ Policy Changes:
 		- The opener bonus now only boosts the generation rate of Great Administrators (moved here from Legislative Process) and is increased to a 33% faster generation rate. The old opener bonus is now the opener bonus for the new Legacy ideology.
 		- Civil Society also loses its Unhappiness reduction from specialists (this is moved to Eudaimonia in the new Legacy ideology tree), and instead increases City Strength by 25% and halves the construction time of Culture buildings.
 		- Protected Speech's old effect of +1 Culture per 3 population in your cities has been thrown out because it was giving way too much Culture. It now adds +1 Culture to five of the Culture buildings: Town Hall, Broadcast Tower, Television Studio, and the mod-exclusive Sociopolitical Institute and Alternet Cafe buildings.
-		- Public Good's old effect has been thrown out; it now adds +1 Water/Happiness to Water Storage units, Hospitals, Town Halls, and Broadcast Towers.
+		- Public Good's old effect has been thrown out; it now adds +1 Water/Science to Water Storage units, Hospitals, Town Halls, and Broadcast Towers.
 		- Legislative Process loses the +1 Happiness per 5 population bonus and is reduced to 20% extra Great Administrator generation (in accordance with other trees only boosting their respective Great Person by 20% instead of 25%), but awards a free Great Administrator to compensate.
 		- Voting Rights loses the 25% Strength penalty while the empire is unhappy.
 		- The finisher bonus boosting the yields of Great Improvements was moved to the new Legacy ideology's finisher bonus (and is set to +5 of the respective primary yield for each Great Improvement there or +5 total for GIs with split yields to match Rekmod). The new added yields to Great Improvements from this policy are fixed at +2 Science/Culture.
 	- Supremacy
 		- The opener no longer gives free upkeep to units.
-		- Police State no longer gives +3 Happiness to Prison Camps (that bonus is moved to Listening Posts); instead it adds +3 Production to those buildings and Work Camps. Town Hall also loses its +1 Happiness from the policy. Annexed and puppeted cities no longer have a Food malus. The production time of Listening Posts is cut in half.
+		- Militarism renamed to Mobilization; Water cost discount for unit purchase reduced to 25%, but it also grants a 25% discount on unit maintenance.
+		- Police State no longer gives +3 Happiness to Prison Camps; instead it adds +3 Production to those buildings and Work Camps. Town Halls no longer gain Happiness; Field Offices now gain +1 Happiness instead. Annexed and puppeted cities no longer have a Food malus. The construction speed of Listening Posts and Field Offices is increased by 50%.
 		- Spoils of War now provides double Slaves instead of Autocracy.
-		- The finisher bonus now adds +2 Food/Production/Water to every owned city while you have Slaves and +4 of the respective primary yield to each "evil" Great Improvement (Crystal Refinery, Narcotics farm, Oracle, Outpost, Prison farm). However, the combat bonus is reduced to 15%, but it no longer has an expiration date.
+		- The finisher bonus now adds +2 Production/Water and +1 Culture to every owned city while you have Slaves and +4 of the respective primary yield to each "evil" Great Improvement (Crystal Refinery, Narcotics farm, Oracle, Outpost, Prison farm). However, the combat bonus is reduced to 15%, but it no longer has an expiration date.
 	- Monopoly
 		- The opener bonus is adjusted to increase the bonus to Great Merchant generation to 33%, add +1 Culture to Markets, and remove the added percentage Water yield to the Council.
 		- The tree no longer adds extra Water to Factories or Work Camps aside from Privatization retaining its +2 to the former.
@@ -245,7 +246,10 @@ Policy Changes:
 
 Belief Changes:
 - General
-	- Certain belief categories now prohibit the player from selecting more than one of that type of belief (unless they're able to pick two or more of the appropriate belief type at the same time, which I need to figure out how to fix). This currently applies to: Follower Beliefs that add Food yields of +2 or higher (Gardens being exempt from this restriction) and Enhancer Beliefs that increase religious pressure.
+	- Certain belief categories now prohibit the player from selecting more than one of that type of belief. This currently applies to:
+		- Follower Beliefs that add Food yields of +2 or higher (Gardens being exempt from this restriction)
+		- "Worship" Beliefs - those that enable purchasing special Faith buildings (Divinity Schools, Gardens, etc.)
+		- Enhancer Beliefs that increase religious pressure
 - Pantheons
 	- Terrain based Pantheons and Strength of the Earth are limited to only add yields to tiles that are in the first and second rings of workable tiles for cities following that religion. However, Strength of the Earth doesn't apply this restriction to Manufactories.
 	- Pantheons that added Happiness to Natural tiles, or yields to specific Ancient Wonders, no longer do so.
@@ -262,7 +266,7 @@ Belief Changes:
 - Founder
 	- Primacy has been made **inaccessible** until such time as a fitting new effect for this belief to help bolster CS relations becomes possible. Its current effect still exists in-game, but has been merged with Religious Unity.
 - Follower
-	- Art of War moved to Enhancer and locked behind Exodus of the Evangelists. It no longer has an expiration date, but only allows purchasing land units; furthermore, unlike all other Faith purchases, the cost of purchase - which now starts at a flat 200 on Standard speed - increases with era.
+	- Art of War moved to Enhancer and locked behind Exodus of the Evangelists. It no longer has an expiration date, but only allows purchasing land units; furthermore, unlike all other Faith purchases, the cost of purchase - which now starts at a flat 200 on Standard speed - increases with era. It also cannot be adopted if the player adopted a Worship Building belief.
 	- Blessing of Peace moved to Enhancer, locked behind Exodus of the Evangelists, and adjusted to +20% growth and +2 Food to Barracks while at peace.
 	- Feast of Flesh adjusted to add +2 Food, +1 Happiness to Ranches.
 	- Happiness in Faith adjusted to add +2 Production, +1 Culture/Happiness to Monasteries.
@@ -282,7 +286,7 @@ Specialist Changes:
 
 Promotion Changes:
 - Forage was the second worst offender of OP promotions, and the nerfs are appropriately severe: it awards 67% less Science per kill and no longer gives extra XP or unit healing on kill. Instead it adds minor healing bonuses in Rubble/Ruins tiles.
-- Skirmish was the worst offender of all, making ranged units far too strong; it is now exclusive to Scout units instead of Shooter units. Shooter units receive access to Forage to compensate.
+- Skirmish was the worst offender of all, making ranged units far too strong; it is now exclusive to Scout units instead of Shooter units, and the evasion rate is reduced to 50%. Shooter units receive access to Forage to compensate.
 - Precision and Suppression now list Forage instead of Skirmish as a prerequisite.
 - Suppression nerfed to 25% bonus against Melee units.
 - Hazard Pay was also far too strong, and no longer allows units to move the same turn they're bought.

@@ -163,18 +163,23 @@
 		"production": 5,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"isNationalWonder": true,
-		"uniques": ["[+1 Production] from every [Solar collector]",
+		"uniques": [
+			"[+1 Production] from every [Solar collector]",
 			"[+1 Production] from [Desert] tiles [in this city]",
 			"Provides [8] [Power]",
 			"Only available <in cities with a [Aerospace Facility]>",
-			"Must be on [Desert]"],
+			"Must be next to [Desert]"
+		],
 		"requiredTech": "Incentivization"
 	},
 	{
 		"name": "Earthscraper Project",
 		"isNationalWonder": true,
-		"uniques": ["[+1 Production] from every specialist [in all cities]",
-			"Gain a free [Earthscraper] [in this city]"],
+		"uniques": [
+			"[+1 Production] from every specialist [in all cities]",
+			"Gain a free [Earthscraper] [in this city]",
+			"Only available <when nuclear weapons are enabled> <hidden from users>"
+		],
 		"requiredTech": "Advanced Materials",
 		"civilopediaText": [
 			{
@@ -187,14 +192,18 @@
 		"cityHealth": 100,
 		"percentStatBonus": {"food": 10},
 		"specialistSlots": {"Administrator": 1, "Engineer": 1, "Farmer": 1, "Merchant": 1, "Scientist": 1},
-		"uniques": ["City Defense",
+		"uniques": [
+			"City Defense",
 			"[+1] population [in this city]",
 			"Population loss from nuclear attacks [-75]% [in this city]",
 			"Damage to garrison from nuclear attacks [-75]% [in this city]",
 			"Consumes [1] [Power]",
 			"Requires at least [15] population",
 			"Only available <if [Earthscraper Project] is constructed>",
-			"Unsellable", "Never destroyed when the city is captured"],
+			"Only available <when nuclear weapons are enabled> <hidden from users>",
+			"Unsellable",
+			"Never destroyed when the city is captured"
+		],
 		"requiredTech": "Advanced Materials"
 	},
 
@@ -1174,7 +1183,8 @@
 			"New [Military] units start with [15] XP [in this city]",
 			"[+4 Production] from [Mountain] tiles [in this city]",
 			"[+4 Production] from [Mountain Tunnel] tiles [in this city]",
-			"Destroyed when the city is captured"
+			"Destroyed when the city is captured",
+			"Only available <when nuclear weapons are enabled> <hidden from users>"
 		],
 		"requiredTech": "Munitions"
 	},
@@ -4530,9 +4540,13 @@
 		"maintenance": 1,
 		"hurryCostModifier": 50,
 		"requiredBuilding": "Hardened Defenses",
-		"uniques": ["City Defense", "Population loss from nuclear attacks [-75]% [in this city]",
+		"uniques": [
+			"City Defense",
+			"Population loss from nuclear attacks [-75]% [in this city]",
 			"Damage to garrison from nuclear attacks [-75]% [in this city]",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured",
+			"Only available <when nuclear weapons are enabled> <hidden from users>"
+		],
 		"requiredTech": "Munitions"
 	},
 	{

@@ -31,7 +31,7 @@ A major expansion + rebalance mod for DeCiv Redux.
   - Nowa Polska, because it's going to take a lot more than the Cataclysm for Poland to be lost.
   - The Oathsworn, descended from American militia who are desperately trying to keep American ideals alive despite their former nation having tried to wipe them out.
 
-- Ten new city-states: Calico (Labor), Carbon (Farming), Defiance (Weapons), Hockeytown (Culture), Issaquah Nation (Prayer, replacing Deseret in that slot), Izumrydniy Gorod (Research), The Pax (Research), Powderhorn Autonomous Zone (Culture), Trudograd (Trading), and Venice Beach (Trading).
+- Eleven new city-states: Calico (Labor), Carbon (Farming), Defiance (Weapons), Hockeytown (Culture), Issaquah Nation (Prayer, replacing Deseret in that slot), Izumrydniy Gorod (Research), The Pax (Research), Powderhorn Autonomous Zone (Culture), Trudograd (Trading), Tự Do (Weapons), and Venice Beach (Trading).
 
 - New units:
   - Barbarian: Ghoul, Suicider, Marked One, Killdozer, Dhow, Skiff, Ocean Robber, Savior of the Sea
