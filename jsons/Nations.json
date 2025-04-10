@@ -351,6 +351,47 @@
 			"Jastarnia", "Władysławowo", "Świnoujście", "Mikołajki"],
 		"spyNames": ["Stefan", "Malina", "Kazimierz", "Bronislaw", "Ewa", "Jan", "Marzena", "Henryk", "Artur", "Rozalia"]
 	},
+	{
+		"name": "Celestial Collective",
+		"leaderName": "Heavenly Father",
+		"adjective": ["Collectivist"],
+		"startBias": ["River"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Death Worship",
+		"personality": "Heavenly Father",
+
+		// "startIntroPart1": "TBA",
+		// "startIntroPart2": "TBA",
+		"declaringWar": "It has become apparent you refuse to accept the truth. Now we must force you to realize it.",
+		"attacked": "You still hold on to the belief that your past sins are forgiven?",
+		"defeated": "We now go to join Yánluó. The Collective endures forever in his embrace, while you, who reject his teachings, will crumble from within...",
+		"introduction": "You will soon come to learn the Four Truths...",
+		"neutralHello": "The Four Truths are all that matter in this world.",
+		"hateHello": "You continue to suffer because you continue to reject our father in Death.",
+		"tradeRequest": "This may help your people achieve enlightenment.",
+
+		"outerColor": [137, 89, 163],
+		"innerColor": [233, 233, 233],
+		"style": "Collective",
+		"uniqueName": "Obliteration of the Self",
+		"uniques": [
+			"Comment [Low Tech and Personnel units gain access to a special promotion when Wounded]",
+			"[+10]% Strength <for [Wounded] units>",
+			"[+10]% Strength <for [Wounded] units> <when below [50] HP>",
+			"No damage penalty for wounded units",
+			"[+1 Production] per [5] population [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities] <when at war>",
+			"[-1] Happiness from each type of luxury resource",
+			"Starts with [Secrets of the Past]",
+			"Starts with [Collectivism] adopted"
+		],
+		"cities": ["Yōudū", "Chéngshi Yī", "Chéngshi Èr", "Chéngshi Sān", "Chéngshi Sì", "Chéngshi Wǔ", "Chéngshi Liù", "Chéngshi Qī",
+			"Chéngshi Bā", "Chéngshi Jiǔ", "Chéngshi Shí", "Chéngshi Shí Yī", "Chéngshi Shí Èr", "Chéngshi Shí Sān", "Chéngshi Shí Sì",
+			"Chéngshi Shí Wǔ", "Chéngshi Shí Liù", "Chéngshi Shí Qī", "Chéngshi Shí Bā", "Chéngshi Shí Jiǔ", "Chéngshi Èr Shí",
+			"Chéngshi Èr Shí Yī", "Chéngshi Èr Shí èr", "Chéngshi Èr Shí Sān", "Chéngshi Èr Shí Sì", "Chéngshi Èr Shí Wǔ",
+			"Chéngshi Èr Shí Liù", "Chéngshi Èr Shí Qī", "Chéngshi Èr Shí Bā", "Chéngshi Èr Shí Jiǔ", "Chéngshi Sān Shí"],
+		"spyNames": ["Commissar Li", "Commissar Wu", "Commissar Yun", "Commissar Qu", "Commissar Tao", "Commissar Zhang", "Commissar Sun", "Commissar Deng", "Commissar Jiang", "Commissar Xi"]
+	},
 
 	//Adjusted factions
 	{
@@ -1203,7 +1244,7 @@
 		"adjective": ["Tự Do"],
 		"cityStateType": "Weapons",
 		"startBias": ["Coast"],
-		// "style": "",
+		"style": "",
 		"uniques": [
 			"All newly-trained [relevant] units [in all cities] receive the [Reconnaissance I] promotion",
 			"All newly-trained [relevant] units [in all cities] receive the [Urban Warfare I] promotion",

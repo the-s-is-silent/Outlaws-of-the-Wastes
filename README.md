@@ -1,9 +1,9 @@
 # Outlaws of the Wastes
-A major expansion + rebalance mod for DeCiv Redux.
+A major expansion + rebalance mod for DeCiv Redux. Also fully compatible with the "Deciv 2" branch.
 
 ## Changes applied to the base scenario
 
-- Barbarians are stronger and spawn more frequently, but they give greater rewards for clearing their encampments. (Credit for the "barb camps trigger ruins bonuses" concept goes to amfauzn and their "The Barbarians" mod.) In addition, the survivor camp spawn rate is also increased.
+- Barbarians are stronger, gain additional unique units, and spawn more frequently, but they give greater rewards for clearing their encampments. (Credit for the "barb camps trigger ruins bonuses" concept goes to amfauzn and their "The Barbarians" mod.) In addition, the survivor camp spawn rate is also increased.
 
 - As a screw you to the AI's primitive sanity checks, the minimum allowed distance between cities has been increased.
 
@@ -21,11 +21,12 @@ A major expansion + rebalance mod for DeCiv Redux.
 
 - Two new victory conditions, restoring the "proper" Domination and Science victories. (Warning: do not enable these without disabling the standard Domination and Science victories. Having both DeCiv's Science Victory (Terraform Earth) and Colonization Victory (launch the spaceship) enabled will currently make those victory conditions impossible to achieve.)
 
-- Eight new factions (in addition to playable Deseret):
+- Nine new factions (in addition to playable Deseret):
   - Aurelian Group, a pre-war Australian mining corporation that survived the Cataclysm and is trying to rebuild its former country while remaining isolationist.
   - Aztlán, the expected post-Cataclysm nation of Aztec revivalists.
   - The Caliphate, a hyperoppressive Islamic theocracy with a stranglehold over Germany and several other former Western Europe nations.
   - Camelot Foundation, a constitutional republic arising from what's left of Wales, England and Brittany.
+  - Celestial Collective, led by an enigmatic Chinese warlord who used *1984* as an instruction manual to create the ultimate dystopia.
   - Crimson Line, a faction of hardliner Communists who took shelter from the Cataclysm inside the Moscow Metro and now seek to reunite the Soviet Union by force.
   - The Harbingers, the remnants of an evil Mega-Corp who are now trying to atone for their previous practices...or are they?
   - Nowa Polska, because it's going to take a lot more than the Cataclysm for Poland to be lost.
@@ -33,18 +34,9 @@ A major expansion + rebalance mod for DeCiv Redux.
 
 - Eleven new city-states: Calico (Labor), Carbon (Farming), Defiance (Weapons), Hockeytown (Culture), Issaquah Nation (Prayer, replacing Deseret in that slot), Izumrydniy Gorod (Research), The Pax (Research), Powderhorn Autonomous Zone (Culture), Trudograd (Trading), Tự Do (Weapons), and Venice Beach (Trading).
 
-- New units:
-  - Barbarian: Ghoul, Suicider, Marked One, Killdozer, Dhow, Skiff, Ocean Robber, Savior of the Sea
-  - City-States: State Guard + Pre-War Turret
-  - Civilian: Great Admiral (Rekmod implementation), Military Engineer (Approximation of Civ 6 unit), Seastead Vessel
-  - Collectivism policy: Stalker (yes, the very same Stalker from Roadside Picnic and everything it inspired)
-  - Military support: Wandering Doctor + Mobile Clinic
-  - Naturalism policy: Eco-Terrorist
-  - Naval warfare: Raiding Craft, Gunboat, Exploding Boat, Scout Cruiser, Drone Ship
-  - Scouting: Wasteland Patrol, Border Patrol, Expeditionary Force
-  - Hero units (only 1 allowed per Civ): Hero of the Wastes, only available as a random camp reward
+- More than twenty new standalone units.
 
-- New buildings: Alternet Cafe, Coastal Defenses, Community Garden, Condenser Cooler, Contraband Disposal Site, Defense Directorate (City-States only), Earth Clinic (Naturalism only), Earthscraper, Ethanol Station, Food Processing Plant, Interpretative Center, Jeweler, Navy Shipyard (Rediscovery only), Sanctuary, Sociopolitical Institute, Tidal Array, Windmill Generator, and Workers' Facility (Collectivism only).
+- More than twenty new standalone buildings.
 
 - New world wonders: Amager Bakke, Citadel Space Station, International Ordnance Museum, Statue of Remembrance, and Wasteland Games.
 

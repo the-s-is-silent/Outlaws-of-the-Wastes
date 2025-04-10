@@ -243,7 +243,7 @@
 		"isWonder": true,
 		"culture": 1,
 		"uniques": [
-			"All newly-trained [{non-air} {Military}] units [in this city] receive the [Know Your History] promotion",
+			"All newly-trained [{non-[Air]} {Military}] units [in this city] receive the [Know Your History] promotion",
 			"[+3 Culture] from [Weapons] tiles [in all cities]"
 		],
 		"requiredTech": "Hoplology",
@@ -324,6 +324,25 @@
 			"[+1 Production, +2 Gold, +1 Culture] from [Silver] tiles [in this city]"
 		],
 		"requiredTech": "Machinery"
+	},
+	{
+		"name": "Timepiece Maker",
+		"requiredNearbyImprovedResources": ["Electronics", "Machine Parts"],
+		"production": 1,
+		"maintenance": 0,
+		"hurryCostModifier": 15,
+		"uniques": [
+			"[+2 Production] from [Electronics] tiles [in this city]",
+			"[+2 Production] from [Machine Parts] tiles [in this city]"
+		],
+		"requiredTech": "Machinery"
+	},
+	{
+		"name": "Soaper",
+		"requiredNearbyImprovedResources": ["Salt", "Cattle", "Goats", "Hogs"],
+		"happiness": 2,
+		"maintenance": 1,
+		"requiredTech": "Chemistry"
 	},
 	{
 		"name": "Observatory",
@@ -408,21 +427,7 @@
 		"specialistSlots": {"Administrator": 1},
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"replacementTextForUniques": "Each social policy branch completed adds +1 Culture to this city.",
-		"uniques": ["[+1 Culture] [in this city] <after adopting [Adaptation Complete]>",
-			"[+1 Culture] [in this city] <after adopting [Expansionism Complete]>",
-			"[+1 Culture] [in this city] <after adopting [Sovereignty Complete]>",
-			"[+1 Culture] [in this city] <after adopting [Theocracy Complete]>",
-			"[+1 Culture] [in this city] <after adopting [Rationalism Complete]>",
-			"[+1 Culture] [in this city] <after adopting [Constitution Complete]>",
-			"[+1 Culture] [in this city] <after adopting [Supremacy Complete]>",
-			"[+1 Culture] [in this city] <after adopting [Monopoly Complete]>",
-			"[+1 Culture] [in this city] <after adopting [Collectivism Complete]>",
-			"[+1 Culture] [in this city] <after adopting [Rediscovery Complete]>",
-			"[+1 Culture] [in this city] <after adopting [Naturalism Complete]>",
-			"[+1 Culture] [in this city] <after adopting [Mechanization Complete]>",
-			"[+1 Culture] [in this city] <after adopting [Bionics Complete]>",
-			"[+1 Culture] [in this city] <after adopting [Legacy Complete]>"],
+		"uniques": ["[+1 Culture] [in this city] <for every [Completed Policy branches]>"],
 		"requiredTech": "Civil Service"
 	},
 	{
@@ -1298,24 +1303,12 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Education",
-		"replacementTextForUniques": "Each social policy branch completed adds +1 Faith to this city.",
-		"uniques": ["Only available <in cities with a [Shrine]>",
+		"uniques": [
+			"Only available <in cities with a [Shrine]>",
 			"Only available <when religion is enabled>",
 			"Destroyed when the city is captured",
-			"[+1 Faith] [in this city] <after adopting [Adaptation Complete]>",
-			"[+1 Faith] [in this city] <after adopting [Expansionism Complete]>",
-			"[+1 Faith] [in this city] <after adopting [Sovereignty Complete]>",
-			"[+1 Faith] [in this city] <after adopting [Theocracy Complete]>",
-			"[+1 Faith] [in this city] <after adopting [Rationalism Complete]>",
-			"[+1 Faith] [in this city] <after adopting [Constitution Complete]>",
-			"[+1 Faith] [in this city] <after adopting [Supremacy Complete]>",
-			"[+1 Faith] [in this city] <after adopting [Monopoly Complete]>",
-			"[+1 Faith] [in this city] <after adopting [Collectivism Complete]>",
-			"[+1 Faith] [in this city] <after adopting [Rediscovery Complete]>",
-			"[+1 Faith] [in this city] <after adopting [Naturalism Complete]>",
-			"[+1 Faith] [in this city] <after adopting [Mechanization Complete]>",
-			"[+1 Faith] [in this city] <after adopting [Bionics Complete]>",
-			"[+1 Faith] [in this city] <after adopting [Legacy Complete]>"]
+			"[+1 Faith] [in this city] <for every [Completed Policy branches]>"
+		]
 	},
 	{
 		"name": "Calmecac",
@@ -1737,7 +1730,7 @@
 		"culture": 1,
 		"cost": 0,
 		"uniques": [
-			"[+1 Happiness] from every [Administrator]",
+			"[+1 Happiness] <in cities with at least [2] [Specialists]>",
 			"Provides [2] [Weapons]",
 			"Free [Constitutional Militia] appears",
 			"Automatically built in all cities where it is buildable",
@@ -1981,21 +1974,7 @@
 		"uniques": [
 			"[-25]% Culture cost of natural border growth [in this city]",
 			"[-25]% Gold cost of acquiring tiles [in this city]",
-			"Comment [+1 Happiness in this city for each completed social policy branch]",
-			"[+1 Happiness] [in this city] <after adopting [Adaptation Complete]> <hidden from users>",
-			"[+1 Happiness] [in this city] <after adopting [Expansionism Complete]> <hidden from users>",
-			"[+1 Happiness] [in this city] <after adopting [Sovereignty Complete]> <hidden from users>",
-			"[+1 Happiness] [in this city] <after adopting [Theocracy Complete]> <hidden from users>",
-			"[+1 Happiness] [in this city] <after adopting [Rationalism Complete]> <hidden from users>",
-			"[+1 Happiness] [in this city] <after adopting [Constitution Complete]> <hidden from users>",
-			"[+1 Happiness] [in this city] <after adopting [Supremacy Complete]> <hidden from users>",
-			"[+1 Happiness] [in this city] <after adopting [Monopoly Complete]> <hidden from users>",
-			"[+1 Happiness] [in this city] <after adopting [Collectivism Complete]> <hidden from users>",
-			"[+1 Happiness] [in this city] <after adopting [Rediscovery Complete]> <hidden from users>",
-			"[+1 Happiness] [in this city] <after adopting [Naturalism Complete]> <hidden from users>",
-			"[+1 Happiness] [in this city] <after adopting [Mechanization Complete]> <hidden from users>",
-			"[+1 Happiness] [in this city] <after adopting [Bionics Complete]> <hidden from users>",
-			"[+1 Happiness] [in this city] <after adopting [Legacy Complete]> <hidden from users>"
+			"[+1 Happiness] [in this city] <for every [Completed Policy branches]>"
 		],
 		"hurryCostModifier": 25,
 		"requiredTech": "Civil Service"
@@ -2031,6 +2010,114 @@
 			"Only available <in cities without a [Sejm]>",
 			"Destroyed when the city is captured"
 		]
+	},
+
+	//Celestial Collective unique buildings
+	{
+		"name": "Yánluó Palace",
+		"uniqueTo": "Celestial Collective",
+		"isWonder": true,
+		"culture": 1,
+		"cost": 0,
+		"uniques": [
+			"[+1] Unit Supply per [2] population [in all cities]",
+			"Provides [2] [Weapons]",
+			"Free [Pure Thought Agent] appears",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Food Store] [in this city]",
+			"Gain a free [Shrine of the Honorful Dead] [in this city]"
+		],
+		"quote": "'Learn to overcome the crass demands of flesh and bone, for they warp the matrix through which we perceive the world. Extend your awareness outwards, beyond the self of body, to embrace the self of group and the self of humanity. The goals of the group and the greater race are transcendent, and to embrace them is to achieve enlightenment.' - Sheng-ji Yang, 'Essays on Mind and Matter'"
+	},
+	{
+		"name": "Shrine of the Honorful Dead",
+		"replaces": "Shrine",
+		"uniqueTo": "Celestial Collective",
+		"faith": 1,
+		"cost": 40,
+		"maintenance": 0,
+		"requiredTech": "Secrets of the Past",
+		"uniques": [
+			"Only available <when religion is enabled>",
+			"[+2 Culture] [in this city] <when at war>"
+		]
+	},
+	{
+		"name": "Council of the Self",
+		"replaces": "Monastery",
+		"uniqueTo": "Celestial Collective",
+		"faith": 2,
+		"maintenance": 1,
+		"requiredTech": "Education",
+		"uniques": [
+			"Only available <when religion is enabled>",
+			"New [Military] units start with [5] XP [in this city] <for every [Completed Policy branches]>"
+		]
+	},
+	{
+		"name": "Examination Hall",
+		"replaces": "University",
+		"uniqueTo": "Celestial Collective",
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 1},
+		"uniques": [
+			"[+1 Science] from [Forest] tiles [in this city]",
+			"[+1 Science] from [Jungle] tiles [in this city]",
+			"[+1 Science] from [Sunken Ruins] tiles [in this city]",
+			"[+2 Science] [in this city] <when above [0] [Power]>",
+			"[+1 Culture, +2 Happiness] [in this city] <with a garrison>",
+			"Only available <in cities with a [Library]>"
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Hall of Final Reflections",
+		"replaces": "Grand Monastery",
+		"uniqueTo": "Celestial Collective",
+		"isNationalWonder": true,
+		"culture": 1,
+		"faith": 8,
+		"cost": 125,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"Only available <if [Council of the Self] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city",
+			"Can only be built <in [Holy] cities>",
+			"Only available <after adopting [Theocracy]>",
+			"Only available <when religion is enabled>",
+			"Gain [20] [Culture] <upon expending a [Religious Unit] unit> <(modified by game speed)>",
+			"Gain [20] [Faith] <upon expending a [Religious Unit] unit> <(modified by game speed)>",
+			"All newly-trained [Pure Thought Agent] units [in this city] receive the [Enforcement of the Four Truths] promotion",
+			"All newly-trained [Dragon of the Four Truths] units [in this city] receive the [Commitment to the Four Truths] promotion",
+			"All newly-trained [Emissary of the Anti-Father] units [in this city] receive the [Commitment to the Four Truths] promotion"
+		]
+	},
+	{
+		"name": "Core of the Collective",
+		"replaces": "Council",
+		"uniqueTo": "Celestial Collective",
+		"cost": 150,
+		"hurryCostModifier": 25,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+10]% growth [in all cities connected to capital]",
+			"[+5]% [Production] [in all cities connected to capital]",
+			"[+50]% Natural religion spread [in all cities connected to capital]",
+			"[-15]% enemy spy effectiveness [in all cities connected to capital]",
+			"[+2 Production, +4 Faith] from every [Citadel]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Celestial Collective cannot build Congress",
+		"replaces": "Congress",
+		"uniqueTo": "Celestial Collective",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
 	},
 
 	//Adjusted buildings and wonders
@@ -2733,7 +2820,7 @@
 		"cost": 1500,
 		"isNationalWonder": true,
 		"uniques": [
-			"Hidden until [6] social policy branches have been completed",
+			"Unavailable <when number of [Completed Policy branches] is less than [6]>",
 			"Triggers a global alert upon build start",
 			"Triggers a Cultural Victory upon completion",
 			"Only available <when [Cultural] Victory is enabled>",

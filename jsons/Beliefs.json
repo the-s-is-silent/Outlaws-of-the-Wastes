@@ -59,6 +59,14 @@
 		]
 	},
 	{
+		"name": "Equine Mysticism",
+		"type": "Pantheon",
+		"uniques": [
+			"[+2 Faith] from every [{Horses} {resource}]",
+			"[+2 Production] from every [Stable]"
+		]
+	},
+	{
 		"name": "Fertility Rites",
 		"type": "Pantheon",
 		"uniques": [
@@ -88,7 +96,15 @@
 	{
 		"name": "God of Love",
 		"type": "Pantheon",
-		"uniques": ["[+1 Happiness, +1 Faith] [in cities following this religion] <in cities with at least [4] [Population]>"]
+		"uniques": ["[+1 Happiness, +1 Faith] [in cities following this religion] <in cities with at least [3] [Population]>"]
+	},
+	{
+		"name": "God of Walls",
+		"type": "Pantheon",
+		"uniques": [
+			"[+50]% Strength for cities <when attacking>",
+			"[+1 Culture, +1 Faith] from every [Walls]"
+		]
 	},
 	{
 		"name": "God of Winter",
@@ -193,6 +209,14 @@
 		]
 	},
 	{
+		"name": "Salt the Earth",
+		"type": "Pantheon",
+		"uniques": [
+			"Comment [Newly trained units gain triple yields and additional health recovery from pillaging tiles and do not consume movement points to pillage]",
+			"All newly-trained [{Military} {Land}] units [in this city] receive the [Atrocious Raider] promotion <hidden from users>"
+		]
+	},
+	{
 		"name": "Spiritual Research",
 		"type": "Pantheon",
 		"uniques": [
@@ -234,12 +258,7 @@
 	{
 		"name": "Feast of Flesh",
 		"type": "Follower",
-		"uniques": [
-			"[+2 Food, +1 Happiness] from every [Ranch]",
-			"Only available <before adopting [Feed the Faithful]>",
-			"Only available <before adopting [Mandatory Rationing]>",
-			"Only available <before adopting [Obey the Elders]>"
-		]
+		"uniques": ["[+2 Food, +1 Happiness] from every [Ranch]"]
 	},
 	{
 		"name": "Feed the Faithful",
@@ -247,10 +266,7 @@
 		"uniques": [
 			"[+1 Food] from every [Shrine]",
 			"[+1 Food] from every [Monastery]",
-			"[+1 Food] from every [Megachurch]",
-			"Only available <before adopting [Obey the Elders]>",
-			"Only available <before adopting [Mandatory Rationing]>",
-			"Only available <before adopting [Feast of Flesh]>"
+			"[+1 Food] from every [Megachurch]"
 		]
 	},
 	{
@@ -258,7 +274,10 @@
 		"type": "Follower",
 		"uniques": [
 			"[+1 Gold, +1 Culture] from every [Jeweler]",
-			"[+1 Gold, +1 Culture] from every [Distillery]"
+			"[+1 Gold, +1 Culture] from every [Timepiece Maker]",
+			"[+1 Gold, +1 Culture] from every [Distillery]",
+			"[+1 Gold, +1 Culture] from every [Soaper]",
+			"[+1 Gold, +1 Culture] from every [Media Center]"
 		]
 	},
 	{
@@ -282,22 +301,12 @@
 	{
 		"name": "Mandatory Rationing",
 		"type": "Follower",
-		"uniques": [
-			"[+2 Food, +2 Gold, -1 Happiness] [in cities following this religion]",
-			"Only available <before adopting [Feast of Flesh]>",
-			"Only available <before adopting [Feed the Faithful]>",
-			"Only available <before adopting [Obey the Elders]>"
-		]
+		"uniques": ["[+2 Food, +2 Gold, -1 Happiness] [in cities following this religion]"]
 	},
 	{
 		"name": "Obey the Elders",
 		"type": "Follower",
-		"uniques": [
-			"[+2 Food, +2 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>",
-			"Only available <before adopting [Feast of Flesh]>",
-			"Only available <before adopting [Feed the Faithful]>",
-			"Only available <before adopting [Mandatory Rationing]>"
-		]
+		"uniques": ["[+2 Food, +2 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>"]
 	},
 	{
 		"name": "Public Prayer",
@@ -447,7 +456,10 @@
 	{
 		"name": "Defender of the Faith",
 		"type": "Enhancer",
-		"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"]
+		"uniques": [
+			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+			"Only available <before adopting [Just War]>"
+		]
 	},
 	{
 		"name": "Funeral Rites",
@@ -460,7 +472,10 @@
 	{
 		"name": "Just War",
 		"type": "Enhancer",
-		"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"]
+		"uniques": [
+			"[+15]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>",
+			"Only available <before adopting [Defender of the Faith]>"
+		]
 	},
 	{
 		"name": "Missionary Zeal",

@@ -49,6 +49,21 @@
 		"row": 12
 	},
 
+	//Faction unique
+	{
+		"name": "Cut Away the Self",
+		"uniques": [
+			"Can only heal by pillaging",
+			"Gain [1] [Culture] <upon turn end> <when [Wounded]>",
+			"Gain [1] [Faith] <upon turn end> <when [Wounded]>",
+			"Only available <for [Celestial Collective] Civilizations> <when [Wounded]>",
+			"This Promotion is free"
+		],
+		"unitTypes": ["Scrapper", "Shooter", "Mounted", "Mounted Ranged"],
+		"column": 11,
+		"row": 1
+	},
+
 	//Adjusted promotions from base scenario (mostly nerfs)
 	{
 		"name": "Heal Instantly",
@@ -627,6 +642,14 @@
 			"Heals [25] damage if it kills a unit"]
 	},
 	{
+		"name": "Atrocious Raider",
+		"uniques": [
+			"[+200]% Yield from pillaging tiles",
+			"[+50]% Health from pillaging tiles",
+			"No movement cost to pillage"
+		]
+	},
+	{
 		"name": "Reinforced Hull",
 		"uniques": ["[+20]% Strength <when defending>"]
 	},
@@ -681,6 +704,10 @@
 		"uniques": ["[Great General] is earned [100]% faster"]
 	},
 	{
+		"name": "Golden Age from Victories",
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"]
+	},
+	{
 		"name": "[Continental General] ability",
 		"uniques": ["Great General",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
@@ -691,6 +718,23 @@
 			"[This Unit] gains [1] XP <upon ending a turn in a [Citadel] tile>",
 			"Gain [5]-[30] [Gold] <upon ending a turn in a [Settlement] tile>",
 			"Uncapturable"]
+	},
+	{
+		"name": "[Dragon of the Four Truths] ability",
+		"uniques": [
+			"Earn [50]% of killed [Military] unit's [Strength] as [Culture]",
+			"Earn [25]% of killed [Military] unit's [Strength] as [Faith]",
+			"Gain [50] [Culture] <upon being defeated> <(modified by game speed)>",
+			"Gain [25] [Faith] <upon being defeated> <(modified by game speed)>"
+		]
+	},
+	{
+		"name": "Commitment to the Four Truths",
+		"uniques": ["Can Spread Religion <[2] additional time(s)>"]
+	},
+	{
+		"name": "Enforcement of the Four Truths",
+		"uniques": ["Can remove other religions from cities <in [Friendly] tiles> <[2] additional time(s)>"]
 	},
 	{
 		"name": "[Lawkeeper] ability",

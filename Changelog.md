@@ -1289,7 +1289,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **Misc.**
 - Quote attributions for several wonders have been restored.
 
-#### March 2025
+#### March - April 2025
 
 **Faction Adjustments**
 - Crimson Line no longer gets an inherent reduction in policy cost increase from cities owned. Additionally, the faction should now be slightly less likely to declare war on you and somewhat more likely to fight alongside you in war when controlled by the AI.
@@ -1297,26 +1297,57 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **Building Adjustments**
 - Bunkers and Earthscrapers cannot be built if nukes are disabled.
 
+**Wonder Adjustments**
+- Constitution Hall no longer adds Happiness to active Administrators; instead it adds a flat +1 Happiness to each city that has at least 2 active specialists. In retrospect, adding "Administrators provide Happiness" back in after removing it during the main rounds of Happiness nerfs was a big mistake and I should not have forgotten this.
+
 **Unit Adjustments**
 - Border Patrols that upgrade from Wasteland Patrols will lose the Skirmish promotion.
+- Continental Generals now generate Golden Age points from combat.
 - Machine Guns now cost 205 Production on Standard speed (previously 150) and lose 20 points to defense strength.
 - RCB units no longer have a combat bonus against City-State units and the combat bonus against cities now only applies when attacking.
-- Volt Driver now upgrades to Machine Gun.
+- Volt Driver now upgrades to Machine Gun. Additionally, its defense and ranged strength values have been swapped.
 
 **Promotion Adjustments**
 - Skirmish's evade rate reduced from 75% to 50%.
 - Terrascape now consumes all remaining movement points on the Mechanized Worker when a terraforming charge is used.
 
+**Policy Adjustments**
+- Sovereignty:
+	- Unlocking the tree will no longer unlock notifications for new barbarian camp spawns - this has been moved to Global Uniques.
+- Naturalism:
+	- Ecodefense will no longer spawn free Eco-Terrorists if nukes are disabled.
+- Legacy:
+	- Hegemony buffed to +30 resting influence and -33% influence degradation.
+
 **Belief Adjustments**
-- Defender of the Faith and Just War nerfed from 20% combat bonus to 15%.
+- Follower Beliefs that add Food yields of 2 or more per city are no longer mutually exclusive.
+- Defender of the Faith and Just War nerfed from 20% combat bonus to 15%. Players also cannot pick both beliefs in the same religion (yes, this is another "AI screw you" because an AI controlled faction that has the ability to adopt them both *will* adopt them both before considering any other beliefs).
+- Followers of Old World Crafts buffed to include three additional buildings (two of which were newly added and made specifically to buff this somewhat underpowered belief).
+- God of Love's population requirement reduced from 4 to 3.
+- God of Walls' combat bonus for cities when bombarding enemy units increased to 50%.
+
+**New Faction**
+- Celestial Collective (Chinese, *1984*-based, Domination/Religious)
 
 **New Buildings**
 - Collaborate with Isolationists (replaces Annex Isolationists for Atlas, +8 Science instead of +5 Production to the Isolated Island, +3 Science/+1 Culture to the city itself, +1 Great Scientist Point, keeps the Weapons resources)
 - Proxy Office (replaces Prison Camp for Atlas, no bonuses or penalties beyond the Courthouse effect)
 - Shale Extractor (replaces Oil Refinery for Atlas, +1 additional Production on Oil tiles and +1 additional copy of Oil, also added to Deciv 2)
+- Soaper (standalone, unlocks at Chemistry, requires a worked Cattle, Goats, Hogs, or Salt tile, adds +2 Local Happiness, maintenance cost 1, boosted by Followers of Old World Crafts)
+- Timepiece Maker (standalone, unlocks at Machinery, requires a worked Electronics or Machine Parts tile, adds +2 Production to those tiles and +1 to the city itself, boosted by Followers of Old World Crafts)
 
 **New Wonders**
 - International Ordnance Museum (world wonder, unlocks at Hoplology, +3 Culture to all Weapons tiles owned by the faction, new land and water units trained in the city earn XP 50% faster)
 
 **New Promotions**
+- Atrocious Raider (granted by Salt the Earth)
+- Cut Away the Self (exclusive to Celestial Collective, prevents fortifying/sleeping but grants 1 Culture and Faith every turn if the unit is wounded, unit must be wounded to take the promotion but can do so for free)
+- Golden Age from Victories (only available for specific units, grants Golden Age points equal to Strength of units killed in combat)
 - Know Your History (granted by International Ordnance Museum)
+
+**New Beliefs**
+- Equine Mysticism (Pantheon, +2 Faith to Horses tiles, +2 Production to Stables)
+- Salt the Earth (Pantheon, grants new units a promotion that triples stat yields gained from pillaging, increases health recovery from pillaging by 50%, and eliminates the movement cost for pillaging)
+
+**New Ruins Effect**
+- Fatal Ambush (instantly destroys the unit entering the camp tile, weight 3)

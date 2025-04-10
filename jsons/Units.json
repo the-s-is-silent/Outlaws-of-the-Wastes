@@ -1061,8 +1061,8 @@
 		"unitType": "Shooter",
 		"range": 2,
 		"movement": 2,
-		"strength": 35,
-		"rangedStrength": 30,
+		"strength": 30,
+		"rangedStrength": 35,
 		"cost": 35,
 		"hurryCostModifier": 20,
 		"requiredTech": "Steel",
@@ -1522,7 +1522,6 @@
 		"uniques": [
 			"Personnel",
 			"Can be earned through combat",
-			"Is part of Great Person group [General]",
 			"Great Person - [War]",
 			"Unbuildable",
 			"Consumes [1] [Weapons]"
@@ -1532,6 +1531,7 @@
 			"Gas Mask",
 			"Homeland Guardian",
 			"Great Generals",
+			"Golden Age from Victories",
 			"[Continental General] ability"
 		],
 		"attackSound": "shot"
@@ -1657,6 +1657,86 @@
 		],
 		"promotions": ["Gas Mask", "Loose Formation", "Medic II", "Reconnaissance I", "Reconnaissance II"],
 		"attackSound": "machinegun"
+	},
+
+	//Celestial Collective unique units
+	{
+		"name": "Dragon of the Four Truths",
+		"replaces": "Philosopher",
+		"uniqueTo": "Celestial Collective",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 40,
+		"interceptionRange": 1,
+		"cost": 60,
+		"promotions": ["Gas Mask", "[Dragon of the Four Truths] ability"],
+		"uniques": [
+			"Personnel",
+			"[+2] Movement <in [Friendly] tiles>",
+			"Can Spread Religion <for all movement> <[2] times> <after which this unit is consumed>",
+			"May enter foreign tiles without open borders, but loses [100] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[+25]% Strength <after discovering [Replaceable Parts]>",
+			"Unbuildable",
+			"Uncapturable",
+			"Religious Unit",
+			"Only available <when religion is enabled>"
+		],
+		"religiousStrength": 1000,
+		"attackSound": "shot"
+	},
+	{
+		"name": "Pure Thought Agent",
+		"uniqueTo": "Celestial Collective",
+		"replaces": "Censor",
+		"unitType": "Shooter",
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 30,
+		"range": 1,
+		"interceptRange": 1,
+		"cost": 60,
+		"hurryCostModifier": 20,
+		"promotions": ["Reconnaissance I", "Gas Mask"],
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[+10]% Strength bonus for [Military] units within [2] tiles",
+			"[-33]% Strength <vs cities>",
+			"[+50]% Strength <after discovering [Replaceable Parts]>",
+			"Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <[2] times> <after which this unit is consumed>",
+			"[+1] Sight",
+			"Unbuildable",
+			"Religious Unit",
+			"Only available <when religion is enabled>",
+			"Takes your religion over the one in their birth city"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Emissary of the Anti-Father",
+		"uniqueTo": "Celestial Collective",
+		"replaces": "Great Sage",
+		"unitType": "Civilian",
+		"uniques": [
+			"[+20]% Strength bonus for [Military] units within [2] tiles",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+			"Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+			"May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+			"May enhance a religion <by consuming this unit> <if it hasn't used other actions yet>",
+			"May enter foreign tiles without open borders",
+			"Great Person - [Faith]",
+			"Unbuildable",
+			"Uncapturable",
+			"Religious Unit",
+			"Only available <when religion is enabled>",
+			"Takes your religion over the one in their birth city"
+		],
+		"movement": 2,
+		"religiousStrength": 1000
 	},
 
 	//Siege units
