@@ -129,12 +129,6 @@
 		"uniques": ["[This Unit] gains [30] XP", "Only available <after turn number [40]>"]
 	},
 	{
-		"name": "fatal ambush",
-		"notification": "We lost our exploring unit to a fatal ambush in the camp!",
-		"weight": 3,
-		"uniques": ["[This Unit] is destroyed"]
-	},
-	{
 		"name": "prospector equipment",
 		"notification": "Our unit finds prospecting tools hidden in the camp!",
 		"weight": 4,

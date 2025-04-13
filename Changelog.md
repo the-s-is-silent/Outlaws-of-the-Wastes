@@ -1347,6 +1347,3 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **New Beliefs**
 - Equine Mysticism (Pantheon, +2 Faith to Horses tiles, +2 Production to Stables)
-
-**New Ruins Effect**
-- Fatal Ambush (instantly destroys the unit entering the camp tile, weight 3)
