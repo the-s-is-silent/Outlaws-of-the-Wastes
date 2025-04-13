@@ -209,14 +209,6 @@
 		]
 	},
 	{
-		"name": "Salt the Earth",
-		"type": "Pantheon",
-		"uniques": [
-			"Comment [Newly trained units gain triple yields and additional health recovery from pillaging tiles and do not consume movement points to pillage]",
-			"All newly-trained [{Military} {Land}] units [in this city] receive the [Atrocious Raider] promotion <hidden from users>"
-		]
-	},
-	{
 		"name": "Spiritual Research",
 		"type": "Pantheon",
 		"uniques": [

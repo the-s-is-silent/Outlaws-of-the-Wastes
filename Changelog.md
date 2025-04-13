@@ -1340,14 +1340,12 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - International Ordnance Museum (world wonder, unlocks at Hoplology, +3 Culture to all Weapons tiles owned by the faction, new land and water units trained in the city earn XP 50% faster)
 
 **New Promotions**
-- Atrocious Raider (granted by Salt the Earth)
 - Cut Away the Self (exclusive to Celestial Collective, prevents fortifying/sleeping but grants 1 Culture and Faith every turn if the unit is wounded, unit must be wounded to take the promotion but can do so for free)
 - Golden Age from Victories (only available for specific units, grants Golden Age points equal to Strength of units killed in combat)
 - Know Your History (granted by International Ordnance Museum)
 
 **New Beliefs**
 - Equine Mysticism (Pantheon, +2 Faith to Horses tiles, +2 Production to Stables)
-- Salt the Earth (Pantheon, grants new units a promotion that triples stat yields gained from pillaging, increases health recovery from pillaging by 50%, and eliminates the movement cost for pillaging)
 
 **New Ruins Effect**
 - Fatal Ambush (instantly destroys the unit entering the camp tile, weight 3)

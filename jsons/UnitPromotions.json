@@ -60,7 +60,7 @@
 			"This Promotion is free"
 		],
 		"unitTypes": ["Scrapper", "Shooter", "Mounted", "Mounted Ranged"],
-		"column": 11,
+		"column": 12,
 		"row": 1
 	},
 
@@ -640,14 +640,6 @@
 		"uniques": ["Earn [25]% of the damage done to [All] units as [Gold]",
 			"[+25]% Strength <vs [Wounded] units>",
 			"Heals [25] damage if it kills a unit"]
-	},
-	{
-		"name": "Atrocious Raider",
-		"uniques": [
-			"[+200]% Yield from pillaging tiles",
-			"[+50]% Health from pillaging tiles",
-			"No movement cost to pillage"
-		]
 	},
 	{
 		"name": "Reinforced Hull",
