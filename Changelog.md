@@ -1299,6 +1299,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Wonder Adjustments**
 - Constitution Hall no longer adds Happiness to active Administrators; instead it adds a flat +1 Happiness to each city that has at least 2 active specialists. In retrospect, adding "Administrators provide Happiness" back in after removing it during the main rounds of Happiness nerfs was a big mistake and I should not have forgotten this.
+- Exotic Bazaar now adds +1 Water to each non-wonder building that provides Slaves instead of providing Water based on how many slaves the Caliphate has accumulated, due to an update that broke the functionality of the old unique.
 
 **Unit Adjustments**
 - Border Patrols that upgrade from Wasteland Patrols will lose the Skirmish promotion.

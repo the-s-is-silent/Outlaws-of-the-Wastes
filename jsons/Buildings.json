@@ -1491,7 +1491,10 @@
 		"uniques": [
 			"Provides 1 extra copy of each improved luxury resource near this City",
 			"Provides [4] [Slaves]",
-			"[+1 Gold] <for every [1] [Slaves]>",
+			"Comment [+1 Water from all non-wonder buildings that provide Slaves]",
+			"[+1 Gold] from every [Prison Camp] <hidden from users>",
+			"[+1 Gold] from every [Kaserne] <hidden from users>",
+			"[+1 Gold] from every [Houri Brothel] <hidden from users>",
 			"Only available <if [Esir] is constructed in at least [4] of [Your] cities>",
 			"Cost increases by [30] per owned city"
 		],
