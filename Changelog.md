@@ -1296,15 +1296,20 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Building Adjustments**
 - Bunkers and Earthscrapers cannot be built if nukes are disabled.
+- Compound Mixes can no longer be purchased. They are also slightly more expensive to build (75 for standard, 150 for Meltdown).
 
 **Wonder Adjustments**
 - Constitution Hall no longer adds Happiness to active Administrators; instead it adds a flat +1 Happiness to each city that has at least 2 active specialists. In retrospect, adding "Administrators provide Happiness" back in after removing it during the main rounds of Happiness nerfs was a big mistake and I should not have forgotten this.
 - Exotic Bazaar now adds +1 Water to each non-wonder building that provides Slaves instead of providing Water based on how many slaves the Caliphate has accumulated, due to an update that broke the functionality of the old unique.
+- Sarcophagus now spawns two free Mutants instead of one. However, in exchange for this buff:
+- Search for Survivors is now **unbuildable** for Proklyatyye.
 
 **Unit Adjustments**
 - Border Patrols that upgrade from Wasteland Patrols will lose the Skirmish promotion.
 - Continental Generals now generate Golden Age points from combat.
+- Field Scientists can no longer be purchased, and their Production cost increases by 100% every two eras starting at the Neofeudal era.
 - Machine Guns now cost 205 Production on Standard speed (previously 150) and lose 20 points to defense strength.
+- Mechanized Workers and Military Engineers will now auto-heal all damage they take while on Mountain tiles.
 - RCB units no longer have a combat bonus against City-State units and the combat bonus against cities now only applies when attacking.
 - Volt Driver now upgrades to Machine Gun. Additionally, its defense and ranged strength values have been swapped.
 
@@ -1322,10 +1327,13 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Belief Adjustments**
 - Follower Beliefs that add Food yields of 2 or more per city are no longer mutually exclusive.
-- Defender of the Faith and Just War nerfed from 20% combat bonus to 15%. Players also cannot pick both beliefs in the same religion (yes, this is another "AI screw you" because an AI controlled faction that has the ability to adopt them both *will* adopt them both before considering any other beliefs).
+- Defender of the Faith and Just War nerfed from 20% combat bonus to 15%. Players also cannot pick both beliefs in the same religion (yes, this is another "screw the AI" adjustment because any AI controlled faction that has the ability to adopt them both *will* adopt them both before considering any other beliefs).
 - Followers of Old World Crafts buffed to include three additional buildings (two of which were newly added and made specifically to buff this somewhat underpowered belief).
 - God of Love's population requirement reduced from 4 to 3.
 - God of Walls' combat bonus for cities when bombarding enemy units increased to 50%.
+
+**Improvement Adjustments**
+- Outposts and Prison Farms now provide 3 Slaves.
 
 **New Faction**
 - Celestial Collective (Chinese, *1984*-based, Domination/Religious)

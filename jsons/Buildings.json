@@ -2412,7 +2412,7 @@
 			"Provides [2] [Uranium]",
 			"Provides [1] [Power]",
 			"[+2 Culture, +1 Happiness] [in this city] <after discovering [Decontamination]>",
-			"Free [Mutant] appears",
+			"[2] free [Mutant] units appear",
 			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Zemlyanka] [in this city]"
@@ -5269,13 +5269,14 @@
 	{
 		"name": "Compound Mix GA",
 		"uniqueTo": "Hexlock",
-		"cost": 70,
+		"cost": 75,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Instantly consumes [2] [Experimental Chemicals]",
 			"Free [Great Administrator] appears",
 			"Must have an owned [C8H17 Refinery] within [3] tiles",
 			"Only available <in cities with a [Compound Mixer]>",
+			"Cannot be purchased",
 			"Unsellable",
 			"Never destroyed when the city is captured",
 			"Requires at least [999] population <when below [2] [Experimental Chemicals]>",
@@ -5285,13 +5286,14 @@
 	{
 		"name": "Compound Mix GF",
 		"uniqueTo": "Hexlock",
-		"cost": 70,
+		"cost": 75,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Instantly consumes [2] [Experimental Chemicals]",
 			"Free [Great Farmer] appears",
 			"Must have an owned [VX Refinery] within [3] tiles",
 			"Only available <in cities with a [Compound Mixer]>",
+			"Cannot be purchased",
 			"Unsellable",
 			"Never destroyed when the city is captured",
 			"Requires at least [999] population <when below [2] [Experimental Chemicals]>",
@@ -5301,13 +5303,14 @@
 	{
 		"name": "Compound Mix GS",
 		"uniqueTo": "Hexlock",
-		"cost": 70,
+		"cost": 75,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Instantly consumes [2] [Experimental Chemicals]",
 			"Free [Great Scientist] appears",
 			"Must have an owned [SbF5 Refinery] within [3] tiles",
 			"Only available <in cities with a [Compound Mixer]>",
+			"Cannot be purchased",
 			"Unsellable",
 			"Never destroyed when the city is captured",
 			"Requires at least [999] population <when below [2] [Experimental Chemicals]>",
@@ -5317,13 +5320,14 @@
 	{
 		"name": "Compound Mix GM",
 		"uniqueTo": "Hexlock",
-		"cost": 70,
+		"cost": 75,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Instantly consumes [2] [Experimental Chemicals]",
 			"Free [Great Merchant] appears",
 			"Must have an owned [C2N14 Refinery] within [3] tiles",
 			"Only available <in cities with a [Compound Mixer]>",
+			"Cannot be purchased",
 			"Unsellable",
 			"Never destroyed when the city is captured",
 			"Requires at least [999] population <when below [2] [Experimental Chemicals]>",
@@ -5333,13 +5337,14 @@
 	{
 		"name": "Compound Mix GE",
 		"uniqueTo": "Hexlock",
-		"cost": 70,
+		"cost": 75,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Instantly consumes [2] [Experimental Chemicals]",
 			"Free [Great Engineer] appears",
 			"Must have an owned [C1F3 Refinery] within [3] tiles",
 			"Only available <in cities with a [Compound Mixer]>",
+			"Cannot be purchased",
 			"Unsellable",
 			"Never destroyed when the city is captured",
 			"Requires at least [999] population <when below [2] [Experimental Chemicals]>",
@@ -5349,12 +5354,13 @@
 	{
 		"name": "Compound Mix Meltdown",
 		"uniqueTo": "Hexlock",
-		"cost": 140,
+		"cost": 150,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Consumes [1] [Refined Experimental Chemicals]",
 			"Free Great Person",
 			"Must have an owned [Crystal Refinery] within [3] tiles",
+			"Cannot be purchased",
 			"Unsellable",
 			"Never destroyed when the city is captured",
 			"Only available <in cities with a [Compound Mixer]>",
@@ -5520,6 +5526,13 @@
 			"[+10]% Production when constructing [Military] units [in this city]",
 			"Gain a free [Armory] [in this city]"],
 		"requiredTech": "Munitions"
+	},
+	{
+		"name": "Proklyatyye cannot Search for Survivors",
+		"replaces": "Search for Survivors",
+		"uniqueTo": "Proklyatyye",
+		"isNationalWonder": true,
+		"uniques": ["Unbuildable", "Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Zemlyanka",

@@ -121,11 +121,12 @@
 - Chemicals are now properly Strategic Resources instead of Luxury Resources, so now Hexlock actually has Happiness issues.
 - All five of the original chemicals from the base scenario have been condensed into a single resource.
 - Field Scientists and Purge Robots are now standalone units.
+- Field Scientists' Production cost increases by 70 every two eras. Also, they cannot be purchased.
 - Purge Robot Proto's base Strength increased from 25 to 40, in order to give Hexlock a fighting chance. But its Production cost is increased from 50 to 75.
 - Hex Corporation only creates one Purge Robot Proto, but it also gives a 10% Production bonus towards the construction of all Promotion Nullifier units after Replaceable Parts is researched. Also, it no longer gives a free Compound Mixer to the capital and gives their new Food Store replacement instead.
 - Standard Refineries gain +1 to their respective yields compared to the base scenario, adjacency bonuses (+1 Production when next to strategic resources, +1 of the respective yield when next to their corresponding GI), and scaling yields, receiving +1 of their respective base yield at Laboratory and another +1 at Advanced Materials. The VX Refinery now provides Food instead of Faith, but is not considered a Food source improvement.
 - Crystal Refineries have their base yields doubled to +4 Science, +2 Water, but have their adjacency bonuses reduced to +2 Science, +1 Water with 3 or less adjacent Refineries, +4 Science, +2 Water with 4 or more. They now provide a Refined version of the consolidated Experimented Chemical that *is* allowed to be a Luxury. Also, they gain +2 Production and provide an extra copy of Coal or Oil if built on the respective resource tile.
-- Compound Mixes now cost 2 of the consolidated unique resource (aside from Meltdown which consumes 1 copy of the Refined version) and require the city to work the Refinery which corresponds with the chemical that Refinery originally produced.
+- Compound Mixes now cost 2 of the consolidated unique resource (aside from Meltdown which consumes 1 copy of the Refined version) and require the city to work the Refinery which corresponds with the chemical that Refinery originally produced. Also, they cannot be purchased and have a slight Production cost increase.
 - Compound Mix GP replaced with Compound Mix GF, generating Great Farmers instead of Great Sages.
 - Heat Plants are no longer one of their unique components and can be built by everyone.
 - Pre-Med Labs have been buffed to carry over the same amount of Food on population increase as the Hospitals they replace and add +1 Food to VX Refineries, increasing to +2 in the late game.
@@ -141,7 +142,7 @@
   - Chemfuel Generator (standalone, requires a worked Refinery of any type and an Experimental Lab, boosts city Production by 5% and provides 2 units of Power, will be destroyed if the city is captured)
 
 #### The Mariners
-- They now start with Rediscovery adopted, and upon adopting Advanced Piracy *all* of their Water units along with their Personnel units gain the policy's Sea Raider promotion.
+- They now start with Rediscovery adopted, and upon adopting Advanced Piracy *all* of their Water units along with their Low Tech and Personnel units gain the policy's Sea Raider promotion.
 - The Great Lighthouse buffed to add +2 Food to the capital provided it's actually founded on the coast. It no longer generates Faith, however.
 - Trader's Congress no longer increases the effectivess of Water gifts to City-States, but generates Culture equal to 10% of the total output from allied City-States, and adds +1 Water per 4 population to all cities along with +1 Water to city connections.
 - Raider's Council now grants a +10% growth boost in coastal cities and a +15% Production bonus towards Water units.
@@ -195,7 +196,8 @@
 #### Proklyatyye
 - Since they don't have a favored religion in base DeCiv, Rodnovery was assigned to them in this mod.
 - The growth penalties in the UA now end after researching Decontamination.
-- Sarcophagus buffed to +2 Production.
+- Search for Survivors is unbuildable.
+- Sarcophagus buffed to +2 Production and 2 free Mutants.
 - Five-Year Plan and Gulag have been renamed to Verkhovny Sovet and Politburo.
 - Verkhovny Sovet now adds scaling Production yields (in addition to the scaling Culture yields) and counts every 4 population in cities instead of every 5. However, it costs 150 Production.
 - Politburo no longer adds Culture/Happiness; it instead adds +3 Production to their Prison Camp/Work Camp replacements and Listening Posts.

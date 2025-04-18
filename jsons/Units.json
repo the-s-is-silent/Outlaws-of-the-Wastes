@@ -24,6 +24,7 @@
 		"upgradesTo": "Mechanized Worker",
 		"uniques": [
 			"Can pass through impassable tiles",
+			"[This Unit] heals [50] HP <upon turn start> <in [Mountain] tiles>",
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Can build [Trench] improvements on tiles",
@@ -2549,10 +2550,14 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Hexlock",
 		"requiredTech": "Writing",
-		"cost": 70,
+		"cost": 120,
 		"movement": 2,
 		"hurryCostModifier": 20,
 		"uniques": [
+			"[+100]% production cost <starting from the [Neofeudal era]> <before the [Industrial era]>",
+			"[+200]% production cost <starting from the [Industrial era]> <before the [Information era]>",
+			"[+300]% production cost <starting from the [Information era]>",
+			"Cannot be purchased",
 			"Can instantly construct a [C1F3 Refinery] improvement <by consuming this unit>",
 			"Can instantly construct a [C2N14 Refinery] improvement <by consuming this unit>",
 			"Can instantly construct a [C8H17 Refinery] improvement <by consuming this unit>",
@@ -2604,6 +2609,7 @@
 			"Withdraws before melee combat <with [50]% chance>",
 			"Ignores terrain cost",
 			"Can pass through impassable tiles",
+			"[This Unit] heals [50] HP <upon turn start> <in [Mountain] tiles>",
 			"Can build [Land] improvements on tiles",
 			"[-25]% construction time for [All] improvements",
 			"Automation is a primary action"
