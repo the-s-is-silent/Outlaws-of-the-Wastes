@@ -1258,8 +1258,9 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Offshore mines (newly added improvement in DeCiv 2) may be slow built (8 turns on Standard speed) but do not provide additional luxury resource copies late-game.
 - Floating Settlements and Polders are now properly considered Food sources.
 
-**New City-State**
+**New City-States**
 - Powderhorn Autonomous Zone (Culture-type; is not based on any fictional media)
+- Tự Do (Weapons-type; is not based on any fictional media)
 
 **New Buildings**
 - Advanced Energy Recycling Plant (Post-Tech Expansion replacement for Recycling Plant in "Deciv 2" branch, twice as much power as Redux's old Recycling Plant, unlocks at Energy Weapons)
@@ -1296,22 +1297,36 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Building Adjustments**
 - Bunkers and Earthscrapers cannot be built if nukes are disabled.
-- Compound Mixes can no longer be purchased. They are also slightly more expensive to build (75 for standard, 150 for Meltdown).
+- Navy Shipyard no longer generates Great Admiral points.
+- Faction UBs:
+	- The Caliphate: Kaserne renamed to Amsar and buffed to make its city slightly harder to capture (+2 City Strength, +20 HP). This is to allow Bamboolord to use the old UB name for his planned Geneva Union faction.
+	- Hexlock: Compound Mixes can no longer be purchased. They are also slightly more expensive to build (75 for standard, 150 for Meltdown).
+	- Proklyatyye: Verkhovny Sovet and Politburo no longer require Search for Survivors. (Expected to be a temporary adjustment.)
 
 **Wonder Adjustments**
+- Conscript Survivors' Production cost increased by 5, but it now provides 4 Slaves and 2 Warriors.
 - Constitution Hall no longer adds Happiness to active Administrators; instead it adds a flat +1 Happiness to each city that has at least 2 active specialists. In retrospect, adding "Administrators provide Happiness" back in after removing it during the main rounds of Happiness nerfs was a big mistake and I should not have forgotten this.
+- Eagle Rock Complex now gives a free Armory in the capital, restoring the Patriots' early access to higher tier units (but leaving them crippled if they lose their capital).
 - Exotic Bazaar now adds +1 Water to each non-wonder building that provides Slaves instead of providing Water based on how many slaves the Caliphate has accumulated, due to an update that broke the functionality of the old unique.
+- First Kiva no longer adds an extra point of Faith to the capital upon founding a Pantheon.
+- Naval War College no longer generates Great Admiral points.
+- Raider Suppression Initiative's Water-per-kill from slaying Barbarians halved.
+- Revert Survivors' Production cost reduced by 5.
 - Sarcophagus now spawns two free Mutants instead of one. However, in exchange for this buff:
-- Search for Survivors is now **unbuildable** for Proklyatyye.
+- Search for Survivors is now **unbuildable** for Proklyatyye. (Expected to be a temporary adjustment until a proper replacement for the wonder is made.)
 
 **Unit Adjustments**
-- Border Patrols that upgrade from Wasteland Patrols will lose the Skirmish promotion.
-- Continental Generals now generate Golden Age points from combat.
-- Field Scientists can no longer be purchased, and their Production cost increases by 100% every two eras starting at the Neofeudal era.
+- Great Admirals can now be earned through naval combat. Great Generals are restricted to earning through land combat.
 - Machine Guns now cost 205 Production on Standard speed (previously 150) and lose 20 points to defense strength.
 - Mechanized Workers and Military Engineers will now auto-heal all damage they take while on Mountain tiles.
 - RCB units no longer have a combat bonus against City-State units and the combat bonus against cities now only applies when attacking.
-- Volt Driver now upgrades to Machine Gun. Additionally, its defense and ranged strength values have been swapped.
+- Faction UUs:
+	- Central State (Forgotten Factions): Recovered Dongfei Missiles cannot be purchased. (Ensure you enable Forgotten Factions first, Outlaws last to make the nerf stick.)
+	- Charybdis Division (Followers of the Green): Great Submarine Commander now replaces the Great Admiral instead of the Great General and gets the Admiral's healing bonuses but not the Drydock GI. It can still be expended to start Golden Ages. (Again, ensure Outlaws is enabled last to make the change stick.)
+	- Crimson Line: Volt Driver now upgrades to Machine Gun. Additionally, its defense and ranged strength values have been swapped.
+	- Hexlock: Field Scientists can no longer be purchased, and their Production cost increases by 100% of the base amount every two eras starting at the Neofeudal era.
+	- Nowa Polska: Kosynier nerfed; instead of doubling as a Worker, it now insta-builds Farms by consuming the unit.
+	- The Oathsworn: Continental Generals now generate Golden Age points from combat.
 
 **Promotion Adjustments**
 - Skirmish's evade rate reduced from 75% to 50%.
@@ -1331,9 +1346,9 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Followers of Old World Crafts buffed to include three additional buildings (two of which were newly added and made specifically to buff this somewhat underpowered belief).
 - God of Love's population requirement reduced from 4 to 3.
 - God of Walls' combat bonus for cities when bombarding enemy units increased to 50%.
-
-**Improvement Adjustments**
-- Outposts and Prison Farms now provide 3 Slaves.
+- Jesuit Education now allows purchasing Observatories with Faith.
+- Primacy can once again be adopted. Its new effect grants players who select it as their Founder Belief all of the Faith produced by allied City-States. It will be less likely to be picked by the AI if there are less than four City-States, and will not be picked at all by the AI if there are less than two.
+- Religious Unity is less likely to be picked by the AI if there are less than four City-States, and will not be picked at all by the AI if there are less than two.
 
 **New Faction**
 - Celestial Collective (Chinese, *1984*-based, Domination/Religious)

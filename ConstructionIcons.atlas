@@ -620,7 +620,7 @@ BuildingIcons/Jeweler
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Kaserne
+BuildingIcons/Amsar
   rotate: false
   xy: 976, 1378
   size: 100, 100

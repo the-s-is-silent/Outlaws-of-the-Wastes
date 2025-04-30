@@ -521,7 +521,7 @@
 			"Gives a defensive bonus of [110]%",
 			"Adjacent enemy units ending their turn take [30] damage",
 			"[+4 Production] <after discovering [Combined Arms]>",
-			"Provides [3] [Slaves]",
+			"Provides [2] [Slaves]",
 			"Unbuildable <in [Impeded terrain] tiles>",
 			"Removes removable features when built",
 			"Will not be replaced by automated units",
@@ -537,7 +537,7 @@
 		"uniques": [
 			"Great Improvement",
 			"Gives a defensive bonus of [10]%",
-			"Provides [3] [Slaves]",
+			"Provides [2] [Slaves]",
 			"[+1 Production] for each adjacent [Farm]",
 			"[+4 Production] <after discovering [Social Engineering]>",
 			"Removes removable features when built",

@@ -51,17 +51,42 @@
 
 	//Faction unique
 	{
-		"name": "Cut Away the Self",
+		"name": "Cut Away the Self I",
+		"uniques": [
+			"[This Unit] takes [5] damage",
+			"Gain [10] [Culture] <upon being defeated> <(modified by game speed)>",
+			"Gain [10] [Faith] <upon being defeated> <(modified by game speed)>",
+			"Only available <for [Celestial Collective] Civilizations>",
+			"This Promotion is free"
+		],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted", "Mounted Ranged"],
+		"column": 12,
+		"row": 1
+	},
+	{
+		"name": "Cut Away the Self II",
+		"prerequisites": ["Cut Away the Self I"],
 		"uniques": [
 			"Can only heal by pillaging",
 			"Gain [1] [Culture] <upon turn end> <when [Wounded]>",
 			"Gain [1] [Faith] <upon turn end> <when [Wounded]>",
-			"Only available <for [Celestial Collective] Civilizations> <when [Wounded]>",
-			"This Promotion is free"
+			"[This Unit] gains the [Cut Away the Self III] promotion <upon defeating a [Military] unit>",
+			"Only available <for [Celestial Collective] Civilizations> <when [Wounded]>"
 		],
-		"unitTypes": ["Scrapper", "Shooter", "Mounted", "Mounted Ranged"],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted", "Mounted Ranged"],
 		"column": 12,
-		"row": 1
+		"row": 2
+	},
+	{
+		"name": "Cut Away the Self III",
+		"uniques": [
+			"Uncapturable",
+			"Earn [10]% of killed [Military] unit's [Cost] as [Culture]",
+			"Earn [10]% of killed [Military] unit's [Cost] as [Faith]",
+			"Only available <for [Celestial Collective] Civilizations>"
+		],
+		"column": 12,
+		"row": 3
 	},
 
 	//Adjusted promotions from base scenario (mostly nerfs)
@@ -574,6 +599,17 @@
 		"name": "Mountaineer",
 		"uniques": ["Can pass through impassable tiles"]
 	},
+	{
+		"name": "[Khan] ability",
+		"uniques": [
+			"Great General",
+			"[+20]% Strength bonus for [Military] units within [1] tiles",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"[+10]% Strength bonus for [Military] units within [3] tiles",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Uncapturable"
+		]
+	},
 
 	//Purge Robots
 	{
@@ -672,16 +708,20 @@
 	},
 	{
 		"name": "Valor of Aztlán",
-		"uniques": ["[+25]% Strength <vs [Wounded] units>",
+		"uniques": [
+			"[+25]% Strength <vs [Wounded] units>",
 			"[This Unit] upgrades for free <upon defeating a [Military] unit>",
 			"Comment [This Promotion becomes Fury of Aztlán after this unit upgrades to Shorn One]",
-			"[This Unit] loses the [Valor of Aztlán] promotion <for [non-[Aztlán]] Civilizations> <hidden from users>"]
+			"[This Unit] loses the [Valor of Aztlán] promotion <for [non-[Aztlán]] Civilizations> <hidden from users>"
+		]
 	},
 	{
 		"name": "Fury of Aztlán",
-		"uniques": ["[+33]% Strength <when attacking>",
+		"uniques": [
+			"[+33]% Strength <when attacking>",
 			"Heals [25] damage if it kills a unit",
-			"[This Unit] loses the [Valor of Aztlán] promotion <hidden from users>"]
+			"[This Unit] loses the [Valor of Aztlán] promotion <hidden from users>"
+		]
     },
 	{
 		"name": "[Cursed Soldier] ability",
@@ -701,7 +741,8 @@
 	},
 	{
 		"name": "[Continental General] ability",
-		"uniques": ["Great General",
+		"uniques": [
+			"Great General",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"[+50]% XP gained from combat",
 			"[+50]% Strength <after discovering [Combined Arms]>",
@@ -709,7 +750,8 @@
 			"Can instantly construct a [Citadel] improvement <once> <for [2] movement>",
 			"[This Unit] gains [1] XP <upon ending a turn in a [Citadel] tile>",
 			"Gain [5]-[30] [Gold] <upon ending a turn in a [Settlement] tile>",
-			"Uncapturable"]
+			"Uncapturable"
+		]
 	},
 	{
 		"name": "[Dragon of the Four Truths] ability",

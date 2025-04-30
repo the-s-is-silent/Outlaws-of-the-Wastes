@@ -4,7 +4,7 @@ Like the status of the mod as a whole as well as DeCiv Redux's credit list, this
 Pixel art will most likely reuse other sources (several of them from DeCiv, Caer and Drydock from Rekmod, Barbarian Scout and Suicider from The Barbarians) for the initial upload.<br>
 Several unit sprites are either borrowed from, or based off sprites made by, [The Bucketeer](https://github.com/GeneralWadaling).
 The sprites for Eagle Warrior, War Tram, and Armored Train were made by [ReallyBasicName](https://github.com/ReallyBasicName).<br>
-Armed Mining Camp, Cactus and Cactus Farm, Floating Settlement, Fortified Farm, Supply Complex, and Wasteland Station borrow and in some cases modify tile images from Alpha Frontier, with permission from [Indonesian Gentleman](https://github.com/carriontrooper).<br>
+Armed Mining Camp, Cactus and Cactus Farm, Fortified Farm, Supply Complex, and Wasteland Station borrow and in some cases modify tile images from Alpha Frontier, with permission from [Indonesian Gentleman](https://github.com/carriontrooper).<br>
 Preservator is borrowed from [Bamboolord](https://github.com/RealBamboolord) with his permission.<br>
 Several icons reuse images used in Unciv, DeCiv Redux, Civ 6 mod, and Rekmod, with some of the latter three remaining unsourced.<br>
 The Religion Icons for Anglicanism, Imperial Cult, Methodism and Mormonism were created by Tomatekh on CivFanatics and can be found [at the Civ 5 Customization Wiki's entry on the Tomatekh's Historical Religions mod](https://civilization-v-customisation.fandom.com/wiki/Tomatekh%27s_Historical_Religions).<br>
@@ -20,6 +20,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Afrikan Reformed Church: [Church](https://thenounproject.com/icon/church-1786868/) by SANTRI ICON, ID
 - Alternet Cafe: [internet cafe](https://thenounproject.com/icon/internet-cafe-4624824/) by Eucalyp
 - Amager Bakke: Based off the official logo for Copenhill (source link missing)
+- Amsar: [barracks](https://thenounproject.com/icon/barracks-3637162/) by Eucalyp (icon chosen when UB was originally named Kaserne, need to replace ASAP)
 - Armory Station: [Metro Station](https://thenounproject.com/icon/metro-station-5108900/) by Singlar
 - Arsenal of Liberty: [ammunition](https://thenounproject.com/icon/ammunition-2423453/) by Template, TH
 - Atomgrad Project: [Nuclear](https://thenounproject.com/icon/nuclear-2661706/) by emkamal kamaluddin, ID
@@ -80,7 +81,6 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Interpretative Center: [translate](https://thenounproject.com/icon/translate-3624415/) by sripfoto, TH
 - Interstice: [hyperloop train](https://thenounproject.com/icon/hyperloop-train-5736270/) by Delwar Hossain, BD
 - Jeweler: [jeweler](https://thenounproject.com/icon/jeweler-207094/) by Hans Paul Mösl Junior, BR
-- Kaserne: [barracks](https://thenounproject.com/icon/barracks-3637162/) by Eucalyp
 - Kolkhoz: [Hammer and Sickle](https://thenounproject.com/icon/hammer-and-sickle-1367671/) by Dmitry Baranovskiy, AU
 - Kruger Line: [railway](https://thenounproject.com/icon/railway-5804165/) by Viktor Turchyn, UA
 - Mansion of Our Father: [holy trinity cathedral](https://thenounproject.com/icon/holy-trinity-cathedral-4284193/) by Amethyst Studio, TH

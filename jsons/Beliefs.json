@@ -443,6 +443,15 @@
 		"type": "Founder",
 		"uniques": ["[+50 Culture] when a city adopts this religion for the first time <(modified by game speed)>"]
 	},
+	{
+		"name": "Primacy",
+		"type": "Founder",
+		"uniques": [
+			"Allied City-States provide [Faith] equal to [100]% of what they produce for themselves",
+			"[-100]% weight to this choice for AI decisions <when number of [Remaining [City-States] Civilizations] is less than [2]>",
+			"[-50]% weight to this choice for AI decisions <when number of [Remaining [City-States] Civilizations] is less than [4]>"
+		]
+	},
 
 //Enhancer
 	{
@@ -513,6 +522,8 @@
 		"uniques": [
 			"[+100]% Natural religion spread [in City-State cities]",
 			"Resting point for Influence with City-States following this religion [+15]",
+			"[-100]% weight to this choice for AI decisions <when number of [Remaining [City-States] Civilizations] is less than [2]>",
+			"[-50]% weight to this choice for AI decisions <when number of [Remaining [City-States] Civilizations] is less than [4]>",
 			"Only available <before adopting [Exodus of the Evangelists]>",
 			"Only available <before adopting [Religious Troubadours]>",
 			"Only available <before adopting [The Radiant City]>"
@@ -611,6 +622,7 @@
 		"uniques": [
 			"May buy [Library] buildings with [Faith] for [2] times their normal Production cost",
 			"May buy [University] buildings with [Faith] for [2] times their normal Production cost",
+			"May buy [Observatory] buildings with [Faith] for [2] times their normal Production cost",
 			"May buy [Public School] buildings with [Faith] for [2] times their normal Production cost",
 			"May buy [Research Lab] buildings with [Faith] for [2] times their normal Production cost",
 			"Only available <after adopting [Exodus of the Evangelists]>"
@@ -655,12 +667,6 @@
 		"name": "Itinerant Preachers",
 		"type": "Enhancer",
 		"uniques": ["Religion naturally spreads to cities [+3] tiles away",
-			"Only available <before discovering [The Wheel]>"]
-	},
-	{
-		"name": "Primacy",
-		"type": "Founder",
-		"uniques": ["Resting point for Influence with City-States following this religion [+15]",
 			"Only available <before discovering [The Wheel]>"]
 	},
 	{

@@ -52,14 +52,16 @@
 	{
 		"name": "Great Admiral",
 		"unitType": "Civilian Water",
-		"uniques": ["Can instantly construct a [Drydock] improvement <by consuming this unit>",
+		"uniques": [
+			"Can instantly construct a [Drydock] improvement <by consuming this unit>",
 			"[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles",
 			"May heal outside of friendly territory",
 			"[+15] HP when healing",
 			"All adjacent units heal [+15] HP when healing",
-			"Is part of Great Person group [Admiral]",
+			"Can be earned through combat <for [Water] units>",
 			"Great Person - [Navy]",
-			"Unbuildable", "Uncapturable"],
+			"Unbuildable", "Uncapturable"
+		],
 		//Repair Fleet ability is currently unimplemented
 		"movement": 6
 	},
@@ -348,8 +350,7 @@
 			"[-25]% Strength <when fighting in [Foreign Land] tiles>",
 			"[-33]% Strength <vs cities> <when attacking>",
 			"Can only be built <in cities with a [Stable]>",
-			"Never appears as a Barbarian unit",
-			"[This Unit] loses the [Skirmish] promotion <hidden from users>"
+			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "shot"
 	},
@@ -1217,7 +1218,7 @@
 			"[+15]% Strength bonus for [Military] units within [3] tiles",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Can instantly construct a [Survivor camp] improvement <once> <in tiles adjacent to [City ruins] tiles> <for [2] movement>",
-			"Can be earned through combat",
+			"Can be earned through combat <for [Land] units>",
 			"Great Person - [War]", 
 			"Unbuildable", "Uncapturable"
 		],
@@ -1522,7 +1523,7 @@
 		"interceptRange": 1,
 		"uniques": [
 			"Personnel",
-			"Can be earned through combat",
+			"Can be earned through combat <for [Land] units>",
 			"Great Person - [War]",
 			"Unbuildable",
 			"Consumes [1] [Weapons]"
@@ -1551,8 +1552,8 @@
 		"upgradesTo": "Militia",
 		"uniques": [
 			"Low Tech",
-			"Can build [Land] improvements on tiles",
-			"[+50]% Strength <vs [Mounted] units>"
+			"[+50]% Strength <vs [Mounted] units>",
+			"Can instantly construct a [Farm] improvement <by consuming this unit>"
 		],
 		"attackSound": "metalhit"
 	},
@@ -1882,11 +1883,14 @@
 		"replaces": "Great General",
 		"uniqueTo": "Crimson Legion",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [Outpost] improvement <by consuming this unit>",
+		"uniques": [
+			"Can instantly construct a [Outpost] improvement <by consuming this unit>",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [45] Influence",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
-			"Can be earned through combat",
-			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+			"Can be earned through combat <for [Land] units>",
+			"Great Person - [War]",
+			"Unbuildable", "Uncapturable"
+		],
 		"movement": 2
 	},
 
@@ -2263,7 +2267,7 @@
 		"uniques": [
 			"Personnel",
 			"Consumes [1] [Weapons]",
-			"Can be earned through combat",
+			"Can be earned through combat <for [Land] units>",
 			"Great Person - [War]"
 		],
 		"promotions": ["Reconnaissance I", "Gas Mask", "[Lawkeeper] ability"],
@@ -3853,6 +3857,24 @@
 		"attackSound": "nuke"
 	},
 	{
+		"name": "Recovered Dongfei Missiles",
+		"replaces": "Nuclear Missile",
+		"uniqueTo": "Central State",
+		"unitType": "Missile",
+		"range": 20,
+		"strength": 300,
+		"rangedStrength": 300,
+		"cost": 800,
+		"requiredTech": "Rocketry",
+		"uniques": [
+			"Nuclear weapon of Strength [2]",
+			"Blast radius [2]",
+			"Only available <if [Manhattan Project] is constructed>",
+			"Cannot be purchased",
+			"Consumes [2] [Uranium]"
+		]
+	},
+	{
 		"name": "Tsar Bomba",
 		"uniqueTo": "Proklyatyye",
 		"unitType": "Missile",
@@ -3998,10 +4020,211 @@
 	{
 		"name": "Great Merchant",
 		"unitType": "Civilian",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
 			"Can instantly construct a [Supply Complex] improvement <by consuming this unit>",
 			"Great Person - [Gold]",
-			"Unbuildable", "Uncapturable"],
+			"Unbuildable", "Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Great Person - [War]",
+			"Can be earned through combat <for [Land] units>",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Great Mad Scientist",
+		"replaces": "Great General",
+		"uniqueTo": "Hexlock",
+		"unitType": "Civilian",
+		"uniques": [
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Can hurry technology research",
+			"Can instantly construct a [Crystal Refinery] improvement <by consuming this unit>",
+			"Great Person - [War]",
+			"Can be earned through combat <for [Land] units>",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Ranger",
+		"unitType": "Shooter",
+		"uniqueTo": "Commonwealth",
+		"replaces": "Great General",
+		"upgradesTo": "Black Ops",
+		"range": 1,
+		"movement": 2,
+		"strength": 40,
+		"cost": 500,
+		"rangedStrength": 35,
+		"interceptRange": 1,
+		"uniques": [
+			"Personnel",
+			"Great Person - [War]",
+			"Can be earned through combat <for [Land] units>",
+			"Unbuildable",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions": ["Reconnaissance I", "Gas Mask", "[Ranger] ability"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Gangboss",
+		"uniqueTo": "Deadrock Clan",
+		"replaces": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can build [Land] improvements on tiles",
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Can instantly construct a [Prison farm] improvement <by consuming this unit>",
+			"Great Person - [War]",
+			"Can be earned through combat <for [Land] units>",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Bugler",
+		"uniqueTo": "Cult of Ignis",
+		"replaces": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"All adjacent units heal [+15] HP when healing",
+			"[+15] HP when healing",
+			"Can instantly construct a [Outpost] improvement <by consuming this unit>",
+			"Great Person - [War]",
+			"Can be earned through combat <for [Land] units>",
+			"Uncapturable",
+			"Unbuildable"
+		],
+		"movement": 5
+	},
+	{
+		"name": "Upyr",
+		"uniqueTo": "Proklyatyye",
+		"replaces": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"[-15]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Great Person - [War]",
+			"Can be earned through combat <for [Land] units>",
+			"Uncapturable",
+			"Unbuildable"
+		],
+		"promotions": ["Gas Mask", "Radioactive"],
+		"movement": 2
+	},
+	{
+		"name": "Khan",
+		"unitType": "Scrapper",
+		"uniqueTo": "The Hunnu",
+		"replaces": "Great General",
+		"upgradesTo": "Hussar",
+		"movement": 4,
+		"strength": 20,
+		"cost": 500,
+		"uniques": [
+			"Low Tech",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"Great Person - [War]",
+			"Can be earned through combat",
+			"Unbuildable"
+		],
+		"promotions": ["[Khan] ability"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Coordinator Unit",
+		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "Gestalt",
+		"uniques": [
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"[+5]% Strength bonus for [Military] units within [2] tiles <when adjacent to a [Coordinator Unit] unit>",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Great Person - [War]",
+			"Can be earned through combat <for [Land] units>",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Blessed General",
+		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "Raider Kingdom",
+		"uniques": [
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Can see over obstacles",
+			"Ignores terrain cost",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"Great Person - [War]",
+			"Can be earned through combat <for [Land] units>",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Opinionspeople",
+		"replaces": "Great General",
+		"uniqueTo": "Reactorland",
+		"unitType": "Civilian",
+		"uniques": [
+			"Empire enters a [6]-turn Golden Age <by consuming this unit>",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Can instantly construct a [Academy] improvement <by consuming this unit>",
+			"Can instantly construct a [Settlement] improvement <by consuming this unit>",
+			"Can be earned through combat <for [Land] units>",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Great Submarine Commander",
+		"unitType": "Civilian",
+		"replaces": "Great Admiral",
+		"uniqueTo": "Charybdis Division",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"[+15]% Strength bonus for [Water] units within [2] tiles",
+			"[+15]% Strength bonus for [Submarine] units within [2] tiles",
+			"May heal outside of friendly territory",
+			"[+15] HP when healing",
+			"All adjacent units heal [+15] HP when healing",
+			"Great Person - [Navy]",
+			"Can be earned through combat <for [Water] units>",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"promotions": ["Oceanic Mutation"],
 		"movement": 2
 	},
 	{
