@@ -631,6 +631,15 @@
 		"uniques": ["Unable to pillage tiles"]
 	},
 
+	//Other mods
+	{
+		"name": "Oceanic Mutation",
+		"uniques": [
+			"[+1] Movement <in [Water] tiles>",
+			"[-1] Movement <in [Land] tiles>"
+		]
+	},
+
 	//Other special promotions ('abilities' or otherwise 'exclusive to one UU', granted by beliefs/ruins/policies/etc., and so on)
 	{
 		"name": "Healing Hands",
