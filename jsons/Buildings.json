@@ -2571,7 +2571,6 @@
 			"[-5]% Unhappiness from [Population] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
-			"Moves to new capital when capital changes",
 			"Unbuildable <if [Rally Station] is constructed>",
 			"Cannot be purchased",
 			"Destroyed when the city is captured"
@@ -2591,7 +2590,6 @@
 			"[+5]% Production when constructing [All] buildings [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
-			"Moves to new capital when capital changes",
 			"Unbuildable <if [Gideon Scanner] is constructed>",
 			"Cannot be purchased",
 			"Destroyed when the city is captured"
