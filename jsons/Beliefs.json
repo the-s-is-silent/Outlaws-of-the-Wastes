@@ -448,6 +448,7 @@
 		"type": "Founder",
 		"uniques": [
 			"Allied City-States provide [Faith] equal to [100]% of what they produce for themselves",
+			"Allied City-States provide [Culture] equal to [10]% of what they produce for themselves",
 			"[-100]% weight to this choice for AI decisions <when number of [Remaining [City-States] Civilizations] is less than [2]>",
 			"[-50]% weight to this choice for AI decisions <when number of [Remaining [City-States] Civilizations] is less than [4]>"
 		]

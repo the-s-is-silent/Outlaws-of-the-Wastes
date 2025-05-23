@@ -1301,6 +1301,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Faction UBs:
 	- The Caliphate: Kaserne renamed to Amsar and buffed to make its city slightly harder to capture (+2 City Strength, +20 HP). This is to allow Bamboolord to use the old UB name for his planned Geneva Union faction.
 	- Hexlock: Compound Mixes can no longer be purchased. They are also slightly more expensive to build (75 for standard, 150 for Meltdown).
+	- New Star: Gideon Scanner and Rally Station no longer relocate to the new capital due to a game-breaking bug.
 	- Proklyatyye: Verkhovny Sovet and Politburo no longer require Search for Survivors. (Expected to be a temporary adjustment.)
 
 **Wonder Adjustments**
@@ -1329,6 +1330,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- The Oathsworn: Continental Generals now generate Golden Age points from combat.
 
 **Promotion Adjustments**
+- Followers of the Green: Oceanic Mutation (unique promotion of Great Submarine Commander) is now a flat +1 Movement due to the unit becoming a Water unit.
 - Skirmish's evade rate reduced from 75% to 50%.
 - Terrascape now consumes all remaining movement points on the Mechanized Worker when a terraforming charge is used.
 
@@ -1347,7 +1349,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - God of Love's population requirement reduced from 4 to 3.
 - God of Walls' combat bonus for cities when bombarding enemy units increased to 50%.
 - Jesuit Education now allows purchasing Observatories with Faith.
-- Primacy can once again be adopted. Its new effect grants players who select it as their Founder Belief all of the Faith produced by allied City-States. It will be less likely to be picked by the AI if there are less than four City-States, and will not be picked at all by the AI if there are less than two.
+- Primacy can once again be adopted. Its new effect grants players who select it as their Founder Belief all of the Faith and 10% of the Culture produced by allied City-States. It will be less likely to be picked by the AI if there are less than four City-States, and will not be picked at all by the AI if there are less than two.
 - Religious Unity is less likely to be picked by the AI if there are less than four City-States, and will not be picked at all by the AI if there are less than two.
 
 **New Faction**

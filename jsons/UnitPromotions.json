@@ -634,10 +634,7 @@
 	//Other mods
 	{
 		"name": "Oceanic Mutation",
-		"uniques": [
-			"[+1] Movement <in [Water] tiles>",
-			"[-1] Movement <in [Land] tiles>"
-		]
+		"uniques": ["[+1] Movement"]
 	},
 
 	//Other special promotions ('abilities' or otherwise 'exclusive to one UU', granted by beliefs/ruins/policies/etc., and so on)
@@ -647,8 +644,7 @@
 	},
 	{
 		"name": "Zeal",
-		"uniques": ["Can Spread Religion <[1] additional time(s)>",
-			"Ignores terrain cost"]
+		"uniques": ["Can Spread Religion <[1] additional time(s)>", "Ignores terrain cost"]
 	},
 	{
 		"name": "Prospector",
@@ -781,7 +777,8 @@
 	},
 	{
 		"name": "[Lawkeeper] ability",
-		"uniques": ["Great General",
+		"uniques": [
+			"Great General",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"[+50]% XP gained from combat",
@@ -789,8 +786,9 @@
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Can build [Trench] improvements on tiles",
-			"[-25]% construction time for [Land] improvements <after discovering [Replaceable Parts]>",
-			"Uncapturable"]
+			"[-25]% construction time for [All] improvements <after discovering [Replaceable Parts]>",
+			"Uncapturable"
+		]
 	},
 	{
 		"name": "Will of Tellus",

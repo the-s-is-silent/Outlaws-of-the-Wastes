@@ -1653,7 +1653,7 @@
 			"Provides [4] [Slaves]",
 			"Comment [+1 Water from all non-wonder buildings that provide Slaves]",
 			"[+1 Gold] from every [Prison Camp] <hidden from users>",
-			"[+1 Gold] from every [Kaserne] <hidden from users>",
+			"[+1 Gold] from every [Amsar] <hidden from users>",
 			"[+1 Gold] from every [Houri Brothel] <hidden from users>",
 			"Only available <if [Esir] is constructed in at least [4] of [Your] cities>",
 			"Cost increases by [30] per owned city"
@@ -5663,7 +5663,7 @@
 		"uniques": [
 			"[All] Units adjacent to this city heal [+10] HP per turn when healing <in this city>",
 			"[+15]% Production when constructing [Support] units [in this city]",
-			"Can only be built <in [non-occupied] cities>",
+			"Can only be built <in [Non-occupied] cities>",
 			"Destroyed when the city is captured"
 		]
 	},

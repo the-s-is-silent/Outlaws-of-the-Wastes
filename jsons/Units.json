@@ -4208,7 +4208,7 @@
 	},
 	{
 		"name": "Great Submarine Commander",
-		"unitType": "Civilian",
+		"unitType": "Civilian Water",
 		"replaces": "Great Admiral",
 		"uniqueTo": "Charybdis Division",
 		"uniques": [
