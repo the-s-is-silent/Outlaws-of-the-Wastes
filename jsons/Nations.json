@@ -19,6 +19,7 @@
 		"hateHello": "If you harm any of my people, I will find you. Make no mistake. God willing, you will not leave this valley.",
 		"denounced": "Your cries are like those of a mad beast in a thicket.",
 		"afterPeace": "Waging war against good people is bad for the soul.",
+		"declaringFriendship": "In times of darkness, we can turn to the Lord, but it would be good to have you as a friend.",
 		"tradeRequest": "We are happy to share with you anything you might need.",
 
 		"outerColor": [191, 128, 6],
@@ -62,6 +63,7 @@
 		"neutralHello": "Welcome.",
 		"hateHello": "What brings you here?",
 		"denounced": "I advise you to abandon the falsehoods you cling to, if you are even capable.",
+		"declaringFriendship": "Let us stand united against those who still pursue evil ends.",
 		"tradeRequest": "The Round Table offers this arrangement. Are you interested?",
 
 		"outerColor": [189,90,80],
@@ -101,6 +103,7 @@
 		"neutralHello": "Greetings, comrade.",
 		"hateHello": "You tempt us to revert to old practices in our dealings with you.",
 		"denounced": "In the Old World, that insult would have mandated the death of your personality.",
+		"declaringFriendship": "Friends are exceedingly difficult for us to come by. Can we count you among those rare few?",
 		"tradeRequest": "Come, let us do business.",
 
 		"outerColor": [2, 46, 89],
@@ -152,6 +155,7 @@
 		"hateHello": "Save your words. You are but another ghost who doesn't realize he is dead.",
 		"denounced": "Why should we fear your threats, when our homeland is more dangerous than you could ever hope to become?",
 		"afterPeace": "It was a fight over nothing. Let's settle it with a drink.",
+		"declaringFriendship": "We would be pleased if we could officially call you our comrade.",
 		"tradeRequest": "Shall we come to an arrangement in the pursuit of solidarity?",
 
 		"outerColor": [100, 0, 0],
@@ -191,6 +195,7 @@
 		"neutralHello": "Welcome.",
 		"hateHello": "What are you after now?",
 		"denounced": "It's always the weakest who speak loudest.",
+		"declaringFriendship": "Stand with me as a friend of Aztlán.",
 		"tradeRequest": "The consequences for refusing this deal will be quite severe.",
 
 		"outerColor": [0, 0, 0],
@@ -223,6 +228,7 @@
 		"neutralHello": "Allah's people are listening.",
 		"hateHello": "Silence, infidel!",
 		"denounced": "Effrontry is expected from those who are surrounded by ruin. But it will only be tolerated for so long.",
+		"declaringFriendship": "You defied my expectations. You possess Allah's wisdom. Because of that, I would grant you the friendship of the chosen.",
 		"tradeRequest": "We have little reason to show generosity when the world has become the house of tyrants. You should regard this rare opportunity as a blessing.",
 
 		"outerColor": [21, 108, 49],
@@ -261,6 +267,7 @@
 		"neutralHello": "Good day to you, friend.",
 		"hateHello": "Step forward, vile savage, but keep your distance all the same.",
 		"denounced": "Baseless slander built on a crumbling foundation.",
+		"declaringFriendship": "We share a mutual interest in maintaining stability and protecting those in need. Aurelian Group would like to forge a lasting friendship with you.",
 		"tradeRequest": "Shall we make a deal?",
 
 		"outerColor": [245, 245, 245],
@@ -303,6 +310,7 @@
 		"neutralHello": "Carry on.",
 		"hateHello": "Tread carefully, lest you invite retaliation.",
 		"denounced": "With all due respect, you don't know what the hell you're talking about.",
+		"declaringFriendship": "You've done a lot of good for the people of the wasteland. The Oathsworn would be proud to call you our friend.",
 		"tradeRequest": "We hope this arrangement is of mutual benefit to our peoples.",
 
 		"outerColor": [255,255,255],
@@ -344,6 +352,7 @@
 		"neutralHello": "Good day.",
 		"hateHello": "What do demons like you expect to find among our ever vigilant people?",
 		"denounced": "Clearly, your people are in greater need of healing than ours.",
+		"declaringFriendship": "Through adversity, we have forged a strong bond. I would have that bond be known to the world.",
 		"tradeRequest": "I have sent a delegation to your capital. Treat them kindly.",
 
 		"outerColor": [228, 117, 116],
@@ -378,6 +387,7 @@
 		"neutralHello": "The Four Truths are all that matter in this world.",
 		"hateHello": "You continue to suffer because you continue to reject our father in Death.",
 		"denounced": "Truth will dispel your falsehoods with merciless harshness.",
+		"declaringFriendship": "I am building a coalition of the enlightened. Will you take part?",
 		"tradeRequest": "This may help your people achieve enlightenment.",
 
 		"outerColor": [137, 89, 163],
@@ -741,6 +751,7 @@
 		"neutralHello": "Hail.",
 		"hateHello": "Your misplaced ideals make you weak.",
 		"denounced": "Do not think that I, Caesar, will allow you to get away with this.",
+		"declaringFriendship": "You have earned the favor of Caesar. Stand proudly as a friend of the Legion.",
 		"tradeRequest": "I offer this, for your consideration.",
 
 		"outerColor": [153, 5, 3],
