@@ -602,7 +602,7 @@
 				"name": "Entrepreneurship",
 				"uniques": [
 					"[-25]% maintenance on road & railroads",
-					"[-25]% maintenance cost for buildings [in all cities]",
+					"[-25]% maintenance cost for [all] buildings [in all cities]",
 					"[+2 Science] from every [Market]",
 					"[+2 Science] from every [Water Storage]",
 					"[+2 Science] from every [Water Plant]",
@@ -953,7 +953,7 @@
 				"uniques": [
 					"[Gold] cost of purchasing items in cities [-20]%",
 					"[-33]% maintenance on road & railroads",
-					"[-33]% maintenance cost for buildings [in all cities]"
+					"[-33]% maintenance cost for [all] buildings [in all cities]"
 				],
 				"row": 3,
 				"column": 4

@@ -750,7 +750,7 @@
 		"happiness": 1,
 		"maintenance": 1,
 		"uniques": ["[+25]% Natural religion spread [in this city]",
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>",
 			"Only available <in cities without a [Listening Post]>",
 			"Destroyed when the city is captured"],
@@ -1012,7 +1012,7 @@
 		"maintenance": 1,
 		"uniques": [
 			"[-25]% enemy spy effectiveness [in this city]",
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>",
 			"Only available <in cities without a [Listening Post]>",
 			"Destroyed when the city is captured"
@@ -1157,7 +1157,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"[-25]% enemy spy effectiveness [in this city]",
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"Provides [1] [Encrypted Data]",
 			"Only available <in cities without a [Prison Camp]>",
 			"Destroyed when the city is captured",
@@ -1270,7 +1270,7 @@
 		"production": 2,
 		"happiness": -2,
 		"uniques": [
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>",
 			"Provides [2] [Slaves]",
 			"Provides [2] [Slaves] <after adopting [Collectivism Complete]>",
@@ -1752,7 +1752,7 @@
 		"production": -2,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>",
 			"Only available <in cities without a [Listening Post]>",
 			"Destroyed when the city is captured"
@@ -1908,7 +1908,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Comment [Replaces Prison Camp without being treated as Prison Camp]",
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>",
 			"Destroyed when the city is captured"
 		],
@@ -4844,7 +4844,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["[-25]% enemy spy effectiveness [in this city]",
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"Only available <in cities without a [Prison Camp]>",
 			"Destroyed when the city is captured",
 			"Only available <when espionage is enabled>"],
@@ -4879,7 +4879,7 @@
 		"happiness": -2,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>",
 			"Provides [1] [Slaves]",
 			"Only available <in cities without a [Listening Post]>",
@@ -4893,7 +4893,7 @@
 		"uniqueTo": "Commonwealth",
 		"maintenance": 1,
 		"uniques": [
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>",
 			"Only available <in cities without a [Listening Post]>",
 			"Destroyed when the city is captured"
@@ -4908,7 +4908,7 @@
 		"happiness": -2,
 		"percentStatBonus": {"food": -10},
 		"uniques": [
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>",
 			"Provides [4] [Slaves]",
 			"Only available <in cities without a [Arena]>",
@@ -5066,7 +5066,7 @@
 		"uniqueTo": "Atlas",
 		"maintenance": 1,
 		"uniques": [
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>",
 			"Only available <in cities without a [Listening Post]>",
 			"Destroyed when the city is captured"
@@ -5290,7 +5290,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"[-33]% enemy spy effectiveness [in this city]",
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"Only available <in cities without a [Prison Camp]>",
 			"Destroyed when the city is captured",
 			"Only available <when espionage is enabled>"
@@ -5374,7 +5374,7 @@
 		"happiness": -2,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>",
 			"Provides [3] [Slaves]",
 			"[+25]% Production when constructing [Enslaved] units [in this city]",
@@ -5677,7 +5677,7 @@
 		"uniques": [
 			"Comment [Replaces Prison Camp without being treated as Prison Camp]",
 			"[+1 Food] from every [Administrator] <in this city>",
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Construction",
@@ -5812,7 +5812,7 @@
 		"happiness": -2,
 		"percentStatBonus": {"food": -10},
 		"uniques": [
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>",
 			"Provides [3] [Slaves]",
 			"Only available <in cities without a [Listening Post]>",
