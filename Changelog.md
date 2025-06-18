@@ -1290,7 +1290,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **Misc.**
 - Quote attributions for several wonders have been restored.
 
-#### March - April 2025
+#### March - June 2025
 
 **Faction Adjustments**
 - Crimson Line no longer gets an inherent reduction in policy cost increase from cities owned. Additionally, the faction should now be slightly less likely to declare war on you and somewhat more likely to fight alongside you in war when controlled by the AI.
@@ -1328,6 +1328,9 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- Hexlock: Field Scientists can no longer be purchased, and their Production cost increases by 100% of the base amount every two eras starting at the Neofeudal era.
 	- Nowa Polska: Kosynier nerfed; instead of doubling as a Worker, it now insta-builds Farms by consuming the unit.
 	- The Oathsworn: Continental Generals now generate Golden Age points from combat.
+- City-State UUs:
+	- Almaty: Instead of keeping the base State Guard's +25% Strength in friendly territory, the Alma State Guard now gets +30% Strength that decreases the further away it is from the capital.
+	- Defiance: Ark Hunters now start with Hazard Pay instead of Prospector.
 
 **Promotion Adjustments**
 - Followers of the Green: Oceanic Mutation (unique promotion of Great Submarine Commander) is now a flat +1 Movement due to the unit becoming a Water unit.
@@ -1349,7 +1352,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - God of Love's population requirement reduced from 4 to 3.
 - God of Walls' combat bonus for cities when bombarding enemy units increased to 50%.
 - Jesuit Education now allows purchasing Observatories with Faith.
-- Primacy can once again be adopted. Its new effect grants players who select it as their Founder Belief all of the Faith and 10% of the Culture produced by allied City-States. It will be less likely to be picked by the AI if there are less than four City-States, and will not be picked at all by the AI if there are less than two.
+- Primacy can once again be adopted. Its new effect grants players who select it as their Founder Belief all of the Faith and 10% of the Culture produced by allied City-States. (Yes, City-States do construct Faith buildings even though they can't use them.) It will be less likely to be picked by the AI if there are less than four City-States, and will not be picked at all by the AI if there are less than two.
 - Religious Unity is less likely to be picked by the AI if there are less than four City-States, and will not be picked at all by the AI if there are less than two.
 
 **New Faction**
@@ -1366,9 +1369,12 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - International Ordnance Museum (world wonder, unlocks at Hoplology, +3 Culture to all Weapons tiles owned by the faction, new land and water units trained in the city earn XP 50% faster)
 
 **New Promotions**
-- Cut Away the Self (exclusive to Celestial Collective, prevents fortifying/sleeping but grants 1 Culture and Faith every turn if the unit is wounded, unit must be wounded to take the promotion but can do so for free)
+- Cut Away the Self (exclusive to Celestial Collective, three levels, allowing the unit to generate additional Culture/Faith and making it uncapturable at Level 3, but Level 2 prevents it from fortifying/sleeping and can only be taken while the unit is wounded)
 - Golden Age from Victories (only available for specific units, grants Golden Age points equal to Strength of units killed in combat)
 - Know Your History (granted by International Ordnance Museum)
 
 **New Beliefs**
 - Equine Mysticism (Pantheon, +2 Faith to Horses tiles, +2 Production to Stables)
+
+**Misc.**
+- Lines added for each faction for when the player denounces them, or when they request a Declaration of Friendship.

@@ -649,7 +649,7 @@
 	{
 		"name": "Prospector",
 		"uniques": [
-			"[+15]% Strength when stacked with [Civilian]",
+			"[+15]% Strength <when stacked with a [Civilian] unit>",
 			"Can build [Land] improvements on tiles",
 			"[-25]% construction time for [All] improvements <after discovering [Replaceable Parts]>",
 			"Gain [1]-[10] [Gold] <upon ending a turn in a [Forest] tile>",

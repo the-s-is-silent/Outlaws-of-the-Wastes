@@ -1950,7 +1950,7 @@
 		"uniques": [
 			"Personnel",
 			"Consumes [1] [Weapons]",
-			"[+25]% Strength <when fighting in [Friendly Land] tiles>"
+			"[+30]% Strength decreasing with distance from the capital"
 		],
 		"attackSound": "machinegun"
 	},
@@ -2021,7 +2021,7 @@
 		"uniques": [
 			"Personnel",
 			"Consumes [1] [Weapons]",
-			"[+25]% Strength when stacked with [Civilian]"
+			"[+25]% Strength <when stacked with a [Civilian] unit>"
 		],
 		"promotions": ["Combat Armor", "Hazard Pay"],
 		"attackSound": "shot"
@@ -2208,7 +2208,7 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Exo-Trooper",
 		"hurryCostModifier": 20,
-		"promotions": ["Gas Mask", "Forage", "Prospector", "Drone Recon"],
+		"promotions": ["Gas Mask", "Forage", "Hazard Pay", "Drone Recon"],
 		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
 		"attackSound": "phasers"
 	},
