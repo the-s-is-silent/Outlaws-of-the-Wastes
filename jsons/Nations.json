@@ -479,7 +479,7 @@
 		"uniqueName": "Adaptive Systems",
 		"uniques": [
 			"Comment [Can Mix Unique Strategic Resources to generate a Great Person]",
-			"Double quantity of [Encrypted Data] produced",
+			"[+100]% [Encrypted Data] resource production",
 			"[+20]% Production when constructing [National] wonders [in all cities]",
 			"Starts with [Writing]",
 			"Starts with [Chemistry]",
@@ -699,8 +699,8 @@
 		"style": "Military",
 		"uniqueName": "Military Secrets",
 		"uniques": [
-			"Double quantity of [Encrypted Data] produced",
-			"Double quantity of [Weapons] produced",
+			"[+100]% [Encrypted Data] resource production",
+			"[+100]% [Weapons] resource production",
 			"Comment [[+1 Production, +1 Science] from all defensive buildings]",
 			"[+1 Production, +1 Science] from every [Walls] <hidden from users>",
 			"[+1 Production, +1 Science] from every [Defensive Emplacements] <hidden from users>",
@@ -1094,8 +1094,10 @@
 		"cityStateType": "Weapons",
 		"startBias": ["Hill"],
 		"style": "Military",
-		"uniques": ["Double quantity of [Weapons] produced",
-			"Cannot build [Low Tech] units"],
+		"uniques": [
+			"[+100]% [Weapons] resource production",
+			"Cannot build [Low Tech] units"
+		],
 		"declaringWar": "The people of the Almaty Province do not abide the existence of threats.",
 		"attacked": "So be it. Our counteroffensive will bring you to ruin.",
 		"defeated": "The end of Almaty is a terrible day for everyone. Do you not have a heart?!",
@@ -1167,10 +1169,13 @@
 		"cityStateType": "Weapons",
 		"startBias": ["Jungle"],
 		"style": "Military",
-		"uniques": ["Quantity of strategic resources produced by the empire +[25]%",
+		"uniques": [
+			"[+25]% [Strategic] resource production",
 			"[+25]% Production when constructing [Personnel] units [in all cities]",
 			"Cannot build [Low Tech] units",
-			"Starts with [Mining]", "Starts with [Machinery]"],
+			"Starts with [Mining]",
+			"Starts with [Machinery]"
+		],
 		"declaringWar": "Down in the ground where the dead men go. That's where you'll be soon.",
 		"attacked": "We're thoroughly unimpressed.",
 		"defeated": "It is what it is... We'll be off to better lands now.",

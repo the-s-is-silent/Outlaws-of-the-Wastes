@@ -520,8 +520,8 @@
 			{
 				"name": "Spoils of War",
 				"uniques": [
-					"Double quantity of [Weapons] produced",
-					"Double quantity of [Slaves] produced",
+					"[+100]% [Weapons] resource production",
+					"[+100]% [Slaves] resource production",
 					"Earn [33]% of the damage done to [City] units as [Gold]",
 					"Earn [10]% of killed [Military] unit's [Cost] as [Gold]"
 				],
@@ -942,7 +942,7 @@
 				"uniques": [
 					"[+2 Culture, +2 Happiness] from every [Data Center]",
 					"[+2 Culture, +2 Happiness] from every [Decryption Center]",
-					"Double quantity of [Encrypted Data] produced"
+					"[+100]% [Encrypted Data] resource production"
 				],
 				"row": 3,
 				"column": 2
@@ -963,7 +963,7 @@
 				"uniques": [
 					"Free [Great Engineer] appears",
 					"Free [Great Scientist] appears",
-					"Quantity of strategic resources produced by the empire +[50]%",
+					"[+50]% [Strategic] resource production",
 					"[+25]% Production towards any buildings that already exist in the Capital <while the empire is happy>",
 					"[+25]% Production when constructing [All] units [in all cities] <while the empire is happy>"
 				]

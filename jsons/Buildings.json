@@ -1209,7 +1209,7 @@
 		"uniques": [
 			"[Personnel] units gain the [Drone Recon] promotion",
 			"[+10]% Strength <for [Automated] units>",
-			"Double quantity of [Encrypted Data] produced",
+			"[+100]% [Encrypted Data] resource production",
 			"Consumes [1] [Power]",
 			"Cost increases by [30] per owned city"
 		],
@@ -1849,8 +1849,8 @@
 		"uniques": [
 			"[+5]% Production when constructing [All] buildings [in all cities]",
 			"[+10]% [Production] from every [School of Mines]",
-			"Double quantity of [Coal] produced",
-			"Double quantity of [Aluminum] produced",
+			"[+100]% [Coal] resource production",
+			"[+100]% [Aluminum] resource production",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Trades Hall]>",
@@ -2951,7 +2951,7 @@
 		"uniqueTo": "Proklyatyye",
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"Double quantity of [Slaves] produced",
+			"[+100]% [Slaves] resource production",
 			"[+3 Food, +3 Production] from every [Corrective Colony]",
 			"[+10]% [Food] from every [Corrective Colony]",
 			"[+3 Production] from every [Gulag]",
@@ -5882,7 +5882,7 @@
 		"requiredTech": "Nuclear Fission",
 		"uniques": [
 			"Enables nuclear weapon",
-			"Double quantity of [Uranium] produced",
+			"[+100]% [Uranium] resource production",
 			"Triggers a global alert upon completion",
 			"Cannot be hurried"
 		],
