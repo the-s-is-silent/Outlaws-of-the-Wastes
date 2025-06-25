@@ -1935,6 +1935,25 @@
 		"attackSound": "machinegun"
 	},
 	{
+		"name": "Gendarm",
+		"uniqueTo": "Geneva Union", //not a City-State, faction belongs to Bamboolord
+    	"replaces": "State Guard",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 30,
+		"cost": 55,
+		"requiredTech": "Writing",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Soldier",
+		"uniques": [
+			"Personnel",
+			"Limited to [3] per Civilization",
+			"[+25]% Strength decreasing with distance from the capital",
+			"[-20]% Strength <when fighting in [Foreign Land] tiles>"
+		],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Alma State Guard",
 		"unitType": "Scrapper",
 		"uniqueTo": "Almaty",

@@ -201,6 +201,23 @@
 		"requiredTech": "Construction"
 	},
 	{
+		"name": "National Redoubt",
+		"replaces": "Homeland Defense Initiative",
+		"uniqueTo": "Geneva Union",
+		"cost": 50,
+		"isNationalWonder": true,
+		"uniques": [
+			"Can only be built <in [Capital] cities>",
+			"[+25]% City Strength from defensive buildings",
+			"[+25]% Production when constructing [City Defense] buildings [in all cities]",
+			"Population loss from nuclear attacks [-33]% [in all cities]",
+			"Damage to garrison from nuclear attacks [-33]% [in all cities]",
+			"[-50]% construction time for [Fort] improvements",
+			"Only available <after adopting [Adaptation]>"
+		],
+		"requiredTech": "Engineering"
+	},
+	{
 		"name": "Wasteland Surveillance Initiative",
 		"cost": 50,
 		"isNationalWonder": true,
