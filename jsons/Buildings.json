@@ -471,8 +471,8 @@
 	{
 		"name": "Wasteland Games",
 		"isWonder": true,
-		"culture": 6,
-		"happiness": 3,
+		"culture": 3,
+		"happiness": 6,
 		"uniques": [
 			"Resting point for Influence with City-States is increased by [30]",
 			"Free Social Policy"
@@ -5797,11 +5797,16 @@
 		"requiredTech": "Munitions"
 	},
 	{
-		"name": "Proklyatyye cannot Search for Survivors",
+		"name": "Cursed Survivors",
 		"replaces": "Search for Survivors",
 		"uniqueTo": "Proklyatyye",
+		"cost": 20,
 		"isNationalWonder": true,
-		"uniques": ["Unbuildable", "Will not be displayed in Civilopedia"]
+		"uniques": [
+			"[+1 Production] per [4] population [in this city]",
+			"[+25]% Production when constructing [Cursed] units [in this city]",
+			"Free [Likvidator] appears"
+		]
 	},
 	{
 		"name": "Zemlyanka",

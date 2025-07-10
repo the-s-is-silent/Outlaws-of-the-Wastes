@@ -9,11 +9,33 @@
 		"cost": 48,
 		"hurryCostModifier": 20,
 		"upgradesTo": "Mechanized Worker",
-		"uniques": ["Double movement in [Coast]", "Double movement in [Ocean]",
+		"uniques": [
+			"Double movement in [Coast]",
+			"Double movement in [Ocean]",
 			"Can build [Land] improvements on tiles",
 			"May create improvements on water resources",
 			"Can build [Water] improvements on tiles",
-			"Automation is a primary action"]
+			"Automation is a primary action"
+		]
+	},
+	{
+		"name": "Likvidator",
+		"replaces": "Worker",
+		"uniqueTo": "Proklyatyye",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 70,
+		"hurryCostModifier": 20,
+		"upgradesTo": "Mechanized Worker",
+		"uniques": [
+			"Cursed",
+			"Can build [Land] improvements on tiles",
+			"May create improvements on water resources",
+			"Can build [Water] improvements on tiles",
+			"[-50]% construction time for [All] improvements <in [Fallout] tiles>",
+			"[-50]% construction time for [All] improvements <in [Toxic Waste] tiles>",
+			"Automation is a primary action"
+		]
 	},
 	{
 		"name": "Military Engineer",
@@ -217,11 +239,16 @@
 		"cost": 50,
 		"hurryCostModifier": 20,
 		"requiredTech": "Biology",
+		"obsoleteTech": "Pharmaceuticals",
 		"upgradesTo": "Mobile Clinic",
 		"promotions": ["Medic I", "Medic II"],
-		"uniques": ["Personnel", "Support",
-			"All adjacent units heal [+10] HP when healing", "[-1] Sight",
-			"Only available <in cities with a [Hospital]>"],
+		"uniques": [
+			"Personnel",
+			"Support",
+			"All adjacent units heal [+10] HP when healing",
+			"[-1] Sight",
+			"Only available <in cities with a [Hospital]>"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -233,10 +260,16 @@
 		"strength": 24,
 		"cost": 50,
 		"hurryCostModifier": 20,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Pharmaceuticals",
 		"upgradesTo": "Mobile Clinic",
 		"promotions": ["Medic I", "Medic II"],
-		"uniques": ["Personnel", "Support",
-			"All adjacent units heal [+5] HP when healing"],
+		"uniques": [
+			"Personnel",
+			"Support",
+			"All adjacent units heal [+5] HP when healing",
+			"[+25]% Strength <when defending>"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -248,11 +281,13 @@
 		"hurryCostModifier": 20,
 		"requiredTech": "Pharmaceuticals",
 		"promotions": ["Medic I", "Medic II"],
-		"uniques": ["Support",
+		"uniques": [
+			"Support",
 			"Consumes [1] [Oil]",
 			"All adjacent units heal [+15] HP when healing",
 			"[-33]% Strength <vs cities>",
-			"Only available <in cities with a [Hospital]>"],
+			"Only available <in cities with a [Hospital]>"
+		],
 		"attackSound": "machinegun"
 	},
 
@@ -288,6 +323,24 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Private",
+		"unitType": "Scrapper",
+		"uniqueTo": "The Patriots",
+		"replaces": "Scout",
+		"movement": 2,
+		"strength": 20,
+		"interceptRange": 1,
+		"cost": 40,
+		"upgradesTo": "Militia",
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Rifling",
+		"uniques": [
+			"Personnel",
+			"[-50]% Strength <vs cities>"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Exploratores",
 		"unitType": "Scout",
 		"replaces": "Scout",
@@ -298,10 +351,13 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Forward Observer",
 		"promotions": ["Skirmish", "Sentry", "Reconnaissance I"],
-		"uniques": ["Low Tech", "Can move after attacking",
+		"uniques": [
+			"Low Tech",
+			"Can move after attacking",
 			"May capture killed [Barbarian] units <with [33]% chance>",
 			"[-50]% Strength <vs cities>",
-			"Unable to capture cities"],
+			"Unable to capture cities"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -1276,6 +1332,29 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Great Bombard",
+		"replaces": "Cannon",
+		"uniqueTo": "The Caliphate",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 12,
+		"rangedStrength": 18,
+		"range": 3,
+		"cost": 140,
+		"requiredTech": "Steel",
+		"upgradesTo": "Artillery",
+		"obsoleteTech": "Munitions",
+		"uniques": [
+			"[+33]% Strength <vs [Low Tech] units>",
+			"[+300]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Must set up to ranged attack",
+			"[-1] Sight",
+			"Only available <if [Blast Furnace] is constructed>"
+		],
+		"attackSound": "cannon"
+	},
+	{
 		"name": "Akindji",
 		"replaces": "Skirmisher",
 		"uniqueTo": "The Caliphate",
@@ -1847,9 +1926,13 @@
 		"cost": 280,
 		"requiredTech": "Nuclear Fission",
 		"hurryCostModifier": 20,
-		"uniques": ["Personnel", "Never appears as a Barbarian unit",
+		"uniques": [
+			"Personnel",
+			"Cursed",
 			"Only available <if [Atomgrad Project] is constructed>",
-			"Consumes [2] [Uranium]", "Consumes [1] [Weapons]"],
+			"Consumes [2] [Uranium]",
+			"Consumes [1] [Weapons]"
+		],
 		"promotions": ["Forage", "Powered Armor", "Gas Mask"],
 		"attackSound": "machinegun"
 	},
@@ -2638,6 +2721,69 @@
 			"Automation is a primary action"
 		],
 		"promotions": ["Terrascape"]
+	},
+	{
+		"name": "Mutant",
+		"uniqueTo": "Proklyatyye",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 36,
+		"cost": 55,
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Soldier",
+		"uniques": [
+			"Low Tech",
+			"Cursed",
+			"Consumes [1] [Uranium]"
+		],
+		"promotions": ["Forage"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Desolator",
+		"uniqueTo": "Proklyatyye",
+		"unitType": "Shooter",
+		"movement": 2,
+		"strength": 40,
+		"rangedStrength": 35,
+		"range": 1,
+		"cost": 125,
+		"hurryCostModifier": 20,
+		"requiredTech": "Laboratory",
+		"obsoleteTech": "Nuclear Fission",
+		"upgradesTo": "Contaminator",
+		"uniques": [
+			"Personnel",
+			"Cursed",
+			"Consumes [1] [Uranium]",
+			"Destroys tile improvements when attacking"
+		],
+		"promotions": ["Gas Mask"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Contaminator",
+		"uniqueTo": "Proklyatyye",
+		"unitType": "Shooter",
+		"movement": 2,
+		"strength": 50,
+		"rangedStrength": 45,
+		"range": 2,
+		"cost": 300,
+		"hurryCostModifier": 20,
+		"requiredTech": "Nuclear Fission",
+		"uniques": [
+			"Personnel",
+			"Cursed",
+			"Consumes [1] [Uranium]",
+			"Consumes [1] [Weapons]",
+			"[+5] HP when healing <in [Fallout] tiles>",
+			"[+5] HP when healing <in [Toxic Waste] tiles>",
+			"Destroys tile improvements when attacking"
+		],
+		"promotions": ["Gas Mask", "Entrench"],
+		"attackSound": "shot"
 	},
 	{
 		"name": "Horseman",

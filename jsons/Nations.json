@@ -26,12 +26,14 @@
 		"innerColor": [252, 255, 218],
 		"style": "Deseret",
 		"uniqueName": "Blood of the Prophets",
-		"uniques": ["[-25]% Faith cost of generating Great Prophet equivalents",
+		"uniques": [
+			"[-25]% Faith cost of generating Great Prophet equivalents",
 			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
 			"Starts with [Secrets of the Past]",
 			"Starts with [Botany]",
 			"May choose [1] additional [Enhancer] beliefs when [founding] a religion",
-			"Cannot build [Enslaved] units"],
+			"Cannot build [Enslaved] units"
+		],
 		"cities": ["Zion Valley", "New Canaan", "Provorem", "Grand Staircase", "Cueva Guarache", "Fort Walker", "Dead Horse Point", "Angel's Landing",
 			"Traverse City", "New Tooele", "New Nephi", "Patriarchs' Court", "Urim and Thummim", "Malki Tzedek", "Maeserville", "Pine Creek",
 			"Fort Browning", "Kobol", "Anamani", "Old Rockville", "Van Buren", "Burham Springs", "Nuevo Vicios", "Salt Town", "Irvington"],
@@ -68,9 +70,10 @@
 
 		"outerColor": [189,90,80],
 		"innerColor": [10,52,45],
-		"style": "Military",
+		"style": "Camelot",
 		"uniqueName": "Restoration of the Round Table",
-		"uniques": ["[Low Tech] units gain the [Powered Armor] promotion",
+		"uniques": [
+			"[Low Tech] units gain the [Powered Armor] promotion",
 			"[Personnel] units gain the [Powered Armor] promotion",
 			"Starts with [Writing]",
 			"Starts with [Redomestication]",
@@ -78,7 +81,8 @@
 			"Starts with [Steel]",
 			"Starts with [Constitution] adopted",
 			"[-2 Science] [in all cities] <before discovering [Education]>",
-			"Cannot build [Enslaved] units"],
+			"Cannot build [Enslaved] units"
+		],
 		"cities": ["Avalon", "Caerleon", "New Troy", "Tristram", "Caer Danwyn", "Trevena", "Alderley", "Gwalchmai",
 			"Laundsallyn", "Gyanhumara", "Pellaeon", "Caerbannog", "Ambrose", "Cambria", "Sutcliff", "The Eildons",
 			"Stirling", "Brodick", "Benwick", "Eletti", "Alba Sarum", "Carhaix", "Carduel", "Enez-Aval",
@@ -202,10 +206,12 @@
 		"innerColor": [255, 255, 255],
 		"style": "Aztlán",
 		"uniqueName": "Resurgence Under the Sixth Sun",
-		"uniques": ["[+30]% Strength <vs [City-States]>",
+		"uniques": [
+			"[+30]% Strength <vs [City-States]>",
 			"Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
 			"When defeating a [{Military} {Land}] unit, earn [25] Gold and recruit it <with [25]% chance>",
-			"Starts with [Iron Working]"],
+			"Starts with [Iron Working]"
+		],
 		"cities": ["Xochicalco", "Cuentepec", "Nueva Tula", "Tepic", "Tlahtoloyan", "Acapulco", "Calimaya", "Xochimilco",
 			"Huaxyacac", "Ecatepec", "Mazatlán", "Malinalco", "Sahuayo", "Xicotepec", "Colhuacán", "Nueva Cholula", "Ixtapan",
 			"Otompan", "Neza", "Tepeyac", "Xalixko", "Jilotzingo", "Xoconochco", "Coalcomán", "Yanhuitlán", "Cempoala"],
@@ -237,6 +243,7 @@
 		"uniqueName": "The Last Worthwhile Homeland",
 		"uniques": [
 			"[+100]% Natural religion spread [in annexed cities]",
+			"[+100]% Natural religion spread [in puppeted cities]",
 			"[+100]% to Flank Attack bonuses",
 			"[Faith] cost of purchasing items in cities [-33]%",
 			"Free [Great Sage] appears <upon discovering [Education] technology>",
@@ -838,12 +845,14 @@
 		"innerColor": [0, 0, 0],
 		"style": "Ignis",
 		"uniqueName": "Road Warriors",
-		"uniques": ["[-33]% maintenance costs <for [Armor] units>",
+		"uniques": [
+			"[-33]% maintenance costs <for [Armor] units>",
 			"[+1] Movement <for [Armor] units>",
 			"Starts with [Machinery]",
 			"Starts with [Theocracy] adopted",
 			"[+1 Culture] from every [Strategic resource]",
-			"Gain a free [Founder] belief <upon adopting [Theocracy Complete]>"],
+			"Gain a free [Founder] belief <upon adopting [Theocracy Complete]>"
+		],
 		"cities": ["Gastown", "Blood Farm", "Trial of Sand", "Prophecy", "Thousand Cuts", "The Harrowing", "Temple of Rage", "Immortal Highway",
 			"Tohuvabohu", "Forbidden Palace", "Hanging Gardens", "Megiddo", "The Cauldron", "Traitors' Gate", "Hell Patrol", "Steel Throne",
 			"The Warren", "Well of Souls", "Hermitage", "Ceremony", "Court of Dreams", "Perpetual Ascension", "Death Race", "God Box"],
@@ -883,6 +892,7 @@
 		"style": "Tribal",
 		"uniqueName": "People of the Sea",
 		"uniques": [
+			"Enables embarkation for land units",
 			"Enables [All] units to enter ocean tiles",
 			"[1] Movement point cost to embark",
 			"[1] Movement point cost to disembark",
@@ -1122,8 +1132,11 @@
 		"adjective": ["Tellus"],
 		"cityStateType": "Culture",
 		"startBias": ["Wasteland"],
-		"uniques": ["[{Military} {Land}] units gain the [Will of Tellus] promotion",
-			"Starts with [Ecology]", "Starts with [Land Remediation]"],
+		"uniques": [
+			"[{Military} {Land}] units gain the [Will of Tellus] promotion",
+			"Starts with [Ecology]",
+			"Starts with [Land Remediation]"
+		],
 		"declaringWar": "The plant has spoken, you must be defeated!",
 		"attacked": "We will not let you destroy our sacred Trees!",
 		"defeated": "The plants must surive... no matter what.",
@@ -1153,9 +1166,13 @@
 		"cityStateType": "Prayer",
 		"startBias": ["Coast"],
 		"style": "Tribal",
-		"uniques": ["Starts with [Sailing]", "Starts with [Iron Working]", "Starts with [Steel]",
+		"uniques": [
+			"Starts with [Sailing]",
+			"Starts with [Iron Working]",
+			"Starts with [Steel]",
 			"[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
-			"[-25]% Culture cost of natural border growth [in all cities]"],
+			"[-25]% Culture cost of natural border growth [in all cities]"
+		],
 		"declaringWar": "Kill! Kill! Kill!",
 		"attacked": "We must make the wastelanders go away!",
 		"defeated": "This is not the end of our people.",
@@ -1202,11 +1219,13 @@
 		"cityStateType": "Research",
 		"startBias": ["Desert"],
 		"style": "Corporate",
-		"uniques": ["Starts with [Secrets of the Past]",
+		"uniques": [
+			"Starts with [Secrets of the Past]",
 			"Starts with [Writing]",
 			"Starts with [Electronics]",
 			"[+20]% growth [in all cities] <when not at war>",
-			"Cannot build [Enslaved] units"],
+			"Cannot build [Enslaved] units"
+		],
 		"declaringWar": "We'd hoped we wouldn't have to compromise our principles to survive.",
 		"attacked": "Your rationale for justifying conflict is what caused the Cataclysm to happen in the first place.",
 		"defeated": "Are our ideals... our dream for peace... meant to die here?",
@@ -1233,10 +1252,12 @@
 		"cityStateType": "Culture",
 		"startBias": ["Tundra"],
 		"style": "Gang",
-		"uniques": ["[+1 Food, +1 Culture] from every [Tundra]",
+		"uniques": [
+			"[+1 Food, +1 Culture] from every [Tundra]",
 			"Starts with [Electronics]",
 			"Starts with [Refrigeration]",
-			"Starts with [Social Engineering]"],
+			"Starts with [Social Engineering]"
+		],
 		"declaringWar": "We went to join a war and then a hockey game broke out.",
 		"attacked": "You were planning a fight, eh? Then let's have a bench-clearing brawl to remember!",
 		"defeated": "That's a game misconduct penalty for us.",
@@ -1250,10 +1271,12 @@
 		"cityStateType": "Research",
 		"startBias": ["Tundra"],
 		"style": "Corporate",
-		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Science]",
+		"uniques": [
+			"Earn [50]% of killed [Military] unit's [Strength] as [Science]",
 			"Starts with [Secrets of the Past]",
 			"Starts with [Writing]",
-			"Starts with [Education]"],
+			"Starts with [Education]"
+		],
 		"declaringWar": "Rumors of our continued existence shall be discredited - by destroying their source.",
 		"attacked": "This trespass against us will not be forgotten nor forgiven.",
 		"defeated": "We should have doubled our efforts to stay hidden from the outside world.",
@@ -1312,11 +1335,13 @@
 		"style": "Barbarians",
 		"outerColor": [0,0,0],
 		"innerColor": [185,12,12],
-		"uniques": ["[-33]% Strength <vs cities> <before discovering [Steam Power]>",
+		"uniques": [
+			"[-33]% Strength <vs cities> <before discovering [Steam Power]>",
 			"[Water] units gain the [Unable to pillage tiles] promotion",
 			"[+1] Sight <for [Scout] units>",
 			"[+1] Movement <for [Scout] units>",
 			"[+33]% Strength <vs [Military] units> <when attacking>",
-			"[+33]% Strength <within [2] tiles of a [Barbarian encampment]>"]
+			"[+33]% Strength <within [2] tiles of a [Barbarian encampment]>"
+		]
 	}
 ]
