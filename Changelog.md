@@ -1132,6 +1132,9 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Communion Centers (Follower), Worship Center adds: +1 Culture/Happiness, +2 Faith, +3 Water, +10% to city's total Water yields
 - Meeting Houses (Follower), Worship Center adds: +3 Production, +1 Culture, +2 Faith, +10% Production towards buildings
 
+**Misc.**
+- Sprite style added for Deseret.
+
 #### October - December 2024
 
 **Tech Adjustments**
@@ -1290,16 +1293,17 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **Misc.**
 - Quote attributions for several wonders have been restored.
 
-#### March - June 2025
+#### March - July 2025
 
 **Faction Adjustments**
+- The Caliphate now gains doubled religious pressure in puppeted cities.
 - Crimson Line no longer gets an inherent reduction in policy cost increase from cities owned. Additionally, the faction should now be slightly less likely to declare war on you and somewhat more likely to fight alongside you in war when controlled by the AI.
 
 **Building Adjustments**
 - Bunkers and Earthscrapers cannot be built if nukes are disabled.
 - Navy Shipyard no longer generates Great Admiral points.
 - Faction UBs:
-	- The Caliphate: Kaserne renamed to Amsar and buffed to make its city slightly harder to capture (+2 City Strength, +20 HP). This is to allow Bamboolord to use the old UB name for his planned Geneva Union faction.
+	- The Caliphate: Kaserne renamed to Amsar and buffed to make its city slightly harder to capture (+2 City Strength, +20 HP). This is to allow Bamboolord to use the old UB name for his Geneva Union faction if he so chooses.
 	- Hexlock: Compound Mixes can no longer be purchased. They are also slightly more expensive to build (75 for standard, 150 for Meltdown).
 	- New Star: Gideon Scanner and Rally Station no longer relocate to the new capital due to a game-breaking bug.
 	- Proklyatyye: Verkhovny Sovet and Politburo no longer require Search for Survivors. (Expected to be a temporary adjustment.)
@@ -1313,8 +1317,8 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Naval War College no longer generates Great Admiral points.
 - Raider Suppression Initiative's Water-per-kill from slaying Barbarians halved.
 - Revert Survivors' Production cost reduced by 5.
-- Sarcophagus now spawns two free Mutants instead of one. However, in exchange for this buff:
-- Search for Survivors is now **unbuildable** for Proklyatyye. (Expected to be a temporary adjustment until a proper replacement for the wonder is made.)
+- Sarcophagus now spawns two free Mutants instead of one.
+- Wasteland Games has had its Culture and Happiness yields swapped.
 
 **Unit Adjustments**
 - Great Admirals can now be earned through naval combat. Great Generals are restricted to earning through land combat.
@@ -1328,6 +1332,8 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- Hexlock: Field Scientists can no longer be purchased, and their Production cost increases by 100% of the base amount every two eras starting at the Neofeudal era.
 	- Nowa Polska: Kosynier nerfed; instead of doubling as a Worker, it now insta-builds Farms by consuming the unit.
 	- The Oathsworn: Continental Generals now generate Golden Age points from combat.
+	- The Patriots: Privates now have 20 combat strength (up from 10) and cost 40 Production (up from 25).
+	- Proklyatyye: Mutants, Super Mutants, Desolators and Contaminators now have the "Cursed" fake unique for filtering purposes (currently used by one UB).
 - City-State UUs:
 	- Almaty: Instead of keeping the base State Guard's +25% Strength in friendly territory, the Alma State Guard now gets +30% Strength that decreases the further away it is from the capital.
 	- Defiance: Ark Hunters now start with Hazard Pay instead of Prospector.
@@ -1366,7 +1372,13 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Timepiece Maker (standalone, unlocks at Machinery, requires a worked Electronics or Machine Parts tile, adds +2 Production to those tiles and +1 to the city itself, boosted by Followers of Old World Crafts)
 
 **New Wonders**
+- Cursed Survivors (replaces Search for Survivors for Proklyatyye, -10 Production cost, no free pop or Civilian Convoy, instead gives +1 Production per 4 pop in the city, +25% Production towards "Cursed" units and a free Likvidator)
 - International Ordnance Museum (world wonder, unlocks at Hoplology, +3 Culture to all Weapons tiles owned by the faction, new land and water units trained in the city earn XP 50% faster)
+- National Redoubt (replaces Homeland Defense Initiative for Geneva Union, loses the combat bonus for units in friendly territory but allows building Forts twice as fast and provides additional protection from nukes)
+
+**New Units**
+- Great Bombard (Cannon replacement for The Caliphate, -3 defense strength, -2 ranged strength, +30 Production cost, +1 Range, +100% more strength when attacking cities, +13% more strength when attacking Low Tech units)
+- Likvidator (Worker replacement for Proklyatyye, Cursed Unit, -50% construction time for improvements on Fallout or Toxic Waste)
 
 **New Promotions**
 - Cut Away the Self (exclusive to Celestial Collective, three levels, allowing the unit to generate additional Culture/Faith and making it uncapturable at Level 3, but Level 2 prevents it from fortifying/sleeping and can only be taken while the unit is wounded)
@@ -1378,3 +1390,4 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Misc.**
 - Lines added for each faction for when the player denounces them, or when they request a Declaration of Friendship.
+- Sprite style added for Camelot.

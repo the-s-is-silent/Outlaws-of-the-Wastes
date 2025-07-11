@@ -173,10 +173,10 @@
 - Mobile Encampment provides more Weapons (2 vs. 1) and can be built in a second city after discovering Munitions, allowing them to move the capital if necessary.
 - On the run now gives two Wandering Doctor replacements instead of a Militia.
 - Electing Leaders has been taken away from them and given to The Patriots.
-- Gideon Scanner and Rally Station still cannot exist at the same time, nor exist in more than one city, and they are more expensive, costing 150 Production each. They also cannot be purchased, and will relocate to the new capital should the capital city change for any reason.
+- Gideon Scanner and Rally Station still cannot exist at the same time, nor exist in more than one city, and they are more expensive, costing 150 Production each. They also cannot be purchased.
 - First Aid units no longer have a chance to capture Barbarians.
 - New UUs:
-  - Combat Medic (replaces Wandering Doctor, no Sight penalty or tech/infrastructure requirement but is slightly less effective at healing. They still upgrade to the endgame Mobile Clinic unit like standard Wandering Doctors, forcing New Star to actually spend turns training Militia.)
+  - Combat Medic (replaces Wandering Doctor, +25% defense strength, no Sight penalty or tech/infrastructure requirement but is slightly less effective at healing. They still upgrade to the endgame Mobile Clinic unit like standard Wandering Doctors, forcing New Star to actually spend turns training Militia.)
   - Rapid Response Squad (replaces Forward Observer, starts with Gas Mask and Medic I/II, 75% strength on defense, can sacrifice itself to clear Fallout or Toxic Waste, more expensive to build)
 - New UBs:
   - Soup Kitchen (replaces Prison Camp, +2 Food, +1 Local Happiness, removes extra unhappiness from annexed cities, does not provide Slaves, no restrictions on building)
@@ -187,24 +187,27 @@
 
 #### The Patriots
 - They no longer start with any technologies or a Science penalty. Standard defensive buildings (Walls, etc.) receive +1 Production/Science, while Citadels receive +2 Production/Science, increasing to +4 in the Industrial era.
-- Eagle Rock Complex is nerfed: while it gains +1 Production, it loses its Engineer slot and the increase in City Strength is reduced from 20 to 5.
+- Eagle Rock Complex gains +1 Production and gives a free Armory, but loses its Engineer slot and the increase in City Strength is reduced from 20 to 5.
 - As mentioned above, Electing Leaders now belongs to this faction. However, its Production cost has been doubled.
 - Tactics Center is moved to Munitions so it remains available to them at the start of the game, and it now costs 100 Production.
+- Privates cost an additional 15 Production but gain +10 combat strength.
 - New UU: Sentinel Missile (replaces Nuclear Missile, 15% cheaper to build, +2 Range)
 - New UB: Arsenal of Liberty (replaces Armaments Production Line, 30% cheaper to build, adds an extra +1 Unit Supply, no Power requirements for effects beyond the Power consumed to build)
 
 #### Proklyatyye
 - Since they don't have a favored religion in base DeCiv, Rodnovery was assigned to them in this mod.
 - The growth penalties in the UA now end after researching Decontamination.
-- Search for Survivors is unbuildable.
+- Mutants, Desolators and Contaminators are now labeled as Cursed units with a fake unique for filtering purposes.
 - Sarcophagus buffed to +2 Production and 2 free Mutants.
 - Five-Year Plan and Gulag have been renamed to Verkhovny Sovet and Politburo.
 - Verkhovny Sovet now adds scaling Production yields (in addition to the scaling Culture yields) and counts every 4 population in cities instead of every 5. However, it costs 150 Production.
 - Politburo no longer adds Culture/Happiness; it instead adds +3 Production to their Prison Camp/Work Camp replacements and Listening Posts.
 - New UUs:
+  - Likvidator (replaces Worker, Cursed unit construction time for improvements in Fallout/Toxic Waste halved)
   - Nuke Cannon (standalone, Siege Nuke, requires Atomgrad Project, 600 production cost, 2 movement, 3 range, 60 defense strength, 70 ranged strength, nuke strength 2, blast radius 0, limit of 3)
-  - Super Mutant (replaces Exo-Trooper, available earlier at Nuclear Fission but requires Atomgrad Project, consumes 2 Uranium + 1 Weapons, cannot paradrop)
+  - Super Mutant (replaces Exo-Trooper, Cursed unit, available earlier at Nuclear Fission but requires Atomgrad Project, consumes 2 Uranium + 1 Weapons, cannot paradrop)
 - New UBs:
+  - Cursed Survivors (replaces Search for Survivors, -10 Production cost, +1 Production per 4 population in the city, +25% Production towards Cursed units, free Likvidator, no free Civilian Convoy or instant population)
   - Zemlyanka (replaces Food Store, adds +1 City Strength, +20 City HP, and +1 Food to Camp improvements and Tuber resources on Tundra terrain)
   - Kolkhoz (replaces Greenhouse, adds +2 Production along with an extra Farmer slot and +1 Production to each Farmer in the city, but its maintenance cost is increased by 1)
   - Corrective Colony (replaces Prison Camp, harsher Food penalties but provides 2 extra Slaves, and the penalties are negated by Politburo)

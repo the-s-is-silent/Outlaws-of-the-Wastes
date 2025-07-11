@@ -13,7 +13,7 @@ The icons for Alma Frontier Guard and Alma State Guard are of my own creation.
 
 Unless otherwise specified, all of the following icons are from the Noun Project, licensed under Creative Commons or Public Domain. Also, if anyone feels like there is a better/more fitting icon out there for any particular building/unit/etc. than the one that is used, I am open to suggestions for replacement icons.
 
-Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmecac, Calpulli, Cichociemni, Defense Directorate (and its replacements), Defiant Guardian, Defiant Scout, Eagle Speaker, GROM, Killdozer, Momoztli, Mounted Railgun, Pale Veteran, Pax Observer, Pax Researcher, Pax Surveyor, Persevering Pax Researcher, Pithouse, Praetorium, Pridwen-class, Roller, Sejmik, Telpochcalli, Tiyanquitzli, Weaponized Yacht
+Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmecac, Calpulli, Cichociemni, Defense Directorate (and its replacements), Defiant Guardian, Defiant Scout, Eagle Speaker, GROM, Killdozer, Momoztli, Mounted Railgun, Pale Veteran, Pax Observer, Pax Researcher, Pax Surveyor, Persevering Pax Researcher, Pithouse, Praetorium, Roller, Sejmik, Telpochcalli, Tiyanquitzli, Weaponized Yacht
 
 ### Building Icons
 - Abbey: [Westminster Abbey](https://thenounproject.com/icon/westminster-abbey-5459042/) by Brickclay, PK
@@ -50,6 +50,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Contract with Survivors: [contract](https://thenounproject.com/icon/contract-4139832/) by Design Circle, PK
 - Control Post: [control center](https://thenounproject.com/icon/control-center-2877281/) by Template, TH
 - Council of the Self: [meditation](https://thenounproject.com/icon/meditation-6523423/) by New River, ID
+- Cursed Survivors: [radiation](https://thenounproject.com/icon/radiation-6596504/) by icongarage, PK
 - Deseret Data Center: [data warehouse](https://thenounproject.com/icon/data-warehouse-5615005/) by Nikita Kozin, RU
 - Disciplinary Council: [court](https://thenounproject.com/icon/court-4428402/) by Eko Purnomo, ID
 - Dugout: [hobbit house](https://thenounproject.com/icon/hobbit-house-4122101/) by Pixel Bazaar
@@ -304,6 +305,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Lawkeeper: [Police](https://thenounproject.com/icon/police-3395179/) by Nhor
 - Legate: [Legion](https://thenounproject.com/icon/legion-814530/) by Aldric Rodríguez
 - Liberty Guard: [american shield](https://thenounproject.com/icon/american-shield-5665358/) by icon trip, ID
+- Likvidator: [respirator](https://thenounproject.com/icon/respirator-3717283/) by Loritas Medina, PH
 - Living Prophet: [Mormonism](https://thenounproject.com/icon/mormonism-200426/) by Dabid J. Pascual
 - Marked One: [kalashnikov head](https://thenounproject.com/icon/kalashnikov-head-4727963/) by Eliricon, FI
 - Martial Monk: [monk](https://thenounproject.com/icon/monk-3631410/) by Eucalyp
@@ -314,6 +316,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Neutron Bomb: [Nuclear](https://thenounproject.com/icon/nuclear-2169503/) by ahmad, ID
 - New Police: [riot fist](https://thenounproject.com/icon/riot-fist-6026269/) by bsd studio, CA
 - Ocean Robber: [pirate ship](https://thenounproject.com/icon/pirate-ship-1295820/) by Fahmihorizon, ID
+- Pridwen-class: Based on [warship](https://thenounproject.com/icon/warship-4650555/) by panji, DK
 - Raiding Craft: [Rubber Boat](https://thenounproject.com/icon/rubber-boat-3575176/) by Hey Rabbit, TH
 - Rapid Response Squad: [shield medic](https://thenounproject.com/icon/shield-medic-5192820/) by Rahmat Sigit Prasetyo, ID
 - Scout Cruiser: [cruiser](https://thenounproject.com/icon/cruiser-4833538/) by Andi Nur Abdillah, ID
