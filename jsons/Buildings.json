@@ -2780,7 +2780,7 @@
 			"[+2 Happiness] [in puppeted cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
-			"Only available <in cities without a [Military Committee]>",
+			"Only available <in cities without a [Special Committee]>",
 			"Destroyed when the city is captured"
 		],
 		"civilopediaText": [
