@@ -1178,12 +1178,15 @@
 		"requiredTech": "Machinery",
 		"upgradesTo": "Armored Train",
 		"obsoleteTech": "Railroads",
-		"uniques": ["[+50]% Strength <vs [Low Tech] units>",
+		"uniques": [
+			"[+2] Movement <in [All Road] tiles>",
+			"[+50]% Strength <vs [Low Tech] units>",
 			"[+50]% Strength <vs [Personnel] units>",
 			"[-33]% Strength <vs cities>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
-			"Consumes [1] [Oil]"],
+			"Consumes [1] [Oil]"
+		],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
 	},
@@ -1197,14 +1200,16 @@
 		"requiredTech": "Railroads",
 		"obsoleteTech": "Advanced Materials",
 		"upgradesTo": "Modern Armor",
-		"uniques": ["[+33]% Strength <vs [Low Tech] units> <when attacking>",
+		"uniques": [
+			"[+33]% Strength <vs [Low Tech] units> <when attacking>",
 			"[+33]% Strength <vs [Personnel] units> <when attacking>",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[+2] Movement <in [Railroad] tiles>",
 			"Only available <if [Factory] is constructed>",
-			"Consumes [1] [Oil]"],
+			"Consumes [1] [Oil]"
+		],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
 	},
@@ -4661,7 +4666,7 @@
 		    "Can move after attacking",
 			"[+30]% Strength <when attacking>",
 			"Withdraws before melee combat <with [67]% chance>",
-			"[1] free [Savior of the Sea] unit(s) appear <upon turn start> <every [2] turns>",
+			"[1] free [Savior of the Sea] units appear <upon turn start> <every [2] turns>",
 			"Uncapturable",
 			"Limited to [2] per Civilization"
 		],

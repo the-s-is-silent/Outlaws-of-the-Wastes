@@ -1297,7 +1297,11 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Faction Adjustments**
 - The Caliphate now gains doubled religious pressure in puppeted cities.
-- Crimson Line no longer gets an inherent reduction in policy cost increase from cities owned. Additionally, the faction should now be slightly less likely to declare war on you and somewhat more likely to fight alongside you in war when controlled by the AI.
+- Crimson Line has had the following adjustments:
+	- It no longer gets an inherent reduction in policy cost increase from cities owned.
+	- Its 10-turn Production bonus triggered upon the outbreak of war now requires the player controlling the faction to be the one declare war.
+	- AI players controlling the faction should now be slightly less likely to declare war on you and somewhat more likely to fight alongside you in war.
+- Nowa Polska's unit training speed boost during wartime now lasts for 10 turns after the outbreak of war and requires the player to be in a defensive war, but has been increased to 30%.
 
 **Building Adjustments**
 - Bunkers and Earthscrapers cannot be built if nukes are disabled.
@@ -1329,7 +1333,9 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Faction UUs:
 	- Central State (Forgotten Factions): Recovered Dongfei Missiles cannot be purchased. (Ensure you enable Forgotten Factions first, Outlaws last to make the nerf stick.)
 	- Charybdis Division (Followers of the Green): Great Submarine Commander now replaces the Great Admiral instead of the Great General and gets the Admiral's healing bonuses but not the Drydock GI. It can still be expended to start Golden Ages. (Again, ensure Outlaws is enabled last to make the change stick.)
-	- Crimson Line: Volt Driver now upgrades to Machine Gun. Additionally, its defense and ranged strength values have been swapped.
+	- Crimson Line:
+		- War Tram now gets +2 Movement in Road and Railroad tiles.
+		- Volt Driver now upgrades to Machine Gun. Additionally, its defense and ranged strength values have been swapped.
 	- Hexlock: Field Scientists can no longer be purchased, and their Production cost increases by 100% of the base amount every two eras starting at the Neofeudal era.
 	- Nowa Polska: Kosynier nerfed; instead of doubling as a Worker, it now insta-builds Farms by consuming the unit.
 	- The Oathsworn: Continental Generals now generate Golden Age points from combat.

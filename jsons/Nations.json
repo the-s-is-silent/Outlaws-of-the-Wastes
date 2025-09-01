@@ -170,7 +170,7 @@
 			"Russian Unifier",
 			"[-50]% construction time for [All Road] improvements",
 			"[-25]% maintenance on road & railroads",
-			"[+15]% [Production] [in all cities] <for [10] turns> <upon declaring war with a major Civilization>",
+			"[+15]% [Production] [in all cities] <for [10] turns> <upon declaring war on [Major] Civilizations>",
 			"Starts with [Machinery]",
 			"Starts with [Collectivism] adopted"
 		],
@@ -367,7 +367,7 @@
 		"uniqueName": "Sanation",
 		"uniques": [
 			"[-10]% Culture cost of adopting new Policies",
-			"[+15]% Production when constructing [Military] units [in all cities] <when at war>",
+			"[+30]% Production when constructing [Military] units [in all cities] <for [10] turns> <upon being declared war upon by [All] Civilizations>",
 			"[+50]% XP gained from combat <when fighting units from a Civilization with more Cities than you>",
 			"Starts with [Redomestication]"
 		],

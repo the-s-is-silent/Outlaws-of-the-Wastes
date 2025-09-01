@@ -2750,7 +2750,7 @@
 		]
 	},
 	{
-		"name": "Military Committee",
+		"name": "Special Committee",
 		"replaces": "Congress",
 		"uniqueTo": "The Patriots",
 		"cost": 150,
