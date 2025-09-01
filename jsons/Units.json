@@ -4498,6 +4498,29 @@
 		"movement": 2
 	},
 	{
+		"name": "Leviathan-Class Submarine",
+		"unitType": "Submarine",
+		"uniqueTo": "Charybdis Division",
+		"movement": 6,
+		"strength": 70,
+		"range": 3,
+		"rangedStrength": 100,
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"Can move after attacking",
+			"[+75]% Strength <when attacking>",
+			"[+60]% Strength <vs [Ranged Water] units> <when defending>",
+			"Can only attack [Water] tiles",
+			"[+1] Sight",
+			"Can carry [3] [Missile] units",
+			"Consumes [1] [Uranium]",
+			"Can see invisible [{Wounded} {Water}] units"
+		],
+		"promotions": ["Wolfpack I"],
+		"attackSound": "torpedo"
+	},
+	{
 		"name": "Great Farmer",
 		"unitType": "Civilian",
 		"uniques": ["[+2] population [in this city] <by consuming this unit> <in [City center] tiles>",
