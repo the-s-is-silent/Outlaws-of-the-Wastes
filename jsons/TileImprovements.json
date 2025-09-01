@@ -363,6 +363,22 @@
 		"shortcutKey": "W"
 	},
 	{
+		"name": "Energy farm",
+		"terrainsCanBeBuiltOn": ["Swamp"],
+		"production": 1,
+		"gold": -1,
+		"turnsToBuild": 7,
+		"techRequired": "Biology",
+		"uniques": [
+			"Can also be built on tiles adjacent to fresh water",
+			"Cannot be built on [Water] tiles",
+			"Cannot be built on [Impeded terrain] tiles",
+			"Provides [1] [Oil]",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "Y"
+	},
+	{
 		"name": "Fishing Boats",
 		"techRequired": "Sailing",
 		"terrainsCanBeBuiltOn": ["Coast", "Ocean"],
