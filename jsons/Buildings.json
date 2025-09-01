@@ -2374,7 +2374,7 @@
 			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Food Store] [in this city]",
-			"Gain a free [Armory] [in this city]"
+			"Gain a free [National Guard Armory] [in this city]"
 		],
 		"quote": "We are here to protect the people, and we will do it here. Here we make our stand against anarchy and tyranny. Here, we will once again establish freedom and order. This is the oath we have taken, and we will keep that oath.",
 		"civilopediaText": [
@@ -2747,6 +2747,46 @@
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Freedom Foundation]>",
 			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Military Committee",
+		"replaces": "Congress",
+		"uniqueTo": "The Patriots",
+		"cost": 150,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture] per [4] population [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
+			"[-15]% enemy spy effectiveness [in all cities]",
+			"[+25]% Production when constructing [City Defense] buildings [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Junta]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Junta",
+		"replaces": "Council",
+		"uniqueTo": "The Patriots",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+10]% growth [in all cities]",
+			"[+15]% Production when constructing [Military] units [in annexed cities]",
+			"[+100]% Production when constructing [Listening Post] buildings [in annexed cities]",
+			"[+2 Happiness] [in annexed cities]",
+			"[+2 Happiness] [in puppeted cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Military Committee]>",
+			"Destroyed when the city is captured"
+		],
+		"civilopediaText": [
+			{
+				"text": "Establishing a Junta allows the Patriots to train Military Police."
+			}
 		]
 	},
 	{
@@ -4771,7 +4811,7 @@
 			"[+10]% Strength <for [Automated] units>",
 			"Consumes [1] [Power]"
 		],
-		"requiredTech": "Munitions"
+		"requiredTech": "Hoplology"
 	},
 	{
 		"name": "Walls",
@@ -4966,6 +5006,19 @@
 		"uniques": [
 			"New [Military] units start with [15] XP [in this city]",
 			"[+1 Production] from [Weapons] tiles [in this city]",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "National Guard Armory",
+		"replaces": "Armory",
+		"uniqueTo": "The Patriots",
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction",
+		"uniques": [
+			"New [Military] units start with [15] XP [in this city]",
+			"[+1 Production, +1 Science] from [Weapons] tiles [in this city]",
+			"Must have an owned [{improved} {Weapons}] within [3] tiles <before discovering [Hoplology]>",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -5792,7 +5845,7 @@
 			"Consumes [1] [Power]",
 			"[Personnel] units gain the [Infantry Weapons] promotion",
 			"[+10]% Production when constructing [Military] units [in this city]",
-			"Gain a free [Armory] [in this city]"
+			"Gain a free [National Guard Armory] [in this city]"
 		],
 		"requiredTech": "Munitions"
 	},

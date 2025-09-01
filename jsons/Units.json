@@ -427,6 +427,28 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Military Police",
+		"replaces": "Forward Observer",
+		"uniqueTo": "The Patriots",
+		"unitType": "Scrapper",
+		"movement": 5,
+		"strength": 40,
+		"interceptRange": 1,
+		"cost": 135,
+		"hurryCostModifier": 20,
+		"requiredTech": "Replaceable Parts",
+		"promotions": ["Reconnaissance I"],
+		"uniques": [
+			"Personnel",
+			"[+1] Sight",
+			"[-3] Movement <in [Foreign] tiles>",
+			"[+25]% Strength <when fighting in [Your] tiles>",
+			"Can move after attacking",
+			"Only available <if [Junta] is constructed>"
+		],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Speculatores",
 		"replaces": "Forward Observer",
 		"uniqueTo": "Crimson Legion",
@@ -3253,6 +3275,27 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Black Hand",
+		"unitType": "Scrapper",
+		"uniqueTo": "Deadrock Clan",
+		"replaces": "Infantry",
+		"movement": 2,
+		"strength": 45,
+		"interceptRange": 1,
+		"cost": 225,
+		"requiredTech": "Currency",
+		"upgradesTo": "NBC Infantry",
+		"uniques": [
+			"Personnel",
+			"Only available <if [Grand Clan Manor] is constructed>",
+			"Consumes [1] [Weapons]",
+			"[-40]% production cost <after discovering [Replaceable Parts]>"
+		],
+		"promotions": ["Gas Mask", "Reconnaissance I"],
+		"hurryCostModifier": 25,
+		"attackSound": "machinegun"
+	},
+	{
 		"name": "Purge Robot Proto",
 		"unitType": "Purge Robot",
 		"uniqueTo": "Hexlock",
@@ -3347,6 +3390,51 @@
 				"text": "This Purge Robot is estimated to have served during the Old World era. Although decayed, it's still extremely combat-effective."
 			}
 		]
+	},
+	{
+		"name": "Marine",
+		"uniqueTo": "The Patriots",
+		"replaces": "Infantry",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 45,
+		"interceptRange": 1,
+		"cost": 175,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "NBC Infantry",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Only available <if [National Guard Armory] is constructed>",
+			"Consumes [1] [Weapons]",
+			"[-30]% production cost <after discovering [Replaceable Parts]>"
+		],
+		"promotions": ["Amphibious", "Gas Mask"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Spec Ops",
+		"unitType": "Shooter",
+		"uniqueTo": "The Patriots",
+		"replaces": "Marksman",
+		"upgradesTo": "Black Ops",
+		"range": 1,
+		"movement": 2,
+		"strength": 40,
+		"rangedStrength": 35,
+		"interceptRange": 1,
+		"cost": 300,
+		"hurryCostModifier": 20,
+		"requiredTech": "The Wheel",
+		"uniques": [
+			"Personnel",
+			"Only available <if [National Guard Armory] is constructed>",
+			"[-25]% Strength <before discovering [Replaceable Parts]>",
+			"Consumes [1] [Weapons]",
+			"[-60]% production cost <after discovering [Replaceable Parts]>"
+		],
+		"promotions": ["Reconnaissance I", "Amphibious", "Ambush", "Gas Mask"],
+		"attackSound": "machinegun"
 	},
 	{
 		"name": "Machine Gun",
@@ -4555,6 +4643,29 @@
 			"May capture killed [Water] units"
 		],
 		"promotions": ["Raider", "Sea Raider"],
+		"hurryCostModifier": 20,
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Pirate Mothership",
+		"uniqueTo": "Barbarians",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 35,
+		"rangedStrength": 75,
+		"range": 3,
+		"interceptRange": 3,
+		"cost": 425,
+		"requiredTech": "Radar",
+		"uniques": [
+		    "Can move after attacking",
+			"[+30]% Strength <when attacking>",
+			"Withdraws before melee combat <with [67]% chance>",
+			"[1] free [Savior of the Sea] unit(s) appear <upon turn start> <every [2] turns>",
+			"Uncapturable",
+			"Limited to [2] per Civilization"
+		],
+		"promotions": ["Raider", "Sea Raider", "Artillery"],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
 	},

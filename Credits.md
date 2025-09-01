@@ -94,6 +94,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Miracle Metal Mill: [smart industry](https://thenounproject.com/icon/smart-industry-3191201/) by WiStudio, TH
 - Musalla: [Mosque](https://thenounproject.com/icon/mosque-1158499/) by Royyan Razka, ID
 - Nanomaterial Factory: [nanofabrication](https://thenounproject.com/icon/nanofabrication-4331493/) by Loritas Medina, PH
+- National Guard Armory: [Armory](https://thenounproject.com/icon/armory-1922927/) by Dolly Holmes, US
 - National Reservoir System: [Reservoir](https://thenounproject.com/icon/reservoir-3918342/) by Adrien Coquet, FR
 - Navy Shipyard: [shipyard](https://thenounproject.com/icon/shipyard-5848043/) by Andi Nur Abdullah, ID
 - Naval War College: [navy pier](https://thenounproject.com/icon/navy-pier-3925133/) by Lars Meiertoberens, DE
@@ -310,6 +311,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Marked One: [kalashnikov head](https://thenounproject.com/icon/kalashnikov-head-4727963/) by Eliricon, FI
 - Martial Monk: [monk](https://thenounproject.com/icon/monk-3631410/) by Eucalyp
 - Military Engineer: [Engineering](https://thenounproject.com/icon/engineering-2491577/) by Icon Market, PK
+- [Military Police](https://thenounproject.com/icon/military-police-454065/) by Yuri Martins, ES
 - Mobile Clinic: [Ambulance](https://thenounproject.com/icon/ambulance-1262538/) by Ralf Schmitzer
 - Mormon Battalion: [flag of utah](https://thenounproject.com/icon/flag-of-utah-5740272/) by Zach Bogart
 - Mutawa: [swords](https://www.flaticon.com/free-icon/swords_3568104) by [Graphic Nehar](https://www.flaticon.com/authors/graphic-nehar) from Flaticon

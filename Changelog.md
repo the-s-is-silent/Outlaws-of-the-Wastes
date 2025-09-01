@@ -1293,7 +1293,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **Misc.**
 - Quote attributions for several wonders have been restored.
 
-#### March - July 2025
+#### March - September 2025
 
 **Faction Adjustments**
 - The Caliphate now gains doubled religious pressure in puppeted cities.
@@ -1318,6 +1318,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Raider Suppression Initiative's Water-per-kill from slaying Barbarians halved.
 - Revert Survivors' Production cost reduced by 5.
 - Sarcophagus now spawns two free Mutants instead of one.
+- Tactics Center now unlocks at Hoplology.
 - Wasteland Games has had its Culture and Happiness yields swapped.
 
 **Unit Adjustments**
@@ -1332,7 +1333,9 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- Hexlock: Field Scientists can no longer be purchased, and their Production cost increases by 100% of the base amount every two eras starting at the Neofeudal era.
 	- Nowa Polska: Kosynier nerfed; instead of doubling as a Worker, it now insta-builds Farms by consuming the unit.
 	- The Oathsworn: Continental Generals now generate Golden Age points from combat.
-	- The Patriots: Privates now have 20 combat strength (up from 10) and cost 40 Production (up from 25).
+	- The Patriots:
+		- Privates now have 20 combat strength (up from 10) and cost 40 Production (up from 25).
+		- Carryover from Deciv 2 branch: Marines and Spec Ops have their production cost reduced after Replaceable Parts is researched.
 	- Proklyatyye: Mutants, Super Mutants, Desolators and Contaminators now have the "Cursed" fake unique for filtering purposes (currently used by one UB).
 - City-State UUs:
 	- Almaty: Instead of keeping the base State Guard's +25% Strength in friendly territory, the Alma State Guard now gets +30% Strength that decreases the further away it is from the capital.
@@ -1366,9 +1369,12 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **New Buildings**
 - Collaborate with Isolationists (replaces Annex Isolationists for Atlas, +8 Science instead of +5 Production to the Isolated Island, +3 Science/+1 Culture to the city itself, +1 Great Scientist Point, keeps the Weapons resources)
+- Junta (replaces Council for The Patriots, adds +2 Local Happiness in conquered cities, boosts unit training speed in those cities, and enables training a new UU)
+- National Guard Armory (replaces Armory for The Patriots, effectively reimplements the old Redux Armory exclusively for them, but also adds +1 Science to worked Weapons tiles)
 - Proxy Office (replaces Prison Camp for Atlas, no bonuses or penalties beyond the Courthouse effect)
 - Shale Extractor (replaces Oil Refinery for Atlas, +1 additional Production on Oil tiles and +1 additional copy of Oil, also added to Deciv 2)
 - Soaper (standalone, unlocks at Chemistry, requires a worked Cattle, Goats, Hogs, or Salt tile, adds +2 Local Happiness, maintenance cost 1, boosted by Followers of Old World Crafts)
+- Special Committee (replaces Congress for The Patriots, adds defense against enemy spies and boosts construction speed of defensive buildings)
 - Timepiece Maker (standalone, unlocks at Machinery, requires a worked Electronics or Machine Parts tile, adds +2 Production to those tiles and +1 to the city itself, boosted by Followers of Old World Crafts)
 
 **New Wonders**
@@ -1379,6 +1385,8 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **New Units**
 - Great Bombard (Cannon replacement for The Caliphate, -3 defense strength, -2 ranged strength, +30 Production cost, +1 Range, +100% more strength when attacking cities, +13% more strength when attacking Low Tech units)
 - Likvidator (Worker replacement for Proklyatyye, Cursed Unit, -50% construction time for improvements on Fallout or Toxic Waste)
+- Military Police (Forward Observer replacement for The Patriots, +20 base Strength, +80 production cost, requires building the Junta UB, does not start with Skirmish, +1 base Movement but -3 Movement in foreign lands, +25% Strength bonus when in your territory)
+- Pirate Mothership (standalone Barbarian UU, 35 defense, 75 ranged strength, 5 movement, 3 range + intercept range, uncapturable, +30% more strength when attacking, can move after attacking, 2-in-3 chance to evade melee units, spawns a Savior of the Sea every other turn, standard barb promotions, only two can exist at a time)
 
 **New Promotions**
 - Cut Away the Self (exclusive to Celestial Collective, three levels, allowing the unit to generate additional Culture/Faith and making it uncapturable at Level 3, but Level 2 prevents it from fortifying/sleeping and can only be taken while the unit is wounded)
