@@ -1391,8 +1391,10 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **New Units**
 - Great Bombard (Cannon replacement for The Caliphate, -3 defense strength, -2 ranged strength, +30 Production cost, +1 Range, +100% more strength when attacking cities, +13% more strength when attacking Low Tech units)
 - Likvidator (Worker replacement for Proklyatyye, Cursed Unit, -50% construction time for improvements on Fallout or Toxic Waste)
+- Longbowman (Crossbowman replacement for Camelot Foundation, +7 ranged strength, starts with Extended Range)
 - Military Police (Forward Observer replacement for The Patriots, +20 base Strength, +80 production cost, requires building the Junta UB, does not start with Skirmish, +1 base Movement but -3 Movement in foreign lands, +25% Strength bonus when in your territory)
 - Pirate Mothership (standalone Barbarian UU, 35 defense, 75 ranged strength, 5 movement, 3 range + intercept range, uncapturable, +30% more strength when attacking, can move after attacking, 2-in-3 chance to evade melee units, spawns a Savior of the Sea every other turn, standard barb promotions, only two can exist at a time)
+- Trebuchet (Cannon replacement for Camelot Foundation, -50 Production cost but -3 defense strength and -2 ranged strength, Blast Furnace not needed, unlocks at Construction)
 
 **New Promotions**
 - Cut Away the Self (exclusive to Celestial Collective, three levels, allowing the unit to generate additional Culture/Faith and making it uncapturable at Level 3, but Level 2 prevents it from fortifying/sleeping and can only be taken while the unit is wounded)
@@ -1404,4 +1406,4 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Misc.**
 - Lines added for each faction for when the player denounces them, or when they request a Declaration of Friendship.
-- Sprite style added for Camelot.
+- Sprite style added for Camelot (but will be replaced later).

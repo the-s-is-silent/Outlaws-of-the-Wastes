@@ -8,6 +8,7 @@ Armed Mining Camp, Cactus and Cactus Farm, Fortified Farm, Supply Complex, and W
 Preservator is borrowed from [Bamboolord](https://github.com/RealBamboolord) with his permission.<br>
 Several icons reuse images used in Unciv, DeCiv Redux, Civ 6 mod, and Rekmod, with some of the latter three remaining unsourced.<br>
 The Religion Icons for Anglicanism, Imperial Cult, Methodism and Mormonism were created by Tomatekh on CivFanatics and can be found [at the Civ 5 Customization Wiki's entry on the Tomatekh's Historical Religions mod](https://civilization-v-customisation.fandom.com/wiki/Tomatekh%27s_Historical_Religions).<br>
+The Nation Icon for Camelot Foundation was created by the Fallout: London team (I haven't found out who exactly yet) and can be found [at the Fallout Wiki's entry on the Fallout: London factions](https://fallout.wiki/wiki/Mod:Fallout_London/Factions).<br>
 The icon for Wasteland Games was made by [Reaktorlan](https://github.com/PAFR2003) and is used with his permission.<br>
 The icons for Alma Frontier Guard and Alma State Guard are of my own creation.
 
@@ -185,7 +186,6 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Aurelian Group: [Opalcoin](https://www.iconfinder.com/icons/1175305/opal_opalcoin_icon) by [AllienWorks](https://www.iconfinder.com/martin.allien) from [Iconfinder](https://www.iconfinder.com)
 - Aztlán: [Sun](https://www.flaticon.com/free-icon/sun_6912442) by Freepik from Flaticon
 - The Caliphate: [Star and Crescent](https://thenounproject.com/icon/star-and-crescent-253647/) by Alexander Skowalsky, HU
-- Camelot Foundation: [Wales](https://thenounproject.com/icon/wales-4282300/) by Lars Meiertoberens, DE
 - Celestial Collective: [tǒng hanzi](https://hanzi.unihan.com.cn/JianFanYi/detail/%E7%BB%9F) as rendered on [Unihan](https://hanzi.unihan.com.cn)
 - Crimson Line: [Hammer and Sickle](https://thenounproject.com/icon/hammer-and-sickle-52420/) by Yohann Berger, FR
 - Deseret Nation: [Beehive](https://thenounproject.com/icon/beehive-106249/) by Cléa Lautrey
