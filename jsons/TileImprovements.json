@@ -381,7 +381,7 @@
 	{
 		"name": "Fishing Boats",
 		"techRequired": "Sailing",
-		"terrainsCanBeBuiltOn": ["Coast", "Ocean"],
+		"terrainsCanBeBuiltOn": ["Coast", "Sea Nursery", "Ocean"],
 		"turnsToBuild": 6,
 		"uniques": [
 			"Food source",
@@ -960,6 +960,29 @@
 			"Can only be built to improve a resource <in [Bonus resource] tiles>",
 			"Can only be built to improve a resource <in [Luxury resource] tiles>",
 			"Pillaging this improvement yields approximately [+20 Science]"
+		]
+	},
+
+	//Indonesian Gentleman's mods (for compatibility purposes)
+	{
+		"name": "Armed Fishing Boats",
+		"uniqueTo": "Charybdis Division",
+		"techRequired": "Sailing",
+		"terrainsCanBeBuiltOn": ["Coast", "Sea Nursery", "Ocean"],
+		"uniques": [
+			"Food source",
+			"Obsolete with [Genetics]",
+			"[+1 Food] <after discovering [Oceanography]>",
+			"Can only be built to improve a resource",
+			"Improves [Algae] resource in this tile",
+			"Improves [Jellyfish] resource in this tile",
+			"Improves [Plankton] resource in this tile",
+			"Improves [Deep-sea Fish] resource in this tile",
+			"Improves [Mutant Eel] resource in this tile",
+			"Improves [Sea Fauna] resource in this tile",
+			"Gives a defensive bonus of [25]%",
+			"Adjacent enemy units ending their turn take [10] damage",
+			"Pillaging this improvement yields approximately [+10 Gold]"
 		]
 	},
 

@@ -1295,6 +1295,9 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 #### March - September 2025
 
+**Mod Compatibility**
+- Sea Nurseries and Sea Fauna imported from Forgotten Factions and adjusted so that you can actually improve the resource now.
+
 **Faction Adjustments**
 - The Caliphate now gains doubled religious pressure in puppeted cities.
 - Crimson Line has had the following adjustments:
@@ -1369,6 +1372,10 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Jesuit Education now allows purchasing Observatories with Faith.
 - Primacy can once again be adopted. Its new effect grants players who select it as their Founder Belief all of the Faith and 10% of the Culture produced by allied City-States. (Yes, City-States do construct Faith buildings even though they can't use them.) It will be less likely to be picked by the AI if there are less than four City-States, and will not be picked at all by the AI if there are less than two.
 - Religious Unity is less likely to be picked by the AI if there are less than four City-States, and will not be picked at all by the AI if there are less than two.
+
+**Improvement Adjustments**
+- Armed Fishing Boats (Charbydis Division UI from Followers of the Green) can now be slow built and can also built on Sea Nurseries.
+- Energy farms can no longer be built on Impeded terrain.
 
 **New Faction**
 - Celestial Collective (Chinese, *1984*-based, Domination/Religious)

@@ -85,6 +85,21 @@
 		]
 	},
 	{
+		"name": "Sea Nursery",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"food" : 1,
+		"occursOn": ["Coast"],
+		"uniques": [
+			"Rare feature"
+		],
+		"civilopediaText": [
+			{
+				"text": "This coastal area seems to be relatively untouched by the course of the events nor by toxic currents, resulting in a paradise for sea fauna and flora."
+			}
+		]
+	},
+	{
 		"name": "Metal Pyramid",
 		"type": "NaturalWonder",
 		"occursOn": ["Desert"],
