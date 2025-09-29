@@ -1009,6 +1009,7 @@
 		"name": "Survivor camp",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
+			"Can be built outside your borders",
 			"Unpillagable",
 			"Provides a random bonus when entered"
 		]
