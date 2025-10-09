@@ -1313,7 +1313,6 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- The Caliphate: Kaserne renamed to Amsar and buffed to make its city slightly harder to capture (+2 City Strength, +20 HP). This is to allow Bamboolord to use the old UB name for his Geneva Union faction if he so chooses.
 	- Hexlock: Compound Mixes can no longer be purchased. They are also slightly more expensive to build (75 for standard, 150 for Meltdown).
 	- New Star: Gideon Scanner and Rally Station no longer relocate to the new capital due to a game-breaking bug.
-	- Proklyatyye: Verkhovny Sovet and Politburo no longer require Search for Survivors. (Expected to be a temporary adjustment.)
 
 **Wonder Adjustments**
 - Conscript Survivors' Production cost increased by 5, but it now provides 4 Slaves and 2 Warriors.
@@ -1414,3 +1413,16 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **Misc.**
 - Lines added for each faction for when the player denounces them, or when they request a Declaration of Friendship.
 - Sprite style added for Camelot (but will be replaced later).
+
+#### October 2025
+
+**Building Adjustments**
+- Aerospace Facilities now allow a form of "airlifting" units. For balance reasons, this is currently limited to Civilian units (since Paradropping isn't a unit action and can't be modified to consume all movement points). They also increase the air unit capacity of cities to 10.
+- Faction UBs:
+	- The Harbingers: Investors' Chamber and Trustees' Committee renamed to Water Forum and Water Council.
+
+**Wonder Adjustments**
+- Due to a bug that has yet to be addressed, The Green Palace and Supercollider no longer construct Great Improvements; instead, they spawn the appropriate Great Person (Farmer for Green Palace, Scientist for Supercollider). This is expected to revert once those bugs are fixed.
+
+**New Promotions**
+- Airlift (lets a unit be "airlifted" to another city you control with an Aerospace Facility up to 30 tiles away)

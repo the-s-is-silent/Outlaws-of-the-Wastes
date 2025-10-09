@@ -442,7 +442,7 @@
 			"Personnel",
 			"[+1] Sight",
 			"[-3] Movement <in [Foreign] tiles>",
-			"[+25]% Strength <when fighting in [Your] tiles>",
+			"[+25]% Strength <when fighting in [your] tiles>",
 			"Can move after attacking",
 			"Only available <if [Junta] is constructed>"
 		],
@@ -682,8 +682,11 @@
 		"cost": 50,
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Militia",
-		"uniques": ["Low Tech", "[+50]% Strength <vs [Low Tech] units>",
-			"Earn [10]% of killed [Military] unit's [Cost] as [Faith]"],
+		"uniques": [
+			"Low Tech",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"Earn [10]% of killed [Military] unit's [Cost] as [Faith]"
+		],
 		"attackSound": "metalhit"
 	},
 	{
@@ -699,10 +702,18 @@
 		"upgradesTo": "Exo-Trooper",
 		"hurryCostModifier": 20,
 		"promotions": ["Gas Mask"],
-		"uniques": ["Personnel", "Consumes [1] [Weapons]",
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]",
 			"Earn [10]% of killed [Military] unit's [Cost] as [Faith]",
-			"Gain [2] [Culture] <upon ending a turn in a [City center] tile>"],
-		"attackSound": "machinegun"
+			"Gain [2] [Culture] <upon ending a turn in a [City center] tile>"
+		],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"text": "These infantry units who comprise the main fighting force of the Deseret Army inherit their name and tradition from the original Mormon Battalion of the 19th century AD, which was the only religious military unit to enter federal service in the history of the former United States."
+			}
+		]
 	},
 	{
 		"name": "Destroying Angel",
@@ -718,21 +729,34 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Black Ops",
 		"hurryCostModifier": 20,
-		"uniques": ["Personnel", "Consumes [1] [Weapons]",
-			"Earn [25]% of the damage done to [Military] units as [Faith]"],
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]",
+			"Earn [25]% of the damage done to [Military] units as [Faith]"
+		],
 		"promotions": ["Skirmish", "Reconnaissance I", "Oath of Vengeance", "Gas Mask"],
-		"attackSound": "shot"
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "Also known as the Danites, who were a short-lived vigilante organization in the early years of the LDS church's history that is shrouded in myth, these elite marksmen are the ultimate guarantors of peace and security for Deseret."
+			}
+		]
 	},
 	{
 		"name": "Deseret Missionary",
 		"replaces": "Philosopher",
 		"uniqueTo": "Deseret2",
 		"unitType": "Civilian",
-		"uniques": ["Founds a new city <by consuming this unit> <in tiles without [Impeded terrain]>",
+		"uniques": [
+			"Founds a new city <by consuming this unit> <in tiles without [Impeded terrain]>",
 			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
 			"May enter foreign tiles without open borders, but loses [100] religious strength each turn it ends there",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
-			"Unbuildable", "Uncapturable", "Religious Unit", "Only available <when religion is enabled>"],
+			"Unbuildable",
+			"Uncapturable",
+			"Religious Unit",
+			"Only available <when religion is enabled>"
+		],
 		"movement": 4,
 		"religiousStrength": 1000
 	},
@@ -761,14 +785,20 @@
 		"uniqueTo": "Deseret2",
 		"replaces": "Great Sage",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [Endowment House] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+		"uniques": [
+			"Can instantly construct a [Endowment House] improvement <by consuming this unit> <if it hasn't used other actions yet>",
 			"Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion",
 			"May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
 			"May enhance a religion <by consuming this unit> <if it hasn't used other actions yet>",
 			"May enter foreign tiles without open borders",
-			"Great Person - [Faith]", "Unbuildable", "Uncapturable",
-			"Religious Unit", "Only available <when religion is enabled>", "Takes your religion over the one in their birth city"],
+			"Great Person - [Faith]",
+			"Unbuildable",
+			"Uncapturable",
+			"Religious Unit",
+			"Only available <when religion is enabled>",
+			"Takes your religion over the one in their birth city"
+		],
 		"movement": 2,
 		"religiousStrength": 1000
 	},

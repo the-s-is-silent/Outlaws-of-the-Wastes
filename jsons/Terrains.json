@@ -1,5 +1,116 @@
 [
 	{
+		"name": "Wasteland",
+		"type": "Land",
+		"movementCost": 1,
+		"defenceBonus": -0.1,
+		"RGB": [97, 171, 58],
+		"uniques": [
+			"Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
+            "Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
+            "Occurs at temperature between [-0.5] and [0.5] and humidity between [0.6] and [0.8]",
+            "Occurs at temperature between [-0.5] and [1] and humidity between [0.9] and [1]",
+            "Occurs at temperature between [0.9] and [1] and humidity between [0.2] and [1]",
+            "Occurs at temperature between [0.8] and [0.9] and humidity between [0.6] and [1]",
+            "Occurs at temperature between [0.7] and [0.8] and humidity between [0.7] and [1]",
+            "Occurs at temperature between [0.6] and [0.8] and humidity between [0.4] and [0.6]",
+			"[+3] to Fertility for Map Generation",
+			"A Region is formed with at least [30]% [Wasteland] tiles, with priority [7]",
+			"A Region can not contain more [Badlands] tiles than [Wasteland] tiles",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Food] when determining start locations",
+			"Becomes [Swamp] when adjacent to [River]",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"Air Base <in [City center] tiles> <in cities with a [Aerospace Facility]>"
+		]
+	},
+	{
+		"name": "Badlands",
+		"type": "Land",
+		"movementCost": 1,
+		"defenceBonus": -0.1,
+		"RGB": [168, 185, 102],
+		"uniques": [
+			"Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
+            "Occurs at temperature between [-0.4] and [0.4] and humidity between [0.4] and [0.6]",
+            "Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [0.6]",
+            "Occurs at temperature between [-0.6] and [0.7] and humidity between [0.8] and [0.9]",
+            "Occurs at temperature between [-0.6] and [-0.5] and humidity between [0.9] and [1]",
+            "Occurs at temperature between [0.9] and [1] and humidity between [0] and [0.2]",
+            "Occurs at temperature between [0.8] and [0.9] and humidity between [0.2] and [0.6]",
+            "Occurs at temperature between [0.7] and [0.8] and humidity between [0.3] and [0.4]",
+            "Occurs at temperature between [0.6] and [0.8] and humidity between [0.6] and [0.7]",
+            "Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]",
+			"[+4] to Fertility for Map Generation",
+			"A Region is formed with at least [30]% [Badlands] tiles, with priority [6]",
+			"A Region can not contain more [Wasteland] tiles than [Badlands] tiles",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Food] when determining start locations",
+			"Becomes [Swamp] when adjacent to [River]",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"Air Base <in [City center] tiles> <in cities with a [Aerospace Facility]>"
+		]
+	},
+	{
+		"name": "Tundra",
+		"type": "Land",
+		"movementCost": 1,
+		"defenceBonus": -0.2,
+		"RGB": [189, 204, 191],
+		"uniques": [
+			"Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.8] and [1]",
+            "Occurs at temperature between [-0.8] and [-0.5] and humidity between [0.6] and [0.8]",
+            "Occurs at temperature between [-0.7] and [-0.4] and humidity between [0.4] and [0.6]",
+            "Occurs at temperature between [-0.6] and [-0.4] and humidity between [0.2] and [0.4]",
+            "Occurs at temperature between [-0.5] and [-0.4] and humidity between [0] and [0.2]",
+			"[+2] to Fertility for Map Generation",
+			"A Region is formed with at least [30]% [Tundra] tiles and [Permafrost] tiles, with priority [1]",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Food] when determining start locations",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"Air Base <in [City center] tiles> <in cities with a [Aerospace Facility]>"
+		]
+	},
+	{
+		"name": "Desert",
+		"type": "Land",
+		"movementCost": 1,
+		"defenceBonus": -0.2,
+		"RGB": [230, 230, 113],
+		"uniques": [
+			"Occurs at temperature between [-0.1] and [0.9] and humidity between [0] and [0.2]",
+            "Occurs at temperature between [0.1] and [0.8] and humidity between [0.2] and [0.3]",
+            "Occurs at temperature between [0.2] and [0.7] and humidity between [0.3] and [0.4]",
+            "Occurs at temperature between [0.4] and [0.6] and humidity between [0.4] and [0.5]",
+            "Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.7]",
+			"[+1] to Fertility for Map Generation",
+			"A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Food] when determining start locations",
+			"Becomes [Swamp] when adjacent to [River]",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"[+1 Food] <within [1] tiles of a [Lakes]> <after discovering [Ecology]>",
+			"Air Base <in [City center] tiles> <in cities with a [Aerospace Facility]>"
+		]
+	},
+	{
+		"name": "Permafrost",
+		"type": "Land",
+		"defenceBonus": -0.1,
+		"movementCost": 1,
+		"RGB": [231, 242, 249],
+		"uniques": [
+			"Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
+            "Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
+            "Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.6]",
+            "Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [0.4]",
+            "Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.2]",
+			"Considered [Undesirable] when determining start locations",
+			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"Air Base <in [City center] tiles> <in cities with a [Aerospace Facility]>"
+		]
+	},
+	{
 		"name": "Mountain",
 		"type": "Land",
 		"impassable": true,

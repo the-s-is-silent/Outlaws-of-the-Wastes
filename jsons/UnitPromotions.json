@@ -708,6 +708,12 @@
 		]
 	},
 	{
+		"name": "Airlift",
+		"uniques": [
+			"May Paradrop to [{Friendly} {Air Base}] tiles up to [30] tiles away <in [{Friendly} {Air Base}] tiles>"
+		]
+	},
+	{
 		"name": "[Wayfarer] ability",
 		"uniques": ["May enter foreign tiles without open borders"]
 	},

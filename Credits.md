@@ -18,6 +18,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 
 ### Building Icons
 - Abbey: [Westminster Abbey](https://thenounproject.com/icon/westminster-abbey-5459042/) by Brickclay, PK
+- Advanced Energy Recycling Plant: [energy recycling process](https://thenounproject.com/icon/energy-recycling-process-2682983/) by Vectors Point, PK
 - Afrikan Reformed Church: [Church](https://thenounproject.com/icon/church-1786868/) by SANTRI ICON, ID
 - Alternet Cafe: [internet cafe](https://thenounproject.com/icon/internet-cafe-4624824/) by Eucalyp
 - Amager Bakke: Based off the official logo for Copenhill (source link missing)
@@ -131,6 +132,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Sangreal Vault: [holy grail](https://thenounproject.com/icon/holy-grail-2256337/) by Arunika
 - School of Mines: [vocational school](https://thenounproject.com/icon/vocational-school-4100326/) by Edi Prastyo, ID
 - Sealed Facility: [Bunker](https://thenounproject.com/icon/bunker-2972283/) by IcoLabs, BR
+- Sejmik: [warsaw](https://thenounproject.com/icon/warsaw-4361384/) by Template, TH
 - Shale Extractor: [Fracking](https://thenounproject.com/icon/fracking-6507747/) by Designing Hub, PK
 - Sharashka: [Prison](https://thenounproject.com/icon/prison-3373255/) by Start Up Graphic Design, TH
 - Sharecropper Farm: [out building](https://thenounproject.com/icon/out-building-1848316/) by Smashicons, GB
@@ -208,6 +210,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 
 ### Promotion Icons
 - Active Protection System: [Radar](https://thenounproject.com/icon/radar-1427289/) by Mohamed Mb, IT
+- Airlift: [air transport](https://thenounproject.com/icon/air-transport-7659608/) by Mia Elysia, ID
 - AI Implant: [Artificial Intelligence](https://thenounproject.com/icon/artificial-intelligence-5689657/) by Anwar Hossain
 - Atrocious Raider: [Fire](https://thenounproject.com/icon/fire-143508/) by Robert Bjurshagen, SE
 - Augmented Vision: [3D Visor](https://thenounproject.com/icon/3d-visor-898328/) by Musavvir Ahmed

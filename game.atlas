@@ -389,191 +389,198 @@ UnitPromotionIcons/Aerial Bombardment
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Atrocious Raider
+UnitPromotionIcons/Airlift
   rotate: false
   xy: 1004, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Augmented Vision
+UnitPromotionIcons/Atrocious Raider
   rotate: false
   xy: 1946, 398
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Ballistic Weave
+UnitPromotionIcons/Augmented Vision
   rotate: false
   xy: 306, 24
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Combat Armor
+UnitPromotionIcons/Ballistic Weave
   rotate: false
   xy: 1062, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Combat Armor
+  rotate: false
+  xy: 1946, 340
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Commitment to the Four Truths
-  rotate: false
-  xy: 1946, 340
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Enforcement of the Four Truths
-  rotate: false
-  xy: 1946, 340
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Conquer Terrain
   rotate: false
   xy: 364, 24
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Cut Away the Self
+UnitPromotionIcons/Enforcement of the Four Truths
+  rotate: false
+  xy: 364, 24
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Conquer Terrain
   rotate: false
   xy: 1120, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Fury of Aztlán
+UnitPromotionIcons/Cut Away the Self
   rotate: false
   xy: 422, 24
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Golden Age from Victories
+UnitPromotionIcons/Fury of Aztlán
   rotate: false
   xy: 1178, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Great Generals
+UnitPromotionIcons/Golden Age from Victories
   rotate: false
   xy: 480, 24
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Healing Hands
+UnitPromotionIcons/Great Generals
   rotate: false
   xy: 1236, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Heroic Resolve
+UnitPromotionIcons/Healing Hands
   rotate: false
   xy: 538, 24
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Homeland Guardian
+UnitPromotionIcons/Heroic Resolve
   rotate: false
   xy: 1294, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Know Your History
+UnitPromotionIcons/Homeland Guardian
   rotate: false
   xy: 596, 24
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Line Brawl
+UnitPromotionIcons/Know Your History
   rotate: false
   xy: 1352, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Mountaineer
+UnitPromotionIcons/Line Brawl
   rotate: false
   xy: 654, 24
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Oath of Vengeance
+UnitPromotionIcons/Mountaineer
   rotate: false
   xy: 1410, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Overcome Obstructions
+UnitPromotionIcons/Oath of Vengeance
   rotate: false
   xy: 712, 24
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Prospector
+UnitPromotionIcons/Overcome Obstructions
   rotate: false
   xy: 1468, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Reinforced Hull
+UnitPromotionIcons/Prospector
   rotate: false
   xy: 770, 24
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Sea Raider
+UnitPromotionIcons/Reinforced Hull
   rotate: false
   xy: 1526, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Self-Repair
+UnitPromotionIcons/Sea Raider
   rotate: false
   xy: 828, 24
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Terrascape
+UnitPromotionIcons/Self-Repair
   rotate: false
   xy: 1584, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Valor of Aztlán
+UnitPromotionIcons/Terrascape
   rotate: false
   xy: 1642, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Will of Tellus
+UnitPromotionIcons/Valor of Aztlán
   rotate: false
   xy: 1700, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Zeal
+UnitPromotionIcons/Will of Tellus
   rotate: false
   xy: 1758, 240
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Zeal
+  rotate: false
+  xy: 1816, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
