@@ -76,13 +76,16 @@
 		"unitType": "Civilian Water",
 		"uniques": [
 			"Can instantly construct a [Drydock] improvement <by consuming this unit>",
+			"May Paradrop to [{your} {Coastal} {City center}] tiles up to [25] tiles away <in [City center] tiles>",
 			"[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles",
 			"May heal outside of friendly territory",
 			"[+15] HP when healing",
 			"All adjacent units heal [+15] HP when healing",
 			"Can be earned through combat <for [Water] units>",
-			"Great Person - [Navy]",
-			"Unbuildable", "Uncapturable"
+			"Is part of Great Person group [Admiral]",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Uncapturable"
 		],
 		//Repair Fleet ability is currently unimplemented
 		"movement": 6
@@ -1394,8 +1397,10 @@
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Can instantly construct a [Survivor camp] improvement <once> <in tiles adjacent to [City ruins] tiles> <for [2] movement>",
 			"Can be earned through combat <for [Land] units>",
+			"Is part of Great Person group [General]",
 			"Great Person - [War]", 
-			"Unbuildable", "Uncapturable"
+			"Unbuildable",
+			"Uncapturable"
 		],
 		"movement": 2
 	},
@@ -1722,6 +1727,7 @@
 		"uniques": [
 			"Personnel",
 			"Can be earned through combat <for [Land] units>",
+			"Is part of Great Person group [General]",
 			"Great Person - [War]",
 			"Unbuildable",
 			"Consumes [1] [Weapons]"
@@ -2090,8 +2096,10 @@
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [45] Influence",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can be earned through combat <for [Land] units>",
+			"Is part of Great Person group [General]",
 			"Great Person - [War]",
-			"Unbuildable", "Uncapturable"
+			"Unbuildable",
+			"Uncapturable"
 		],
 		"movement": 2
 	},
@@ -2489,6 +2497,7 @@
 			"Personnel",
 			"Consumes [1] [Weapons]",
 			"Can be earned through combat <for [Land] units>",
+			"Is part of Great Person group [General]",
 			"Great Person - [War]"
 		],
 		"promotions": ["Reconnaissance I", "Gas Mask", "[Lawkeeper] ability"],
@@ -4385,6 +4394,7 @@
 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Is part of Great Person group [General]",
 			"Great Person - [War]",
 			"Can be earned through combat <for [Land] units>",
 			"Unbuildable",
@@ -4401,6 +4411,7 @@
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can hurry technology research",
 			"Can instantly construct a [Crystal Refinery] improvement <by consuming this unit>",
+			"Is part of Great Person group [General]",
 			"Great Person - [War]",
 			"Can be earned through combat <for [Land] units>",
 			"Unbuildable",
@@ -4422,6 +4433,7 @@
 		"interceptRange": 1,
 		"uniques": [
 			"Personnel",
+			"Is part of Great Person group [General]",
 			"Great Person - [War]",
 			"Can be earned through combat <for [Land] units>",
 			"Unbuildable",
@@ -4440,6 +4452,7 @@
 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can instantly construct a [Prison farm] improvement <by consuming this unit>",
+			"Is part of Great Person group [General]",
 			"Great Person - [War]",
 			"Can be earned through combat <for [Land] units>",
 			"Unbuildable",
@@ -4458,6 +4471,7 @@
 			"All adjacent units heal [+15] HP when healing",
 			"[+15] HP when healing",
 			"Can instantly construct a [Outpost] improvement <by consuming this unit>",
+			"Is part of Great Person group [General]",
 			"Great Person - [War]",
 			"Can be earned through combat <for [Land] units>",
 			"Uncapturable",
@@ -4475,6 +4489,7 @@
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"[-15]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Is part of Great Person group [General]",
 			"Great Person - [War]",
 			"Can be earned through combat <for [Land] units>",
 			"Uncapturable",
@@ -4485,7 +4500,7 @@
 	},
 	{
 		"name": "Khan",
-		"unitType": "Scrapper",
+		"unitType": "Mounted",
 		"uniqueTo": "The Hunnu",
 		"replaces": "Great General",
 		"upgradesTo": "Hussar",
@@ -4498,6 +4513,7 @@
 			"[-25]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Can move after attacking",
+			"Is part of Great Person group [General]",
 			"Great Person - [War]",
 			"Can be earned through combat",
 			"Unbuildable"
@@ -4514,6 +4530,7 @@
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"[+5]% Strength bonus for [Military] units within [2] tiles <when adjacent to a [Coordinator Unit] unit>",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Is part of Great Person group [General]",
 			"Great Person - [War]",
 			"Can be earned through combat <for [Land] units>",
 			"Unbuildable",
@@ -4532,6 +4549,7 @@
 			"Ignores terrain cost",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"Is part of Great Person group [General]",
 			"Great Person - [War]",
 			"Can be earned through combat <for [Land] units>",
 			"Unbuildable",
@@ -4550,6 +4568,7 @@
 			"Can instantly construct a [Academy] improvement <by consuming this unit>",
 			"Can instantly construct a [Settlement] improvement <by consuming this unit>",
 			"Can be earned through combat <for [Land] units>",
+			"Is part of Great Person group [General]",
 			"Great Person - [War]",
 			"Unbuildable",
 			"Uncapturable"
@@ -4567,10 +4586,12 @@
 			"[+15]% Strength bonus for [Water] units within [2] tiles",
 			"[+15]% Strength bonus for [Submarine] units within [2] tiles",
 			"[1] free [Leviathan-Class Submarine] units appear <by consuming this unit>",
+			"May Paradrop to [{your} {Coastal} {City center}] tiles up to [25] tiles away <in [City center] tiles>",
 			"May heal outside of friendly territory",
 			"[+15] HP when healing",
 			"All adjacent units heal [+15] HP when healing",
-			"Great Person - [Navy]",
+			"Is part of Great Person group [Admiral]",
+			"Great Person - [War]",
 			"Can be earned through combat <for [Water] units>",
 			"Unbuildable",
 			"Uncapturable"
