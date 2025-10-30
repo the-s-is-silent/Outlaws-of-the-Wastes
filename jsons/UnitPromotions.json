@@ -594,7 +594,7 @@
 		"row": 3
 	},
 
-	//Deciv 2
+	//Deciv 2 promotion list
 	{
 		"name": "Mountaineer",
 		"uniques": ["Can pass through impassable tiles"]
@@ -607,6 +607,14 @@
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"[+10]% Strength bonus for [Military] units within [3] tiles",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Uncapturable"
+		]
+	},
+	{
+		"name": "Doom Talisman",
+		"uniques": [
+			"[-20]% Strength <when defending>",
+			"[This Unit] heals [25] HP <upon defeating a [Military] unit>",
 			"Uncapturable"
 		]
 	},
