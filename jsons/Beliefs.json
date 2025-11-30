@@ -661,20 +661,5 @@
 			"[+2 Gold, +2 Culture, +2 Faith] from every [Worship Center]",
 			"Only available <after adopting [Exodus of the Evangelists]>"
 		]
-	},
-
-//Deletions
-	{
-		"name": "Itinerant Preachers",
-		"type": "Enhancer",
-		"uniques": ["Religion naturally spreads to cities [+3] tiles away",
-			"Only available <before discovering [The Wheel]>"]
-	},
-	{
-		"name": "Religious Texts",
-		"type": "Enhancer",
-		"uniques": ["[+17]% Natural religion spread [in all cities]",
-			"[+17]% Natural religion spread [in all cities] <after discovering [Education]>",
-			"Only available <before discovering [The Wheel]>"]
 	}
 ]

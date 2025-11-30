@@ -2033,7 +2033,7 @@
 		"uniques": [
 			"[+1 Gold] from [Water pump] tiles [in this city]",
 			"[+3 Gold] [in this city] <when above [0] [Power]>",
-			"Doubles Gold given to enemy if city is captured"
+			"[+100]% Gold given to enemy if city is captured"
 		]
 	},
 	{
@@ -3015,7 +3015,7 @@
 		"uniques": [
 			"[+10]% growth [in all coastal cities]",
 			"[+30]% Strength <vs [City-States]>",
-			"Receive triple Gold from Barbarian encampments and pillaging Cities",
+			"Receive [+200]% Gold from Barbarian encampments and pillaging Cities",
 			"[+15]% Production when constructing [Water] units [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
@@ -4614,7 +4614,7 @@
 		"percentStatBonus": {"gold": 10},
 		"specialistSlots": {"Merchant": 1},
 		"requiredTech": "Currency",
-		"uniques": ["Doubles Gold given to enemy if city is captured"]
+		"uniques": ["[+100]% Gold given to enemy if city is captured"]
 	},
 	{
 		"name": "Water Plant",
@@ -5410,7 +5410,7 @@
 		"requiredTech": "Currency",
 		"uniques": [
 			"[+1 Gold] from every [Merchant] <in this city>",
-			"Doubles Gold given to enemy if city is captured"
+			"[+100]% Gold given to enemy if city is captured"
 		]
 	},
 	{
@@ -5553,7 +5553,7 @@
 			"City Defense",
 			"[+1 Food, +1 Gold] from [Mountain] tiles [in this city]",
 			"[+1 Food, +1 Gold] from [Mountain Tunnel] tiles [in this city]",
-			"Doubles Gold given to enemy if city is captured"
+			"[+100]% Gold given to enemy if city is captured"
 		]
 	},
 	{
@@ -6594,7 +6594,7 @@
 		"hurryCostModifier": 0,
 		"uniques": [
 			"[+1 Gold] from every [Merchant] <in this city>",
-			"Doubles Gold given to enemy if city is captured",
+			"[+100]% Gold given to enemy if city is captured",
 			"Will not be displayed in Civilopedia"
 		]
 	},
