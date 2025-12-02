@@ -4440,6 +4440,24 @@
 		]
 	},
 	{
+		"name": "Launchpad",
+		"uniqueTo": "Prasiddh Shahar",
+		"replaces": "Aerospace Facility",
+		"cityStrength": 15,
+		"science": 5,
+		"maintenance": 3,
+		"uniques": [
+			"[Civilian] units gain the [Airlift] promotion",
+			"[Aircraft] units gain the [Advanced Weapons] promotion",
+			"[+15]% Production when constructing [Air] units [in this city] <when above [-2] [Power]>",
+			"[+15]% Production when constructing [All] wonders [in this city] <when above [-2] [Power]>",
+			"Can carry [4] extra [Air] units <in this city>",
+			"Only available <in cities with a [Factory]>",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Rocketry"
+	},
+	{
 		"name": "Museum",
 		"culture": 1,
 		"science": 1,
@@ -6927,7 +6945,7 @@
 		"uniqueTo": "Izumrydniy Gorod",
 		"science": 2,
 		"cost": 0,
-		"maintenanceCost": 0,
+		"maintenance": 0,
 		"uniques": [
 			"[+1 Science] per [2] population [in this city]",
 			"[+1 Science] [in this city] <when above [0] [Power]>",
@@ -6946,7 +6964,7 @@
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 1},
 		"cost": 0,
-		"maintenanceCost": 0,
+		"maintenance": 0,
 		"uniques": [
 			"[-100]% maintenance on road & railroads",
 			"[+50]% Production when constructing [Civilian] units [in this city]",

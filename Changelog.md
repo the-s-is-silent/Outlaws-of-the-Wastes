@@ -1373,7 +1373,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Religious Unity is less likely to be picked by the AI if there are less than four City-States, and will not be picked at all by the AI if there are less than two.
 
 **Improvement Adjustments**
-- Armed Fishing Boats (Charbydis Division UI from Followers of the Green) can now be slow built and can also built on Sea Nurseries.
+- Armed Fishing Boats (Charbydis Division UI from Followers of the Green) can now be slow built and can also be built on Sea Nurseries.
 - Energy farms can no longer be built on Impeded terrain.
 
 **New Faction**
@@ -1414,15 +1414,27 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Lines added for each faction for when the player denounces them, or when they request a Declaration of Friendship.
 - Sprite style added for Camelot (but will be replaced later).
 
-#### October 2025
+#### October - December 2025
+
+**Mod Options**
+- Itinerant Preachers and Religious Texts have now been *properly* deleted.
 
 **Building Adjustments**
 - Aerospace Facilities now allow a form of "airlifting" units. For balance reasons, this is currently limited to Civilian units (since Paradropping isn't a unit action and can't be modified to consume all movement points). They also increase the air unit capacity of cities to 10.
 - Faction UBs:
 	- The Harbingers: Investors' Chamber and Trustees' Committee renamed to Water Forum and Water Council.
+	- Prasiddh Shahar: Launchpad now adds +5 Science instead of +1 Culture.
+
+**Unit Adjustments**
+- Great Admirals can now paradrop to any coastal city.
 
 **Wonder Adjustments**
-- Due to a bug that has yet to be addressed, The Green Palace and Supercollider no longer construct Great Improvements; instead, they spawn the appropriate Great Person (Farmer for Green Palace, Scientist for Supercollider). This is expected to revert once those bugs are fixed.
+- Due to a bug that has since been fixed, The Green Palace and Supercollider no longer construct Great Improvements; instead, they spawn the appropriate Great Person (Farmer for Green Palace, Scientist for Supercollider). This is expected to revert once those bugs are fixed.
+
+**Terrain/Improvement Adjustments**
+- New fake unique for filtering: Urban terrain (applies to Rubble and Ruins).
+- Boroughs can now be built adjacent to other Boroughs (provided the tile isn't Impeded terrain and doesn't have any resources it can't improve) and if it doesn't already have Rubble or Ruins, it will add Ruins to the tile.
+- Fortified Farms can no longer be built on water.
 
 **New Promotions**
 - Airlift (lets a unit be "airlifted" to another city you control with an Aerospace Facility up to 30 tiles away)
