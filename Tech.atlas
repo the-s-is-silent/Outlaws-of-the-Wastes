@@ -1,75 +1,68 @@
 
 Tech.png
-size: 1024, 256
+size: 1024, 128
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TechIcons/Astrogation
   rotate: false
-  xy: 190, 112
+  xy: 4, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Circle
-  rotate: false
-  xy: 4, 34
-  size: 178, 178
-  orig: 178, 178
-  offset: 0, 0
-  index: -1
 TechIcons/Ecotheory
   rotate: false
-  xy: 298, 112
+  xy: 112, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Full-Spectrum Dominance
   rotate: false
-  xy: 406, 112
+  xy: 220, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Hoplology
   rotate: false
-  xy: 514, 112
+  xy: 328, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Moisture Harvesting
   rotate: false
-  xy: 622, 112
+  xy: 436, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Mountain Exploration
   rotate: false
-  xy: 730, 112
+  xy: 544, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Re-Utilization
   rotate: false
-  xy: 838, 112
+  xy: 652, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Record Keeping
   rotate: false
-  xy: 190, 4
+  xy: 760, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Rewilding
   rotate: false
-  xy: 298, 4
+  xy: 868, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
