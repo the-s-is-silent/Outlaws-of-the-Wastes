@@ -5853,6 +5853,27 @@
 		"requiredTech": "Civil Service"
 	},
 	{
+		"name": "New Afrika cannot build Prison Camp",
+		"replaces": "Prison Camp",
+		"uniqueTo": "New Afrika",
+		"requiredTech": "The Wheel",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "New Afrika cannot build Work Camp",
+		"replaces": "Work Camp",
+		"uniqueTo": "New Afrika",
+		"requiredTech": "The Wheel",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "New Afrika cannot Annex Isolationists",
+		"replaces": "Annex Isolationists",
+		"uniqueTo": "New Afrika",
+		"requiredTech": "The Wheel",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	},
+	{
 		"name": "Mobile Encampment",
 		"uniqueTo": "New Star",
 		"replaces": "Bomb Shelter",

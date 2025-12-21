@@ -1419,6 +1419,9 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **Mod Options**
 - Itinerant Preachers and Religious Texts have now been *properly* deleted.
 
+**Faction Adjustments**
+- New Afrika is no longer allowed to build Prison Camps, Work Camps, or Annex Isolationists.
+
 **Building Adjustments**
 - Aerospace Facilities now allow a form of "airlifting" units. For balance reasons, this is currently limited to Civilian units (since Paradropping isn't a unit action and can't be modified to consume all movement points). They also increase the air unit capacity of cities to 10.
 - Faction UBs:
@@ -1429,11 +1432,11 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Great Admirals can now paradrop to any coastal city.
 
 **Wonder Adjustments**
-- Due to a bug that has since been fixed, The Green Palace and Supercollider no longer construct Great Improvements; instead, they spawn the appropriate Great Person (Farmer for Green Palace, Scientist for Supercollider). This is expected to revert once those bugs are fixed.
+- Due to a bug that has since been fixed, The Green Palace and Supercollider no longer construct Great Improvements; instead, they spawn the appropriate Great Person (Farmer for Green Palace, Scientist for Supercollider).
 
 **Terrain/Improvement Adjustments**
-- New fake unique for filtering: Urban terrain (applies to Rubble and Ruins).
-- Boroughs can now be built adjacent to other Boroughs (provided the tile isn't Impeded terrain and doesn't have any resources it can't improve) and if it doesn't already have Rubble or Ruins, it will add Ruins to the tile.
+- New fake unique for filtering: Urban terrain (applies to Rubble, Ruins, and any tile a city was founded on).
+- Boroughs can now be built on any tile adjacent to a city or another Borough (provided the tile isn't Impeded terrain and doesn't have any resources it can't improve), and doing so will add Ruins to the tile.
 - Fortified Farms can no longer be built on water.
 
 **New Promotions**
