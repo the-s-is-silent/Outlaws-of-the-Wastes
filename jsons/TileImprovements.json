@@ -278,7 +278,7 @@
 			"Food source",
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
-			"Turn this tile into a [Jungle] tile <in [non-[Urban terrain]] tiles>",
+			"Turn this tile into a [Jungle] tile <in [non-[Urban area]] tiles>",
 			"[+1 Culture] from [Weapons] tiles",
 			"[+1 Culture] from [Artifacts] tiles",
 			"[+1 Science] from [Data] tiles",
@@ -286,7 +286,7 @@
 			"[+1 Science] <after discovering [Artificial Intelligence]>",
 			"Unbuildable <in [Water] tiles>",
 			"Unbuildable <in [Impeded terrain] tiles>",
-			"Unbuildable <in [non-[Urban terrain]] tiles> <with [0] to [0] neighboring [Borough] tiles>",
+			"Unbuildable <in [{non-[resource]} {non-[Urban area]}] tiles> <with [0] to [0] neighboring [Urban area] tiles>",
 			"Can only be built to improve a resource <in [resource] tiles>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],

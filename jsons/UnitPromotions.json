@@ -117,11 +117,23 @@
         "column": 0
 	},
 	{
+		"name": "Entrench",
+		"uniques": [
+			"[+15]% Strength <vs [Ranged] units> <when defending>",
+			"[+5]% Strength <when defending>",
+			"Only available <for units without [Promotion Nullifier]>"],
+		"unitTypes": ["Scrapper", "Shooter"],
+		"column": 1,
+        "row": 1
+	},
+	{
 		"name": "Forage",
-		"uniques": ["Earn [33]% of killed [Military] unit's [Strength] as [Science]",
+		"uniques": [
+			"Earn [33]% of killed [Military] unit's [Strength] as [Science]",
 			"[+5] HP when healing <in [Forest] tiles>",
 			"[+5] HP when healing <in [Jungle] tiles>",
-			"Only available <for units without [Promotion Nullifier]>"],
+			"Only available <for units without [Promotion Nullifier]>"
+		],
 		"unitTypes": ["Scrapper", "Shooter"],
 		"column": 1,
 		"row": 2
@@ -329,6 +341,19 @@
 		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted", "Mounted Ranged"],
 		"column": 5,
 		"row": 3
+	},
+	{
+		"name": "Smokescreen",
+		"prerequisites": ["Entrench", "Forage"],
+		"uniques": [
+			"[+15]% Strength <vs [Ranged] units> <when defending>",
+			"[+10]% Strength <vs [Low Tech] units>",
+			"[+10]% Strength <vs cities>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Scrapper"],
+		"column": 5,
+		"row": 4
 	},
 	{
 		"name": "Pursuit",

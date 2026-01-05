@@ -1414,7 +1414,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Lines added for each faction for when the player denounces them, or when they request a Declaration of Friendship.
 - Sprite style added for Camelot (but will be replaced later).
 
-#### October - December 2025
+#### October 2025 - January 2026
 
 **Mod Options**
 - Itinerant Preachers and Religious Texts have now been *properly* deleted.
@@ -1431,12 +1431,16 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **Unit Adjustments**
 - Great Admirals can now paradrop to any coastal city.
 
+**Promotion Adjustments**
+- Entrench and Smokescreen nerfed: defense bonus against Ranged units reduced from 33% to 15%.
+
 **Wonder Adjustments**
 - Due to a bug that has since been fixed, The Green Palace and Supercollider no longer construct Great Improvements; instead, they spawn the appropriate Great Person (Farmer for Green Palace, Scientist for Supercollider).
 
 **Terrain/Improvement Adjustments**
-- New fake unique for filtering: Urban terrain (applies to Rubble, Ruins, and any tile a city was founded on).
+- New fake unique for filtering: Urban area (applies to Rubble, Ruins, and any tile a city was founded on).
 - Boroughs can now be built on any tile adjacent to a city or another Borough (provided the tile isn't Impeded terrain and doesn't have any resources it can't improve), and doing so will add Ruins to the tile.
+(The above changes are also present in Deciv 2)
 - Fortified Farms can no longer be built on water.
 
 **New Promotions**

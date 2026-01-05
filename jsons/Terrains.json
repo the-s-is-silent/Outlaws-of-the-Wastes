@@ -21,7 +21,7 @@
 			"Considered [Food] when determining start locations",
 			"Becomes [Swamp] when adjacent to [River]",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"Urban terrain <in [City center] tiles>",
+			"Urban area <in [City center] tiles>",
 			"Air Base <in [City center] tiles> <in cities with a [Aerospace Facility]>"
 		]
 	},
@@ -49,7 +49,7 @@
 			"Considered [Food] when determining start locations",
 			"Becomes [Swamp] when adjacent to [River]",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"Urban terrain <in [City center] tiles>",
+			"Urban area <in [City center] tiles>",
 			"Air Base <in [City center] tiles> <in cities with a [Aerospace Facility]>"
 		]
 	},
@@ -70,7 +70,7 @@
 			"Considered [Desirable] when determining start locations",
 			"Considered [Food] when determining start locations",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"Urban terrain <in [City center] tiles>",
+			"Urban area <in [City center] tiles>",
 			"Air Base <in [City center] tiles> <in cities with a [Aerospace Facility]>"
 		]
 	},
@@ -93,7 +93,7 @@
 			"Becomes [Swamp] when adjacent to [River]",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
 			"[+1 Food] <within [1] tiles of a [Lakes]> <after discovering [Ecology]>",
-			"Urban terrain <in [City center] tiles>",
+			"Urban area <in [City center] tiles>",
 			"Air Base <in [City center] tiles> <in cities with a [Aerospace Facility]>"
 		]
 	},
@@ -111,7 +111,7 @@
             "Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.2]",
 			"Considered [Undesirable] when determining start locations",
 			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"Urban terrain <in [City center] tiles>",
+			"Urban area <in [City center] tiles>",
 			"Air Base <in [City center] tiles> <in cities with a [Aerospace Facility]>"
 		]
 	},
@@ -166,7 +166,7 @@
 			"Vegetation",
 			"Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
 			"Rough terrain",
-			"Urban terrain",
+			"Urban area",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",
 			"A Region is formed with at least [30]% [Forest] tiles, with priority [3]",
@@ -197,7 +197,7 @@
 			"Vegetation",
 			"Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
 			"Rough terrain",
-			"Urban terrain",
+			"Urban area",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",
 			"A Region is formed with at least [30]% [Jungle] tiles, with priority [2]",

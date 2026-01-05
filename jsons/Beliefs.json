@@ -53,7 +53,7 @@
 		"name": "Domain of the Old Gods",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Faith] from every [Urban terrain] <within [2] tiles of a [City center]>",
+			"[+1 Faith] from every [Urban area] <within [2] tiles of a [City center]>",
 			"[+1 Faith] from every [Sunken Ruins]"
 		]
 	},
@@ -181,7 +181,7 @@
 		"name": "Respect the Wind",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Faith] from every [Hill] <in tiles without [Urban terrain]> <within [2] tiles of a [City center]>",
+			"[+1 Faith] from every [Hill] <in tiles without [Urban area]> <within [2] tiles of a [City center]>",
 			"[+2 Production, +1 Faith] from every [Wind farm]"
 		]
 	},
@@ -194,7 +194,7 @@
 		"name": "Sacred Ruins",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Culture] from every [Urban terrain] <within [2] tiles of a [City center]>",
+			"[+1 Culture] from every [Urban area] <within [2] tiles of a [City center]>",
 			"[+1 Culture] from every [Sunken Ruins]"
 		]
 	},
