@@ -533,6 +533,21 @@
 		"requiredTech": "Astrogation",
 		"quote": "'The conquest of space must and will go ahead. That much we know. That much we can say with confidence and conviction.' - John F. Kennedy"
 	},
+	{
+		"name": "Golden Dome",
+		"isWonder": true,
+		"cityStrength": 10,
+		"cityHealth": 100,
+		"uniques": [
+			"[Fighter] units gain the [Sky Shield] promotion",
+			"[Missile Defense System] units gain the [Sky Shield] promotion",
+			"[+25]% City Strength from defensive buildings",
+			"[+1 Happiness] from every [Active Denial System]",
+			"Only available <if [Active Denial System] is constructed in at least [4] of [Your] cities>"
+		],
+		"requiredTech": "Future Materials",
+		"quote": "'Our only purpose - one all people share - is to search for ways to reduce the danger of nuclear war.' - Ronald Reagan"
+	},
 
 	//New buildings (including "DeCiv 2: Tech Expansion" content)
 	{

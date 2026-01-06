@@ -1443,5 +1443,9 @@ Several of the following adjustments are based on what is planned for the Rebirt
 (The above changes are also present in Deciv 2)
 - Fortified Farms can no longer be built on water.
 
+**New Wonder**
+- Golden Dome (world wonder, unlocks at Future Materials, grants new promotion to Fighters and Missile Defense Systems, +10 strength and +100 HP for the city that owns it, defensive buildings in all cities +25% more effective, +1 Happiness to Active Denial Systems but requires building Active Denial Systems in 4 cities before construction is unlocked)
+
 **New Promotions**
 - Airlift (lets a unit be "airlifted" to another city you control with an Aerospace Facility up to 30 tiles away)
+- Sky Shield (increases air interception range by 2 and grants an extra interception each turn)

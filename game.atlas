@@ -32,6 +32,20 @@ ImprovementIcons/Caer
   orig: 100, 100
   offset: 0, 0
   index: -1
+ImprovementIcons/Circle
+  rotate: false
+  xy: 4, 328
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+ResourceIcons/Circle
+  rotate: false
+  xy: 4, 328
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Drydock
   rotate: false
   xy: 140, 4
@@ -282,20 +296,6 @@ ResourceIcons/Cactus
   xy: 974, 406
   size: 100, 100
   orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Circle
-  rotate: false
-  xy: 4, 328
-  size: 178, 178
-  orig: 178, 178
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Circle
-  rotate: false
-  xy: 4, 328
-  size: 178, 178
-  orig: 178, 178
   offset: 0, 0
   index: -1
 ResourceIcons/Deepwater Fish
@@ -557,30 +557,37 @@ UnitPromotionIcons/Self-Repair
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Terrascape
+UnitPromotionIcons/Sky Shield
   rotate: false
   xy: 1642, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Valor of Aztlán
+UnitPromotionIcons/Terrascape
   rotate: false
   xy: 1700, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Will of Tellus
+UnitPromotionIcons/Valor of Aztlán
   rotate: false
   xy: 1758, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Zeal
+UnitPromotionIcons/Will of Tellus
   rotate: false
   xy: 1816, 240
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Zeal
+  rotate: false
+  xy: 1874, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0

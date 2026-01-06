@@ -68,6 +68,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Fortified Aquifer: [three sisters](https://thenounproject.com/icon/three-sisters-5539994/) by Ary Prasetyo, ID
 - Fortified Museum: [metro](https://thenounproject.com/icon/metro-3339860/) by N.Style, RU
 - Geological Survey Center: [geology](https://thenounproject.com/icon/geology-1645503/) by Minnie Pigeon, GB
+- Golden Dome: [Iron Dome](https://thenounproject.com/icon/iron-dome-7393697/) by Fusion Experience, IT
 - Gostiny Dvor: [castle](https://thenounproject.com/icon/castle-1502/) by Iconic, CY
 - Grand Tabernacle: [Mormon Temple](https://thenounproject.com/icon/mormon-temple-91138/) by Jason Dilworth
 - Gulag: [star](https://thenounproject.com/icon/star-3086974/) by Dmitry Vasiliev
@@ -228,6 +229,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Prospector: [prospector hat](https://thenounproject.com/icon/prospector-hat-1105355/) by Clément Branger
 - Sea Raider: Same icon as Advanced Piracy
 - Self-Repair: [Hammer](https://thenounproject.com/icon/hammer-854936/) by Thengaloka (same icon used for Air Repair in base Unciv)
+- Sky Shield: [Shield](https://thenounproject.com/icon/shield-4519435/) by Eko Purnomo, ID
 - Terrascape: [terraform planet](https://thenounproject.com/icon/terraform-planet-4940216/) by Juicy Fish, GB
 - Valor of Aztlán: [cuauhtli](https://www.flaticon.com/free-icon/cuauhtli_6727414) by Freepik from Flaticon
 - Will of Tellus: [Tree](https://thenounproject.com/icon/tree-6482946/) by ayadeya, ID

@@ -724,6 +724,13 @@
 		"uniques": ["[+50]% XP gained from combat"]
 	},
 	{
+		"name": "Sky Shield",
+		"uniques": [
+			"[+2] Air Interception Range",
+			"[1] extra interceptions may be made per turn"
+		]
+	},
+	{
 		"name": "Terrascape",
 		"uniques": [
 			"Turn this tile into a [Badlands] tile <in [{non-[Natural Wonder]} {non-[resource]} {non-[Badlands]} {Land}] tiles> <for all movement> <[2] times> <after which this unit is consumed>",
