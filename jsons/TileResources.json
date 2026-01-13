@@ -65,6 +65,17 @@
 		]
 	},
 	{
+		"name" : "Sea Fauna",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn" : ["Sea Nursery"],
+		"food": 1,
+		"improvement" : "Fishing Boats",
+		"improvementStats" : {"science": 1, "food": 1},
+		"uniques": [
+			"Generated on every [10] tiles <in [Sea Nursery] tiles>"
+		]
+	},
+	{
 		"name": "Scrap",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": [

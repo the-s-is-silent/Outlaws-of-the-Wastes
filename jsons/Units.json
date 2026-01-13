@@ -76,13 +76,16 @@
 		"unitType": "Civilian Water",
 		"uniques": [
 			"Can instantly construct a [Drydock] improvement <by consuming this unit>",
+			"May Paradrop to [{your} {Coastal} {City center}] tiles up to [25] tiles away <in [City center] tiles>",
 			"[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles",
 			"May heal outside of friendly territory",
 			"[+15] HP when healing",
 			"All adjacent units heal [+15] HP when healing",
 			"Can be earned through combat <for [Water] units>",
-			"Great Person - [Navy]",
-			"Unbuildable", "Uncapturable"
+			"Is part of Great Person group [Admiral]",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Uncapturable"
 		],
 		//Repair Fleet ability is currently unimplemented
 		"movement": 6
@@ -427,6 +430,28 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Military Police",
+		"replaces": "Forward Observer",
+		"uniqueTo": "The Patriots",
+		"unitType": "Scrapper",
+		"movement": 5,
+		"strength": 40,
+		"interceptRange": 1,
+		"cost": 135,
+		"hurryCostModifier": 20,
+		"requiredTech": "Replaceable Parts",
+		"promotions": ["Reconnaissance I"],
+		"uniques": [
+			"Personnel",
+			"[+1] Sight",
+			"[-3] Movement <in [Foreign] tiles>",
+			"[+25]% Strength <when fighting in [your] tiles>",
+			"Can move after attacking",
+			"Only available <if [Junta] is constructed>"
+		],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Speculatores",
 		"replaces": "Forward Observer",
 		"uniqueTo": "Crimson Legion",
@@ -660,8 +685,11 @@
 		"cost": 50,
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Militia",
-		"uniques": ["Low Tech", "[+50]% Strength <vs [Low Tech] units>",
-			"Earn [10]% of killed [Military] unit's [Cost] as [Faith]"],
+		"uniques": [
+			"Low Tech",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"Earn [10]% of killed [Military] unit's [Cost] as [Faith]"
+		],
 		"attackSound": "metalhit"
 	},
 	{
@@ -677,10 +705,18 @@
 		"upgradesTo": "Exo-Trooper",
 		"hurryCostModifier": 20,
 		"promotions": ["Gas Mask"],
-		"uniques": ["Personnel", "Consumes [1] [Weapons]",
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]",
 			"Earn [10]% of killed [Military] unit's [Cost] as [Faith]",
-			"Gain [2] [Culture] <upon ending a turn in a [City center] tile>"],
-		"attackSound": "machinegun"
+			"Gain [2] [Culture] <upon ending a turn in a [City center] tile>"
+		],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"text": "These infantry units who comprise the main fighting force of the Deseret Army inherit their name and tradition from the original Mormon Battalion of the 19th century AD, which was the only religious military unit to enter federal service in the history of the former United States."
+			}
+		]
 	},
 	{
 		"name": "Destroying Angel",
@@ -696,21 +732,34 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Black Ops",
 		"hurryCostModifier": 20,
-		"uniques": ["Personnel", "Consumes [1] [Weapons]",
-			"Earn [25]% of the damage done to [Military] units as [Faith]"],
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]",
+			"Earn [25]% of the damage done to [Military] units as [Faith]"
+		],
 		"promotions": ["Skirmish", "Reconnaissance I", "Oath of Vengeance", "Gas Mask"],
-		"attackSound": "shot"
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "Also known as the Danites, who were a short-lived vigilante organization in the early years of the LDS church's history that is shrouded in myth, these elite marksmen are the ultimate guarantors of peace and security for Deseret."
+			}
+		]
 	},
 	{
 		"name": "Deseret Missionary",
 		"replaces": "Philosopher",
 		"uniqueTo": "Deseret2",
 		"unitType": "Civilian",
-		"uniques": ["Founds a new city <by consuming this unit> <in tiles without [Impeded terrain]>",
+		"uniques": [
+			"Founds a new city <by consuming this unit> <in tiles without [Impeded terrain]>",
 			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
 			"May enter foreign tiles without open borders, but loses [100] religious strength each turn it ends there",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
-			"Unbuildable", "Uncapturable", "Religious Unit", "Only available <when religion is enabled>"],
+			"Unbuildable",
+			"Uncapturable",
+			"Religious Unit",
+			"Only available <when religion is enabled>"
+		],
 		"movement": 4,
 		"religiousStrength": 1000
 	},
@@ -739,14 +788,20 @@
 		"uniqueTo": "Deseret2",
 		"replaces": "Great Sage",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [Endowment House] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+		"uniques": [
+			"Can instantly construct a [Endowment House] improvement <by consuming this unit> <if it hasn't used other actions yet>",
 			"Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion",
 			"May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
 			"May enhance a religion <by consuming this unit> <if it hasn't used other actions yet>",
 			"May enter foreign tiles without open borders",
-			"Great Person - [Faith]", "Unbuildable", "Uncapturable",
-			"Religious Unit", "Only available <when religion is enabled>", "Takes your religion over the one in their birth city"],
+			"Great Person - [Faith]",
+			"Unbuildable",
+			"Uncapturable",
+			"Religious Unit",
+			"Only available <when religion is enabled>",
+			"Takes your religion over the one in their birth city"
+		],
 		"movement": 2,
 		"religiousStrength": 1000
 	},
@@ -779,13 +834,106 @@
 		"requiredTech": "Redomestication",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Hussar",
-		"uniques": ["Low Tech",
+		"uniques": [
+			"Low Tech",
 			"[+50]% Strength <vs [Low Tech] units>",
 			"[+50]% Strength <vs [Mounted] units>",
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
-			"Can only be built <in cities with a [Riding Arena]>"],
+			"Can only be built <in cities with a [Riding Arena]>"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Trebuchet",
+		"replaces": "Cannon",
+		"uniqueTo": "Camelot Foundation",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 12,
+		"rangedStrength": 18,
+		"range": 2,
+		"cost": 60,
+		"requiredTech": "Construction",
+		"upgradesTo": "Artillery",
+		"obsoleteTech": "Munitions",
+		"uniques": [
+			"[+20]% Strength <vs [Low Tech] units>",
+			"[+200]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Must set up to ranged attack",
+			"[-1] Sight"
+		],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Longbowman",
+		"replaces": "Crossbowman",
+		"uniqueTo": "Camelot Foundation",
+		"unitType": "Shooter",
+		"range": 1,
+		"movement": 2,
+		"strength": 18,
+		"rangedStrength": 22,
+		"cost": 35,
+		"hurryCostModifier": 20,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Gunman",
+		"uniques": [
+			"Low Tech",
+			"[+50]% Strength <vs [Low Tech] units>"
+		],
+		"promotions": ["Extended Range"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Brownsteel Knight",
+		"unitType": "Mounted",
+		"replaces": "Hussar",
+		"uniqueTo": "Camelot Foundation",
+		"movement": 4,
+		"strength": 38,
+		"interceptRange": 1,
+		"cost": 85,
+		"requiredTech": "Redomestication",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Weapons",
+		"uniques": [
+			"Personnel",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"Can only be built <in cities with a [Riding Arena]>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Excalibur Knight",
+		"unitType": "Mounted",
+		"replaces": "Cavalry",
+		"uniqueTo": "Camelot Foundation",
+		"movement": 4,
+		"strength": 45,
+		"interceptRange": 1,
+		"cost": 150,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Tank",
+		"promotions": ["March"],
+		"uniques": [
+			"Personnel",
+			"No defensive terrain penalty",
+			"Can move after attacking",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"[+25]% Strength <vs [Low Tech] units> <when attacking>",
+			"[+25]% Strength <vs [Personnel] units> <when attacking>",
+			"[+25]% Strength <when defending>",
+			"Can only be built <in cities with a [Riding Arena]>"
+		],
+		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
 	{
@@ -807,8 +955,8 @@
 			"Personnel",
 			"May Paradrop to [Land] tiles up to [10] tiles away <in [{Friendly} {Land}] tiles>",
 			"Only available <if [Factory] is constructed>",
-			"Consumes [1] [Weapons]"]
-			,
+			"Consumes [1] [Weapons]"
+		],
 		"promotions": ["Reconnaissance I", "Gas Mask"],
 		"attackSound": "shot"
 	},
@@ -835,50 +983,6 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Brownsteel Knight",
-		"unitType": "Mounted",
-		"replaces": "Hussar",
-		"uniqueTo": "Camelot Foundation",
-		"movement": 4,
-		"strength": 38,
-		"interceptRange": 1,
-		"cost": 85,
-		"requiredTech": "Redomestication",
-		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Cavalry",
-		"requiredResource": "Weapons",
-		"uniques": ["Personnel",
-			"No defensive terrain bonus",
-			"Can move after attacking",
-			"[-25]% Strength <vs cities> <when attacking>",
-			"Can only be built <in cities with a [Riding Arena]>"],
-		"hurryCostModifier": 20,
-		"attackSound": "horse"
-	},
-	{
-		"name": "Excalibur Knight",
-		"unitType": "Mounted",
-		"replaces": "Cavalry",
-		"uniqueTo": "Camelot Foundation",
-		"movement": 4,
-		"strength": 45,
-		"interceptRange": 1,
-		"cost": 150,
-		"requiredTech": "Rifling",
-		"upgradesTo": "Tank",
-		"promotions": ["March"],
-		"uniques": ["Personnel",
-			"No defensive terrain penalty",
-			"Can move after attacking",
-			"[-25]% Strength <vs cities> <when attacking>",
-			"[+25]% Strength <vs [Low Tech] units> <when attacking>",
-			"[+25]% Strength <vs [Personnel] units> <when attacking>",
-			"[+25]% Strength <when defending>",
-			"Can only be built <in cities with a [Riding Arena]>"],
-		"hurryCostModifier": 20,
-		"attackSound": "horse"
-	},
-	{
 		"name": "Pridwen-class",
 		"replaces": "Missile Cruiser",
 		"uniqueTo": "Camelot Foundation",
@@ -890,7 +994,8 @@
 		"interceptRange": 3,
 		"cost": 475,
 		"requiredTech": "Advanced Materials",
-		"uniques": ["Can see invisible [Submarine] units",
+		"uniques": [
+			"Can see invisible [Submarine] units",
 			"[75]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Air] units>",
 			"[+75]% Strength <vs [Submarine] units>",
@@ -898,8 +1003,9 @@
 			"Withdraws before melee combat <with [33]% chance>",
 			"Only available <if [Factory] is constructed>",
 			"Can carry [2] [Missile] units",
-			"Never appears as a Barbarian unit",
-			"Consumes [1] [Oil]"],
+			"Never appears as a Barbarian unit <hidden from users>",
+			"Consumes [1] [Oil]"
+		],
 		"promotions": ["Artillery"],
 		"attackSound": "shipguns"
 	},
@@ -1156,12 +1262,15 @@
 		"requiredTech": "Machinery",
 		"upgradesTo": "Armored Train",
 		"obsoleteTech": "Railroads",
-		"uniques": ["[+50]% Strength <vs [Low Tech] units>",
+		"uniques": [
+			"[+2] Movement <in [All Road] tiles>",
+			"[+50]% Strength <vs [Low Tech] units>",
 			"[+50]% Strength <vs [Personnel] units>",
 			"[-33]% Strength <vs cities>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
-			"Consumes [1] [Oil]"],
+			"Consumes [1] [Oil]"
+		],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
 	},
@@ -1175,14 +1284,16 @@
 		"requiredTech": "Railroads",
 		"obsoleteTech": "Advanced Materials",
 		"upgradesTo": "Modern Armor",
-		"uniques": ["[+33]% Strength <vs [Low Tech] units> <when attacking>",
+		"uniques": [
+			"[+33]% Strength <vs [Low Tech] units> <when attacking>",
 			"[+33]% Strength <vs [Personnel] units> <when attacking>",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[+2] Movement <in [Railroad] tiles>",
 			"Only available <if [Factory] is constructed>",
-			"Consumes [1] [Oil]"],
+			"Consumes [1] [Oil]"
+		],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
 	},
@@ -1286,8 +1397,10 @@
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Can instantly construct a [Survivor camp] improvement <once> <in tiles adjacent to [City ruins] tiles> <for [2] movement>",
 			"Can be earned through combat <for [Land] units>",
+			"Is part of Great Person group [General]",
 			"Great Person - [War]", 
-			"Unbuildable", "Uncapturable"
+			"Unbuildable",
+			"Uncapturable"
 		],
 		"movement": 2
 	},
@@ -1614,6 +1727,7 @@
 		"uniques": [
 			"Personnel",
 			"Can be earned through combat <for [Land] units>",
+			"Is part of Great Person group [General]",
 			"Great Person - [War]",
 			"Unbuildable",
 			"Consumes [1] [Weapons]"
@@ -1982,8 +2096,10 @@
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [45] Influence",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can be earned through combat <for [Land] units>",
+			"Is part of Great Person group [General]",
 			"Great Person - [War]",
-			"Unbuildable", "Uncapturable"
+			"Unbuildable",
+			"Uncapturable"
 		],
 		"movement": 2
 	},
@@ -2381,6 +2497,7 @@
 			"Personnel",
 			"Consumes [1] [Weapons]",
 			"Can be earned through combat <for [Land] units>",
+			"Is part of Great Person group [General]",
 			"Great Person - [War]"
 		],
 		"promotions": ["Reconnaissance I", "Gas Mask", "[Lawkeeper] ability"],
@@ -3253,6 +3370,27 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Black Hand",
+		"unitType": "Scrapper",
+		"uniqueTo": "Deadrock Clan",
+		"replaces": "Infantry",
+		"movement": 2,
+		"strength": 45,
+		"interceptRange": 1,
+		"cost": 225,
+		"requiredTech": "Currency",
+		"upgradesTo": "NBC Infantry",
+		"uniques": [
+			"Personnel",
+			"Only available <if [Grand Clan Manor] is constructed>",
+			"Consumes [1] [Weapons]",
+			"[-40]% production cost <after discovering [Replaceable Parts]>"
+		],
+		"promotions": ["Gas Mask", "Reconnaissance I"],
+		"hurryCostModifier": 25,
+		"attackSound": "machinegun"
+	},
+	{
 		"name": "Purge Robot Proto",
 		"unitType": "Purge Robot",
 		"uniqueTo": "Hexlock",
@@ -3349,6 +3487,51 @@
 		]
 	},
 	{
+		"name": "Marine",
+		"uniqueTo": "The Patriots",
+		"replaces": "Infantry",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 45,
+		"interceptRange": 1,
+		"cost": 175,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "NBC Infantry",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Only available <if [National Guard Armory] is constructed>",
+			"Consumes [1] [Weapons]",
+			"[-30]% production cost <after discovering [Replaceable Parts]>"
+		],
+		"promotions": ["Amphibious", "Gas Mask"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Spec Ops",
+		"unitType": "Shooter",
+		"uniqueTo": "The Patriots",
+		"replaces": "Marksman",
+		"upgradesTo": "Black Ops",
+		"range": 1,
+		"movement": 2,
+		"strength": 40,
+		"rangedStrength": 35,
+		"interceptRange": 1,
+		"cost": 300,
+		"hurryCostModifier": 20,
+		"requiredTech": "The Wheel",
+		"uniques": [
+			"Personnel",
+			"Only available <if [National Guard Armory] is constructed>",
+			"[-25]% Strength <before discovering [Replaceable Parts]>",
+			"Consumes [1] [Weapons]",
+			"[-60]% production cost <after discovering [Replaceable Parts]>"
+		],
+		"promotions": ["Reconnaissance I", "Amphibious", "Ambush", "Gas Mask"],
+		"attackSound": "machinegun"
+	},
+	{
 		"name": "Machine Gun",
 		"unitType": "Shooter",
 		"range": 2,
@@ -3432,6 +3615,30 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Infernal",
+		"replaces": "NBC Marksman",
+		"uniqueTo": "Calamity Star Order",
+		"unitType": "Shooter",
+		"movement": 2,
+		"strength": 45,
+		"rangedStrength": 40,
+		"range": 1,
+		"interceptRange": 1,
+		"cost": 225,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Black Ops",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Weapons]",
+			"[-10]% Strength for enemy [Military] units in adjacent [Land] tiles",
+			"[Target Unit] takes [20] damage <upon damaging a [Military] unit>"
+		],
+		"promotions": ["Doom Talisman", "Reconnaissance I", "Gas Mask"],
+		"attackSound": "flamethrower"
+	},
+	{
 		"name": "Partisan",
 		"unitType": "Shooter",
 		"uniqueTo": "Barbarians",
@@ -3497,6 +3704,38 @@
 		],
 		"promotions": ["Drone Recon", "Reconnaissance I", "Gas Mask", "Thermoptic Camouflage", "Infantry Weapons"],
 		"attackSound": "shot"
+	},
+	{
+		"name": "Calamity Incarnate",
+		"replaces": "Black Ops",
+		"uniqueTo": "Calamity Star Order",
+		"unitType": "Shooter",
+		"movement": 2,
+		"strength": 70,
+		"rangedStrength": 65,
+		"range": 2,
+		"interceptRange": 2,
+		"cost": 400,
+		"requiredTech": "Energy Weapons",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Only available <if [Automated Factory] is constructed>",
+			"Consumes [2] [Weapons]",
+			"[-15]% Strength for enemy [Military] units in adjacent [Land] tiles",
+			"[Target Unit] takes [20] damage <upon damaging a [Military] unit>",
+			"Destroys [all] cities instead of capturing"
+		],
+		"promotions": [
+			"Doom Talisman",
+			"Drone Recon",
+			"Reconnaissance I",
+			"Gas Mask",
+			"Thermoptic Camouflage",
+			"Infantry Weapons",
+			"Napalm"
+		],
+		"attackSound": "flamethrower"
 	},
 	{
 		"name": "Jetsuit",
@@ -4072,6 +4311,27 @@
 		"attackSound": "nuke"
 	},
 	{
+		"name": "Calamity Bomb",
+		"uniqueTo": "Calamity Star Order",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 18,
+		"cost": 2000,
+		"requiredTech": "Particle Physics",
+		"requiredResource": "Uranium",
+		"uniques": [
+			"[+100]% Strength <when attacking>",
+			"Nuclear weapon of Strength [3]",
+			"Blast radius [3]",
+			"Only available <if [Manhattan Project] is constructed>",
+			"Cannot be purchased",
+			"Consumes [3] [Uranium]"
+		],
+		"attackSound": "nuke"
+	},
+	{
 		"name": "Warhead Truck",
 		"unitType": "Warhead Truck",
 		"movement": 4,
@@ -4211,6 +4471,7 @@
 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Is part of Great Person group [General]",
 			"Great Person - [War]",
 			"Can be earned through combat <for [Land] units>",
 			"Unbuildable",
@@ -4227,6 +4488,7 @@
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can hurry technology research",
 			"Can instantly construct a [Crystal Refinery] improvement <by consuming this unit>",
+			"Is part of Great Person group [General]",
 			"Great Person - [War]",
 			"Can be earned through combat <for [Land] units>",
 			"Unbuildable",
@@ -4248,6 +4510,7 @@
 		"interceptRange": 1,
 		"uniques": [
 			"Personnel",
+			"Is part of Great Person group [General]",
 			"Great Person - [War]",
 			"Can be earned through combat <for [Land] units>",
 			"Unbuildable",
@@ -4266,6 +4529,7 @@
 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can instantly construct a [Prison farm] improvement <by consuming this unit>",
+			"Is part of Great Person group [General]",
 			"Great Person - [War]",
 			"Can be earned through combat <for [Land] units>",
 			"Unbuildable",
@@ -4284,6 +4548,7 @@
 			"All adjacent units heal [+15] HP when healing",
 			"[+15] HP when healing",
 			"Can instantly construct a [Outpost] improvement <by consuming this unit>",
+			"Is part of Great Person group [General]",
 			"Great Person - [War]",
 			"Can be earned through combat <for [Land] units>",
 			"Uncapturable",
@@ -4301,6 +4566,7 @@
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"[-15]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Is part of Great Person group [General]",
 			"Great Person - [War]",
 			"Can be earned through combat <for [Land] units>",
 			"Uncapturable",
@@ -4311,7 +4577,7 @@
 	},
 	{
 		"name": "Khan",
-		"unitType": "Scrapper",
+		"unitType": "Mounted",
 		"uniqueTo": "The Hunnu",
 		"replaces": "Great General",
 		"upgradesTo": "Hussar",
@@ -4324,6 +4590,7 @@
 			"[-25]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Can move after attacking",
+			"Is part of Great Person group [General]",
 			"Great Person - [War]",
 			"Can be earned through combat",
 			"Unbuildable"
@@ -4340,6 +4607,7 @@
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"[+5]% Strength bonus for [Military] units within [2] tiles <when adjacent to a [Coordinator Unit] unit>",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Is part of Great Person group [General]",
 			"Great Person - [War]",
 			"Can be earned through combat <for [Land] units>",
 			"Unbuildable",
@@ -4358,6 +4626,7 @@
 			"Ignores terrain cost",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"Is part of Great Person group [General]",
 			"Great Person - [War]",
 			"Can be earned through combat <for [Land] units>",
 			"Unbuildable",
@@ -4376,6 +4645,7 @@
 			"Can instantly construct a [Academy] improvement <by consuming this unit>",
 			"Can instantly construct a [Settlement] improvement <by consuming this unit>",
 			"Can be earned through combat <for [Land] units>",
+			"Is part of Great Person group [General]",
 			"Great Person - [War]",
 			"Unbuildable",
 			"Uncapturable"
@@ -4393,16 +4663,41 @@
 			"[+15]% Strength bonus for [Water] units within [2] tiles",
 			"[+15]% Strength bonus for [Submarine] units within [2] tiles",
 			"[1] free [Leviathan-Class Submarine] units appear <by consuming this unit>",
+			"May Paradrop to [{your} {Coastal} {City center}] tiles up to [25] tiles away <in [City center] tiles>",
 			"May heal outside of friendly territory",
 			"[+15] HP when healing",
 			"All adjacent units heal [+15] HP when healing",
-			"Great Person - [Navy]",
+			"Is part of Great Person group [Admiral]",
+			"Great Person - [War]",
 			"Can be earned through combat <for [Water] units>",
 			"Unbuildable",
 			"Uncapturable"
 		],
 		"promotions": ["Oceanic Mutation"],
-		"movement": 2
+		"movement": 6
+	},
+	{
+		"name": "Leviathan-Class Submarine",
+		"unitType": "Submarine",
+		"uniqueTo": "Charybdis Division",
+		"movement": 6,
+		"strength": 70,
+		"range": 3,
+		"rangedStrength": 100,
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"Can move after attacking",
+			"[+75]% Strength <when attacking>",
+			"[+60]% Strength <vs [Ranged Water] units> <when defending>",
+			"Can only attack [Water] tiles",
+			"[+1] Sight",
+			"Can carry [3] [Missile] units",
+			"Consumes [1] [Uranium]",
+			"Can see invisible [{Wounded} {Water}] units"
+		],
+		"promotions": ["Wolfpack I"],
+		"attackSound": "torpedo"
 	},
 	{
 		"name": "Great Farmer",
@@ -4555,6 +4850,29 @@
 			"May capture killed [Water] units"
 		],
 		"promotions": ["Raider", "Sea Raider"],
+		"hurryCostModifier": 20,
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Pirate Mothership",
+		"uniqueTo": "Barbarians",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 35,
+		"rangedStrength": 75,
+		"range": 3,
+		"interceptRange": 3,
+		"cost": 425,
+		"requiredTech": "Radar",
+		"uniques": [
+		    "Can move after attacking",
+			"[+30]% Strength <when attacking>",
+			"Withdraws before melee combat <with [67]% chance>",
+			"[1] free [Savior of the Sea] units appear <upon turn start> <every [2] turns>",
+			"Uncapturable",
+			"Limited to [2] per Civilization"
+		],
+		"promotions": ["Raider", "Sea Raider", "Artillery"],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
 	},

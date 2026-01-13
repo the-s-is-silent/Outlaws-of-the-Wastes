@@ -367,7 +367,7 @@
 		"uniqueName": "Sanation",
 		"uniques": [
 			"[-10]% Culture cost of adopting new Policies",
-			"[+15]% Production when constructing [Military] units [in all cities] <when at war>",
+			"[+30]% Production when constructing [Military] units [in all cities] <for [10] turns> <upon being declared war on by [All] Civilizations>",
 			"[+50]% XP gained from combat <when fighting units from a Civilization with more Cities than you>",
 			"Starts with [Redomestication]"
 		],
@@ -963,7 +963,9 @@
 			"[+10]% Strength <within [2] tiles of a [City center]>",
 			"[+20]% Strength <when fighting units from a Civilization with more Cities than you>",
 			"Enemy [Land] units must spend [1] extra movement points when inside your territory <before discovering [Railroads]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
-			"Starts with [Secrets of the Past]"
+			"Starts with [Secrets of the Past]",
+			"Cannot build [Enslaved] units",
+			"Comment [Cannot build Prison Camp or Work Camp buildings]"
 		],
 		"cities": [
 			"Gao",

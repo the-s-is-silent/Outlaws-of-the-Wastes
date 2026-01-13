@@ -1293,11 +1293,18 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **Misc.**
 - Quote attributions for several wonders have been restored.
 
-#### March - July 2025
+#### March - September 2025
+
+**Mod Compatibility**
+- Sea Nurseries and Sea Fauna imported from Forgotten Factions and adjusted so that you can actually improve the resource now.
 
 **Faction Adjustments**
 - The Caliphate now gains doubled religious pressure in puppeted cities.
-- Crimson Line no longer gets an inherent reduction in policy cost increase from cities owned. Additionally, the faction should now be slightly less likely to declare war on you and somewhat more likely to fight alongside you in war when controlled by the AI.
+- Crimson Line has had the following adjustments:
+	- It no longer gets an inherent reduction in policy cost increase from cities owned.
+	- Its 10-turn Production bonus triggered upon the outbreak of war now requires the player controlling the faction to be the one declare war.
+	- AI players controlling the faction should now be slightly less likely to declare war on you and somewhat more likely to fight alongside you in war.
+- Nowa Polska's unit training speed boost during wartime now lasts for 10 turns after the outbreak of war and requires the player to be in a defensive war, but has been increased to 30%.
 
 **Building Adjustments**
 - Bunkers and Earthscrapers cannot be built if nukes are disabled.
@@ -1306,7 +1313,6 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- The Caliphate: Kaserne renamed to Amsar and buffed to make its city slightly harder to capture (+2 City Strength, +20 HP). This is to allow Bamboolord to use the old UB name for his Geneva Union faction if he so chooses.
 	- Hexlock: Compound Mixes can no longer be purchased. They are also slightly more expensive to build (75 for standard, 150 for Meltdown).
 	- New Star: Gideon Scanner and Rally Station no longer relocate to the new capital due to a game-breaking bug.
-	- Proklyatyye: Verkhovny Sovet and Politburo no longer require Search for Survivors. (Expected to be a temporary adjustment.)
 
 **Wonder Adjustments**
 - Conscript Survivors' Production cost increased by 5, but it now provides 4 Slaves and 2 Warriors.
@@ -1318,6 +1324,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Raider Suppression Initiative's Water-per-kill from slaying Barbarians halved.
 - Revert Survivors' Production cost reduced by 5.
 - Sarcophagus now spawns two free Mutants instead of one.
+- Tactics Center now unlocks at Hoplology.
 - Wasteland Games has had its Culture and Happiness yields swapped.
 
 **Unit Adjustments**
@@ -1328,11 +1335,15 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Faction UUs:
 	- Central State (Forgotten Factions): Recovered Dongfei Missiles cannot be purchased. (Ensure you enable Forgotten Factions first, Outlaws last to make the nerf stick.)
 	- Charybdis Division (Followers of the Green): Great Submarine Commander now replaces the Great Admiral instead of the Great General and gets the Admiral's healing bonuses but not the Drydock GI. It can still be expended to start Golden Ages. (Again, ensure Outlaws is enabled last to make the change stick.)
-	- Crimson Line: Volt Driver now upgrades to Machine Gun. Additionally, its defense and ranged strength values have been swapped.
+	- Crimson Line:
+		- War Tram now gets +2 Movement in Road and Railroad tiles.
+		- Volt Driver now upgrades to Machine Gun. Additionally, its defense and ranged strength values have been swapped.
 	- Hexlock: Field Scientists can no longer be purchased, and their Production cost increases by 100% of the base amount every two eras starting at the Neofeudal era.
 	- Nowa Polska: Kosynier nerfed; instead of doubling as a Worker, it now insta-builds Farms by consuming the unit.
 	- The Oathsworn: Continental Generals now generate Golden Age points from combat.
-	- The Patriots: Privates now have 20 combat strength (up from 10) and cost 40 Production (up from 25).
+	- The Patriots:
+		- Privates now have 20 combat strength (up from 10) and cost 40 Production (up from 25).
+		- Carryover from Deciv 2 branch: Marines and Spec Ops have their production cost reduced after Replaceable Parts is researched.
 	- Proklyatyye: Mutants, Super Mutants, Desolators and Contaminators now have the "Cursed" fake unique for filtering purposes (currently used by one UB).
 - City-State UUs:
 	- Almaty: Instead of keeping the base State Guard's +25% Strength in friendly territory, the Alma State Guard now gets +30% Strength that decreases the further away it is from the capital.
@@ -1361,14 +1372,21 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Primacy can once again be adopted. Its new effect grants players who select it as their Founder Belief all of the Faith and 10% of the Culture produced by allied City-States. (Yes, City-States do construct Faith buildings even though they can't use them.) It will be less likely to be picked by the AI if there are less than four City-States, and will not be picked at all by the AI if there are less than two.
 - Religious Unity is less likely to be picked by the AI if there are less than four City-States, and will not be picked at all by the AI if there are less than two.
 
+**Improvement Adjustments**
+- Armed Fishing Boats (Charbydis Division UI from Followers of the Green) can now be slow built and can also be built on Sea Nurseries.
+- Energy farms can no longer be built on Impeded terrain.
+
 **New Faction**
 - Celestial Collective (Chinese, *1984*-based, Domination/Religious)
 
 **New Buildings**
 - Collaborate with Isolationists (replaces Annex Isolationists for Atlas, +8 Science instead of +5 Production to the Isolated Island, +3 Science/+1 Culture to the city itself, +1 Great Scientist Point, keeps the Weapons resources)
+- Junta (replaces Council for The Patriots, adds +2 Local Happiness in conquered cities, boosts unit training speed in those cities, and enables training a new UU)
+- National Guard Armory (replaces Armory for The Patriots, effectively reimplements the old Redux Armory exclusively for them, but also adds +1 Science to worked Weapons tiles)
 - Proxy Office (replaces Prison Camp for Atlas, no bonuses or penalties beyond the Courthouse effect)
 - Shale Extractor (replaces Oil Refinery for Atlas, +1 additional Production on Oil tiles and +1 additional copy of Oil, also added to Deciv 2)
 - Soaper (standalone, unlocks at Chemistry, requires a worked Cattle, Goats, Hogs, or Salt tile, adds +2 Local Happiness, maintenance cost 1, boosted by Followers of Old World Crafts)
+- Special Committee (replaces Congress for The Patriots, adds defense against enemy spies and boosts construction speed of defensive buildings)
 - Timepiece Maker (standalone, unlocks at Machinery, requires a worked Electronics or Machine Parts tile, adds +2 Production to those tiles and +1 to the city itself, boosted by Followers of Old World Crafts)
 
 **New Wonders**
@@ -1379,6 +1397,10 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **New Units**
 - Great Bombard (Cannon replacement for The Caliphate, -3 defense strength, -2 ranged strength, +30 Production cost, +1 Range, +100% more strength when attacking cities, +13% more strength when attacking Low Tech units)
 - Likvidator (Worker replacement for Proklyatyye, Cursed Unit, -50% construction time for improvements on Fallout or Toxic Waste)
+- Longbowman (Crossbowman replacement for Camelot Foundation, +7 ranged strength, starts with Extended Range)
+- Military Police (Forward Observer replacement for The Patriots, +20 base Strength, +80 production cost, requires building the Junta UB, does not start with Skirmish, +1 base Movement but -3 Movement in foreign lands, +25% Strength bonus when in your territory)
+- Pirate Mothership (standalone Barbarian UU, 35 defense, 75 ranged strength, 5 movement, 3 range + intercept range, uncapturable, +30% more strength when attacking, can move after attacking, 2-in-3 chance to evade melee units, spawns a Savior of the Sea every other turn, standard barb promotions, only two can exist at a time)
+- Trebuchet (Cannon replacement for Camelot Foundation, -50 Production cost but -3 defense strength and -2 ranged strength, Blast Furnace not needed, unlocks at Construction)
 
 **New Promotions**
 - Cut Away the Self (exclusive to Celestial Collective, three levels, allowing the unit to generate additional Culture/Faith and making it uncapturable at Level 3, but Level 2 prevents it from fortifying/sleeping and can only be taken while the unit is wounded)
@@ -1390,4 +1412,40 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Misc.**
 - Lines added for each faction for when the player denounces them, or when they request a Declaration of Friendship.
-- Sprite style added for Camelot.
+- Sprite style added for Camelot (but will be replaced later).
+
+#### October 2025 - January 2026
+
+**Mod Options**
+- Itinerant Preachers and Religious Texts have now been *properly* deleted.
+
+**Faction Adjustments**
+- New Afrika is no longer allowed to build Prison Camps, Work Camps, or Annex Isolationists.
+
+**Building Adjustments**
+- Aerospace Facilities now allow a form of "airlifting" units. For balance reasons, this is currently limited to Civilian units (since Paradropping isn't a unit action and can't be modified to consume all movement points). They also increase the air unit capacity of cities to 10.
+- Faction UBs:
+	- The Harbingers: Investors' Chamber and Trustees' Committee renamed to Water Forum and Water Council.
+	- Prasiddh Shahar: Launchpad now adds +5 Science instead of +1 Culture.
+
+**Unit Adjustments**
+- Great Admirals can now paradrop to any coastal city.
+
+**Promotion Adjustments**
+- Entrench and Smokescreen nerfed: defense bonus against Ranged units reduced from 33% to 15%.
+
+**Wonder Adjustments**
+- Due to a bug that has since been fixed, The Green Palace and Supercollider no longer construct Great Improvements; instead, they spawn the appropriate Great Person (Farmer for Green Palace, Scientist for Supercollider).
+
+**Terrain/Improvement Adjustments**
+- New fake unique for filtering: Urban area (applies to Rubble, Ruins, and any tile a city was founded on).
+- Boroughs can now be built on any tile adjacent to a city or another Borough (provided the tile isn't Impeded terrain and doesn't have any resources it can't improve), and doing so will add Ruins to the tile.
+(The above changes are also present in Deciv 2)
+- Fortified Farms can no longer be built on water.
+
+**New Wonder**
+- Golden Dome (world wonder, unlocks at Future Materials, grants new promotion to Fighters and Missile Defense Systems, +10 strength and +100 HP for the city that owns it, defensive buildings in all cities +25% more effective, +1 Happiness to Active Denial Systems but requires building Active Denial Systems in 4 cities before construction is unlocked)
+
+**New Promotions**
+- Airlift (lets a unit be "airlifted" to another city you control with an Aerospace Facility up to 30 tiles away)
+- Sky Shield (increases air interception range by 2 and grants an extra interception each turn)

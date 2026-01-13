@@ -223,14 +223,16 @@
 		"food": 2,
 		"production": 1,
 		"techRequired": "Land Remediation",
-		"uniques": ["Food source",
+		"uniques": [
+			"Food source",
 			"Cannot be built on [Fissure] tiles",
 			"Cannot be built on [resource] tiles",
 			"[+1 Food] for each adjacent [Mountain]",
 			"[+1 Food] for each adjacent [Mountain Tunnel]",
 			"[+1 Food, +1 Production] <with [1] to [6] neighboring [Grassland] tiles>",
 			"[+1 Food, +1 Production] <after discovering [Geo Engineering]>",
-			"Pillaging this improvement yields approximately [+10 Gold]"],
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
 		"shortcutKey": "T"
 	},
 	{
@@ -244,9 +246,7 @@
 			"[+1 Food] from [Swamp] tiles",
 			"[+1 Production, +2 Gold] <after discovering [Decontamination]>",
 			"Cannot be built on [Water] tiles <with [0] to [2] neighboring [Land] tiles>",
-			"Cannot be built on [Bonus resource] tiles",
-			"Cannot be built on [Strategic resource] tiles",
-			"Cannot be built on [Luxury resource] tiles",
+			"Cannot be built on [resource] tiles",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
 		"shortcutKey": "P"
@@ -269,21 +269,27 @@
 	},
 	{
 		"name": "Borough",
-		"terrainsCanBeBuiltOn": ["Forest", "Jungle"],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 15,
 		"techRequired": "Computers",
 		"production": 1,
 		"food": 2,
-		"uniques": ["Food source",
+		"uniques": [
+			"Food source",
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
+			"Turn this tile into a [Jungle] tile <in [non-[Urban area]] tiles>",
 			"[+1 Culture] from [Weapons] tiles",
 			"[+1 Culture] from [Artifacts] tiles",
 			"[+1 Science] from [Data] tiles",
 			"[+1 Science] from [Electronics] tiles",
 			"[+1 Science] <after discovering [Artificial Intelligence]>",
-			"Cannot be built on [Water] tiles",
-			"Pillaging this improvement yields approximately [+10 Gold]"],
+			"Unbuildable <in [Water] tiles>",
+			"Unbuildable <in [Impeded terrain] tiles>",
+			"Unbuildable <in [{non-[resource]} {non-[Urban area]}] tiles> <with [0] to [0] neighboring [Urban area] tiles>",
+			"Can only be built to improve a resource <in [resource] tiles>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
 		"shortcutKey": "H"
 	},
 	{
@@ -315,7 +321,7 @@
 		"techRequired": "Ocean Remediation",
 		"uniques": [
 			"Food source",
-			"Cannot be built on [Water resource] tiles",
+			"Unbuildable <in [resource] tiles>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "A"
@@ -328,8 +334,8 @@
 		"techRequired": "Ocean Remediation",
 		"uniques": [
 			"Food source",
-			"Cannot be built on [Water resource] tiles",
-			"Cannot be built on [Water] tiles <with [1] to [6] neighboring [Floating Settlement] tiles>",
+			"Unbuildable <in [resource] tiles>",
+			"Unbuildable <with [1] to [6] neighboring [Floating Settlement] tiles>",
 			"[+1 Production] for each adjacent [Bioculture]",
 			"[+1 Production] for each adjacent [Modular island]",
 			"[+1 Culture] for each adjacent [Artificial atoll]",
@@ -342,12 +348,14 @@
 		"turnsToBuild": 7,
 		"science": 1,
 		"techRequired": "Secrets of the Past",
-		"uniques": ["Does not need removal of [Forest]",
+		"uniques": [
+			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
 			"Obsolete with [Computers]",
 			"[+1 Science] <after discovering [Laboratory]>",
 			"Can only be built to improve a resource",
-			"Pillaging this improvement yields approximately [+10 Gold]"],
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
 		"shortcutKey": "H"
 	},
 	{
@@ -363,9 +371,25 @@
 		"shortcutKey": "W"
 	},
 	{
+		"name": "Energy farm",
+		"terrainsCanBeBuiltOn": ["Swamp"],
+		"production": 1,
+		"gold": -1,
+		"turnsToBuild": 7,
+		"techRequired": "Biology",
+		"uniques": [
+			"Can also be built on tiles adjacent to fresh water",
+			"Cannot be built on [Water] tiles",
+			"Cannot be built on [Impeded terrain] tiles",
+			"Provides [1] [Oil]",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "Y"
+	},
+	{
 		"name": "Fishing Boats",
 		"techRequired": "Sailing",
-		"terrainsCanBeBuiltOn": ["Coast", "Ocean"],
+		"terrainsCanBeBuiltOn": ["Coast", "Sea Nursery", "Ocean"],
 		"turnsToBuild": 6,
 		"uniques": [
 			"Food source",
@@ -375,6 +399,21 @@
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "B"
+	},
+	{
+		"name": "Bioculture",
+		"techRequired": "Genetics",
+		"terrainsCanBeBuiltOn": ["Sea Nursery"],
+		"food": 2,
+		"turnsToBuild": 10,
+		"uniques": [
+			"Food source",
+			"Can only be built to improve a resource <in [resource] tiles>",
+			"Cannot be built on [Water] tiles <before discovering [Ocean Remediation]>",
+			"[+1 Food] <after discovering [Atmosphere Remediation]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "C"
 	},
 
 	//Terraforming
@@ -832,7 +871,8 @@
 			"[+1 Food] <after discovering [Land Remediation]>",
 			"Gives a defensive bonus of [50]%",
 			"Adjacent enemy units ending their turn take [10] damage",
-			"Cannot be built on [Fissure] tiles",
+			"Cannot be built on [Impeded terrain] tiles",
+			"Cannot be built on [Water] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 			"Can only be built to improve a resource <in [Bonus resource] tiles>",
@@ -947,6 +987,29 @@
 		]
 	},
 
+	//Indonesian Gentleman's mods (for compatibility purposes)
+	{
+		"name": "Armed Fishing Boats",
+		"uniqueTo": "Charybdis Division",
+		"techRequired": "Sailing",
+		"terrainsCanBeBuiltOn": ["Coast", "Sea Nursery", "Ocean"],
+		"uniques": [
+			"Food source",
+			"Obsolete with [Genetics]",
+			"[+1 Food] <after discovering [Oceanography]>",
+			"Can only be built to improve a resource",
+			"Improves [Algae] resource in this tile",
+			"Improves [Jellyfish] resource in this tile",
+			"Improves [Plankton] resource in this tile",
+			"Improves [Deep-sea Fish] resource in this tile",
+			"Improves [Mutant Eel] resource in this tile",
+			"Improves [Sea Fauna] resource in this tile",
+			"Gives a defensive bonus of [25]%",
+			"Adjacent enemy units ending their turn take [10] damage",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		]
+	},
+
 	//Unbuildable improvements
 	{
 		"name": "City center",
@@ -970,6 +1033,7 @@
 		"name": "Survivor camp",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
+			"Can be built outside your borders",
 			"Unpillagable",
 			"Provides a random bonus when entered"
 		]

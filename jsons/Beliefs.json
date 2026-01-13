@@ -53,8 +53,7 @@
 		"name": "Domain of the Old Gods",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Faith] from every [Forest] <within [2] tiles of a [City center]>",
-			"[+1 Faith] from every [Jungle] <within [2] tiles of a [City center]>",
+			"[+1 Faith] from every [Urban area] <within [2] tiles of a [City center]>",
 			"[+1 Faith] from every [Sunken Ruins]"
 		]
 	},
@@ -182,7 +181,7 @@
 		"name": "Respect the Wind",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Faith] from every [Hill] <in tiles without [Forest]> <in tiles without [Jungle]> <within [2] tiles of a [City center]>",
+			"[+1 Faith] from every [Hill] <in tiles without [Urban area]> <within [2] tiles of a [City center]>",
 			"[+2 Production, +1 Faith] from every [Wind farm]"
 		]
 	},
@@ -195,8 +194,7 @@
 		"name": "Sacred Ruins",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Culture] from every [Forest] <within [2] tiles of a [City center]>",
-			"[+1 Culture] from every [Jungle] <within [2] tiles of a [City center]>",
+			"[+1 Culture] from every [Urban area] <within [2] tiles of a [City center]>",
 			"[+1 Culture] from every [Sunken Ruins]"
 		]
 	},
@@ -661,20 +659,5 @@
 			"[+2 Gold, +2 Culture, +2 Faith] from every [Worship Center]",
 			"Only available <after adopting [Exodus of the Evangelists]>"
 		]
-	},
-
-//Deletions
-	{
-		"name": "Itinerant Preachers",
-		"type": "Enhancer",
-		"uniques": ["Religion naturally spreads to cities [+3] tiles away",
-			"Only available <before discovering [The Wheel]>"]
-	},
-	{
-		"name": "Religious Texts",
-		"type": "Enhancer",
-		"uniques": ["[+17]% Natural religion spread [in all cities]",
-			"[+17]% Natural religion spread [in all cities] <after discovering [Education]>",
-			"Only available <before discovering [The Wheel]>"]
 	}
 ]

@@ -104,21 +104,21 @@ ImprovementIcons/Preservator
   index: -1
 ImprovementIcons/Seaside Resort
   rotate: false
-  xy: 464, 82
+  xy: 572, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Supply Complex
   rotate: false
-  xy: 572, 82
+  xy: 680, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Wasteland Station
   rotate: false
-  xy: 788, 82
+  xy: 896, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -174,21 +174,21 @@ NationIcons/Nowa Polska
   index: -1
 NationIcons/The Caliphate
   rotate: false
-  xy: 680, 190
+  xy: 680, 82
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Harbingers
   rotate: false
-  xy: 680, 82
+  xy: 788, 190
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Oathsworn
   rotate: false
-  xy: 788, 190
+  xy: 788, 82
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -279,7 +279,7 @@ ReligionIcons/Rodnovery
   index: -1
 ReligionIcons/Stalinism
   rotate: false
-  xy: 572, 190
+  xy: 572, 82
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -361,6 +361,13 @@ ResourceIcons/Scriptures
   orig: 100, 100
   offset: 0, 0
   index: -1
+ResourceIcons/Sea Fauna
+  rotate: false
+  xy: 464, 82
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/AI Implant
   rotate: false
   xy: 1946, 456
@@ -377,7 +384,14 @@ UnitPromotionIcons/Active Protection System
   index: -1
 UnitPromotionIcons/Aerial Bombardment
   rotate: false
-  xy: 896, 240
+  xy: 896, 132
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Airlift
+  rotate: false
+  xy: 1004, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -398,175 +412,182 @@ UnitPromotionIcons/Augmented Vision
   index: -1
 UnitPromotionIcons/Ballistic Weave
   rotate: false
-  xy: 896, 182
+  xy: 1062, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Combat Armor
   rotate: false
-  xy: 954, 240
+  xy: 1946, 340
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Commitment to the Four Truths
   rotate: false
-  xy: 1946, 340
+  xy: 364, 24
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Enforcement of the Four Truths
   rotate: false
-  xy: 1946, 340
+  xy: 364, 24
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Conquer Terrain
   rotate: false
-  xy: 364, 24
+  xy: 1120, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Cut Away the Self
   rotate: false
-  xy: 896, 124
+  xy: 422, 24
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Fury of Aztlán
   rotate: false
-  xy: 954, 182
+  xy: 1178, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Golden Age from Victories
   rotate: false
-  xy: 1012, 240
+  xy: 480, 24
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Great Generals
   rotate: false
-  xy: 422, 24
+  xy: 1236, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Healing Hands
   rotate: false
-  xy: 954, 124
+  xy: 538, 24
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Heroic Resolve
   rotate: false
-  xy: 1012, 182
+  xy: 1294, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Homeland Guardian
   rotate: false
-  xy: 1070, 240
+  xy: 596, 24
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Know Your History
   rotate: false
-  xy: 480, 24
+  xy: 1352, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Line Brawl
   rotate: false
-  xy: 1012, 124
+  xy: 654, 24
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Mountaineer
   rotate: false
-  xy: 1070, 182
+  xy: 1410, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Oath of Vengeance
   rotate: false
-  xy: 1128, 240
+  xy: 712, 24
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Overcome Obstructions
   rotate: false
-  xy: 538, 24
+  xy: 1468, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Prospector
   rotate: false
-  xy: 1070, 124
+  xy: 770, 24
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Reinforced Hull
   rotate: false
-  xy: 1128, 182
+  xy: 1526, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Sea Raider
   rotate: false
-  xy: 1186, 240
+  xy: 828, 24
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Self-Repair
   rotate: false
-  xy: 596, 24
+  xy: 1584, 240
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Sky Shield
+  rotate: false
+  xy: 1642, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Terrascape
   rotate: false
-  xy: 1128, 124
+  xy: 1700, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Valor of Aztlán
   rotate: false
-  xy: 1186, 182
+  xy: 1758, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Will of Tellus
   rotate: false
-  xy: 1244, 240
+  xy: 1816, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Zeal
   rotate: false
-  xy: 654, 24
+  xy: 1874, 240
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
