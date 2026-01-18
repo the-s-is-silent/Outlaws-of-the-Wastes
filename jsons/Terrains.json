@@ -22,6 +22,7 @@
 			"Becomes [Swamp] when adjacent to [River]",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
 			"Urban area <in [City center] tiles>",
+			"Capital Marker <in [City center] tiles> <in cities with a [Bomb Shelter]>",
 			"Air Base <in [City center] tiles> <in cities with a [Aerospace Facility]>"
 		]
 	},
@@ -50,6 +51,7 @@
 			"Becomes [Swamp] when adjacent to [River]",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
 			"Urban area <in [City center] tiles>",
+			"Capital Marker <in [City center] tiles> <in cities with a [Bomb Shelter]>",
 			"Air Base <in [City center] tiles> <in cities with a [Aerospace Facility]>"
 		]
 	},
@@ -71,6 +73,7 @@
 			"Considered [Food] when determining start locations",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
 			"Urban area <in [City center] tiles>",
+			"Capital Marker <in [City center] tiles> <in cities with a [Bomb Shelter]>",
 			"Air Base <in [City center] tiles> <in cities with a [Aerospace Facility]>"
 		]
 	},
@@ -94,6 +97,7 @@
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
 			"[+1 Food] <within [1] tiles of a [Lakes]> <after discovering [Ecology]>",
 			"Urban area <in [City center] tiles>",
+			"Capital Marker <in [City center] tiles> <in cities with a [Bomb Shelter]>",
 			"Air Base <in [City center] tiles> <in cities with a [Aerospace Facility]>"
 		]
 	},
@@ -112,6 +116,7 @@
 			"Considered [Undesirable] when determining start locations",
 			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
 			"Urban area <in [City center] tiles>",
+			"Capital Marker <in [City center] tiles> <in cities with a [Bomb Shelter]>",
 			"Air Base <in [City center] tiles> <in cities with a [Aerospace Facility]>"
 		]
 	},
