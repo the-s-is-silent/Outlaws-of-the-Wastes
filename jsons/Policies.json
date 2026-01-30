@@ -1094,7 +1094,7 @@
 			{
 				"name": "Eudaimonia",
 				"uniques": [
-					"[-50]% Food consumption by specialists [in all cities]",
+					"[-50]% Food consumption by [Specialists] [in all cities]",
 					"[-50]% Unhappiness from [Specialists] [in all cities]"
 				],
 				"requires": ["Special Projects", "Unifying Vision"],
