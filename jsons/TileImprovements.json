@@ -801,11 +801,12 @@
 	//Other Civ uniques
 	{
 		"name": "Armed Mining Camp",
+		"replaces": "Mine",
 		"uniqueTo": "Aurelian Group",
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"production": 1,
 		"turnsToBuild": 9,
-		"techRequired": "Engineering",
+		"techRequired": "Mining",
 		"uniques": [
 			"Gives a defensive bonus of [50]%",
 			"[+1 Production] <after discovering [Steam Power]>",
@@ -813,7 +814,7 @@
 			"Can only be built to improve a resource <in [resource] tiles>",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
-		"shortcutKey": "A"
+		"shortcutKey": "M"
 	},
 	{
 		"name": "Outback Station",
@@ -856,12 +857,12 @@
 	},
 	{
 		"name": "Fortified Farm",
+		"replaces": "Farm",
 		"uniqueTo": "Enclavers",
 		"terrainsCanBeBuiltOn": ["Badlands", "Desert", "Swamp"],
 		"food": 1,
 		"production": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Engineering",
 		"uniques": [
 			"Food source",
 			"Can also be built on tiles adjacent to fresh water",
@@ -877,7 +878,8 @@
 			"Cannot be built on [Luxury resource] tiles",
 			"Can only be built to improve a resource <in [Bonus resource] tiles>",
 			"Pillaging this improvement yields approximately [+10 Food, +10 Gold]"
-		]
+		],
+		"shortcutKey": "F"
 	},
 
 	//City-States

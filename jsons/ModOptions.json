@@ -11,8 +11,6 @@
 		"Suppress warning [Military Engineer can place improvement Remove Toxic Waste which has no stats, preventing unit automation!]"
 	],
 	"constants": {
-		"minimalCityDistance": 4,
-		"minimalCityDistanceOnDifferentContinents": 4,
 		"ancientRuinCountMultiplier": 0.04,
 		"religionLimitBase": 0,
 		"religionLimitMultiplier": 1,

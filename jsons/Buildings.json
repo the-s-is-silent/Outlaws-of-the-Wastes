@@ -462,6 +462,17 @@
 		"quote": "Remember the sacrifices of everyone we lost, and remember the treachery of those who took them from us. Remember our righteous desire to rain vengeance down upon those who transgressed against all of humankind, and remember our drive to ensure such a calamity will never again befall us. Remember always..."
 	},
 	{
+		"name": "Eden Reclamation Project",
+		"isWonder": true,
+		"culture": 1,
+		"uniques": [
+			"[+15]% growth [in all cities] <within [6] tiles of a [Capital Marker]>",
+			"[+2 Food] from [{non-[resource]} {Farm}] tiles [in all cities]"
+		],
+		"requiredTech": "Botany",
+		"quote": "'Restoration is imperative for healing the earth, but reciprocity is imperative for long-lasting, successful restoration. Like other mindful practices, ecological restoration can be viewed as an act of reciprocity in which humans exercise their caregiving responsibility for the ecosystems that sustain them. We restore the land, and the land restores us.' - Robin Wall Kimmerer"
+	},
+	{
 		"name": "International Ordnance Museum",
 		"isWonder": true,
 		"culture": 1,
@@ -2190,7 +2201,7 @@
 		"requiredTech": "Botany"
 	},
 	{
-		"name": "Sejmik",
+		"name": "Ratusz",
 		"replaces": "Town Hall",
 		"uniqueTo": "Nowa Polska",
 		"culture": 2,

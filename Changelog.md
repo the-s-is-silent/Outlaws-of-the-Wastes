@@ -1380,7 +1380,6 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Celestial Collective (Chinese, *1984*-based, Domination/Religious)
 
 **New Buildings**
-- Collaborate with Isolationists (replaces Annex Isolationists for Atlas, +8 Science instead of +5 Production to the Isolated Island, +3 Science/+1 Culture to the city itself, +1 Great Scientist Point, keeps the Weapons resources)
 - Junta (replaces Council for The Patriots, adds +2 Local Happiness in conquered cities, boosts unit training speed in those cities, and enables training a new UU)
 - National Guard Armory (replaces Armory for The Patriots, effectively reimplements the old Redux Armory exclusively for them, but also adds +1 Science to worked Weapons tiles)
 - Proxy Office (replaces Prison Camp for Atlas, no bonuses or penalties beyond the Courthouse effect)
@@ -1390,6 +1389,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Timepiece Maker (standalone, unlocks at Machinery, requires a worked Electronics or Machine Parts tile, adds +2 Production to those tiles and +1 to the city itself, boosted by Followers of Old World Crafts)
 
 **New Wonders**
+- Collaborate with Isolationists (replaces Annex Isolationists for Atlas, +8 Science instead of +5 Production to the Isolated Island, +3 Science/+1 Culture to the city itself, +1 Great Scientist Point, keeps the Weapons resources)
 - Cursed Survivors (replaces Search for Survivors for Proklyatyye, -10 Production cost, no free pop or Civilian Convoy, instead gives +1 Production per 4 pop in the city, +25% Production towards "Cursed" units and a free Likvidator)
 - International Ordnance Museum (world wonder, unlocks at Hoplology, +3 Culture to all Weapons tiles owned by the faction, new land and water units trained in the city earn XP 50% faster)
 - National Redoubt (replaces Homeland Defense Initiative for Geneva Union, loses the combat bonus for units in friendly territory but allows building Forts twice as fast and provides additional protection from nukes)
@@ -1414,10 +1414,11 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Lines added for each faction for when the player denounces them, or when they request a Declaration of Friendship.
 - Sprite style added for Camelot (but will be replaced later).
 
-#### October 2025 - January 2026
+#### October 2025 - April 2026
 
 **Mod Options**
 - Itinerant Preachers and Religious Texts have now been *properly* deleted.
+- Due to multiple very loud complaints from multiple users, I have been forced to revert the forced increased minimum distance between cities back to vanilla values. I *greatly* dislike this reversion.
 
 **Faction Adjustments**
 - New Afrika is no longer allowed to build Prison Camps, Work Camps, or Annex Isolationists.
@@ -1426,10 +1427,13 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Aerospace Facilities now allow a form of "airlifting" units. For balance reasons, this is currently limited to Civilian units (since Paradropping isn't a unit action and can't be modified to consume all movement points). They also increase the air unit capacity of cities to 10.
 - Faction UBs:
 	- The Harbingers: Investors' Chamber and Trustees' Committee renamed to Water Forum and Water Council.
+	- Nowa Polska: Sejmik renamed to Ratusz.
 	- Prasiddh Shahar: Launchpad now adds +5 Science instead of +1 Culture.
 
 **Unit Adjustments**
 - Great Admirals can now paradrop to any coastal city.
+- Pre-War Turrets now obsolete at Munitions and upgrade to Artillery. Their ranged strength is also reduced to 30 (previously 40).
+- Salvaged Helicopters are now banned from attacking cities, the same as all other Helicopter-type units other than Blimps.
 
 **Promotion Adjustments**
 - Entrench and Smokescreen nerfed: defense bonus against Ranged units reduced from 33% to 15%.
@@ -1437,13 +1441,32 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **Wonder Adjustments**
 - Due to a bug that has since been fixed, The Green Palace and Supercollider no longer construct Great Improvements; instead, they spawn the appropriate Great Person (Farmer for Green Palace, Scientist for Supercollider).
 
+**Policy Adjustments**
+- Leader Titles have been added.
+	- Adaptation - the Survivor
+	- Expansionism - Elder
+	- Sovereignty - Warlord
+	- Theocracy - the Visionary
+	- Rediscovery - Commodore
+	- Rationalism - Director-General
+	- Constitution - President
+	- Supremacy - Grand Marshal
+	- Monopoly - Chief Executive Officer
+	- Collectivism - Presiding Speaker
+	- Naturalism - First Warden
+	- Mechanization - Overmind
+	- Bionics - Primus
+	- Legacy - High Commissioner
+
 **Terrain/Improvement Adjustments**
 - New fake unique for filtering: Urban area (applies to Rubble, Ruins, and any tile a city was founded on).
 - Boroughs can now be built on any tile adjacent to a city or another Borough (provided the tile isn't Impeded terrain and doesn't have any resources it can't improve), and doing so will add Ruins to the tile.
 (The above changes are also present in Deciv 2)
-- Fortified Farms can no longer be built on water.
+- Armed Mining Camps now replace standard Mines for Aurelian Group.
+- Fortified Farms now replace standard Farms for Enclavers and can no longer be built on water.
 
-**New Wonder**
+**New Wonders**
+- Eden Reclamation Project (world wonder, unlocks at Botany, +15% growth rate in all cities within 6 tiles of the capital, +2 Food from resource-less Farms, +1 Culture)
 - Golden Dome (world wonder, unlocks at Future Materials, grants new promotion to Fighters and Missile Defense Systems, +10 strength and +100 HP for the city that owns it, defensive buildings in all cities +25% more effective, +1 Happiness to Active Denial Systems but requires building Active Denial Systems in 4 cities before construction is unlocked)
 
 **New Promotions**

@@ -1,7 +1,7 @@
 ## List of changes to DeCiv Redux's base 14 factions:
 
 #### Atlas
-- They are given a Mountain start bias and are now forbidden from building Enslaved units, Prison Camps and Work Camps.
+- They are given a Mountain start bias and are now forbidden from building Enslaved units and Work Camps.
 - All of their Melee Personnel units (except Mounted units) now inherit the Surveyor ability promotion regardless of whether or not they upgraded from a Surveyor.
 - The unnecessary and nonsensical double production speed towards their unique Electrostatic Generators was removed.
 - They no longer have any starting techs or Science penalty.
@@ -10,8 +10,11 @@
 - Survey Center now adds +3 Science, +1 Culture, and increases to +8 Science, +3 Culture at Flight.
 - Think Tank is buffed to give a +25% Production boost towards Science buildings, along with +2 of the respective yield to each non-unique Great Improvement (Factory Farm, Manufactory, Drydock, Supply Complex, Academy, Settlement, Seminary; Citadels receive +1 Water/Science).
 - New UBs:
-  - Kruger Line (standalone national wonder, unlocks at Railroads, requires Factories in every city, consumes Power, adds +3 Culture to the capital, +1 Production to tiles with Railroads and +1 Water per Trade Route)
+  - Collaborate with Isolationists (replaces Annex Isolationists, +8 Science instead of +5 Production to the Isolated Island, +3 Science/+1 Culture to the city itself, +1 Great Scientist Point, keeps the Weapons resources)
+  - Kruger Line (standalone national wonder, unlocks at Railroads, requires Factories in every city, consumes Power, adds +3 Culture to the capital, +1 Production to tiles with Railroads and +1 Water to city connections)
   - Miracle Metal Mill (replaces Plastics Factory, requires the city to own a Factory and Electrostatic Generator and be working a Metal or Aluminum tile, adds +1 Production to Metal tiles, +2 to Aluminum tiles, and +10% to the city's total Production yields)
+  - Proxy Office (replaces Prison Camp, no stat bonuses or penalties)
+  - Shale Extractor (replaces Oil Refinery, additional copy of Oil resource, additional +1 Production to Oil tiles, also added to "Deciv 2" fork)
 - TODO: Add at least one new UU and one more UB based on the source material
 
 #### Blackwarden
@@ -114,7 +117,7 @@
 - Stockpile buffed to +2 Food.
 - Scrounged Armory and Guerilla Camp no longer provide defensive boosts to cities.
 - New UB: Hidesite (replaces Ranch, +1 Food, adds +1 Food to Deer/Fungus tiles and +50 City HP but is *not* considered a City Defense building, no resource requirements to build)
-- New UI: Fortified Farm (unlocks at Engineering, same placement restrictions as basic Farm, +1 Food/Production (+2 Production on Hills), +1 Food at Ecology, +1 Food at Land Remediation, +1 Production from completing Adaptation)
+- New UI: Fortified Farm (replaces basic Farm, same placement restrictions as basic Farm, +1 Food/Production (+2 Production on Hills), +1 Food at Ecology, +1 Food at Land Remediation, +1 Production from completing Adaptation)
 
 #### Hexlock
 - They start with fewer free techs now: knowledge of Chemistry is gained, but knowledge of all of their previous starting techs except for Writing is lost. However, the malus on GP generation is removed, Encrypted Data resources are doubled, and they receive a 15% construction speed bonus towards National Wonders.
@@ -155,6 +158,7 @@
 - TODO: Add a Great Admiral and Naval War College replacement
 
 #### New Afrika
+- They are now forbidden from building Enslaved units, Prison Camps, Work Camps, and Annex Isolationists.
 - The +20% combat bonus against larger factions no longer has a policy requirement.
 - The "Great Wall" effect in their UA now expires at Railroads.
 - They no longer start with Redomestication.

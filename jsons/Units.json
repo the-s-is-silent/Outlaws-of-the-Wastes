@@ -2111,9 +2111,11 @@
 		"range": 2,
 		"movement": 1,
 		"strength": 25,
-		"rangedStrength": 40,
+		"rangedStrength": 30,
 		"interceptRange": 2,
 		"cost": 50,
+		"obsoleteTech": "Munitions",
+		"upgradesTo": "Artillery",
 		"uniques": [
 			"Cannot move",
 			"Can only attack [Military] units",
@@ -3976,6 +3978,7 @@
 		"requiredTech": "Steel",
 		"upgradesTo": "Helicopter",
 		"uniques": [
+			"Can only attack [Military] units",
 			"[-25]% Strength <vs [Armor] units>",
 			"Can move after attacking",
 			"Withdraws before melee combat <with [75]% chance>",

@@ -59,6 +59,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Earth Clinic: [herbal remedy](https://thenounproject.com/icon/herbal-remedy-842292/) by Ker'is, TH
 - Earthscraper: [skyscraper](https://thenounproject.com/icon/skyscraper-1811460/) by iconcheese, adapted slightly
 - Earthscraper Project: [Skyscraper](https://thenounproject.com/icon/skyscraper-1038032/) by Maxim Kulikov, adapted slightly
+- Eden Reclamation Project: [dome](https://thenounproject.com/icon/dome-6600144/) by Setstudio, ID
 - Emergency Response Network: [emergency call](https://thenounproject.com/icon/emergency-call-6051291/) by intana silva, ID
 - Esir: [human trafficking](https://www.flaticon.com/free-icon/human-trafficking_10059240) by [anilofax](https://www.flaticon.com/authors/anilofex) from Flaticon
 - Ethanol Station: [Corn energy](https://thenounproject.com/icon/corn-energy-1580160/) by dDara, TH
@@ -117,6 +118,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Radio Freedom: [broadcast station](https://thenounproject.com/icon/broadcast-station-1777039/) by Petai Jantrapoon, TH
 - Raider Suppression Initiative: [Soldier Attack with Machine Gun](https://thenounproject.com/icon/soldier-attack-with-machine-gun-659094/) by Gan Khoon Lay
 - Rally Survivors: [justice rally](https://thenounproject.com/icon/justice-rally-6991858/) by gravisio, ID
+- Ratusz: [warsaw](https://thenounproject.com/icon/warsaw-4361384/) by Template, TH
 - [Red Square](https://thenounproject.com/icon/red-square-4944120/) by Amethyst Studio, TH
 - Refurbished Textile Mill: [Textile industry](https://thenounproject.com/icon/textile-industry-5649184/) by Studio 365
 - Rehabilitation Center: [Hospital](https://thenounproject.com/icon/hospital-2453105/) by Vectors Point, PK
@@ -133,7 +135,6 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Sangreal Vault: [holy grail](https://thenounproject.com/icon/holy-grail-2256337/) by Arunika
 - School of Mines: [vocational school](https://thenounproject.com/icon/vocational-school-4100326/) by Edi Prastyo, ID
 - Sealed Facility: [Bunker](https://thenounproject.com/icon/bunker-2972283/) by IcoLabs, BR
-- Sejmik: [warsaw](https://thenounproject.com/icon/warsaw-4361384/) by Template, TH
 - Shale Extractor: [Fracking](https://thenounproject.com/icon/fracking-6507747/) by Designing Hub, PK
 - Sharashka: [Prison](https://thenounproject.com/icon/prison-3373255/) by Start Up Graphic Design, TH
 - Sharecropper Farm: [out building](https://thenounproject.com/icon/out-building-1848316/) by Smashicons, GB

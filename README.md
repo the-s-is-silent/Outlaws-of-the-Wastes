@@ -5,21 +5,19 @@ A major expansion + rebalance mod for DeCiv Redux. Also fully compatible with th
 
 - Barbarians are stronger, gain additional unique units, and spawn more frequently, but they give greater rewards for clearing their encampments. (Credit for the "barb camps trigger ruins bonuses" concept goes to amfauzn and their "The Barbarians" mod.) In addition, the survivor camp spawn rate is also increased.
 
-- As a screw you to the AI's primitive sanity checks, the minimum allowed distance between cities has been increased.
-
 - Pantheons require twice as much Faith to found, but do not increase in cost with each Pantheon founded; every faction present in a game can now found its own religion; and passive religion spread is 50% weaker than in the base scenario.
 
 - Deseret Nation is now a playable faction.
 
 - Many units, buildings, wonders, promotions, beliefs, tile improvements, and ruins bonuses from the base scenario have been either buffed or nerfed, or in the worst-case scenario removed outright. In addition, the social policies have been overhauled. Check the Rebalance Log.md file for a comprehensive list of adjustments.
 
-- All 14 factions in the base scenario have had their unique ability and/or one or more of their unique components adjusted. Check the Faction Adjustments.md file for more details.
+- All 14 factions in Redux have had their unique ability and/or one or more of their unique components adjusted. None of the added factions in 2 have been altered, however. Check the Faction Adjustments.md file for more details.
 
 ## Other features
 
 - Terraforming is present, with the feature delegated to Mechanized Workers until such time as it is either implemented (or not implemented) in base DeCiv.
 
-- Two new victory conditions, restoring the "proper" Domination and Science victories. (Warning: do not enable these without disabling the standard Domination and Science victories. Having both DeCiv's Science Victory (Terraform Earth) and Colonization Victory (launch the spaceship) enabled will currently make those victory conditions impossible to achieve.)
+- Two new victory conditions, restoring the "proper" Domination and Science victories.
 
 - Nine new factions (in addition to playable Deseret):
   - Aurelian Group, a pre-war Australian mining corporation that survived the Cataclysm and is trying to rebuild its former country while remaining isolationist.
@@ -38,7 +36,7 @@ A major expansion + rebalance mod for DeCiv Redux. Also fully compatible with th
 
 - More than twenty new standalone buildings.
 
-- New world wonders: Amager Bakke, Citadel Space Station, International Ordnance Museum, Statue of Remembrance, and Wasteland Games.
+- New world wonders: Amager Bakke, Citadel Space Station, Eden Reclamation Project, Golden Dome, International Ordnance Museum, Statue of Remembrance, and Wasteland Games.
 
 - New national wonders:
   - Homeland Defense / Wasteland Surveillance / Raider Suppression Initiatives, each locked behind a starting policy and designed to help each faction survive the early-game.
@@ -51,11 +49,11 @@ A major expansion + rebalance mod for DeCiv Redux. Also fully compatible with th
 - New ancient wonders + corresponding national projects.
 
 - New tile improvements:
-  - Armed Mining Camp, exclusive to Aurelian Group.
+  - Armed Mining Camp, exclusive to Aurelian Group, replacing standard Mines.
   - Artificial atoll and Floating Settlement, unlocked at Ocean Remediation.
   - Caer, imported from Rekmod, exclusive to Camelot Foundation.
   - Drydock, imported from Rekmod, the Great Admiral's Great Improvement.
-  - Fortified Farm, exclusive to Enclavers.
+  - Fortified Farm, exclusive to Enclavers, replacing standard Farms.
   - Outback Station, imported from Civ 6, exclusive to Aurelian Group (for now).
   - Polder, unlocked at Engineering and can be built on Swamps, Coasts and Lakes, though the latter two require at least 3 adjacent Land tiles.
   - Powership, unlocked at Electronics.

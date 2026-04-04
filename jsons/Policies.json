@@ -65,7 +65,8 @@
 					"[+15]% growth [in all cities]",
 					"[+2 Food] [in all cities]",
 					"Provides a [Defensive Emplacements] in your first [4] cities for free",
-					"May buy [Great Farmer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+					"May buy [Great Farmer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"Get the leader title of [[leaderName] the Survivor]"
 				]
 			}
 		]
@@ -140,7 +141,8 @@
 				"name": "Expansionism Complete",
 				"uniques": [
 					"Free Great Person",
-					"Allied City-States will occasionally gift Great People"
+					"Allied City-States will occasionally gift Great People",
+					"Get the leader title of [Elder [leaderName]]"
 				]
 			}
 		]
@@ -216,7 +218,8 @@
 					"Free [Great General] appears",
 					"Earn [25]% of killed [Military] unit's [Cost] as [Science]",
 					"Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
-					"May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+					"May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"Get the leader title of [Warlord [leaderName]]"
 				]
 			}
 		]
@@ -301,7 +304,8 @@
 					"Free [Great Sage] appears",
 					"[+1 Food, +3 Culture] from every [Seminary]",
 					"[+1 Food, +3 Culture] from every [Oracle]",
-					"[+1 Food, +3 Culture] from every [Endowment House]"
+					"[+1 Food, +3 Culture] from every [Endowment House]",
+					"Get the leader title of [[leaderName] the Visionary]"
 				]
 			}
 		]
@@ -371,7 +375,8 @@
 					"[+10]% [Science] <while the empire is happy>",
 					"[+4 Production, +4 Science] from every [Academy] <during a Golden Age>",
 					"[+4 Culture, +4 Science] from every [Preservator] <during a Golden Age>",
-					"Free Technology"
+					"Free Technology",
+					"Get the leader title of [Director-General [leaderName]]"
 				]
 			}
 		]
@@ -451,7 +456,8 @@
 				"uniques": [
 					"[+2 Science, +2 Culture] from every [Great Improvement]",
 					"Free Social Policy",
-					"May buy [Great Administrator] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+					"May buy [Great Administrator] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"Get the leader title of [President [leaderName]]"
 				]
 			}
 		]
@@ -538,7 +544,8 @@
 					"[+4 Culture] from every [Narcotics farm]",
 					"[+4 Faith] from every [Oracle]",
 					"[+4 Science] from every [Crystal Refinery]",
-					"[+2 Production, +2 Gold, +1 Culture] [in all cities] <with [Slaves]>"
+					"[+2 Production, +2 Gold, +1 Culture] [in all cities] <with [Slaves]>",
+					"Get the leader title of [Grand Marshal [leaderName]]"
 				]
 			}
 		]
@@ -635,7 +642,8 @@
 					"[+4 Gold, +2 Culture] from every [Narcotics farm]",
 					"[+2 Gold, +2 Food, +2 Production] from every [Wasteland Station]",
 					"Free [Great Merchant] appears",
-					"May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+					"May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"Get the leader title of [Chief Executive Officer [leaderName]]"
 				]
 			}
 		]
@@ -709,7 +717,8 @@
 				"uniques": [
 					"[+2 Food, +2 Production, +2 Science] [in all cities]",
 					"Free [Great Engineer] appears",
-					"May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+					"May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"Get the leader title of [Presiding Speaker [leaderName]]"
 				]
 			}
 		]
@@ -792,7 +801,8 @@
 					"[+1] population [in all coastal cities]",
 					"Free [Great Admiral] appears",
 					"Comment [Unlocks [Navy Shipyard]]",
-					"May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+					"May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"Get the leader title of [Commodore [leaderName]]"
 				]
 			}
 		]
@@ -883,7 +893,8 @@
 					"[2] free [Great Farmer] units appear",
 					"Empire enters golden age",
 					"[+50]% Golden Age length",
-					"[+10]% Production when constructing [Utopia Project] wonders [in all cities]"
+					"[+10]% Production when constructing [Utopia Project] wonders [in all cities]",
+					"Get the leader title of [First Warden [leaderName]]"
 				]
 			}
 		]
@@ -965,7 +976,8 @@
 					"Free [Great Scientist] appears",
 					"[+50]% [Strategic] resource production",
 					"[+25]% Production towards any buildings that already exist in the Capital <while the empire is happy>",
-					"[+25]% Production when constructing [All] units [in all cities] <while the empire is happy>"
+					"[+25]% Production when constructing [All] units [in all cities] <while the empire is happy>",
+					"Get the leader title of [Overmind [leaderName]]"
 				]
 			}
 		]
@@ -1050,7 +1062,8 @@
 					"[+10]% Production when constructing [Biosphere Project] wonders [in all cities]",
 					"[+10]% Production when constructing [Colony Ship Project] wonders [in all cities]",
 					"[+15]% Production when constructing [Terraformer Part] units [in all cities]",
-					"[+15]% Production when constructing [Colony Ship Part] units [in all cities]"
+					"[+15]% Production when constructing [Colony Ship Part] units [in all cities]",
+					"Get the leader title of [Primus [leaderName]]"
 				]
 			}
 		]
@@ -1138,7 +1151,8 @@
 					"[+5 Faith] from every [Endowment House]",
 					"[+5 Faith] from every [Seminary]",
 					"[+5 Science] from every [Academy]",
-					"[+3 Science, +1 Culture, +1 Production] from every [Preservator]"
+					"[+3 Science, +1 Culture, +1 Production] from every [Preservator]",
+					"Get the leader title of [High Commissioner [leaderName]]"
 				]
 			}
 		]
