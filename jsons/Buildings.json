@@ -467,7 +467,8 @@
 		"culture": 1,
 		"uniques": [
 			"[+15]% growth [in all cities] <within [6] tiles of a [Capital Marker]>",
-			"[+2 Food] from [{non-[resource]} {Farm}] tiles [in all cities]"
+			"Comment [+2 Food from every Farm tile that is not improving a resource]",
+			"[+2 Food] from [Farm] tiles [in all cities] <in tiles without [Grain]> <in tiles without [Tubers]> <in tiles without [Maize]> <in tiles without [Cactus]> <hidden from users>"
 		],
 		"requiredTech": "Botany",
 		"quote": "'Restoration is imperative for healing the earth, but reciprocity is imperative for long-lasting, successful restoration. Like other mindful practices, ecological restoration can be viewed as an act of reciprocity in which humans exercise their caregiving responsibility for the ecosystems that sustain them. We restore the land, and the land restores us.' - Robin Wall Kimmerer"
