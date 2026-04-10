@@ -1472,3 +1472,6 @@ Several of the following adjustments are based on what is planned for the Rebirt
 **New Promotions**
 - Airlift (lets a unit be "airlifted" to another city you control with an Aerospace Facility up to 30 tiles away)
 - Sky Shield (increases air interception range by 2 and grants an extra interception each turn)
+
+**Misc.**
+- Lines added for each faction for when they denounce the player or reject the player's demands, along with values determining their willingness to denounce the player.
