@@ -1880,7 +1880,6 @@
 		"maintenance": 2,
 		"hurryCostModifier": 20,
 		"uniques": [
-			"[+1 Production] from [{non-[resource]} {Mine}] tiles [in this city]",
 			"[+1 Production] from [{non-[resource]} {Armed Mining Camp}] tiles [in this city]",
 			"[+1 Production] from [{non-[resource]} {Borehole}] tiles [in this city]",
 			"Provides [1] [Opal]",
@@ -1930,9 +1929,8 @@
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
-			"[+1 Science] from [Mine] tiles [in this city]",
-			"[+1 Science] from [Borehole] tiles [in this city]",
 			"[+1 Science] from [Armed Mining Camp] tiles [in this city]",
+			"[+1 Science] from [Borehole] tiles [in this city]",
 			"[+1 Science] from [Mountain] tiles [in this city]",
 			"[+1 Science] from [Mountain Tunnel] tiles [in this city]",
 			"[+2 Science] [in this city] <when above [0] [Power]>",
