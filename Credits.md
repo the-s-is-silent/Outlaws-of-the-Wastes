@@ -349,3 +349,7 @@ Items still missing an icon (not necessarily a complete list): Amoxcalli, Calmec
 - Wasteland Patrol: [Binoculars](https://thenounproject.com/icon/binoculars-4069422/) by iconixar
 - Wayfarer: [Fleur de Lis](https://thenounproject.com/icon/fleur-de-lis-1383646/) by prasong tadoungsorn
 - WMD Defense Janissary: Based on [Tarbouche](https://thenounproject.com/icon/tarbouche-245391/) by Mohamed Amine BENZAKOUR, MA (which is also the icon used for Janissary in base Unciv)
+
+### Victory Type Icons
+- [Apocalypse](https://thenounproject.com/icon/apocalypse-7269632/) by Gofficon, ID (currently unused)
+- Colonization: [spaceship](https://thenounproject.com/icon/spaceship-3634504/) by Eucalyp
