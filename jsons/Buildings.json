@@ -1267,7 +1267,6 @@
 		"name": "Census Chamber",
 		"replaces": "Listening Post",
 		"uniqueTo": "The Harbingers",
-		"happiness": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -2118,7 +2117,6 @@
 		"uniqueTo": "The Oathsworn",
 		"cityStrength": 5,
 		"cityHealth": 50,
-		"happiness": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -5071,7 +5069,6 @@
 	},
 	{
 		"name": "Listening Post",
-		"happiness": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["[-25]% enemy spy effectiveness [in this city]",
@@ -5080,6 +5077,55 @@
 			"Destroyed when the city is captured",
 			"Only available <when espionage is enabled>"],
 		"requiredTech": "Radio"
+	},
+	{
+		"name": "Resonance Node",
+		"replaces": "Listening Post",
+		"uniqueTo": "Gestalt",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Removes extra unhappiness from annexed cities",
+			"[-35]% enemy spy effectiveness [in this city]",
+			"Only available <in cities without a [Assimilate Slaves]>",
+			"Destroyed when the city is captured",
+			"Only available <when espionage is enabled>"
+		],
+		"requiredTech": "Electronics"
+	},
+	{
+		"name": "Trial by Combat",
+		"replaces": "Listening Post",
+		"uniqueTo": "Raider Kingdom",
+		"maintenance": 1,
+		"culture": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Removes extra unhappiness from annexed cities",
+			"[+10]% Great Person generation [in this city]",
+			"[+25]% Great Person generation [in this city] <after adopting [Supremacy]>",
+			"New [Military] units start with [15] XP [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Hoplology"
+	},
+	{
+		"name": "Secret Totem",
+		"replaces": "Listening Post",
+		"uniqueTo": "The Wild",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Totem",
+			"All newly-trained [Military] units [in this city] receive the [Ghillie Suit] promotion",
+			"Removes extra unhappiness from annexed cities",
+			"[+20]% spy effectiveness [in this city]",
+			"[-25]% enemy spy effectiveness [in this city]",
+			"Only available <in cities without a [Prison Camp]>",
+			"Destroyed when the city is captured",
+			"Only available <when espionage is enabled>"
+		],
+		"requiredTech": "Ecotheory"
 	},
 	{
 		"name": "Arena",
@@ -5143,6 +5189,25 @@
 			"Can only be built <in [Annexed] cities>",
 			"Provides [4] [Slaves]",
 			"Only available <in cities without a [Arena]>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Assimilate Slaves",
+		"replaces": "Prison Camp",
+		"uniqueTo": "Gestalt",
+		"hurryCostModifier": -25,
+		"food": -1,
+		"happiness": -2,
+		"uniques": [
+			"Removes extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>",
+			"Can only be built <with [Slaves]>",
+			"[+1 Production] per [3] population [in this city]",
+			"[+1 Production] per [3] population [in this city] <with [Slaves]>",
+			"Consumes [1] [Slaves]",
+			"Only available <in cities without a [Resonance Node]>",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Construction"
@@ -5529,7 +5594,6 @@
 		"name": "Frumentarii Camp",
 		"replaces": "Listening Post",
 		"uniqueTo": "Crimson Legion",
-		"happiness": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -5969,7 +6033,6 @@
 		"name": "Emergency Response Network",
 		"replaces": "Listening Post",
 		"uniqueTo": "New Star",
-		"happiness": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [

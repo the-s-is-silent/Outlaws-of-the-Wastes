@@ -1425,6 +1425,10 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Building Adjustments**
 - Aerospace Facilities now allow a form of "airlifting" units. For balance reasons, this is currently limited to Civilian units (since Paradropping isn't a unit action and can't be modified to consume all movement points). They also increase the air unit capacity of cities to 10.
+- Listening Posts (along with many faction replacements) no longer add Happiness. Some faction replacements from other mods have received additional adjustments:
+	- Gestalt: Resonance Node moved to Electronics.
+	- Raider Kingdom: Trial by Combat moved to Hoplology.
+	- The Wild: Secret Totem moved to Ecotheory.
 - Faction UBs:
 	- The Harbingers: Investors' Chamber and Trustees' Committee renamed to Water Forum and Water Council.
 	- Nowa Polska: Sejmik renamed to Ratusz.
