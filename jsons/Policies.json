@@ -235,7 +235,7 @@
 			"Scientific": 0
 		},
 		"uniques": [
-			"[+100]% Production when constructing [Faith] buildings [in all cities]",
+			"[+50]% Production when constructing [Faith] buildings [in all cities]",
 			"[+1 Culture, +1 Faith] [in capital]",
 			"Comment [Unlocks [Grand Monastery]]"
 		],
@@ -799,6 +799,7 @@
 				"name": "Rediscovery Complete",
 				"uniques": [
 					"[+1] population [in all coastal cities]",
+					"[Great Admiral] is earned [100]% faster",
 					"Free [Great Admiral] appears",
 					"Comment [Unlocks [Navy Shipyard]]",
 					"May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
@@ -974,7 +975,11 @@
 				"uniques": [
 					"Free [Great Engineer] appears",
 					"Free [Great Scientist] appears",
-					"[+50]% [Strategic] resource production",
+					"[+50]% [Coal] resource production",
+					"[+50]% [Oil] resource production",
+					"[+50]% [Aluminum] resource production",
+					"[+50]% [Uranium] resource production",
+					"[+50]% [Weapons] resource production",
 					"[+25]% Production towards any buildings that already exist in the Capital <while the empire is happy>",
 					"[+25]% Production when constructing [All] units [in all cities] <while the empire is happy>",
 					"Get the leader title of [Overmind [leaderName]]"

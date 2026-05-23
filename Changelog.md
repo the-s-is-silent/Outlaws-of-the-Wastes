@@ -1414,21 +1414,24 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Lines added for each faction for when the player denounces them, or when they request a Declaration of Friendship.
 - Sprite style added for Camelot (but will be replaced later).
 
-#### October 2025 - April 2026
+#### October 2025 - May 2026
 
 **Mod Options**
 - Itinerant Preachers and Religious Texts have now been *properly* deleted.
-- Due to multiple very loud complaints from multiple users, I have been forced to revert the forced increased minimum distance between cities back to vanilla values. I *greatly* dislike this reversion.
+- Due to multiple very loud complaints from multiple users, I have reverted the forced increased minimum distance between cities back to vanilla values.
 
 **Faction Adjustments**
 - New Afrika is no longer allowed to build Prison Camps, Work Camps, or Annex Isolationists.
 
 **Building Adjustments**
+- Active Denial Systems no longer add Happiness.
 - Aerospace Facilities now allow a form of "airlifting" units. For balance reasons, this is currently limited to Civilian units (since Paradropping isn't a unit action and can't be modified to consume all movement points). They also increase the air unit capacity of cities to 10.
 - Listening Posts (along with many faction replacements) no longer add Happiness. Some faction replacements from other mods have received additional adjustments:
 	- Gestalt: Resonance Node moved to Electronics.
 	- Raider Kingdom: Trial by Combat moved to Hoplology.
 	- The Wild: Secret Totem moved to Ecotheory.
+- Protected Area moved to Ecotheory.
+	- Hexlock: Gas Field moved to Laboratory.
 - Faction UBs:
 	- The Harbingers: Investors' Chamber and Trustees' Committee renamed to Water Forum and Water Council.
 	- Nowa Polska: Sejmik renamed to Ratusz.
@@ -1444,6 +1447,7 @@ Several of the following adjustments are based on what is planned for the Rebirt
 
 **Wonder Adjustments**
 - Due to a bug that has since been fixed, The Green Palace and Supercollider no longer construct Great Improvements; instead, they spawn the appropriate Great Person (Farmer for Green Palace, Scientist for Supercollider).
+- Virtual Panopticon no longer reduces Unhappiness from Population.
 
 **Policy Adjustments**
 - Leader Titles have been added.
@@ -1461,6 +1465,9 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- Mechanization - Overmind
 	- Bionics - Primus
 	- Legacy - High Commissioner
+- Theocracy: Production speed bonus for Faith buildings from unlocking the policy tree reduced to 50%.
+- Rediscovery: Completing the policy now doubles the rate at which Great Admirals are earned.
+- Mechanization: Completing the policy no longer provides additional Slaves, Power, or Encrypted Data.
 
 **Terrain/Improvement Adjustments**
 - New fake unique for filtering: Urban area (applies to Rubble, Ruins, and any tile a city was founded on).

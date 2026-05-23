@@ -4579,7 +4579,7 @@
 			"[+1 Food, +1 Culture] [in this city] <with [Exotic Seeds]>",
 			"Must have an owned [Tree plantation] within [3] tiles"
 		],
-		"requiredTech": "Hydroponics"
+		"requiredTech": "Ecotheory"
 	},
 	{
 		"name": "Distillery",
@@ -5045,13 +5045,16 @@
 	},
 	{
 		"name": "Active Denial System",
-		"happiness": 3,
 		"maintenance": 1,
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Battery",
-		"uniques": ["City Defense", "Consumes [1] [Power]", "Destroyed when the city is captured",
-			"Free [Missile Defense System] appears"],
+		"uniques": [
+			"City Defense",
+			"Consumes [1] [Power]",
+			"Destroyed when the city is captured",
+			"Free [Missile Defense System] appears"
+		],
 		"requiredTech": "Energy Weapons"
 	},
 	{
@@ -5796,7 +5799,7 @@
 			"[+2 Science, +1 Production] [in this city] <with [Exotic Seeds]>",
 			"Must have an owned [Tree plantation] within [3] tiles"
 		],
-		"requiredTech": "Hydroponics"
+		"requiredTech": "Laboratory"
 	},
 	{
 		"name": "Compound Mixer",
