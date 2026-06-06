@@ -874,9 +874,7 @@
 			"Adjacent enemy units ending their turn take [10] damage",
 			"Cannot be built on [Impeded terrain] tiles",
 			"Cannot be built on [Water] tiles",
-			"Cannot be built on [Strategic resource] tiles",
-			"Cannot be built on [Luxury resource] tiles",
-			"Can only be built to improve a resource <in [Bonus resource] tiles>",
+			"Can only be built to improve a resource <in [resource] tiles>",
 			"Pillaging this improvement yields approximately [+10 Food, +10 Gold]"
 		],
 		"shortcutKey": "F"
