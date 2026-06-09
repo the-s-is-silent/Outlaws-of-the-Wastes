@@ -1,0 +1,82 @@
+[
+	{
+		"name": "Purify the Faith",
+		"text": "To ensure our beliefs survive in this era, we must ensure the corruption that plagued us in the past era does not take root again. To that end, it is critical that we adopt new tenets.",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Emphasize impermanence.",
+				"uniques": [
+					"Adopt [Annihilationism]",
+					"Comment [Cities are razed 10 times faster]",
+					"Only available <if no Civilization has adopted [Annihilationism]> <hidden from users>"
+				]
+			},
+			{
+				"text": "Amass an anointed army and spread our faith through war.",
+				"uniques": [
+					"Adopt [Art of War]",
+					"Comment [May purchase Military units with Faith (cost scales with Era)]",
+					"Only available <if no Civilization has adopted [Art of War]> <hidden from users>",
+					"Only available <before adopting [Cathedrals]> <before adopting [Communion Centers]> <before adopting [Divinity Schools]> <before adopting [Dojos]> <before adopting [Gardens]> <before adopting [Holy Fortresses]> <before adopting [Meeting Houses]> <before adopting [Mission Sites]> <before adopting [Pyramids]> <hidden from users>"
+				]
+			},
+			{
+				"text": "Cleanse the world once more with atomic fire.",
+				"uniques": [
+					"Adopt [Atomic Judgment]",
+					"Comment [Provides 4 Uranium and +20% Strength for Nuclear Weapons when attacking]",
+					"Only available <if no Civilization has adopted [Atomic Judgment]> <hidden from users>"
+				]
+			},
+			{
+				"text": "Advocate peace and encourage agriculture.",
+				"uniques": [
+					"Adopt [Blessing of Peace]",
+					"Comment [+2 Food from every Barracks and +20% growth in all cities when not at war]",
+					"Only available <if no Civilization has adopted [Blessing of Peace]> <hidden from users>"
+				]
+			},
+			{
+				"text": "Share visions of a world restored to its pre-War state.",
+				"uniques": [
+					"Adopt [Hopeful Habitability]",
+					"Comment [+1 Food and Faith from every Natural tile]",
+					"Only available <if no Civilization has adopted [Hopeful Habitability]> <hidden from users>"
+				]
+			},
+			{
+				"text": "Encourage higher education among the faithful.",
+				"uniques": [
+					"Adopt [Jesuit Education]",
+					"Comment [May purchase non-religious Science buildings with Faith for 2 times their normal Production cost]",
+					"Only available <if no Civilization has adopted [Jesuit Education]> <hidden from users>"
+				]
+			},
+			{
+				"text": "Declare the rise of a new Holy Land.",
+				"uniques": [
+					"Adopt [New Zion]",
+					"Comment [Seminaries, Oracles and Endowment Houses provide an additional +1 Food, Production, Water, Culture and Faith]",
+					"Only available <if no Civilization has adopted [New Zion]> <hidden from users>"
+				]
+			},
+			{
+				"text": "Promote the virtues of labor.",
+				"uniques": [
+					"Adopt [Puritan Ethic]",
+					"Comment [May purchase non-religious Production buildings with Faith for 2 times their normal Production cost]",
+					"Only available <if no Civilization has adopted [Puritan Ethic]> <hidden from users>"
+				]
+			},
+			{
+				"text": "Consecrate our architectural marvels and promote our congregations.",
+				"uniques": [
+					"Adopt [Sacred Sites]",
+					"Comment [Cities with a World Wonder gain +4 Water and Culture. Worship Centers provide an additional +2 Water and Culture.]",
+					"Only available <if no Civilization has adopted [Sacred Sites]> <hidden from users>"
+				]
+			}
+		]
+	}
+]

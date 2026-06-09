@@ -32,8 +32,8 @@
 		"style": "Deseret",
 		"uniqueName": "Blood of the Prophets",
 		"uniques": [
-			"[-25]% Faith cost of generating Great Prophet equivalents",
 			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+			"Gain control over [4] tiles [in this city] <upon founding a city>",
 			"Starts with [Secrets of the Past]",
 			"Starts with [Botany]",
 			"May choose [1] additional [Enhancer] beliefs when [founding] a religion",
@@ -107,7 +107,7 @@
 		"startBias": ["River"],
 		"preferredVictoryType": "Diplomatic",
 		"personality": "Vengerov",
-		"favoredReligion": "Capitalism",
+		"favoredReligion": "Church of the Water Tsaritsa",
 
 		"startIntroPart1": "The years before the Cataclysm were worse than the survivors realize. Humanity came dangerously close to being permanently enslaved by a handful of oligarchs. Some of our ancestors were among those evil elite, and even among that group they wielded exceptional power, having devised a means to control our planet's dwindling water supply. Anyone who dared to oppose them had their minds reformatted... or worse. Now we are left to handle the fallout from their actions. Shunned by the rest of the world, atonement for many of us may simply be a matter of practicality, but we must at least try to atone regardless, and use our resources for the benefit of man as we should have done in the last days of our former civilization.",
 		"startIntroPart2": "We were Harbingers of the old world's downfall. Perhaps, given the chance, we might set things right, becoming Harbingers of man's triumph and ushering in a new, better world.",

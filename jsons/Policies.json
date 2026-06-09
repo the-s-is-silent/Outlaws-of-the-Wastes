@@ -291,8 +291,8 @@
 				"uniques": [
 					"[+2] Movement <for [Religious] units>",
 					"[+4 Faith] from every [Grand Monastery]",
-					"Gain a free [Enhancer] belief",
-					"Only available <after enhancing a religion>"
+					"Triggers a [Purify the Faith] event",
+					"Only available <after founding a religion>"
 				],
 				"requires": ["Apotheosis", "Organized Religion"],
 				"row": 3,

@@ -1414,14 +1414,16 @@ Several of the following adjustments are based on what is planned for the Rebirt
 - Lines added for each faction for when the player denounces them, or when they request a Declaration of Friendship.
 - Sprite style added for Camelot (but will be replaced later).
 
-#### October 2025 - May 2026
+#### October 2025 - June 2026
 
 **Mod Options**
 - Itinerant Preachers and Religious Texts have now been *properly* deleted.
 - Due to multiple very loud complaints from multiple users, I have reverted the forced increased minimum distance between cities back to vanilla values.
 
 **Faction Adjustments**
+- Deseret Nation no longer gets reduced Faith cost for spawning Living Prophets. Instead, every city they found claims an additional 4 tiles for free.
 - New Afrika is no longer allowed to build Prison Camps, Work Camps, or Annex Isolationists.
+- The Harbingers now favor Church of the Water Tsaritsa (formerly their intended backup religion if someone else founded Capitalism).
 
 **Building Adjustments**
 - Active Denial Systems no longer add Happiness.
@@ -1465,9 +1467,15 @@ Several of the following adjustments are based on what is planned for the Rebirt
 	- Mechanization - Overmind
 	- Bionics - Primus
 	- Legacy - High Commissioner
-- Theocracy: Production speed bonus for Faith buildings from unlocking the policy tree reduced to 50%.
+- Theocracy:
+	- Production speed bonus for Faith buildings from unlocking the policy tree reduced to 50%.
+	- Exodus of the Evangelists now triggers an event to enable the player to adopt one of the nine designated Reformation Beliefs, instead of giving the player a free Enhancer Belief. The requirement for adopting this policy has been reduced from "enhancing a religion" to "founding a religion".
 - Rediscovery: Completing the policy now doubles the rate at which Great Admirals are earned.
 - Mechanization: Completing the policy no longer provides additional Slaves, Power, or Encrypted Data.
+
+**Belief Adjustments**
+- All "Reformation Beliefs" except for Annihilationism and Atomic Judgment are now classified as Follower Beliefs.
+- Annihilationism buffed from 3x razing speed to 10x.
 
 **Terrain/Improvement Adjustments**
 - New fake unique for filtering: Urban area (applies to Rubble, Ruins, and any tile a city was founded on).
