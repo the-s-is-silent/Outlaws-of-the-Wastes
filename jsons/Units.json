@@ -2529,11 +2529,12 @@
 	},
 	{
 		"name": "Persevering Pax Researcher",
-		"uniqueTo": "The Pax",
 		"unitType": "Civilian",
 		"uniques": [
 			"Withdraws before melee combat <with [100]% chance>",
 			"Can instantly construct a [Preservator] improvement <by consuming this unit>",
+			"Comment [Special unit unlocked by capturing The Pax City-State]",
+			"Cannot be purchased",
 			"Unbuildable",
 			"Uncapturable"
 		],

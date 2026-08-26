@@ -6959,7 +6959,8 @@
 		"cityHealth": 100,
 		"percentStatBonus": {"science": 10},
 		"uniques": [
-			"Free [Persevering Pax Researcher] appears <upon turn end> <every [50] turns>",
+			"Free [Pax Observer] appears",
+			"Free [Pax Researcher] appears",
 			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
 			"Unsellable",
@@ -6967,30 +6968,11 @@
 		]
 	},
 	{
-		"name": "Research and Preservation Institute",
-		"uniqueTo": "The Pax",
-		"percentStatBonus": {"science": 15},
-		"cost": 0,
-		"replacementTextForUniques": "Receive a free Persevering Pax Researcher upon construction, and again each time you advance to a new technological era starting with the Industrial era. Preservators provide an additional +1 Science and Culture.",
-		"uniques": [
-			"Free [Persevering Pax Researcher] appears",
-			"Free [Persevering Pax Researcher] appears <upon entering the [Industrial era]>",
-			"Free [Persevering Pax Researcher] appears <upon entering the [Postmodern era]>",
-			"Free [Persevering Pax Researcher] appears <upon entering the [Information era]>",
-			"Free [Persevering Pax Researcher] appears <upon entering the [New Future era]>",
-			"[+1 Science, +1 Culture] from every [Preservator]",
-			"Unsellable",
-			"Never destroyed when the city is captured"
-		]
-	},
-	{
 		"name": "Revival Chambers",
-		"uniqueTo": "The Pax",
 		"food": 5,
 		"science": 5,
-		"cost": 0,
 		"uniques": [
-			"[+2] population [in this city]",
+			"[+1] population [in all cities]",
 			"Only available <in cities with a [Pre-War Cryo Sanctum]>",
 			"Unsellable",
 			"Never destroyed when the city is captured",
@@ -7160,6 +7142,25 @@
 			"Can only be built <in [Capital] cities>",
 			"Destroyed when the city is captured",
 			"Gain a free [Market] [in this city]"
+		]
+	},
+
+	//Conquest wonders
+	{
+		"name": "Research and Preservation Institute",
+		"percentStatBonus": {"science": 15},
+		"cost": 300,
+		"isNationalWonder": true,
+		"replacementTextForUniques": "Receive a free Persevering Pax Researcher upon construction, and again every 50 turns and each time you advance to a new technological era starting with the Industrial era. Preservators provide an additional +1 Science and Culture.",
+		"uniques": [
+			"Free [Persevering Pax Researcher] appears",
+			"Free [Persevering Pax Researcher] appears <upon entering the [Industrial era]>",
+			"Free [Persevering Pax Researcher] appears <upon entering the [Postmodern era]>",
+			"Free [Persevering Pax Researcher] appears <upon entering the [Information era]>",
+			"Free [Persevering Pax Researcher] appears <upon entering the [New Future era]>",
+			"Free [Persevering Pax Researcher] appears <upon turn end> <every [50] turns>",
+			"[+1 Science, +1 Culture] from every [Preservator]",
+			"Only available <in cities with a [Pre-War Cryo Sanctum]>"
 		]
 	},
 
